@@ -1,0 +1,403 @@
+﻿#region Coypright and License
+
+/*
+ * AxCrypt - Copyright 2026, AxCrypt AB, All Rights Reserved
+ *
+ * This file is part of AxCrypt.
+ *
+ * AxCrypt is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * AxCrypt is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with AxCrypt.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * The source is maintained at https://github.com/axcrypt/AxCrypt-Net-App please visit for
+ * updates, contributions and contact with the author. You may also visit
+ * http://www.axcrypt.net for more information about the author.
+*/
+
+#endregion Coypright and License
+
+using AxCrypt.Abstractions;
+using AxCrypt.Api.Model;
+using AxCrypt.Common;
+using AxCrypt.Core.Authenticator.Service;
+using AxCrypt.Core.Crypto;
+using AxCrypt.Core.Crypto.Asymmetric;
+using AxCrypt.Core.Extensions;
+using AxCrypt.Core.Service;
+using AxCrypt.Core.Session;
+using static AxCrypt.Abstractions.TypeResolve;
+
+namespace AxCrypt.Core.UI.ViewModel
+{
+    public class IdentityViewModel : ViewModelBase
+    {
+        private FileSystemState _fileSystemState;
+
+        private KnownIdentities _knownIdentities;
+
+        private UserSettings _userSettings;
+
+        private SessionNotify _sessionNotify;
+
+        public IdentityViewModel(FileSystemState fileSystemState, KnownIdentities knownIdentities, UserSettings userSettings, SessionNotify sessionNotify)
+        {
+            _fileSystemState = fileSystemState;
+            _knownIdentities = knownIdentities;
+            _userSettings = userSettings;
+            _sessionNotify = sessionNotify;
+
+            LogOnIdentity = LogOnIdentity.Empty;
+
+            LogOnAsync = new AsyncDelegateAction<object>(async (o) => { if (!_knownIdentities.IsLoggedOn) { LogOnIdentity = await LogOnActionAsync(); } });
+            LogOff = new AsyncDelegateAction<object>(async (p) => { await LogOffAction(); LogOnIdentity = LogOnIdentity.Empty; }, (o) => Task.FromResult(_knownIdentities.IsLoggedOn));
+            LogOnLogOff = new AsyncDelegateAction<object>(async (o) => LogOnIdentity = await LogOnLogOffActionAsync());
+            LogOffLogOn = new AsyncDelegateAction<object>(async (o) =>
+            {
+                await LogOffAction();
+                LogOnIdentity = LogOnIdentity.Empty;
+                if (!_knownIdentities.IsLoggedOn)
+                {
+                    LogOnIdentity = await LogOnActionAsync();
+                }
+            }, (o) => Task.FromResult(_knownIdentities.IsLoggedOn));
+            AskForDecryptPassphrase = new AsyncDelegateAction<string>(async (name) => LogOnIdentity = await AskForDecryptPassphraseActionAsync(name));
+            AskForLogOnPassphrase = new AsyncDelegateAction<LogOnIdentity>(async (id) => LogOnIdentity = await AskForLogOnPassphraseActionAsync(id, String.Empty));
+
+            _sessionNotify.AddCommand(HandleLogOnLogOffNotifications);
+        }
+
+        private Task HandleLogOnLogOffNotifications(SessionNotification notification)
+        {
+            switch (notification.NotificationType)
+            {
+                case SessionNotificationType.SignIn:
+                case SessionNotificationType.SignOut:
+                    LogOnAsync.RaiseCanExecuteChanged();
+                    LogOff.RaiseCanExecuteChanged();
+                    break;
+            }
+            return Constant.CompletedTask;
+        }
+
+        public LogOnIdentity LogOnIdentity
+        { get { return GetProperty<LogOnIdentity>(nameof(LogOnIdentity)); } set { SetProperty(nameof(LogOnIdentity), value); } }
+
+        public AsyncDelegateAction<object> LogOnAsync { get; private set; }
+
+        public AsyncDelegateAction<object> LogOff { get; private set; }
+
+        public IAsyncAction LogOnLogOff { get; private set; }
+
+        public IAsyncAction LogOffLogOn { get; private set; }
+
+        public IAsyncAction AskForDecryptPassphrase { get; private set; }
+
+        public IAsyncAction AskForLogOnPassphrase { get; private set; }
+
+        public Func<LogOnEventArgs, Task> LoggingOnAsync { get; set; }
+
+        public Func<LogOnEventArgs, Task> LoggingOnWithTOTPAsync { get; set; }
+
+        protected virtual async Task OnLoggingOnAsync(LogOnEventArgs e)
+        {
+            StartSigningInWithOnlineStateRechecked();
+            await (LoggingOnAsync?.Invoke(e) ?? Constant.CompletedTask);
+        }
+
+        protected virtual async Task OnLoggingOnWithTOTPAsync(LogOnEventArgs e)
+        {
+            await (LoggingOnWithTOTPAsync?.Invoke(e) ?? Constant.CompletedTask);
+        }
+
+        private static void StartSigningInWithOnlineStateRechecked()
+        {
+            if (New<AxCryptOnlineState>().IsFirstSignIn)
+            {
+                New<AxCryptOnlineState>().IsFirstSignIn = false;
+                return;
+            }
+            New<AxCryptOnlineState>().IsOnline = New<IInternetState>().Clear().Connected;
+        }
+
+        private async Task<LogOnIdentity> LogOnActionAsync()
+        {
+            if (_knownIdentities.IsLoggedOn)
+            {
+                return _knownIdentities.DefaultEncryptionIdentity;
+            }
+
+            LogOnIdentity logOnIdentity;
+            logOnIdentity = await AskForLogOnPassphraseActionAsync(LogOnIdentity.Empty, String.Empty);
+            if (logOnIdentity == LogOnIdentity.Empty)
+            {
+                return LogOnIdentity.Empty;
+            }
+
+            foreach (UserPublicKey userPublicKey in logOnIdentity.PublicKeys)
+            {
+                using (KnownPublicKeys knownPublicKeys = New<KnownPublicKeys>())
+                {
+                    knownPublicKeys.AddOrReplace(userPublicKey);
+                }
+            }
+            return logOnIdentity;
+        }
+
+        private async Task LogOffAction()
+        {
+            if (!_knownIdentities.IsLoggedOn)
+            {
+                return;
+            }
+            await _knownIdentities.SetDefaultEncryptionIdentity(LogOnIdentity.Empty);
+        }
+
+        private async Task<LogOnIdentity> LogOnLogOffActionAsync()
+        {
+            if (!_knownIdentities.IsLoggedOn)
+            {
+                return await LogOnActionAsync();
+            }
+            await LogOffAction();
+            return LogOnIdentity.Empty;
+        }
+
+        private async Task<LogOnIdentity> LogOnIdentityFromCredentialsAsync(EmailAddress emailAddress, Passphrase passphrase, string userDevice = "")
+        {
+            if (emailAddress != EmailAddress.Empty)
+            {
+                return await LogOnIdentityFromUserAsync(emailAddress, passphrase, userDevice);
+            }
+
+            return LogOnIdentityFromPassphrase(passphrase);
+        }
+
+        private async Task<LogOnIdentity> LogOnIdentityFromUserAsync(EmailAddress emailAddress, Passphrase passphrase, string userDevice)
+        {
+            IAccountService accountService = New<LogOnIdentity, IAccountService>(new LogOnIdentity(emailAddress, passphrase));
+            AccountStorage store = new AccountStorage(accountService);
+            if (!await store.IsIdentityValidAsync())
+            {
+                return LogOnIdentity.Empty;
+            }
+
+            UserAccount userAccount = await accountService.AccountAsync();
+            MultiFactorAuthType mfaEnabledType = await UserMultiFactorAuthHandler.GetMultiFactorStatusAsync(emailAddress.Address, userDevice, async (user) => { return await Task.FromResult(userAccount.MultiFactorAuthInfo); });
+            _knownIdentities.IsMFAEnabled = mfaEnabledType != MultiFactorAuthType.None;
+            if (_knownIdentities.IsMFAEnabled)
+            {
+                _knownIdentities.MFAUniqueKey = userAccount.MultiFactorAuthInfo.UniqueKey;
+                _knownIdentities.MultiFactorAuthType = (MultiFactorAuthType)Enum.Parse(typeof(MultiFactorAuthType), userAccount.MultiFactorAuthInfo.MfaEnabledTypes);
+            }
+
+            New<AxCryptUserAccountViewModel>().Initilaize(userAccount);
+
+            IEnumerable<UserKeyPair> userKeyPairs = userAccount.AccountKeys.Select(k => k.ToUserKeyPair(passphrase));
+            LogOnIdentity logOnIdentity = new LogOnIdentity(userKeyPairs, passphrase);
+            await AddUserGroupKeyPairsAsync(logOnIdentity, userAccount).Free();
+            return AddMasterKeyInfo(logOnIdentity, userAccount);
+        }
+
+        private static LogOnIdentity AddMasterKeyInfo(LogOnIdentity logOnIdentity, UserAccount userAccount)
+        {
+            if (userAccount.SubscriptionLevel != SubscriptionLevel.Business)
+            {
+                return logOnIdentity;
+            }
+
+            if (!userAccount.IsMasterKeyEnabled)
+            {
+                return logOnIdentity;
+            }
+
+            logOnIdentity.GroupMasterKeyPairs = userAccount.GroupMasterKeyPairs;
+            return logOnIdentity;
+        }
+
+        private static async Task AddUserGroupKeyPairsAsync(LogOnIdentity logOnIdentity, UserAccount userAccount)
+        {
+            if (userAccount.SubscriptionLevel != SubscriptionLevel.Business)
+            {
+                return;
+            }
+
+            if (userAccount.AccountSource == AccountSource.Local)
+            {
+                return;
+            }
+
+            logOnIdentity.UserGroupKeyPairs = await New<LogOnIdentity, IAccountService>(logOnIdentity).ListMembershipGroupsAsync();
+        }
+
+        private LogOnIdentity LogOnIdentityFromPassphrase(Passphrase passphrase)
+        {
+            foreach (Passphrase candidate in _fileSystemState.KnownPassphrases)
+            {
+                if (candidate.Thumbprint == passphrase.Thumbprint)
+                {
+                    return new LogOnIdentity(passphrase);
+                }
+            }
+            return LogOnIdentity.Empty;
+        }
+
+        private async Task<LogOnIdentity> AskForDecryptPassphraseActionAsync(string encryptedFileFullName)
+        {
+            LogOnEventArgs logOnArgs = new LogOnEventArgs()
+            {
+                DisplayPassphrase = _userSettings.DisplayEncryptPassphrase,
+                Identity = LogOnIdentity.Empty,
+                EncryptedFileFullName = encryptedFileFullName,
+            };
+            await OnLoggingOnAsync(logOnArgs);
+
+            if (!_knownIdentities.IsLoggedOn)
+            {
+                LogOnIdentity logOnIdentity = await LogOnIdentityFromCredentialsAsync(EmailAddress.Parse(logOnArgs.UserEmail), logOnArgs.Passphrase);
+
+                bool allowMFAWithoutFile = _knownIdentities.IsMFAEnabled && string.IsNullOrEmpty(logOnArgs.EncryptedFileFullName);
+                if (logOnIdentity != LogOnIdentity.Empty && allowMFAWithoutFile)
+                {
+                    logOnIdentity = await AskForMFAVerify(logOnArgs, logOnIdentity);
+                }
+            }
+
+            LogOnIdentity identy = await AddKnownIdentityFromEventAsync(logOnArgs);
+            bool allowNonMfaLogin = identy.UserEmail != EmailAddress.Empty && !_knownIdentities.IsMFAEnabled;
+            if (!_knownIdentities.IsLoggedOn && allowNonMfaLogin)
+            {
+                await _knownIdentities.SetDefaultEncryptionIdentity(identy);
+            }
+            return identy;
+        }
+
+        private async Task<LogOnIdentity> AskForLogOnPassphraseActionAsync(LogOnIdentity identity, string encryptedFileFullName)
+        {
+            LogOnIdentity logOnIdentity = await AskForLogOnAsync(identity, encryptedFileFullName);
+            if (logOnIdentity == LogOnIdentity.Empty)
+            {
+                return LogOnIdentity.Empty;
+            }
+
+            await _knownIdentities.SetDefaultEncryptionIdentity(logOnIdentity);
+            return logOnIdentity;
+        }
+
+        private async Task<LogOnIdentity> AskForLogOnAsync(LogOnIdentity identity, string encryptedFileFullName)
+        {
+            LogOnEventArgs logOnArgs = new LogOnEventArgs()
+            {
+                DisplayPassphrase = _userSettings.DisplayEncryptPassphrase,
+                Identity = identity,
+                EncryptedFileFullName = encryptedFileFullName,
+            };
+            await OnLoggingOnAsync(logOnArgs);
+
+            while (logOnArgs.IsAskingForPreviouslyUnknownPassphrase)
+            {
+                LogOnIdentity newIdentity = await AskForNewEncryptionPassphraseAsync(logOnArgs.Passphrase, encryptedFileFullName);
+                if (newIdentity != LogOnIdentity.Empty)
+                {
+                    return newIdentity;
+                }
+                logOnArgs.IsAskingForPreviouslyUnknownPassphrase = false;
+                await OnLoggingOnAsync(logOnArgs);
+            }
+
+            if (logOnArgs.Cancel || logOnArgs.Passphrase == Passphrase.Empty)
+            {
+                return LogOnIdentity.Empty;
+            }
+
+            _userSettings.DisplayEncryptPassphrase = logOnArgs.DisplayPassphrase;
+
+            LogOnIdentity logOnIdentity = await LogOnIdentityFromCredentialsAsync(EmailAddress.Parse(logOnArgs.UserEmail), logOnArgs.Passphrase, logOnArgs.UserDevice);
+            if (logOnIdentity == LogOnIdentity.Empty)
+            {
+                return LogOnIdentity.Empty;
+            }
+
+            if (!_knownIdentities.IsMFAEnabled)
+            {
+                return logOnIdentity;
+            }
+
+            return await AskForMFAVerify(logOnArgs, logOnIdentity);
+        }
+
+        private async Task<LogOnIdentity> AskForMFAVerify(LogOnEventArgs logOnArgs, LogOnIdentity logOnIdentity)
+        {
+            await OnLoggingOnWithTOTPAsync(logOnArgs);
+            if (logOnArgs.Cancel)
+            {
+                return await AskForLogOnAsync(logOnIdentity, logOnArgs.EncryptedFileFullName);
+            }
+
+            bool IsMFAVerified = await New<IMultiFactorAuthService>().VerifyMultiFactorAuthAsync(logOnArgs.OneTimePassword, _knownIdentities.MFAUniqueKey, logOnArgs.MFAType);
+            if (!IsMFAVerified)
+            {
+                return LogOnIdentity.Empty;
+            }
+
+            if (logOnArgs.RememberMeOnMFA)
+            {
+                await New<IMultiFactorAuthService>().SaveDeviceAndExpiryInfo(logOnArgs, logOnIdentity);
+            }
+
+            logOnIdentity.SetActiveMFAUniqueKey(_knownIdentities.MFAUniqueKey);
+            return logOnIdentity;
+        }
+
+        private async Task<LogOnIdentity> AskForNewEncryptionPassphraseAsync(Passphrase defaultPassphrase, string encryptedFileFullName)
+        {
+            LogOnEventArgs logOnArgs = new LogOnEventArgs()
+            {
+                IsAskingForPreviouslyUnknownPassphrase = true,
+                DisplayPassphrase = _userSettings.DisplayEncryptPassphrase,
+                Passphrase = defaultPassphrase,
+                EncryptedFileFullName = encryptedFileFullName,
+            };
+            await OnLoggingOnAsync(logOnArgs);
+
+            return await AddKnownIdentityFromEventAsync(logOnArgs);
+        }
+
+        private async Task<LogOnIdentity> AddKnownIdentityFromEventAsync(LogOnEventArgs logOnArgs)
+        {
+            if (logOnArgs.Cancel || (logOnArgs.Passphrase == Passphrase.Empty && logOnArgs.RecoveryKey == UserKeyPair.Empty))
+            {
+                return LogOnIdentity.Empty;
+            }
+
+            _userSettings.DisplayEncryptPassphrase = logOnArgs.DisplayPassphrase;
+
+            Passphrase passphrase = logOnArgs.Passphrase;
+            LogOnIdentity identity = await LogOnIdentityFromCredentialsAsync(EmailAddress.Parse(logOnArgs.UserEmail), passphrase);
+            if (identity != LogOnIdentity.Empty)
+            {
+                await _knownIdentities.AddAsync(identity);
+                return identity;
+            }
+
+            if (logOnArgs.RecoveryKey != UserKeyPair.Empty)
+            {
+                identity = new LogOnIdentity(new[] { logOnArgs.RecoveryKey }, null);
+                return identity;
+            }
+
+            identity = new LogOnIdentity(passphrase);
+            _fileSystemState.KnownPassphrases.Add(passphrase);
+            await _fileSystemState.Save();
+            return identity;
+        }
+    }
+}

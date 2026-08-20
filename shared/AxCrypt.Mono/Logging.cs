@@ -1,0 +1,253 @@
+﻿#region Coypright and License
+
+/*
+ * AxCrypt - Copyright 2026, AxCrypt AB, All Rights Reserved
+ *
+ * This file is part of AxCrypt.
+ *
+ * AxCrypt is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * AxCrypt is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with AxCrypt.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * The source is maintained at https://github.com/axcrypt/AxCrypt-Net-App please visit for
+ * updates, contributions and contact with the author. You may also visit
+ * http://www.axcrypt.net for more information about the author.
+*/
+
+#endregion Coypright and License
+
+using AxCrypt.Core;
+using AxCrypt.Core.Extensions;
+using AxCrypt.Core.Runtime;
+using AxCrypt.Core.UI;
+using AxCrypt.Core.UI.FileActivity;
+using AxCrypt.Core.UI.FindFilesActivity;
+using System;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using static AxCrypt.Abstractions.TypeResolve;
+
+namespace AxCrypt.Mono
+{
+    public class Logging : ILogging
+    {
+        private TraceSwitch _switch = InitializeTraceSwitch();
+
+        public Logging()
+        {
+            Trace.Listeners.Add(new DelegateTraceListener("ILoggingListener", TraceMessage));
+        }
+
+        private async void TraceMessage(string message)
+        {
+            await OnLoggingAsync(new LoggingEventArgs(message));
+        }
+
+        #region ILogging Members
+
+        public event Func<LoggingEventArgs, Task> LoggedAsync;
+
+        protected virtual async Task OnLoggingAsync(LoggingEventArgs e)
+        {
+            Func<LoggingEventArgs, Task> handler = LoggedAsync;
+            if (handler != null)
+            {
+                await handler(e);
+            }
+        }
+
+        public void SetLevel(LogLevel level)
+        {
+            switch (level)
+            {
+                case LogLevel.Fatal:
+                    _switch.Level = TraceLevel.Off;
+                    break;
+
+                case LogLevel.Error:
+                    _switch.Level = TraceLevel.Error;
+                    break;
+
+                case LogLevel.Warning:
+                    _switch.Level = TraceLevel.Warning;
+                    break;
+
+                case LogLevel.Info:
+                    _switch.Level = TraceLevel.Info;
+                    break;
+
+                case LogLevel.Debug:
+                    _switch.Level = TraceLevel.Verbose;
+                    break;
+
+                default:
+                    throw new ArgumentException("level must be a value form the LogLevel enumeration.");
+            }
+        }
+
+        public bool IsFatalEnabled
+        {
+            get { return _switch != null && _switch.Level >= TraceLevel.Off; }
+        }
+
+        public bool IsErrorEnabled
+        {
+            get { return _switch != null && _switch.Level >= TraceLevel.Error; }
+        }
+
+        public bool IsWarningEnabled
+        {
+            get { return _switch != null && _switch.Level >= TraceLevel.Warning; }
+        }
+
+        public bool IsInfoEnabled
+        {
+            get { return _switch != null && _switch.Level >= TraceLevel.Info; }
+        }
+
+        public bool IsDebugEnabled
+        {
+            get { return _switch != null && _switch.Level >= TraceLevel.Verbose; }
+        }
+
+        public bool IsCustomLogEnabled
+        {
+            get { return _userSettings != null && (_userSettings.FindFileMode || _userSettings.UserActivityMode); }
+        }
+
+        private bool IsUserActivityEnabled
+        {
+            get { return _userSettings != null && _userSettings.UserActivityMode; }
+        }
+
+        private bool IsFindFileEnabled
+        {
+            get { return _userSettings != null && _userSettings.FindFileMode; }
+        }
+
+        public virtual void LogFatal(string fatalLog)
+        {
+            if (IsFatalEnabled)
+            {
+                Trace.WriteLine("{1} Fatal: {0}".InvariantFormat(fatalLog, AppName));
+            }
+        }
+
+        public void LogError(string errorLog)
+        {
+            if (IsErrorEnabled)
+            {
+                Trace.TraceError(errorLog);
+            }
+        }
+
+        public void LogWarning(string warningLog)
+        {
+            if (IsWarningEnabled)
+            {
+                Trace.TraceWarning(warningLog);
+            }
+        }
+
+        public void LogInfo(string infoLog)
+        {
+            if (IsInfoEnabled)
+            {
+                Trace.TraceInformation(infoLog);
+            }
+        }
+
+        public void LogInfo(string infoLog, string source, UserActivityLog fileActivityLogItem)
+        {
+            LogInfo(infoLog);
+
+            LogUserActivityInfo(source, fileActivityLogItem);
+
+            LogFindFilesInfo(source, fileActivityLogItem);
+        }
+
+        private void LogUserActivityInfo(string source, UserActivityLog fileActivityLogItem)
+        {
+            if (IsUserActivityEnabled)
+            {
+                string userEmail = string.IsNullOrEmpty(Resolve.KnownIdentities.DefaultEncryptionIdentity.UserEmail.Address) ? source : Resolve.KnownIdentities.DefaultEncryptionIdentity.UserEmail.Address;
+                New<UserActivityLogger>(userEmail).AppendActivity(source, fileActivityLogItem);
+            }
+        }
+
+        private void LogFindFilesInfo(string source, UserActivityLog fileActivityLogItem)
+        {
+            if (IsFindFileEnabled)
+            {
+                FindFilesLogger.Log(source, fileActivityLogItem);
+            }
+        }
+
+        public void LogDebug(string debugLog)
+        {
+            if (IsDebugEnabled)
+            {
+                Trace.WriteLine("{1} Debug: {0}".InvariantFormat(debugLog, AppName));
+            }
+        }
+
+        #endregion ILogging Members
+
+        private static UserSettings? _userSettings { get; set; }
+
+        private static TraceSwitch InitializeTraceSwitch()
+        {
+            _userSettings = Resolve.UserSettings;
+            TraceSwitch traceSwitch = new TraceSwitch("axCryptSwitch", "Logging levels for AxCrypt");
+            traceSwitch.Level = TraceLevel.Error;
+            return traceSwitch;
+        }
+
+        private static string _appName;
+
+        private static string AppName
+        {
+            get
+            {
+                if (_appName == null)
+                {
+                    _appName = Path.GetFileName(Environment.GetCommandLineArgs()[0]);
+                }
+                return _appName;
+            }
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                DisposeInternal();
+            }
+        }
+
+        private void DisposeInternal()
+        {
+            if (_switch != null)
+            {
+                Trace.Listeners.Remove("ILoggingListener");
+                _switch = null;
+            }
+        }
+    }
+}

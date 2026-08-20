@@ -1,0 +1,203 @@
+﻿using AxCrypt.Abstractions;
+using AxCrypt.Api.Model;
+using AxCrypt.Api.Model.Groups;
+using AxCrypt.Api.Model.MFA;
+using AxCrypt.Common;
+using AxCrypt.Core.Crypto;
+using AxCrypt.Core.Crypto.Asymmetric;
+using AxCrypt.Core.UI;
+using System.Diagnostics.Metrics;
+using System.Globalization;
+using static AxCrypt.Abstractions.TypeResolve;
+
+namespace AxCrypt.Core.Service
+{
+    public class CachingAccountService : IAccountService
+    {
+        private IAccountService _service;
+
+        private CacheKey _key;
+
+        public CachingAccountService(IAccountService service)
+        {
+            if (service == null)
+            {
+                throw new ArgumentNullException(nameof(service));
+            }
+
+            _service = service;
+            _key = CacheKey.RootKey.Subkey(nameof(CachingAccountService)).Subkey(service.Identity.UserEmail.Address).Subkey(service.Identity.Tag.ToString());
+        }
+
+        public IAccountService Refresh()
+        {
+            New<ICache>().RemoveItem(_key);
+            return this;
+        }
+
+        public Task<bool> HasAccountsAsync()
+        {
+            return New<ICache>().GetItemAsync(_key.Subkey(nameof(HasAccountsAsync)), () => _service.HasAccountsAsync());
+        }
+
+        public LogOnIdentity Identity
+        {
+            get
+            {
+                return _service.Identity;
+            }
+        }
+
+        public async Task<bool> ChangePassphraseAsync(Passphrase passphrase)
+        {
+            return await New<ICache>().UpdateItemAsync(async () => await _service.ChangePassphraseAsync(passphrase), _key).Free();
+        }
+
+        /// <summary>
+        /// Fetches the user user account.
+        /// </summary>
+        /// <returns>
+        /// The complete user account information.
+        /// </returns>
+        public async Task<UserAccount> AccountAsync()
+        {
+            return await New<ICache>().GetItemAsync(_key.Subkey(nameof(AccountAsync)), async () => await _service.AccountAsync()).Free();
+        }
+
+        public async Task<IList<UserKeyPair>> ListAsync()
+        {
+            return await New<ICache>().GetItemAsync(_key.Subkey(nameof(ListAsync)), async () => await _service.ListAsync()).Free();
+        }
+
+        public async Task<UserKeyPair> CurrentKeyPairAsync()
+        {
+            return await New<ICache>().GetItemAsync(_key.Subkey(nameof(CurrentKeyPairAsync)), async () => await _service.CurrentKeyPairAsync()).Free();
+        }
+
+        public async Task PasswordResetAsync(string verificationCode)
+        {
+            await New<ICache>().UpdateItemAsync(() => _service.PasswordResetAsync(verificationCode), _key).Free();
+        }
+
+        public async Task SaveAsync(UserAccount account)
+        {
+            await New<ICache>().UpdateItemAsync(async () => await _service.SaveAsync(account), _key).Free();
+        }
+
+        public async Task SaveAsync(IEnumerable<UserKeyPair> keyPairs)
+        {
+            await New<ICache>().UpdateItemAsync(async () => await _service.SaveAsync(keyPairs), _key).Free();
+        }
+
+        public async Task SignupAsync(EmailAddress email, CultureInfo culture, string signUpFrom, string? utm = null, string? platForm = null)
+        {
+            await New<ICache>().UpdateItemAsync(async () => await _service.SignupAsync(email, culture, signUpFrom, utm, platForm), _key).Free();
+        }
+
+        public async Task<AccountStatus> StatusAsync(EmailAddress email)
+        {
+            AccountStatus status = await New<ICache>().UpdateItemAsync(() => _service.StatusAsync(email)).Free();
+            if (status == AccountStatus.Offline || status == AccountStatus.Unknown)
+            {
+                New<ICache>().RemoveItem(_key);
+            }
+            return status;
+        }
+
+        public async Task<Offers> OffersAsync()
+        {
+            Offers offers = await New<ICache>().GetItemAsync(_key.Subkey(nameof(OffersAsync)), async () => await _service.OffersAsync()).Free();
+            return offers;
+        }
+
+        public async Task StartPremiumTrialAsync()
+        {
+            await New<ICache>().UpdateItemAsync(async () => await _service.StartPremiumTrialAsync(), _key).Free();
+        }
+
+        public async Task<UserPublicKey> OtherPublicKeyAsync(EmailAddress email)
+        {
+            return await New<ICache>().GetItemAsync(_key.Subkey(email.Address).Subkey(nameof(OtherPublicKeyAsync)), async () => await _service.OtherPublicKeyAsync(email)).Free();
+        }
+
+        public async Task<UserPublicKey> OtherUserInvitePublicKeyAsync(EmailAddress email, CustomMessageParameters customParameters)
+        {
+            return await New<ICache>().GetItemAsync(_key.Subkey(email.Address).Subkey(nameof(OtherUserInvitePublicKeyAsync)), async () => await _service.OtherUserInvitePublicKeyAsync(email, customParameters)).Free();
+        }
+
+        public async Task<bool> SendFeedbackAsync(string subject, string message)
+        {
+            return await New<ICache>().UpdateItemAsync(async () => await _service.SendFeedbackAsync(subject, message), _key).Free();
+        }
+
+        public async Task<bool> CreateSubscriptionAsync(StoreKitTransaction[] skTransactions)
+        {
+            return await New<ICache>().UpdateItemAsync(() => _service.CreateSubscriptionAsync(skTransactions), _key).Free();
+        }
+
+        public async Task<PurchaseSettings> GetInAppPurchaseSettingsAsync(string eventType)
+        {
+            return await New<ICache>().UpdateItemAsync(() => _service.GetInAppPurchaseSettingsAsync(eventType), _key).Free();
+        }
+
+        public async Task<bool> AutoRenewalStatusAsync()
+        {
+            return await New<ICache>().UpdateItemAsync(() => _service.AutoRenewalStatusAsync(), _key).Free();
+        }
+
+        public async Task<bool> DeleteUserAsync()
+        {
+            return await New<ICache>().UpdateItemAsync(() => _service.DeleteUserAsync(), _key).Free();
+        }
+
+        public async Task<IEnumerable<GroupKeyPairApiModel>> ListMembershipGroupsAsync()
+        {
+            return await _service.ListMembershipGroupsAsync();
+        }
+
+        public async Task PrioritySupportAsync(string subject, string message)
+        {
+            await New<ICache>().UpdateItemAsync(async () => await _service.PrioritySupportAsync(subject, message), _key).Free();
+        }
+
+        public async Task<MultiFactorAuthOTPApiModel> SendMFAOtpAsync(string userEmail)
+        {
+            return await New<ICache>().UpdateItemAsync(async () => await _service.SendMFAOtpAsync(userEmail), _key).Free();
+        }
+
+        public async Task<bool> CreateSubscriptionByGooglePaymentAsync(GooglePurchaseInfo googlePaymenttrans)
+        {
+            return await New<ICache>().UpdateItemAsync(() => _service.CreateSubscriptionByGooglePaymentAsync(googlePaymenttrans), _key).Free();
+        }
+
+        public async Task<bool> UpdateRememberMeOnMFAInfoAsync(MultiFactorAuthApiModel multiFactorAuthApi)
+        {
+            return await New<ICache>().UpdateItemAsync(() => _service.UpdateRememberMeOnMFAInfoAsync(multiFactorAuthApi), _key).Free();
+        }
+
+        public async Task SetMyAccountViewerPlanAsync()
+        {
+            await _service.SetMyAccountViewerPlanAsync();
+        }
+
+        public async Task<IEnumerable<PricingInfoApiModel>> GetPurchasePricingAsync(string signUpFrom, string discountCode, string ip, int members, string country)
+        {
+            return await New<ICache>().UpdateItemAsync(() => _service.GetPurchasePricingAsync(signUpFrom, discountCode, ip, members, country)).Free();
+        }
+
+        public async Task<Uri> GetStripeCheckoutSessionUrlAsync(PurchaseInfoApiModel purchaseInfoApiModel)
+        {
+            return await New<ICache>().UpdateItemAsync(() => _service.GetStripeCheckoutSessionUrlAsync(purchaseInfoApiModel)).Free();
+        }
+
+        public async Task<string> GetPayPalCheckoutSessionUrlAsync(int subsMonths, string currency, string ip)
+        {
+            return await New<ICache>().UpdateItemAsync(() => _service.GetPayPalCheckoutSessionUrlAsync(subsMonths, currency, ip)).Free();
+        }
+
+        public async Task<bool> SendInviteFriendEmailAsync(EmailAddress email, CustomMessageParameters customParameters)
+        {
+            return await New<ICache>().UpdateItemAsync(() => _service.SendInviteFriendEmailAsync(email, customParameters)).Free();
+        }
+    }
+}
