@@ -70,9 +70,12 @@ namespace AxCrypt.Cli
             TypeMap.Register.Singleton<INow>(() => new Now());
             TypeMap.Register.Singleton<IReport>(() => new Report(WorkFolderPath, 100 * 1024));
             TypeMap.Register.Singleton<IUIThread>(() => new CliUIThread());
+            TypeMap.Register.Singleton<IPopup>(() => new CliPopup());
+            TypeMap.Register.Singleton<IStatusChecker>(() => new StatusChecker());
             TypeMap.Register.Singleton<IEmailParser>(() => new EmailParser());
             TypeMap.Register.Singleton<AxCryptOnlineState>(() => new AxCryptOnlineState());
             TypeMap.Register.Singleton<FileLocker>(() => new FileLocker());
+            TypeMap.Register.Singleton<InactivitySignOut>(() => new InactivitySignOut(TimeSpan.Zero, null!));
 
             // The CLI is offline and unlicensed by design; use the forced-premium policy so
             // that the strongest available crypto (AES-256) is always used. This does not
