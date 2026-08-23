@@ -18,7 +18,7 @@
  * You should have received a copy of the GNU General Public License
  * along with AxCrypt.  If not, see <http://www.gnu.org/licenses/>.
  *
- * The source is maintained at https://github.com/axcrypt/AxCrypt-Net-App please visit for
+ * The source is maintained at https://github.com/axcrypt/AxCrypt-Net please visit for
  * updates, contributions and contact with the author. You may also visit
  * http://www.axcrypt.net for more information about the author.
 */
