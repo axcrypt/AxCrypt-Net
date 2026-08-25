@@ -25,6 +25,8 @@ namespace AxCrypt.Core.IO
 
         public string FileSize { get; set; }
 
+        public long FileSizeInBytes { get; set; }
+
         public string ModifiedTime { get; set; }
 
         public string MimeType { get; set; }
