@@ -30,7 +30,7 @@ namespace AxCrypt.Core.Service.CloudShare
             }
         }
 
-        public async Task<Guid> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
+        public async Task<bool> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
         {
             if (New<AxCryptOnlineState>().IsOnline && Identity != LogOnIdentity.Empty)
             {

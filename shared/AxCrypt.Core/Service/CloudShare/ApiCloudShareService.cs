@@ -60,7 +60,7 @@ namespace AxCrypt.Core.Service.CloudShare
             }
         }
 
-        public async Task<Guid> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
+        public async Task<bool> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
         {
             if (string.IsNullOrEmpty(_apiClient.Identity.User))
             {
@@ -69,7 +69,7 @@ namespace AxCrypt.Core.Service.CloudShare
 
             try
             {
-                Guid result = await _apiClient.ShareLinkAsync(cloudShareLinkApiModel).Free();
+                bool result = await _apiClient.ShareLinkAsync(cloudShareLinkApiModel).Free();
                 return result;
             }
             catch (UnauthorizedException)

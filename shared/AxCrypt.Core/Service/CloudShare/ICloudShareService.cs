@@ -9,6 +9,6 @@ namespace AxCrypt.Core.Service.CloudShare
 
         LogOnIdentity Identity { get; }
 
-        Task<Guid> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel);
+        Task<bool> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel);
     }
 }
