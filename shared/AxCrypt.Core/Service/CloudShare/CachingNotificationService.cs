@@ -20,7 +20,7 @@ namespace AxCrypt.Core.Service.CloudShare
 
         public LogOnIdentity Identity => throw new NotImplementedException();
 
-        public async Task<Guid> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
+        public async Task<bool> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
         {
             return await _service.ShareLinkAsync(cloudShareLinkApiModel).Free();
         }

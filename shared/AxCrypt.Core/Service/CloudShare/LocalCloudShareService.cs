@@ -19,9 +19,9 @@ namespace AxCrypt.Core.Service.CloudShare
             get;
         }
 
-        public Task<Guid> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
+        public Task<bool> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
         {
-            return Task.FromResult(Guid.Empty);
+            return Task.FromResult(true);
         }
     }
 }

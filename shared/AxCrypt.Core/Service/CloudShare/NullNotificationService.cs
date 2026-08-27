@@ -5,7 +5,7 @@ namespace AxCrypt.Core.Service.CloudShare
 {
     public class NullCloudShareService : ICloudShareService
     {
-        private static readonly Task<Guid> _completedTask = Task.FromResult(Guid.Empty);
+        private static readonly Task<bool> _completedTask = Task.FromResult(true);
 
         public NullCloudShareService(LogOnIdentity identity)
         {
@@ -22,7 +22,7 @@ namespace AxCrypt.Core.Service.CloudShare
             get; private set;
         }
 
-        public Task<Guid> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
+        public Task<bool> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
         {
             return _completedTask;
         }

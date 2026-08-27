@@ -33,7 +33,7 @@ namespace AxCrypt.Api
 
         public RestIdentity Identity { get; }
 
-        public async Task<Guid> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
+        public async Task<bool> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
         {
             if (cloudShareLinkApiModel == null)
             {
@@ -46,7 +46,7 @@ namespace AxCrypt.Api
             RestResponse restResponse = await Caller.RestAsync(Identity, new RestRequest("POST", resource, Timeout, content)).Free();
             ApiCaller.EnsureStatusOk(restResponse);
 
-            return Serializer.Deserialize<Guid>(restResponse.Content);
+            return Serializer.Deserialize<bool>(restResponse.Content);
         }
 
         private static IStringSerializer Serializer
