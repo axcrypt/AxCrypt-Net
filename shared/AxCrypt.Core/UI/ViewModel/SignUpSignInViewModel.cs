@@ -130,6 +130,11 @@ namespace AxCrypt.Core.UI.ViewModel
             {
                 tip = new AccountTip();
             }
+            catch (Exception exp)
+            {
+                // Non-fatal: a failed tip fetch must never crash the app.
+                New<IReport>().Exception(exp);
+            }
 
             if (!string.IsNullOrEmpty(tip.Message))
             {
