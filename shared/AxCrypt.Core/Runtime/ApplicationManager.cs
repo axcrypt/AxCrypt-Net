@@ -75,6 +75,7 @@ namespace AxCrypt.Core.Runtime
 
             try
             {
+                New<IInMemoryFileSystem>().Unmount();
                 await New<IProgressBackground>().WaitForIdleAsync();
             }
             catch
