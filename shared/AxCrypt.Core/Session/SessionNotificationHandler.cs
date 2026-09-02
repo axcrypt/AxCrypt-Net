@@ -121,7 +121,7 @@ namespace AxCrypt.Core.Session
                             IDataContainer[] ignoredFolders = watchedFolder.IgnoredFolders.Select(X => New<IDataContainer>(X)).ToArray();
                             progress.Display = container.Name;
                             IDataContainer[] dc = new IDataContainer[] { container };
-                            await _axCryptFile.EncryptFoldersUniqueWithBackupAndWipeAsync(dc, encryptionParameters, progress, ignoredFolders);
+                            await _axCryptFile.EncryptFoldersUniqueWithBackupAndWipeAsync(dc, encryptionParameters, progress, _statusChecker, ignoredFolders);
                         }
                     }
                     finally
@@ -214,7 +214,7 @@ namespace AxCrypt.Core.Session
                 IDataContainer folder = New<IDataContainer>(watchedFolder.Path);
                 IDataContainer[] ignoredFolders = watchedFolder.IgnoredFolders.Select(X => New<IDataContainer>(X)).ToArray();
                 progress.Display = folder.Name;
-                await _axCryptFile.EncryptFoldersUniqueWithBackupAndWipeAsync(new IDataContainer[] { folder }, encryptionParameters, progress, ignoredFolders);
+                await _axCryptFile.EncryptFoldersUniqueWithBackupAndWipeAsync(new IDataContainer[] { folder }, encryptionParameters, progress, _statusChecker, ignoredFolders);
             }
         }
     }

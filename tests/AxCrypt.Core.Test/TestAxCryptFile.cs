@@ -715,7 +715,7 @@ namespace AxCrypt.Core.Test
 
             EncryptionParameters encryptionParameters = new EncryptionParameters(new V1Aes128CryptoFactory().CryptoId, new Passphrase("allan"));
 
-            await New<AxCryptFile>().EncryptFoldersUniqueWithBackupAndWipeAsync(new IDataContainer[] { sourceFolderInfo }, encryptionParameters, new ProgressContext());
+            await New<AxCryptFile>().EncryptFoldersUniqueWithBackupAndWipeAsync(new IDataContainer[] { sourceFolderInfo }, encryptionParameters, new ProgressContext(), New<IStatusChecker>());
 
             Assert.That(sourceFileInfo.IsAvailable, Is.False, "The source should be wiped.");
             Assert.That(destinationFileInfo.IsAvailable, Is.True, "The destination should be created and exist now.");
@@ -733,7 +733,7 @@ namespace AxCrypt.Core.Test
 
             EncryptionParameters encryptionParameters = new EncryptionParameters(new V2Aes128CryptoFactory().CryptoId, new Passphrase("allan"));
 
-            await New<AxCryptFile>().EncryptFoldersUniqueWithBackupAndWipeAsync(new IDataContainer[] { sourceFolderInfo }, encryptionParameters, new ProgressContext());
+            await New<AxCryptFile>().EncryptFoldersUniqueWithBackupAndWipeAsync(new IDataContainer[] { sourceFolderInfo }, encryptionParameters, new ProgressContext(), New<IStatusChecker>());
 
             Assert.That(sourceFileInfo.IsAvailable, Is.False, "The source should be wiped.");
 

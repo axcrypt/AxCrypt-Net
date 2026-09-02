@@ -294,7 +294,7 @@ namespace AxCrypt.Core.Test
 
             FakeDataStore.AddFolder(@"C:\My Documents\");
             Mock<AxCryptFile> mock = new Mock<AxCryptFile>();
-            mock.Setup(acf => acf.EncryptFoldersUniqueWithBackupAndWipeAsync(It.IsAny<IEnumerable<IDataContainer>>(), It.IsAny<EncryptionParameters>(), It.IsAny<IProgressContext>(), null));
+            mock.Setup(acf => acf.EncryptFoldersUniqueWithBackupAndWipeAsync(It.IsAny<IEnumerable<IDataContainer>>(), It.IsAny<EncryptionParameters>(), It.IsAny<IProgressContext>(), It.IsAny<IStatusChecker>(), null));
 
             Mock<IStatusChecker> mockStatusChecker = new Mock<IStatusChecker>();
 
@@ -310,7 +310,7 @@ namespace AxCrypt.Core.Test
             {
                 await handler.HandleNotificationAsync(sessionEvent);
             }
-            mock.Verify(acf => acf.EncryptFoldersUniqueWithBackupAndWipeAsync(It.Is<IEnumerable<IDataContainer>>(infos => infos.Any((i) => i.FullName == @"C:\My Documents\".NormalizeFolderPath())), It.IsAny<EncryptionParameters>(), It.IsAny<IProgressContext>(), null), Times.Exactly(1));
+            mock.Verify(acf => acf.EncryptFoldersUniqueWithBackupAndWipeAsync(It.Is<IEnumerable<IDataContainer>>(infos => infos.Any((i) => i.FullName == @"C:\My Documents\".NormalizeFolderPath())), It.IsAny<EncryptionParameters>(), It.IsAny<IProgressContext>(), It.IsAny<IStatusChecker>(), null), Times.Exactly(1));
         }
     }
 }

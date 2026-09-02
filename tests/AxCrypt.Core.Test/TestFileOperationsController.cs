@@ -195,9 +195,10 @@ namespace AxCrypt.Core.Test
             {
                 e.LogOnIdentity = new LogOnIdentity("allan");
             };
-            controller.QuerySaveFileAs += (object sender, FileOperationEventArgs e) =>
+            controller.QuerySaveFileAs = (FileOperationEventArgs e) =>
             {
                 e.SaveFileFullName = Path.Combine(Path.GetDirectoryName(e.SaveFileFullName), "alternative-name.axx");
+                return Task.CompletedTask;
             };
             Guid cryptoId = Guid.Empty;
             controller.Completed += (object sender, FileOperationEventArgs e) =>
@@ -237,9 +238,10 @@ namespace AxCrypt.Core.Test
             }
 
             FileOperationsController controller = new FileOperationsController();
-            controller.QuerySaveFileAs += (object sender, FileOperationEventArgs e) =>
+            controller.QuerySaveFileAs = (FileOperationEventArgs e) =>
             {
                 e.Cancel = true;
+                return Task.CompletedTask;
             };
 
             FileOperationContext status = await controller.EncryptFileAsync(New<IDataStore>(_davidCopperfieldTxtPath));
@@ -363,7 +365,7 @@ namespace AxCrypt.Core.Test
                 return Task.FromResult<object>(null);
             };
             bool saveAs = false;
-            controller.QuerySaveFileAs += (sender, e) => saveAs = true;
+            controller.QuerySaveFileAs = (FileOperationEventArgs e) => { saveAs = true; return Task.CompletedTask; };
             FileOperationContext status = await controller.DecryptFileAsync(New<IDataStore>(_helloWorldAxxPath));
 
             Assert.That(status.ErrorStatus, Is.EqualTo(ErrorStatus.Success), "The status should indicate success.");
@@ -384,9 +386,10 @@ namespace AxCrypt.Core.Test
                     e.LogOnIdentity = new LogOnIdentity("a");
                     return Task.FromResult<object>(null);
                 };
-            controller.QuerySaveFileAs += (object sender, FileOperationEventArgs e) =>
+            controller.QuerySaveFileAs = (FileOperationEventArgs e) =>
                 {
                     e.Cancel = true;
+                    return Task.CompletedTask;
                 };
             FileOperationContext status = await controller.DecryptFileAsync(New<IDataStore>(_helloWorldAxxPath));
 
@@ -407,9 +410,10 @@ namespace AxCrypt.Core.Test
                 e.LogOnIdentity = new LogOnIdentity("a");
                 return Task.FromResult<object>(null);
             };
-            controller.QuerySaveFileAs += (object sender, FileOperationEventArgs e) =>
+            controller.QuerySaveFileAs = (FileOperationEventArgs e) =>
             {
                 e.SaveFileFullName = Path.Combine(Path.GetDirectoryName(e.SaveFileFullName), "Other Hello World.txt");
+                return Task.CompletedTask;
             };
             string destinationPath = String.Empty;
             controller.Completed += (object sender, FileOperationEventArgs e) =>

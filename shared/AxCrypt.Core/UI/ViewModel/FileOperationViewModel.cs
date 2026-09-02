@@ -312,7 +312,7 @@ namespace AxCrypt.Core.UI.ViewModel
 
             operationsController.QueryDecryptionPassphrase = HandleQueryDecryptionPassphraseEventAsync;
 
-            operationsController.QuerySaveFileAs += async (object sender, FileOperationEventArgs e) =>
+            operationsController.QuerySaveFileAs = async (FileOperationEventArgs e) =>
             {
                 FileSelectionEventArgs fileSelectionArgs = new FileSelectionEventArgs(new string[] { e.SaveFileFullName })
                 {
@@ -539,13 +539,14 @@ namespace AxCrypt.Core.UI.ViewModel
         {
             FileOperationsController operationsController = new FileOperationsController(progress);
 
-            operationsController.QuerySaveFileAs += (object sender, FileOperationEventArgs e) =>
+            operationsController.QuerySaveFileAs = (FileOperationEventArgs e) =>
             {
                 using (FileLock lockedSave = e.SaveFileFullName.CreateUniqueFile())
                 {
                     e.SaveFileFullName = lockedSave.DataStore.FullName;
                     lockedSave.DataStore.Delete();
                 }
+                return Task.CompletedTask;
             };
 
             return operationsController;
@@ -726,7 +727,7 @@ namespace AxCrypt.Core.UI.ViewModel
 
             operationsController.QueryDecryptionPassphrase = HandleQueryDecryptionPassphraseEventAsync;
 
-            operationsController.QuerySaveFileAs += async (object sender, FileOperationEventArgs e) =>
+            operationsController.QuerySaveFileAs = async (FileOperationEventArgs e) =>
             {
                 FileSelectionEventArgs fileSelectionArgs = new FileSelectionEventArgs(new string[] { e.SaveFileFullName })
                 {

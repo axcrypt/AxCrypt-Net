@@ -1,4 +1,4 @@
-﻿#region Coypright and License
+#region Coypright and License
 
 /*
  * AxCrypt - Copyright 2026, AxCrypt AB, All Rights Reserved
@@ -108,6 +108,8 @@ namespace AxCrypt.Core.UI
         private async Task InvokeAsync<T>(IEnumerable<T> files, Func<T, IProgressContext, Task<FileOperationContext>> workAsync, Func<FileOperationContext, Task> allCompleteAsync)
         {
             WorkerGroupProgressContext groupProgress = new WorkerGroupProgressContext(new CancelProgressContext(new ProgressContext()), New<ISingleThread>());
+            List<FileOperationContext> failures = new List<FileOperationContext>();
+
             await New<IProgressBackground>().WorkAsync(nameof(DoFilesAsync),
                 async (IProgressContext progress) =>
                 {
@@ -115,41 +117,63 @@ namespace AxCrypt.Core.UI
 
                     FileOperationContext result = await Task.Run(async () =>
                     {
-                        FileOperationContext context = null;
-
                         foreach (T file in files)
                         {
+                            if (groupProgress.Cancel)
+                            {
+                                // User explicitly cancelled — stop processing remaining files.
+                                return new FileOperationContext(file.ToString(), ErrorStatus.Canceled);
+                            }
+                            FileOperationContext context;
                             try
                             {
                                 context = await workAsync(file, progress);
                             }
-                            catch (Exception ex) when (ex is OperationCanceledException)
+                            catch (OperationCanceledException oce)
                             {
-                                return new FileOperationContext(file.ToString(), ErrorStatus.Canceled);
+                                if (groupProgress.Cancel)
+                                {
+                                    // User explicitly cancelled — stop all remaining files immediately.
+                                    return new FileOperationContext(file.ToString(), ErrorStatus.Canceled);
+                                }
+                                // Per-file issue (e.g. corrupted or invalid file) — record as error and continue with other files.
+                                New<IReport>().Exception(oce);
+                                context = new FileOperationContext(file.ToString(), oce.Message, ErrorStatus.Exception);
                             }
-                            catch (Exception ex) when (ex is AxCryptException)
+                            catch (AxCryptException ace)
                             {
-                                AxCryptException ace = ex as AxCryptException;
                                 New<IReport>().Exception(ace);
-                                return new FileOperationContext(ace.DisplayContext.Default(file), ace.InnerException?.Message ?? ace.Message, ace.ErrorStatus);
+                                context = new FileOperationContext(ace.DisplayContext.Default(file), ace.InnerException?.Message ?? ace.Message, ace.ErrorStatus);
                             }
                             catch (Exception ex)
                             {
                                 New<IReport>().Exception(ex);
-                                return new FileOperationContext(file.ToString(), ex.Message, ErrorStatus.Exception);
+                                context = new FileOperationContext(file.ToString(), ex.Message, ErrorStatus.Exception);
                             }
-                            if (context.ErrorStatus != ErrorStatus.Success)
+
+                            if (context.ErrorStatus == ErrorStatus.Success)
                             {
-                                return context;
+                                progress.Totals.AddFileCount(1);
                             }
-                            progress.Totals.AddFileCount(1);
+                            else if (context.ErrorStatus != ErrorStatus.Canceled)
+                            {
+                                // Collect the failure and continue with remaining files.
+                                failures.Add(context);
+                            }
                         }
                         return new FileOperationContext(progress.Totals);
                     });
                     progress.NotifyLevelFinished();
                     return result;
                 },
-                (FileOperationContext status) => allCompleteAsync(status),
+                async (FileOperationContext status) =>
+                {
+                    // Pass all failures together so the caller can build a single combined report.
+                    FileOperationContext finalStatus = status.ErrorStatus == ErrorStatus.Canceled
+                        ? status
+                        : new FileOperationContext(status.Totals, failures.AsReadOnly());
+                    await allCompleteAsync(finalStatus);
+                },
                 groupProgress).Free();
         }
     }

@@ -87,15 +87,11 @@ namespace AxCrypt.Core.UI
         /// Raised whenever there is a need to specify a file to save to because the expected target
         /// name already exists.
         /// </summary>
-        public event EventHandler<FileOperationEventArgs> QuerySaveFileAs;
+        public Func<FileOperationEventArgs, Task> QuerySaveFileAs { get; set; }
 
-        protected virtual void OnQuerySaveFileAs(FileOperationEventArgs e)
+        protected virtual Task OnQuerySaveFileAs(FileOperationEventArgs e)
         {
-            EventHandler<FileOperationEventArgs> handler = QuerySaveFileAs;
-            if (handler != null)
-            {
-                handler(this, e);
-            }
+            return QuerySaveFileAs?.Invoke(e) ?? Task.CompletedTask;
         }
 
         /// <summary>
@@ -314,21 +310,21 @@ namespace AxCrypt.Core.UI
 
         #region Private Methods
 
-        private Task<bool> EncryptFilePreparationAsync(IDataStore sourceFileInfo)
+        private async Task<bool> EncryptFilePreparationAsync(IDataStore sourceFileInfo)
         {
             _eventArgs.OpenFileFullName = sourceFileInfo.FullName;
 
             if (String.Compare(Resolve.Portable.Path().GetExtension(sourceFileInfo.FullName), OS.Current.AxCryptExtension, StringComparison.OrdinalIgnoreCase) == 0)
             {
                 _eventArgs.Status = new FileOperationContext(sourceFileInfo.FullName, ErrorStatus.FileAlreadyEncrypted);
-                return Task.FromResult(false);
+                return false;
             }
 
             using (FileLock fileLock = New<FileLocker>().Acquire(sourceFileInfo))
             {
                 if (IsLocked(fileLock))
                 {
-                    return Task.FromResult(false);
+                    return false;
                 }
 
                 IDataStore destinationFileInfo = CreateDestinationDataStore(sourceFileInfo);
@@ -336,11 +332,11 @@ namespace AxCrypt.Core.UI
                 _eventArgs.OpenFileFullName = sourceFileInfo.FullName;
                 if (destinationFileInfo.IsAvailable)
                 {
-                    OnQuerySaveFileAs(_eventArgs);
+                    await OnQuerySaveFileAs(_eventArgs);
                     if (_eventArgs.Cancel)
                     {
                         _eventArgs.Status = new FileOperationContext(sourceFileInfo.FullName, ErrorStatus.Canceled);
-                        return Task.FromResult(false);
+                        return false;
                     }
                 }
 
@@ -350,7 +346,7 @@ namespace AxCrypt.Core.UI
                     if (_eventArgs.Cancel)
                     {
                         _eventArgs.Status = new FileOperationContext(sourceFileInfo.FullName, ErrorStatus.Canceled);
-                        return Task.FromResult(false);
+                        return false;
                     }
                 }
                 else
@@ -361,7 +357,7 @@ namespace AxCrypt.Core.UI
                 OnQuerySharedPublicKeys(_eventArgs);
             }
 
-            return Task.FromResult(true);
+            return true;
         }
 
         private IDataStore CreateDestinationDataStore(IDataStore sourceFileInfo)
@@ -459,7 +455,7 @@ namespace AxCrypt.Core.UI
             IDataStore destination = New<IDataStore>(_eventArgs.SaveFileFullName);
             if (destination.IsAvailable)
             {
-                OnQuerySaveFileAs(_eventArgs);
+                await OnQuerySaveFileAs(_eventArgs);
                 if (_eventArgs.Cancel)
                 {
                     _eventArgs.Status = new FileOperationContext(fileInfo.FullName, ErrorStatus.Canceled);
@@ -897,7 +893,7 @@ namespace AxCrypt.Core.UI
             IDataStore destination = New<IDataStore>(_eventArgs.SaveFileFullName);
             if (destination.IsAvailable)
             {
-                OnQuerySaveFileAs(_eventArgs);
+                await OnQuerySaveFileAs(_eventArgs);
                 if (_eventArgs.Cancel)
                 {
                     _eventArgs.Status = new FileOperationContext(fileInfo.FullName, ErrorStatus.Canceled);
