@@ -49,7 +49,7 @@ required** to build or use the open-source core and CLI.
 
 ```bash
 git clone <this-repository>
-cd AxCrypt-Net-App
+cd AxCrypt-Net
 
 # Cross-platform: CLI + core + tests
 dotnet build src/AxCrypt.Cli/AxCrypt.Cli.csproj -c Release

@@ -1,4 +1,4 @@
-﻿#region Coypright and License
+#region Coypright and License
 
 /*
  * AxCrypt - Copyright 2026, AxCrypt AB, All Rights Reserved
@@ -718,11 +718,7 @@ namespace AxCrypt.Core
             }
             IDataStore destinationStore = destinationLock.DataStore;
 
-            // Decrypt into a temporary file first, then move it into place only after DecryptTo
-            // has returned successfully. DecryptTo validates the HMAC trailer and throws on a
-            // mismatch, so unverified or tampered plaintext is never written to the final
-            // destination path. On any failure the temporary (which may hold partial plaintext)
-            // is wiped rather than merely deleted. This mirrors EncryptToFileWithBackupAsync.
+            // Decrypt to a temp file first; move into place only after HMAC validation succeeds.
             using (FileLock lockedTemporary = MakeAlternatePath(destinationStore, ".tmp"))
             {
                 try
@@ -864,6 +860,16 @@ namespace AxCrypt.Core
             if (progress == null)
             {
                 throw new ArgumentNullException("progress");
+            }
+
+            // Skip files that are not AxCrypt-encrypted (wrong extension).
+            // During folder decryption the caller already filters via ListEncrypted(),
+            // but this method can also be reached directly with arbitrary files.
+            // Silently cancel rather than surfacing a confusing "not an AxCrypt file"
+            // warning for every non-.axx file in the folder.
+            if (!sourceStore.IsEncrypted())
+            {
+                return Task.FromResult(new FileOperationContext(sourceStore.FullName, Abstractions.ErrorStatus.Canceled));
             }
 
             if (sourceStore.IsWriteProtected)
@@ -1203,9 +1209,7 @@ namespace AxCrypt.Core
 
                     HandleException(ex, destinationFileLock.DataStore);
                 }
-
-                EnsureConsistencyOfDestination(destinationFileLock);
-
+                
                 try
                 {
                     Wipe(lockedBackup, progress);
