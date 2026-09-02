@@ -655,11 +655,17 @@ Wählen Sie etwas, das schwer zu erraten ist, da das Passwort all Ihre Passwört
     <value>Öffnen Sie eine AxCrypt Datei</value>
     <comment>Tooltip for "AddFile" button in mobile application</comment>
   </data>
+  <data name="AddFilePasswordText" xml:space="preserve">
+    <value>Dateipasswort hinzufügen</value>
+  </data>
   <data name="AddFirstFolderText" xml:space="preserve">
     <value>Fügen Sie Ihren ersten Ordner hinzu und sichern Sie ihn.</value>
   </data>
   <data name="AddFirstPasswordText" xml:space="preserve">
     <value>Fügen Sie Ihr erstes Passwort hinzu und sichern Sie es.</value>
+  </data>
+  <data name="AddingText" xml:space="preserve">
+    <value>Hinzufügen</value>
   </data>
   <data name="AdditionalUnsubscribedConfirmation" xml:space="preserve">
     <value>Wir werden Ihnen eventuell noch E-Mails schicken falls es für die Funktion oder die Sicherheit von AxCrypt unerlässlich ist.</value>
@@ -701,6 +707,9 @@ Wählen Sie etwas, das schwer zu erraten ist, da das Passwort all Ihre Passwört
   <data name="AddSecureFolderTitle" xml:space="preserve">
     <value>Wählen Sie einen Ordner, den Sie mit AxCrypt sichern wollen. Existierende Dateien werden jetzt verschlüsselt.</value>
     <comment>Displayed as prompt, title or description when adding a new secure folder via a folder browser.</comment>
+  </data>
+  <data name="AddSharePeopleDescriptionText" xml:space="preserve">
+    <value>Summieren zu {0} Leute, die diese Dateien mit ihrem eigenen AxCrypt-Konto öffnen können.</value>
   </data>
   <data name="AddToGroupText" xml:space="preserve">
     <value>Zur Gruppe hinzufügen</value>
@@ -888,6 +897,9 @@ Bitte loggen Sie sich mit dem selben Passwort ein, welches Sie zuvor benutzt hab
     <value>Solange diese Funktion aktiviert ist, wird der Internetzugang nie genutzt noch ist er erforderlich.</value>
     <comment>A tool tip explaining that this causes AxCrypt never to access the Internet.</comment>
   </data>
+  <data name="AlwaysOnText" xml:space="preserve">
+    <value>Immer an</value>
+  </data>
   <data name="AlwaysText" xml:space="preserve">
     <value>Immer.</value>
   </data>
@@ -1059,6 +1071,12 @@ Aktualisierungen des Abonnements werden hier innerhalb weniger Minuten angezeigt
   </data>
   <data name="AutomaticFileUpdatingText" xml:space="preserve">
     <value>Automatische Aktualisierung der gesicherten Datei nach dem öffnen und speichern.</value>
+  </data>
+  <data name="Autoshare files on encryption" xml:space="preserve">
+    <value>AutoShareFilesOnEncryptionText</value>
+  </data>
+  <data name="AutoShareFilesDescriptionText" xml:space="preserve">
+    <value>Teile automatisch verschlüsselte Dateien mit ausgewählten Personen, damit sie sie mit ihrem eigenen AxCrypt-Konto öffnen können.</value>
   </data>
   <data name="AutoUpgradeFilesAES256" xml:space="preserve">
     <value>Dateien automatisch auf AES-256 aktualisieren</value>
@@ -16781,6 +16799,9 @@ Sie wurden gewarnt, jetzt genießen!
   <data name="BusinessProductStrongText9" xml:space="preserve">
     <value>Unterstützung, die Sie bekommen, wenn Sie sie brauchen</value>
   </data>
+  <data name="BusinessShareLimitText" xml:space="preserve">
+    <value>Geschäft: Teilen Sie mit bis zu 3 Personen</value>
+  </data>
   <data name="BusinessSubscriptionAddButtonLabel" xml:space="preserve">
     <value>Hinzufügen</value>
     <comment>A label or word used in a button when adding members to a subscription.</comment>
@@ -17477,6 +17498,9 @@ Sie müssen diese Schritte vollenden, um den Prozess abzuschließen.</value>
   <data name="CloudServicesText" xml:space="preserve">
     <value>Cloud-Dienste</value>
   </data>
+  <data name="CloudStoragePermissionRequestText" xml:space="preserve">
+    <value>AxCrypt benötigt Ihre Erlaubnis, um auf Ihr zuzugreifen {0} um Ihre Dateien zu öffnen, zu verschlüsseln, zu entschlüsseln und sicher zu teilen.\nIhre Privatsphäre hat für uns Priorität – wir speichern Ihre Dateien niemals und teilen Ihre Daten nie.\n\nMöchten Sie sich jetzt verbinden?</value>
+  </data>
   <data name="ColorPaletteLabel" xml:space="preserve">
     <value>Farbpalette</value>
   </data>
@@ -17760,6 +17784,12 @@ Sie müssen diese Schritte vollenden, um den Prozess abzuschließen.</value>
   </data>
   <data name="ConfigurationSuccess" xml:space="preserve">
     <value>Die Anwendungskonfigurationseigenschaft wurde erfolgreich aktualisiert. Möglicherweise, müssen Sie den server neu starten, damit die änderungen wirksam werden.</value>
+  </data>
+  <data name="ConfigureDefaultEncryptionText" xml:space="preserve">
+    <value>Konfigurieren Sie, wie Dateien standardmäßig verschlüsselt werden</value>
+  </data>
+  <data name="ConfigureDefaultEncryptionText1" xml:space="preserve">
+    <value>Konfigurieren Sie, wie Dateien standardmäßig verschlüsselt werden</value>
   </data>
   <data name="ConfigureVault" xml:space="preserve">
     <value>Bitte konfigurieren Sie den Vault, indem Sie zu Einstellungen → Erweiterten Einstellungen → Vault-Einstellungen navigieren.</value>
@@ -18772,7 +18802,7 @@ Wir bedauern Sie gehen zu sehen und hoffen, dass Sie Ihre Zeit mit AxCrypt genos
     <value>Weitere Downloads</value>
   </data>
   <data name="DownloadOtherSourceCodeSubtitle" xml:space="preserve">
-    <value>Technische Details</value>
+    <value>Open-Source-Repository</value>
   </data>
   <data name="DownloadOtherSourceCodeTitle" xml:space="preserve">
     <value>Quellcode</value>
@@ -18866,6 +18896,9 @@ Wir bedauern Sie gehen zu sehen und hoffen, dass Sie Ihre Zeit mit AxCrypt genos
   </data>
   <data name="DownloadWindowsX64Title" xml:space="preserve">
     <value>Windows (x64)</value>
+  </data>
+  <data name="DropboxSessionExpiredText" xml:space="preserve">
+    <value>Ihre Drop-Box-Sitzung ist abgelaufen oder nicht mehr gültig. Bitte melden Sie sich erneut mit Ihrem Drop-Box-Konto an.</value>
   </data>
   <data name="DropFilesOrFoldersToEncryptMessage" xml:space="preserve">
     <value>Hier Dateien/Ordner zum Verschlüsseln einfügen</value>
@@ -19259,8 +19292,20 @@ Wir bedauern Sie gehen zu sehen und hoffen, dass Sie Ihre Zeit mit AxCrypt genos
   <data name="EncryptFilesBeforeUploadPopup" xml:space="preserve">
     <value>Dateien vor dem Hochladen verschlüsseln</value>
   </data>
+  <data name="EncryptFileWithPasswordText" xml:space="preserve">
+    <value>Verschlüsseln Sie diese Datei mit einem Passwort. Sie benötigen dieses Passwort, um die Datei zu öffnen.</value>
+  </data>
   <data name="EncryptionManagementText" xml:space="preserve">
     <value>Verschlüsselungsmanagement</value>
+  </data>
+  <data name="EncryptionOptionsText" xml:space="preserve">
+    <value>Verschlüsselungsoptionen</value>
+  </data>
+  <data name="EncryptionOptionsText1" xml:space="preserve">
+    <value>Verschlüsselungsoptionen</value>
+  </data>
+  <data name="EncryptionText" xml:space="preserve">
+    <value>Verschlüsselung</value>
   </data>
   <data name="EncryptLabelText" xml:space="preserve">
     <value>Verschlüsseln</value>
@@ -19297,6 +19342,12 @@ Wir bedauern Sie gehen zu sehen und hoffen, dass Sie Ihre Zeit mit AxCrypt genos
   </data>
   <data name="EnterPassphraseForIdentityPrompt" xml:space="preserve">
     <value>Identität '{0}' Passwort</value>
+  </data>
+  <data name="EnterPasswordForFilesText" xml:space="preserve">
+    <value>Gib ein Passwort für &lt;strong&gt;@FileCount Dateien&lt;/strong&gt; ein</value>
+  </data>
+  <data name="EnterPasswordForThisFileText" xml:space="preserve">
+    <value>Geben Sie ein Passwort für diese Datei ein</value>
   </data>
   <data name="EnterPasswordToDecryptAndSignInMessage" xml:space="preserve">
     <value>Geben Sie das Passwort ein, um diese Datei zu entschlüsseln. Wenn es mit deinem Kontopasswort übereinstimmt, wirst du ebenfalls angemeldet.</value>
@@ -21190,12 +21241,24 @@ Wir bedauern Sie gehen zu sehen und hoffen, dass Sie Ihre Zeit mit AxCrypt genos
   <data name="FileOperationFailed" xml:space="preserve">
     <value>'{0}' Fehlgeschlagen.</value>
   </data>
+  <data name="FilePasswordDescriptionText" xml:space="preserve">
+    <value>Ein Passwort, das benötigt wird, um diese Datei zu öffnen</value>
+  </data>
   <data name="FilePasswordDialogHeader" xml:space="preserve">
     <value>Bitte geben Sie das ursprüngliche Passwort für diese Datei an.</value>
     <comment>The header text for the file password dialog.</comment>
   </data>
   <data name="FilePasswordHereText" xml:space="preserve">
     <value>Geben Sie hier Ihr Dateipasswort ein</value>
+  </data>
+  <data name="FilePasswordRecoveryWarningText" xml:space="preserve">
+    <value>&lt;strong&gt;Bewahren Sie es an einem sicheren Ort auf.&lt;/strong&gt; Wenn Sie dieses Passwort vergessen, kann die Datei nicht geöffnet werden – es sei denn, Recovery Access ist aktiviert.</value>
+  </data>
+  <data name="FilePasswordRequirementsText" xml:space="preserve">
+    <value>Verwenden Sie mindestens 8 Zeichen mit Groß- und Kleinbuchstaben, Zahlen und Symbolen.</value>
+  </data>
+  <data name="FilePasswordUsedForEncryptionText" xml:space="preserve">
+    <value>Das gerade festgelegte Dateipasswort wird verwendet, um deine Dateien zu verschlüsseln, anstatt dein Kontopasswort.</value>
   </data>
   <data name="FilePropertiesDateModifiedToolStripMenuItem" xml:space="preserve">
     <value>Änderungsdatum</value>
@@ -21337,6 +21400,9 @@ Wir bedauern Sie gehen zu sehen und hoffen, dass Sie Ihre Zeit mit AxCrypt genos
   <data name="FooterDownloadiOSText" xml:space="preserve">
     <value>iOS</value>
   </data>
+  <data name="FooterDownloadLinuxText" xml:space="preserve">
+    <value>Linux</value>
+  </data>
   <data name="FooterDownloadMacText" xml:space="preserve">
     <value>Mac</value>
   </data>
@@ -21375,6 +21441,9 @@ Wir bedauern Sie gehen zu sehen und hoffen, dass Sie Ihre Zeit mit AxCrypt genos
   </data>
   <data name="ForEveryoneLabel" xml:space="preserve">
     <value>Für alle</value>
+  </data>
+  <data name="ForgottenFilePasswordWarningText" xml:space="preserve">
+    <value>Wenn Sie dieses Passwort vergessen, könnten Sie dauerhaft den Zugriff auf diese Dateien verlieren.</value>
   </data>
   <data name="ForIndividualsLabel" xml:space="preserve">
     <value>Für Personen</value>
@@ -22032,7 +22101,7 @@ Bitte besuchen Sie unseren &lt;a href="{0}"&gt;community support&lt;/a&gt;.</val
     <value>Überprüfen Sie, ob der Download unbeschädigt und authentisch ist, indem Sie die digitale Signatur überprüfen. Klicken Sie im Windows Explorer mit der rechten Maustaste auf die heruntergeladene Datei und wählen Sie "Eigenschaften" und die Registerkarte "Digitale Signaturen". Wählen Sie dann die digitale Signatur aus und klicken Sie auf "Details". Stellen Sie sicher, dass die digitale Signatur als "OK"angezeigt wird und dass der Unterzeichner "AxCrypt AB" ist.</value>
   </data>
   <data name="GetStartedInfoNote2Text1" xml:space="preserve">
-    <value>Wenn Sie brennende Probleme oder Fragen haben, besuchen Sie unsere &lt;a href='/information/faq'&gt;Häufig gestellte Fragen&lt;/a&gt; Seite.</value>
+    <value>Wenn Sie brennende Probleme oder Fragen haben, besuchen Sie unsere &lt;a href='/support/faq'&gt;Häufig gestellte Fragen&lt;/a&gt; Seite.</value>
   </data>
   <data name="GetStartedInfoNote2Text2" xml:space="preserve">
     <value>Bitte melden Sie uns Fehler und Kommentare. Gerne können Sie auch Support anfordern. Für andere Fragen senden Sie &lt;a href='mailto:support@axcrypt.net'&gt;send us an email&lt;/a&gt;.</value>
@@ -22177,6 +22246,9 @@ Bitte besuchen Sie unseren &lt;a href="{0}"&gt;community support&lt;/a&gt;.</val
   </data>
   <data name="GettheLatestAxCryptText" xml:space="preserve">
     <value>Holen Sie sich hier die neuesten Versionen von AxCrypt Version 2</value>
+  </data>
+  <data name="GoogleDriveSessionExpiredText" xml:space="preserve">
+    <value>Ihre Google-Drive-Sitzung ist abgelaufen oder nicht mehr gültig. Bitte melden Sie sich erneut in Ihrem Google-Drive-Konto an.</value>
   </data>
   <data name="GoToGroupsText" xml:space="preserve">
     <value>Zu Gruppen</value>
@@ -22493,6 +22565,21 @@ Bitte besuchen Sie unseren &lt;a href="{0}"&gt;community support&lt;/a&gt;.</val
   <data name="GroupTitle" xml:space="preserve">
     <value>Gruppe</value>
   </data>
+  <data name="GuideBeforeYouBeginTitle" xml:space="preserve">
+    <value>Bevor Sie beginnen</value>
+  </data>
+  <data name="GuideContactSupportTeam" xml:space="preserve">
+    <value>Kontaktieren Sie unser Support-Team</value>
+  </data>
+  <data name="GuideHelpfulNo" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="GuideHelpfulYes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="GuideOnThisGuideTitle" xml:space="preserve">
+    <value>In diesem Leitfaden</value>
+  </data>
   <data name="GuidesGetStartedLinkLabelWithPlatform" xml:space="preserve">
     <value>Loslegen</value>
   </data>
@@ -22513,6 +22600,9 @@ Bitte besuchen Sie unseren &lt;a href="{0}"&gt;community support&lt;/a&gt;.</val
   </data>
   <data name="GuidesLinkQuoteLabel6" xml:space="preserve">
     <value>Ver- und Entschlüsselung</value>
+  </data>
+  <data name="GuideWasHelpfulTitle" xml:space="preserve">
+    <value>War dieser Artikel hilfreich?</value>
   </data>
   <data name="HaveAccountInfo" xml:space="preserve">
     <value>Super! Sie haben bereits ein AxCrypt ID Konto für '{0}'.
@@ -22643,6 +22733,9 @@ Falls Sie aus irgendeinem Grund Ihr Passwort nicht wissen oder vergessen haben, 
   <data name="HelpCenterGuideSummaryNis2" xml:space="preserve">
     <value>Erfahren Sie mehr über die NIS2-Bereitschaft und -Anforderungen.</value>
   </data>
+  <data name="HelpCenterGuideSummaryOpenSource" xml:space="preserve">
+    <value>Überprüfen Sie den Quellcode von AxCrypt und die technische Transparenz.</value>
+  </data>
   <data name="HelpCenterGuideSummaryPasswordManager" xml:space="preserve">
     <value>Passwörter sicher speichern und verwalten.</value>
   </data>
@@ -22663,6 +22756,9 @@ Falls Sie aus irgendeinem Grund Ihr Passwort nicht wissen oder vergessen haben, 
   </data>
   <data name="HelpCenterGuideSummarySecuredMessenger" xml:space="preserve">
     <value>Senden Sie geschützte Nachrichten sicher.</value>
+  </data>
+  <data name="HelpCenterGuideSummarySecureFilesThreeWaysVideo" xml:space="preserve">
+    <value>Erfahren Sie drei einfache Möglichkeiten, Dateien in AxCrypt zu sichern.</value>
   </data>
   <data name="HelpCenterGuideSummarySecurity" xml:space="preserve">
     <value>Überprüfen Sie Verschlüsselungs- und Sicherheitspraktiken.</value>
@@ -22711,6 +22807,12 @@ Falls Sie aus irgendeinem Grund Ihr Passwort nicht wissen oder vergessen haben, 
   </data>
   <data name="HelpCenterLabel" xml:space="preserve">
     <value>Hilfe-Center</value>
+  </data>
+  <data name="HelpCenterMetaDescription" xml:space="preserve">
+    <value>Finden Sie AxCrypt-Anleitungen, Antworten, Feature-Hilfe, Tutorials zur sicheren Dateiverschlüsselung und Support-Ressourcen im AxCrypt Help Center.</value>
+  </data>
+  <data name="HelpCenterMetaTitle" xml:space="preserve">
+    <value>AxCrypt Hilfezentrum | Leitfäden, FAQs und Support</value>
   </data>
   <data name="HelpCenterNeedHelpDescription" xml:space="preserve">
     <value>Wählen Sie die Support-Option, die am besten zu Ihnen passt.</value>
@@ -23300,6 +23402,9 @@ Wenn Sie den Dateiinhalt ansehen oder ändern möchten, entschlüsseln Sie bitte
   <data name="InboxText" xml:space="preserve">
     <value>Posteingang</value>
   </data>
+  <data name="IncludeRecoveryAccessText" xml:space="preserve">
+    <value>Wiederherstellungszugang einbauen</value>
+  </data>
   <data name="IncludeSubfoldersConfirmationBody" xml:space="preserve">
     <value>Sie sind dabei eine gefährliche Option zu aktivieren. Wenn Sie nicht vorsichtig sind, können Sie mehr Daten als beabsichtigt beeinflussen, was zu dazu führen kann, dass Operationen deshalb sehr lange dauern können oder das Software einschließlich des Betriebssystems fehlerhaft werden. Sind Sie sicher?</value>
   </data>
@@ -23324,311 +23429,8 @@ Das kann dazu führen, dass einige Operationen sehr lang dauern können. Bitte p
   <data name="IndustriesAboutLinkLabel" xml:space="preserve">
     <value>Über Branchen</value>
   </data>
-  <data name="IndustriesBenefitsText0" xml:space="preserve">
-    <value>AxCrypt verwendet den stärksten Verschlüsselungsstandard – den AES 256-Bit-Algorithmus – um Daten geräteübergreifend zu verschlüsseln und zu schützen. Mit seinen benutzerfreundlichen und effizienten Verschlüsselungstools, einschließlich des Passwort-Managers, der Cloud-Speicherintegration und des Hauptschlüssels; AxCrypt hat sich zu einer vertrauenswürdigen Lösung für Unternehmen aus verschiedenen Branchen entwickelt, darunter Finanzen, Gesundheitswesen, Recht und Behörden.&lt;br/&gt; &lt;br/&gt;Die Verschlüsselungstechnologie von AxCrypt stellt sicher, dass nur autorisierte Personen auf vertrauliche Dateien zugreifen können, und schützt so sensible Daten vor Cyberbedrohungen und Datenschutzverletzungen. Darüber hinaus ermöglichen die flexiblen Bereitstellungsoptionen und robusten Verwaltungsfunktionen von AxCrypt Unternehmen, ihre Verschlüsselungsanforderungen zu skalieren, um gesetzliche Compliance-Anforderungen zu erfüllen und sicherzustellen, dass ihre Daten jederzeit sicher sind.</value>
-  </data>
-  <data name="IndustriesBenefitsTitle" xml:space="preserve">
-    <value>Vorteile der Verwendung von Axcrypt</value>
-  </data>
-  <data name="IndustriesBlogLabel" xml:space="preserve">
-    <value>Neu in der Verschlüsselung? Schauen Sie sich unseren Blog für die neuesten Nachrichten.</value>
-  </data>
-  <data name="IndustriesDomainHeading" xml:space="preserve">
-    <value>&lt;span&gt;AxCrypt&lt;/span&gt; Genießt branchen- und domänenübergreifend Vertrauen</value>
-  </data>
-  <data name="IndustriesEducationContent1" xml:space="preserve">
-    <value>Daten- und Dateiverschlüsselung dient als erste Verteidigungslinie gegen Datenschutzverletzungen und Cyberangriffe und wird von renommierten Institutionen und Organisationen wie NIST, IBM und Microsoft empfohlen. Die Datenverschlüsselung spielt eine entscheidende Rolle bei der Verbesserung der Datensicherheit und des Datenschutzes in der Bildungsbranche.&lt;br/&gt;&lt;br/&gt; Der Verschlüsselungsmechanismus, der einen Verschlüsselungsalgorithmus wie AES verwendet, wandelt den Inhalt einer Datei im Wesentlichen in ein unlesbares und entzifferbares Format um, wodurch sie für unbefugte Benutzer unzugänglich wird. Nur autorisierte Personen, die Zugriff auf den Entschlüsselungsschlüssel haben, können den Verschlüsselungsprozess rückgängig machen und Zugriff auf den Inhalt der Datei erhalten.</value>
-  </data>
-  <data name="IndustriesEducationContent2" xml:space="preserve">
-    <value>AxCrypt ist eine preisgekrönte Dateiverschlüsselungssoftware, die sensible Informationen Ihrer Universitäten, Hochschulen und Schulen mit dem AES-256-Algorithmus schützt! Bildungseinrichtungen können AxCrypt verwenden, um Schülerdaten, Finanzinformationen und Forschungsdokumente zu verschlüsseln und zu schützen.&lt;br/&gt;&lt;br/&gt; AxCrypt stellt sicher, dass diese Informationen verschlüsselt und für Unbefugte unzugänglich bleiben, um die Privatsphäre der Schüler zu schützen und vor Datenschutzverletzungen zu schützen.&lt;br/&gt;&lt;br/&gt; AxCrypt genießt das Vertrauen renommierter Universitäten und akademischer Einrichtungen auf der ganzen Welt und wird als bevorzugte Wahl für robuste Datenverschlüsselung dringend empfohlen.</value>
-  </data>
-  <data name="IndustriesEducationHeading" xml:space="preserve">
-    <value>Sichern Sie sich proprietäre Aufsätze, Papiere, Berichte, Abschlussarbeiten und Recherchen.</value>
-  </data>
-  <data name="IndustriesEducationHeading1" xml:space="preserve">
-    <value>Datenverschlüsselung als Schutzschild gegen &lt;span&gt;Cyberangriffe&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesEducationHeading2" xml:space="preserve">
-    <value>AxCrypt für Ihre Universität, Hochschule und Schule</value>
-  </data>
-  <data name="IndustriesEducationParagraph" xml:space="preserve">
-    <value>Greifen Sie auf alle Ihre Dokumente zu und synchronisieren Sie sie auf Ihren Geräten, während Sie Ihre Dateien vor kostspieligen Datenverletzungen schützen.</value>
-  </data>
-  <data name="IndustriesFinancialBenefitsText" xml:space="preserve">
-    <value>Die Finanzdienstleistungsbranche ist heute digitaler und datenintensiver als je zuvor. Die Menschen nutzen ihre Telefone und Computer zunehmend mehr als ihre Geldbörsen und Bücher, um zu bezahlen, zu investieren und ihre Finanzen zu verwalten. Internet-Banking hat auch die meisten Vorgänge ersetzt, die traditionell physisch in einer Bank durchgeführt wurden. &lt;br/&gt;&lt;br/&gt;Dieser rasante Anstieg der Mengen an Finanzdaten, die täglich von den Nutzern generiert werden, macht sie auch sehr anfällig für Cyberangriffe und Datenschutzverletzungen. Datenschutzverletzungen in der Finanzdienstleistungsbranche sind mit durchschnittlichen Kosten von 5,72 Millionen US-Dollar die &lt;b&gt;zweitteuersten&lt;/b&gt;. Kleine und mittlere Unternehmen (KMU) sind am stärksten von Datenschutzverletzungen betroffen, da sie &lt;b&gt;für 42 % aller Datenschutzverletzungen&lt;/b&gt; verantwortlich sind und &lt;b&gt;60 % der KMUs&lt;/b&gt; innerhalb von 6 Monaten nach einer Datenschutzverletzung geschlossen werden. Verschlüsselung ist ein proaktiver Ansatz zur Sicherung Ihrer Finanzdaten, der sie jederzeit schützen kann.</value>
-  </data>
-  <data name="IndustriesFinancialContent1" xml:space="preserve">
-    <value>Die Verschlüsselung Ihrer Finanzdaten dient als erste Verteidigungslinie gegen Cyberangriffe und Datenschutzverletzungen und wird von renommierten Institutionen und Organisationen wie NIST, IBM und Microsoft empfohlen. Während des Verschlüsselungsprozesses wird der Inhalt der Dateien mithilfe von Verschlüsselungsalgorithmen und kryptografischen Schlüsseln in ein unlesbares und nicht entzifferbares Format umgewandelt.&lt;br/&gt;&lt;br/&gt;Durch die Transformation des Inhalts der Dateien wird sichergestellt, dass nur die autorisierten Benutzer, die Zugriff auf die kryptografischen Schlüssel haben, die verschlüsselten Dateien entschlüsseln und darauf zugreifen können. Verschlüsselte Dateien sind auch in den Händen von Cyber-Angreifern während einer Datenschutzverletzung nutzlos, wenn sie nicht über die spezifischen Entschlüsselungsschlüssel verfügen.</value>
-  </data>
-  <data name="IndustriesFinancialContent2" xml:space="preserve">
-    <value>&lt;b&gt;AxCrypt&lt;/b&gt; ist eine preisgekrönte Dateiverschlüsselungssoftware, die sensible Finanzdaten und Dateien mit dem AES-256-Algorithmus schützt. Verwenden Sie AxCrypt, um &lt;b&gt;Transaktionsdatensätze, Kundeninformationen, Finanzdokumente&lt;/b&gt; und mehr zu verschlüsseln und zu schützen. AxCrypt stellt sicher, dass Ihre Daten verschlüsselt und für &lt;b&gt;Unbefugte&lt;/b&gt; jederzeit unzugänglich bleiben, um die &lt;b&gt;Privatsphäre&lt;/b&gt; Ihres Unternehmens zu schützen und es vor Cyberangriffen und Sicherheitsverletzungen zu schützen. &lt;br/&gt;&lt;br/&gt;AxCrypt wurde von PCMag sechs Jahre in Folge als &lt;b&gt;"Beste Verschlüsselungssoftware"&lt;/b&gt; ausgezeichnet. AxCrypt ist für Windows, MacOS, iOS und Android verfügbar und kann Dateien automatisch verschlüsseln und mit gängigen Cloud-Speicherdiensten wie Google Drive, OneDrive und Dropbox synchronisieren.</value>
-  </data>
-  <data name="IndustriesFinancialHeading" xml:space="preserve">
-    <value>Schützen Sie sensible Finanzdaten bei jeder Transaktion</value>
-  </data>
-  <data name="IndustriesFinancialHeading1" xml:space="preserve">
-    <value>Verschlüsselung schützt Ihre Finanzdaten proaktiv</value>
-  </data>
-  <data name="IndustriesFinancialHeading2" xml:space="preserve">
-    <value>Datensicherheit für Ihre BFSI mit AxCrypt</value>
-  </data>
-  <data name="IndustriesFinancialParagraph" xml:space="preserve">
-    <value>Sichern Sie hochsensible Finanzdokumente und Kontoauszüge. Kontrollieren Sie den Zugriff und legen Sie fest, wer was sehen darf.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesContent1" xml:space="preserve">
-    <value>Sichern Sie hochsensible und vertrauliche Finanzdokumente wie Bilanzen, Gewinn- und Verlustrechnungen, Steuererklärungen usw.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesContent2" xml:space="preserve">
-    <value>Schützen Sie wichtige und sensible benutzerdefinierte Informationen, einschließlich personenbezogener Daten, Transaktionsaufzeichnungen, Steuererklärungen usw.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesContent3" xml:space="preserve">
-    <value>Erstellen Sie automatische Datensicherheits-Workflows mit einem Klick, indem Sie die automatische Verschlüsselung von Dateien auf Desktops und Cloud-Speicheranbietern aktivieren.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesHeading" xml:space="preserve">
-    <value>Leistungsstarke Anwendungsfälle mit &lt;span&gt;AxCrypt&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesSubHeading1" xml:space="preserve">
-    <value>Schützen Sie vertrauliche Daten</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesSubHeading2" xml:space="preserve">
-    <value>Schützen Sie Kundeninformationen</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesSubHeading3" xml:space="preserve">
-    <value>Automatisierung der Sicherheit</value>
-  </data>
-  <data name="IndustriesFinancialTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;Robuste Sicherheit&lt;/span&gt;&lt;span class='img2'&gt;für Ihre Finanzdaten.&lt;/span&gt;&lt;span class='img3'&gt;&lt;br/&gt;Finanzdokumente schützen&lt;/span&gt;, &lt;span class='img4'&gt;&lt;br/&gt;Kundeninformationen&lt;/span&gt;, &lt;span class='img5'&gt;&lt;br/&gt;und mehr.&lt;/span&gt; &lt;span class='img6'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesFinancialTrialInfo" xml:space="preserve">
-    <value>Finden Sie heraus, wie AxCrypt die Daten Ihres Unternehmens noch heute schützen kann. &lt;span&gt;Probieren Sie es 14 Tage lang kostenlos aus! &lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesFreeTrialText0" xml:space="preserve">
-    <value>Erfahren Sie, wie AxCrypt die Daten Ihrer Institution noch heute schützen kann. &lt;span&gt; Probieren Sie es 14 Tage lang kostenlos aus! &lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesGovernmentBenefitsText" xml:space="preserve">
-    <value>Im heutigen KI-Zeitalter sehen sich Regierungen weltweit mit eskalierenden Cybersicherheitsbedrohungen konfrontiert, die erhebliche Risiken für sensible Informationen, die öffentliche Sicherheit und die nationale Sicherheit darstellen. &lt;br/&gt;&lt;br/&gt;Jüngste Vorfälle wie der SolarWinds-Cyberangriff im Jahr 2020 unterstreichen die zwingende Notwendigkeit robuster Verschlüsselungsmaßnahmen, um sensible Regierungsdaten vor unbefugtem Zugriff und unbefugter Ausbeutung zu schützen.&lt;br/&gt;&lt;br/&gt;Verschlüsselung ist ein wichtiges Instrument zur Stärkung der staatlichen Abwehr von Cyberbedrohungen und gewährleistet die Integrität und Vertraulichkeit von klassifizierten Dokumenten, öffentlichen Aufzeichnungen und sensibler Kommunikation.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesContent1" xml:space="preserve">
-    <value>Schutz hochsensibler Regierungsdaten wie sensibler Berichte, vertraulicher Dokumente, öffentlicher Aufzeichnungen und mehr mit einem Klick.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesContent2" xml:space="preserve">
-    <value>Die AES-256-Bit-Dateiverschlüsselung von AxCrypt ist konform mit verschiedenen Datenvorschriften wie DSGVO, HIPAA und FIPs.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesContent3" xml:space="preserve">
-    <value>AxCrypt erstellt automatische Datensicherheit-Workflows mit einem Klick, indem es die automatische Verschlüsselung von Dateien auf Desktops und Cloud-Speicheranbietern ermöglicht.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesHeading" xml:space="preserve">
-    <value>Unterstützung von &lt;span&gt;Regierungsorganisationen mit Best Practices&lt;span&gt; für die Datensicherheit</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesSubHeading1" xml:space="preserve">
-    <value>Schutz vertraulicher Dateien</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesSubHeading2" xml:space="preserve">
-    <value>Einhaltung gesetzlicher Vorschriften</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesSubHeading3" xml:space="preserve">
-    <value>Automatisierung der Datensicherheit</value>
-  </data>
-  <data name="IndustriesGovernmentContent1" xml:space="preserve">
-    <value>Anstatt nur eine Datei zu sperren, wandelt die Verschlüsselung den Inhalt einer Datei in ein unlesbares und nicht entzifferbares Format um. Mit einem Verschlüsselungsalgorithmus wie AES wird der Inhalt einer Datei neu angeordnet, verschoben, ersetzt und vermischt. Die Verschlüsselungsschlüssel, die mit dem Algorithmus verwendet werden, geben die genaue Reihenfolge dieser Transformationen vor, sodass der Verschlüsselungsprozess (Entschlüsselung) rückgängig gemacht werden kann, um den Inhalt einer Datei in seinen ursprünglichen Zustand zurückzuversetzen. &lt;br/&gt;Im Gegensatz zu alternativen Sicherheitsmethoden wie dem Passwortschutz von Dateien bietet die Dateiverschlüsselung mit AES-256 eine unknackbare Sicherheitsmaßnahme. Mit einer Schlüssellänge von 256 wird es praktisch unmöglich, eine verschlüsselte Datei zu knacken, selbst mit den leistungsfähigsten Supercomputern, die es heute gibt. &lt;br/&gt;&lt;br/&gt;Dieser komplexe Prozess stellt sicher, dass sensible Dateien jederzeit geschützt sind und nur autorisierte Benutzer mit Zugriff auf Schlüssel die Dateien entschlüsseln können.</value>
-  </data>
-  <data name="IndustriesGovernmentContent2" xml:space="preserve">
-    <value>Die preisgekrönte und Zero-Knowledge-Dateiverschlüsselungssoftware von AxCrypt schützt Regierungsdaten mit einem Klick. Sichern Sie Dateien wie wichtige Regierungsdokumente, öffentliche Aufzeichnungen, vertrauliche Berichte, klassifizierte Dateien und mehr – mit dem AES-256-Bit-Datenverschlüsselungsstandard. Erstellen Sie automatische Verschlüsselungsmechanismen, um Dateien innerhalb eines Ordners zu verschlüsseln und sie mit gängigen Cloud-Speicheranbietern zu synchronisieren.&lt;br/&gt;&lt;br/&gt;AxCrypt ist die Nummer 1 der PCMag als "Beste Verschlüsselungssoftware" des Jahres 2025. Von 2016 bis 2025 war sie neun Jahre in Folge die Nummer 1. Es ist für Windows, Mac, iOS und Android verfügbar und kann Dateien automatisch verschlüsseln und mit gängigen Cloud-Speicherdiensten wie Google Drive, OneDrive und Dropbox synchronisieren.</value>
-  </data>
-  <data name="IndustriesGovernmentHeading" xml:space="preserve">
-    <value>Halten Sie die Vorschriften ein und bringen Sie Ihre Dateien auf den neuesten Stand der Vorschriften</value>
-  </data>
-  <data name="IndustriesGovernmentHeading1" xml:space="preserve">
-    <value>Wie schützt Verschlüsselung behördliche Daten?</value>
-  </data>
-  <data name="IndustriesGovernmentHeading2" xml:space="preserve">
-    <value>Schützen Sie Regierungsdaten mit AxCrypt</value>
-  </data>
-  <data name="IndustriesGovernmentParagraph" xml:space="preserve">
-    <value>AxCrypt unterstützt Regierungsbehörden und Unternehmen mit seinem leistungsstarken Verschlüsselungstool bei der Einhaltung von Compliance-Vorschriften und beim Schutz sensibler Daten. Bleiben Sie auf allen Geräten sicher und konform.</value>
-  </data>
-  <data name="IndustriesGovernmentTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;Behördlicher Datenschutz mit leistungsstarker Verschlüsselung&lt;br/&gt; mit AES-256. Sichere Regierungsdokumente&lt;/span&gt;&lt;span class='img4'&gt;,&lt;br/&gt; vertrauliche Berichte und mehr.&lt;/span&gt;&lt;span class='img5'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesGovernmentTrialInfo" xml:space="preserve">
-    <value>Finden Sie heraus, wie AxCrypt die Daten Ihrer Regierungsorganisation noch heute schützen kann. &lt;span&gt;Probieren Sie es 14 Tage lang kostenlos aus!&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHeadingCloud" xml:space="preserve">
-    <value>Cloud-Speicher-Bewusstsein und Passwort-Management</value>
-  </data>
-  <data name="IndustriesHeadingConfidentiality" xml:space="preserve">
-    <value>Vertraulichkeit und Integrität</value>
-  </data>
-  <data name="IndustriesHeadingProtection" xml:space="preserve">
-    <value>Datenschutz-Verordnung konform</value>
-  </data>
-  <data name="IndustriesHeadingSecurity" xml:space="preserve">
-    <value>Sicherheit, Zuverlässigkeit und Einfachheit</value>
-  </data>
-  <data name="IndustriesHeadingTeamwork" xml:space="preserve">
-    <value>Teamarbeit, Zusammenarbeit</value>
-  </data>
-  <data name="IndustriesHealthcareBenefitsText" xml:space="preserve">
-    <value>Das Gesundheitswesen erlebt einen exponentiellen Anstieg der Menge sensibler Daten, die täglich generiert werden. Von Patientendaten bis hin zu elektronischen Patientenakten (EHR) haben Gesundheitsdienstleister eine Menge zu schützen. Etwa &lt;b&gt;30 % des weltweiten Datenvolumens&lt;/b&gt; werden von der Gesundheitsbranche generiert, und es wird erwartet, dass diese Zahl in naher Zukunft enorm wachsen wird.&lt;br/&gt;&lt;br/&gt;Dieser exponentielle Anstieg der Daten im Gesundheitswesen macht sie auch sehr anfällig für verheerende Cyberangriffe und Datenschutzverletzungen. Das Gesundheitswesen hat von allen Branchen mit durchschnittlich 11 Millionen US-Dollar die &lt;b&gt;höchsten Kosten für eine Datenschutzverletzung&lt;/b&gt; und war im Jahr 2022 die &lt;b&gt;am dritthäufigsten angegriffene&lt;/b&gt; Branche. Angesichts dieser alarmierenden Statistiken ist es für Gesundheitsdienstleister von entscheidender Bedeutung, ihre Datensicherheit zu priorisieren, insbesondere bei ruhenden Daten. Glücklicherweise gibt es eine leistungsstarke und hochwirksame Maßnahme für sensible Gesundheitsdaten, die Verschlüsselung. Die Dateiverschlüsselung schützt eine Datei, indem ihr Inhalt umgewandelt wird, sodass sie für unbefugte Benutzer unlesbar und unentzifferbar wird.</value>
-  </data>
-  <data name="IndustriesHealthcareContent1" xml:space="preserve">
-    <value>Die Dateiverschlüsselung schafft einen starken Schutzschild für Ihre sensiblen Gesundheitsdaten und schützt vor Cyberangriffen und Datenschutzverletzungen. Es ist eine empfohlene Maßnahme von renommierten Institutionen und Organisationen wie NIST, IBM und Microsoft. Während des Verschlüsselungsprozesses werden Inhalte von Gesundheitsakten mithilfe von Verschlüsselungsalgorithmen und kryptografischen Schlüsseln in ein unlesbares und nicht entzifferbares Format umgewandelt.&lt;br/&gt;&lt;br/&gt;Durch die Transformation des Inhalts der Dateien wird sichergestellt, dass nur autorisierte Benutzer mit Zugriff auf die kryptografischen Schlüssel die verschlüsselten Dateien entschlüsseln und darauf zugreifen können. Verschlüsselte Dateien werden auch in den Händen von Cyber-Angreifern während einer Datenschutzverletzung ohne die spezifischen Entschlüsselungsschlüssel unbrauchbar gemacht.</value>
-  </data>
-  <data name="IndustriesHealthcareContent2" xml:space="preserve">
-    <value>&lt;b&gt;AxCrypt&lt;/b&gt; ist eine preisgekrönte Dateiverschlüsselungssoftware, die Ihre sensiblen Gesundheitsdateien mit dem AES-256-Algorithmus schützt. Es schützt &lt;b&gt;Patienteninformationen, elektronische Patientenakten (EHR), Versicherungsdaten&lt;/b&gt; und mehr. AxCrypt stellt sicher, dass Ihre Daten verschlüsselt und für &lt;b&gt;Unbefugte&lt;/b&gt; jederzeit unzugänglich bleiben, auch wenn Sie sie mit anderen teilen, und schützt so die &lt;b&gt;Privatsphäre&lt;/b&gt; Ihrer Gesundheitsorganisation und schützt sie vor Cyberangriffen und Verstößen. Es hilft Ihnen auch bei der einfachen Einhaltung von HIPAA.&lt;br/&gt;&lt;br/&gt;AxCrypt wurde von 2016 bis 2025 neun Jahre in Folge von &lt;b&gt;PCMag&lt;/b&gt; als "Beste Verschlüsselungssoftware" ausgezeichnet. Es ist für Windows, Mac, iOS und Android verfügbar und kann Dateien automatisch verschlüsseln und mit gängigen Cloud-Speicherdiensten wie Google Drive, OneDrive und Dropbox synchronisieren.</value>
-  </data>
-  <data name="IndustriesHealthcareHeading" xml:space="preserve">
-    <value>Sichern Sie sensible Gesundheitsakten und wichtige medizinische Dokumente.</value>
-  </data>
-  <data name="IndustriesHealthcareHeading1" xml:space="preserve">
-    <value>Dateiverschlüsselung schützt proaktiv Daten im Gesundheitswesen</value>
-  </data>
-  <data name="IndustriesHealthcareHeading2" xml:space="preserve">
-    <value>AxCrypt für Ihre Gesundheitsdaten</value>
-  </data>
-  <data name="IndustriesHealthcareParagraph" xml:space="preserve">
-    <value>AxCrypt hilft medizinischem Fachpersonal, sensible Patientendaten zu schützen und gleichzeitig den Datenschutz und die Einhaltung von HIPAA-Vorschriften zu gewährleisten. Schützen Sie Patientendaten ganz einfach auf allen Geräten.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesContent1" xml:space="preserve">
-    <value>Schützen Sie hochsensible elektronische Patientenakten (EHR) und andere medizinische Dateien mit unknackbarer Verschlüsselung.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesContent2" xml:space="preserve">
-    <value>Halten Sie HIPAA und DSGVO problemlos ein, indem Sie alle Gesundheitsdaten im Ruhezustand mit AES-256 verschlüsselt aufbewahren.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesContent3" xml:space="preserve">
-    <value>Erstellen Sie automatische Datensicherheits-Workflows mit einem Klick, indem Sie die automatische Verschlüsselung von Dateien auf Desktops und Cloud-Speicheranbietern aktivieren.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesSubHeading1" xml:space="preserve">
-    <value>Schutz von EHR-Daten</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesSubHeading2" xml:space="preserve">
-    <value>Einhaltung von HIPAA</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesSubHeading3" xml:space="preserve">
-    <value>Automatisierung der Sicherheit</value>
-  </data>
-  <data name="IndustriesHealthcareTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;Schutz von Patientenakten,&lt;/span&gt; Gesundheitsdaten, ePA,&lt;span class='img3'&gt;&lt;br/&gt;und halten Sie sich an HIPAA&lt;/span&gt;&lt;span class='img4'&gt;mit preisgekrönten&lt;br/&gt; Verschlüsselungssoftware&lt;/span&gt;&lt;span class='img5'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHealthcareTrialInfo" xml:space="preserve">
-    <value>Finden Sie noch heute heraus, wie AxCrypt die Daten Ihrer Gesundheitsorganisation schützen kann. &lt;span&gt;Probieren Sie es 14 Tage lang kostenlos aus!&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHeroButton" xml:space="preserve">
-    <value>Entdecken Sie AxCrypt Business</value>
-  </data>
-  <data name="IndustriesHeroText0" xml:space="preserve">
-    <value>Neudefinition der &lt;span&gt;Verschlüsselungslandschaft&lt;/span&gt; für ein &lt;span style=\"font-family: auto; font-style:italic; color:#494949;\"&gt;überragendes&lt;/span&gt; &lt;span&gt;Cybersicherheitserlebnis&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHeroText1" xml:space="preserve">
-    <value>Wir verändern die Art und Weise, wie Menschen kommunizieren und arbeiten. Mit unserer 256-Bit-Verschlüsselung erhöht AxCrypt die Datensicherheit und reduziert das Risiko von Verstößen, indem es eine benutzerfreundliche und benutzerfreundliche Verschlüsselungssoftware implementiert und Vertraulichkeit und Integrität schützt. Steigern Sie Ihre Produktivität und fragen Sie sich nicht mehr über Ihre Online-Privatsphäre. Nehmen Sie die volle Kontrolle über Ihre Daten zurück und erleben Sie digitales Vertrauen. Neugierig auf Verschlüsselung und verwandte Themen, werfen Sie einen Blick auf unsere wöchentlich aktualisierten &lt;a href="/blog"&gt;Blogs&lt;/a&gt;. Hier bei AxCrypt stehen wir Ihnen gerne zur Seite und beantworten Ihre Fragen zur Verschlüsselung.</value>
-  </data>
-  <data name="IndustriesHeroText2" xml:space="preserve">
-    <value>Kontaktieren Sie uns gerne unter &lt;a href="mailto:support@axcrypt.net"&gt;support@axcrypt.net&lt;/a&gt; und vergiss nicht, uns in den sozialen Medien zu folgen.</value>
-  </data>
-  <data name="IndustriesLegalBenefitsText" xml:space="preserve">
-    <value>Die Rechtsbranche lebt von Vertraulichkeit und Datenschutz. Von Verträgen und Kundeninformationen bis hin zu geistigem Eigentum und Rechtsstreitigkeiten haben Juristen einen ständigen Strom hochsensibler Informationen zu verarbeiten, die einen hervorragenden Schutz erfordern. Selbst eine kleine Sicherheitsverletzung kann verheerende Folgen haben und zu finanziellen Verlusten und Reputationsschäden führen.&lt;br/&gt;&lt;br/&gt; AxCrypt ist sich der kritischen Notwendigkeit einer robusten Datensicherheit im Rechtsbereich bewusst. Unsere preisgekrönte Dateiverschlüsselungssoftware ermöglicht es Juristen, ihre vertraulichen Informationen in jeder Phase zu schützen, die Einhaltung von Datenschutzbestimmungen zu gewährleisten und ein Klima des Vertrauens mit Kunden zu fördern.&lt;br/&gt;&lt;br/&gt; Egal, ob Sie an einem komplexen Rechtsstreit zusammenarbeiten, sensible Kundenverträge verwalten oder vertrauliche Dokumente austauschen, AxCrypt bietet eine einfache, aber leistungsstarke Lösung. Unsere Verschlüsselungsfunktionen für unterwegs gewährleisten eine sichere Dateifreigabe mit Kollegen und Kunden, während die Integration des Cloud-Speichers einen bequemen Zugriff auf verschlüsselte Daten von jedem Gerät aus ermöglicht. Darüber hinaus optimieren die automatischen Verschlüsselungsfunktionen von AxCrypt Arbeitsabläufe und schützen sensible Dokumente in dem Moment, in dem sie erstellt oder bearbeitet werden.</value>
-  </data>
-  <data name="IndustriesLegalContent1" xml:space="preserve">
-    <value>Die Verschlüsselung als Prozess wandelt den Inhalt jeder legalen Datei mithilfe eines Verschlüsselungsschlüssels in ein unlesbares und nicht entschlüsselbares Format um. Mit einem Verschlüsselungsalgorithmus wie AES wird der Inhalt einer Datei neu angeordnet, verschoben, ersetzt und gemischt. Die mit dem Algorithmus verwendeten Verschlüsselungsschlüssel bestimmen die genaue Reihenfolge dieser Transformationen und ermöglichen die Umkehrung des Verschlüsselungsprozesses (Entschlüsselung), um den Inhalt einer Datei in ihren ursprünglichen Zustand zurückzuversetzen.&lt;br/&gt;&lt;br/&gt;Im Gegensatz zu alternativen Sicherheitsmethoden wie dem Passwortschutz, der die Dateien einfach sperrt, bietet die Dateiverschlüsselung mit dem AES-256 eine unzerbrechliche Sicherheitsmaßnahme. Mit einer Schlüssellänge von 256 ist es selbst mit den leistungsstärksten heute verfügbaren Supercomputern praktisch unmöglich, eine verschlüsselte Datei zu knacken.&lt;br/&gt;&lt;br/&gt;Dieser komplexe Prozess stellt sicher, dass sensible Dateien wie Verträge und Kundendaten usw., sind jederzeit geschützt, und nur die autorisierten Benutzer mit Zugriff auf Schlüssel können die Dateien entschlüsseln.</value>
-  </data>
-  <data name="IndustriesLegalContent2" xml:space="preserve">
-    <value>Die preisgekrönte und Zero-Knowledge-Dateiverschlüsselungssoftware von AxCrypt schützt Ihre sensiblen rechtlichen Daten mit einem Klick. Schützen Sie Dateien wie wichtige Fallakten, Patentdokumente, Kundenakten, vertrauliche Dokumente und mehr – mit dem AES-256-Bit-Datenverschlüsselungsstandard. Erstellen Sie automatische Verschlüsselungsmechanismen, um Dateien innerhalb eines Ordners zu verschlüsseln und sie mit gängigen Cloud-Speicheranbietern zu synchronisieren.&lt;br/&gt;&lt;br/&gt;AxCrypt ist die Nummer 1 von PCMag als "Beste Verschlüsselungssoftware" im Jahr 2025. Seit 2016 ist es neun Jahre in Folge die Nummer 1. AxCrypt ist für Windows, Mac, iOS und Android verfügbar und kann Dateien automatisch verschlüsseln und mit beliebten Cloud-Speicherdiensten wie Google Drive, OneDrive und Dropbox synchronisieren.</value>
-  </data>
-  <data name="IndustriesLegalDataSecutityContent1" xml:space="preserve">
-    <value>Schutz hochsensibler Rechtsdaten wie Fallakten, wichtige Verträge, vertrauliche Dokumente, Kundenakten und mehr mit einem Klick.</value>
-  </data>
-  <data name="IndustriesLegalDataSecutityHeading" xml:space="preserve">
-    <value>Unterstützung von Anwaltskanzleien mit&lt;br/&gt;&lt;span&gt;Best Practices für die Datensicherheit&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesLegalDataSecutitySubHeading1" xml:space="preserve">
-    <value>Rechtliche Akten schützen</value>
-  </data>
-  <data name="IndustriesLegalHeading" xml:space="preserve">
-    <value>Schützen Sie juristische Daten mit dem unknackbaren AES-256</value>
-  </data>
-  <data name="IndustriesLegalHeading1" xml:space="preserve">
-    <value>Wie schützt Verschlüsselung &lt;br/&gt;legale Daten?</value>
-  </data>
-  <data name="IndustriesLegalHeading2" xml:space="preserve">
-    <value>Rechtliche Daten schützen &lt;br/&gt;mit AxCrypt</value>
-  </data>
-  <data name="IndustriesLegalParagraph" xml:space="preserve">
-    <value>AxCrypt bietet maßgeschneiderte Datenschutzlösungen für den Rechtsbereich, die die Sicherheit sensibler Dokumente, Verträge und Kundenkommunikation mit AES-256-Bit-Verschlüsselung gewährleisten. Unsere intuitive Benutzeroberfläche vereinfacht die Verschlüsselung und verbessert den Schutz vor Datenschutzverletzungen und -lecks.</value>
-  </data>
-  <data name="IndustriesLegalTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;Gesetzlicher Datenschutz: sichere Verträge, Kundenunterlagen,&lt;br/&gt;vertrauliche Falldokumente&lt;/span&gt; &lt;span class='img4'&gt; und mehr &lt;br/&gt; mit AES-256-Verschlüsselung.&lt;/span&gt;&lt;span class='img5'n&gt;</value>
-  </data>
-  <data name="IndustriesLegalTrialInfo" xml:space="preserve">
-    <value>Finden Sie heraus, wie AxCrypt die Daten Ihrer Anwaltskanzlei schützen kann. &lt;span&gt;Probieren Sie es 14 Tage lang kostenlos aus!&lt;span&gt;</value>
-  </data>
   <data name="IndustriesLinkLabel" xml:space="preserve">
     <value>Industrie</value>
-  </data>
-  <data name="IndustriesStatistic1" xml:space="preserve">
-    <value>Kunden Weltweit</value>
-  </data>
-  <data name="IndustriesStatistic2" xml:space="preserve">
-    <value>PCMag Editors' Choice</value>
-  </data>
-  <data name="IndustriesStatistic3" xml:space="preserve">
-    <value>Benutzer-downloads</value>
-  </data>
-  <data name="IndustriesStatistic4" xml:space="preserve">
-    <value>Sprachen</value>
-  </data>
-  <data name="IndustriesTechBenefitsText" xml:space="preserve">
-    <value>Der Technologie- und IT-Sektor gehört heute zu den am stärksten betroffenen Sektoren in Bezug auf Datenschutzverletzungen, Ransomware-Angriffe und Cyberbedrohungen.&lt;br/&gt;&lt;br/&gt;Ransomware-Angriffe im IT-Sektor sind im Jahr 2023 um &lt;b&gt;47% gestiegen.&lt;/b&gt; Darüber hinaus haben &lt;b&gt;43% der Unternehmen im vergangenen Jahr ein Compliance-Audit nicht bestanden&lt;/b&gt;, wodurch sie 10-mal anfälliger für Datenschutzverletzungen sind.&lt;br/&gt;&lt;br/&gt;Diese alarmierenden Trends unterstreichen die große Bedeutung der Datenverschlüsselung im IT-Bereich. Die Verschlüsselung ruhender Daten fungiert als Schutzschild für IT-Dateien und schützt sie jederzeit vor unbefugtem Zugriff. Es schützt sensible Daten und hilft bei der Einhaltung von Vorschriften wie DSGVO, HIPAA, FIPs usw. und gibt Organisationen die Kontrolle über ihre Datenschutz- und Sicherheitsmaßnahmen.</value>
-  </data>
-  <data name="IndustriesTechConfidentiality" xml:space="preserve">
-    <value>Verwenden Sie den Hauptschlüssel, eine Funktion, mit der Geschäftsadministratoren Dateien der Geschäftsmitglieder wiederherstellen können, wodurch das Risiko des Verlusts des Zugriffs auf kritische Dateien aufgrund des Verlassens oder Vergessens ihrer Passwörter durch Mitarbeiter vermieden wird.</value>
-  </data>
-  <data name="IndustriesTechContent1" xml:space="preserve">
-    <value>Die Dateiverschlüsselung mit dem Advanced Encryption Standard (AES-256) ist eine Sicherheitsmaßnahme, die von renommierten Institutionen und Organisationen wie NIST, IBM und Microsoft empfohlen wird. Die Dateiverschlüsselung schafft einen robusten Schutzschild für die sensiblen IT-Daten Ihres Unternehmens.&lt;br/&gt;&lt;br/&gt;Im Gegensatz zu alternativen Sicherheitsmethoden wie dem Passwortschutz von Dateien bietet die AES-256-Bit-Verschlüsselung eine unknackbare Sicherheitsmaßnahme. Mit einer Schlüssellänge von 256 wird es praktisch unmöglich, eine verschlüsselte Datei zu knacken, selbst mit den leistungsfähigsten Supercomputern, die es heute gibt.&lt;br/&gt;&lt;br/&gt;Anstatt sie einfach zu sperren, wandelt die Verschlüsselung den Inhalt einer Datei in einen unlesbaren und verschlüsselten Text um. Mit einem Verschlüsselungsalgorithmus wie AES wird der Inhalt einer Datei neu angeordnet, verschoben, ersetzt und vermischt. Die mit dem Algorithmus verwendeten Verschlüsselungsschlüssel geben die genaue Reihenfolge dieser Transformationen vor, sodass der Verschlüsselungsprozess rückgängig gemacht werden kann, um den Inhalt einer Datei in seinen ursprünglichen Zustand zurückzuversetzen.&lt;br/&gt;Dieser komplexe Prozess stellt sicher, dass sensible Dateien jederzeit geschützt sind und nur autorisierte Benutzer mit Zugriff auf Schlüssel die Dateien entschlüsseln können.</value>
-  </data>
-  <data name="IndustriesTechContent2" xml:space="preserve">
-    <value>Die preisgekrönte und Zero-Knowledge-Dateiverschlüsselungssoftware von AxCrypt schützt Ihre IT-Daten mit einem Klick. Sichern Sie Dateien wie wichtige Quellcodes und Projektdateien, Geschäfts- und Finanz-PDFs, vertrauliche Kundenkommunikationsdaten, Personaldokumente und mehr – mit AES-256-Bit-Datenverschlüsselungsstandard. Erstellen Sie automatische Verschlüsselungsmechanismen, um Dateien innerhalb eines Ordners zu verschlüsseln und sie mit gängigen Cloud-Speicheranbietern zu synchronisieren.&lt;br/&gt;&lt;br/&gt;AxCrypt war von 2016 bis 2025 neun Jahre in Folge die Nummer 1 der &lt;b&gt;PCMag als "Beste Verschlüsselungssoftware"&lt;/b&gt;. Es ist für Windows, Mac, iOS und Android verfügbar und kann Dateien automatisch verschlüsseln und mit gängigen Cloud-Speicherdiensten wie Google Drive, OneDrive und Dropbox synchronisieren.</value>
-  </data>
-  <data name="IndustriesTechHeading" xml:space="preserve">
-    <value>Hervorragender Datenschutz mit AES-256-Bit-Verschlüsselung</value>
-  </data>
-  <data name="IndustriesTechHeading1" xml:space="preserve">
-    <value>AES-256-Dateiverschlüsselung für den IT-Datenschutz</value>
-  </data>
-  <data name="IndustriesTechHeading2" xml:space="preserve">
-    <value>AxCrypt für Ihre IT-Daten</value>
-  </data>
-  <data name="IndustriesTechParagraph" xml:space="preserve">
-    <value>Mit einer einfach zu bedienenden und intuitiven Benutzeroberfläche verschlüsseln Sie Ihre sensiblen Daten und verhindern sie vor schädlichen Datenschutzverletzungen und Datenlecks. AxCrypt ist sicher, einfach, zuverlässig und kollaborativ.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesContent1" xml:space="preserve">
-    <value>Schützen Sie hochsensible IT-Daten wie Kundendatensätze, Geschäfts- und Finanzdokumente, HR-Dateien und mehr mit einem Klick.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesContent2" xml:space="preserve">
-    <value>Mit unserer Software können Sie ganz einfach die Datenvorschriften für Ihr Technologieunternehmen wie DSGVO, HIPAA, FIPs usw. einhalten.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesContent3" xml:space="preserve">
-    <value>Erstellen Sie automatische Datensicherheit-Workflows mit einem Klick, indem Sie die automatische Verschlüsselung von Dateien auf Desktops und Cloud-Speicheranbietern aktivieren.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesHeading" xml:space="preserve">
-    <value>Leistungsstarke Anwendungsfälle für Ihre IT-Daten mit &lt;span&gt;AxCrypt&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesSubHeading1" xml:space="preserve">
-    <value>Schutz von IT-Daten</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesSubHeading2" xml:space="preserve">
-    <value>Einhaltung von Vorschriften</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesSubHeading3" xml:space="preserve">
-    <value>Automatisierung der Datensicherheit</value>
-  </data>
-  <data name="IndustriesTechTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;Leistungsstarke Verschlüsselung für Ihre technischen Daten mit AES-256.&lt;br/&gt;Schutz sensibler Kundendatensätze und Quellcodes&lt;/span&gt; &lt;span class='img4'&gt;&lt;br/&gt;&amp; Projektakten, Geschäftsdokumente&lt;br/&gt;und vieles mehr.&lt;span class='img5'&gt;&lt;/span&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesTechTrialInfo" xml:space="preserve">
-    <value>Finden Sie heraus, wie AxCrypt die Daten Ihrer IT-Organisation noch heute schützen kann.&lt;br/&gt;&lt;span&gt;Probieren Sie es 14 Tage lang kostenlos aus! &lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesTitle" xml:space="preserve">
-    <value>Industrien</value>
   </data>
   <data name="InformationLinkLabel" xml:space="preserve">
     <value>Information</value>
@@ -23857,9 +23659,6 @@ Ihr Passwort wird nicht auf dem Server gespeichert und die Verbindung ist immer 
   <data name="InvalidSubFolder" xml:space="preserve">
     <value>Der ausgewählte Ordner ist kein gültiger Unterordner</value>
   </data>
-  <data name="InvalidVaultFolderErrorMessage" xml:space="preserve">
-    <value>Ihr Vault-Ordner ist momentan nicht verfügbar. &lt;br/&gt;&lt;br/&gt;Er wurde möglicherweise verschoben oder gelöscht. Bitte überprüfen Sie den Speicherort des Ordners oder wählen Sie einen anderen Vault-Ordner.</value>
-  </data>
   <data name="InvalidVaultSetting" xml:space="preserve">
     <value>Der konfigurierte Vault-Ordnerpfad ist entweder ungültig oder nicht zugänglich. Aktualisiere die Vault-Einstellungen mit einem gültigen Pfad, um fortzufahren.</value>
   </data>
@@ -24047,6 +23846,9 @@ SCHWEDEN</value>
   <data name="KeepCloudDataPrivatePopup" xml:space="preserve">
     <value>Cloud-Daten privat halten</value>
   </data>
+  <data name="KeepFilePasswordForRemainingFilesText" xml:space="preserve">
+    <value>Speichern Sie das Dateipasswort für alle verbleibenden Dateien</value>
+  </data>
   <data name="KeepFolderStructurePopup" xml:space="preserve">
     <value>Die Ordnerstruktur organisiert halten</value>
   </data>
@@ -24135,7 +23937,7 @@ Ein Empfänger ist von der AxCrypt ID E-Mail identifiziert, aber wir schicken di
     <value>&lt;strong&gt;📝 Blog&lt;/strong&gt;</value>
   </data>
   <data name="KeyShareGuideWhatsNextText1" xml:space="preserve">
-    <value>&lt;a href='/helpcenter/guides-section/'&gt;How to Encrypt &amp; Decrypt Files with AxCrypt | Step-by-Step Guide&lt;/a&gt;</value>
+    <value>&lt;a href='/helpcenter/#guides-section'&gt;How to Encrypt &amp; Decrypt Files with AxCrypt | Step-by-Step Guide&lt;/a&gt;</value>
   </data>
   <data name="KeyShareGuideWhatsNextText2" xml:space="preserve">
     <value>Secured Messenger ist eine sichere, Ende-zu-Ende-verschlüsselte Messaging-Funktion, die in AxCrypt integriert ist: &lt;/br&gt; &lt;a href='/guides/securedmessenger/'&gt;AxCrypt Secured Messenger | End-to-End Encrypted Messaging for Complete Privacy&lt;/a&gt;</value>
@@ -24814,6 +24616,9 @@ Automatische Konvertierung von AxCrypt 1.x Dateien aktivieren (empfohlen)?</valu
   <data name="ManagementSuccess" xml:space="preserve">
     <value>Die site-management-Eigenschaft wurde erfolgreich aktualisiert.</value>
   </data>
+  <data name="ManageRecoveryKeyText" xml:space="preserve">
+    <value>Verwalten Sie Ihren Wiederherstellungsschlüssel und Ihren Backup-Zugriff</value>
+  </data>
   <data name="ManageSubscriptionResellerInfo" xml:space="preserve">
     <value>Dieses Konto wird von einem Reseller verwaltet. Der Reseller kann dem Konto neue Benutzer hinzufügen und Zahlungen verwalten. Hinweis: Resellers erhalten KEINEN Zugriff auf verschlüsselte Informationen, einschließlich mit dem Hauptschlüssel gesicherter Dateien.</value>
   </data>
@@ -24975,6 +24780,9 @@ Automatische Konvertierung von AxCrypt 1.x Dateien aktivieren (empfohlen)?</valu
   </data>
   <data name="MaximumNotExceedCharactersNotification" xml:space="preserve">
     <value>Der Text darf nicht überschreiten {0} Zeichen.</value>
+  </data>
+  <data name="MaximumSharePeopleReachedText" xml:space="preserve">
+    <value>Maximum von {0} Menschen erreichten.</value>
   </data>
   <data name="MaxUsersCountText" xml:space="preserve">
     <value>Sie dürfen nicht mehr Nutzer hinzufügen als die maximal zulässige Anzahl({0}).</value>
@@ -27141,6 +26949,9 @@ einen beliebigen Multifaktor-Typ (Authenticator-App, E-Mail und SMS).</value>
   <data name="NoFilesFoundText" xml:space="preserve">
     <value>Keine Datei gefunden</value>
   </data>
+  <data name="NoInternetAccessText" xml:space="preserve">
+    <value>Kein Internetzugang, bitte überprüfen Sie Ihre Internetverbindung.</value>
+  </data>
   <data name="NoInternetErrorMessage" xml:space="preserve">
     <value>Kann im Moment keine Verbindung zum Server herstellen, bitte überprüfen Sie Ihre Internetverbindung</value>
     <comment>Message which is displayed when device doesn't have internet connection.</comment>
@@ -27159,6 +26970,9 @@ einen beliebigen Multifaktor-Typ (Authenticator-App, E-Mail und SMS).</value>
   </data>
   <data name="NoLogToExportText" xml:space="preserve">
     <value>Es gibt kein Protokoll zum Exportieren!</value>
+  </data>
+  <data name="NoMatchingUsersFoundText" xml:space="preserve">
+    <value>Keine passenden Nutzer gefunden</value>
   </data>
   <data name="NoMessagesFoundText" xml:space="preserve">
     <value>(Keine Nachrichten gefunden.)</value>
@@ -27302,6 +27116,9 @@ Um zur Startseite zurückzukehren, klicken Sie &lt;a href="{1}"&gt;hier&lt;/a&gt
   </data>
   <data name="OnceText" xml:space="preserve">
     <value>Einmal</value>
+  </data>
+  <data name="OneDriveSessionExpiredText" xml:space="preserve">
+    <value>Ihre One-Drive-Sitzung ist abgelaufen oder nicht mehr gültig. Bitte melden Sie sich erneut mit Ihrem One-Drive-Konto an.</value>
   </data>
   <data name="OneFreeMonthLabel" xml:space="preserve">
     <value>14 Tage kostenlos</value>
@@ -27745,11 +27562,17 @@ Ihre Passwörter werden in einem sicher verschlüsselten Archiv gespeichert und 
   <data name="PasswordPolicyViolation" xml:space="preserve">
     <value>Das Passwort ist nicht gut genug, um annehmbar zu sein.</value>
   </data>
+  <data name="PasswordRequiredText" xml:space="preserve">
+    <value>Passwort ist erforderlich</value>
+  </data>
   <data name="PasswordRequirementMinLength" xml:space="preserve">
     <value>8+ Zeichen</value>
   </data>
   <data name="PasswordRequirementNumber" xml:space="preserve">
     <value>Mindestens eine Nummer</value>
+  </data>
+  <data name="PasswordRequirementsText" xml:space="preserve">
+    <value>8+ Zeichen, Groß- und Kleinbuchstaben, Zahlen und Symbole.</value>
   </data>
   <data name="PasswordRequirementSymbol" xml:space="preserve">
     <value>Mindestens ein Symbol</value>
@@ -27833,6 +27656,9 @@ Leerraum und Teile, die gleich zu üblichen Passwörtern sind werden ignoriert u
   </data>
   <data name="PasswordSpecialCharacter" xml:space="preserve">
     <value>1 Sonderzeichen wie</value>
+  </data>
+  <data name="PasswordStoredSecurelyText" xml:space="preserve">
+    <value>Dieses Passwort wird sicher gespeichert und gespeichert, bis du alle Einstellungen gelöscht oder die App deinstalliert hast.</value>
   </data>
   <data name="PasswordStrengthBadName" xml:space="preserve">
     <value>Schwach</value>
@@ -28303,6 +28129,9 @@ Leerraum und Teile, die gleich zu üblichen Passwörtern sind werden ignoriert u
   </data>
   <data name="PremiumSecondBodyText2" xml:space="preserve">
     <value>Sie können Ihr Abonnement jederzeit kündigen. Wenn Sie dies tun, bevor der Prozess endet, werden Sie nichts berechnet. Danach wird Ihr Konto auf die Free version zurückfallen.</value>
+  </data>
+  <data name="PremiumShareLimitText" xml:space="preserve">
+    <value>Prämie: mit bis zu 2 Personen teilen</value>
   </data>
   <data name="PremiumSupportInfo" xml:space="preserve">
     <value>Willkommen beim AxCrypt-Support. Wir geben unseren Premium-Kunden priorisierten und persönlichen Direktsupport per E-Mail.</value>
@@ -29666,6 +29495,12 @@ Bitte &lt;a href="mailto:passwordmanager@axcrypt.net"&gt;contact us&lt;/a&gt; un
   <data name="RecipientInputHint" xml:space="preserve">
     <value>Drücken &lt;kbd&gt;Enter&lt;/kbd&gt; Sie oder &lt;kbd&gt;,&lt;/kbd&gt; fügen Sie jeden Empfänger hinzu. Klicken Sie auf einen Chip, um ihn zu bearbeiten.</value>
   </data>
+  <data name="RecoveryAccessAlwaysEnabledText" xml:space="preserve">
+    <value>Immer aktiviert, damit du deine Dateien wiederherstellen kannst, falls du dein Dateipasswort vergisst.</value>
+  </data>
+  <data name="RecoveryOptionsText" xml:space="preserve">
+    <value>Wiederherstellungsoptionen</value>
+  </data>
   <data name="RedHatDownloadLinkTooltip" xml:space="preserve">
     <value>Sicherer, zuverlässiger Dateischutz für Red Hat-Systeme.&lt;br/&gt;Funktioniert auf &lt;b&gt;RHEL 8 und neuer&lt;/b&gt;.</value>
   </data>
@@ -30250,7 +30085,7 @@ Natürlich wird Ihnen keine Lizenz zugewiesen.</value>
     <value>Marketing</value>
   </data>
   <data name="ResellerHelpSupportBlock1ListItem1" xml:space="preserve">
-    <value>FAQ: &lt;a href='https://www.axcrypt.net/information/faq'&gt;https://www.axcrypt.net/information/faq&lt;/a&gt;</value>
+    <value>FAQ: &lt;a href='https://www.axcrypt.net/support/faq'&gt;https://www.axcrypt.net/support/faq&lt;/a&gt;</value>
   </data>
   <data name="ResellerHelpSupportBlock1ListItem2" xml:space="preserve">
     <value>Business Abonnement: &lt;a href='https://www.axcrypt.net/information/axcrypt-business'&gt;https://www.axcrypt.net/information/axcrypt-business&lt;/a&gt;</value>
@@ -30403,6 +30238,9 @@ Natürlich wird Ihnen keine Lizenz zugewiesen.</value>
   </data>
   <data name="SaveCardsAndSecureNotesFeature" xml:space="preserve">
     <value>Speicherkarten und sichere Notizen</value>
+  </data>
+  <data name="SavedToText" xml:space="preserve">
+    <value>Gespeichert zu:</value>
   </data>
   <data name="SaveSecretErrorIsReadOnly" xml:space="preserve">
     <value>Nur Benutzer mit einem gültigen Abonnement Plan können Passworteinträge speichern.</value>
@@ -30896,6 +30734,9 @@ Wie werden die Optionen &lt;span&gt;Share Key Options&lt;/span&gt; in der Cloud-
   <data name="SecureEncryptedVaultPopup" xml:space="preserve">
     <value>Sicherer verschlüsselter Vault</value>
   </data>
+  <data name="SecureFilesThreeWaysVideoTitle" xml:space="preserve">
+    <value>Dateien auf 3 einfache Arten sichern</value>
+  </data>
   <data name="SecureFoldersAndCloudStorageSyncMessage" xml:space="preserve">
     <value>Sichere Ordner &amp; Cloud-Speicher-Synchronisation</value>
   </data>
@@ -31172,6 +31013,9 @@ Wie werden die Optionen &lt;span&gt;Share Key Options&lt;/span&gt; in der Cloud-
   <data name="SentText" xml:space="preserve">
     <value>Gesendet</value>
   </data>
+  <data name="SeparateFromAccountPasswordText" xml:space="preserve">
+    <value>Das ist unabhängig von deinem AxCrypt-Konto-Passwort. Jeder, der die Datei öffnet, wird danach gefragt.</value>
+  </data>
   <data name="ServerStatusLabel" xml:space="preserve">
     <value>Serverstatus</value>
   </data>
@@ -31185,8 +31029,14 @@ Wie werden die Optionen &lt;span&gt;Share Key Options&lt;/span&gt; in der Cloud-
     <value>Email einstellen</value>
     <comment>Title of SetEmail step on SignUp page in mobile application</comment>
   </data>
+  <data name="SetFilePasswordText" xml:space="preserve">
+    <value>Dateipasswort festlegen</value>
+  </data>
   <data name="SetPasswordText" xml:space="preserve">
     <value>Legen Sie ein sicheres Passwort für Ihre AxCrypt-ID fest oder wählen Sie unsere Option zum Passwortvorschlag.</value>
+  </data>
+  <data name="SetPasswordText1" xml:space="preserve">
+    <value>Passwort festlegen</value>
   </data>
   <data name="SettingDeleteUsrCnfrmText" xml:space="preserve">
     <value>Sind Sie sicher, dass Sie Ihr Konto löschen möchten?</value>
@@ -31342,6 +31192,9 @@ Bitte ziehen Sie es in Erwägung '{0}' direkt über die AxCrypt Datensicherheit 
   <data name="ShareWithOthersTitle" xml:space="preserve">
     <value>Einfacher Zugang zu Passwörtern</value>
     <comment>Title of "Share With Others" slide on Onboarding screen in mobile application.</comment>
+  </data>
+  <data name="ShareWithPeopleText" xml:space="preserve">
+    <value>Mit Menschen teilen</value>
   </data>
   <data name="SharingCollaborationTitle" xml:space="preserve">
     <value>Austausch &amp; Zusammenarbeit
@@ -31874,9 +31727,6 @@ Bitte besuchen Sie unseren &lt;a href="{0}"&gt;community support&lt;/a&gt;.</val
   </data>
   <data name="TechnicalDetailsSourceCodeHeading" xml:space="preserve">
     <value>Quellcode</value>
-  </data>
-  <data name="TechnicalDetailsSourceCodeText" xml:space="preserve">
-    <value>Der komplette Quellcode für die Core-Bibliotheken und den Windows-Client befand sich früher in einem Mercurial-Repository in Bitbucket. Aber im Sommer 2020 hat Bitbucket den Mercurial-Support eingestellt und wir arbeiten aktiv daran, eine alternative Lösung zu finden, um den Quellcode leicht verfügbar zu machen. Bitte kontaktieren Sie support@axcrypt.net und wir werden Ihnen den Quellcode zur Verfügung stellen.</value>
   </data>
   <data name="TechnicalDetailsStoredOnServerHeading" xml:space="preserve">
     <value>Was ist auf dem server gespeichert?</value>
@@ -32814,6 +32664,9 @@ Das AxCrypt Team</value>
   <data name="UpgradeText" xml:space="preserve">
     <value>Upgrade</value>
   </data>
+  <data name="UpgradeToAutoShareText" xml:space="preserve">
+    <value>Upgrade auf Premium oder Business, um verschlüsselte Dateien automatisch mit ausgewählten Personen zu teilen.</value>
+  </data>
   <data name="UpgradeToUnlockEncryptionText" xml:space="preserve">
     <value>Aktualisieren Sie Ihr System, &lt;span&gt;Encryption &amp; more features!&lt;/span&gt; um freizuschalten!</value>
   </data>
@@ -33068,9 +32921,6 @@ Das AxCrypt Team</value>
   </data>
   <data name="VaultFolderNotConfiguredMessage" xml:space="preserve">
     <value>Kein Ordner wurde als Tresor konfiguriert. Bitte konfigurieren Sie den Vault-Ordner und versuchen Sie es erneut.</value>
-  </data>
-  <data name="VaultFolderUnavailableMessage" xml:space="preserve">
-    <value>Dein Tresorordner ist derzeit nicht verfügbar. &lt;br/&gt;&lt;br/&gt;Es könnte verschoben oder gelöscht worden sein. Bitte überprüfen Sie den Ordnerstandort oder wählen Sie einen anderen Tresor.</value>
   </data>
   <data name="VaultGuideCarouselText1" xml:space="preserve">
     <value>Bitte konfigurieren Sie den Vault, indem Sie zu Einstellungen → Erweiterten Einstellungen → Vault-Einstellungen navigieren.</value>

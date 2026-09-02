@@ -660,11 +660,17 @@ Lägg till Kort</value>
     <value>Öppna AxCrypt-fil</value>
     <comment>Tooltip for "AddFile" button in mobile application</comment>
   </data>
+  <data name="AddFilePasswordText" xml:space="preserve">
+    <value>Lägg Till Fillösenord</value>
+  </data>
   <data name="AddFirstFolderText" xml:space="preserve">
     <value>Lägg till och skydda din första mapp.</value>
   </data>
   <data name="AddFirstPasswordText" xml:space="preserve">
     <value>Lägg till och skydda ditt första lösenord.</value>
+  </data>
+  <data name="AddingText" xml:space="preserve">
+    <value>Lägger till</value>
   </data>
   <data name="AdditionalUnsubscribedConfirmation" xml:space="preserve">
     <value>Vi kommer fortfarande att skicka e-post om det är kritiskt för funktionen eller säkerheten i AxCrypt.</value>
@@ -707,6 +713,9 @@ Lägg till Kort</value>
   <data name="AddSecureFolderTitle" xml:space="preserve">
     <value>Välj en mapp som skall säkras med AxCrypt. Befintliga filer kommer att krypteras.</value>
     <comment>Displayed as prompt, title or description when adding a new secure folder via a folder browser.</comment>
+  </data>
+  <data name="AddSharePeopleDescriptionText" xml:space="preserve">
+    <value>Lägg ihop till {0} personer som kan öppna dessa filer med sitt eget AxCrypt-konto.</value>
   </data>
   <data name="AddToGroupText" xml:space="preserve">
     <value>Lägg till i grupp</value>
@@ -903,6 +912,9 @@ Logga nu in med samma lösenord som du angav då.</value>
     <value>Om Alltid Frånkopplad aktiveras, kommer ingen Internetåtkomst att krävas eller användas tills funktionen avaktiveras.</value>
     <comment>A tool tip explaining that this causes AxCrypt never to access the Internet.</comment>
   </data>
+  <data name="AlwaysOnText" xml:space="preserve">
+    <value>Alltid på</value>
+  </data>
   <data name="AlwaysText" xml:space="preserve">
     <value>Alltid.</value>
   </data>
@@ -1083,6 +1095,12 @@ Logga nu in med samma lösenord som du angav då.</value>
   </data>
   <data name="AutomaticFileUpdatingText" xml:space="preserve">
     <value>Automatisk uppdatering av den säkrade filen efter att ha öppnats och sparats.</value>
+  </data>
+  <data name="Autoshare files on encryption" xml:space="preserve">
+    <value>AutoShareFilesOnEncryptionText</value>
+  </data>
+  <data name="AutoShareFilesDescriptionText" xml:space="preserve">
+    <value>Dela automatiskt krypterade filer med personer du väljer, så att de kan öppna dem med sitt eget AxCrypt-konto.</value>
   </data>
   <data name="AutoUpgradeFilesAES256" xml:space="preserve">
     <value>Automatisk uppgradering av filer till AES-256</value>
@@ -17438,6 +17456,9 @@ Nyckelbegrepp för Zero Trust</value>
   <data name="BusinessProductStrongText9" xml:space="preserve">
     <value>Stöd som finns där när du behöver det</value>
   </data>
+  <data name="BusinessShareLimitText" xml:space="preserve">
+    <value>Företag: dela med upp till 3 personer</value>
+  </data>
   <data name="BusinessSubscriptionAddButtonLabel" xml:space="preserve">
     <value>Ny</value>
     <comment>A label or word used in a button when adding members to a subscription.</comment>
@@ -18137,6 +18158,9 @@ Du måste slutföra dessa steg för att processen skall fullföljas.</value>
   <data name="CloudServicesText" xml:space="preserve">
     <value>Molntjänster</value>
   </data>
+  <data name="CloudStoragePermissionRequestText" xml:space="preserve">
+    <value>AxCrypt behöver ditt tillstånd för att få tillgång till din {0} att öppna, kryptera, dekryptera och säkert nyckeldela dina filer.\nDin integritet är vår prioritet — vi lagrar aldrig dina filer eller delar dina data.\n\nVill du ansluta nu?</value>
+  </data>
   <data name="ColorPaletteLabel" xml:space="preserve">
     <value>Färgpalett</value>
   </data>
@@ -18420,6 +18444,12 @@ Du måste slutföra dessa steg för att processen skall fullföljas.</value>
   </data>
   <data name="ConfigurationSuccess" xml:space="preserve">
     <value>Inställningarna för programkonfiguration har uppdaterats. Du kanske måste starta om servern för att se till att ändringarna går igenom.</value>
+  </data>
+  <data name="ConfigureDefaultEncryptionText" xml:space="preserve">
+    <value>Konfigurera hur filer krypteras som standard</value>
+  </data>
+  <data name="ConfigureDefaultEncryptionText1" xml:space="preserve">
+    <value>Konfigurera hur filer krypteras som standard</value>
   </data>
   <data name="ConfigureVault" xml:space="preserve">
     <value>Vänligen konfigurera Valvet genom att navigera till Inställningar → Avancerade inställningar → Valvinställningar.</value>
@@ -19444,7 +19474,7 @@ Vi är ledsna att du lämnar oss, men vi hoppas du uppskattat AxCrypt.</value>
     <value>Andra nedladdningar</value>
   </data>
   <data name="DownloadOtherSourceCodeSubtitle" xml:space="preserve">
-    <value>Tekniska detaljer</value>
+    <value>Öppen källkodsarkiv</value>
   </data>
   <data name="DownloadOtherSourceCodeTitle" xml:space="preserve">
     <value>Källkod</value>
@@ -19538,6 +19568,9 @@ Vi är ledsna att du lämnar oss, men vi hoppas du uppskattat AxCrypt.</value>
   </data>
   <data name="DownloadWindowsX64Title" xml:space="preserve">
     <value>Windows (x64)</value>
+  </data>
+  <data name="DropboxSessionExpiredText" xml:space="preserve">
+    <value>Din Drop Box-session har gått ut eller är inte längre giltig. Logga in på ditt Drop Box-konto igen</value>
   </data>
   <data name="DropFilesOrFoldersToEncryptMessage" xml:space="preserve">
     <value>Lägg filer/mappar här för kryptering</value>
@@ -19935,8 +19968,20 @@ Vi är ledsna att du lämnar oss, men vi hoppas du uppskattat AxCrypt.</value>
   <data name="EncryptFilesBeforeUploadPopup" xml:space="preserve">
     <value>Kryptera filer innan uppladdning</value>
   </data>
+  <data name="EncryptFileWithPasswordText" xml:space="preserve">
+    <value>Kryptera denna fil med ett lösenord. Du behöver detta lösenord för att öppna filen.</value>
+  </data>
   <data name="EncryptionManagementText" xml:space="preserve">
     <value>Krypteringshantering</value>
+  </data>
+  <data name="EncryptionOptionsText" xml:space="preserve">
+    <value>Krypteringsalternativ</value>
+  </data>
+  <data name="EncryptionOptionsText1" xml:space="preserve">
+    <value>Krypteringsalternativ</value>
+  </data>
+  <data name="EncryptionText" xml:space="preserve">
+    <value>Kryptering</value>
   </data>
   <data name="EncryptLabelText" xml:space="preserve">
     <value>Kryptera</value>
@@ -19973,6 +20018,12 @@ Vi är ledsna att du lämnar oss, men vi hoppas du uppskattat AxCrypt.</value>
   </data>
   <data name="EnterPassphraseForIdentityPrompt" xml:space="preserve">
     <value>Ange lösenord för '{0}'</value>
+  </data>
+  <data name="EnterPasswordForFilesText" xml:space="preserve">
+    <value>Ange ett lösenord för &lt;strong&gt;@FileCount filer&lt;/strong&gt;</value>
+  </data>
+  <data name="EnterPasswordForThisFileText" xml:space="preserve">
+    <value>Ange ett lösenord för denna fil</value>
   </data>
   <data name="EnterPasswordToDecryptAndSignInMessage" xml:space="preserve">
     <value>Ange lösenordet för att dekryptera denna fil. Om det matchar ditt kontolösenord kommer du också att vara inloggad.</value>
@@ -21883,12 +21934,24 @@ Vi är ledsna att du lämnar oss, men vi hoppas du uppskattat AxCrypt.</value>
   <data name="FileOperationFailed" xml:space="preserve">
     <value>Fel med '{0}'.</value>
   </data>
+  <data name="FilePasswordDescriptionText" xml:space="preserve">
+    <value>Ett lösenord som behövs för att öppna denna fil</value>
+  </data>
   <data name="FilePasswordDialogHeader" xml:space="preserve">
     <value>Ange det ursprungliga lösenordet för filen.</value>
     <comment>The header text for the file password dialog.</comment>
   </data>
   <data name="FilePasswordHereText" xml:space="preserve">
     <value>Ange ditt fillösenord här</value>
+  </data>
+  <data name="FilePasswordRecoveryWarningText" xml:space="preserve">
+    <value>&lt;strong&gt;Förvara den på en säker plats.&lt;/strong&gt; Om du glömmer detta lösenord kan filen inte öppnas – om inte Recovery Access är aktiverat.</value>
+  </data>
+  <data name="FilePasswordRequirementsText" xml:space="preserve">
+    <value>Använd minst 8 tecken med versaler och gemener, siffror och symboler.</value>
+  </data>
+  <data name="FilePasswordUsedForEncryptionText" xml:space="preserve">
+    <value>Fillösenordet du just ställt in kommer att användas för att kryptera dina filer istället för ditt kontolösenord.</value>
   </data>
   <data name="FilePropertiesDateModifiedToolStripMenuItem" xml:space="preserve">
     <value>Ändrat datum</value>
@@ -22030,6 +22093,9 @@ Vi är ledsna att du lämnar oss, men vi hoppas du uppskattat AxCrypt.</value>
   <data name="FooterDownloadiOSText" xml:space="preserve">
     <value>iOS</value>
   </data>
+  <data name="FooterDownloadLinuxText" xml:space="preserve">
+    <value>Linux</value>
+  </data>
   <data name="FooterDownloadMacText" xml:space="preserve">
     <value>Mac</value>
   </data>
@@ -22068,6 +22134,9 @@ Vi är ledsna att du lämnar oss, men vi hoppas du uppskattat AxCrypt.</value>
   </data>
   <data name="ForEveryoneLabel" xml:space="preserve">
     <value>För alla</value>
+  </data>
+  <data name="ForgottenFilePasswordWarningText" xml:space="preserve">
+    <value>Om du glömmer detta lösenord kan du permanent förlora tillgången till dessa filer.</value>
   </data>
   <data name="ForIndividualsLabel" xml:space="preserve">
     <value>För individer</value>
@@ -22725,7 +22794,7 @@ Besök vår &lt;a href="{0}"&gt;gruppsupport&lt;/a&gt;.</value>
     <value>Kontrollera att nedladdningen är oskadad och autentisk genom att kontrollera den digitala signaturen. Högerklicka på den nedladdade filen i Utforskaren i Windows och välj "Egenskaper" och fliken "Digitala signaturer". Välj sedan den digitala signaturen och klicka på "Detaljer". Se till att den digitala signaturen visas som 'OK' och att undertecknaren är 'AxCrypt AB'.</value>
   </data>
   <data name="GetStartedInfoNote2Text1" xml:space="preserve">
-    <value>Om du har några brådskande problem eller frågor, kolla vår sida med &lt;a href='/information/faq'&gt;vanliga frågor&lt;/a&gt;.</value>
+    <value>Om du har några brådskande problem eller frågor, kolla vår sida med &lt;a href='/support/faq'&gt;vanliga frågor&lt;/a&gt;.</value>
   </data>
   <data name="GetStartedInfoNote2Text2" xml:space="preserve">
     <value>Vänligen rapportera buggar och kommentarer till oss. Du är välkommen att begära support också. För andra problem, vänligen &lt;a href='mailto:support@axcrypt.net'&gt;skicka oss ett e-postmeddelande&lt;/a&gt;.</value>
@@ -22870,6 +22939,9 @@ Besök vår &lt;a href="{0}"&gt;gruppsupport&lt;/a&gt;.</value>
   </data>
   <data name="GettheLatestAxCryptText" xml:space="preserve">
     <value>Hämta de senaste versionerna av AxCrypt version 2 här</value>
+  </data>
+  <data name="GoogleDriveSessionExpiredText" xml:space="preserve">
+    <value>Din Google Drive-session har gått ut eller är inte längre gald. Logga in på ditt Google Drive-konto igen.</value>
   </data>
   <data name="GoToGroupsText" xml:space="preserve">
     <value>Gå till Grupper</value>
@@ -23192,6 +23264,21 @@ Besök vår &lt;a href="{0}"&gt;gruppsupport&lt;/a&gt;.</value>
   <data name="GroupTitle" xml:space="preserve">
     <value>Grupp</value>
   </data>
+  <data name="GuideBeforeYouBeginTitle" xml:space="preserve">
+    <value>Innan du startar</value>
+  </data>
+  <data name="GuideContactSupportTeam" xml:space="preserve">
+    <value>Kontakta vårt supportteam</value>
+  </data>
+  <data name="GuideHelpfulNo" xml:space="preserve">
+    <value>Nej</value>
+  </data>
+  <data name="GuideHelpfulYes" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="GuideOnThisGuideTitle" xml:space="preserve">
+    <value>I denna guide</value>
+  </data>
   <data name="GuidesGetStartedLinkLabelWithPlatform" xml:space="preserve">
     <value>Kom igång</value>
   </data>
@@ -23212,6 +23299,9 @@ Besök vår &lt;a href="{0}"&gt;gruppsupport&lt;/a&gt;.</value>
   </data>
   <data name="GuidesLinkQuoteLabel6" xml:space="preserve">
     <value>Kryptering och Dekryptering</value>
+  </data>
+  <data name="GuideWasHelpfulTitle" xml:space="preserve">
+    <value>Var den här artikeln till hjälp?</value>
   </data>
   <data name="HaveAccountInfo" xml:space="preserve">
     <value>Bra! Du har redan ett AxCrypt ID-konto för '{0}'.
@@ -23342,6 +23432,9 @@ Om du av någon anledning inte kommer ihåg lösenordet, måste du återställa 
   <data name="HelpCenterGuideSummaryNis2" xml:space="preserve">
     <value>Lär dig om NIS2:s beredskap och krav.</value>
   </data>
+  <data name="HelpCenterGuideSummaryOpenSource" xml:space="preserve">
+    <value>Granska AxCrypts källkod och teknisk transparens.</value>
+  </data>
   <data name="HelpCenterGuideSummaryPasswordManager" xml:space="preserve">
     <value>Spara och hantera lösenord på ett säkert sätt.</value>
   </data>
@@ -23362,6 +23455,9 @@ Om du av någon anledning inte kommer ihåg lösenordet, måste du återställa 
   </data>
   <data name="HelpCenterGuideSummarySecuredMessenger" xml:space="preserve">
     <value>Skicka skyddade meddelanden säkert.</value>
+  </data>
+  <data name="HelpCenterGuideSummarySecureFilesThreeWaysVideo" xml:space="preserve">
+    <value>Lär dig tre enkla sätt att säkra filer i AxCrypt.</value>
   </data>
   <data name="HelpCenterGuideSummarySecurity" xml:space="preserve">
     <value>Gå igenom krypterings- och säkerhetsrutiner.</value>
@@ -23410,6 +23506,12 @@ Om du av någon anledning inte kommer ihåg lösenordet, måste du återställa 
   </data>
   <data name="HelpCenterLabel" xml:space="preserve">
     <value>Hjälpcenter</value>
+  </data>
+  <data name="HelpCenterMetaDescription" xml:space="preserve">
+    <value>Hitta AxCrypt-guider, svar, funktionshjälp, handledningar för säker filkryptering och stödresurser i AxCrypt Hjälpcenter.</value>
+  </data>
+  <data name="HelpCenterMetaTitle" xml:space="preserve">
+    <value>AxCrypt Hjälpcenter | Guider, vanliga frågor och Support</value>
   </data>
   <data name="HelpCenterNeedHelpDescription" xml:space="preserve">
     <value>Välj det supportalternativ som passar dig bäst.</value>
@@ -24002,6 +24104,9 @@ Om du vill visa eller uppdatera innehållet, dekryptera filen separat och öppna
   <data name="InboxText" xml:space="preserve">
     <value>Inkorg</value>
   </data>
+  <data name="IncludeRecoveryAccessText" xml:space="preserve">
+    <value>Inkludera Återställningsåtkomst</value>
+  </data>
   <data name="IncludeSubfoldersConfirmationBody" xml:space="preserve">
     <value>Du är på väg att aktivera ett riskabelt alternativ. Om du är oförsiktig kan det hända att mer data än du tänkt dig påverkas. Det kan ta lång tid, och annan programvara kan påverkas negativt, inklusive operativsystemet. Är du säker?</value>
   </data>
@@ -24026,313 +24131,7 @@ Vissa funktioner kan då ta väldigt lång tid. Var försiktig med att välja ma
   <data name="IndustriesAboutLinkLabel" xml:space="preserve">
     <value>Om Industrier</value>
   </data>
-  <data name="IndustriesBenefitsText0" xml:space="preserve">
-    <value>AxCrypt använder den starkaste krypteringsstandarden – AES 256-bitars algoritmen – för att kryptera och skydda data över enheter. Med sina användarvänliga och effektiva krypteringsverktyg inklusive lösenordshanteraren, molnlagringsintegration och huvudnyckel; AxCrypt har blivit en pålitlig lösning för företag över branscher, inklusive finans, sjukvård, juridik och myndigheter.&lt;br /&gt; &lt;br /&gt;AxCrypts krypteringsteknik säkerställer att endast auktoriserade personer kan komma åt konfidentiella filer, vilket skyddar känslig data från cyberhot och dataintrång . Dessutom tillåter AxCrypts flexibla distributionsalternativ och robusta hanteringsfunktioner företag att skala sina krypteringsbehov för att möta regelefterlevnadskrav och säkerställa att deras data alltid är säkrad.</value>
-  </data>
-  <data name="IndustriesBenefitsTitle" xml:space="preserve">
-    <value>Fördelarna med att använda AxCrypt</value>
-  </data>
-  <data name="IndustriesBlogLabel" xml:space="preserve">
-    <value>Ny till kryptering? Kolla in vår blogg för de senaste nyheterna.</value>
-  </data>
-  <data name="IndustriesDomainHeading" xml:space="preserve">
-    <value>&lt;span&gt;AxCrypt&lt;/span&gt; är betrodd i alla branscher och domäner</value>
-  </data>
-  <data name="IndustriesEducationContent1" xml:space="preserve">
-    <value>Data- och filkryptering fungerar som den första försvarslinjen mot dataintrång och cyberattacker, rekommenderad av välrenommerade institutioner och organisationer som NIST, IBM och Microsoft. Datakryptering spelar en avgörande roll för att förbättra datasäkerhet och integritet inom utbildningssektorn. 
-&lt;br/&gt;&lt;br/&gt; Krypteringsmekanismen, som använder en krypteringsalgoritm som AES, omvandlar i huvudsak innehållet i en fil till ett oläsligt och obegripligt format, vilket gör det otillgängligt för obehöriga användare. Endast behöriga individer med tillgång till dekrypteringsnyckeln kan omvända krypteringsprocessen och få åtkomst till filens innehåll.</value>
-  </data>
-  <data name="IndustriesEducationContent2" xml:space="preserve">
-    <value>AxCrypt är en prisbelönt filkrypteringsprogramvara som skyddar känslig information för dina universitet, högskolor och skolor med hjälp av AES-256-algoritmen! Utbildningsinstitutioner kan använda AxCrypt för att kryptera och skydda studentregister, finansiell information och forskningsdokument.
-&lt;br/&gt;&lt;br/&gt; AxCrypt säkerställer att denna information förblir krypterad och otillgänglig för obehöriga individer, vilket skyddar studenternas integritet och förhindrar dataintrång.&lt;br/&gt;&lt;br/&gt;AxCrypt är betrodd av kända universitet och akademiska institutioner runt om i världen och rekommenderas starkt som det föredragna valet av robust datakryptering.</value>
-  </data>
-  <data name="IndustriesEducationHeading" xml:space="preserve">
-    <value>Säkra konfidentiella uppsatser, rapporter, avhandlingar och forskning.</value>
-  </data>
-  <data name="IndustriesEducationHeading1" xml:space="preserve">
-    <value>Datakryptering som ett skydd mot &lt;span&gt;cyberattacker&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesEducationHeading2" xml:space="preserve">
-    <value>AxCrypt för ditt universitet, högskola och skola</value>
-  </data>
-  <data name="IndustriesEducationParagraph" xml:space="preserve">
-    <value>Få tillgång till alla dina dokument och synkronisera dem på dina enheter medan du skyddar dina filer från kostsamma dataintrång.</value>
-  </data>
-  <data name="IndustriesFinancialBenefitsText" xml:space="preserve">
-    <value>Finanssektorn är idag mer digital och dataintensiv än någonsin tidigare. Människor använder alltmer sina telefoner och datorer istället för plånböcker för att betala, investera och hantera sin ekonomi. Internetbanker har också ersatt de flesta av de operationer som traditionellt utfördes fysiskt i en bank. &lt;br/&gt;
-&lt;br/&gt; Denna snabba ökning av mängden finansdata som genereras av användare varje dag gör den också mycket sårbar för cyberattacker och dataintrång. Dataintrång i finanssektorn är de &lt;b&gt; näst dyraste&lt;/b&gt;, med en genomsnittlig kostnad på 5,72 miljoner dollar. Små och medelstora företag (SMF) är de värst drabbade av dataintrång, då de står för &lt;b&gt;42% av alla dataintrång,&lt;/b&gt; och 60%&lt;b&gt; av SMF stänger ner &lt;/b&gt; inom 6 månader efter ett intrång. Kryptering är en proaktiv metod för att säkra din finansiella data och kan skydda datan vid alla tillfällen.</value>
-  </data>
-  <data name="IndustriesFinancialContent1" xml:space="preserve">
-    <value>Kryptering av din finansiella data fungerar som den första försvarslinjen mot cyberattacker och dataintrång, rekommenderad av välrenommerade institutioner och organisationer som NIST, IBM och Microsoft. Under krypteringsprocessen omvandlas filernas innehåll till ett oläsligt och obegripligt format med hjälp av krypteringsalgoritmer och kryptografiska nycklar. &lt;br/&gt;&lt;br/&gt; Omvandlingen av filernas innehåll säkerställer att endast behöriga användare som har tillgång till de kryptografiska nycklarna kan dekryptera och få åtkomst till de krypterade filerna. Krypterade filer är också värdelösa i händerna på cyberangripare vid ett dataintrång utan de specifika dekrypteringsnycklarna.</value>
-  </data>
-  <data name="IndustriesFinancialContent2" xml:space="preserve">
-    <value>&lt;b&gt;AxCrypt&lt;/b&gt; är ett prisbelönt filkrypteringsprogram som skyddar känslig finansiell data och filer med hjälp av AES-256-algoritmen. Använd AxCrypt för att kryptera och skydda &lt;b&gt;transaktionshistorik, kundinformation, finansiella dokument&lt;/b&gt; med mera. AxCrypt säkerställer att din data alltid är krypterade och oåtkomliga för &lt;b&gt;obehöriga&lt;/b&gt; , vilket skyddar din organisations &lt;b&gt;integritet&lt;/b&gt; och även från cyberattacker och intrång. &lt;br/&gt;&lt;br/&gt;AxCrypt har utsetts till &lt;b&gt;"Best Encryption Software" av PCMag&lt;/b&gt; sex år i rad. AxCrypt är tillgängligt för Windows, MacOS, iOS och Android och kan automatiskt kryptera och synkronisera filer till populära molnlagringstjänster som Google Drive, OneDrive och Dropbox.</value>
-  </data>
-  <data name="IndustriesFinancialHeading" xml:space="preserve">
-    <value>Skydda Känsliga Finansiella Data med Varje Transaktion</value>
-  </data>
-  <data name="IndustriesFinancialHeading1" xml:space="preserve">
-    <value>Kryptering skyddar proaktivt din finansiella data</value>
-  </data>
-  <data name="IndustriesFinancialHeading2" xml:space="preserve">
-    <value>Datasäkerhet för din BFSI med AxCrypt</value>
-  </data>
-  <data name="IndustriesFinancialParagraph" xml:space="preserve">
-    <value>Skydda väldigt känsliga finansiella dokument och rapporter. Kontrollera tillgång och välj vem som får se vad.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesContent1" xml:space="preserve">
-    <value>Säkra mycket känsliga och konfidentiella finansiella dokument såsom balansräkningar, resultaträkningar, skattedeklarationer, etc.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesContent2" xml:space="preserve">
-    <value>Skydda viktig och känslig anpassad information, inklusive PII:er, transaktionsregister, skatteanmälningar etc.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesContent3" xml:space="preserve">
-    <value>Skapa en-klicks automatiska datasäkerhet genom att aktivera automatisk kryptering av filer på stationära datorer och molnlagringstjänster.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesHeading" xml:space="preserve">
-    <value>Kraftfulla användningsområden med &lt;span&gt;AxCrypt&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesSubHeading1" xml:space="preserve">
-    <value>Skydda konfidentiella data</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesSubHeading2" xml:space="preserve">
-    <value>Skydda kundinformation</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesSubHeading3" xml:space="preserve">
-    <value>Automatiserad Säkerhet</value>
-  </data>
-  <data name="IndustriesFinancialTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;Robust säkerhet&lt;/span&gt;&lt;span class='img2'&gt;för dina finansiella uppgifter.&lt;/span&gt;&lt;span class='img3'&gt;&lt;br/&gt;Skydda finansiella dokument&lt;/span&gt;,&lt;span class='img4'&gt;&lt;br/&gt;Kundinformation&lt;/span&gt;, &lt;span class='img5'&gt;&lt;br/&gt;med mera.&lt;/span&gt; &lt;span class='img6'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesFinancialTrialInfo" xml:space="preserve">
-    <value>Ta reda på hur AxCrypt kan skydda din organisations data idag. &lt;span&gt;Prova det gratis i 14 dagar! &lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesFreeTrialText0" xml:space="preserve">
-    <value>Se hur AxCrypt kan säkra din institutions data idag. &lt;span&gt; Prova det gratis i 14 dagar! &lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesGovernmentBenefitsText" xml:space="preserve">
-    <value>I dagens AI-era står regeringar världen över inför eskalerande cybersäkerhetshot som utgör betydande risker för känslig information, allmän säkerhet och nationell säkerhet. &lt;br/&gt;&lt;br/&gt;Nyliga incidenter, såsom SolarWinds-cyberattacken 2020, understryker det akuta behovet av robusta krypteringsåtgärder för att skydda känsliga regeringsdata från obehörig åtkomst och utnyttjande.&lt;br/&gt;&lt;br/&gt;Kryptering är ett kritiskt verktyg för att stärka regeringens försvar mot cyberhot, säkerställa integriteten och konfidentialiteten för hemliga dokument, offentliga register och känslig kommunikation.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesContent1" xml:space="preserve">
-    <value>Skydd av högkänsliga regeringsdata som känsliga rapporter, konfidentiella dokument, offentliga register och mer med ett klick.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesContent2" xml:space="preserve">
-    <value>AxCrypts AES-256-bitars filkryptering är kompatibel med olika databestämmelser såsom GDPR, HIPAA och FIPs.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesContent3" xml:space="preserve">
-    <value>AxCrypt skapar automatiska dataskyddsfunktioner med ett klick genom att möjliggöra automatisk kryptering av filer på skrivbord och molnlagringstjänster.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesHeading" xml:space="preserve">
-    <value>Stärk regeringsorganisationer med &lt;span&gt;bästa praxis för datasäkerhet&lt;span&gt;</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesSubHeading1" xml:space="preserve">
-    <value>Skydd av konfidentiella filer</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesSubHeading2" xml:space="preserve">
-    <value>Regulatorisk Efterlevnad</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesSubHeading3" xml:space="preserve">
-    <value>Automatisering av datasäkerhet</value>
-  </data>
-  <data name="IndustriesGovernmentContent1" xml:space="preserve">
-    <value>Istället för att bara låsa en fil, omvandlar kryptering innehållet i en fil till ett oläsbart och otydbart format. Genom att använda en krypteringsalgoritm som AES, omarrangerar, förskjuter, ersätter och blandar den en fils innehåll. Krypteringsnycklarna som används med algoritmen dikterar den exakta sekvensen av dessa transformationer, vilket möjliggör återställning av krypteringsprocessen (dekryptering) för att återställa filens innehåll till sitt ursprungliga tillstånd. &lt;br/&gt;Till skillnad från alternativa säkerhetsmetoder som lösenordsskydd av filer, ger filkryptering med AES-256 en obrytbar säkerhetsåtgärd. Med en nyckellängd på 256 blir det praktiskt taget omöjligt att knäcka en krypterad fil, även med de mest kraftfulla superdatorerna som finns tillgängliga idag. &lt;br/&gt;&lt;br/&gt;Denna komplexa process säkerställer att känsliga filer är skyddade hela tiden, och endast auktoriserade användare med tillgång till nycklar kan dekryptera filerna.</value>
-  </data>
-  <data name="IndustriesGovernmentContent2" xml:space="preserve">
-    <value>AxCrypt’s prisbelönta och Zero-Knowledge filkrypteringsprogram skyddar regeringsdata med ett klick. Säkra filer som viktiga regeringsdokument, offentliga register, konfidentiella rapporter, hemliga filer och mer – med AES-256-bitars datakrypteringsstandard. Skapa automatiska krypteringsmekanismer för att kryptera filer inom en mapp och synkronisera dem med populära molnlagringstjänster.&lt;br/&gt;&lt;br/&gt;AxCrypt är PCMag’s förstahandsval som ’Bästa krypteringsprogramvara’ för 2025. Det har varit nummer 1 i nio år i rad, från 2016 till 2025. Det är tillgängligt för Windows, Mac, iOS och Android, och kan automatiskt kryptera och synkronisera filer till populära molnlagringstjänster som Google Drive, OneDrive och Dropbox.</value>
-  </data>
-  <data name="IndustriesGovernmentHeading" xml:space="preserve">
-    <value>Uppfyll Regelverken och Säkerställ att Era Filer Följer Gällande Krav</value>
-  </data>
-  <data name="IndustriesGovernmentHeading1" xml:space="preserve">
-    <value>Hur skyddar kryptering myndighetsdata?</value>
-  </data>
-  <data name="IndustriesGovernmentHeading2" xml:space="preserve">
-    <value>Skydda myndighetsdata med AxCrypt</value>
-  </data>
-  <data name="IndustriesGovernmentParagraph" xml:space="preserve">
-    <value>AxCrypt hjälper myndigheter och företag att följa regelverk och skydda känsliga data med vårt kraftfulla krypteringsverktyg. Behåll säkerhet och regelefterlevnad på alla enheter på ett smidigt sätt. </value>
-  </data>
-  <data name="IndustriesGovernmentTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;Statligt dataskydd med hjälp av kraftfull kryptering&lt;br/&gt; med AES-256. Säkra  myndighets&lt;/span&gt;&lt;span class='img4'&gt; Dokument&lt;br/&gt; konfidentiella rapporter med mera.&lt;/span&gt;&lt;span class='img5'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesGovernmentTrialInfo" xml:space="preserve">
-    <value>Ta reda på hur AxCrypt kan skydda din myndighetsorganisations data idag. &lt;span&gt;Prova gratis i 14 dagar!&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHeadingCloud" xml:space="preserve">
-    <value>Medvetenhet om molnlagring och lösenordshantering</value>
-  </data>
-  <data name="IndustriesHeadingConfidentiality" xml:space="preserve">
-    <value>Sekretess och integritet</value>
-  </data>
-  <data name="IndustriesHeadingProtection" xml:space="preserve">
-    <value>Följer dataskyddsförordningen</value>
-  </data>
-  <data name="IndustriesHeadingSecurity" xml:space="preserve">
-    <value>Säkerhet, pålitlighet och enkelhet</value>
-  </data>
-  <data name="IndustriesHeadingTeamwork" xml:space="preserve">
-    <value>Samarbete</value>
-  </data>
-  <data name="IndustriesHealthcareBenefitsText" xml:space="preserve">
-    <value>Hälsovårdssektorn ser snabbt en exponentiell ökning av mängden känslig data som genereras varje dag. Från patientuppgifter till elektroniska journaler (EHR), har vårdgivare mycket att skydda. Ungefär &lt;b&gt;30% av världens datavolym&lt;/b&gt; genereras av hälso- och sjukvårdsindustrin, och denna siffra förväntas öka kraftigt inom en snar framtid.&lt;br/&gt;&lt;br/&gt; Denna exponentiella ökning av hälso- och sjukvårdsdata gör den också mycket sårbar för förödande cyberattacker och dataintrång. Hälso- och sjukvården har de &lt;b&gt;högsta kostnaderna för ett dataintrång&lt;/b&gt; av alla industrier, med en genomsnittlig kostnad på 11 miljoner dollar, och det var den &lt;b&gt;tredje mest attackerade&lt;/b&gt; industrin år 2022. Med denna alarmerande statistik blir det kritiskt viktigt för vårdgivare att prioritera sin datasäkerhet, särskilt för data i vila. Lyckligtvis finns det en kraftfull och mycket effektiv åtgärd för känslig hälso- och sjukvårdsdata som kallas kryptering. Filkryptering skyddar en fil genom att omvandla dess innehåll, vilket gör det oläsligt och obegripligt för obehöriga användare.</value>
-  </data>
-  <data name="IndustriesHealthcareContent1" xml:space="preserve">
-    <value>Filkryptering skapar ett starkt skyddande sköld för din känsliga hälsodata och skyddar mot cyberattacker och dataintrång. Det är en rekommenderad åtgärd av välrenommerade institutioner och organisationer som NIST, IBM och Microsoft. Under krypteringsprocessen omvandlas innehållet i hälso- och sjukvårdsfiler till ett oläsligt och obegripligt format med hjälp av krypteringsalgoritmer och kryptografiska nycklar.&lt;br/&gt;&lt;br/&gt; Omvandlingen av filernas innehåll säkerställer att endast behöriga användare med tillgång till de kryptografiska nycklarna kan dekryptera och få åtkomst till de krypterade filerna. Krypterade filer blir också värdelösa i händerna på cyberangripare vid ett dataintrång utan de specifika dekrypteringsnycklarna.</value>
-  </data>
-  <data name="IndustriesHealthcareContent2" xml:space="preserve">
-    <value>&lt;b&gt;AxCrypt&lt;/b&gt; är en prisbelönt filkrypteringsprogramvara som skyddar dina känsliga hälso- och sjukvårdsfiler med AES-256-algoritmen. Den skyddar &lt;b&gt;patientinformation, elektroniska journaler (EHR), försäkringsdetaljer&lt;/b&gt; och mer. AxCrypt säkerställer att din data förblir krypterad och otillgänglig för &lt;b&gt;obehöriga&lt;/b&gt; individer vid alla tidpunkter, även när du delar den med andra, vilket skyddar din vårdorganisations &lt;b&gt;integritet&lt;/b&gt; och skyddar den från cyberattacker och intrång. Den hjälper dig också att enkelt följa HIPAA.&lt;br/&gt;&lt;br/&gt;AxCrypt har utsetts till 'Bästa krypteringsprogramvara' av &lt;b&gt;PCMag&lt;/b&gt; i nio år i rad från 2016 till 2025. Det är tillgängligt för Windows, Mac, iOS och Android, och kan automatiskt kryptera och synkronisera filer till populära molnlagringstjänster som Google Drive, OneDrive och Dropbox.</value>
-  </data>
-  <data name="IndustriesHealthcareHeading" xml:space="preserve">
-    <value>Säkra Känsliga Hälsojournaler, Viktiga Medicinska Dokument.</value>
-  </data>
-  <data name="IndustriesHealthcareHeading1" xml:space="preserve">
-    <value>Filkryptering skyddar proaktivt hälsodata.</value>
-  </data>
-  <data name="IndustriesHealthcareHeading2" xml:space="preserve">
-    <value>AxCrypt för din hälso- och sjukvårdsdata</value>
-  </data>
-  <data name="IndustriesHealthcareParagraph" xml:space="preserve">
-    <value>AxCrypt hjälper vårdpersonal att skydda känsliga patientdata, vilket säkerställer både sekretess och efterlevnad av HIPAA regelverket. Skydda känslig patientinformation enkelt på alla enheter. </value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesContent1" xml:space="preserve">
-    <value>Skydda mycket känsliga elektroniska patientjournaler (EHR) och andra medicinska filer med okrossbar kryptering.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesContent2" xml:space="preserve">
-    <value>Följ enkelt HIPAA och GDPR genom att hålla alla hälso- och sjukvårdsdata i vila krypterade med AES-256.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesContent3" xml:space="preserve">
-    <value>Skapa automatiska arbetsflöden för datasäkerhet med ett klick genom att aktivera automatisk kryptering av filer på stationära datorer och molnlagringsleverantörer.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesSubHeading1" xml:space="preserve">
-    <value>Skydda EHR-data</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesSubHeading2" xml:space="preserve">
-    <value>Följ HIPAAs föreskrifter</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesSubHeading3" xml:space="preserve">
-    <value>Automatisering av säkerhet</value>
-  </data>
-  <data name="IndustriesHealthcareTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;Skydda patientjournaler,&lt;/span&gt; hälso- och sjukvårdsdata, EHR,&lt;span class='img3'&gt;&lt;br/&gt;och följ HIPAA&lt;/span&gt;&lt;span class='img4'&gt;med hjälp av prisbelönta&lt;br/&gt; Programvara för kryptering&lt;/span&gt;&lt;span class='img5'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHealthcareTrialInfo" xml:space="preserve">
-    <value>Ta reda på hur AxCrypt kan skydda din sjukvårdsorganisations data redan idag. &lt;span&gt;Prova det gratis i 14 dagar!&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHeroButton" xml:space="preserve">
-    <value>Utforska AxCrypt Business</value>
-  </data>
-  <data name="IndustriesHeroText0" xml:space="preserve">
-    <value>Omdefiniera &lt;span&gt;krypteringslandskapet&lt;/span&gt; för en &lt;span style="\"font-family:" auto;="" font-style:italic;="" color:#494949;\"=""&gt;överlägsen&lt;/span&gt; &lt;span&gt;cybersäkerhetsupplevelse&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHeroText1" xml:space="preserve">
-    <value>Vi förändrar hur människor kommunicerar och arbetar. Med vår 256-bitars kryptering ökar AxCrypt datasäkerheten och minskar riskerna för intrång genom att implementera en användarvänlig krypteringsmjukvara och värna om konfidentialitet och integritet. Öka din produktivitet och sluta fundera över din integritet online. Återfå full kontroll över din data och upplev digital tillit. Om du är nyfiken på kryptering och relaterade ämnen, ta en titt på våra veckouppdaterade &lt;a href="/blog"&gt;bloggar&lt;/a &gt;. Här på AxCrypt hjälper vi dig gärna och svarar på alla frågor du kan ha om kryptering.</value>
-  </data>
-  <data name="IndustriesHeroText2" xml:space="preserve">
-    <value>Kontakta oss gärna på &lt;a href="mailto:support@axcrypt.net"&gt;support@axcrypt.net&lt;/a&gt; och glöm inte att följa oss på sociala medier.</value>
-  </data>
-  <data name="IndustriesLegalBenefitsText" xml:space="preserve">
-    <value>Juridikbranschen lever på konfidentialitet och dataskydd. Från kontrakt och klientinformation till immateriella rättigheter och rättsdokument hanterar juridiska yrkesutövare en konstant ström av mycket känslig information som kräver överlägset skydd. Även ett mindre säkerhetsintrång kan få förödande konsekvenser, vilket leder till ekonomiska förluster och skadat rykte.&lt;br/&gt;&lt;br/&gt;AxCrypt förstår det kritiska behovet av robust datasäkerhet inom juridikområdet. Vår prisbelönta filkrypteringsprogramvara ger juridiska yrkesutövare möjlighet att skydda sin konfidentiella information i varje skede, säkerställa efterlevnad av dataskyddsregler och skapa ett klimat av förtroende med klienter.&lt;br/&gt;&lt;br/&gt;Oavsett om du samarbetar i ett komplext rättsfall, hanterar känsliga klientkontrakt eller utbyter konfidentiella dokument, erbjuder AxCrypt en enkel men kraftfull lösning. Våra krypteringsmöjligheter på språng säkerställer säker fildelning med kollegor och klienter, medan molnlagringsintegration tillåter bekväm åtkomst till krypterad data från vilken enhet som helst. Dessutom effektiviserar AxCrypts automatiska krypteringsfunktioner arbetsflöden genom att skydda känsliga dokument så snart de skapas eller redigeras.</value>
-  </data>
-  <data name="IndustriesLegalContent1" xml:space="preserve">
-    <value>Kryptering som process omvandlar innehållet i vilken juridisk fil som helst till ett oläsbart och oknäckbart format med hjälp av en krypteringsnyckel. Med en krypteringsalgoritm som AES, omorganiserar, förskjuter, ersätter och blandar den innehållet i en fil. Krypteringsnycklarna som används med algoritmen dikterar den exakta sekvensen av dessa transformationer, vilket möjliggör återställning av innehållet i en fil till sitt ursprungliga tillstånd genom dekryptering.&lt;br/&gt;&lt;br/&gt;Till skillnad från alternativa säkerhetsmetoder som lösenordsskydd, som bara låser filerna, ger filkryptering med AES-256 en oknäckbar säkerhetsåtgärd. Med en nyckellängd på 256 blir det praktiskt taget omöjligt att knäcka en krypterad fil, även med de mest kraftfulla superdatorer som finns idag.&lt;br/&gt;&lt;br/&gt;Denna komplexa process säkerställer att känsliga filer som kontrakt och klientuppgifter etc., är skyddade hela tiden, och endast de auktoriserade användarna med tillgång till nycklarna kan dekryptera filerna.</value>
-  </data>
-  <data name="IndustriesLegalContent2" xml:space="preserve">
-    <value>AxCrypts prisbelönta filkrypteringsprogram Zero-Knowledge skyddar dina känsliga juridiska data med ett klick. Skydda filer som viktiga ärendeakter, patentdokument, kundregister, konfidentiella dokument med mera – med AES-256-bitars datakryptering som standard. Skapa automatiska krypteringsmekanismer för att kryptera filer i en mapp och synkronisera dem till populära molnlagringsleverantörer.&lt;br/&gt;&lt;br/&gt;AxCrypt är nummer 1 av PCMag som den "bästa krypteringsprogramvaran" år 2025. Det har varit nummer 1 nio år i rad sedan 2016. AxCrypt är tillgängligt för Windows, Mac, iOS och Android och kan automatiskt kryptera och synkronisera filer till populära molnlagringstjänster som Google Drive, OneDrive och Dropbox.</value>
-  </data>
-  <data name="IndustriesLegalDataSecutityContent1" xml:space="preserve">
-    <value>Skydd av mycket känslig juridisk data som ärendefiler, viktiga kontrakt, konfidentiella dokument, klientuppgifter och mer med ett klick.</value>
-  </data>
-  <data name="IndustriesLegalDataSecutityHeading" xml:space="preserve">
-    <value>Möjliggör för advokatbyråer med&lt;br/&gt;&lt;span&gt;Bästa praxis för datasäkerhet&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesLegalDataSecutitySubHeading1" xml:space="preserve">
-    <value>Skydda juridiska filer</value>
-  </data>
-  <data name="IndustriesLegalHeading" xml:space="preserve">
-    <value>Skydda juridiska data med den starka AES-256 krypteringen</value>
-  </data>
-  <data name="IndustriesLegalHeading1" xml:space="preserve">
-    <value>Hur skyddar Kryptering &lt;br/&gt;Juridisk Data?</value>
-  </data>
-  <data name="IndustriesLegalHeading2" xml:space="preserve">
-    <value>Skydda juridisk data &lt;br/&gt;med AxCrypt</value>
-  </data>
-  <data name="IndustriesLegalParagraph" xml:space="preserve">
-    <value>AxCrypt erbjuder skräddarsydda dataskyddslösningar för den juridiska sektorn, vilket garanterar säkerheten för känsliga dokument, kontrakt och klientkommunikation med AES 256 – bitars kryptering. Vårt intuitiva gränssnitt förenklar krypteringsprocessen, stärker skyddet mot dataintrång och läckor. </value>
-  </data>
-  <data name="IndustriesLegalTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;Rättsligt dataskydd: skydda kontrakt, kundregister,&lt;br/&gt;Konfidentiella handlingar i målet&lt;/span&gt; &lt;span class='img4'&gt;och mer &lt;br/&gt;med AES-256-kryptering.&lt;/span&gt;&lt;span class='img5'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesLegalTrialInfo" xml:space="preserve">
-    <value>Ta reda på hur AxCrypt kan skydda din advokatbyrås data. &lt;span&gt;Prova det gratis i 14 dagar!&lt;span&gt;&lt;/span&gt;</value>
-  </data>
   <data name="IndustriesLinkLabel" xml:space="preserve">
-    <value>Industrier</value>
-  </data>
-  <data name="IndustriesStatistic1" xml:space="preserve">
-    <value>kunder över hela världen</value>
-  </data>
-  <data name="IndustriesStatistic2" xml:space="preserve">
-    <value>PCMag Editors' val</value>
-  </data>
-  <data name="IndustriesStatistic3" xml:space="preserve">
-    <value>användares nedladdningar</value>
-  </data>
-  <data name="IndustriesStatistic4" xml:space="preserve">
-    <value>Språk</value>
-  </data>
-  <data name="IndustriesTechBenefitsText" xml:space="preserve">
-    <value>Teknik- och IT-sektorerna är några av de mest utsatta sektorerna idag när det gäller dataintrång, ransomware-attacker och cyberhot.&lt;br/&gt;&lt;br/&gt;Ransomware-attacker i IT-sektorn har ökat med &lt;b&gt;47 % år 2023.&lt;/b&gt; Dessutom misslyckades &lt;b&gt;43 % av företagen&lt;/b&gt; med en efterlevnadsrevision förra året, vilket gör dem 10 gånger mer sårbara för dataintrång.&lt;br/&gt;&lt;br/&gt;Dessa alarmerande trender understryker den betydande vikten av datakryptering i IT-sektorn. Kryptering av data i vila fungerar som en skyddande sköld för IT-filer, vilket skyddar dem hela tiden från obehörig åtkomst. Det skyddar känslig data, hjälper till att uppfylla regler som GDPR, HIPAA, FIPs, etc., och ger organisationer kontroll över deras datasekretess och säkerhetsåtgärder.</value>
-  </data>
-  <data name="IndustriesTechConfidentiality" xml:space="preserve">
-    <value>Använd master key, en funktion som tillåter företagsadministratörer att återställa filer av företagsmedlemmar, och eliminerar risken att förlora tillgång till kritiska filer på grund av anställda som slutar eller glömmer bort sina lösenord.</value>
-  </data>
-  <data name="IndustriesTechContent1" xml:space="preserve">
-    <value>Filerkryptering med Advanced Encryption Standard (AES-256) är en rekommenderad säkerhetsåtgärd av välrenommerade institutioner och organisationer som NIST, IBM och Microsoft. Filerkryptering skapar en robust skyddsskärm för din organisations känsliga IT-data.&lt;br/&gt;&lt;br/&gt;Till skillnad från alternativa säkerhetsmetoder som lösenordsskydd av filer, ger AES-256-bitars kryptering en obrytbar säkerhetsåtgärd. Med en nyckellängd på 256 blir det praktiskt taget omöjligt att knäcka en krypterad fil, även med de mest kraftfulla superdatorerna som finns tillgängliga idag.&lt;br/&gt;&lt;br/&gt;Istället för att bara låsa filen omvandlar kryptering innehållet i en fil till oläsbar och förvrängd text. Genom att använda en krypteringsalgoritm som AES omarrangerar, förskjuter, ersätter och blandar den en fils innehåll. Krypteringsnycklarna som används med algoritmen dikterar den exakta sekvensen av dessa transformationer, vilket möjliggör återställning av krypteringsprocessen för att återställa filens innehåll till sitt ursprungliga tillstånd.&lt;br/&gt;Denna komplexa process säkerställer att känsliga filer är skyddade hela tiden, och endast auktoriserade användare med tillgång till nycklar kan dekryptera filerna.</value>
-  </data>
-  <data name="IndustriesTechContent2" xml:space="preserve">
-    <value>AxCrypt’s prisbelönta och Zero-Knowledge filkrypteringsprogram skyddar din IT-data med ett klick. Säkra filer som viktiga källkoder och projektfiler, affärs- och finansiella PDF-filer, känsliga klientkommunikationsregister, HR-dokument och mer – med AES-256 bitars datakrypteringsstandard. Skapa automatiska krypteringsmekanismer för att kryptera filer inom en mapp och synkronisera dem med populära molnlagringstjänster.&lt;br/&gt;&lt;br/&gt;AxCrypt har varit PCMag’s förstahandsval som &lt;b&gt;‘Bästa krypteringsprogramvara’&lt;/b&gt; i nio år i rad, från 2016 till 2025. Det är tillgängligt för Windows, Mac, iOS och Android och kan automatiskt kryptera och synkronisera filer till populära molnlagringstjänster som Google Drive, OneDrive och Dropbox.</value>
-  </data>
-  <data name="IndustriesTechHeading" xml:space="preserve">
-    <value>Överlägset dataskydd med AES 256-bitars kryptering</value>
-  </data>
-  <data name="IndustriesTechHeading1" xml:space="preserve">
-    <value>AES-256 Filkryptering för IT-dataskydd</value>
-  </data>
-  <data name="IndustriesTechHeading2" xml:space="preserve">
-    <value>AxCrypt för din IT-data</value>
-  </data>
-  <data name="IndustriesTechParagraph" xml:space="preserve">
-    <value>Med ett lättanvänt och intuitivt gränssnitt, kryptera dina känsliga data och skydda den mot dataintrång samt dataläckor. AxCrypt är säkert, enkelt, pålitligt och gjort för samarbete.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesContent1" xml:space="preserve">
-    <value>Skydda mycket känslig IT-data såsom kundregister, affärs- och ekonomidokument, HR-filer med mera med ett klick.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesContent2" xml:space="preserve">
-    <value>Följ enkelt dataregler för din tekniska organisation som GDPR, HIPAA, FIPs etc. med hjälp av vår programvara.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesContent3" xml:space="preserve">
-    <value>Skapa automatiska arbetsflöden för datasäkerhet med ett klick genom att aktivera automatisk kryptering av filer på stationära datorer och molnlagringsleverantörer.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesHeading" xml:space="preserve">
-    <value>Kraftfulla användningsområden för din IT-data med &lt;span&gt;AxCrypt&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesSubHeading1" xml:space="preserve">
-    <value>Skydda IT-data</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesSubHeading2" xml:space="preserve">
-    <value>Följ föreskrifter</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesSubHeading3" xml:space="preserve">
-    <value>Automatisering av datasäkerhet</value>
-  </data>
-  <data name="IndustriesTechTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;Kraftfull kryptering för din tekniska data med AES-256.&lt;br/&gt;Skydda känsliga klientregister, källkoder&lt;/span&gt; &lt;span class='img4'&gt;&lt;br/&gt;&amp; projektfiler, affärsdokument&lt;br/&gt;och mer.&lt;span class='img5'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesTechTrialInfo" xml:space="preserve">
-    <value>Ta reda på hur AxCrypt kan skydda din IT-organisations data redan idag.&lt;br/&gt;&lt;span&gt;Prova det gratis i 14 dagar! &lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesTitle" xml:space="preserve">
     <value>Industrier</value>
   </data>
   <data name="InformationLinkLabel" xml:space="preserve">
@@ -24562,9 +24361,6 @@ Ditt lösenord lagras inte hos oss, och anslutningen är alltid krypterad.</valu
   <data name="InvalidSubFolder" xml:space="preserve">
     <value>Den valda mappen är inte en giltig undermapp</value>
   </data>
-  <data name="InvalidVaultFolderErrorMessage" xml:space="preserve">
-    <value>Din valvmapp är för närvarande otillgänglig. &lt;br/&gt;&lt;br/&gt;Den kan ha flyttats eller tagits bort. Vänligen kontrollera mappens plats eller välj ett annat valv.</value>
-  </data>
   <data name="InvalidVaultSetting" xml:space="preserve">
     <value>Den konfigurerade Vault-mappens sökväg är antingen ogiltig eller otillgänglig. Uppdatera Valvinställningarna med en giltig sökväg för att fortsätta.</value>
   </data>
@@ -24759,6 +24555,9 @@ EU Moms-nummer SE556967618101</value>
   <data name="KeepCloudDataPrivatePopup" xml:space="preserve">
     <value>Håll molndata privat</value>
   </data>
+  <data name="KeepFilePasswordForRemainingFilesText" xml:space="preserve">
+    <value>Behåll fillösenordet för alla återstående filer</value>
+  </data>
   <data name="KeepFolderStructurePopup" xml:space="preserve">
     <value>Håll mappstrukturen organiserad</value>
   </data>
@@ -24847,7 +24646,7 @@ En mottagare identifieras med epostadressen för sitt AxCrypt ID, men vi skickar
     <value>&lt;strong&gt;📝 Blogg&lt;/strong&gt;</value>
   </data>
   <data name="KeyShareGuideWhatsNextText1" xml:space="preserve">
-    <value>&lt;a href='/helpcenter/guides-section/'&gt;Hur man krypterar och dekrypterar filer med AxCrypt | Steg-för-steg-guide&lt;/a&gt;</value>
+    <value>&lt;a href='/helpcenter/#guides-section'&gt;Hur man krypterar och dekrypterar filer med AxCrypt | Steg-för-steg-guide&lt;/a&gt;</value>
   </data>
   <data name="KeyShareGuideWhatsNextText2" xml:space="preserve">
     <value>Säkrad Messenger är en säker, end-to-end krypterad meddelandefunktion inbyggd i AxCrypt: &lt;/br&gt;&lt;a href='/guides/securedmessenger/'&gt;AxCrypt Säkrad Messenger | End-to-end krypterad meddelandehantering för fullständig integritet&lt;/a&gt;</value>
@@ -25555,6 +25354,9 @@ Aktivera automatisk konvertering av AxCrypt 1.x-filer nu (rekommenderas)?</value
   <data name="ManagementSuccess" xml:space="preserve">
     <value>Sidhantering uppdaterad.</value>
   </data>
+  <data name="ManageRecoveryKeyText" xml:space="preserve">
+    <value>Hantera din återställningsnyckel och backupåtkomst</value>
+  </data>
   <data name="ManageSubscriptionResellerInfo" xml:space="preserve">
     <value>Detta konto hanteras av en återförsäljare. Återförsäljaren kan inte lägga till nya användare till kontot eller hantera betalningar. Notera: Återförsäljare får INTE tillgång till krypterad information, inklusive filer som säkrats med Master key.</value>
   </data>
@@ -25816,6 +25618,9 @@ Aktivera automatisk konvertering av AxCrypt 1.x-filer nu (rekommenderas)?</value
   </data>
   <data name="MaximumNotExceedCharactersNotification" xml:space="preserve">
     <value>Texten får inte överstiga {0} karaktärer.</value>
+  </data>
+  <data name="MaximumSharePeopleReachedText" xml:space="preserve">
+    <value>Maximalt av {0} Folk nådde fram.</value>
   </data>
   <data name="MaxUsersCountText" xml:space="preserve">
     <value>Du kan inte lägga till fler användare än det maximala tillåtna ({0})</value>
@@ -27958,6 +27763,9 @@ valfri metod(Authenticator-app, e-post och SMS).</value>
   <data name="NoFilesFoundText" xml:space="preserve">
     <value>Ingen fil hittades</value>
   </data>
+  <data name="NoInternetAccessText" xml:space="preserve">
+    <value>Ingen internetåtkomst, vänligen kontrollera din internetanslutning.</value>
+  </data>
   <data name="NoInternetErrorMessage" xml:space="preserve">
     <value>Kan inte ansluta för tillfället, kontrollera din Internetanslutning.</value>
     <comment>Message which is displayed when device doesn't have internet connection.</comment>
@@ -27976,6 +27784,9 @@ valfri metod(Authenticator-app, e-post och SMS).</value>
   </data>
   <data name="NoLogToExportText" xml:space="preserve">
     <value>Det finns ingen logg att exportera!</value>
+  </data>
+  <data name="NoMatchingUsersFoundText" xml:space="preserve">
+    <value>Inga matchande användare hittades</value>
   </data>
   <data name="NoMessagesFoundText" xml:space="preserve">
     <value>(Inga meddelanden hittades.)</value>
@@ -28120,6 +27931,9 @@ För att återgå till startsidan klicka &lt;a href="{1}"&gt;här&lt;/a&gt;.</va
   </data>
   <data name="OnceText" xml:space="preserve">
     <value>En gång</value>
+  </data>
+  <data name="OneDriveSessionExpiredText" xml:space="preserve">
+    <value>Din One Drive-session har gått ut eller är inte längre giltig. Logga in på ditt One Drive-konto igen.</value>
   </data>
   <data name="OneFreeMonthLabel" xml:space="preserve">
     <value>14 dagar gratis</value>
@@ -28574,11 +28388,17 @@ För att återgå till startsidan klicka &lt;a href="{1}"&gt;här&lt;/a&gt;.</va
   <data name="PasswordPolicyViolation" xml:space="preserve">
     <value>Lösenordet är för svagt för att kunna användas med AxCrypt.</value>
   </data>
+  <data name="PasswordRequiredText" xml:space="preserve">
+    <value>Lösenord krävs</value>
+  </data>
   <data name="PasswordRequirementMinLength" xml:space="preserve">
     <value>8+ tecken</value>
   </data>
   <data name="PasswordRequirementNumber" xml:space="preserve">
     <value>Minst ett nummer</value>
+  </data>
+  <data name="PasswordRequirementsText" xml:space="preserve">
+    <value>8+ tecken, versaler och gemener, siffror och symboler.</value>
   </data>
   <data name="PasswordRequirementSymbol" xml:space="preserve">
     <value>Minst en symbol</value>
@@ -28662,6 +28482,9 @@ Mellanslag och delar av ordet som består av vanliga lösenord bortses ifrån oc
   </data>
   <data name="PasswordSpecialCharacter" xml:space="preserve">
     <value>1 specialtecken som</value>
+  </data>
+  <data name="PasswordStoredSecurelyText" xml:space="preserve">
+    <value>Detta lösenord sparas säkert och kommer ihåg tills du rensar alla inställningar eller avinstallerar appen.</value>
   </data>
   <data name="PasswordStrengthBadName" xml:space="preserve">
     <value>Svagt</value>
@@ -29144,6 +28967,9 @@ Mellanslag och delar av ordet som består av vanliga lösenord bortses ifrån oc
   </data>
   <data name="PremiumSecondBodyText2" xml:space="preserve">
     <value>Du kan säga upp din prenumeration när som helst. Om du gör detta innan provperiodens slut debiteras du inte. Efter det kommer ditt konto att nedgraderas till gratisversionen.</value>
+  </data>
+  <data name="PremiumShareLimitText" xml:space="preserve">
+    <value>Premium: dela med upp till 2 personer</value>
   </data>
   <data name="PremiumSupportInfo" xml:space="preserve">
     <value>Välkommen till AxCrypt Support. Vi ger våra Premium-kunder prioriterad och personligt direktstöd via e-post.</value>
@@ -30588,6 +30414,12 @@ Vänligen &lt;a href="mailto:business@axcrypt.net"&gt;kontakta oss&lt;/a&gt; så
   <data name="RecipientInputHint" xml:space="preserve">
     <value>Tryck &lt;kbd&gt;Enter&lt;/kbd&gt; på eller &lt;kbd&gt;,&lt;/kbd&gt; lägg till varje mottagare. Klicka på ett chip för att redigera det.</value>
   </data>
+  <data name="RecoveryAccessAlwaysEnabledText" xml:space="preserve">
+    <value>Alltid aktiverat så att du kan återställa dina filer om du glömmer ditt fillösenord.</value>
+  </data>
+  <data name="RecoveryOptionsText" xml:space="preserve">
+    <value>Återhämtningsalternativ</value>
+  </data>
   <data name="RedHatDownloadLinkTooltip" xml:space="preserve">
     <value>Säkert och tillförlitligt filskydd för Red Hat-system.&lt;br/&gt;Fungerar på &lt;b&gt;RHEL 8 och senare&lt;/b&gt;.</value>
   </data>
@@ -31179,7 +31011,7 @@ Till: support@axcrypt.net
     <value>Marknadsföring</value>
   </data>
   <data name="ResellerHelpSupportBlock1ListItem1" xml:space="preserve">
-    <value>Vanliga frågor: &lt;a href='https://www.axcrypt.net/information/faq'&gt;https://www.axcrypt.net/information/faq&lt;/a&gt;</value>
+    <value>Vanliga frågor: &lt;a href='https://www.axcrypt.net/support/faq'&gt;https://www.axcrypt.net/support/faq&lt;/a&gt;</value>
   </data>
   <data name="ResellerHelpSupportBlock1ListItem2" xml:space="preserve">
     <value>Business-prenumeration: &lt;a href='https://www.axcrypt.net/information/axcrypt-business'&gt;https://www.axcrypt.net/information/axcrypt-business&lt;/a&gt;</value>
@@ -31329,6 +31161,9 @@ Till: support@axcrypt.net
   </data>
   <data name="SaveCardsAndSecureNotesFeature" xml:space="preserve">
     <value>Sparkort och säkra anteckningar</value>
+  </data>
+  <data name="SavedToText" xml:space="preserve">
+    <value>Sparad i:</value>
   </data>
   <data name="SaveSecretErrorIsReadOnly" xml:space="preserve">
     <value>Endast betalande abonnenter kan spara lösenordsposter.</value>
@@ -31801,6 +31636,9 @@ Till: support@axcrypt.net
   <data name="SecureEncryptedVaultPopup" xml:space="preserve">
     <value>Säkert krypterat valv</value>
   </data>
+  <data name="SecureFilesThreeWaysVideoTitle" xml:space="preserve">
+    <value>Säkra Filer på 3 Enkla Sätt</value>
+  </data>
   <data name="SecureFoldersAndCloudStorageSyncMessage" xml:space="preserve">
     <value>Säkra mappar och molnlagringssynkronisering</value>
   </data>
@@ -32080,6 +31918,9 @@ Till: support@axcrypt.net
   <data name="SentText" xml:space="preserve">
     <value>Skickat</value>
   </data>
+  <data name="SeparateFromAccountPasswordText" xml:space="preserve">
+    <value>Detta är separat från ditt AxCrypt-kontolösenord. Alla som öppnar filen kommer att bli ombedda att ange det.</value>
+  </data>
   <data name="ServerStatusLabel" xml:space="preserve">
     <value>Serverstatus</value>
   </data>
@@ -32093,8 +31934,14 @@ Till: support@axcrypt.net
     <value>Lägg till e-postadress</value>
     <comment>Title of SetEmail step on SignUp page in mobile application</comment>
   </data>
+  <data name="SetFilePasswordText" xml:space="preserve">
+    <value>Sätt Fillösenord</value>
+  </data>
   <data name="SetPasswordText" xml:space="preserve">
     <value>Ställ in ett starkt lösenord för ditt AxCrypt-ID eller välj vårt alternativ för lösenordsförslag.</value>
+  </data>
+  <data name="SetPasswordText1" xml:space="preserve">
+    <value>Ange Lösenord</value>
   </data>
   <data name="SettingDeleteUsrCnfrmText" xml:space="preserve">
     <value>Är du säker på att du vill ta bort ditt konto?</value>
@@ -32252,6 +32099,9 @@ Det kan vara lämpligt att informera '{0}' direkt om AxCrypt filskydd.</value>
   <data name="ShareWithOthersTitle" xml:space="preserve">
     <value>Enkel åtkomst av lösenord</value>
     <comment>Title of "Share With Others" slide on Onboarding screen in mobile application.</comment>
+  </data>
+  <data name="ShareWithPeopleText" xml:space="preserve">
+    <value>Dela med Folk</value>
   </data>
   <data name="SharingCollaborationTitle" xml:space="preserve">
     <value>Delning och Samarbete</value>
@@ -32799,9 +32649,6 @@ För att återgå till startsidan, klicka &lt;a href="{1}"&gt;här&lt;/a&gt;.</v
   </data>
   <data name="TechnicalDetailsSourceCodeHeading" xml:space="preserve">
     <value>Källkod</value>
-  </data>
-  <data name="TechnicalDetailsSourceCodeText" xml:space="preserve">
-    <value>Den kompletta källkoden för kärnbiblioteken och Windows-klienten brukade finnas i ett Mercurial-arkiv på Bitbucket. Men från och med sommaren 2020 slutade Bitbucket att stödja Mercurial, och vi arbetar aktivt på att hitta en alternativ lösning för att göra källkoden lättillgänglig. För tillfället, vänligen kontakta support@axcrypt.net så kommer vi att tillhandahålla källkoden.</value>
   </data>
   <data name="TechnicalDetailsStoredOnServerHeading" xml:space="preserve">
     <value>Vad är lagrat på servern?</value>
@@ -33752,6 +33599,9 @@ AxCrypt-teamet</value>
   <data name="UpgradeText" xml:space="preserve">
     <value>Uppgradera</value>
   </data>
+  <data name="UpgradeToAutoShareText" xml:space="preserve">
+    <value>Uppgradera till Premium eller Företag för att automatiskt dela krypterade filer med personer du väljer.</value>
+  </data>
   <data name="UpgradeToUnlockEncryptionText" xml:space="preserve">
     <value>Uppgradera för att låsa upp &lt;span&gt;Kryptering och fler funktioner!&lt;/span&gt;</value>
   </data>
@@ -34009,9 +33859,6 @@ AxCrypt-teamet</value>
   </data>
   <data name="VaultFolderNotConfiguredMessage" xml:space="preserve">
     <value>Ingen mapp har konfigurerats som ett Valv. Vänligen konfigurera Valvmappen och försök igen.</value>
-  </data>
-  <data name="VaultFolderUnavailableMessage" xml:space="preserve">
-    <value>Din valvmapp är för närvarande otillgänglig. &lt;br/&gt;&lt;br/&gt;Den kan ha flyttats eller tagits bort. Vänligen kontrollera mappens plats eller välj ett annat valv.</value>
   </data>
   <data name="VaultGuideCarouselText1" xml:space="preserve">
     <value>Var god konfigurera Valvet genom att navigera till Inställningar → Avancerade inställningar → Valvinställningar.</value>

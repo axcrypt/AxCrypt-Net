@@ -1660,6 +1660,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Add File Password.
+        /// </summary>
+        public static string AddFilePasswordText {
+            get {
+                return ResourceManager.GetString("AddFilePasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Add and secure your first folder..
         /// </summary>
         public static string AddFirstFolderText {
@@ -1674,6 +1683,15 @@ namespace AxCrypt.Content {
         public static string AddFirstPasswordText {
             get {
                 return ResourceManager.GetString("AddFirstPasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Adding.
+        /// </summary>
+        public static string AddingText {
+            get {
+                return ResourceManager.GetString("AddingText", resourceCulture);
             }
         }
         
@@ -1791,6 +1809,15 @@ namespace AxCrypt.Content {
         public static string AddSecureFolderTitle {
             get {
                 return ResourceManager.GetString("AddSecureFolderTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add up to {0} people who can open these files with their own AxCrypt account..
+        /// </summary>
+        public static string AddSharePeopleDescriptionText {
+            get {
+                return ResourceManager.GetString("AddSharePeopleDescriptionText", resourceCulture);
             }
         }
         
@@ -2364,6 +2391,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Always on.
+        /// </summary>
+        public static string AlwaysOnText {
+            get {
+                return ResourceManager.GetString("AlwaysOnText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Always..
         /// </summary>
         public static string AlwaysText {
@@ -2893,6 +2929,24 @@ namespace AxCrypt.Content {
         public static string AutomaticFileUpdatingText {
             get {
                 return ResourceManager.GetString("AutomaticFileUpdatingText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to AutoShareFilesOnEncryptionText.
+        /// </summary>
+        public static string Autoshare_files_on_encryption {
+            get {
+                return ResourceManager.GetString("Autoshare files on encryption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Automatically share encrypted files with people you choose, so they can open them with their own AxCrypt account..
+        /// </summary>
+        public static string AutoShareFilesDescriptionText {
+            get {
+                return ResourceManager.GetString("AutoShareFilesDescriptionText", resourceCulture);
             }
         }
         
@@ -50020,6 +50074,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Business: share with up to 3 people.
+        /// </summary>
+        public static string BusinessShareLimitText {
+            get {
+                return ResourceManager.GetString("BusinessShareLimitText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Add.
         /// </summary>
         public static string BusinessSubscriptionAddButtonLabel {
@@ -51950,6 +52013,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to AxCrypt needs your permission to access your {0} to open, encrypt, decrypt, and securely key share your files.\nYour privacy is our priority — we never store your files or share your data.\n\nWould you like to connect now?.
+        /// </summary>
+        public static string CloudStoragePermissionRequestText {
+            get {
+                return ResourceManager.GetString("CloudStoragePermissionRequestText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Color palette.
         /// </summary>
         public static string ColorPaletteLabel {
@@ -52792,6 +52864,24 @@ namespace AxCrypt.Content {
         public static string ConfigurationSuccess {
             get {
                 return ResourceManager.GetString("ConfigurationSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure how files are encrypted by default.
+        /// </summary>
+        public static string ConfigureDefaultEncryptionText {
+            get {
+                return ResourceManager.GetString("ConfigureDefaultEncryptionText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure how files are encrypted by default.
+        /// </summary>
+        public static string ConfigureDefaultEncryptionText1 {
+            get {
+                return ResourceManager.GetString("ConfigureDefaultEncryptionText1", resourceCulture);
             }
         }
         
@@ -55835,7 +55925,7 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Technical details.
+        ///   Looks up a localized string similar to Open source repository.
         /// </summary>
         public static string DownloadOtherSourceCodeSubtitle {
             get {
@@ -56119,6 +56209,15 @@ namespace AxCrypt.Content {
         public static string DownloadWindowsX64Title {
             get {
                 return ResourceManager.GetString("DownloadWindowsX64Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your Drop Box session has expired or is no longer valid. Please sign in to your Drop Box account again.
+        /// </summary>
+        public static string DropboxSessionExpiredText {
+            get {
+                return ResourceManager.GetString("DropboxSessionExpiredText", resourceCulture);
             }
         }
         
@@ -57293,11 +57392,47 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Encrypt this file with a password. You will need this password to open the file..
+        /// </summary>
+        public static string EncryptFileWithPasswordText {
+            get {
+                return ResourceManager.GetString("EncryptFileWithPasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Encryption Management.
         /// </summary>
         public static string EncryptionManagementText {
             get {
                 return ResourceManager.GetString("EncryptionManagementText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Encryption Options.
+        /// </summary>
+        public static string EncryptionOptionsText {
+            get {
+                return ResourceManager.GetString("EncryptionOptionsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Encryption Options.
+        /// </summary>
+        public static string EncryptionOptionsText1 {
+            get {
+                return ResourceManager.GetString("EncryptionOptionsText1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Encryption.
+        /// </summary>
+        public static string EncryptionText {
+            get {
+                return ResourceManager.GetString("EncryptionText", resourceCulture);
             }
         }
         
@@ -57406,6 +57541,24 @@ namespace AxCrypt.Content {
         public static string EnterPassphraseForIdentityPrompt {
             get {
                 return ResourceManager.GetString("EnterPassphraseForIdentityPrompt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter a password for &lt;strong&gt;@FileCount files&lt;/strong&gt;.
+        /// </summary>
+        public static string EnterPasswordForFilesText {
+            get {
+                return ResourceManager.GetString("EnterPasswordForFilesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter a password for this file.
+        /// </summary>
+        public static string EnterPasswordForThisFileText {
+            get {
+                return ResourceManager.GetString("EnterPasswordForThisFileText", resourceCulture);
             }
         }
         
@@ -63071,6 +63224,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to A password that will be needed to open this file.
+        /// </summary>
+        public static string FilePasswordDescriptionText {
+            get {
+                return ResourceManager.GetString("FilePasswordDescriptionText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please provide the original password for this file..
         /// </summary>
         public static string FilePasswordDialogHeader {
@@ -63085,6 +63247,33 @@ namespace AxCrypt.Content {
         public static string FilePasswordHereText {
             get {
                 return ResourceManager.GetString("FilePasswordHereText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;strong&gt;Keep it somewhere safe.&lt;/strong&gt; If you forget this password, the file can’t be opened — unless Recovery Access is turned on..
+        /// </summary>
+        public static string FilePasswordRecoveryWarningText {
+            get {
+                return ResourceManager.GetString("FilePasswordRecoveryWarningText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use at least 8 characters with upper &amp; lower case, numbers, and symbols..
+        /// </summary>
+        public static string FilePasswordRequirementsText {
+            get {
+                return ResourceManager.GetString("FilePasswordRequirementsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The file password you just set will be used to encrypt your files instead of your account password..
+        /// </summary>
+        public static string FilePasswordUsedForEncryptionText {
+            get {
+                return ResourceManager.GetString("FilePasswordUsedForEncryptionText", resourceCulture);
             }
         }
         
@@ -63494,6 +63683,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Linux.
+        /// </summary>
+        public static string FooterDownloadLinuxText {
+            get {
+                return ResourceManager.GetString("FooterDownloadLinuxText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mac.
         /// </summary>
         public static string FooterDownloadMacText {
@@ -63607,6 +63805,15 @@ namespace AxCrypt.Content {
         public static string ForEveryoneLabel {
             get {
                 return ResourceManager.GetString("ForEveryoneLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If you forget this password, you may permanently lose access to those files..
+        /// </summary>
+        public static string ForgottenFilePasswordWarningText {
+            get {
+                return ResourceManager.GetString("ForgottenFilePasswordWarningText", resourceCulture);
             }
         }
         
@@ -65574,7 +65781,7 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to If you have any burning issues or questions, check our &lt;a href=&apos;/information/faq&apos;&gt;frequently asked questions&lt;/a&gt; page..
+        ///   Looks up a localized string similar to If you have any burning issues or questions, check our &lt;a href=&apos;/support/faq&apos;&gt;frequently asked questions&lt;/a&gt; page..
         /// </summary>
         public static string GetStartedInfoNote2Text1 {
             get {
@@ -66011,6 +66218,15 @@ namespace AxCrypt.Content {
         public static string GettheLatestAxCryptText {
             get {
                 return ResourceManager.GetString("GettheLatestAxCryptText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your Google Drive session has expired or is no longer valid. Please sign in to your Google Drive account again..
+        /// </summary>
+        public static string GoogleDriveSessionExpiredText {
+            get {
+                return ResourceManager.GetString("GoogleDriveSessionExpiredText", resourceCulture);
             }
         }
         
@@ -66978,6 +67194,51 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Before you begin.
+        /// </summary>
+        public static string GuideBeforeYouBeginTitle {
+            get {
+                return ResourceManager.GetString("GuideBeforeYouBeginTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contact our support team.
+        /// </summary>
+        public static string GuideContactSupportTeam {
+            get {
+                return ResourceManager.GetString("GuideContactSupportTeam", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No.
+        /// </summary>
+        public static string GuideHelpfulNo {
+            get {
+                return ResourceManager.GetString("GuideHelpfulNo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yes.
+        /// </summary>
+        public static string GuideHelpfulYes {
+            get {
+                return ResourceManager.GetString("GuideHelpfulYes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to On this guide.
+        /// </summary>
+        public static string GuideOnThisGuideTitle {
+            get {
+                return ResourceManager.GetString("GuideOnThisGuideTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Get started.
         /// </summary>
         public static string GuidesGetStartedLinkLabelWithPlatform {
@@ -67037,6 +67298,15 @@ namespace AxCrypt.Content {
         public static string GuidesLinkQuoteLabel6 {
             get {
                 return ResourceManager.GetString("GuidesLinkQuoteLabel6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Was this article helpful?.
+        /// </summary>
+        public static string GuideWasHelpfulTitle {
+            get {
+                return ResourceManager.GetString("GuideWasHelpfulTitle", resourceCulture);
             }
         }
         
@@ -67421,6 +67691,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Review AxCrypt source code and technical transparency..
+        /// </summary>
+        public static string HelpCenterGuideSummaryOpenSource {
+            get {
+                return ResourceManager.GetString("HelpCenterGuideSummaryOpenSource", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Store and manage passwords securely..
         /// </summary>
         public static string HelpCenterGuideSummaryPasswordManager {
@@ -67480,6 +67759,15 @@ namespace AxCrypt.Content {
         public static string HelpCenterGuideSummarySecuredMessenger {
             get {
                 return ResourceManager.GetString("HelpCenterGuideSummarySecuredMessenger", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Learn three simple ways to secure files in AxCrypt..
+        /// </summary>
+        public static string HelpCenterGuideSummarySecureFilesThreeWaysVideo {
+            get {
+                return ResourceManager.GetString("HelpCenterGuideSummarySecureFilesThreeWaysVideo", resourceCulture);
             }
         }
         
@@ -67624,6 +67912,24 @@ namespace AxCrypt.Content {
         public static string HelpCenterLabel {
             get {
                 return ResourceManager.GetString("HelpCenterLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Find AxCrypt guides, answers, feature help, secure file encryption tutorials, and support resources in the AxCrypt Help Center..
+        /// </summary>
+        public static string HelpCenterMetaDescription {
+            get {
+                return ResourceManager.GetString("HelpCenterMetaDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to AxCrypt Help Center | Guides, FAQs and Support.
+        /// </summary>
+        public static string HelpCenterMetaTitle {
+            get {
+                return ResourceManager.GetString("HelpCenterMetaTitle", resourceCulture);
             }
         }
         
@@ -69388,6 +69694,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Include Recovery Access.
+        /// </summary>
+        public static string IncludeRecoveryAccessText {
+            get {
+                return ResourceManager.GetString("IncludeRecoveryAccessText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to You are about to enable a dangerous option. If you are not careful, you may affect more data than you intend causing operations to take very long time, or breaking other softwares including the operating system. Are you sure?.
         /// </summary>
         public static string IncludeSubfoldersConfirmationBody {
@@ -69453,717 +69768,6 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to AxCrypt utilizes the strongest encryption standard – the AES 256-Bit algorithm – to encrypt and protect data across devices. With its user-friendly and efficient encryption tools including the password manager, cloud storage integration, and master key; AxCrypt has become a trusted solution for companies across industries including finance, healthcare, legal, and government.&lt;br /&gt; &lt;br /&gt;AxCrypt&apos;s encryption technology ensures that only authorized individuals can access confidential files, protecting sensiti [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesBenefitsText0 {
-            get {
-                return ResourceManager.GetString("IndustriesBenefitsText0", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Benefits of using Axcrypt.
-        /// </summary>
-        public static string IndustriesBenefitsTitle {
-            get {
-                return ResourceManager.GetString("IndustriesBenefitsTitle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to New to encryption? Check out our blog for the latest news..
-        /// </summary>
-        public static string IndustriesBlogLabel {
-            get {
-                return ResourceManager.GetString("IndustriesBlogLabel", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;span&gt;AxCrypt&lt;/span&gt; Is Trusted Across Industries and Domains.
-        /// </summary>
-        public static string IndustriesDomainHeading {
-            get {
-                return ResourceManager.GetString("IndustriesDomainHeading", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Data and file encryption acts as the first line of defence against data breaches and cyber attacks, recommended by renowned institutions and organisations like NIST, IBM, and Microsoft. Data encryption plays a critical role in enhancing data security and privacy in the education industry.&lt;br/&gt;&lt;br/&gt; The encryption mechanism, using an encryption algorithm like AES, essentially transforms the contents of any file into an unreadable and indecipherable format, making it inaccessible to unauthorised users. Only a [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesEducationContent1 {
-            get {
-                return ResourceManager.GetString("IndustriesEducationContent1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to AxCrypt is an award winning file encryption software that protects sensitive information of your universities, colleges, and schools using the AES-256 algorithm! Educational institutions can use AxCrypt to encrypt and protect student records, financial information, and research documents.&lt;br/&gt;&lt;br/&gt; AxCrypt ensures that this information remains encrypted and inaccessible to unauthorized individuals, safeguarding student privacy and protecting from data breaches.&lt;br/&gt;&lt;br/&gt; AxCrypt is trusted by renowned unive [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesEducationContent2 {
-            get {
-                return ResourceManager.GetString("IndustriesEducationContent2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Secure proprietary essays, papers, reports, theses and research..
-        /// </summary>
-        public static string IndustriesEducationHeading {
-            get {
-                return ResourceManager.GetString("IndustriesEducationHeading", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Data encryption as a shield to &lt;span&gt;cyber attacks&lt;/span&gt;.
-        /// </summary>
-        public static string IndustriesEducationHeading1 {
-            get {
-                return ResourceManager.GetString("IndustriesEducationHeading1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to AxCrypt for your university, college, and school.
-        /// </summary>
-        public static string IndustriesEducationHeading2 {
-            get {
-                return ResourceManager.GetString("IndustriesEducationHeading2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Access all your documents and synchronize them on your devices while protecting your files from costly data breaches..
-        /// </summary>
-        public static string IndustriesEducationParagraph {
-            get {
-                return ResourceManager.GetString("IndustriesEducationParagraph", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The financial service industry today is more digital and data-intensive than ever before. People are increasingly using their phones and computers more than their wallets and books to pay, invest, and manage their finances. Internet banking has also replaced most of the operations that were traditionally performed physically in a bank. &lt;br/&gt;&lt;br/&gt;This rapid surge in the volumes of finance data being generated by users everyday, also makes it highly vulnerable to cyber attacks and data breaches. Data breaches [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesFinancialBenefitsText {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialBenefitsText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Encryption for your financial data acts as the first line of defense against cyber attacks and data breaches, recommended by renowned institutions and organizations like NIST, IBM, and Microsoft. During the encryption process, contents of the files are transformed into an unreadable and undecipherable format using encryption algorithms and cryptographic keys. &lt;br/&gt;&lt;br/&gt;The transformation of the files’ contents ensures that only the authorized users who have access to the cryptographic keys can decrypt and a [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesFinancialContent1 {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialContent1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;b&gt;AxCrypt&lt;/b&gt; is an award winning file encryption software that protects sensitive financial data and files using the AES-256 algorithm. Use AxCrypt to encrypt and protect &lt;b&gt;transaction records, customer information, financial documents,&lt;/b&gt; and more. AxCrypt ensures that your data remains encrypted and inaccessible to &lt;b&gt;unauthorized&lt;/b&gt; individuals at all times, safeguarding your organization&apos;s &lt;b&gt;privacy&lt;/b&gt; and protecting it from cyber attacks and breaches. &lt;br/&gt;&lt;br/&gt;AxCrypt has been awarded as the &lt;b [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesFinancialContent2 {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialContent2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Protect Sensitive Financial Data with Each Transaction.
-        /// </summary>
-        public static string IndustriesFinancialHeading {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialHeading", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Encryption Proactively Secures Your Financial Data.
-        /// </summary>
-        public static string IndustriesFinancialHeading1 {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialHeading1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Data Security for Your BFSI with AxCrypt.
-        /// </summary>
-        public static string IndustriesFinancialHeading2 {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialHeading2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Secure highly sensitive financial documents and statements. Control access and choose who gets to see what..
-        /// </summary>
-        public static string IndustriesFinancialParagraph {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialParagraph", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Secure highly sensitive and confidential financial documents such as balance sheets, income statements, tax returns, etc..
-        /// </summary>
-        public static string IndustriesFinancialPowerfulUseCasesContent1 {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialPowerfulUseCasesContent1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Secure important and sensitive custom information, including PIIs, transaction records, tax filings, etc..
-        /// </summary>
-        public static string IndustriesFinancialPowerfulUseCasesContent2 {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialPowerfulUseCasesContent2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Create one-click automatic data security workflows by enabling automatic encryption of files on desktops and cloud storage providers..
-        /// </summary>
-        public static string IndustriesFinancialPowerfulUseCasesContent3 {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialPowerfulUseCasesContent3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Powerful Use Cases with &lt;span&gt;AxCrypt&lt;/span&gt;.
-        /// </summary>
-        public static string IndustriesFinancialPowerfulUseCasesHeading {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialPowerfulUseCasesHeading", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Protect Confidential Data.
-        /// </summary>
-        public static string IndustriesFinancialPowerfulUseCasesSubHeading1 {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialPowerfulUseCasesSubHeading1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Safeguard Customer Info.
-        /// </summary>
-        public static string IndustriesFinancialPowerfulUseCasesSubHeading2 {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialPowerfulUseCasesSubHeading2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Security Automation.
-        /// </summary>
-        public static string IndustriesFinancialPowerfulUseCasesSubHeading3 {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialPowerfulUseCasesSubHeading3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;span class=&apos;img1&apos;&gt;Robust security&lt;/span&gt;&lt;span class=&apos;img2&apos;&gt;for your financial data.&lt;/span&gt;&lt;span class=&apos;img3&apos;&gt;&lt;br/&gt;Protect financial documents&lt;/span&gt;,&lt;span class=&apos;img4&apos;&gt;&lt;br/&gt;customer information&lt;/span&gt;, &lt;span class=&apos;img5&apos;&gt;&lt;br/&gt;and more.&lt;/span&gt; &lt;span class=&apos;img6&apos;&gt;&lt;/span&gt;.
-        /// </summary>
-        public static string IndustriesFinancialTitleText {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialTitleText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Find out how AxCrypt can secure your organization&apos;s data today. &lt;span&gt;Try it for free for 14 Days! &lt;/span&gt;.
-        /// </summary>
-        public static string IndustriesFinancialTrialInfo {
-            get {
-                return ResourceManager.GetString("IndustriesFinancialTrialInfo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to See how AxCrypt can secure your institution’s data today. &lt;span&gt; Try it for free for 14 Days! &lt;/span&gt;.
-        /// </summary>
-        public static string IndustriesFreeTrialText0 {
-            get {
-                return ResourceManager.GetString("IndustriesFreeTrialText0", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to In today&apos;s AI era, governments worldwide face escalating cybersecurity threats that pose significant risks to sensitive information, public safety, and national security. &lt;br/&gt;&lt;br/&gt;Recent incidents, such as the SolarWinds cyberattack in 2020, underscore the imperative need for robust encryption measures to safeguard sensitive government data from unauthorized access and exploitation.&lt;br/&gt;&lt;br/&gt;Encryption stands as a critical tool in bolstering government defenses against cyber threats, ensuring the integrity [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesGovernmentBenefitsText {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentBenefitsText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Protection of highly sensitive government data such as sensitive reports, confidential documents, public records, and more in one click..
-        /// </summary>
-        public static string IndustriesGovernmentBestPracticesContent1 {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentBestPracticesContent1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to AxCrypt’s AES-256 bit file encryption is compliant with various data regulations such as GDPR, HIPAA, and FIPs..
-        /// </summary>
-        public static string IndustriesGovernmentBestPracticesContent2 {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentBestPracticesContent2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to AxCrypt creates one-click automatic data security workflows by enabling automatic encryption of files on desktops and cloud storage providers..
-        /// </summary>
-        public static string IndustriesGovernmentBestPracticesContent3 {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentBestPracticesContent3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Empowering Government Organizations with &lt;span&gt;Data Security Best Practices&lt;span&gt;.
-        /// </summary>
-        public static string IndustriesGovernmentBestPracticesHeading {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentBestPracticesHeading", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Confidential File Protection.
-        /// </summary>
-        public static string IndustriesGovernmentBestPracticesSubHeading1 {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentBestPracticesSubHeading1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Regulatory Compliance.
-        /// </summary>
-        public static string IndustriesGovernmentBestPracticesSubHeading2 {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentBestPracticesSubHeading2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Data Security Automation.
-        /// </summary>
-        public static string IndustriesGovernmentBestPracticesSubHeading3 {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentBestPracticesSubHeading3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Instead of just locking a file, encryption transforms the contents of a file into an unreadable and undecipherable format. Using an encryption algorithm like AES, it rearranges, shifts, replaces, and mixes a file’s contents. The encryption keys used with the algorithm dictate the precise sequence of these transformations, allowing for the reversal of the encryption process (decryption) to restore the contents of a file to its original state. &lt;br/&gt;Unlike alternative security methods like password protection  [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesGovernmentContent1 {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentContent1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to AxCrypt’s award winning and Zero-Knowledge file encryption software protects government data in one click. Secure files such as important government documents, public records, confidential reports, classified files, and more – with AES-256 bit data encryption standard. Create automatic encryption mechanisms to encrypt files within a folder and sync them to popular cloud storage providers.&lt;br/&gt;&lt;br/&gt;AxCrypt is the number 1 choice of PCMag as the ‘Best Encryption Software’ of 2025. It has been the number 1 for [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesGovernmentContent2 {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentContent2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Comply with Compliance and Make Your Files On Par with Regulations.
-        /// </summary>
-        public static string IndustriesGovernmentHeading {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentHeading", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to How Does Encryption Protect Government Data?.
-        /// </summary>
-        public static string IndustriesGovernmentHeading1 {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentHeading1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Protect Government Data with AxCrypt.
-        /// </summary>
-        public static string IndustriesGovernmentHeading2 {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentHeading2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to AxCrypt helps government agencies and businesses meet compliance regulations and protect sensitive data with its powerful encryption tool. Stay secure and compliant across all devices with ease..
-        /// </summary>
-        public static string IndustriesGovernmentParagraph {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentParagraph", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;span class=&apos;img1&apos;&gt;Government data protection using powerful encryption&lt;br/&gt; with AES-256. Secure government&lt;/span&gt;&lt;span class=&apos;img4&apos;&gt; documents,&lt;br/&gt; confidential reports, and more.&lt;/span&gt;&lt;span class=&apos;img5&apos;&gt;&lt;/span&gt;.
-        /// </summary>
-        public static string IndustriesGovernmentTitleText {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentTitleText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Find out how AxCrypt can protect your government organization&apos;s data today.&lt;span&gt;Try it for free for 14 Days!&lt;/span&gt;.
-        /// </summary>
-        public static string IndustriesGovernmentTrialInfo {
-            get {
-                return ResourceManager.GetString("IndustriesGovernmentTrialInfo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Cloud storage awareness and password  management.
-        /// </summary>
-        public static string IndustriesHeadingCloud {
-            get {
-                return ResourceManager.GetString("IndustriesHeadingCloud", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Confidentiality and integrity.
-        /// </summary>
-        public static string IndustriesHeadingConfidentiality {
-            get {
-                return ResourceManager.GetString("IndustriesHeadingConfidentiality", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Data protection regulation compliant.
-        /// </summary>
-        public static string IndustriesHeadingProtection {
-            get {
-                return ResourceManager.GetString("IndustriesHeadingProtection", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Security, reliability and simplicity.
-        /// </summary>
-        public static string IndustriesHeadingSecurity {
-            get {
-                return ResourceManager.GetString("IndustriesHeadingSecurity", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Teamwork, collaboration.
-        /// </summary>
-        public static string IndustriesHeadingTeamwork {
-            get {
-                return ResourceManager.GetString("IndustriesHeadingTeamwork", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The healthcare sector is rapidly seeing an exponential increase in the volume of sensitive data being generated everyday. From patient’s details to Electronic Health Records (EHR), healthcare providers have a lot to protect for. Approximately &lt;b&gt;30% of the world&apos;s data&lt;/b&gt; volume is being generated by the healthcare industry, and this number is expected to grow tremendously in the near future.&lt;br/&gt;&lt;br/&gt;This exponential increase in the healthcare data also makes it highly vulnerable to devastating cyber atta [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesHealthcareBenefitsText {
-            get {
-                return ResourceManager.GetString("IndustriesHealthcareBenefitsText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to File encryption creates a strong protective shield for your sensitive healthcare data, protecting against cyber attacks and data breaches. It is a recommended measure by renowned institutions and organizations like NIST, IBM, and Microsoft. During the encryption process, contents of healthcare files are transformed into an unreadable and undecipherable format using encryption algorithms and cryptographic keys.&lt;br/&gt;&lt;br/&gt;The transformation of the files&apos; contents ensures that only authorized users with access  [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesHealthcareContent1 {
-            get {
-                return ResourceManager.GetString("IndustriesHealthcareContent1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;b&gt;AxCrypt&lt;/b&gt; is an award winning file encryption software that protects your sensitive healthcare files using the AES-256 algorithm. It protects &lt;b&gt;patient information, Electronic Health Records (EHR), insurance details,&lt;/b&gt; and more. AxCrypt ensures that your data remains encrypted and inaccessible to &lt;b&gt;unauthorized&lt;/b&gt; individuals at all times even when you share it with others, safeguarding your healthcare organization&apos;s &lt;b&gt;privacy&lt;/b&gt; and protecting it from cyber attacks and breaches. It also helps y [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesHealthcareContent2 {
-            get {
-                return ResourceManager.GetString("IndustriesHealthcareContent2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Secure Sensitive Health Records, Crucial Medical Documents..
-        /// </summary>
-        public static string IndustriesHealthcareHeading {
-            get {
-                return ResourceManager.GetString("IndustriesHealthcareHeading", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to File Encryption Proactively Protects Healthcare Data.
-        /// </summary>
-        public static string IndustriesHealthcareHeading1 {
-            get {
-                return ResourceManager.GetString("IndustriesHealthcareHeading1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to AxCrypt for Your Healthcare Data.
-        /// </summary>
-        public static string IndustriesHealthcareHeading2 {
-            get {
-                return ResourceManager.GetString("IndustriesHealthcareHeading2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to AxCrypt helps healthcare professionals secure sensitive patient data, ensuring privacy and compliance with HIPAA regulations. Protect patient information with ease across all devices..
-        /// </summary>
-        public static string IndustriesHealthcareParagraph {
-            get {
-                return ResourceManager.GetString("IndustriesHealthcareParagraph", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Protect highly sensitive Electronic Health Records (EHR) and other medical files with unbreakable encryption..
-        /// </summary>
-        public static string IndustriesHealthcarePowerfulUseCasesContent1 {
-            get {
-                return ResourceManager.GetString("IndustriesHealthcarePowerfulUseCasesContent1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Easily comply with HIPAA and GDPR by keeping all healthcare data at rest encrypted with AES-256..
-        /// </summary>
-        public static string IndustriesHealthcarePowerfulUseCasesContent2 {
-            get {
-                return ResourceManager.GetString("IndustriesHealthcarePowerfulUseCasesContent2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Create one-click automatic data security workflows by enabling automatic encryption of files on desktops and cloud storage providers..
-        /// </summary>
-        public static string IndustriesHealthcarePowerfulUseCasesContent3 {
-            get {
-                return ResourceManager.GetString("IndustriesHealthcarePowerfulUseCasesContent3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Protect EHR Data.
-        /// </summary>
-        public static string IndustriesHealthcarePowerfulUseCasesSubHeading1 {
-            get {
-                return ResourceManager.GetString("IndustriesHealthcarePowerfulUseCasesSubHeading1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Comply with HIPAA.
-        /// </summary>
-        public static string IndustriesHealthcarePowerfulUseCasesSubHeading2 {
-            get {
-                return ResourceManager.GetString("IndustriesHealthcarePowerfulUseCasesSubHeading2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Security Automation.
-        /// </summary>
-        public static string IndustriesHealthcarePowerfulUseCasesSubHeading3 {
-            get {
-                return ResourceManager.GetString("IndustriesHealthcarePowerfulUseCasesSubHeading3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;span class=&apos;img1&apos;&gt;Protect patient records,&lt;/span&gt;healthcare data, EHR,&lt;span class=&apos;img3&apos;&gt;&lt;br/&gt;and comply with HIPAA&lt;/span&gt;&lt;span class=&apos;img4&apos;&gt;using Award-Winning&lt;br/&gt; Encryption Software&lt;/span&gt;&lt;span class=&apos;img5&apos;&gt;&lt;/span&gt;.
-        /// </summary>
-        public static string IndustriesHealthcareTitleText {
-            get {
-                return ResourceManager.GetString("IndustriesHealthcareTitleText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Find out how AxCrypt can secure your healthcare organization&apos;s data today.&lt;span&gt;Try it for free for 14 Days!&lt;/span&gt;.
-        /// </summary>
-        public static string IndustriesHealthcareTrialInfo {
-            get {
-                return ResourceManager.GetString("IndustriesHealthcareTrialInfo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Discover AxCrypt Business.
-        /// </summary>
-        public static string IndustriesHeroButton {
-            get {
-                return ResourceManager.GetString("IndustriesHeroButton", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Redefining the &lt;span&gt;encryption&lt;/span&gt; landscape for a &lt;span style=\&quot;font-family: auto; font-style:italic; color:#494949;\&quot;&gt;superior&lt;/span&gt; &lt;span&gt;cyber security&lt;/span&gt; experience.
-        /// </summary>
-        public static string IndustriesHeroText0 {
-            get {
-                return ResourceManager.GetString("IndustriesHeroText0", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to We change the way people communicate and work. With our 256-bit encryption, AxCrypt increases data security and reduces risks of breaches by implementing a user-friendly and easy to use encryption software and safeguarding confidentiality and integrity. Increase your productivity and stop wondering about your online privacy. Take back full control of your data and experience digital trust. Curious about encryption and related topics, have a look at our weekly updated &lt;a href=&quot;/blog&quot;&gt;blogs&lt;/a &gt;. Here at AxCr [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesHeroText1 {
-            get {
-                return ResourceManager.GetString("IndustriesHeroText1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Feel free to contact us at &lt;a href=&quot;mailto:support@axcrypt.net&quot;&gt;support@axcrypt.net&lt;/a&gt; and don’t forget to follow us on social media..
-        /// </summary>
-        public static string IndustriesHeroText2 {
-            get {
-                return ResourceManager.GetString("IndustriesHeroText2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The legal industry thrives on confidentiality and data protection. From contracts and client information to intellectual property and litigation documents, legal professionals handle a constant stream of highly sensitive information that requires superior protection.  Even a minor security breach can have devastating consequences, leading to financial losses and reputational damage.&lt;br/&gt;&lt;br/&gt; AxCrypt understands the critical need for robust data security in the legal field. Our award-winning file encryption [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesLegalBenefitsText {
-            get {
-                return ResourceManager.GetString("IndustriesLegalBenefitsText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Encryption as a process, transforms the contents of any legal file into an unreadable and undecipherable format using an encryption key. With an encryption algorithm like AES, it rearranges, shifts, replaces, and mixes a file’s contents. The encryption keys used with the algorithm dictate the precise sequence of these transformations, allowing for the reversal of the encryption process (decryption) to restore the contents of a file to its original state.&lt;br/&gt;&lt;br/&gt;Unlike alternative security methods like pas [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesLegalContent1 {
-            get {
-                return ResourceManager.GetString("IndustriesLegalContent1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to AxCrypt’s award winning and Zero-Knowledge file encryption software secures your sensitive legal data in one click. Protect files such as important case files, patent documents, clients records, confidential documents and more – with AES-256 bit data encryption standard. Create automatic encryption mechanisms to encrypt files within a folder and sync them to popular cloud storage providers.&lt;br/&gt;&lt;br/&gt;AxCrypt is the number 1 choice of PCMag as the ‘Best Encryption Software’ in 2025. It has been the number 1 f [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesLegalContent2 {
-            get {
-                return ResourceManager.GetString("IndustriesLegalContent2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Protection of highly sensitive legal data such as case files, important contracts,confidential documents, client records and more in one click..
-        /// </summary>
-        public static string IndustriesLegalDataSecutityContent1 {
-            get {
-                return ResourceManager.GetString("IndustriesLegalDataSecutityContent1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Enabling Legal Firms with&lt;br/&gt;&lt;span&gt;Data Security Best Practices&lt;/span&gt;.
-        /// </summary>
-        public static string IndustriesLegalDataSecutityHeading {
-            get {
-                return ResourceManager.GetString("IndustriesLegalDataSecutityHeading", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Protect Legal Files.
-        /// </summary>
-        public static string IndustriesLegalDataSecutitySubHeading1 {
-            get {
-                return ResourceManager.GetString("IndustriesLegalDataSecutitySubHeading1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Protect Legal Data with the Unbreakable AES-256.
-        /// </summary>
-        public static string IndustriesLegalHeading {
-            get {
-                return ResourceManager.GetString("IndustriesLegalHeading", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to How Does Encryption &lt;br/&gt;Protect LegalData?.
-        /// </summary>
-        public static string IndustriesLegalHeading1 {
-            get {
-                return ResourceManager.GetString("IndustriesLegalHeading1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Protect Legal Data &lt;br/&gt;with AxCrypt.
-        /// </summary>
-        public static string IndustriesLegalHeading2 {
-            get {
-                return ResourceManager.GetString("IndustriesLegalHeading2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to AxCrypt offers tailored data protection solutions for the legal sector, ensuring the security of sensitive documents, contracts, and client communications with AES 256-bit encryption. Our intuitive interface simplifies encryption, enhancing protection against data breaches and leaks..
-        /// </summary>
-        public static string IndustriesLegalParagraph {
-            get {
-                return ResourceManager.GetString("IndustriesLegalParagraph", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;span class=&apos;img1&apos;&gt;Legal data protection: secure contracts, client records,&lt;br/&gt;confidential case documents&lt;/span&gt; &lt;span class=&apos;img4&apos;&gt;and more &lt;br/&gt;with AES-256 encryption.&lt;/span&gt;&lt;span class=&apos;img5&apos;&gt;&lt;/span&gt;.
-        /// </summary>
-        public static string IndustriesLegalTitleText {
-            get {
-                return ResourceManager.GetString("IndustriesLegalTitleText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Find out how AxCrypt can protect your legal firm’s data. &lt;span&gt;Try it for free for 14 Days!&lt;span&gt;.
-        /// </summary>
-        public static string IndustriesLegalTrialInfo {
-            get {
-                return ResourceManager.GetString("IndustriesLegalTrialInfo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Industries.
         /// </summary>
         public static string IndustriesLinkLabel {
@@ -70173,200 +69777,236 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to clients worldwide.
+        ///   Looks up a localized string similar to AxCrypt.
         /// </summary>
-        public static string IndustriesStatistic1 {
+        public static string IndustryDetailAxcryptColumnTitle {
             get {
-                return ResourceManager.GetString("IndustriesStatistic1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to PCMag Editors&apos; Choice.
-        /// </summary>
-        public static string IndustriesStatistic2 {
-            get {
-                return ResourceManager.GetString("IndustriesStatistic2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to user downloads.
-        /// </summary>
-        public static string IndustriesStatistic3 {
-            get {
-                return ResourceManager.GetString("IndustriesStatistic3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to languages.
-        /// </summary>
-        public static string IndustriesStatistic4 {
-            get {
-                return ResourceManager.GetString("IndustriesStatistic4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The tech and IT sectors are some of the most targeted sectors today in terms of data breaches, ransomware attacks, and cyber threats.&lt;br/&gt;&lt;br/&gt;Ransomware attacks in the IT sector have surged by &lt;b&gt;47% in 2023.&lt;/b&gt; Additionally, &lt;b&gt;43% of enterprises failed&lt;/b&gt; a compliance audit last year, making them 10x more vulnerable to data breaches.&lt;br/&gt;&lt;br/&gt;These alarming trends underscore the significant importance of data encryption in the IT sector. Encryption for data at rest, acts as a protective shield for IT f [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesTechBenefitsText {
-            get {
-                return ResourceManager.GetString("IndustriesTechBenefitsText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Use master key, a feature which enables business administrators to recover files of the business members, eliminating the risk of losing access to critical files due to employees leaving or forgetting their passwords..
-        /// </summary>
-        public static string IndustriesTechConfidentiality {
-            get {
-                return ResourceManager.GetString("IndustriesTechConfidentiality", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to File encryption with the Advanced Encryption Standard (AES-256) is a recommended security measure by renowned institutions and organizations like NIST, IBM, and Microsoft. File encryption creates a robust protective shield for your organization’s sensitive IT data.&lt;br/&gt;&lt;br/&gt;Unlike alternative security methods like password protection of files, the AES-256 bit encryption provides an unbreakable security measure. With a key length of 256, it becomes practically impossible to break an encrypted file, even with [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesTechContent1 {
-            get {
-                return ResourceManager.GetString("IndustriesTechContent1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to AxCrypt’s award winning and Zero-Knowledge file encryption software protects your IT data in one-click. Secure files such as important source codes and project files, business and financial PDFs, sensitive client communication records, human resource documents and more – with AES-256 bit data encryption standard. Create automatic encryption mechanisms to encrypt files within a folder and sync them to popular cloud storage providers.&lt;br/&gt;&lt;br/&gt;AxCrypt has been the number 1 choice of &lt;b&gt;PCMag as the ‘Best Encr [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IndustriesTechContent2 {
-            get {
-                return ResourceManager.GetString("IndustriesTechContent2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Superior Data Protection With AES 256-Bit Encryption.
-        /// </summary>
-        public static string IndustriesTechHeading {
-            get {
-                return ResourceManager.GetString("IndustriesTechHeading", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to AES-256 File Encryption for IT Data Protection.
-        /// </summary>
-        public static string IndustriesTechHeading1 {
-            get {
-                return ResourceManager.GetString("IndustriesTechHeading1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to AxCrypt for Your IT Data.
-        /// </summary>
-        public static string IndustriesTechHeading2 {
-            get {
-                return ResourceManager.GetString("IndustriesTechHeading2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to With an easy-to-use and intuitive interface, encrypt your sensitive data and prevent it from harmful data breaches and data leaks. AxCrypt is secure, simple, reliable and collaborative..
-        /// </summary>
-        public static string IndustriesTechParagraph {
-            get {
-                return ResourceManager.GetString("IndustriesTechParagraph", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Protect highly sensitive IT data such as client records, business &amp; finance documents, HR files and more with one click..
-        /// </summary>
-        public static string IndustriesTechPowerfulUseCasesContent1 {
-            get {
-                return ResourceManager.GetString("IndustriesTechPowerfulUseCasesContent1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Easily comply with data regulations for your tech organization like GDPR, HIPAA, FIPs etc. using our software..
-        /// </summary>
-        public static string IndustriesTechPowerfulUseCasesContent2 {
-            get {
-                return ResourceManager.GetString("IndustriesTechPowerfulUseCasesContent2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Create one-click automatic data security workflows by enabling automatic encryption of files on desktops and cloud storage providers..
-        /// </summary>
-        public static string IndustriesTechPowerfulUseCasesContent3 {
-            get {
-                return ResourceManager.GetString("IndustriesTechPowerfulUseCasesContent3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Powerful use cases for your IT Data with &lt;span&gt;AxCrypt&lt;/span&gt;.
-        /// </summary>
-        public static string IndustriesTechPowerfulUseCasesHeading {
-            get {
-                return ResourceManager.GetString("IndustriesTechPowerfulUseCasesHeading", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Protect IT Data.
-        /// </summary>
-        public static string IndustriesTechPowerfulUseCasesSubHeading1 {
-            get {
-                return ResourceManager.GetString("IndustriesTechPowerfulUseCasesSubHeading1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Comply with Regulations.
-        /// </summary>
-        public static string IndustriesTechPowerfulUseCasesSubHeading2 {
-            get {
-                return ResourceManager.GetString("IndustriesTechPowerfulUseCasesSubHeading2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Data Security Automation.
-        /// </summary>
-        public static string IndustriesTechPowerfulUseCasesSubHeading3 {
-            get {
-                return ResourceManager.GetString("IndustriesTechPowerfulUseCasesSubHeading3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;span class=&apos;img1&apos;&gt;Powerful encryption for your tech data with AES-256.&lt;br/&gt;Protect Sensitive Client Records, Source Codes&lt;/span&gt; &lt;span class=&apos;img4&apos;&gt;&lt;br/&gt;&amp; Project Files, Business Documents&lt;br/&gt;and more.&lt;span class=&apos;img5&apos;&gt;&lt;/span&gt;.
-        /// </summary>
-        public static string IndustriesTechTitleText {
-            get {
-                return ResourceManager.GetString("IndustriesTechTitleText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Find out how AxCrypt can protect your IT organization&apos;s data today.&lt;br/&gt; &lt;span&gt;Try it for free for 14 Days! &lt;/span&gt;.
-        /// </summary>
-        public static string IndustriesTechTrialInfo {
-            get {
-                return ResourceManager.GetString("IndustriesTechTrialInfo", resourceCulture);
+                return ResourceManager.GetString("IndustryDetailAxcryptColumnTitle", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Industries.
         /// </summary>
-        public static string IndustriesTitle {
+        public static string IndustryDetailBackLink {
             get {
-                return ResourceManager.GetString("IndustriesTitle", resourceCulture);
+                return ResourceManager.GetString("IndustryDetailBackLink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Built for your work.
+        /// </summary>
+        public static string IndustryDetailBuiltForYourWorkEyebrow {
+            get {
+                return ResourceManager.GetString("IndustryDetailBuiltForYourWorkEyebrow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cloud integrations.
+        /// </summary>
+        public static string IndustryDetailCloudIntegrationsEyebrow {
+            get {
+                return ResourceManager.GetString("IndustryDetailCloudIntegrationsEyebrow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Why teams choose AxCrypt.
+        /// </summary>
+        public static string IndustryDetailComparisonEyebrow {
+            get {
+                return ResourceManager.GetString("IndustryDetailComparisonEyebrow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Compliance you can count on.
+        /// </summary>
+        public static string IndustryDetailComplianceEyebrow {
+            get {
+                return ResourceManager.GetString("IndustryDetailComplianceEyebrow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Works where your team works.
+        /// </summary>
+        public static string IndustryDetailDefaultIntegrationsTitle {
+            get {
+                return ResourceManager.GetString("IndustryDetailDefaultIntegrationsTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Frequently Asked Questions.
+        /// </summary>
+        public static string IndustryDetailFaqTitle {
+            get {
+                return ResourceManager.GetString("IndustryDetailFaqTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to How AxCrypt works.
+        /// </summary>
+        public static string IndustryDetailHowAxcryptWorksEyebrow {
+            get {
+                return ResourceManager.GetString("IndustryDetailHowAxcryptWorksEyebrow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Industry challenge.
+        /// </summary>
+        public static string IndustryDetailIndustryChallengeEyebrow {
+            get {
+                return ResourceManager.GetString("IndustryDetailIndustryChallengeEyebrow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Encrypt files before they sync through the tools your team already uses..
+        /// </summary>
+        public static string IndustryDetailIntegrationsDescription {
+            get {
+                return ResourceManager.GetString("IndustryDetailIntegrationsDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Global.
+        /// </summary>
+        public static string IndustryDetailJsonLdAreaServed {
+            get {
+                return ResourceManager.GetString("IndustryDetailJsonLdAreaServed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to AxCrypt.
+        /// </summary>
+        public static string IndustryDetailJsonLdProviderName {
+            get {
+                return ResourceManager.GetString("IndustryDetailJsonLdProviderName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {industry} file encryption.
+        /// </summary>
+        public static string IndustryDetailJsonLdServiceType {
+            get {
+                return ResourceManager.GetString("IndustryDetailJsonLdServiceType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {title} | AxCrypt.
+        /// </summary>
+        public static string IndustryDetailOgTitle {
+            get {
+                return ResourceManager.GetString("IndustryDetailOgTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your data stays protected.
+        /// </summary>
+        public static string IndustryDetailProtectedPill {
+            get {
+                return ResourceManager.GetString("IndustryDetailProtectedPill", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Questions.
+        /// </summary>
+        public static string IndustryDetailQuestionsEyebrow {
+            get {
+                return ResourceManager.GetString("IndustryDetailQuestionsEyebrow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5.0 out of 5 stars.
+        /// </summary>
+        public static string IndustryDetailRatingAria {
+            get {
+                return ResourceManager.GetString("IndustryDetailRatingAria", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ★★★★★.
+        /// </summary>
+        public static string IndustryDetailRatingStars {
+            get {
+                return ResourceManager.GetString("IndustryDetailRatingStars", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5.0.
+        /// </summary>
+        public static string IndustryDetailRatingValue {
+            get {
+                return ResourceManager.GetString("IndustryDetailRatingValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Results.
+        /// </summary>
+        public static string IndustryDetailResultsTitle {
+            get {
+                return ResourceManager.GetString("IndustryDetailResultsTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {industry} security highlights.
+        /// </summary>
+        public static string IndustryDetailSecurityHighlightsAria {
+            get {
+                return ResourceManager.GetString("IndustryDetailSecurityHighlightsAria", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start free trial.
+        /// </summary>
+        public static string IndustryDetailStartFreeTrial {
+            get {
+                return ResourceManager.GetString("IndustryDetailStartFreeTrial", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {industry} team using AxCrypt file encryption.
+        /// </summary>
+        public static string IndustryDetailStoryImageAlt {
+            get {
+                return ResourceManager.GetString("IndustryDetailStoryImageAlt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Success story.
+        /// </summary>
+        public static string IndustryDetailSuccessStoryEyebrow {
+            get {
+                return ResourceManager.GetString("IndustryDetailSuccessStoryEyebrow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to View use cases.
+        /// </summary>
+        public static string IndustryDetailViewUseCases {
+            get {
+                return ResourceManager.GetString("IndustryDetailViewUseCases", resourceCulture);
             }
         }
         
@@ -71041,7 +70681,7 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Your vault folder is currently unavailable. &lt;br/&gt;&lt;br/&gt;It may have been moved or deleted. Please check the folder location or choose a different vault..
+        ///   Looks up a localized string similar to Your vault folder is currently unavailable. &lt;br/&gt;&lt;br/&gt;The folder may have been moved or deleted, or AxCrypt may not have permission to access it. Please check the folder location and permissions, or choose a different vault..
         /// </summary>
         public static string InvalidVaultFolderErrorMessage {
             get {
@@ -71590,6 +71230,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Keep file password for all remaining files.
+        /// </summary>
+        public static string KeepFilePasswordForRemainingFilesText {
+            get {
+                return ResourceManager.GetString("KeepFilePasswordForRemainingFilesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Keep folder structure organized.
         /// </summary>
         public static string KeepFolderStructurePopup {
@@ -71844,7 +71493,7 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;a href=&apos;/helpcenter/guides-section/&apos;&gt;How to Encrypt &amp; Decrypt Files with AxCrypt | Step-by-Step Guide&lt;/a&gt;.
+        ///   Looks up a localized string similar to &lt;a href=&apos;/helpcenter/#guides-section&apos;&gt;How to Encrypt &amp; Decrypt Files with AxCrypt | Step-by-Step Guide&lt;/a&gt;.
         /// </summary>
         public static string KeyShareGuideWhatsNextText1 {
             get {
@@ -73949,6 +73598,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Manage your recovery key and backup access.
+        /// </summary>
+        public static string ManageRecoveryKeyText {
+            get {
+                return ResourceManager.GetString("ManageRecoveryKeyText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This account is managed by a reseller. The reseller can add new users to the account and manage payments. Note: Resellers do NOT gain access to any encrypted information, including files secured with Master key..
         /// </summary>
         public static string ManageSubscriptionResellerInfo {
@@ -74728,6 +74386,15 @@ namespace AxCrypt.Content {
         public static string MaximumNotExceedCharactersNotification {
             get {
                 return ResourceManager.GetString("MaximumNotExceedCharactersNotification", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Maximum of {0} people reached..
+        /// </summary>
+        public static string MaximumSharePeopleReachedText {
+            get {
+                return ResourceManager.GetString("MaximumSharePeopleReachedText", resourceCulture);
             }
         }
         
@@ -81084,6 +80751,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to No Internet access, please check your internet connection..
+        /// </summary>
+        public static string NoInternetAccessText {
+            get {
+                return ResourceManager.GetString("NoInternetAccessText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Can&apos;t connect to server right now, please check your internet connection..
         /// </summary>
         public static string NoInternetErrorMessage {
@@ -81134,6 +80810,15 @@ namespace AxCrypt.Content {
         public static string NoLogToExportText {
             get {
                 return ResourceManager.GetString("NoLogToExportText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No matching users found.
+        /// </summary>
+        public static string NoMatchingUsersFoundText {
+            get {
+                return ResourceManager.GetString("NoMatchingUsersFoundText", resourceCulture);
             }
         }
         
@@ -81531,6 +81216,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Your One Drive session has expired or is no longer valid. Please sign in to your One Drive account again..
+        /// </summary>
+        public static string OneDriveSessionExpiredText {
+            get {
+                return ResourceManager.GetString("OneDriveSessionExpiredText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 14 days free.
         /// </summary>
         public static string OneFreeMonthLabel {
@@ -81617,6 +81311,24 @@ namespace AxCrypt.Content {
         public static string OpenSourceLabel {
             get {
                 return ResourceManager.GetString("OpenSourceLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Review AxCrypt open source code, explore the AxCrypt .NET GitHub repository, and learn how transparency supports secure file encryption..
+        /// </summary>
+        public static string OpenSourceMetaDescription {
+            get {
+                return ResourceManager.GetString("OpenSourceMetaDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to AxCrypt Open Source Code | Review the AxCrypt .NET Repository.
+        /// </summary>
+        public static string OpenSourceMetaTitle {
+            get {
+                return ResourceManager.GetString("OpenSourceMetaTitle", resourceCulture);
             }
         }
         
@@ -82872,6 +82584,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Password is required.
+        /// </summary>
+        public static string PasswordRequiredText {
+            get {
+                return ResourceManager.GetString("PasswordRequiredText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 8+ characters.
         /// </summary>
         public static string PasswordRequirementMinLength {
@@ -82886,6 +82607,15 @@ namespace AxCrypt.Content {
         public static string PasswordRequirementNumber {
             get {
                 return ResourceManager.GetString("PasswordRequirementNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 8+ chars, upper &amp; lower case, numbers and symbols..
+        /// </summary>
+        public static string PasswordRequirementsText {
+            get {
+                return ResourceManager.GetString("PasswordRequirementsText", resourceCulture);
             }
         }
         
@@ -83098,6 +82828,15 @@ namespace AxCrypt.Content {
         public static string PasswordSpecialCharacter {
             get {
                 return ResourceManager.GetString("PasswordSpecialCharacter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This password will be stored securely and remembered until you clear all settings or uninstall the app..
+        /// </summary>
+        public static string PasswordStoredSecurelyText {
+            get {
+                return ResourceManager.GetString("PasswordStoredSecurelyText", resourceCulture);
             }
         }
         
@@ -84520,6 +84259,15 @@ namespace AxCrypt.Content {
         public static string PremiumSecondBodyText2 {
             get {
                 return ResourceManager.GetString("PremiumSecondBodyText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Premium: share with up to 2 people.
+        /// </summary>
+        public static string PremiumShareLimitText {
+            get {
+                return ResourceManager.GetString("PremiumShareLimitText", resourceCulture);
             }
         }
         
@@ -88788,6 +88536,24 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Always enabled so you can recover your files if you forget your file password..
+        /// </summary>
+        public static string RecoveryAccessAlwaysEnabledText {
+            get {
+                return ResourceManager.GetString("RecoveryAccessAlwaysEnabledText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Recovery Options.
+        /// </summary>
+        public static string RecoveryOptionsText {
+            get {
+                return ResourceManager.GetString("RecoveryOptionsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Secure and reliable file protection for Red Hat systems.&lt;br/&gt;Works on &lt;b&gt;RHEL 8 and newer&lt;/b&gt;..
         /// </summary>
         public static string RedHatDownloadLinkTooltip {
@@ -90497,7 +90263,7 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to FAQ: &lt;a href=&apos;https://www.axcrypt.net/information/faq&apos;&gt;https://www.axcrypt.net/information/faq&lt;/a&gt;.
+        ///   Looks up a localized string similar to FAQ: &lt;a href=&apos;https://www.axcrypt.net/support/faq&apos;&gt;https://www.axcrypt.net/support/faq&lt;/a&gt;.
         /// </summary>
         public static string ResellerHelpSupportBlock1ListItem1 {
             get {
@@ -90952,6 +90718,15 @@ namespace AxCrypt.Content {
         public static string SaveCardsAndSecureNotesFeature {
             get {
                 return ResourceManager.GetString("SaveCardsAndSecureNotesFeature", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Saved to:.
+        /// </summary>
+        public static string SavedToText {
+            get {
+                return ResourceManager.GetString("SavedToText", resourceCulture);
             }
         }
         
@@ -92423,6 +92198,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Secure Files in 3 Easy Ways.
+        /// </summary>
+        public static string SecureFilesThreeWaysVideoTitle {
+            get {
+                return ResourceManager.GetString("SecureFilesThreeWaysVideoTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Secure folders &amp; cloud storage sync.
         /// </summary>
         public static string SecureFoldersAndCloudStorageSyncMessage {
@@ -93251,6 +93035,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This is separate from your AxCrypt account password. Anyone who opens the file will be asked for it..
+        /// </summary>
+        public static string SeparateFromAccountPasswordText {
+            get {
+                return ResourceManager.GetString("SeparateFromAccountPasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Server status.
         /// </summary>
         public static string ServerStatusLabel {
@@ -93287,11 +93080,29 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Set File Password.
+        /// </summary>
+        public static string SetFilePasswordText {
+            get {
+                return ResourceManager.GetString("SetFilePasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Set a strong password for your AxCrypt ID or choose our password suggestion option..
         /// </summary>
         public static string SetPasswordText {
             get {
                 return ResourceManager.GetString("SetPasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set Password.
+        /// </summary>
+        public static string SetPasswordText1 {
+            get {
+                return ResourceManager.GetString("SetPasswordText1", resourceCulture);
             }
         }
         
@@ -93741,6 +93552,15 @@ namespace AxCrypt.Content {
         public static string ShareWithOthersTitle {
             get {
                 return ResourceManager.GetString("ShareWithOthersTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Share with People.
+        /// </summary>
+        public static string ShareWithPeopleText {
+            get {
+                return ResourceManager.GetString("ShareWithPeopleText", resourceCulture);
             }
         }
         
@@ -95332,11 +95152,29 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The complete source code for the core libraries and the Windows client used to be in a mercurial repository in Bitbucket. But as of summer 2020, Bitbucket discontinued their mercurial support and we’re actively working on finding an alternative solution to make the source code easily available. For now, please contact support@axcrypt.net and we will supply the source code..
+        ///   Looks up a localized string similar to View open source page.
         /// </summary>
-        public static string TechnicalDetailsSourceCodeText {
+        public static string TechnicalDetailsSourceCodeLinkLabel {
             get {
-                return ResourceManager.GetString("TechnicalDetailsSourceCodeText", resourceCulture);
+                return ResourceManager.GetString("TechnicalDetailsSourceCodeLinkLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to AxCrypt keeps important product code available for technical review and security transparency..
+        /// </summary>
+        public static string TechnicalDetailsSourceCodeText1 {
+            get {
+                return ResourceManager.GetString("TechnicalDetailsSourceCodeText1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Explore the repository details, licensing notes, and review guidance on our open source page..
+        /// </summary>
+        public static string TechnicalDetailsSourceCodeText2 {
+            get {
+                return ResourceManager.GetString("TechnicalDetailsSourceCodeText2", resourceCulture);
             }
         }
         
@@ -98128,6 +97966,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Upgrade to Premium or Business to auto-share encrypted files with people you choose..
+        /// </summary>
+        public static string UpgradeToAutoShareText {
+            get {
+                return ResourceManager.GetString("UpgradeToAutoShareText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Upgrade to unlock &lt;span&gt;Encryption &amp; more features!&lt;/span&gt;.
         /// </summary>
         public static string UpgradeToUnlockEncryptionText {
@@ -98902,7 +98749,7 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Your vault folder is currently unavailable. &lt;br/&gt;&lt;br/&gt;It may have been moved or deleted. Please check the folder location or choose a different vault..
+        ///   Looks up a localized string similar to Your vault folder is currently unavailable. &lt;br/&gt;&lt;br/&gt;The folder may have been moved or deleted, or AxCrypt may not have permission to access it. Please check the folder location and permissions, or choose a different vault..
         /// </summary>
         public static string VaultFolderUnavailableMessage {
             get {

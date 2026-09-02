@@ -694,11 +694,17 @@
     <value>افتح ملف اكسكربت</value>
     <comment>Tooltip for "AddFile" button in mobile application</comment>
   </data>
+  <data name="AddFilePasswordText" xml:space="preserve">
+    <value>إضافة كلمة مرور للملف</value>
+  </data>
   <data name="AddFirstFolderText" xml:space="preserve">
     <value>أضف أول مجلد وقم بتأمينه.</value>
   </data>
   <data name="AddFirstPasswordText" xml:space="preserve">
     <value>أضف أول كلمة مرور وقم بتأمينها.</value>
+  </data>
+  <data name="AddingText" xml:space="preserve">
+    <value>إضافة</value>
   </data>
   <data name="AdditionalUnsubscribedConfirmation" xml:space="preserve">
     <value>قد لا نزال نرسل إليك بريدًا إلكترونيًا إذا كان ذلك ضروريًا لوظيفة أو أمان اكسكربت.</value>
@@ -740,6 +746,9 @@
   <data name="AddSecureFolderTitle" xml:space="preserve">
     <value>حدد مجلدًا للحفاظ على تأمينه باستخدام برنامج اكسكربت. سيتم تشفير الملفات الموجودة الآن.</value>
     <comment>Displayed as prompt, title or description when adding a new secure folder via a folder browser.</comment>
+  </data>
+  <data name="AddSharePeopleDescriptionText" xml:space="preserve">
+    <value>أضف ما يصل إلى {0} أشخاص يمكنهم فتح هذه الملفات باستخدام حساب أكس كريبت الخاص بهم.</value>
   </data>
   <data name="AddToGroupText" xml:space="preserve">
     <value>أضف إلى المجموعة</value>
@@ -938,6 +947,9 @@
     <value>عند التمكين ، لا يتم استخدام الوصول إلى الإنترنت مطلقًا أو مطلوبًا ، حتى يتم تعطيله.</value>
     <comment>A tool tip explaining that this causes AxCrypt never to access the Internet.</comment>
   </data>
+  <data name="AlwaysOnText" xml:space="preserve">
+    <value>دائمًا مفعّل</value>
+  </data>
   <data name="AlwaysText" xml:space="preserve">
     <value>دائماً</value>
   </data>
@@ -1118,6 +1130,12 @@
   </data>
   <data name="AutomaticFileUpdatingText" xml:space="preserve">
     <value>التحديث التلقائي للملف المحمي بعد فتحه وحفظه.</value>
+  </data>
+  <data name="Autoshare files on encryption" xml:space="preserve">
+    <value>مشاركة الملفات تلقائيًا عند التشفير</value>
+  </data>
+  <data name="AutoShareFilesDescriptionText" xml:space="preserve">
+    <value>مشاركة الملفات المشفّرة تلقائيًا مع الأشخاص الذين تختارهم، حتى يتمكنوا من فتحها باستخدام حساب أكس كريبت الخاص بهم.</value>
   </data>
   <data name="AutoUpgradeFilesAES256" xml:space="preserve">
     <value>ترقية الملفات تلقائيًا إلى تشفير AES-256</value>
@@ -17121,6 +17139,9 @@ BitLocker
   <data name="BusinessProductStrongText9" xml:space="preserve">
     <value>دعم متوفر عندما تحتاج إليه</value>
   </data>
+  <data name="BusinessShareLimitText" xml:space="preserve">
+    <value>الأعمال: شارك مع ما يصل إلى 3 أشخاص</value>
+  </data>
   <data name="BusinessSubscriptionAddButtonLabel" xml:space="preserve">
     <value>أضف</value>
     <comment>A label or word used in a button when adding members to a subscription.</comment>
@@ -17828,6 +17849,11 @@ BitLocker
   <data name="CloudServicesText" xml:space="preserve">
     <value>خدمات السحابة</value>
   </data>
+  <data name="CloudStoragePermissionRequestText" xml:space="preserve">
+    <value>يحتاج أكس كريبت إلى إذنك للوصول إلى {0} لفتح ملفاتك وتشفيرها وفك تشفيرها ومشاركة المفاتيح الخاصة بها بشكل آمن.
+خصوصيتك هي أولويتنا — فنحن لا نخزّن ملفاتك ولا نشارك بياناتك.
+هل ترغب في الاتصال الآن؟</value>
+  </data>
   <data name="ColorPaletteLabel" xml:space="preserve">
     <value>لوحة الألوان</value>
   </data>
@@ -18111,6 +18137,12 @@ BitLocker
   </data>
   <data name="ConfigurationSuccess" xml:space="preserve">
     <value>تم تحديث خاصية تكوين التطبيق بنجاح. قد تضطر إلى إعادة تشغيل الخادم حتى تصبح التغييرات سارية المفعول.</value>
+  </data>
+  <data name="ConfigureDefaultEncryptionText" xml:space="preserve">
+    <value> كيفية تشفير الملفات افتراضيًا</value>
+  </data>
+  <data name="ConfigureDefaultEncryptionText1" xml:space="preserve">
+    <value>تهيئة كيفية تشفير الملفات افتراضيًا</value>
   </data>
   <data name="ConfigureVault" xml:space="preserve">
     <value>يرجى تكوين الخزنة من خلال الانتقال إلى الإعدادات → الإعدادات المتقدمة → إعدادات الخزنة.</value>
@@ -19140,7 +19172,7 @@ BitLocker
     <value>تنزيلات أخرى</value>
   </data>
   <data name="DownloadOtherSourceCodeSubtitle" xml:space="preserve">
-    <value>التفاصيل التقنية</value>
+    <value>مستودع مفتوح المصدر</value>
   </data>
   <data name="DownloadOtherSourceCodeTitle" xml:space="preserve">
     <value>شفرة المصدر</value>
@@ -19234,6 +19266,9 @@ BitLocker
   </data>
   <data name="DownloadWindowsX64Title" xml:space="preserve">
     <value>ويندوز (x64)</value>
+  </data>
+  <data name="DropboxSessionExpiredText" xml:space="preserve">
+    <value>انتهت صلاحية جلسة دروب بوكس الخاصة بك أو لم تعد صالحة. يُرجى تسجيل الدخول إلى حساب دروب بوكس الخاص بك مرة أخرى.</value>
   </data>
   <data name="DropFilesOrFoldersToEncryptMessage" xml:space="preserve">
     <value>أسقط الملفات/المجلدات هنا لتشفيرها</value>
@@ -19637,8 +19672,20 @@ BitLocker
   <data name="EncryptFilesBeforeUploadPopup" xml:space="preserve">
     <value>قم بتشفير الملفات قبل رفعها</value>
   </data>
+  <data name="EncryptFileWithPasswordText" xml:space="preserve">
+    <value>قم بتشفير هذا الملف باستخدام كلمة مرور. ستحتاج إلى كلمة المرور هذه لفتح الملف.</value>
+  </data>
   <data name="EncryptionManagementText" xml:space="preserve">
     <value>إدارة التشفير</value>
+  </data>
+  <data name="EncryptionOptionsText" xml:space="preserve">
+    <value>خيارات التشفير</value>
+  </data>
+  <data name="EncryptionOptionsText1" xml:space="preserve">
+    <value>خيارات التشفير</value>
+  </data>
+  <data name="EncryptionText" xml:space="preserve">
+    <value>التشفير</value>
   </data>
   <data name="EncryptLabelText" xml:space="preserve">
     <value>تشفير</value>
@@ -19675,6 +19722,12 @@ BitLocker
   </data>
   <data name="EnterPassphraseForIdentityPrompt" xml:space="preserve">
     <value>كلمة مرور الهوية "{0}"</value>
+  </data>
+  <data name="EnterPasswordForFilesText" xml:space="preserve">
+    <value>أدخل كلمة مرور لـ @عدد الملفات ملفًا</value>
+  </data>
+  <data name="EnterPasswordForThisFileText" xml:space="preserve">
+    <value>أدخل كلمة مرور لهذا الملف</value>
   </data>
   <data name="EnterPasswordToDecryptAndSignInMessage" xml:space="preserve">
     <value>أدخل كلمة المرور لفك تشفير هذا الملف. إذا كانت مطابقة لكلمة مرور حسابك، فسيتم أيضًا تسجيل دخولك</value>
@@ -21605,12 +21658,24 @@ BitLocker
   <data name="FileOperationFailed" xml:space="preserve">
     <value>فشل "{0}".</value>
   </data>
+  <data name="FilePasswordDescriptionText" xml:space="preserve">
+    <value>كلمة مرور ستكون مطلوبة لفتح هذا الملف</value>
+  </data>
   <data name="FilePasswordDialogHeader" xml:space="preserve">
     <value>يرجى تقديم كلمة المرور الأصلية لهذا الملف.</value>
     <comment>The header text for the file password dialog.</comment>
   </data>
   <data name="FilePasswordHereText" xml:space="preserve">
     <value>أدخل كلمة مرور ملفك هنا</value>
+  </data>
+  <data name="FilePasswordRecoveryWarningText" xml:space="preserve">
+    <value>احتفظ به في مكان آمن. إذا نسيت كلمة المرور هذه، فلن تتمكن من فتح الملف — إلا إذا كان الوصول للاسترداد مفعّلًا.</value>
+  </data>
+  <data name="FilePasswordRequirementsText" xml:space="preserve">
+    <value>استخدم 8 أحرف على الأقل، مع أحرف كبيرة وصغيرة وأرقام ورموز.</value>
+  </data>
+  <data name="FilePasswordUsedForEncryptionText" xml:space="preserve">
+    <value>سيتم استخدام كلمة مرور الملف التي عيّنتها للتو لتشفير ملفاتك بدلًا من كلمة مرور حسابك.</value>
   </data>
   <data name="FilePropertiesDateModifiedToolStripMenuItem" xml:space="preserve">
     <value>تاريخ التعديل</value>
@@ -21752,6 +21817,9 @@ BitLocker
   <data name="FooterDownloadiOSText" xml:space="preserve">
     <value>نظام التشغيل ايفون</value>
   </data>
+  <data name="FooterDownloadLinuxText" xml:space="preserve">
+    <value>لينكس</value>
+  </data>
   <data name="FooterDownloadMacText" xml:space="preserve">
     <value>ماك</value>
   </data>
@@ -21790,6 +21858,9 @@ BitLocker
   </data>
   <data name="ForEveryoneLabel" xml:space="preserve">
     <value>للجميع </value>
+  </data>
+  <data name="ForgottenFilePasswordWarningText" xml:space="preserve">
+    <value>إذا نسيت كلمة المرور هذه، فقد تفقد الوصول إلى هذه الملفات نهائيًا.</value>
   </data>
   <data name="ForIndividualsLabel" xml:space="preserve">
     <value>للأفراد</value>
@@ -22456,7 +22527,7 @@ https://axcrypt.net/guides/encryption-decryption/</value>
     <value>تحقق من أن التنزيل غير تالف وأصلية عن طريق التحقق من التوقيع الرقمي. انقر بزر الماوس الأيمن فوق الملف الذي تم تنزيله في مستكشف ويندوز ، وحدد "خصائص" وعلامة التبويب "التوقيعات الرقمية". ثم حدد التوقيع الرقمي وانقر على "التفاصيل". تأكد من أن التوقيع الرقمي يظهر على أنه "موافق" وأن الموقّع هو "اكسكربت AB".</value>
   </data>
   <data name="GetStartedInfoNote2Text1" xml:space="preserve">
-    <value>إذا كانت لديك أية مشكلات أو أسئلة ملحة ، فتحقق من صفحة &lt;a href='/information/faq'&gt; الأسئلة الشائعة &lt;/a&gt;.</value>
+    <value>إذا كانت لديك أية مشكلات أو أسئلة ملحة ، فتحقق من صفحة &lt;a href='/support/faq'&gt; الأسئلة الشائعة &lt;/a&gt;.</value>
   </data>
   <data name="GetStartedInfoNote2Text2" xml:space="preserve">
     <value>يرجى إبلاغنا عن الأخطاء والتعليقات. نرحب بك لطلب الدعم أيضا. للقضايا الأخرى ، يرجى &lt;a href='mailto:support@axcrypt.net'&gt;إرسال بريد إلكتروني إلينا&lt;/a&gt;.</value>
@@ -22601,6 +22672,9 @@ https://axcrypt.net/guides/encryption-decryption/</value>
   </data>
   <data name="GettheLatestAxCryptText" xml:space="preserve">
     <value>احصل على أحدث إصدارات أكسكريبت النسخة 2 من هنا</value>
+  </data>
+  <data name="GoogleDriveSessionExpiredText" xml:space="preserve">
+    <value>انتهت صلاحية جلسة جوجل درايف  الخاصة بك أو لم تعد صالحة. يُرجى تسجيل الدخول إلى حساب جوجل درايف  الخاص بك مرة أخرى.</value>
   </data>
   <data name="GoToGroupsText" xml:space="preserve">
     <value>اذهب إلى المجموعات</value>
@@ -22923,6 +22997,21 @@ https://axcrypt.net/guides/encryption-decryption/</value>
   <data name="GroupTitle" xml:space="preserve">
     <value>مجموعه</value>
   </data>
+  <data name="GuideBeforeYouBeginTitle" xml:space="preserve">
+    <value>“قبل أن تبدأ”</value>
+  </data>
+  <data name="GuideContactSupportTeam" xml:space="preserve">
+    <value>تواصل مع فريق الدعم لدينا.</value>
+  </data>
+  <data name="GuideHelpfulNo" xml:space="preserve">
+    <value>لا.</value>
+  </data>
+  <data name="GuideHelpfulYes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="GuideOnThisGuideTitle" xml:space="preserve">
+    <value>في هذا الدليل.</value>
+  </data>
   <data name="GuidesGetStartedLinkLabelWithPlatform" xml:space="preserve">
     <value>ابدء</value>
   </data>
@@ -22943,6 +23032,9 @@ https://axcrypt.net/guides/encryption-decryption/</value>
   </data>
   <data name="GuidesLinkQuoteLabel6" xml:space="preserve">
     <value>التشفير وفك التشفير</value>
+  </data>
+  <data name="GuideWasHelpfulTitle" xml:space="preserve">
+    <value>هل كان هذا المقال مفيدًا؟"</value>
   </data>
   <data name="HaveAccountInfo" xml:space="preserve">
     <value>رائعة! لديك بالفعل حساب معرّف اكسكربت لـ "{0}".
@@ -23073,6 +23165,9 @@ https://axcrypt.net/guides/encryption-decryption/</value>
   <data name="HelpCenterGuideSummaryNis2" xml:space="preserve">
     <value>تعرّف على جاهزية NIS2 ومتطلباتها.</value>
   </data>
+  <data name="HelpCenterGuideSummaryOpenSource" xml:space="preserve">
+    <value>مراجعة الكود المصدري لـ أكس كريبت والشفافية التقنية</value>
+  </data>
   <data name="HelpCenterGuideSummaryPasswordManager" xml:space="preserve">
     <value>خزّن كلمات المرور وأدِرها بأمان.</value>
   </data>
@@ -23093,6 +23188,9 @@ https://axcrypt.net/guides/encryption-decryption/</value>
   </data>
   <data name="HelpCenterGuideSummarySecuredMessenger" xml:space="preserve">
     <value>إرسال رسائل محمية بأمان.</value>
+  </data>
+  <data name="HelpCenterGuideSummarySecureFilesThreeWaysVideo" xml:space="preserve">
+    <value>تعلّم ثلاث طرق بسيطة لتأمين الملفات في أكس كريبت.</value>
   </data>
   <data name="HelpCenterGuideSummarySecurity" xml:space="preserve">
     <value>مراجعة ممارسات التشفير والأمان.</value>
@@ -23141,6 +23239,12 @@ https://axcrypt.net/guides/encryption-decryption/</value>
   </data>
   <data name="HelpCenterLabel" xml:space="preserve">
     <value>مركز المساعدة</value>
+  </data>
+  <data name="HelpCenterMetaDescription" xml:space="preserve">
+    <value>اعثر على أدلة أكس كريبت، والإجابات، والمساعدة بشأن الميزات، ودروس تشفير الملفات بشكل آمن، وموارد الدعم في مركز مساعدة أكس كريبت.</value>
+  </data>
+  <data name="HelpCenterMetaTitle" xml:space="preserve">
+    <value>مركز مساعدة أكس كريبت | الأدلة والأسئلة الشائعة والدعم</value>
   </data>
   <data name="HelpCenterNeedHelpDescription" xml:space="preserve">
     <value>اختر خيار الدعم الأنسب لك.</value>
@@ -23734,6 +23838,9 @@ https://axcrypt.net/guides/encryption-decryption/</value>
   <data name="InboxText" xml:space="preserve">
     <value>الوارد</value>
   </data>
+  <data name="IncludeRecoveryAccessText" xml:space="preserve">
+    <value>تضمين الوصول إلى الاسترداد</value>
+  </data>
   <data name="IncludeSubfoldersConfirmationBody" xml:space="preserve">
     <value>أنت على وشك تمكين خيار خطير. إذا لم تكن حريصًا ، فقد تؤثر على بيانات أكثر مما تقصد ، مما يؤدي إلى استغراق وقت طويل جدًا للعمليات ، أو كسر البرامج الأخرى بما في ذلك نظام التشغيل. هل أنت واثق؟</value>
   </data>
@@ -23758,310 +23865,7 @@ https://axcrypt.net/guides/encryption-decryption/</value>
   <data name="IndustriesAboutLinkLabel" xml:space="preserve">
     <value>حول الصناعات</value>
   </data>
-  <data name="IndustriesBenefitsText0" xml:space="preserve">
-    <value>يستخدم أكسكريبت أقوى معيار تشفير - خوارزمية AES 256 بت - لتشفير البيانات وحمايتها عبر الأجهزة. من خلال أدوات التشفير سهلة الاستخدام والفعالة بما في ذلك مدير كلمات المرور وتكامل التخزين السحابي والمفتاح الرئيسي ؛ أصبح أكسكريبت حلا موثوقا به للشركات عبر الصناعات بما في ذلك التمويل والرعاية الصحية والقانونية والحكومية.&lt;br /&gt; &lt;br /&gt;تضمن تقنية تشفير أكسكريبت أن الأفراد المصرح لهم فقط يمكنهم الوصول إلى الملفات السرية ، وحماية البيانات الحساسة من التهديدات الإلكترونية وخروقات البيانات. بالإضافة إلى ذلك ، تسمح خيارات النشر المرنة وميزات الإدارة القوية من أكسكريبت للشركات بتوسيع نطاق احتياجات التشفير الخاصة بها لتلبية متطلبات الامتثال التنظيمي وضمان تأمين بياناتها دائما.</value>
-  </data>
-  <data name="IndustriesBenefitsTitle" xml:space="preserve">
-    <value>فوائد استخدام اكسكربت </value>
-  </data>
-  <data name="IndustriesBlogLabel" xml:space="preserve">
-    <value>جديد في التشفير؟ تحقق من مدونتنا للحصول على أحدث الأخبار.</value>
-  </data>
-  <data name="IndustriesDomainHeading" xml:space="preserve">
-    <value>&lt;span&gt;أكسكربت&lt;/span&gt; موثوق به عبر الصناعات والمجالات</value>
-  </data>
-  <data name="IndustriesEducationContent1" xml:space="preserve">
-    <value>يعمل تشفير البيانات والملفات كخط دفاع أول ضد خروقات البيانات والهجمات الإلكترونية ، التي أوصت بها المؤسسات والمنظمات الشهيرة مثل NIST و اي بي ايم و مايكروسوفت. يلعب تشفير البيانات دورا مهما في تعزيز أمن البيانات والخصوصية في صناعة التعليم.&lt;br/&gt;&lt;br/&gt; تعمل آلية التشفير ، باستخدام خوارزمية تشفير مثل AES ، على تحويل محتويات أي ملف بشكل أساسي إلى تنسيق غير قابل للقراءة وغير قابل للفك ، مما يجعله غير قابل للوصول إلى المستخدمين غير المصرح لهم. يمكن فقط للأفراد المصرح لهم الذين لديهم حق الوصول إلى مفتاح فك التشفير عكس عملية التشفير والوصول إلى محتويات الملف.</value>
-  </data>
-  <data name="IndustriesEducationContent2" xml:space="preserve">
-    <value>اكسكربت هو برنامج تشفير ملفات حائز على جوائز يحمي المعلومات الحساسة لجامعاتك وكلياتك ومدارسك باستخدام خوارزمية AES-256! يمكن للمؤسسات التعليمية استخدام اكسكربت لتشفير وحماية سجلات الطلاب والمعلومات المالية ووثائق البحث.&lt;br/&gt;&lt;br/&gt; يضمن اكسكربت أن تظل هذه المعلومات مشفرة ولا يمكن الوصول إليها من قبل الأفراد غير المصرح لهم ، مما يحمي خصوصية الطلاب ويحمي من خروقات البيانات.&lt;br/&gt;&lt;br/&gt; اكسكربت موثوق به من قبل الجامعات والمؤسسات الأكاديمية الشهيرة في جميع أنحاء العالم ، ويوصى به بشدة كخيار مفضل لتشفير البيانات القوي.</value>
-  </data>
-  <data name="IndustriesEducationHeading" xml:space="preserve">
-    <value>قم بتأمين المقالات، الأوراق، التقارير، الأطروحات والأبحاث الخاصة بك بشكل آمن.</value>
-  </data>
-  <data name="IndustriesEducationHeading1" xml:space="preserve">
-    <value>تشفير البيانات كدرع &lt;span&gt;للهجمات الإلكترونية&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesEducationHeading2" xml:space="preserve">
-    <value>اكسكربت لجامعتك وكليتك ومدرستك</value>
-  </data>
-  <data name="IndustriesEducationParagraph" xml:space="preserve">
-    <value>يمكنك الوصول إلى جميع مستنداتك ومزامنتها على أجهزتك مع حماية ملفاتك من عمليات اختراق البيانات المكلفة.</value>
-  </data>
-  <data name="IndustriesFinancialBenefitsText" xml:space="preserve">
-    <value>أصبحت صناعة الخدمات المالية اليوم رقمية وكثيفة البيانات أكثر من أي وقت مضى. يستخدم الناس هواتفهم وأجهزة الكمبيوتر الخاصة بهم بشكل متزايد أكثر من محافظهم وكتبهم للدفع والاستثمار وإدارة شؤونهم المالية. كما حلت الخدمات المصرفية عبر الإنترنت محل معظم العمليات التي كانت تتم تقليديا فعليا في البنك. &lt;br/&gt;&lt;br/&gt;هذا الارتفاع السريع في حجم البيانات المالية التي يتم إنشاؤها من قبل المستخدمين كل يوم ، يجعلها أيضا عرضة للهجمات الإلكترونية وخروقات البيانات. تعد خروقات البيانات في صناعة الخدمات المالية &lt;b&gt;ثاني أغلى&lt;/b&gt; خروقات ، حيث تكلف في المتوسط 5.72 مليون دولار. الشركات الصغيرة والمتوسطة (SMBs) هي الأكثر تضررا من خروقات البيانات ، حيث تمثل &lt;b&gt;42٪ من جميع خروقات البيانات ،&lt;/b&gt; و &lt;b&gt;60٪ من الشركات الصغيرة&lt;/b&gt; والمتوسطة تغلق في غضون 6 أشهر من الاختراق. التشفير هو نهج استباقي لتأمين بياناتك المالية التي يمكن أن تحميها في جميع الأوقات.</value>
-  </data>
-  <data name="IndustriesFinancialContent1" xml:space="preserve">
-    <value>يعمل تشفير بياناتك المالية كخط دفاع أول ضد الهجمات الإلكترونية وخروقات البيانات ، التي أوصت بها المؤسسات والمنظمات الشهيرة مثل NIST و اي بي ايم و مايكروسوفت. أثناء عملية التشفير ، يتم تحويل محتويات الملفات إلى تنسيق غير قابل للقراءة وغير قابل للفك باستخدام خوارزميات التشفير ومفاتيح التشفير.&lt;br/&gt;&lt;br/&gt;يضمن تحويل محتويات الملفات أن المستخدمين المصرح لهم فقط الذين لديهم حق الوصول إلى مفاتيح التشفير يمكنهم فك تشفير الملفات المشفرة والوصول إليها. الملفات المشفرة أيضا عديمة الفائدة في أيدي المهاجمين السيبرانيين أثناء خرق البيانات بدون مفاتيح فك التشفير المحددة.</value>
-  </data>
-  <data name="IndustriesFinancialContent2" xml:space="preserve">
-    <value>&lt;b&gt;اكسكربت&lt;/b&gt; هو برنامج تشفير ملفات حائز على جوائز يحمي البيانات والملفات المالية الحساسة باستخدام خوارزمية AES-256. استخدم اكسكربت لتشفير وحماية &lt;b&gt;سجلات المعاملات ومعلومات العملاء والمستندات المالية&lt;/b&gt; والمزيد. يضمن اكسكربت أن تظل بياناتك مشفرة ولا يمكن الوصول إليها من قبل الأفراد &lt;b&gt;غير المصرح لهم&lt;/b&gt; في جميع الأوقات ، مما يحمي &lt;b&gt;خصوصية&lt;/b&gt; مؤسستك ويحميها من الهجمات والانتهاكات الإلكترونية. &lt;br/&gt;&lt;br/&gt;تم منح اكسكربت&lt;b&gt;جائزة "أفضل برنامج تشفير" من قبل PCMag&lt;/b&gt; لمدة ست سنوات متتالية. يتوفر اكسكربت لنظام التشغيل ويندوز و ماك وأندرويد وايفون ، ويمكنه تشفير الملفات ومزامنتها تلقائيا مع خدمات التخزين السحابية الشائعة مثل جوجل درايف و ون درايف و دروب بوكس.</value>
-  </data>
-  <data name="IndustriesFinancialHeading" xml:space="preserve">
-    <value>احمِ البيانات المالية الحساسة مع كل معاملة.</value>
-  </data>
-  <data name="IndustriesFinancialHeading1" xml:space="preserve">
-    <value>يعمل التشفير على تأمين بياناتك المالية بشكل استباقي</value>
-  </data>
-  <data name="IndustriesFinancialHeading2" xml:space="preserve">
-    <value>أمن البيانات ل BFSI الخاص بك مع اكسكربت</value>
-  </data>
-  <data name="IndustriesFinancialParagraph" xml:space="preserve">
-    <value>قم بتأمين الوثائق والبيانات المالية الحساسة للغاية. تحكم في الوصول واختر من يمكنه رؤية كل شيء.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesContent1" xml:space="preserve">
-    <value>تأمين المستندات المالية الحساسة والسرية للغاية مثل الميزانيات العمومية وبيانات الدخل والإقرارات الضريبية وما إلى ذلك.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesContent2" xml:space="preserve">
-    <value>تأمين المعلومات المخصصة المهمة والحساسة ، بما في ذلك معلومات تحديد الهوية الشخصية وسجلات المعاملات والإقرارات الضريبية وما إلى ذلك.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesContent3" xml:space="preserve">
-    <value>قم بإنشاء سير عمل تلقائي لأمن البيانات بنقرة واحدة من خلال تمكين التشفير التلقائي للملفات على أجهزة سطح المكتب وموفري التخزين السحابي.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesHeading" xml:space="preserve">
-    <value>حالات استخدام قوية مع &lt;span&gt;اكسكربت&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesSubHeading1" xml:space="preserve">
-    <value>حماية البيانات السرية</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesSubHeading2" xml:space="preserve">
-    <value>حماية معلومات العميل</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesSubHeading3" xml:space="preserve">
-    <value>أتمتة الأمن</value>
-  </data>
-  <data name="IndustriesFinancialTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;أمان قوي&lt;/span&gt;&lt;span class='img2'&gt;لبياناتك المالية.&lt;/span&gt;&lt;span class='img3'&gt;&lt;br/&gt;حماية المستندات المالية&lt;/span&gt; ،&lt;span class='img4'&gt;&lt;br/&gt;معلومات العميل&lt;/span&gt;, &lt;span class='img5'&gt;&lt;br/&gt;وأكثر من ذلك.&lt;/span&gt; &lt;span class='img6'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesFinancialTrialInfo" xml:space="preserve">
-    <value>اكتشف كيف يمكن ل اكسكربت تأمين بيانات مؤسستك اليوم. &lt;span&gt;جربه مجانا لمدة 14 يوما! &lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesFreeTrialText0" xml:space="preserve">
-    <value>شاهد كيف يمكن لأكسكريبت تأمين بيانات مؤسستك اليوم. &lt;span&gt; جربه مجانا لمدة 14 يوما! &lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesGovernmentBenefitsText" xml:space="preserve">
-    <value>في عصر الذكاء الاصطناعي اليوم ، تواجه الحكومات في جميع أنحاء العالم تهديدات متصاعدة للأمن السيبراني تشكل مخاطر كبيرة على المعلومات الحساسة والسلامة العامة والأمن القومي. &lt;br/&gt;&lt;br/&gt;تؤكد الحوادث الأخيرة ، مثل الهجوم الإلكتروني SolarWinds في عام 2020 ، على الحاجة الملحة لتدابير تشفير قوية لحماية البيانات الحكومية الحساسة من الوصول والاستغلال غير المصرح به.&lt;br/&gt;&lt;br/&gt;يقف التشفير كأداة حاسمة في تعزيز الدفاعات الحكومية ضد التهديدات السيبرانية ، وضمان سلامة وسرية الوثائق السرية والسجلات العامة والاتصالات الحساسة.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesContent1" xml:space="preserve">
-    <value>حماية البيانات الحكومية الحساسة للغاية مثل التقارير الحساسة والوثائق السرية والسجلات العامة والمزيد بنقرة واحدة.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesContent2" xml:space="preserve">
-    <value>يتوافق تشفير ملفات AES-256 بت من اكسكربت مع لوائح البيانات المختلفة مثل GDPR و HIPAA و FIPs.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesContent3" xml:space="preserve">
-    <value>يقوم اكسكربت بإنشاء سير عمل تلقائي لأمن البيانات بنقرة واحدة من خلال تمكين التشفير التلقائي للملفات على أجهزة الكمبيوتر المكتبية وموفري التخزين السحابي.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesHeading" xml:space="preserve">
-    <value>تمكين المؤسسات الحكومية &lt;span&gt;بأفضل ممارسات&lt;span&gt; أمن البيانات&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesSubHeading1" xml:space="preserve">
-    <value>حماية الملفات السرية</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesSubHeading2" xml:space="preserve">
-    <value>الامتثال التنظيمي</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesSubHeading3" xml:space="preserve">
-    <value>أتمتة أمن البيانات</value>
-  </data>
-  <data name="IndustriesGovernmentContent1" xml:space="preserve">
-    <value>بدلا من مجرد قفل ملف ، يحول التشفير محتويات الملف إلى تنسيق غير قابل للقراءة وغير قابل للفك. باستخدام خوارزمية تشفير مثل AES ، فإنه يعيد ترتيب محتويات الملف ونقلها واستبدالها ومزجها. تملي مفاتيح التشفير المستخدمة مع الخوارزمية التسلسل الدقيق لهذه التحويلات ، مما يسمح بعكس عملية التشفير (فك التشفير) لاستعادة محتويات الملف إلى حالته الأصلية. &lt;br/&gt;على عكس طرق الأمان البديلة مثل حماية الملفات بكلمة مرور ، يوفر تشفير الملفات باستخدام AES-256 إجراء أمنيا غير قابل للكسر. مع طول مفتاح 256 ، يصبح من المستحيل عمليا كسر ملف مشفر ، حتى مع أقوى أجهزة الكمبيوتر العملاقة المتاحة اليوم. &lt;br/&gt;&lt;br/&gt;تضمن هذه العملية المعقدة حماية الملفات الحساسة في جميع الأوقات ، ويمكن فقط للمستخدمين المصرح لهم الذين لديهم حق الوصول إلى المفاتيح فك تشفير الملفات.</value>
-  </data>
-  <data name="IndustriesGovernmentContent2" xml:space="preserve">
-    <value>يحمي برنامج تشفير الملفات اكسكربت الحائز على جوائز والمعرفة الصفرية البيانات الحكومية بنقرة واحدة. قم بتأمين الملفات مثل المستندات الحكومية المهمة والسجلات العامة والتقارير السرية والملفات المصنفة والمزيد - باستخدام معيار تشفير البيانات AES-256 بت. قم بإنشاء آليات تشفير تلقائية لتشفير الملفات داخل مجلد ومزامنتها مع موفري التخزين السحابي المشهورين.&lt;br/&gt;&lt;br/&gt;اكسكربت هو الخيار رقم 1 ل PCMag باعتباره "أفضل برنامج تشفير" لعام 2025. لقد كان رقم 1 لمدة تسع سنوات متتالية من 2016 إلى 2025. إنه متاح لنظام التشغيل ويندوز وماك و نظام التشغيل ايفون و أندرويد ، ويمكنه تشفير الملفات ومزامنتها تلقائيا مع خدمات التخزين السحابية الشائعة مثل جوجل درايف و ون درايف و دروب بوكس.</value>
-  </data>
-  <data name="IndustriesGovernmentHeading" xml:space="preserve">
-    <value>الامتثال للمعايير وجعل ملفاتك متوافقة مع اللوائح التنظيمية.</value>
-  </data>
-  <data name="IndustriesGovernmentHeading1" xml:space="preserve">
-    <value>كيف يحمي التشفير البيانات الحكومية؟</value>
-  </data>
-  <data name="IndustriesGovernmentHeading2" xml:space="preserve">
-    <value>حماية البيانات الحكومية باستخدام اكسكربت</value>
-  </data>
-  <data name="IndustriesGovernmentParagraph" xml:space="preserve">
-    <value>تساعد أكسكريبت الوكالات الحكومية والشركات على الامتثال للأنظمة وحماية البيانات الحساسة من خلال أداة التشفير القوية الخاصة بها. حافظ على أمانك والامتثال عبر جميع الأجهزة بكل سهولة.</value>
-  </data>
-  <data name="IndustriesGovernmentTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;حماية البيانات الحكومية باستخدام تشفير قوي&lt;br/&gt; مع AES-256. حكومة آمنة&lt;/span&gt;&lt;span class='img4'&gt; الوثائق&lt;br/&gt; تقارير سرية والمزيد.&lt;/span&gt;&lt;span class='img5'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesGovernmentTrialInfo" xml:space="preserve">
-    <value>اكتشف كيف يمكن لاكسكربت  حماية بيانات مؤسستك الحكومية اليوم. &lt;span&gt;جربه مجانا لمدة 14 يوما!&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHeadingCloud" xml:space="preserve">
-    <value>الوعي بالتخزين السحابي وإدارة كلمات المرور</value>
-  </data>
-  <data name="IndustriesHeadingConfidentiality" xml:space="preserve">
-    <value>السرية والنزاهة</value>
-  </data>
-  <data name="IndustriesHeadingProtection" xml:space="preserve">
-    <value>متوافق مع لائحة حماية البيانات</value>
-  </data>
-  <data name="IndustriesHeadingSecurity" xml:space="preserve">
-    <value>الأمان والموثوقية والبساطة</value>
-  </data>
-  <data name="IndustriesHeadingTeamwork" xml:space="preserve">
-    <value>العمل الجماعي والتعاون</value>
-  </data>
-  <data name="IndustriesHealthcareBenefitsText" xml:space="preserve">
-    <value>يشهد قطاع الرعاية الصحية زيادة هائلة في حجم البيانات الحساسة التي يتم إنشاؤها كل يوم. من تفاصيل المريض إلى السجلات الصحية الإلكترونية (EHR) ، لدى مقدمي الرعاية الصحية الكثير لحمايته. يتم إنشاء ما يقرب &lt;b&gt;من 30٪ من حجم البيانات في العالم&lt;/b&gt; من قبل صناعة الرعاية الصحية ، ومن المتوقع أن ينمو هذا الرقم بشكل كبير في المستقبل القريب.&lt;br/&gt;&lt;br/&gt;هذه الزيادة الهائلة في بيانات الرعاية الصحية تجعلها أيضا عرضة للهجمات الإلكترونية المدمرة وخروقات البيانات. تتمتع الرعاية الصحية &lt;b&gt;بأعلى تكلفة لخرق البيانات&lt;/b&gt; من بين جميع الصناعات التي تكلف في المتوسط 11 مليون دولار ، وكانت &lt;b&gt;ثالث أكثر الصناعات تعرضا للهجوم&lt;/b&gt; في عام 2022. مع هذه الإحصائيات المقلقة ، يصبح من المهم للغاية لمقدمي خدمات الرعاية الصحية إعطاء الأولوية لأمن بياناتهم ، خاصة مع وجود البيانات أثناء الراحة. لحسن الحظ ، هناك مقياس قوي وفعال للغاية لبيانات الرعاية الصحية الحساسة يسمى التشفير. يحمي تشفير الملفات الملف عن طريق تحويل محتوياته ، مما يجعله غير قابل للقراءة وغير قابل للفك للمستخدمين غير المصرح لهم.</value>
-  </data>
-  <data name="IndustriesHealthcareContent1" xml:space="preserve">
-    <value>ينشئ تشفير الملفات درعا واقيا قويا لبيانات الرعاية الصحية الحساسة الخاصة بك ، مما يحمي من الهجمات الإلكترونية وخروقات البيانات. إنه إجراء موصى به من قبل المؤسسات والمنظمات الشهيرة مثل NIST و مايكروسوفت  اي بي ايم. أثناء عملية التشفير ، يتم تحويل محتويات ملفات الرعاية الصحية إلى تنسيق غير قابل للقراءة وغير قابل للفك باستخدام خوارزميات التشفير ومفاتيح التشفير.&lt;br/&gt;&lt;br/&gt;يضمن تحويل محتويات الملفات أن المستخدمين المصرح لهم فقط الذين لديهم حق الوصول إلى مفاتيح التشفير يمكنهم فك تشفير الملفات المشفرة والوصول إليها. يتم أيضا جعل الملفات المشفرة عديمة الفائدة في أيدي المهاجمين السيبرانيين أثناء خرق البيانات بدون مفاتيح فك التشفير المحددة.</value>
-  </data>
-  <data name="IndustriesHealthcareContent2" xml:space="preserve">
-    <value>&lt;b&gt;اكسكربت&lt;/b&gt; هو برنامج تشفير ملفات حائز على جوائز يحمي ملفات الرعاية الصحية الحساسة الخاصة بك باستخدام خوارزمية AES-256. يحمي &lt;b&gt;معلومات المريض والسجلات الصحية الإلكترونية (EHR) وتفاصيل التأمين&lt;/b&gt; والمزيد. يضمن اكسكربت أن تظل بياناتك مشفرة ولا يمكن الوصول إليها من قبل الأفراد &lt;b&gt;غير المصرح لهم&lt;/b&gt; في جميع الأوقات حتى عند مشاركتها مع الآخرين ، مما يحمي &lt;b&gt;خصوصية&lt;/b&gt; مؤسسة الرعاية الصحية الخاصة بك ويحميها من الهجمات والانتهاكات الإلكترونية. كما أنه يساعدك على الامتثال بسهولة لقانون HIPAA.&lt;br/&gt;&lt;br/&gt;حصل اكسكربت على جائزة "أفضل برنامج تشفير" من قبل &lt;b&gt;PCMag&lt;/b&gt; لمدة تسع سنوات متتالية من 2016 إلى 2025. إنه متاح لنظام التشغيل ويندوز و ماك وأندرويد وايفون ، ويمكنه تشفير الملفات ومزامنتها تلقائيا مع خدمات التخزين السحابية الشائعة مثل جوجل درايف و ون درايف و دروب بوكس.</value>
-  </data>
-  <data name="IndustriesHealthcareHeading" xml:space="preserve">
-    <value>قم بتأمين السجلات الصحية الحساسة والوثائق الطبية الهامة.</value>
-  </data>
-  <data name="IndustriesHealthcareHeading1" xml:space="preserve">
-    <value>تشفير الملفات يحمي بيانات الرعاية الصحية بشكل استباقي</value>
-  </data>
-  <data name="IndustriesHealthcareHeading2" xml:space="preserve">
-    <value>اكسكربت لبيانات الرعاية الصحية الخاصة بك</value>
-  </data>
-  <data name="IndustriesHealthcareParagraph" xml:space="preserve">
-    <value>تساعد أكسكريبت المتخصصين في الرعاية الصحية على تأمين بيانات المرضى الحساسة، مع ضمان الخصوصية والامتثال لأنظمة HIPAA. احمِ معلومات المرضى بسهولة عبر جميع الأجهزة.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesContent1" xml:space="preserve">
-    <value>حماية السجلات الصحية الإلكترونية الحساسة للغاية (EHR) والملفات الطبية الأخرى بتشفير غير قابل للكسر.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesContent2" xml:space="preserve">
-    <value>امتثل بسهولة لقانون HIPAA واللائحة العامة لحماية البيانات (GDPR) عن طريق الاحتفاظ بجميع بيانات الرعاية الصحية مشفرة باستخدام AES-256.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesContent3" xml:space="preserve">
-    <value>قم بإنشاء مهام سير عمل أمان البيانات التلقائية بنقرة واحدة عن طريق تمكين التشفير التلقائي للملفات على أجهزة سطح المكتب وموفري التخزين السحابي.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesSubHeading1" xml:space="preserve">
-    <value>حماية بيانات السجلات الصحية الإلكترونية</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesSubHeading2" xml:space="preserve">
-    <value>الامتثال لقانون إخضاع التأمين الصحي لقابلية النقل والمساءلة (HIPAA)</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesSubHeading3" xml:space="preserve">
-    <value>أتمتة الأمن</value>
-  </data>
-  <data name="IndustriesHealthcareTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;حماية سجلات المرضى ،&lt;/span&gt; بيانات الرعاية الصحية ، EHR ،&lt;span class='img3'&gt;&lt;br/&gt;والامتثال لقانون إخضاع التأمين الصحي لقابلية النقل والمساءلة (HIPAA)&lt;/span&gt;&lt;span class='img4'&gt;باستخدام الحائز على جائزة&lt;br/&gt; برامج التشفير&lt;/span&gt;&lt;span class='img5'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHealthcareTrialInfo" xml:space="preserve">
-    <value>اكتشف كيف يمكن ل اكسكربت تأمين بيانات مؤسسة الرعاية الصحية الخاصة بك اليوم. &lt;span&gt;جربه مجانا لمدة 14 يوما!&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHeroButton" xml:space="preserve">
-    <value>اكتشف اكسكربت بيزنس</value>
-  </data>
-  <data name="IndustriesHeroText0" xml:space="preserve">
-    <value>إعادة تعريف مشهد &lt;span&gt;التشفير&lt;/span&gt; من أجل تجربة &lt;span style="font-family: auto; font-style:italic; color:#494949;"&gt;أرقى&lt;/span&gt; في &lt;span&gt;الأمن السيبراني&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHeroText1" xml:space="preserve">
-    <value>نغير طريقة تواصل الناس وعملهم. من خلال تشفير 256 بت الخاص بنا ، يزيد اكسكربت من أمان البيانات ويقلل من مخاطر الانتهاكات من خلال تطبيق برنامج تشفير سهل الاستخدام وسهل الاستخدام وحماية السرية والنزاهة. قم بزيادة إنتاجيتك وتوقف عن التساؤل عن خصوصيتك على الإنترنت. استعد السيطرة الكاملة على بياناتك وجرب الثقة الرقمية. إذا كنت مهتمًا بالتشفير والمواضيع ذات الصلة ، فألق نظرة على &lt;a href="/blog"&gt; المدونات &lt;/ a&gt; المحدثة أسبوعياً. هنا في اكسكربت ، يسعدنا مساعدتك والإجابة على أي أسئلة قد تكون لديك حول التشفير.</value>
-  </data>
-  <data name="IndustriesHeroText2" xml:space="preserve">
-    <value>لا تتردد في الاتصال بنا على &lt;a href="mailto:support@axcrypt.net"&gt; support@axcrypt.net &lt;/a&gt; ولا تنس متابعتنا على وسائل التواصل الاجتماعي.</value>
-  </data>
-  <data name="IndustriesLegalBenefitsText" xml:space="preserve">
-    <value>تزدهر الصناعة القانونية على السرية وحماية البيانات. من العقود ومعلومات العميل إلى وثائق الملكية الفكرية والتقاضي ، يتعامل المحترفون القانونيون مع تدفق مستمر من المعلومات الحساسة للغاية التي تتطلب حماية فائقة.  حتى الخرق الأمني البسيط يمكن أن يكون له عواقب وخيمة ، مما يؤدي إلى خسائر مالية وإلحاق الضرر بالسمعة.&lt;br/&gt;&lt;br/&gt; يتفهم اكسكربت الحاجة الماسة لأمن البيانات القوي في المجال القانوني. يمكن برنامج تشفير الملفات الحائز على جوائز المهنيين القانونيين من حماية معلوماتهم السرية في كل مرحلة ، مما يضمن الامتثال للوائح خصوصية البيانات وتعزيز مناخ الثقة مع العملاء.&lt;br/&gt;&lt;br/&gt; سواء كنت تتعاون في قضية تقاضي معقدة ، أو تدير عقود عملاء حساسة ، أو تتبادل المستندات السرية ، يوفر اكسكربت حلا بسيطا ولكنه قوي. تضمن إمكانات التشفير أثناء التنقل لدينا مشاركة الملفات بأمان مع الزملاء والعملاء ، بينما يتيح تكامل التخزين السحابي الوصول المريح إلى البيانات المشفرة من أي جهاز. بالإضافة إلى ذلك ، تعمل ميزات التشفير التلقائي في اكسكربت على تبسيط سير العمل وحماية المستندات الحساسة لحظة إنشائها أو تحريرها.</value>
-  </data>
-  <data name="IndustriesLegalContent1" xml:space="preserve">
-    <value>التشفير كعملية ، يحول محتويات أي ملف قانوني إلى تنسيق غير قابل للقراءة وغير قابل للفك باستخدام مفتاح تشفير. باستخدام خوارزمية تشفير مثل AES ، تقوم بإعادة ترتيب محتويات الملف ونقلها واستبدالها ومزجها. تملي مفاتيح التشفير المستخدمة مع الخوارزمية التسلسل الدقيق لهذه التحويلات ، مما يسمح بعكس عملية التشفير (فك التشفير) لاستعادة محتويات الملف إلى حالته الأصلية.&lt;br/&gt;&lt;br/&gt;على عكس طرق الأمان البديلة مثل الحماية بكلمة مرور ، والتي تقوم ببساطة بقفل الملفات ، يوفر تشفير الملفات باستخدام AES-256 إجراء أمنيا غير قابل للكسر. مع طول مفتاح 256 ، يصبح من المستحيل عمليا كسر ملف مشفر ، حتى مع أقوى أجهزة الكمبيوتر العملاقة المتاحة اليوم.&lt;br/&gt;&lt;br/&gt;تضمن هذه العملية المعقدة حماية الملفات الحساسة مثل العقود وسجلات العميل وما إلى ذلك في جميع الأوقات ، ولا يمكن إلا للمستخدمين المصرح لهم الذين لديهم حق الوصول إلى المفاتيح فك تشفير الملفات.</value>
-  </data>
-  <data name="IndustriesLegalContent2" xml:space="preserve">
-    <value>يؤمن برنامج تشفير الملفات اكسكربت الحائز على جوائز والمعرفة الصفرية بياناتك القانونية الحساسة بنقرة واحدة. قم بحماية الملفات مثل ملفات القضايا المهمة ووثائق براءات الاختراع وسجلات العملاء والمستندات السرية والمزيد - باستخدام معيار تشفير البيانات AES-256 بت. قم بإنشاء آليات تشفير تلقائية لتشفير الملفات داخل مجلد ومزامنتها مع موفري التخزين السحابي المشهورين.&lt;br/&gt;&lt;br/&gt;اكسكربت هو الخيار رقم 1 ل PCMag باعتباره "أفضل برنامج تشفير" في عام 2025. لقد كان رقم 1 لمدة تسع سنوات متتالية منذ عام 2016. يتوفر اكسكربت لنظام التشغيل ويندوز و ماك وأندرويد ونظام التشغيل ايفون ، ويمكنه تشفير الملفات ومزامنتها تلقائيا مع خدمات التخزين السحابية الشائعة مثل جوجل درايف وون درايف ودروب بوكس.</value>
-  </data>
-  <data name="IndustriesLegalDataSecutityContent1" xml:space="preserve">
-    <value>حماية البيانات القانونية الحساسة للغاية مثل ملفات القضايا والعقود المهمة والمستندات السرية وسجلات العملاء والمزيد بنقرة واحدة.</value>
-  </data>
-  <data name="IndustriesLegalDataSecutityHeading" xml:space="preserve">
-    <value>تمكين الشركات القانونية من خلال&lt;br/&gt;&lt;span&gt;أفضل ممارسات أمن البيانات&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesLegalDataSecutitySubHeading1" xml:space="preserve">
-    <value>حماية الملفات القانونية</value>
-  </data>
-  <data name="IndustriesLegalHeading" xml:space="preserve">
-    <value>احمِ البيانات القانونية باستخدام تشفير AES-256 الذي لا يُكسر.</value>
-  </data>
-  <data name="IndustriesLegalHeading1" xml:space="preserve">
-    <value>كيف التشفير &lt;br/&gt;حماية البيانات القانونية؟</value>
-  </data>
-  <data name="IndustriesLegalHeading2" xml:space="preserve">
-    <value>حماية البيانات القانونية &lt;br/&gt;مع أكسكربت</value>
-  </data>
-  <data name="IndustriesLegalParagraph" xml:space="preserve">
-    <value>تقدم أكسكريبت حلول حماية بيانات مخصصة للقطاع القانوني، تضمن أمن الوثائق الحساسة والعقود والتواصل مع العملاء من خلال تشفير AES 256-بت. تُبسط واجهتنا البديهية عملية التشفير، مما يعزز الحماية ضد اختراقات وتسريبات البيانات.</value>
-  </data>
-  <data name="IndustriesLegalTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;حماية البيانات القانونية: العقود الآمنة ، سجلات العملاء ،&lt;br/&gt;وثائق القضية السرية&lt;/span&gt; &lt;span class='img4'&gt;وأكثر من ذلك &lt;br/&gt;مع تشفير AES-256.&lt;/span&gt;&lt;span class='img5'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesLegalTrialInfo" xml:space="preserve">
-    <value>اكتشف كيف يمكن ل اكسكربت حماية بيانات شركتك القانونية. &lt;span&gt;جربه مجانا لمدة 14 يوما!&lt;span&gt;&lt;/span&gt;</value>
-  </data>
   <data name="IndustriesLinkLabel" xml:space="preserve">
-    <value>الصناعات</value>
-  </data>
-  <data name="IndustriesStatistic1" xml:space="preserve">
-    <value>عملاء في جميع أنحاء العالم</value>
-  </data>
-  <data name="IndustriesStatistic2" xml:space="preserve">
-    <value>اختيار محرري مجلة بي سي ماكيسين</value>
-  </data>
-  <data name="IndustriesStatistic3" xml:space="preserve">
-    <value>تنزيلات المستخدم</value>
-  </data>
-  <data name="IndustriesStatistic4" xml:space="preserve">
-    <value>اللغات</value>
-  </data>
-  <data name="IndustriesTechBenefitsText" xml:space="preserve">
-    <value>تعد قطاعات التكنولوجيا وتكنولوجيا المعلومات من أكثر القطاعات المستهدفة اليوم من حيث خروقات البيانات وهجمات برامج الفدية والتهديدات السيبرانية.&lt;br/&gt;&lt;br/&gt;ارتفعت هجمات برامج الفدية في قطاع تكنولوجيا المعلومات بنسبة &lt;b&gt;47٪ في عام 2023.&lt;/b&gt; بالإضافة إلى ذلك، &lt;b&gt;فشلت 43٪ من الشركات في&lt;/b&gt; تدقيق الامتثال العام الماضي، مما يجعلها أكثر عرضة لخروقات البيانات بمقدار 10 مرات.&lt;br/&gt;&lt;br/&gt;تؤكد هذه الاتجاهات المقلقة على الأهمية الكبيرة لتشفير البيانات في قطاع تكنولوجيا المعلومات. يعمل تشفير البيانات الثابتة كدرع واقي لملفات تكنولوجيا المعلومات ، وتأمينها في جميع الأوقات من الوصول غير المصرح به. إنه يحمي البيانات الحساسة ، ويساعد على الامتثال للوائح مثل GDPR و HIPAA و FIPs وما إلى ذلك ، ويمنح المؤسسات التحكم في خصوصية البيانات وتدابير الأمان.</value>
-  </data>
-  <data name="IndustriesTechConfidentiality" xml:space="preserve">
-    <value>استخدم المفتاح الرئيسي ، وهي ميزة تمكن مسؤولي الأعمال من استعادة ملفات أعضاء الأعمال ، مما يقضي على مخاطر فقدان الوصول إلى الملفات الهامة بسبب مغادرة الموظفين أو نسيان كلمات المرور الخاصة بهم.</value>
-  </data>
-  <data name="IndustriesTechContent1" xml:space="preserve">
-    <value>يعد تشفير الملفات باستخدام معيار التشفير المتقدم (AES-256) إجراء أمنيا موصى به من قبل المؤسسات والمؤسسات الشهيرة مثل NIST و IBM و مايكروسوفت. ينشئ تشفير الملفات درعا وقائيا قويا لبيانات تكنولوجيا المعلومات الحساسة لمؤسستك.&lt;br/&gt;&lt;br/&gt;على عكس طرق الأمان البديلة مثل حماية الملفات بكلمة مرور ، يوفر تشفير AES-256 بت إجراء أمنيا غير قابل للكسر. مع طول مفتاح 256 ، يصبح من المستحيل عمليا كسر ملف مشفر ، حتى مع أقوى أجهزة الكمبيوتر العملاقة المتاحة اليوم.&lt;br/&gt;&lt;br/&gt;بدلا من مجرد قفله ، يحول التشفير محتويات الملف إلى نص غير قابل للقراءة ومختلط. باستخدام خوارزمية تشفير مثل AES ، فإنه يعيد ترتيب محتويات الملف ونقلها واستبدالها ومزجها. تملي مفاتيح التشفير المستخدمة مع الخوارزمية التسلسل الدقيق لهذه التحويلات ، مما يسمح بعكس عملية التشفير لاستعادة محتويات الملف إلى حالته الأصلية.&lt;br/&gt;تضمن هذه العملية المعقدة حماية الملفات الحساسة في جميع الأوقات ، ويمكن فقط للمستخدمين المصرح لهم الذين لديهم حق الوصول إلى المفاتيح فك تشفير الملفات.</value>
-  </data>
-  <data name="IndustriesTechContent2" xml:space="preserve">
-    <value>يحمي برنامج تشفير الملفات اكسكربت الحائز على جوائز والمعرفة الصفرية بيانات تكنولوجيا المعلومات الخاصة بك بنقرة واحدة. قم بتأمين الملفات مثل أكواد المصدر المهمة وملفات المشروع وملفات PDF التجارية والمالية وسجلات اتصالات العملاء الحساسة ومستندات الموارد البشرية والمزيد - باستخدام معيار تشفير البيانات AES-256 بت. قم بإنشاء آليات تشفير تلقائية لتشفير الملفات داخل مجلد ومزامنتها مع موفري التخزين السحابي المشهورين.&lt;br/&gt;&lt;br/&gt;كان اكسكربت هو الخيار رقم 1 ل &lt;b&gt;PCMag باعتباره "أفضل برنامج تشفير"&lt;/b&gt; لمدة تسع سنوات متتالية من 2016 إلى 2025. إنه متاح لنظام التشغيل ويندوز و ماك وأندرويد ونظام التشغيل ايفون ، ويمكنه تشفير الملفات ومزامنتها تلقائيا مع خدمات التخزين السحابية الشائعة مثل جوجل درايف وون درايف و دروب بوكس.</value>
-  </data>
-  <data name="IndustriesTechHeading" xml:space="preserve">
-    <value>حماية بيانات متفوقة بتشفير AES 256-بت.</value>
-  </data>
-  <data name="IndustriesTechHeading1" xml:space="preserve">
-    <value>تشفير الملفات AES-256 لحماية بيانات تكنولوجيا المعلومات</value>
-  </data>
-  <data name="IndustriesTechHeading2" xml:space="preserve">
-    <value>اكسكربت لبيانات تكنولوجيا المعلومات الخاصة بك</value>
-  </data>
-  <data name="IndustriesTechParagraph" xml:space="preserve">
-    <value>مع واجهة سهلة الاستخدام وبديهية، قم بتشفير بياناتك الحساسة وامنَعها من الاختراقات والتسريبات الضارة. أكسكريبت آمن وبسيط وموثوق ويُسهل التعاون.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesContent1" xml:space="preserve">
-    <value>قم بحماية بيانات تكنولوجيا المعلومات الحساسة للغاية مثل سجلات العملاء ومستندات الأعمال والتمويل وملفات الموارد البشرية والمزيد بنقرة واحدة.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesContent2" xml:space="preserve">
-    <value>امتثل بسهولة للوائح البيانات لمؤسستك التقنية مثل GDPR و HIPAA و FIPs وما إلى ذلك باستخدام برنامجنا.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesContent3" xml:space="preserve">
-    <value>قم بإنشاء مهام سير عمل أمان البيانات التلقائية بنقرة واحدة عن طريق تمكين التشفير التلقائي للملفات على أجهزة سطح المكتب وموفري التخزين السحابي.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesHeading" xml:space="preserve">
-    <value>حالات استخدام قوية لبيانات تكنولوجيا المعلومات الخاصة بك مع &lt;span&gt;اكسكربت&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesSubHeading1" xml:space="preserve">
-    <value>حماية بيانات تكنولوجيا المعلومات</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesSubHeading2" xml:space="preserve">
-    <value>الامتثال للوائح</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesSubHeading3" xml:space="preserve">
-    <value>أتمتة أمن البيانات</value>
-  </data>
-  <data name="IndustriesTechTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;تشفير قوي لبياناتك التقنية باستخدام AES-256.&lt;br/&gt;حماية سجلات العميل الحساسة ورموز المصدر&lt;/span&gt; &lt;span class='img4'&gt;&lt;br/&gt;&amp; ملفات المشروع ووثائق العمل&lt;br/&gt;وأكثر من ذلك.&lt;span class='img5'&gt;&lt;/span&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesTechTrialInfo" xml:space="preserve">
-    <value>اكتشف كيف يمكن ل اكسكربت حماية بيانات مؤسسة تكنولوجيا المعلومات الخاصة بك اليوم.&lt;br/&gt;&lt;span&gt;جربه مجانا لمدة 14 يوما! &lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesTitle" xml:space="preserve">
     <value>الصناعات</value>
   </data>
   <data name="InformationLinkLabel" xml:space="preserve">
@@ -24291,9 +24095,6 @@ https://axcrypt.net/guides/encryption-decryption/</value>
   <data name="InvalidSubFolder" xml:space="preserve">
     <value>المجلد المحدد ليس مجلدًا فرعيًا صالحًا.</value>
   </data>
-  <data name="InvalidVaultFolderErrorMessage" xml:space="preserve">
-    <value>مجلد الخزنة الخاص بك غير متاح حاليًا. قد يكون تم نقله أو حذفه. يرجى التحقق من موقع المجلد أو اختيار خزنة مختلفة.</value>
-  </data>
   <data name="InvalidVaultSetting" xml:space="preserve">
     <value>مسار مجلد الخزنة المُكوَّن غير صالح أو غير قابل للوصول. قم بتحديث إعدادات الخزنة بمسار صالح للمتابعة.</value>
   </data>
@@ -24486,6 +24287,9 @@ SE-114 29 ستوكهولم
   </data>
   <data name="KeepCloudDataPrivatePopup" xml:space="preserve">
     <value>حافظ على خصوصية البيانات السحابية</value>
+  </data>
+  <data name="KeepFilePasswordForRemainingFilesText" xml:space="preserve">
+    <value>الاحتفاظ بكلمة مرور الملف لجميع الملفات المتبقية</value>
   </data>
   <data name="KeepFolderStructurePopup" xml:space="preserve">
     <value>الحفاظ على بنية المجلدات منظمة</value>
@@ -25290,6 +25094,9 @@ SE-114 29 ستوكهولم
   <data name="ManagementSuccess" xml:space="preserve">
     <value>تم تحديث خاصية إدارة الموقع بنجاح.</value>
   </data>
+  <data name="ManageRecoveryKeyText" xml:space="preserve">
+    <value>إدارة مفتاح الاسترداد والوصول إلى النسخة الاحتياطية</value>
+  </data>
   <data name="ManageSubscriptionResellerInfo" xml:space="preserve">
     <value>هذا الحساب يديره بائع. يمكن للموزع إضافة مستخدمين جدد إلى الحساب وإدارة المدفوعات. ملاحظة: لا يتمكن الموزعون من الوصول إلى أي معلومات مشفرة ، بما في ذلك الملفات المؤمنة باستخدام المفتاح الرئيسي.</value>
   </data>
@@ -25553,6 +25360,9 @@ SE-114 29 ستوكهولم
   </data>
   <data name="MaximumNotExceedCharactersNotification" xml:space="preserve">
     <value>يجب ألا يتجاوز النص عدد الأحرف المسموح بها.</value>
+  </data>
+  <data name="MaximumSharePeopleReachedText" xml:space="preserve">
+    <value>تم الوصول إلى الحد الأقصى لعدد الأشخاص وهو {0}.</value>
   </data>
   <data name="MaxUsersCountText" xml:space="preserve">
     <value>لا يمكنك إضافة عددٍ من المستخدمين يتجاوز الحد الأقصى المسموح به.</value>
@@ -27754,6 +27564,9 @@ SE-114 29 ستوكهولم
   <data name="NoFilesFoundText" xml:space="preserve">
     <value>لم يتم العثور على أي ملف</value>
   </data>
+  <data name="NoInternetAccessText" xml:space="preserve">
+    <value>لا يوجد اتصال بالإنترنت، يُرجى التحقق من اتصالك بالإنترنت.</value>
+  </data>
   <data name="NoInternetErrorMessage" xml:space="preserve">
     <value>لا يمكن الاتصال بالخادم الآن ، يرجى التحقق من اتصالك بالإنترنت.</value>
     <comment>Message which is displayed when device doesn't have internet connection.</comment>
@@ -27772,6 +27585,9 @@ SE-114 29 ستوكهولم
   </data>
   <data name="NoLogToExportText" xml:space="preserve">
     <value>لا يوجد سجل للتصدير!</value>
+  </data>
+  <data name="NoMatchingUsersFoundText" xml:space="preserve">
+    <value>لم يتم العثور على مستخدمين مطابقين</value>
   </data>
   <data name="NoMessagesFoundText" xml:space="preserve">
     <value>(لم يتم العثور على رسائل.)</value>
@@ -27911,6 +27727,9 @@ SE-114 29 ستوكهولم
   </data>
   <data name="OnceText" xml:space="preserve">
     <value>مرة واحدة</value>
+  </data>
+  <data name="OneDriveSessionExpiredText" xml:space="preserve">
+    <value>انتهت صلاحية جلسة ون درايف الخاصة بك أو لم تعد صالحة. يُرجى تسجيل الدخول إلى حساب ون درايف الخاص بك مرة أخرى.</value>
   </data>
   <data name="OneFreeMonthLabel" xml:space="preserve">
     <value>14 يومًا مجانًا</value>
@@ -28363,11 +28182,17 @@ SE-114 29 ستوكهولم
   <data name="PasswordPolicyViolation" xml:space="preserve">
     <value>كلمة المرور ليست جيدة بما يكفي لتكون مقبولة.</value>
   </data>
+  <data name="PasswordRequiredText" xml:space="preserve">
+    <value>كلمة المرور مطلوبة</value>
+  </data>
   <data name="PasswordRequirementMinLength" xml:space="preserve">
     <value>٨ أحرف أو أكثر</value>
   </data>
   <data name="PasswordRequirementNumber" xml:space="preserve">
     <value>رقم واحد على الأقل</value>
+  </data>
+  <data name="PasswordRequirementsText" xml:space="preserve">
+    <value>8 أحرف أو أكثر، تتضمن أحرفًا كبيرة وصغيرة وأرقامًا ورموزًا.</value>
   </data>
   <data name="PasswordRequirementSymbol" xml:space="preserve">
     <value>رمز واحد على الأقل</value>
@@ -28455,6 +28280,9 @@ SE-114 29 ستوكهولم
   </data>
   <data name="PasswordSpecialCharacter" xml:space="preserve">
     <value>حرف خاص واحد مثل</value>
+  </data>
+  <data name="PasswordStoredSecurelyText" xml:space="preserve">
+    <value>سيتم تخزين كلمة المرور هذه بشكل آمن وتذكّرها حتى تقوم بمسح جميع الإعدادات أو إلغاء تثبيت التطبيق.</value>
   </data>
   <data name="PasswordStrengthBadName" xml:space="preserve">
     <value>ضعيف</value>
@@ -28941,6 +28769,9 @@ SE-114 29 ستوكهولم
   </data>
   <data name="PremiumSecondBodyText2" xml:space="preserve">
     <value>يمكنك إلغاء اشتراكك في أي وقت. إذا فعلت ذلك قبل انتهاء المحاكمة ، فلن يتم تحصيل أي رسوم منك. بعد ذلك ، سيعود حسابك إلى الإصدار المجاني.</value>
+  </data>
+  <data name="PremiumShareLimitText" xml:space="preserve">
+    <value>بريميوم: شارك مع ما يصل إلى شخصين</value>
   </data>
   <data name="PremiumSupportInfo" xml:space="preserve">
     <value>مرحبًا بك في دعم اكسكربت. نقدم لعملائنا المتميزين دعمًا شخصيًا ومباشرًا حسب الأولوية عبر البريد الإلكتروني.</value>
@@ -30394,6 +30225,12 @@ SE-114 29 ستوكهولم
   <data name="RecipientInputHint" xml:space="preserve">
     <value>اضغط على يدخل أو لإضافة كل مستلم. انقر على الشريحة لتعديلها.</value>
   </data>
+  <data name="RecoveryAccessAlwaysEnabledText" xml:space="preserve">
+    <value>مفعّل دائمًا حتى تتمكن من استرداد ملفاتك إذا نسيت كلمة مرور الملف.</value>
+  </data>
+  <data name="RecoveryOptionsText" xml:space="preserve">
+    <value>خيارات الاسترداد</value>
+  </data>
   <data name="RedHatDownloadLinkTooltip" xml:space="preserve">
     <value>حماية آمنة وموثوقة للملفات على أنظمة Red Hat. يعمل على هذا الإصدار والإصدارات الأحدث.</value>
   </data>
@@ -30981,7 +30818,7 @@ SE-114 29 ستوكهولم
     <value>تسويق</value>
   </data>
   <data name="ResellerHelpSupportBlock1ListItem1" xml:space="preserve">
-    <value>الأسئلة الشائعة: &lt;a href='https://www.axcrypt.net/information/faq'&gt;https://www.axcrypt.net/information/faq&lt;/a&gt;</value>
+    <value>الأسئلة الشائعة: &lt;a href='https://www.axcrypt.net/support/faq'&gt;https://www.axcrypt.net/support/faq&lt;/a&gt;</value>
   </data>
   <data name="ResellerHelpSupportBlock1ListItem2" xml:space="preserve">
     <value>اشتراك بيزنس: &lt;a href='https://www.axcrypt.net/information/axcrypt-business'&gt;https://www.axcrypt.net/information/axcrypt-business&lt;/a&gt;</value>
@@ -31131,6 +30968,9 @@ SE-114 29 ستوكهولم
   </data>
   <data name="SaveCardsAndSecureNotesFeature" xml:space="preserve">
     <value>حفظ البطاقات والملاحظات الآمنة</value>
+  </data>
+  <data name="SavedToText" xml:space="preserve">
+    <value>تم الحفظ في:</value>
   </data>
   <data name="SaveSecretErrorIsReadOnly" xml:space="preserve">
     <value>يُسمح فقط للمستخدمين الذين لديهم خطة اشتراك صالحة بحفظ إدخالات كلمة المرور.</value>
@@ -31616,6 +31456,9 @@ SE-114 29 ستوكهولم
   <data name="SecureEncryptedVaultPopup" xml:space="preserve">
     <value>خزنة آمنة ومشفّرة.</value>
   </data>
+  <data name="SecureFilesThreeWaysVideoTitle" xml:space="preserve">
+    <value>تأمين الملفات بثلاث طرق سهلة</value>
+  </data>
   <data name="SecureFoldersAndCloudStorageSyncMessage" xml:space="preserve">
     <value>مجلدات آمنة ومزامنة التخزين السحابي</value>
   </data>
@@ -31896,6 +31739,9 @@ SE-114 29 ستوكهولم
   <data name="SentText" xml:space="preserve">
     <value>تم الإرسال</value>
   </data>
+  <data name="SeparateFromAccountPasswordText" xml:space="preserve">
+    <value>هذه كلمة مرور منفصلة عن كلمة مرور حساب أكس كريبت الخاص بك. سيُطلب من أي شخص يفتح الملف إدخالها.</value>
+  </data>
   <data name="ServerStatusLabel" xml:space="preserve">
     <value>حالة الملقم</value>
   </data>
@@ -31909,8 +31755,14 @@ SE-114 29 ستوكهولم
     <value>ضبط البريد الإلكتروني</value>
     <comment>Title of SetEmail step on SignUp page in mobile application</comment>
   </data>
+  <data name="SetFilePasswordText" xml:space="preserve">
+    <value>تعيين كلمة مرور الملف</value>
+  </data>
   <data name="SetPasswordText" xml:space="preserve">
     <value>قم بتعيين كلمة مرور قوية لمعرفة AxCrypt الخاص بك أو اختر خيار اقتراح كلمة المرور لدينا.</value>
+  </data>
+  <data name="SetPasswordText1" xml:space="preserve">
+    <value>تعيين كلمة المرور</value>
   </data>
   <data name="SettingDeleteUsrCnfrmText" xml:space="preserve">
     <value>هل أنت متأكد أنك تريد حذف حسابك؟</value>
@@ -32068,6 +31920,9 @@ SE-114 29 ستوكهولم
   <data name="ShareWithOthersTitle" xml:space="preserve">
     <value>سهولة الوصول إلى كلمات المرور</value>
     <comment>Title of "Share With Others" slide on Onboarding screen in mobile application.</comment>
+  </data>
+  <data name="ShareWithPeopleText" xml:space="preserve">
+    <value>مشاركة مع الأشخاص</value>
   </data>
   <data name="SharingCollaborationTitle" xml:space="preserve">
     <value>المشاركة والتعاون</value>
@@ -32626,9 +32481,6 @@ SE-114 29 ستوكهولم
   </data>
   <data name="TechnicalDetailsSourceCodeHeading" xml:space="preserve">
     <value>مصدر الرمز</value>
-  </data>
-  <data name="TechnicalDetailsSourceCodeText" xml:space="preserve">
-    <value>اعتادت شفرة المصدر الكاملة للمكتبات الأساسية وعميل ويندوز أن تكون في مستودع زئبقي في Bitbucket. ولكن اعتبارا من صيف 2020 ، أوقفت Bitbucket دعمها الزئبقي ونحن نعمل بنشاط على إيجاد حل بديل لجعل شفرة المصدر متاحة بسهولة. في الوقت الحالي ، يرجى الاتصال support@axcrypt.net وسنقوم بتوفير شفرة المصدر.</value>
   </data>
   <data name="TechnicalDetailsStoredOnServerHeading" xml:space="preserve">
     <value>ما يتم تخزينه على الخادم؟</value>
@@ -33574,6 +33426,9 @@ SE-114 29 ستوكهولم
   <data name="UpgradeText" xml:space="preserve">
     <value>ترقيه</value>
   </data>
+  <data name="UpgradeToAutoShareText" xml:space="preserve">
+    <value>قم بالترقية إلى بريميوم أو الأعمال لمشاركة الملفات المشفّرة تلقائيًا مع الأشخاص الذين تختارهم.</value>
+  </data>
   <data name="UpgradeToUnlockEncryptionText" xml:space="preserve">
     <value>قم بالترقية لفتح ميزة التشفير والمزيد من الخصائص!</value>
   </data>
@@ -33832,9 +33687,6 @@ SE-114 29 ستوكهولم
   <data name="VaultFolderNotConfiguredMessage" xml:space="preserve">
     <value>
 لم يتم تكوين أي مجلد كخزنة. يُرجى تكوين مجلد الخزنة والمحاولة مرة أخرى.</value>
-  </data>
-  <data name="VaultFolderUnavailableMessage" xml:space="preserve">
-    <value>مجلد الخزنة الخاص بك غير متاح حاليًا. ربما تم نقله أو حذفه. يُرجى التحقق من موقع المجلد أو اختيار خزنة مختلفة.</value>
   </data>
   <data name="VaultGuideCarouselText1" xml:space="preserve">
     <value>يرجى تكوين الخزنة من خلال الانتقال إلى الإعدادات → الإعدادات المتقدمة → إعدادات الخزنة.</value>
