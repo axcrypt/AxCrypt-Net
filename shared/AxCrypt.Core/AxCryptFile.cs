@@ -1,4 +1,4 @@
-#region Coypright and License
+﻿#region Coypright and License
 
 /*
  * AxCrypt - Copyright 2026, AxCrypt AB, All Rights Reserved
@@ -212,7 +212,7 @@ namespace AxCrypt.Core
             }
         }
 
-        public virtual async Task EncryptFoldersUniqueWithBackupAndWipeAsync(IEnumerable<IDataContainer> containers, EncryptionParameters encryptionParameters, IProgressContext progress, IEnumerable<IDataContainer>? ignoredFolders = null)
+        public virtual async Task EncryptFoldersUniqueWithBackupAndWipeAsync(IEnumerable<IDataContainer> containers, EncryptionParameters encryptionParameters, IProgressContext progress, IStatusChecker statusChecker, IEnumerable<IDataContainer>? ignoredFolders = null)
         {
             if (containers == null)
             {
@@ -230,23 +230,28 @@ namespace AxCrypt.Core
             }
             ignoredFolderList.AddRange(containers);
 
+            List<IDataStore> files = new List<IDataStore>();
+            foreach (IDataContainer container in containers)
+            {
+                files.AddRange(await container.ListEncryptableWithWarningAsync(ignoredFolderList, New<UserSettings>().FolderOperationMode.Policy()));
+            }
+
             progress.NotifyLevelStart();
             try
             {
-                List<IDataStore> files = new List<IDataStore>();
-                foreach (IDataContainer container in containers)
-                {
-                    files.AddRange(await container.ListEncryptableWithWarningAsync(ignoredFolderList, New<UserSettings>().FolderOperationMode.Policy()));
-                }
-
-                progress.AddTotal(files.Count());
-                foreach (IDataStore file in files)
+                progress.AddTotal(files.Count);
+                // Continue on per-file failures; combine errors into one popup at the end.
+                await Resolve.ParallelFileOperation.DoFilesAsync(files, async (file, context) =>
                 {
                     progress.Display = file.Name;
-                    await EncryptFileUniqueWithBackupAndWipeAsync(file, encryptionParameters, progress);
+                    await EncryptFileUniqueWithBackupAndWipeAsync(file, encryptionParameters, context);
                     progress.AddCount(1);
-                    progress.Totals.AddFileCount(1);
-                }
+                    return new FileOperationContext(file.FullName, Abstractions.ErrorStatus.Success);
+                },
+                async (status) =>
+                {
+                    await NotifyAndReportFolderOperationAsync(status, statusChecker);
+                }).Free();
             }
             finally
             {
@@ -254,7 +259,7 @@ namespace AxCrypt.Core
             }
         }
 
-        public virtual async Task EncryptVaultFolderUniqueWithBackupAndWipeAsync(IDataContainer container, EncryptionParameters encryptionParameters, IProgressContext progress, IEnumerable<IDataContainer>? ignoredFolders = null)
+        public virtual async Task EncryptVaultFolderUniqueWithBackupAndWipeAsync(IDataContainer container, EncryptionParameters encryptionParameters, IProgressContext progress, IStatusChecker statusChecker, IEnumerable<IDataContainer>? ignoredFolders = null)
         {
             if (container == null)
             {
@@ -272,20 +277,25 @@ namespace AxCrypt.Core
             }
             ignoredFolderList.Add(container);
 
+            List<IDataStore> files = new List<IDataStore>();
+            files.AddRange(await container.ListEncryptableWithWarningAsync(ignoredFolderList, FolderOperationMode.IncludeSubfolders));
+
             progress.NotifyLevelStart();
             try
             {
-                List<IDataStore> files = new List<IDataStore>();
-                files.AddRange(await container.ListEncryptableWithWarningAsync(ignoredFolderList, FolderOperationMode.IncludeSubfolders));
-
-                progress.AddTotal(files.Count());
-                foreach (IDataStore file in files)
+                progress.AddTotal(files.Count);
+                // Continue on per-file failures; combine errors into one popup at the end.
+                await Resolve.ParallelFileOperation.DoFilesAsync(files, async (file, context) =>
                 {
                     progress.Display = file.Name;
-                    await EncryptFileUniqueWithBackupAndWipeAsync(file, encryptionParameters, progress);
+                    await EncryptFileUniqueWithBackupAndWipeAsync(file, encryptionParameters, context);
                     progress.AddCount(1);
-                    progress.Totals.AddFileCount(1);
-                }
+                    return new FileOperationContext(file.FullName, Abstractions.ErrorStatus.Success);
+                },
+                async (status) =>
+                {
+                    await NotifyAndReportFolderOperationAsync(status, statusChecker);
+                }).Free();
             }
             finally
             {
@@ -832,8 +842,7 @@ namespace AxCrypt.Core
             },
             async (status) =>
             {
-                await Resolve.SessionNotify.NotifyAsync(new SessionNotification(SessionNotificationType.UpdateActiveFiles));
-                statusChecker.CheckStatusAndShowMessage(status.ErrorStatus, status.FullName, status.InternalMessage);
+                await NotifyAndReportFolderOperationAsync(status, statusChecker);
             }).Free();
         }
 
@@ -846,8 +855,7 @@ namespace AxCrypt.Core
             },
             async (status) =>
             {
-                await Resolve.SessionNotify.NotifyAsync(new SessionNotification(SessionNotificationType.UpdateActiveFiles));
-                statusChecker.CheckStatusAndShowMessage(status.ErrorStatus, status.FullName, status.InternalMessage);
+                await NotifyAndReportFolderOperationAsync(status, statusChecker);
             }).Free();
         }
 
@@ -874,7 +882,7 @@ namespace AxCrypt.Core
 
             if (sourceStore.IsWriteProtected)
             {
-                return Task.FromResult(new FileOperationContext(sourceStore.FullName, Abstractions.ErrorStatus.CannotWriteDestination));
+                return Task.FromResult(new FileOperationContext(sourceStore.FullName, "File is read-only and cannot be decrypted.", Abstractions.ErrorStatus.CannotWriteDestination));
             }
 
             progress.NotifyLevelStart();
@@ -1233,6 +1241,22 @@ namespace AxCrypt.Core
             catch (Exception ex)
             {
                 HandleException(ex, destinationFileLock.DataStore);
+            }
+        }
+
+        private static async Task NotifyAndReportFolderOperationAsync(FileOperationContext status, IStatusChecker statusChecker)
+        {
+            await Resolve.SessionNotify.NotifyAsync(new SessionNotification(SessionNotificationType.UpdateActiveFiles));
+            if (status.Failures != null && status.Failures.Count > 0)
+            {
+                string names = string.Join(", ", status.Failures.Take(3).Select(f => Resolve.Portable.Path().GetFileName(f.FullName)));
+                if (status.Failures.Count > 3) names += $" (+{status.Failures.Count - 3} more)";
+                string details = string.Join(Environment.NewLine, status.Failures.Select(f => $"• {Resolve.Portable.Path().GetFileName(f.FullName)}: {f.InternalMessage}"));
+                statusChecker.CheckStatusAndShowMessage(Abstractions.ErrorStatus.Exception, names, details);
+            }
+            else
+            {
+                statusChecker.CheckStatusAndShowMessage(status.ErrorStatus, status.FullName, status.InternalMessage);
             }
         }
 

@@ -52,6 +52,13 @@ namespace AxCrypt.Core.UI
             Totals = totals;
         }
 
+        public FileOperationContext(ProgressTotals totals, IReadOnlyList<FileOperationContext> failures)
+            : this(string.Empty, ErrorStatus.Success)
+        {
+            Totals = totals;
+            Failures = failures;
+        }
+
         public string FullName { get; private set; }
 
         public ErrorStatus ErrorStatus { get; private set; }
@@ -59,5 +66,7 @@ namespace AxCrypt.Core.UI
         public string InternalMessage { get; private set; }
 
         public ProgressTotals Totals { get; private set; } = new ProgressTotals();
+
+        public IReadOnlyList<FileOperationContext> Failures { get; private set; } = Array.Empty<FileOperationContext>();
     }
 }
