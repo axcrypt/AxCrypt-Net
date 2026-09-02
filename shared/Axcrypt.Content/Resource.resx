@@ -32295,6 +32295,18 @@ Please visit our &lt;a href="{0}"&gt;community support&lt;/a&gt;.</value>
   <data name="TemporaryFilePathText" xml:space="preserve">
     <value>Temporary File Path</value>
   </data>
+  <data name="UseVirtualDriveText" xml:space="preserve">
+    <value>Use Virtual Drive</value>
+  </data>
+  <data name="UseVirtualDriveDescriptionText" xml:space="preserve">
+    <value>Decrypted files are kept in memory and never written to disk. Requires WinFsp. Changing this setting restarts AxCrypt.</value>
+  </data>
+  <data name="RestartToApplySettingMessage" xml:space="preserve">
+    <value>AxCrypt must restart to apply this change. Any files you have open will be re-encrypted first. Restart now?</value>
+  </data>
+  <data name="WinFspRequiredMessage" xml:space="preserve">
+    <value>AxCrypt needs WinFsp installed to keep temporary files in memory. Install it from https://winfsp.dev/rel/ and then turn this option on again. Open the download page now?</value>
+  </data>
   <data name="TermsAndConditionsLink" xml:space="preserve">
     <value>By signing up to AxCrypt you agree to our &lt;a&gt;Terms &amp;amp; Conditions &lt;/a&gt;</value>
     <comment>Text of link to Terms And Conditions in mobile application</comment>
