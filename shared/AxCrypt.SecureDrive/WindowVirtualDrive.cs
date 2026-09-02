@@ -1,6 +1,7 @@
 ﻿using AxCrypt.Core.Runtime;
 using Fsp;
 using Fsp.Interop;
+using Microsoft.Win32;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -59,6 +60,52 @@ namespace AxCrypt.SecureDrive
             private set;
         } = string.Empty;
 
+        /// <summary>
+        /// True when WinFsp is installed on this machine.
+        ///
+        /// WinFsp registers under the 32-bit registry view even on x64, so the
+        /// obvious Registry.LocalMachine.OpenSubKey(@"SOFTWARE\WinFsp") reads the
+        /// 64-bit view and always returns null. The base key must be opened with
+        /// RegistryView.Registry32 — this is the same key winfsp.net itself reads
+        /// to locate its native library, so if this fails Mount() would too.
+        ///
+        /// Reading it works from the MSIX package: the app declares runFullTrust,
+        /// and MSIX virtualises registry writes, not reads.
+        /// </summary>
+        public bool IsInstalled
+        {
+            get
+            {
+                try
+                {
+                    using RegistryKey baseKey = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry32);
+                    using RegistryKey? key = baseKey.OpenSubKey(@"SOFTWARE\WinFsp");
+
+                    if (key?.GetValue("InstallDir") is not string installDir || string.IsNullOrEmpty(installDir))
+                    {
+                        return false;
+                    }
+
+                    // The registry key can outlive an uninstall, so confirm the
+                    // native library for this process architecture is really there.
+                    string native = RuntimeInformation.ProcessArchitecture switch
+                    {
+                        Architecture.Arm64 => "winfsp-a64.dll",
+                        Architecture.X86 => "winfsp-x86.dll",
+                        _ => "winfsp-x64.dll",
+                    };
+
+                    // Fully qualified: this file has "using static System.Net.WebRequestMethods",
+                    // which brings its own File into scope.
+                    return System.IO.File.Exists(Path.Combine(installDir, "bin", native));
+                }
+                catch
+                {
+                    return false;
+                }
+            }
+        }
+
         private static char FindFreeDriveLetter()
         {
             var used = DriveInfo.GetDrives()
@@ -74,6 +121,14 @@ namespace AxCrypt.SecureDrive
 
         public void Mount()
         {
+            // Idempotent: mounting is now tied to sign-in rather than process start,
+            // so a second call would otherwise orphan the previous FileSystemHost
+            // and leak its drive letter.
+            if (_host != null)
+            {
+                return;
+            }
+
             string driveLetter = $"{FindFreeDriveLetter()}:";
             this.Storage = driveLetter;
             _host = new FileSystemHost(this)
@@ -105,6 +160,17 @@ namespace AxCrypt.SecureDrive
             _host?.Unmount();
             _host?.Dispose();
             _host = null;
+
+            // Drop the in-memory tree as well. Unmount happens on sign-out, and the
+            // nodes hold decrypted file content — keeping them would carry one
+            // user's plaintext into the next session.
+            lock (_lock)
+            {
+                _root.Kids?.Clear();
+            }
+
+            Storage = string.Empty;
+            MountPoint = string.Empty;
         }
 
         // ── Public helpers to push files into the virtual drive ───────────────
