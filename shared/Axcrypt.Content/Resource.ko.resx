@@ -662,11 +662,17 @@ AxCrypt ID 이메일 인증의 링크 클릭이 작동하지 않았습니다. (�
     <value>AxCrypt 파일 열기</value>
     <comment>Tooltip for "AddFile" button in mobile application</comment>
   </data>
+  <data name="AddFilePasswordText" xml:space="preserve">
+    <value>파일 비밀번호 추가</value>
+  </data>
   <data name="AddFirstFolderText" xml:space="preserve">
     <value>첫 번째 폴더를 추가하고 보호합니다.</value>
   </data>
   <data name="AddFirstPasswordText" xml:space="preserve">
     <value>첫 번째 비밀번호를 추가하고 보호하세요.</value>
+  </data>
+  <data name="AddingText" xml:space="preserve">
+    <value>추가</value>
   </data>
   <data name="AdditionalUnsubscribedConfirmation" xml:space="preserve">
     <value>AxCrypt의 기능과 보안 상 중요하다면, 이메일을 보낼 수 있습니다.</value>
@@ -708,6 +714,9 @@ AxCrypt ID 이메일 인증의 링크 클릭이 작동하지 않았습니다. (�
   <data name="AddSecureFolderTitle" xml:space="preserve">
     <value>AxCrypt와 보안될 파일을 선택해주십시오. 기존의 있는 파일들은 암호화됩니다.</value>
     <comment>Displayed as prompt, title or description when adding a new secure folder via a folder browser.</comment>
+  </data>
+  <data name="AddSharePeopleDescriptionText" xml:space="preserve">
+    <value>합산하면 {0} 자신의 AxCrypt 계정으로 이 파일들을 열 수 있는 사람들입니다.</value>
   </data>
   <data name="AddToGroupText" xml:space="preserve">
     <value>그룹에 추가</value>
@@ -904,6 +913,9 @@ AxCrypt ID 이메일 인증의 링크 클릭이 작동하지 않았습니다. (�
     <value>활성화되는시 비활성화 될 때까지 인터넷 접속을 요구하지 않습니다.</value>
     <comment>A tool tip explaining that this causes AxCrypt never to access the Internet.</comment>
   </data>
+  <data name="AlwaysOnText" xml:space="preserve">
+    <value>항상 켜짐</value>
+  </data>
   <data name="AlwaysText" xml:space="preserve">
     <value>항상.</value>
   </data>
@@ -1083,6 +1095,12 @@ AxCrypt ID 이메일 인증의 링크 클릭이 작동하지 않았습니다. (�
   </data>
   <data name="AutomaticFileUpdatingText" xml:space="preserve">
     <value>열고 저장한 후 보안 파일의 자동 업데이트.</value>
+  </data>
+  <data name="Autoshare files on encryption" xml:space="preserve">
+    <value>AutoShareFilesOnEncryptionText</value>
+  </data>
+  <data name="AutoShareFilesDescriptionText" xml:space="preserve">
+    <value>암호화된 파일을 선택한 사람들과 자동으로 공유하면, 그들이 자신의 AxCrypt 계정으로 파일을 열 수 있습니다.</value>
   </data>
   <data name="AutoUpgradeFilesAES256" xml:space="preserve">
     <value>AES-256으로 자동 업그레이드 파일</value>
@@ -16947,6 +16965,9 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   <data name="BusinessProductStrongText9" xml:space="preserve">
     <value>필요할 때 항상 지원해주는 거예요</value>
   </data>
+  <data name="BusinessShareLimitText" xml:space="preserve">
+    <value>비즈니스: 최대 3명과 함께 나누는</value>
+  </data>
   <data name="BusinessSubscriptionAddButtonLabel" xml:space="preserve">
     <value>추가</value>
     <comment>A label or word used in a button when adding members to a subscription.</comment>
@@ -17642,6 +17663,9 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   <data name="CloudServicesText" xml:space="preserve">
     <value>클라우드 서비스</value>
   </data>
+  <data name="CloudStoragePermissionRequestText" xml:space="preserve">
+    <value>AxCrypt는 당신의 허가가 필요합니다. {0} 파일을 열고, 암호화하며, 복호화하고, 안전하게 키 공유를 할 수 있습니다.\n귀하의 개인정보는 최우선입니다 — 저희는 절대 파일을 저장하거나 공유하지 않습니다.\n\n지금 연결하시겠습니까?</value>
+  </data>
   <data name="ColorPaletteLabel" xml:space="preserve">
     <value>컬러 팔레트</value>
   </data>
@@ -17925,6 +17949,12 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   </data>
   <data name="ConfigurationSuccess" xml:space="preserve">
     <value>응용 프로그램 구성 속성이 성공적으로 업데이트 되었습니다. 변경사항을 적용하려면 서버를 재시작해야 할 수 있습니다.</value>
+  </data>
+  <data name="ConfigureDefaultEncryptionText" xml:space="preserve">
+    <value>기본적으로 파일 암호화 방식을 설정하세요</value>
+  </data>
+  <data name="ConfigureDefaultEncryptionText1" xml:space="preserve">
+    <value>기본적으로 파일 암호화 방식을 설정하세요</value>
   </data>
   <data name="ConfigureVault" xml:space="preserve">
     <value>Vault를 설정하려면 설정 → 고급 설정→ Vault 설정으로 이동해 주세요.</value>
@@ -18950,7 +18980,7 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
     <value>기타 다운로드</value>
   </data>
   <data name="DownloadOtherSourceCodeSubtitle" xml:space="preserve">
-    <value>기술 적 세부 사항</value>
+    <value>오픈 소스 저장소</value>
   </data>
   <data name="DownloadOtherSourceCodeTitle" xml:space="preserve">
     <value>소스 코드</value>
@@ -19044,6 +19074,9 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   </data>
   <data name="DownloadWindowsX64Title" xml:space="preserve">
     <value>윈도우 (x64)</value>
+  </data>
+  <data name="DropboxSessionExpiredText" xml:space="preserve">
+    <value>귀하의 Drop Box 세션은 만료되었거나 더 이상 유효하지 않습니다. 다시 Drop Box 계정에 로그인해 주세요</value>
   </data>
   <data name="DropFilesOrFoldersToEncryptMessage" xml:space="preserve">
     <value>여기에 파일을 내려놓아 암호화하세요</value>
@@ -19440,8 +19473,20 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   <data name="EncryptFilesBeforeUploadPopup" xml:space="preserve">
     <value>업로드 전에 파일 암호화</value>
   </data>
+  <data name="EncryptFileWithPasswordText" xml:space="preserve">
+    <value>이 파일을 비밀번호로 암호화하세요. 파일을 열려면 이 비밀번호가 필요합니다.</value>
+  </data>
   <data name="EncryptionManagementText" xml:space="preserve">
     <value>암호화 관리</value>
+  </data>
+  <data name="EncryptionOptionsText" xml:space="preserve">
+    <value>암호화 옵션</value>
+  </data>
+  <data name="EncryptionOptionsText1" xml:space="preserve">
+    <value>암호화 옵션</value>
+  </data>
+  <data name="EncryptionText" xml:space="preserve">
+    <value>암호화</value>
   </data>
   <data name="EncryptLabelText" xml:space="preserve">
     <value>암호화하다</value>
@@ -19478,6 +19523,12 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   </data>
   <data name="EnterPassphraseForIdentityPrompt" xml:space="preserve">
     <value>아이디 '{0}' 비밀번호</value>
+  </data>
+  <data name="EnterPasswordForFilesText" xml:space="preserve">
+    <value>파일 비밀번호 입력 @FileCount</value>
+  </data>
+  <data name="EnterPasswordForThisFileText" xml:space="preserve">
+    <value>이 파일의 비밀번호를 입력하세요</value>
   </data>
   <data name="EnterPasswordToDecryptAndSignInMessage" xml:space="preserve">
     <value>이 파일을 복호화하려면 비밀번호를 입력하세요. 만약 비밀번호와 일치하면 로그인 상태가 됩니다.</value>
@@ -21382,12 +21433,24 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   <data name="FileOperationFailed" xml:space="preserve">
     <value>'{0}' 오류.</value>
   </data>
+  <data name="FilePasswordDescriptionText" xml:space="preserve">
+    <value>이 파일을 열기 위해 필요한 비밀번호</value>
+  </data>
   <data name="FilePasswordDialogHeader" xml:space="preserve">
     <value>파일 본래의 비밀번호를 박성해 주시기 바랍니다.</value>
     <comment>The header text for the file password dialog.</comment>
   </data>
   <data name="FilePasswordHereText" xml:space="preserve">
     <value>여기에 파일 비밀번호를 입력하세요.</value>
+  </data>
+  <data name="FilePasswordRecoveryWarningText" xml:space="preserve">
+    <value>안전한 곳에 보관하세요. 이 비밀번호를 잊으면 복구 접근이 켜져 있지 않으면 파일을 열 수 없습니다.</value>
+  </data>
+  <data name="FilePasswordRequirementsText" xml:space="preserve">
+    <value>대문자와 소문자, 숫자, 기호를 포함한 최소 8개의 문자를 사용하세요.</value>
+  </data>
+  <data name="FilePasswordUsedForEncryptionText" xml:space="preserve">
+    <value>방금 설정한 파일 비밀번호가 계정 비밀번호 대신 파일 암호화에 사용됩니다.</value>
   </data>
   <data name="FilePropertiesDateModifiedToolStripMenuItem" xml:space="preserve">
     <value>수정한 날짜</value>
@@ -21529,6 +21592,9 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   <data name="FooterDownloadiOSText" xml:space="preserve">
     <value>아이오스</value>
   </data>
+  <data name="FooterDownloadLinuxText" xml:space="preserve">
+    <value>리눅스</value>
+  </data>
   <data name="FooterDownloadMacText" xml:space="preserve">
     <value>맥</value>
   </data>
@@ -21567,6 +21633,9 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   </data>
   <data name="ForEveryoneLabel" xml:space="preserve">
     <value>모두를 위한</value>
+  </data>
+  <data name="ForgottenFilePasswordWarningText" xml:space="preserve">
+    <value>이 비밀번호를 잊으면 해당 파일에 영구적으로 접근할 수 없을 수 있습니다.</value>
   </data>
   <data name="ForIndividualsLabel" xml:space="preserve">
     <value>개인용</value>
@@ -22225,7 +22294,7 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
     <value>디지털 서명을 확인하고 다운로드가 손상되지 않았는지 확인하세요. 윈도우스 탐색기에서 다운로드한 파일을 마우스 오른쪽 버튼으로 누르고 '속성'과 '디지털 서명' 탭을 선택하세요. 그런 다음 디지털 서명을 선택하고 '상세 정보'를 클릭하세요. 디지털 서명이 '확인'으로 표시되고 서명자가 'AxCrypt AB'로 표시되는지 마지막으로 확인해주세요.</value>
   </data>
   <data name="GetStartedInfoNote2Text1" xml:space="preserve">
-    <value>어떠한 이슈나 질문이 있으시다면, &lt;a href='/information/faq'&gt;frequently asked questions&lt;/a&gt;페이지를 확인해주세요.</value>
+    <value>어떠한 이슈나 질문이 있으시다면, &lt;a href='/support/faq'&gt;frequently asked questions&lt;/a&gt;페이지를 확인해주세요.</value>
   </data>
   <data name="GetStartedInfoNote2Text2" xml:space="preserve">
     <value>버그와 의견을 저희에게 보고해 주십시오. 지원을 요청할 수도 있습니다. 기타 문제가 있는 경우 &lt;a href='mailto:지지t@axcrypt.net'&gt;e-메일을 보내주십시오&lt;/a&gt;.</value>
@@ -22370,6 +22439,9 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   </data>
   <data name="GettheLatestAxCryptText" xml:space="preserve">
     <value>여기에서 최신 AxCrypt 버전 2 릴리스를 받으세요.</value>
+  </data>
+  <data name="GoogleDriveSessionExpiredText" xml:space="preserve">
+    <value>구글 드라이브 세션이 만료되었거나 더 이상 유효하지 않습니다. 구글 드라이브 계정에 다시 로그인해 주세요.</value>
   </data>
   <data name="GoToGroupsText" xml:space="preserve">
     <value>그룹으로 이동</value>
@@ -22692,6 +22764,21 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   <data name="GroupTitle" xml:space="preserve">
     <value>그룹</value>
   </data>
+  <data name="GuideBeforeYouBeginTitle" xml:space="preserve">
+    <value>시작하기 전에</value>
+  </data>
+  <data name="GuideContactSupportTeam" xml:space="preserve">
+    <value>지원팀에 연락하세요</value>
+  </data>
+  <data name="GuideHelpfulNo" xml:space="preserve">
+    <value>아니요</value>
+  </data>
+  <data name="GuideHelpfulYes" xml:space="preserve">
+    <value>네</value>
+  </data>
+  <data name="GuideOnThisGuideTitle" xml:space="preserve">
+    <value>이 가이드에서</value>
+  </data>
   <data name="GuidesGetStartedLinkLabelWithPlatform" xml:space="preserve">
     <value>시작</value>
   </data>
@@ -22712,6 +22799,9 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   </data>
   <data name="GuidesLinkQuoteLabel6" xml:space="preserve">
     <value>암호화 및 복호화</value>
+  </data>
+  <data name="GuideWasHelpfulTitle" xml:space="preserve">
+    <value>이 글이 도움이 되었나요?</value>
   </data>
   <data name="HaveAccountInfo" xml:space="preserve">
     <value>이미 '{0}' 라는 계정으로 AxCrypt ID를 가지고 계십니다.
@@ -22842,6 +22932,9 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   <data name="HelpCenterGuideSummaryNis2" xml:space="preserve">
     <value>NIS2 준비 및 요구 사항에 대해 알아보세요.</value>
   </data>
+  <data name="HelpCenterGuideSummaryOpenSource" xml:space="preserve">
+    <value>AxCrypt 소스 코드와 기술적 투명성을 검토하세요.</value>
+  </data>
   <data name="HelpCenterGuideSummaryPasswordManager" xml:space="preserve">
     <value>비밀번호를 안전하게 저장하고 관리하세요.</value>
   </data>
@@ -22862,6 +22955,9 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   </data>
   <data name="HelpCenterGuideSummarySecuredMessenger" xml:space="preserve">
     <value>안전하게 보호된 메시지를 전송하세요.</value>
+  </data>
+  <data name="HelpCenterGuideSummarySecureFilesThreeWaysVideo" xml:space="preserve">
+    <value>AxCrypt에서 파일을 안전하게 보호하는 세 가지 간단한 방법을 배워보세요.</value>
   </data>
   <data name="HelpCenterGuideSummarySecurity" xml:space="preserve">
     <value>암호화 및 보안 관행을 검토하세요.</value>
@@ -22910,6 +23006,12 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   </data>
   <data name="HelpCenterLabel" xml:space="preserve">
     <value>도움말 센터</value>
+  </data>
+  <data name="HelpCenterMetaDescription" xml:space="preserve">
+    <value>AxCrypt 도움말 센터에서 AxCrypt 가이드, 답변, 기능 도움말, 안전한 파일 암호화 튜토리얼 및 지원 자료를 찾아보세요.</value>
+  </data>
+  <data name="HelpCenterMetaTitle" xml:space="preserve">
+    <value>AxCrypt 도움말 센터 | 가이드, FAQ 및 지원</value>
   </data>
   <data name="HelpCenterNeedHelpDescription" xml:space="preserve">
     <value>본인에게 가장 적합한 지원 옵션을 선택하세요.</value>
@@ -23501,6 +23603,9 @@ AxCrypt 개인 정보 보호 정책을 참조하십시오.</value>
   <data name="InboxText" xml:space="preserve">
     <value>받은 편지함</value>
   </data>
+  <data name="IncludeRecoveryAccessText" xml:space="preserve">
+    <value>복구 접근 포함</value>
+  </data>
   <data name="IncludeSubfoldersConfirmationBody" xml:space="preserve">
     <value>위험한 옵션을 사용하려고 하십니다. 사용자님께서 조심하지 않으면, 의도치 않게 더 많은 데이터의 작동을 느리게 하고, 운영체제를 포함한 다른 소프트웨어를 손상시킬 수 도 있습니다. 그래도 계속 하시겠습니까?</value>
   </data>
@@ -23525,314 +23630,7 @@ AxCrypt 개인 정보 보호 정책을 참조하십시오.</value>
   <data name="IndustriesAboutLinkLabel" xml:space="preserve">
     <value>산업에 관하여</value>
   </data>
-  <data name="IndustriesBenefitsText0" xml:space="preserve">
-    <value>AxCrypt는 가장 강력한 암호화 표준인 AES 256비트 알고리즘을 사용하여 디바이스 간에 데이터를 암호화하고 보호합니다. 암호 관리자, 클라우드 스토리지 통합, 마스터 키를 포함한 사용자 친화적이고 효율적인 암호화 도구를 통해 AxCrypt는 금융, 의료, 법률, 정부 등 여러 산업 분야에서 신뢰할 수 있는 솔루션이 되었습니다.&lt;br /&gt; &lt;br /&gt;AxCrypt의 암호화 기술은 인증된 개인만 기밀 파일에 액세스하여 사이버 위협과 데이터 침해로부터 중요한 데이터를 보호할 수 있도록 보장합니다. 또한 AxCrypt의 유연한 구축 옵션과 강력한 관리 기능을 통해 기업은 암호화 요구 사항을 확장하여 규정 준수 요구 사항을 충족하고 데이터를 항상 안전하게 보호할 수 있습니다.</value>
-  </data>
-  <data name="IndustriesBenefitsTitle" xml:space="preserve">
-    <value>Axcrypt의 혜택</value>
-  </data>
-  <data name="IndustriesBlogLabel" xml:space="preserve">
-    <value>암호화에 대해 더 알고 싶으신가요? 그렇다면 저희 블로그에 놀러오세요.</value>
-  </data>
-  <data name="IndustriesDomainHeading" xml:space="preserve">
-    <value>&lt;span&gt;AxCrypt&lt;/span&gt;은(는) 업계 및 도메인 전반에서 신뢰할 수 있음</value>
-  </data>
-  <data name="IndustriesEducationContent1" xml:space="preserve">
-    <value>데이터 및 파일 암호화는 데이터 유출 및 사이버 공격에 대한 첫 번째 방어선으로, NIST, IBM, Microsoft와 같은 유명 기관 및 조직에서 권장합니다. 데이터 암호화는 교육 산업에서 데이터 보안 및 프라이버시를 강화하는 데 중요한 역할을 합니다. &lt;br/&gt;&lt;br/&gt; 암호화 알고리즘(AES)을 사용하는 암호화 메커니즘은 기본적으로 파일의 내용을 읽을 수 없고 해독할 수 없는 형식으로 변환하여 무단 사용자가 접근할 수 없게 만듭니다. 오직 복호화 키에 접근할 수 있는 권한이 있는 사람만이 암호화 과정을 역으로 수행하여 파일의 내용을 액세스할 수 있습니다.</value>
-  </data>
-  <data name="IndustriesEducationContent2" xml:space="preserve">
-    <value>AxCrypt는 AES-256 알고리즘을 사용하여 대학, 고등학교 및 초등학교의 민감한 정보를 보호하는 수상 경력이 있는 파일 암호화 소프트웨어입니다! 교육 기관은 AxCrypt를 사용하여 학생 기록, 재정 정보 및 연구 문서를 암호화하고 보호할 수 있습니다. &lt;br/&gt;&lt;br/&gt;AxCrypt는 이 정보가 암호화된 상태로 유지되고 무단 사용자에게 접근할 수 없도록 보장하여 학생 프라이버시를 보호하고 데이터 유출로부터 보호합니다.&lt;br/&gt;&lt;br/&gt;AxCrypt는 전 세계 유명 대학 및 학술 기관에서 신뢰받고 있으며, 강력한 데이터 암호화를 위한 선호되는 선택으로 강력히 추천됩니다.</value>
-  </data>
-  <data name="IndustriesEducationHeading" xml:space="preserve">
-    <value>독점적인 에세이, 논문, 보고서, 학위 논문 및 연구를 확보합니다.</value>
-  </data>
-  <data name="IndustriesEducationHeading1" xml:space="preserve">
-    <value>사이버 공격에 대한 방패로서의 데이터 암호화</value>
-  </data>
-  <data name="IndustriesEducationHeading2" xml:space="preserve">
-    <value>대학, 고등학교 및 학교를 위한 AxCrypt</value>
-  </data>
-  <data name="IndustriesEducationParagraph" xml:space="preserve">
-    <value>데이터 정리에서 파일을 보호하기 위해 도큐먼트 액세스는 물론 데이터를 기기에 활성화 시켜주세요. </value>
-  </data>
-  <data name="IndustriesFinancialBenefitsText" xml:space="preserve">
-    <value>오늘날 금융 서비스 산업은 그 어느 때보다 디지털화되고 데이터 집약적입니다. 사람들은 점점 지갑과 책 대신 휴대폰과 컴퓨터를 사용하여 지불, 투자 및 금융 관리를 하고 있습니다. 인터넷 뱅킹은 또한 전통적으로 은행에서 물리적으로 수행되었던 대부분의 작업을 대체했습니다. &lt;br/&gt;&lt;br/&gt;이러한 금융 데이터의 급격한 증가로 인해 사이버 공격 및 데이터 유출에 매우 취약해지고 있습니다. 금융 서비스 산업에서 발생하는 데이터 유출은 &lt;b&gt;두 번째로 비용이 많이 들며&lt;/b&gt;, 평균 572만 달러의 비용이 듭니다. 중소기업(SMB)은 데이터 유출로 인해 가장 큰 타격을 입으며, 전체 데이터 유출의 &lt;b&gt;42%를 차지&lt;/b&gt;하고 &lt;b&gt;60%의 중소기업&lt;/b&gt;이 유출 후 6개월 이내에 폐업합니다. 암호화는 금융 데이터를 보호하는 선제적 접근 방법으로, 항상 데이터를 보호할 수 있습니다.</value>
-  </data>
-  <data name="IndustriesFinancialContent1" xml:space="preserve">
-    <value>금융 데이터를 암호화하는 것은 사이버 공격과 데이터 유출에 대한 첫 번째 방어선 역할을 합니다. 이는 NIST, IBM, Microsoft와 같은 저명한 기관 및 조직에서 권장하는 방법입니다. 암호화 과정 동안 파일의 내용은 암호화 알고리즘과 암호 키를 사용하여 읽을 수 없고 해독할 수 없는 형식으로 변환됩니다. &lt;br/&gt;&lt;br/&gt;파일 내용의 변환은 암호 키에 접근할 수 있는 승인된 사용자만이 암호화된 파일을 복호화하고 접근할 수 있도록 보장합니다. 암호화된 파일은 특정 복호화 키 없이는 데이터 유출 시 사이버 공격자에게 쓸모없게 됩니다.</value>
-  </data>
-  <data name="IndustriesFinancialContent2" xml:space="preserve">
-    <value>&lt;b&gt;AxCrypt&lt;/b&gt;는 AES-256 알고리즘을 사용하여 민감한 금융 데이터와 파일을 보호하는 수상 경력의 파일 암호화 소프트웨어입니다. AxCrypt를 사용하여 &lt;b&gt;거래 기록, 고객 정보, 금융 문서&lt;/b&gt; 등을 암호화하고 보호하세요. AxCrypt는 데이터가 항상 암호화되어 &lt;b&gt;무단&lt;/b&gt; 접근이 불가능하도록 보장하며, 귀 조직의 &lt;b&gt;프라이버시&lt;/b&gt;를 보호하고 사이버 공격 및 유출로부터 보호합니다. &lt;br/&gt;&lt;br/&gt;AxCrypt는 &lt;b&gt;PCMag의 ‘최고의 암호화 소프트웨어’&lt;/b&gt;로 6년 연속 수상했습니다. AxCrypt는 Windows, MacOS, iOS 및 Android에서 사용할 수 있으며, Google Drive, OneDrive 및 Dropbox와 같은 인기 있는 클라우드 저장소 서비스에 파일을 자동으로 암호화하고 동기화할 수 있습니다.</value>
-  </data>
-  <data name="IndustriesFinancialHeading" xml:space="preserve">
-    <value>각 거래에서 민감한 금융 데이터 보호</value>
-  </data>
-  <data name="IndustriesFinancialHeading1" xml:space="preserve">
-    <value>암호화는 금융 데이터를 선제적으로 보호합니다</value>
-  </data>
-  <data name="IndustriesFinancialHeading2" xml:space="preserve">
-    <value>AxCrypt를 통한 BFSI 데이터 보안</value>
-  </data>
-  <data name="IndustriesFinancialParagraph" xml:space="preserve">
-    <value>매우 민감한 재무 문서 및 명세서를 보호합니다. 액세스를 제어하고 누가 무엇을 볼 수 있는지 선택합니다.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesContent1" xml:space="preserve">
-    <value>대차대조표, 손익계산서, 세금 신고서 등 매우 민감하고 기밀성이 높은 금융 문서를 보호합니다.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesContent2" xml:space="preserve">
-    <value>개인정보, 거래 기록, 세금 신고 등 중요한 고객 정보를 보호합니다.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesContent3" xml:space="preserve">
-    <value>데스크탑과 클라우드 저장소 공급자에서 파일을 자동으로 암호화하여 원클릭 자동 데이터 보안 워크플로우를 만듭니다.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesHeading" xml:space="preserve">
-    <value>강력한 AxCrypt 활용 사례</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesSubHeading1" xml:space="preserve">
-    <value>기밀 데이터 보호</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesSubHeading2" xml:space="preserve">
-    <value>고객 정보 보호</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesSubHeading3" xml:space="preserve">
-    <value>보안 자동화</value>
-  </data>
-  <data name="IndustriesFinancialTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;금융 데이터를 위한&lt;/span&gt;&lt;span class='img2'&gt;견고한 보안&lt;/span&gt;&lt;span class='img3'&gt;&lt;br/&gt;금융 문서 보호&lt;/span&gt;,&lt;span class='img4'&gt;&lt;br/&gt;고객 정보&lt;/span&gt;, &lt;span class='img5'&gt;&lt;br/&gt;등을 보호합니다.&lt;/span&gt; &lt;span class='img6'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesFinancialTrialInfo" xml:space="preserve">
-    <value>오늘 AxCrypt가 귀 조직의 데이터를 어떻게 보호할 수 있는지 알아보세요. &lt;span&gt;14일 무료 체험!&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesFreeTrialText0" xml:space="preserve">
-    <value>AxCrypt가 어떻게 기관의 데이터를 보호할 수 있는지 알아보십시오. &lt;span&gt; 14일 동안 무료로 사용해 보세요! &lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesGovernmentBenefitsText" xml:space="preserve">
-    <value>오늘날의 AI 시대에 전 세계 정부는 민감한 정보, 공공 안전 및 국가 안보에 중대한 위험을 초래하는 사이버 보안 위협이 증가하고 있습니다. &lt;br/&gt;&lt;br/&gt;2020년 솔라윈즈 사이버 공격과 같은 최근 사건은 민감한 정부 데이터를 무단 접근 및 악용으로부터 보호하기 위해 강력한 암호화 조치가 필요함을 강조합니다.&lt;br/&gt;&lt;br/&gt;암호화는 사이버 위협으로부터 정부 방어를 강화하고 기밀 문서, 공공 기록 및 민감한 통신의 무결성과 기밀성을 보장하는 중요한 도구입니다.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesContent1" xml:space="preserve">
-    <value>원클릭으로 민감한 보고서, 기밀 문서, 공공 기록 등 매우 민감한 정부 데이터를 보호합니다.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesContent2" xml:space="preserve">
-    <value>AxCrypt의 AES-256 비트 파일 암호화는 GDPR, HIPAA 및 FIPs와 같은 다양한 데이터 규정을 준수합니다.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesContent3" xml:space="preserve">
-    <value>AxCrypt는 데스크톱 및 클라우드 저장소 공급자에서 파일을 자동으로 암호화하여 원클릭 자동 데이터 보안 워크플로우를 만듭니다.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesHeading" xml:space="preserve">
-    <value>&lt;span&gt;데이터 보안 모범 사례로&lt;span&gt; 정부 기관 역량 강화</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesSubHeading1" xml:space="preserve">
-    <value>기밀 파일 보호</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesSubHeading2" xml:space="preserve">
-    <value>규제 준수</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesSubHeading3" xml:space="preserve">
-    <value>데이터 보안 자동화</value>
-  </data>
-  <data name="IndustriesGovernmentContent1" xml:space="preserve">
-    <value>단순히 파일을 잠그는 대신 암호화는 파일의 내용을 읽을 수 없고 해독할 수 없는 형식으로 변환합니다. AES와 같은 암호화 알고리즘을 사용하여 파일의 내용을 재배열하고, 이동시키고, 대체하며 혼합합니다. 알고리즘과 함께 사용되는 암호 키는 이러한 변환의 정확한 순서를 결정하여 암호화 과정을 역으로 진행(복호화)하여 파일의 내용을 원래 상태로 복원할 수 있습니다. &lt;br/&gt;파일 비밀번호 보호와 같은 대체 보안 방법과 달리, AES-256을 사용하는 파일 암호화는 깨지지 않는 보안 조치를 제공합니다. 256비트 키 길이로 인해 오늘날 사용할 수 있는 가장 강력한 슈퍼컴퓨터로도 암호화된 파일을 해독하는 것이 사실상 불가능합니다.&lt;br/&gt;&lt;br/&gt;이 복잡한 과정은 민감한 파일이 항상 보호되도록 보장하며, 키에 접근할 수 있는 승인된 사용자만 파일을 복호화할 수 있습니다.</value>
-  </data>
-  <data name="IndustriesGovernmentContent2" xml:space="preserve">
-    <value>AxCrypt의 수상 경력 및 제로 지식 파일 암호화 소프트웨어는 원클릭으로 정부 데이터를 보호합니다. AES-256 비트 데이터 암호화 표준으로 중요한 정부 문서, 공공 기록, 기밀 보고서, 기밀 파일 등을 보호하세요. 자동 암호화 메커니즘을 만들어 폴더 내 파일을 암호화하고 이를 인기 있는 클라우드 저장소 제공자에 동기화하세요.&lt;br/&gt;&lt;br/&gt;AxCrypt는 2025년 ‘최고의 암호화 소프트웨어’로 PCMag의 1순위 선택입니다. 2016년부터 2025년까지 9년 연속으로 1위를 차지했습니다. Windows, Mac, iOS 및 Android에서 사용할 수 있으며, Google Drive, OneDrive, Dropbox와 같은 인기 있는 클라우드 저장소 서비스에 파일을 자동으로 암호화하고 동기화할 수 있습니다.</value>
-  </data>
-  <data name="IndustriesGovernmentHeading" xml:space="preserve">
-    <value>규정 준수를 준수하고 규정을 준수하는 파일을 만드십시오.</value>
-  </data>
-  <data name="IndustriesGovernmentHeading1" xml:space="preserve">
-    <value>암호화는 정부 데이터를 어떻게 보호하나요?</value>
-  </data>
-  <data name="IndustriesGovernmentHeading2" xml:space="preserve">
-    <value>AxCrypt로 정부 데이터를 보호하세요</value>
-  </data>
-  <data name="IndustriesGovernmentParagraph" xml:space="preserve">
-    <value>AxCrypt는 정부 기관과 기업이 규정 준수 규정을 충족하고 강력한 암호화 도구를 통해 민감한 데이터를 보호할 수 있도록 지원합니다. 모든 장치에서 쉽게 보안과 규정 준수를 유지할 수 있습니다.</value>
-  </data>
-  <data name="IndustriesGovernmentTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;AES-256으로 강력한 암호화를 사용하여 정부 데이터를 보호하세요. 정부 문서, 기밀 보고서 등을 보호하세요.&lt;/span&gt;&lt;span class='img5'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesGovernmentTrialInfo" xml:space="preserve">
-    <value>오늘 AxCrypt가 귀 정부 기관의 데이터를 어떻게 보호할 수 있는지 알아보세요.&lt;span&gt;14일 동안 무료로 사용해 보세요!&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHeadingCloud" xml:space="preserve">
-    <value>클라우드 스토리지 인식 및 패스워드 매니지먼트</value>
-  </data>
-  <data name="IndustriesHeadingConfidentiality" xml:space="preserve">
-    <value>Confidentiality 및 integrity</value>
-  </data>
-  <data name="IndustriesHeadingProtection" xml:space="preserve">
-    <value>데이터 보호 규정 준수</value>
-  </data>
-  <data name="IndustriesHeadingSecurity" xml:space="preserve">
-    <value>간편함, 의존성, 보안성</value>
-  </data>
-  <data name="IndustriesHeadingTeamwork" xml:space="preserve">
-    <value>팀 워크, 콜라보레이션</value>
-  </data>
-  <data name="IndustriesHealthcareBenefitsText" xml:space="preserve">
-    <value>의료 부문은 매일 생성되는 민감한 데이터의 양이 기하급수적으로 증가하고 있습니다. 환자의 세부 정보부터 전자 건강 기록(EHR)까지, 의료 제공자는 보호해야 할 많은 정보를 가지고 있습니다. 의료 산업은 전 세계 데이터의 약 &lt;b&gt;30%&lt;/b&gt;를 생성하고 있으며, 이 수치는 가까운 미래에 엄청나게 증가할 것으로 예상됩니다.&lt;br/&gt;&lt;br/&gt;의료 데이터의 기하급수적인 증가는 또한 치명적인 사이버 공격 및 데이터 유출에 매우 취약하게 만듭니다. 의료는 모든 산업 중 데이터 유출 비용이 &lt;b&gt;가장 높으며&lt;/b&gt;, 평균 1,100만 달러의 비용이 들며 2022년에는 &lt;b&gt;세 번째로 많이 공격받은&lt;/b&gt; 산업이었습니다. 이러한 경고적인 통계로 인해 의료 서비스 제공자는 특히 데이터가 휴면 상태일 때 데이터 보안을 우선시하는 것이 중요합니다. 다행히도 민감한 의료 데이터를 위한 강력하고 매우 효과적인 방법인 암호화가 있습니다. 파일 암호화는 파일의 내용을 변환하여 무단 사용자가 읽을 수 없고 해독할 수 없게 만듭니다.</value>
-  </data>
-  <data name="IndustriesHealthcareContent1" xml:space="preserve">
-    <value>파일 암호화는 민감한 의료 데이터를 사이버 공격 및 데이터 유출로부터 보호하는 강력한 보호막을 만듭니다. 이는 NIST, IBM, Microsoft와 같은 저명한 기관 및 조직에서 권장하는 방법입니다. 암호화 과정 동안 의료 파일의 내용은 암호화 알고리즘과 암호 키를 사용하여 읽을 수 없고 해독할 수 없는 형식으로 변환됩니다.&lt;br/&gt;&lt;br/&gt;파일 내용의 변환은 암호 키에 접근할 수 있는 승인된 사용자만이 암호화된 파일을 복호화하고 접근할 수 있도록 보장합니다. 암호화된 파일은 특정 복호화 키 없이는 데이터 유출 시 사이버 공격자에게 쓸모없게 됩니다.</value>
-  </data>
-  <data name="IndustriesHealthcareContent2" xml:space="preserve">
-    <value>&lt;b&gt;AxCrypt&lt;/b&gt;는 AES-256 알고리즘을 사용하여 민감한 의료 파일을 보호하는 수상 경력의 파일 암호화 소프트웨어입니다. 환자 정보, 전자 건강 기록(EHR), 보험 세부 정보 등을 보호합니다. AxCrypt는 데이터가 항상 암호화되어 무단 접근이 불가능하도록 보장하며, 의료 기관의 프라이버시를 보호하고 사이버 공격 및 유출로부터 보호합니다. 또한 HIPAA 준수를 쉽게 할 수 있도록 도와줍니다.&lt;br/&gt;&lt;br/&gt;AxCrypt는 2016년부터 2025년까지 9년 연속으로 &lt;b&gt;PCMag&lt;/b&gt;에서 ‘최고의 암호화 소프트웨어’로 선정되었습니다. Windows, Mac, iOS 및 Android에서 사용할 수 있으며, Google Drive, OneDrive, Dropbox와 같은 인기 있는 클라우드 저장소 서비스에 파일을 자동으로 암호화하고 동기화할 수 있습니다.</value>
-  </data>
-  <data name="IndustriesHealthcareHeading" xml:space="preserve">
-    <value>민감한 건강 기록, 중요한 의료 문서를 보호합니다.</value>
-  </data>
-  <data name="IndustriesHealthcareHeading1" xml:space="preserve">
-    <value>파일 암호화는 의료 데이터를 선제적으로 보호합니다</value>
-  </data>
-  <data name="IndustriesHealthcareHeading2" xml:space="preserve">
-    <value>의료 데이터를 위한 AxCrypt</value>
-  </data>
-  <data name="IndustriesHealthcareParagraph" xml:space="preserve">
-    <value>AxCrypt는 의료 전문가가 민감한 환자 데이터를 보호하여 개인 정보 보호 및 HIPAA 규정 준수를 보장할 수 있도록 지원합니다. 모든 장치에서 환자 정보를 쉽게 보호할 수 있습니다.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesContent1" xml:space="preserve">
-    <value>깨지지 않는 암호화를 통해 매우 민감한 전자 건강 기록(EHR) 및 기타 의료 파일을 보호하세요.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesContent2" xml:space="preserve">
-    <value>AES-256으로 모든 의료 데이터를 암호화하여 HIPAA 및 GDPR을 쉽게 준수하세요.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesContent3" xml:space="preserve">
-    <value>데스크톱 및 클라우드 저장소 공급자에서 파일을 자동으로 암호화하여 원클릭 자동 데이터 보안 워크플로를 만드세요.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesSubHeading1" xml:space="preserve">
-    <value>전자 건강 기록(EHR) 데이터 보호</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesSubHeading2" xml:space="preserve">
-    <value>HIPAA 준수</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesSubHeading3" xml:space="preserve">
-    <value>보안 자동화</value>
-  </data>
-  <data name="IndustriesHealthcareTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;환자 기록을 보호하세요&lt;/span&gt;, 의료 데이터, EHR, &lt;span class='img3'&gt;&lt;br/&gt;HIPAA 준수&lt;/span&gt; 및 수상 경력의 암호화 소프트웨어를 사용하여 데이터를 보호하세요.&lt;span class='img4'&gt; &lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHealthcareTrialInfo" xml:space="preserve">
-    <value>오늘 AxCrypt가 의료 기관의 데이터를 어떻게 보호할 수 있는지 알아보세요.&lt;span&gt;14일 동안 무료로 사용해 보세요!&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHeroButton" xml:space="preserve">
-    <value>AxCrypt 비즈니스 살펴보기</value>
-  </data>
-  <data name="IndustriesHeroText0" xml:space="preserve">
-    <value>우수한 사이버 보안 경험을 위한 암호화 환경 재정의</value>
-  </data>
-  <data name="IndustriesHeroText1" xml:space="preserve">
-    <value>저희는 사람들의 의사소통과 일하는 방식을 바꿉니다. AxCrypt는 256비트 암호화를 통해 사용자에게 친밀하고 사용하기 쉬운 암호화 소프트웨어를 구현하고 기밀성과 무결성을 보호하여 데이터 보안을 강화하고 침해 위험을 감소합니다. 생산성을 높이고 온라인 개인 정보에 대해 더 이상 집중하지 마세요. 데이터에 대한 완전한 제어권을 되찾고 디지털 신뢰를 경험하세요. 암호화 및 관련 주제에 대해 궁금하신 분은 매주 업데이트되는 이곳&lt;a href="/blog"&gt;에서 살펴보세요. 여기 AxCrypt에서는 암호화와 관련된 모든 것을 알려드립니다.</value>
-  </data>
-  <data name="IndustriesHeroText2" xml:space="preserve">
-    <value>언제든지 이곳&lt;ahref="mailto:support@axcrypt.net"&gt;support@axcrypt.net&lt;/a&gt;으로 문의주세요. 그리고 소셜 미디어도 살펴보세요.</value>
-  </data>
-  <data name="IndustriesLegalBenefitsText" xml:space="preserve">
-    <value>법률 산업은 기밀성과 데이터 보호에 중점을 두고 있습니다. 계약 및 고객 정보에서 지적 재산 및 소송 문서에 이르기까지, 법률 전문가는 뛰어난 보호가 필요한 지속적으로 매우 민감한 정보를 처리합니다. 사소한 보안 위반도 치명적인 결과를 초래하여 재정적 손실과 평판 손상을 초래할 수 있습니다.&lt;br/&gt;&lt;br/&gt; AxCrypt는 법률 분야에서 강력한 데이터 보안에 대한 중요한 필요성을 이해하고 있습니다. 수상 경력에 빛나는 EMC의 파일 암호화 소프트웨어를 사용하면 법률 전문가가 모든 단계에서 기밀 정보를 보호하여 데이터 개인 정보 보호 규정을 준수하고 고객과의 신뢰를 높일 수 있습니다.&lt;br/&gt;&lt;br/&gt; 복잡한 소송 사건을 공동으로 처리하거나 민감한 클라이언트 계약을 관리하거나 기밀 문서를 교환하는 경우 AxCrypt는 간단하면서도 강력한 솔루션을 제공합니다. Dell의 이동 중 암호화 기능은 동료 및 클라이언트와 안전한 파일 공유를 보장하며, 클라우드 스토리지 통합을 통해 모든 장치에서 암호화된 데이터에 편리하게 액세스할 수 있습니다. 또한 AxCrypt의 자동 암호화 기능은 워크플로우를 간소화하여 중요한 문서가 작성되거나 편집되는 즉시 해당 문서를 보호합니다.</value>
-  </data>
-  <data name="IndustriesLegalContent1" xml:space="preserve">
-    <value>프로세스로서 암호화는 암호화 키를 사용하여 모든 법적 파일의 내용을 읽을 수 없고 해독할 수 없는 형식으로 변환합니다. AES와 같은 암호화 알고리즘을 사용하여 파일의 내용을 다시 정렬, 이동, 대체 및 혼합합니다. 알고리즘과 함께 사용되는 암호화 키는 이러한 변환의 정확한 순서를 지정하므로 암호화 프로세스의 반전(암호 해독)을 통해 파일의 내용을 원래 상태로 복원할 수 있습니다.&lt;br/&gt;&lt;br/&gt;단순히 파일을 잠그는 암호 보호와 같은 대체 보안 방법과 달리 AES-256을 사용한 파일 암호화는 깨지지 않는 보안 조치를 제공합니다. 키 길이가 256이면 오늘날 사용 가능한 가장 강력한 슈퍼컴퓨터에서도 암호화된 파일을 깨는 것이 사실상 불가능합니다.&lt;br/&gt;&lt;br/&gt;이 복잡한 프로세스는 계약 및 클라이언트 레코드 등과 같은 중요한 파일을 항상 보호하고 키에 대한 액세스 권한이 있는 사용자만 파일을 해독할 수 있도록 합니다.</value>
-  </data>
-  <data name="IndustriesLegalContent2" xml:space="preserve">
-    <value>AxCrypt의 수상 경력에 빛나는 Zero-Knowledge 파일 암호화 소프트웨어는 클릭 한 번으로 중요한 법률 데이터를 보호합니다. AES-256비트 데이터 암호화 표준으로 중요한 케이스 파일, 특허 문서, 클라이언트 기록, 기밀 문서 등의 파일을 보호합니다. 폴더 내의 파일을 암호화하고 인기 있는 클라우드 스토리지 공급자와 동기화하기 위한 자동 암호화 메커니즘을 만듭니다.&lt;br/&gt;&lt;br/&gt;AxCrypt는 2025년 '최고의 암호화 소프트웨어'로 PCMag의 1위 선택입니다. 2016년 이후 9년 연속 1위를 기록하고 있다. AxCrypt는 Windows, Mac, iOS 및 Android에서 사용할 수 있으며, Google Drive, OneDrive 및 Dropbox와 같이 널리 사용되는 클라우드 스토리지 서비스에 파일을 자동으로 암호화하고 동기화할 수 있습니다.
-
-
-</value>
-  </data>
-  <data name="IndustriesLegalDataSecutityContent1" xml:space="preserve">
-    <value>케이스 파일, 중요한 계약, 기밀 문서, 고객 기록 등과 같은 매우 중요한 법률 데이터를 한 번의 클릭으로 보호</value>
-  </data>
-  <data name="IndustriesLegalDataSecutityHeading" xml:space="preserve">
-    <value>&lt;br/&gt;&lt;span&gt;데이터 보안 모범 사례&lt;/span&gt;를 통해 법률 회사 활성화</value>
-  </data>
-  <data name="IndustriesLegalDataSecutitySubHeading1" xml:space="preserve">
-    <value>법률 파일 보호</value>
-  </data>
-  <data name="IndustriesLegalHeading" xml:space="preserve">
-    <value>깨지지 않는 AES-256으로 법률 데이터 보호</value>
-  </data>
-  <data name="IndustriesLegalHeading1" xml:space="preserve">
-    <value>암호화는 &lt;br/&gt;법적 데이터를 어떻게 보호합니까?</value>
-  </data>
-  <data name="IndustriesLegalHeading2" xml:space="preserve">
-    <value>AxCrypt로 &lt;br/&gt;법적 데이터를 보호하세요</value>
-  </data>
-  <data name="IndustriesLegalParagraph" xml:space="preserve">
-    <value>AxCrypt는 법률 부문을 위한 맞춤형 데이터 보호 솔루션을 제공하여 AES 256비트 암호화로 민감한 문서, 계약 및 클라이언트 통신의 보안을 보장합니다. 직관적인 인터페이스는 암호화를 단순화하여 데이터 침해 및 유출에 대한 보호를 강화합니다.</value>
-  </data>
-  <data name="IndustriesLegalTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;법적 데이터 보호: AES-256 암호화를 통한 보안 계약, 클라이언트 레코드,&lt;br/&gt;기밀 케이스 문서&lt;/span&gt; &lt;span class='img4'&gt; 및 기타 &lt;br/&gt;.&lt;/span&gt;&lt;span class='img5'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesLegalTrialInfo" xml:space="preserve">
-    <value>AxCrypt가 어떻게 법률 회사의 데이터를 보호할 수 있는지 알아보십시오. &lt;span&gt;14일 동안 무료로 사용해 보세요!&lt;span&gt;</value>
-  </data>
   <data name="IndustriesLinkLabel" xml:space="preserve">
-    <value>산업</value>
-  </data>
-  <data name="IndustriesStatistic1" xml:space="preserve">
-    <value>전세계 클라이언트</value>
-  </data>
-  <data name="IndustriesStatistic2" xml:space="preserve">
-    <value>PCMag 에디터의 선택</value>
-  </data>
-  <data name="IndustriesStatistic3" xml:space="preserve">
-    <value>사용자 다운로드
-</value>
-  </data>
-  <data name="IndustriesStatistic4" xml:space="preserve">
-    <value>언어들</value>
-  </data>
-  <data name="IndustriesTechBenefitsText" xml:space="preserve">
-    <value>오늘날 기술 및 IT 부문은 데이터 유출, 랜섬웨어 공격 및 사이버 위협 측면에서 가장 타겟이 되는 부문 중 하나입니다.&lt;br/&gt;&lt;br/&gt;IT 부문에서 랜섬웨어 공격은 2023년에 &lt;b&gt;47% 급증&lt;/b&gt;했습니다. 또한 &lt;b&gt;43%의 기업이&lt;/b&gt; 작년에 컴플라이언스 감사에 실패하여 데이터 유출에 10배 더 취약해졌습니다.&lt;br/&gt;&lt;br/&gt;이러한 경고적인 추세는 IT 부문에서 데이터 암호화의 중요성을 강조합니다. 휴면 데이터 암호화는 IT 파일을 무단 접근으로부터 항상 보호하는 보호막 역할을 합니다. 이는 민감한 데이터를 보호하고 GDPR, HIPAA, FIPS 등 규정을 준수하며 조직이 데이터 프라이버시 및 보안 조치를 제어할 수 있도록 합니다.</value>
-  </data>
-  <data name="IndustriesTechConfidentiality" xml:space="preserve">
-    <value>비즈니스 행정 업무를 보는 멤버가 모든 멤버의 파일을 회복하고, 멤버의 퇴사 혹은 비밀번호를 잃어버릴 시에도 보안 노출 위험을 줄일 수 있는 마스터 키를 사용해보세요.</value>
-  </data>
-  <data name="IndustriesTechContent1" xml:space="preserve">
-    <value>AES-256(Advanced Encryption Standard)을 사용한 파일 암호화는 NIST, IBM, Microsoft와 같은 유명 기관 및 조직에서 권장하는 보안 조치입니다. 파일 암호화는 조직의 민감한 IT 데이터에 강력한 보호 보호 기능을 제공합니다.&lt;br/&gt;&lt;br/&gt;파일의 암호 보호와 같은 대체 보안 방법과 달리 AES-256비트 암호화는 깨지지 않는 보안 조치를 제공합니다. 키 길이가 256이면 현재 사용 가능한 가장 강력한 슈퍼컴퓨터에서도 암호화된 파일을 깨는 것이 사실상 불가능합니다.&lt;br/&gt;&lt;br/&gt;암호화는 파일을 잠그는 대신 파일의 내용을 읽을 수 없고 스크램블된 텍스트로 변환합니다. AES와 같은 암호화 알고리즘을 사용하여 파일의 내용을 다시 정렬, 이동, 대체 및 혼합합니다. 알고리즘과 함께 사용되는 암호화 키는 이러한 변환의 정확한 순서를 지정하므로 암호화 프로세스를 취소하여 파일의 내용을 원래 상태로 복원할 수 있습니다.&lt;br/&gt;이 복잡한 프로세스는 중요한 파일을 항상 보호하며 키에 액세스할 수 있는 권한이 있는 사용자만 파일을 해독할 수 있습니다.</value>
-  </data>
-  <data name="IndustriesTechContent2" xml:space="preserve">
-    <value>AxCrypt의 수상 경력에 빛나는 Zero-Knowledge 파일 암호화 소프트웨어는 클릭 한 번으로 IT 데이터를 보호합니다. AES-256 비트 데이터 암호화 표준을 사용하여 중요한 소스 코드 및 프로젝트 파일, 비즈니스 및 재무 PDF, 민감한 클라이언트 통신 기록, 인적 자원 문서 등의 파일을 안전하게 보호할 수 있습니다. 폴더 내의 파일을 암호화하고 인기 있는 클라우드 스토리지 공급자와 동기화하는 자동 암호화 메커니즘을 만듭니다.&lt;br/&gt;&lt;br/&gt;AxCrypt는 2016년부터 2025년까지 9년 연속 &lt;b&gt;PCMag를 '최고의 암호화 소프트웨어'&lt;/b&gt;로 선택했습니다. Windows, Mac, iOS 및 Android에서 사용할 수 있으며, 파일을 자동으로 암호화하고 Google Drive, OneDrive 및 Dropbox와 같은 인기 있는 클라우드 스토리지 서비스에 동기화할 수 있습니다.</value>
-  </data>
-  <data name="IndustriesTechHeading" xml:space="preserve">
-    <value>AES 256비트 암호화를 통한 탁월한 데이터 보호</value>
-  </data>
-  <data name="IndustriesTechHeading1" xml:space="preserve">
-    <value>IT 데이터 보호를 위한 AES-256 파일 암호화</value>
-  </data>
-  <data name="IndustriesTechHeading2" xml:space="preserve">
-    <value>IT 데이터용 AxCrypt</value>
-  </data>
-  <data name="IndustriesTechParagraph" xml:space="preserve">
-    <value>사용하기 쉽고 직관적인 인터페이스를 통해 민감한 데이터를 암호화하고 유해한 데이터 침해 및 데이터 유출을 방지합니다. AxCrypt는 안전하고 간단하며 신뢰할 수 있고 협업적입니다.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesContent1" xml:space="preserve">
-    <value>클릭 한 번으로 클라이언트 레코드, 비즈니스 및 재무 문서, HR 파일 등과 같이 매우 중요한 IT 데이터를 보호합니다.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesContent2" xml:space="preserve">
-    <value>소프트웨어를 사용하여 GDPR, HIPAA, FIP 등과 같은 기술 조직의 데이터 규정을 쉽게 준수할 수 있습니다.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesContent3" xml:space="preserve">
-    <value>데스크톱 및 클라우드 스토리지 공급자의 파일을 자동으로 암호화하여 클릭 한 번으로 자동 데이터 보안 워크플로를 만듭니다.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesHeading" xml:space="preserve">
-    <value>&lt;span&gt;AxCrypt&lt;/span&gt;으로 IT 데이터에 대한 강력한 사용 사례</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesSubHeading1" xml:space="preserve">
-    <value>IT 데이터 보호</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesSubHeading2" xml:space="preserve">
-    <value>규정 준수</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesSubHeading3" xml:space="preserve">
-    <value>데이터 보안 자동화</value>
-  </data>
-  <data name="IndustriesTechTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;AES-256을 사용하여 기술 데이터를 위한 강력한 암호화. 민감한 클라이언트 기록, 소스 코드, 프로젝트 파일, 비즈니스 문서 등을 보호하세요.&lt;/span&gt;&lt;span class='img5'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesTechTrialInfo" xml:space="preserve">
-    <value>AxCrypt가 IT 조직의 데이터를 보호하는 방법을 알아보십시오.&lt;br/&gt; &lt;span&gt;14일 동안 무료로 사용해 보세요! &lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesTitle" xml:space="preserve">
     <value>산업</value>
   </data>
   <data name="InformationLinkLabel" xml:space="preserve">
@@ -24062,9 +23860,6 @@ AxCrypt 개인 정보 보호 정책을 참조하십시오.</value>
   <data name="InvalidSubFolder" xml:space="preserve">
     <value>선택한 폴더가 유효한 하위 폴더가 아닙니다.</value>
   </data>
-  <data name="InvalidVaultFolderErrorMessage" xml:space="preserve">
-    <value>현재 귀하의 금고 폴더는 사용할 수 없습니다. 이동되었거나 삭제되었을 수도 있습니다. 폴더 위치를 확인하시거나 다른 금고를 선택해 주세요.</value>
-  </data>
   <data name="InvalidVaultSetting" xml:space="preserve">
     <value>설정된 Vault 폴더 경로가 유효하지 않거나 접근 불가능합니다. 계속하려면 Vault 설정을 유효한 경로로 업데이트하세요.</value>
   </data>
@@ -24256,6 +24051,9 @@ EU VAT Number SE556967618101</value>
   </data>
   <data name="KeepCloudDataPrivatePopup" xml:space="preserve">
     <value>클라우드 데이터는 비공개로 유지하세요</value>
+  </data>
+  <data name="KeepFilePasswordForRemainingFilesText" xml:space="preserve">
+    <value>나머지 모든 파일의 비밀번호를 유지하세요</value>
   </data>
   <data name="KeepFolderStructurePopup" xml:space="preserve">
     <value>폴더 구조를 정리하세요</value>
@@ -25051,6 +24849,9 @@ AxCrypt 1.x 파일을 자동적으로 전환하시겠습니까 (추천)?</value>
   <data name="ManagementSuccess" xml:space="preserve">
     <value>사이트 메니지먼트 프로퍼티가 성공적으로 업데이트 되었습니다.</value>
   </data>
+  <data name="ManageRecoveryKeyText" xml:space="preserve">
+    <value>복구 키와 백업 접근 권한을 관리하세요</value>
+  </data>
   <data name="ManageSubscriptionResellerInfo" xml:space="preserve">
     <value>리셀러가 운영하는 계정입니다. 리셀러는 새로운 유저를 계정에 추가할 수 있으며 결제를 관리할 수 있습니다. 주의: 리셀러는 마스터 키를 저장하는 파일과 같은 암호화된 정보에 대한 권한은 없습니다.</value>
   </data>
@@ -25314,6 +25115,9 @@ AxCrypt 1.x 파일을 자동적으로 전환하시겠습니까 (추천)?</value>
   </data>
   <data name="MaximumNotExceedCharactersNotification" xml:space="preserve">
     <value>텍스트는 초과해서는 안 됩니다 {0} 캐릭터들.</value>
+  </data>
+  <data name="MaximumSharePeopleReachedText" xml:space="preserve">
+    <value>최대 {0} 사람들이 손에 닿았다.</value>
   </data>
   <data name="MaxUsersCountText" xml:space="preserve">
     <value>허용된 최대 사용자 수를 초과할 수 없습니다({0})</value>
@@ -27478,6 +27282,9 @@ AxCrypt 1.x 파일을 자동적으로 전환하시겠습니까 (추천)?</value>
   <data name="NoFilesFoundText" xml:space="preserve">
     <value>파일을 찾을 수 없습니다.</value>
   </data>
+  <data name="NoInternetAccessText" xml:space="preserve">
+    <value>인터넷 접속 불가, 인터넷 연결을 확인해 주세요.</value>
+  </data>
   <data name="NoInternetErrorMessage" xml:space="preserve">
     <value>서버를 접속할 수 없습니다. 인터넷 연결을 확인하십시오.</value>
     <comment>Message which is displayed when device doesn't have internet connection.</comment>
@@ -27496,6 +27303,9 @@ AxCrypt 1.x 파일을 자동적으로 전환하시겠습니까 (추천)?</value>
   </data>
   <data name="NoLogToExportText" xml:space="preserve">
     <value>내보낼 로그가 없습니다!</value>
+  </data>
+  <data name="NoMatchingUsersFoundText" xml:space="preserve">
+    <value>일치하는 사용자를 찾지 못했습니다</value>
   </data>
   <data name="NoMessagesFoundText" xml:space="preserve">
     <value>(메시지를 찾을 수 없습니다.)</value>
@@ -27639,6 +27449,9 @@ AxCrypt 1.x 파일을 자동적으로 전환하시겠습니까 (추천)?</value>
   </data>
   <data name="OnceText" xml:space="preserve">
     <value>한번</value>
+  </data>
+  <data name="OneDriveSessionExpiredText" xml:space="preserve">
+    <value>귀하의 One Drive 세션은 만료되었거나 더 이상 유효하지 않습니다. 다시 One Drive 계정에 로그인해 주세요.</value>
   </data>
   <data name="OneFreeMonthLabel" xml:space="preserve">
     <value>14일 자유</value>
@@ -28091,11 +27904,17 @@ AxCrypt 1.x 파일을 자동적으로 전환하시겠습니까 (추천)?</value>
   <data name="PasswordPolicyViolation" xml:space="preserve">
     <value>본 비밀번호는 허용되지 않습니다.</value>
   </data>
+  <data name="PasswordRequiredText" xml:space="preserve">
+    <value>비밀번호가 필요합니다</value>
+  </data>
   <data name="PasswordRequirementMinLength" xml:space="preserve">
     <value>8+ 캐릭터</value>
   </data>
   <data name="PasswordRequirementNumber" xml:space="preserve">
     <value>하나 이상의 숫자</value>
+  </data>
+  <data name="PasswordRequirementsText" xml:space="preserve">
+    <value>8+ 문자, 대문자와 소문자, 숫자와 기호.</value>
   </data>
   <data name="PasswordRequirementSymbol" xml:space="preserve">
     <value>적어도 하나의 상징</value>
@@ -28177,6 +27996,9 @@ AxCrypt 1.x 파일을 자동적으로 전환하시겠습니까 (추천)?</value>
   </data>
   <data name="PasswordSpecialCharacter" xml:space="preserve">
     <value>1개의 특수 문자 예를 들어</value>
+  </data>
+  <data name="PasswordStoredSecurelyText" xml:space="preserve">
+    <value>이 비밀번호는 모든 설정을 지우거나 앱을 삭제할 때까지 안전하게 저장되어 기억됩니다.</value>
   </data>
   <data name="PasswordStrengthBadName" xml:space="preserve">
     <value>약함</value>
@@ -28659,6 +28481,9 @@ AxCrypt 1.x 파일을 자동적으로 전환하시겠습니까 (추천)?</value>
   </data>
   <data name="PremiumSecondBodyText2" xml:space="preserve">
     <value>언제든지 구독 취소가 가능합니다. 무료 구독 서비스가 만료되기 전에 취소를 하시면 별도의 비용이 발생하지 않습니다. 무료 서비스는 단 한번만 체험이 가능합니다.</value>
+  </data>
+  <data name="PremiumShareLimitText" xml:space="preserve">
+    <value>프리미엄: 최대 2명과 함께 나누는</value>
   </data>
   <data name="PremiumSupportInfo" xml:space="preserve">
     <value>AxCrypt 지원에 오신 것을 환영합니다. 우리는 프리미엄 고객에게 우선 순위를 부여하고 이메일을 통해 개인적인 직접 지원을 제공합니다.</value>
@@ -30098,6 +29923,12 @@ HubSpot은 CRM 시스템을 통한 연락처 관리 등 온라인 마케팅 활�
   <data name="RecipientInputHint" xml:space="preserve">
     <value>각 수신자를 추가하려면 또는, 버튼을 누르 Enter 세요. 칩을 클릭하면 편집할 수 있습니다.</value>
   </data>
+  <data name="RecoveryAccessAlwaysEnabledText" xml:space="preserve">
+    <value>항상 활성화되어 있어서 파일 비밀번호를 잊어버렸을 때 파일을 복구할 수 있습니다.</value>
+  </data>
+  <data name="RecoveryOptionsText" xml:space="preserve">
+    <value>복구 옵션</value>
+  </data>
   <data name="RedHatDownloadLinkTooltip" xml:space="preserve">
     <value>Red Hat 시스템을 위한 안전하고 신뢰할 수 있는 파일 보호. RHEL 8 이후 에도 작동합니다.</value>
   </data>
@@ -30680,7 +30511,7 @@ HubSpot은 CRM 시스템을 통한 연락처 관리 등 온라인 마케팅 활�
     <value>마케팅</value>
   </data>
   <data name="ResellerHelpSupportBlock1ListItem1" xml:space="preserve">
-    <value>FAQ: &lt;a href='https://www.axcrypt.net/information/faq'&gt;https://www.axcrypt.net/information/faq&lt;/a&gt;</value>
+    <value>FAQ: &lt;a href='https://www.axcrypt.net/support/faq'&gt;https://www.axcrypt.net/support/faq&lt;/a&gt;</value>
   </data>
   <data name="ResellerHelpSupportBlock1ListItem2" xml:space="preserve">
     <value>비즈니스 구독:&lt;a href='https://www.axcrypt.net/information/axcrypt-business'&gt;https://www.axcrypt.net/information/axcrypt-business&lt;/a&gt;</value>
@@ -30830,6 +30661,9 @@ HubSpot은 CRM 시스템을 통한 연락처 관리 등 온라인 마케팅 활�
   </data>
   <data name="SaveCardsAndSecureNotesFeature" xml:space="preserve">
     <value>저장 카드와 메모 보관</value>
+  </data>
+  <data name="SavedToText" xml:space="preserve">
+    <value>저장된 곳:</value>
   </data>
   <data name="SaveSecretErrorIsReadOnly" xml:space="preserve">
     <value>유효한 구독 플랜 사용자분들께서만 암호 입력을 저장하실수 있습니다.</value>
@@ -31302,6 +31136,9 @@ HubSpot은 CRM 시스템을 통한 연락처 관리 등 온라인 마케팅 활�
   <data name="SecureEncryptedVaultPopup" xml:space="preserve">
     <value>보안 암호화 볼트</value>
   </data>
+  <data name="SecureFilesThreeWaysVideoTitle" xml:space="preserve">
+    <value>세 가지 쉬운 방법으로 안전한 파일</value>
+  </data>
   <data name="SecureFoldersAndCloudStorageSyncMessage" xml:space="preserve">
     <value>보안 폴더 및 클라우드 저장소 동기화</value>
   </data>
@@ -31582,6 +31419,9 @@ HubSpot은 CRM 시스템을 통한 연락처 관리 등 온라인 마케팅 활�
   <data name="SentText" xml:space="preserve">
     <value>전송됨</value>
   </data>
+  <data name="SeparateFromAccountPasswordText" xml:space="preserve">
+    <value>이 정보는 AxCrypt 계정 비밀번호와는 별개입니다. 파일을 열면 누구나 비밀번호를 요구할 것입니다.</value>
+  </data>
   <data name="ServerStatusLabel" xml:space="preserve">
     <value>서버 상태</value>
   </data>
@@ -31595,8 +31435,14 @@ HubSpot은 CRM 시스템을 통한 연락처 관리 등 온라인 마케팅 활�
     <value>이메일을 보냈습니다</value>
     <comment>Title of SetEmail step on SignUp page in mobile application</comment>
   </data>
+  <data name="SetFilePasswordText" xml:space="preserve">
+    <value>파일 비밀번호 설정</value>
+  </data>
   <data name="SetPasswordText" xml:space="preserve">
     <value>AxCrypt ID에 강력한 암호를 설정하거나 암호 제안 옵션을 선택하십시오.</value>
+  </data>
+  <data name="SetPasswordText1" xml:space="preserve">
+    <value>비밀번호 설정</value>
   </data>
   <data name="SettingDeleteUsrCnfrmText" xml:space="preserve">
     <value>정말 계정을 삭제하시겠습니까?</value>
@@ -31754,6 +31600,9 @@ HubSpot은 CRM 시스템을 통한 연락처 관리 등 온라인 마케팅 활�
   <data name="ShareWithOthersTitle" xml:space="preserve">
     <value>비밀번호에 쉽게 접근하기</value>
     <comment>Title of "Share With Others" slide on Onboarding screen in mobile application.</comment>
+  </data>
+  <data name="ShareWithPeopleText" xml:space="preserve">
+    <value>사람들과 나누기</value>
   </data>
   <data name="SharingCollaborationTitle" xml:space="preserve">
     <value>공유 및 협업</value>
@@ -32299,9 +32148,6 @@ HubSpot은 CRM 시스템을 통한 연락처 관리 등 온라인 마케팅 활�
   </data>
   <data name="TechnicalDetailsSourceCodeHeading" xml:space="preserve">
     <value>소스 코드</value>
-  </data>
-  <data name="TechnicalDetailsSourceCodeText" xml:space="preserve">
-    <value>핵심 라이브러리와 Windows 클라이언트의 전체 소스 코드는 이전에 Bitbucket의 mercurial 저장소에 있었습니다. 그러나 2020년 여름부터 Bitbucket이 mercurial 지원을 중단함에 따라 소스 코드를 쉽게 제공할 수 있는 대체 솔루션을 적극적으로 찾고 있습니다. 현재는 support@axcrypt.net으로 문의하시면 소스 코드를 제공해 드리겠습니다.</value>
   </data>
   <data name="TechnicalDetailsStoredOnServerHeading" xml:space="preserve">
     <value>서버에 무엇이 저장되어 있나요?</value>
@@ -33246,6 +33092,9 @@ AxCrypt 팀</value>
   <data name="UpgradeText" xml:space="preserve">
     <value>치받이</value>
   </data>
+  <data name="UpgradeToAutoShareText" xml:space="preserve">
+    <value>프리미엄 또는 비즈니스로 업그레이드하면 암호화된 파일을 원하는 사람과 자동 공유할 수 있습니다.</value>
+  </data>
   <data name="UpgradeToUnlockEncryptionText" xml:space="preserve">
     <value>업그레이드해서 암호화와 더 많은 기능을 잠금 해제하세요!</value>
   </data>
@@ -33503,9 +33352,6 @@ AxCrypt 팀</value>
   </data>
   <data name="VaultFolderNotConfiguredMessage" xml:space="preserve">
     <value>어떤 폴더도 Vault로 설정된 적이 없습니다. Vault 폴더를 설정하고 다시 시도해 주세요.</value>
-  </data>
-  <data name="VaultFolderUnavailableMessage" xml:space="preserve">
-    <value>현재 귀하의 금고 폴더는 사용할 수 없습니다. 이동되었거나 삭제되었을 수도 있습니다. 폴더 위치를 확인하시거나 다른 금고를 선택해 주세요.</value>
   </data>
   <data name="VaultGuideCarouselText1" xml:space="preserve">
     <value>Vault를 설정하려면 설정 → 고급 설정→ Vault 설정으로 이동해 주세요.</value>

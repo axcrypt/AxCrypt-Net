@@ -18977,9 +18977,6 @@ Yollarımızın ayrılmasına üzülsek de AxCrypt'te geçirdiğin zamandan keyi
   <data name="DownloadOtherDownloadsTitle" xml:space="preserve">
     <value>Diğer İndirmeler</value>
   </data>
-  <data name="DownloadOtherSourceCodeSubtitle" xml:space="preserve">
-    <value>Teknik detaylar</value>
-  </data>
   <data name="DownloadOtherSourceCodeTitle" xml:space="preserve">
     <value>Kaynak Kodu</value>
   </data>
@@ -21541,6 +21538,9 @@ href='https://account.axcrypt.net/en/Home/Login'&gt;AxCrypt ID'm&lt;/a&gt; adres
   <data name="FooterDownloadiOSText" xml:space="preserve">
     <value>iOS</value>
   </data>
+  <data name="FooterDownloadLinuxText" xml:space="preserve">
+    <value>Linux</value>
+  </data>
   <data name="FooterDownloadMacText" xml:space="preserve">
     <value>Mac</value>
   </data>
@@ -22236,7 +22236,7 @@ Lütfen &lt;a href="{0}"&gt;topluluk desteğimizi&lt;/a&gt; ziyaret edin.</value
     <value>İndirdiğiniz dosyanın hasarsız ve orijinal olduğundan emin olmak için dijital imzasını kontrol edin. Windows Explorer'da indirdiğiniz dosyaya sağ tıklayın, "Özellikler" kısmında "Dijital İmzalar" sekmesine gidin. Daha sonra dijital imzayı seçin ve "Ayrıntılar" seçeneğine tıklayın. Dijital imzanın "Sorunsuz" ve imzalayanın "AxCrypt AB" olduğundan emin olun.</value>
   </data>
   <data name="GetStartedInfoNote2Text1" xml:space="preserve">
-    <value>Acil bir sorununuz veya sorunuz varsa &lt;a href='/information/faq'&gt;sık sorulan sorular&lt;/a&gt; sayfamızı ziyaret edin.</value>
+    <value>Acil bir sorununuz veya sorunuz varsa &lt;a href='/support/faq'&gt;sık sorulan sorular&lt;/a&gt; sayfamızı ziyaret edin.</value>
   </data>
   <data name="GetStartedInfoNote2Text2" xml:space="preserve">
     <value>Lütfen hata ve yorumlarınızı bize bildirin. Destek talebinde de bulunabilirsiniz. Diğer konular için lütfen &lt;a href='mailto:support@axcrypt.net'&gt;send us an email&lt;/a&gt;.</value>
@@ -22709,6 +22709,21 @@ Lütfen &lt;a href="{0}"&gt;topluluk desteğimizi&lt;/a&gt; ziyaret edin.</value
     <value>Grup
 </value>
   </data>
+  <data name="GuideBeforeYouBeginTitle" xml:space="preserve">
+    <value>Başlamadan önce</value>
+  </data>
+  <data name="GuideContactSupportTeam" xml:space="preserve">
+    <value>Destek ekibimizle iletişime geçin</value>
+  </data>
+  <data name="GuideHelpfulNo" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="GuideHelpfulYes" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="GuideOnThisGuideTitle" xml:space="preserve">
+    <value>Bu rehberde</value>
+  </data>
   <data name="GuidesGetStartedLinkLabelWithPlatform" xml:space="preserve">
     <value>Başla</value>
   </data>
@@ -22729,6 +22744,9 @@ Lütfen &lt;a href="{0}"&gt;topluluk desteğimizi&lt;/a&gt; ziyaret edin.</value
   </data>
   <data name="GuidesLinkQuoteLabel6" xml:space="preserve">
     <value>Şifreleme ve Şifre Çözme</value>
+  </data>
+  <data name="GuideWasHelpfulTitle" xml:space="preserve">
+    <value>Bu makale faydalı oldu mu?</value>
   </data>
   <data name="HaveAccountInfo" xml:space="preserve">
     <value>Harika! '{0}' için zaten bir AxCrypt kimliğine sahipsin. 
@@ -22880,6 +22898,9 @@ Herhangi bir nedenden dolayı şifreni bilmiyor veya hatırlamıyorsan bir şifr
   <data name="HelpCenterGuideSummarySecuredMessenger" xml:space="preserve">
     <value>Korunan mesajları güvenli şekilde gönderin.</value>
   </data>
+  <data name="HelpCenterGuideSummarySecureFilesThreeWaysVideo" xml:space="preserve">
+    <value>AxCrypt'te dosyaları korumanın üç basit yolunu öğrenin.</value>
+  </data>
   <data name="HelpCenterGuideSummarySecurity" xml:space="preserve">
     <value>Şifreleme ve güvenlik uygulamalarını gözden geçirin.</value>
   </data>
@@ -22927,6 +22948,12 @@ Herhangi bir nedenden dolayı şifreni bilmiyor veya hatırlamıyorsan bir şifr
   </data>
   <data name="HelpCenterLabel" xml:space="preserve">
     <value>Yardım Merkezi</value>
+  </data>
+  <data name="HelpCenterMetaDescription" xml:space="preserve">
+    <value>AxCrypt Yardım Merkezi'nde AxCrypt rehberlerini, cevaplarını, özellik yardımını, güvenli dosya şifreleme eğitimlerini ve destek kaynaklarını bulun.</value>
+  </data>
+  <data name="HelpCenterMetaTitle" xml:space="preserve">
+    <value>AxCrypt Yardım Merkezi | Rehberler, SSS ve Destek</value>
   </data>
   <data name="HelpCenterNeedHelpDescription" xml:space="preserve">
     <value>Sizin için en uygun destek seçeneğini seçin.</value>
@@ -23543,310 +23570,7 @@ Bu bazı işlemlerin çok uzun sürmesine yol açabilir. Lütfen aşağıda şif
   <data name="IndustriesAboutLinkLabel" xml:space="preserve">
     <value>Endüstriler Hakkında</value>
   </data>
-  <data name="IndustriesBenefitsText0" xml:space="preserve">
-    <value>AxCrypt, verileri cihazlar arasında şifrelemek ve korumak için en güçlü şifreleme standardı olan AES 256-Bit algoritmasını kullanır. Parola yöneticisi, bulut depolama entegrasyonu ve master anahtar gibi kullanıcı dostu ve verimli şifreleme araçlarıyla AxCrypt; finans, sağlık, hukuk ve kamu gibi birçok sektörde güvenilir bir çözüm haline gelmiştir.&lt;br /&gt; &lt;br /&gt;AxCrypt’in şifreleme teknolojisi, yalnızca yetkili kişilerin gizli dosyalara erişebilmesini sağlayarak hassas verileri siber tehditlerden ve veri ihlallerinden korur. Ayrıca, AxCrypt’in esnek dağıtım seçenekleri ve güçlü yönetim özellikleri, işletmelerin şifreleme ihtiyaçlarını düzenleyici uyumluluk gerekliliklerini karşılayacak şekilde ölçeklendirmesine ve verilerinin her zaman güvende olmasına olanak tanır.</value>
-  </data>
-  <data name="IndustriesBenefitsTitle" xml:space="preserve">
-    <value>Axcrypt kullanmanın faydaları</value>
-  </data>
-  <data name="IndustriesBlogLabel" xml:space="preserve">
-    <value>Şifrelemede yeni misiniz? En son haberler için blogumuza göz atın.</value>
-  </data>
-  <data name="IndustriesDomainHeading" xml:space="preserve">
-    <value>&lt;span&gt;AxCrypt&lt;/span&gt; Sektörler ve Alanlar Boyunca Güvenilir</value>
-  </data>
-  <data name="IndustriesEducationContent1" xml:space="preserve">
-    <value>NIST, IBM ve Microsoft gibi tanınmış kurum ve kuruluşlar tarafından önerilen veri ve dosya şifreleme, veri ihlallerine ve siber saldırılara karşı ilk savunma hattı görevi görür. Veri şifreleme, eğitim sektöründe veri güvenliğini ve gizliliğini artırmada kritik bir rol oynar.&lt;br/&gt;&lt;br/&gt; AES gibi bir şifreleme algoritması kullanan şifreleme mekanizması, esasen herhangi bir dosyanın içeriğini okunamaz ve çözülemez bir biçime dönüştürerek yetkisiz kullanıcılar tarafından erişilemez hale getirir. Yalnızca şifre çözme anahtarına erişimi olan yetkili kişiler şifreleme işlemini tersine çevirebilir ve dosyanın içeriğine erişebilir.</value>
-  </data>
-  <data name="IndustriesEducationContent2" xml:space="preserve">
-    <value>AxCrypt, AES-256 algoritmasını kullanarak üniversitelerinizin, kolejlerinizin ve okullarınızın hassas bilgilerini koruyan ödüllü bir dosya şifreleme yazılımıdır! Eğitim kurumları, öğrenci kayıtlarını, finansal bilgileri ve araştırma belgelerini şifrelemek ve korumak için AxCrypt'i kullanabilir.&lt;br/&gt;&lt;br/&gt; AxCrypt, bu bilgilerin şifreli kalmasını ve yetkisiz kişiler tarafından erişilememesini sağlayarak öğrenci gizliliğini korur ve veri ihlallerinden korur.&lt;br/&gt;&lt;br/&gt; AxCrypt, dünya çapında tanınmış üniversiteler ve akademik kurumlar tarafından güvenilmekte ve sağlam veri şifreleme için tercih edilen seçenek olarak şiddetle tavsiye edilmektedir.</value>
-  </data>
-  <data name="IndustriesEducationHeading" xml:space="preserve">
-    <value>Özgün denemeler, makaleler, raporlar, tezler ve araştırmaları güvence altına alın.</value>
-  </data>
-  <data name="IndustriesEducationHeading1" xml:space="preserve">
-    <value>&lt;span&gt;Siber saldırılara&lt;/span&gt; karşı bir kalkan olarak veri şifreleme</value>
-  </data>
-  <data name="IndustriesEducationHeading2" xml:space="preserve">
-    <value>Üniversiteniz, kolejiniz ve okulunuz için AxCrypt</value>
-  </data>
-  <data name="IndustriesEducationParagraph" xml:space="preserve">
-    <value>Dosyalarınızı maliyetli veri ihlallerinden korurken tüm belgelerinize erişin ve cihazlarınızda senkronize edin.</value>
-  </data>
-  <data name="IndustriesFinancialBenefitsText" xml:space="preserve">
-    <value>Günümüzde finansal hizmet sektörü her zamankinden daha dijital ve veri açısından yoğun. İnsanlar telefonlarını ve bilgisayarlarını ödeme yapmak, yatırım yapmak ve mali durumlarını yönetmek için cüzdanlarından ve defterlerinden daha fazla kullanıyorlar. İnternet bankacılığı, geleneksel olarak bir bankada fiziksel olarak gerçekleştirilen işlemlerin çoğunun yerini almıştır. &lt;br/&gt;&lt;br/&gt;Kullanıcılar tarafından her gün üretilen finans verilerinin hacmindeki bu hızlı artış, aynı zamanda siber saldırılara ve veri ihlallerine karşı oldukça savunmasız hale getiriyor. Finansal hizmet sektöründeki veri ihlalleri, ortalama 5,72 milyon dolara mal olan &lt;b&gt;en pahalı ikinci&lt;/b&gt; sektördür. Küçük ve orta ölçekli işletmeler (KOBİ'ler), &lt;b&gt;tüm veri ihlallerinin %42'sini&lt;/b&gt; oluşturdukları ve &lt;b&gt;KOBİ'lerin %60'ı&lt;/b&gt; bir ihlalden sonraki 6 ay içinde kapandığı için veri ihlallerinden en kötü etkilenenlerdir. Şifreleme, finansal verilerinizi her zaman koruyabilen proaktif bir yaklaşımdır.</value>
-  </data>
-  <data name="IndustriesFinancialContent1" xml:space="preserve">
-    <value>Finansal verileriniz için şifreleme, NIST, IBM ve Microsoft gibi tanınmış kurum ve kuruluşlar tarafından önerilen siber saldırılara ve veri ihlallerine karşı ilk savunma hattı görevi görür. Şifreleme işlemi sırasında, dosyaların içeriği şifreleme algoritmaları ve kriptografik anahtarlar kullanılarak okunamaz ve çözülemez bir biçime dönüştürülür.&lt;br/&gt;&lt;br/&gt;Dosyaların içeriğinin dönüştürülmesi, yalnızca şifreleme anahtarlarına erişimi olan yetkili kullanıcıların şifrelenmiş dosyaların şifresini çözebilmesini ve bunlara erişebilmesini sağlar. Şifrelenmiş dosyalar, belirli şifre çözme anahtarları olmadan bir veri ihlali sırasında siber saldırganların elinde de işe yaramaz.</value>
-  </data>
-  <data name="IndustriesFinancialContent2" xml:space="preserve">
-    <value>&lt;b&gt;AxCrypt&lt;/b&gt; , AES-256 algoritmasını kullanarak hassas finansal verileri ve dosyaları koruyan ödüllü bir dosya şifreleme yazılımıdır. &lt;b&gt;İşlem kayıtlarını, müşteri bilgilerini, finansal belgeleri&lt;/b&gt; ve daha fazlasını şifrelemek ve korumak için AxCrypt'i kullanın. AxCrypt, verilerinizin her zaman şifreli kalmasını ve &lt;b&gt;yetkisiz&lt;/b&gt; kişiler tarafından erişilememesini sağlayarak kurumunuzun &lt;b&gt;gizliliğini&lt;/b&gt; korur ve siber saldırılara ve ihlallere karşı korur. &lt;br/&gt;&lt;br/&gt;AxCrypt, &lt;b&gt;PCMag tarafından altı yıl üst üste 'En İyi Şifreleme Yazılımı'&lt;/b&gt; ödülüne layık görülmüştür. AxCrypt Windows, MacOS, iOS ve Android için kullanılabilir ve dosyaları otomatik olarak şifreleyebilir ve Google Drive, OneDrive ve Dropbox gibi popüler bulut depolama hizmetleriyle senkronize edebilir.</value>
-  </data>
-  <data name="IndustriesFinancialHeading" xml:space="preserve">
-    <value>Her İşlemde Hassas Finansal Verilerinizi Koruyun</value>
-  </data>
-  <data name="IndustriesFinancialHeading1" xml:space="preserve">
-    <value>Şifreleme, Finansal Verilerinizi Proaktif Olarak Korur</value>
-  </data>
-  <data name="IndustriesFinancialHeading2" xml:space="preserve">
-    <value>AxCrypt ile Bankacılık, Finansal Hizmetler ve Sigorta için Veri Güvenliği</value>
-  </data>
-  <data name="IndustriesFinancialParagraph" xml:space="preserve">
-    <value>Çok hassas finansal belgeleri ve beyanları güvence altına alın. Erişimi kontrol edin ve kimlerin neyi göreceğini seçin.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesContent1" xml:space="preserve">
-    <value>Bilançolar, gelir tabloları, vergi beyannameleri vb. gibi son derece hassas ve gizli finansal belgeleri güvence altına alın.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesContent2" xml:space="preserve">
-    <value>Kişi tanımlayabilir bilgiler, işlem kayıtları, vergi beyannameleri vb. dahil olmak üzere önemli ve hassas özel bilgilerin güvenliğini sağlayın.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesContent3" xml:space="preserve">
-    <value>Masaüstü bilgisayarlarda ve bulut depolama sağlayıcılarında dosyaların otomatik olarak şifrelenmesini sağlayarak tek tıklamayla otomatik veri güvenliği iş akışları oluşturun.</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesHeading" xml:space="preserve">
-    <value>&lt;span&gt;AxCrypt&lt;/span&gt; ile Güçlü Kullanım Alanları</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesSubHeading1" xml:space="preserve">
-    <value>Gizli Verileri Koruyun</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesSubHeading2" xml:space="preserve">
-    <value>Müşteri Bilgilerini Koruyun</value>
-  </data>
-  <data name="IndustriesFinancialPowerfulUseCasesSubHeading3" xml:space="preserve">
-    <value>Güvenlik Otomasyonu</value>
-  </data>
-  <data name="IndustriesFinancialTitleText" xml:space="preserve">
-    <value>&lt;span class='img2'&gt;Finansal verileriniz için&lt;/span&gt; &lt;span class='img1'&gt;sağlam güvenlik&lt;/span&gt;.&lt;span class='img3'&gt;&lt;br/&gt;Finansal belgeleri&lt;/span&gt;,&lt;span class='img4'&gt;&lt;br/&gt;Müşteri Bilgilerini&lt;/span&gt;, &lt;span class='img5'&gt;&lt;br/&gt;ve dahasını koruyun.&lt;/span&gt; &lt;span class='img6'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesFinancialTrialInfo" xml:space="preserve">
-    <value>AxCrypt'in kuruluşunuzun verilerini nasıl güvence altına alabileceğini hemen öğrenin. &lt;span&gt;14 Gün boyunca ücretsiz deneyin! &lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesFreeTrialText0" xml:space="preserve">
-    <value>AxCrypt'in kurumunuzun verilerini nasıl güvence altına alabileceğini bugün görün. &lt;span&gt; Try it for free for 14 Days! &lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesGovernmentBenefitsText" xml:space="preserve">
-    <value>Günümüz yapay zeka çağında, tüm dünyadaki devletler, hassas bilgiler, kamu güvenliği ve ulusal güvenlik için önemli riskler oluşturan ve artış halindeki siber güvenlik tehditleriyle karşı karşıyadır. &lt;br/&gt;&lt;br/&gt;2020'deki SolarWinds siber saldırısı gibi son olaylar, hassas devlet verilerini yetkisiz erişim ve istismardan korumak için sağlam şifreleme önlemlerine duyulan zorunlu ihtiyacın altını çizmektedir.&lt;br/&gt;&lt;br/&gt;Şifreleme, siber tehditlere karşı devlet savunmasını güçlendirmede, gizli belgelerin, kamuya açık kayıtların ve hassas iletişimlerin bütünlüğünü ve gizliliğini sağlamada kritik bir araçtır.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesContent1" xml:space="preserve">
-    <value>Hassas raporlar, gizli belgeler, kamu kayıtları gibi son derece hassas devlet verilerini ve çok daha fazlasını tek bir tıkla koruma.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesContent2" xml:space="preserve">
-    <value>AxCrypt'in AES-256 bit dosya şifrelemesi, GDPR, HIPAA ve FIP gibi çeşitli veri düzenlemeleriyle uyumludur.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesContent3" xml:space="preserve">
-    <value>AxCrypt, masaüstlerinde ve bulut depolama sağlayıcılarında dosyaların otomatik olarak şifrelenmesini sağlayarak tek tıklamalı otomatik veri güvenliği iş akışları oluşturur.</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesHeading" xml:space="preserve">
-    <value>Devlet Kurumlarını &lt;span&gt;En İyi Veri Güvenliği Uygulamaları ile Güçlendirme&lt;span&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesSubHeading1" xml:space="preserve">
-    <value>Gizli Dosya Koruması</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesSubHeading2" xml:space="preserve">
-    <value>Mevzuata Uygunluk</value>
-  </data>
-  <data name="IndustriesGovernmentBestPracticesSubHeading3" xml:space="preserve">
-    <value>Veri Güvenliği Otomasyonu</value>
-  </data>
-  <data name="IndustriesGovernmentContent1" xml:space="preserve">
-    <value>Şifreleme, yalnızca bir dosyayı kilitlemek yerine, bir dosyanın içeriğini okunamayan ve deşifre edilemeyen bir biçime dönüştürür. AES gibi bir şifreleme algoritması kullanarak, bir dosyanın içeriğini yeniden düzenler, kaydırır, değiştirir ve karıştırır. Algoritma ile kullanılan şifreleme anahtarları, bu dönüşümlerin kesin sırasını belirleyerek, bir dosyanın içeriğini orijinal durumuna geri döndürmek için şifreleme işleminin (şifre çözme) tersine çevrilmesine izin verir. &lt;br/&gt;Dosyalar için parola koruması gibi alternatif güvenlik yöntemlerinin aksine, AES-256 ile dosya şifreleme, kırılmaz bir güvenlik önlemi sağlar. 256 anahtar uzunluğuyla, günümüzde mevcut olan en güçlü süper bilgisayarlarla bile şifrelenmiş bir dosyayı kırmak neredeyse imkansız hale gelir. &lt;br/&gt;&lt;br/&gt;Bu karmaşık işlem, hassas dosyaların her zaman korunmasını sağlar ve yalnızca anahtarlara erişimi olan yetkili kullanıcılar dosyaların şifresini çözebilir.</value>
-  </data>
-  <data name="IndustriesGovernmentContent2" xml:space="preserve">
-    <value>AxCrypt'in ödüllü ve Sıfır Bilgi dosya şifreleme yazılımı, devlet verilerini tek bir tıklamayla korur. Önemli devlet belgeleri, kamu kayıtları, gizli raporlar, gizli dosyalar gibi dosyaları ve daha fazlasını AES-256 bit veri şifreleme standardı ile koruyun. Bir klasördeki dosyaları şifrelemek ve bunları popüler bulut depolama sağlayıcılarıyla senkronize etmek için otomatik şifreleme mekanizmaları oluşturun.&lt;br/&gt;&lt;br/&gt;AxCrypt, 2025 yılının 'En İyi Şifreleme Yazılımı' olarak PCMag'in 1 numaralı tercihidir. 2016'dan 2025'e kadar art arda dokuz yıl boyunca 1 numara olmuştur. Windows, Mac, iOS ve Android için kullanılabilir ve dosyaları otomatik olarak şifreleyebilir ve Google Drive, OneDrive ve Dropbox gibi popüler bulut depolama hizmetleriyle senkronize edebilir.</value>
-  </data>
-  <data name="IndustriesGovernmentHeading" xml:space="preserve">
-    <value>Uyumluluğu Sağlayın ve Dosyalarınızı Mevzuatlarla Uyumlu Hale Getirin</value>
-  </data>
-  <data name="IndustriesGovernmentHeading1" xml:space="preserve">
-    <value>Şifreleme Devlet Verilerini Nasıl Korur?</value>
-  </data>
-  <data name="IndustriesGovernmentHeading2" xml:space="preserve">
-    <value>AxCrypt ile Devlet Verilerini Koruyun</value>
-  </data>
-  <data name="IndustriesGovernmentParagraph" xml:space="preserve">
-    <value>AxCrypt, devlet kurumlarının ve işletmelerin uyumluluk düzenlemelerini karşılamasına ve hassas verileri güçlü şifreleme aracıyla korumasına yardımcı olur. Tüm cihazlarda güvenli ve uyumlu kalmak artık çok kolay.</value>
-  </data>
-  <data name="IndustriesGovernmentTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;Güçlü şifreleme ile devlet verilerinin&lt;br/&gt; AES-256 ile korunması. Devlet&lt;/span&gt;&lt;span class='img4'&gt; belgeleri,&lt;br/&gt; gizli raporlar ve daha fazlasının güvenliğini sağlayın.&lt;/span&gt;&lt;span class='img5'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesGovernmentTrialInfo" xml:space="preserve">
-    <value>AxCrypt'in devlet kurumunuzun verilerini nasıl koruyabileceğini hemen öğrenin. &lt;span&gt;14 Gün boyunca ücretsiz deneyin!&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHeadingCloud" xml:space="preserve">
-    <value>Bulut depolama farkındalığı ve parola yönetimi</value>
-  </data>
-  <data name="IndustriesHeadingConfidentiality" xml:space="preserve">
-    <value>Gizlilik ve dürüstlük</value>
-  </data>
-  <data name="IndustriesHeadingProtection" xml:space="preserve">
-    <value>Veri koruma yönetmeliğine uygun</value>
-  </data>
-  <data name="IndustriesHeadingSecurity" xml:space="preserve">
-    <value>Güvenlik, güvenilirlik ve basitlik</value>
-  </data>
-  <data name="IndustriesHeadingTeamwork" xml:space="preserve">
-    <value>Ekip çalışması, işbirliği</value>
-  </data>
-  <data name="IndustriesHealthcareBenefitsText" xml:space="preserve">
-    <value>Sağlık sektörü, her gün üretilen hassas verilerin hacminde giderek katlanan bir artış görüyor. Hastanın ayrıntılarından Elektronik Sağlık Kayıtlarına (EHR) kadar, sağlık hizmeti sağlayıcılarının koruması gereken çok şey var. &lt;b&gt;Dünyadaki veri hacminin yaklaşık %30'u&lt;/b&gt; sağlık sektörü tarafından üretiliyor ve bu sayının yakın gelecekte muazzam bir şekilde artması bekleniyor.&lt;br/&gt;&lt;br/&gt;Sağlık verilerindeki bu katlanan artış, onu yıkıcı siber saldırılara ve veri ihlallerine karşı da oldukça savunmasız hale getiriyor. Sağlık hizmetleri, ortalama 11 milyon dolara mal olan tüm sektörler &lt;b&gt;arasında bir veri ihlali için en yüksek maliyete&lt;/b&gt; sahip ve 2022'de &lt;b&gt;en çok saldırıya uğrayan üçüncü&lt;/b&gt; sektör oldu. Bu endişe verici istatistiklerle, sağlık hizmeti sağlayıcılarının, özellikle beklemedeki veriler söz konusu olduğunda, veri güvenliğine öncelik vermeleri kritik önem kazanıyor. Neyse ki, hassas sağlık verileri için şifreleme adı verilen güçlü ve oldukça etkili bir önlem var. Dosya şifreleme, bir dosyayı içeriğini dönüştürerek korur, yetkisiz kullanıcılar tarafından okunamaz ve deşifre edilemez hale getirir.</value>
-  </data>
-  <data name="IndustriesHealthcareContent1" xml:space="preserve">
-    <value>Dosya şifreleme, hassas sağlık verileriniz için güçlü bir koruyucu kalkan oluşturarak siber saldırılara ve veri ihlallerine karşı koruma sağlar. NIST, IBM ve Microsoft gibi tanınmış kurum ve kuruluşlar tarafından önerilen bir önlemdir. Şifreleme işlemi sırasında, sağlık dosyalarının içeriği, şifreleme algoritmaları ve kriptografik anahtarlar kullanılarak okunamaz ve çözülemez bir biçime dönüştürülür.&lt;br/&gt;&lt;br/&gt;Dosyaların içeriğinin dönüştürülmesi, yalnızca şifreleme anahtarlarına erişimi olan yetkili kullanıcıların şifrelenmiş dosyaların şifresini çözebilmesini ve bunlara erişebilmesini sağlar. Şifrelenmiş dosyalar, belirli şifre çözme anahtarları olmadan bir veri ihlali sırasında siber saldırganların elinde de işe yaramaz hale gelir.</value>
-  </data>
-  <data name="IndustriesHealthcareContent2" xml:space="preserve">
-    <value>&lt;b&gt;AxCrypt&lt;/b&gt;, AES-256 algoritmasını kullanarak hassas sağlık dosyalarınızı koruyan ödüllü bir dosya şifreleme yazılımıdır. &lt;b&gt;Hasta bilgilerini, Elektronik Sağlık Kayıtlarını, sigorta ayrıntılarını&lt;/b&gt; ve daha fazlasını korur. AxCrypt, başkalarıyla paylaşsan bile verilerinin şifreli kalmasını ve &lt;b&gt;yetkisiz kişiler tarafından&lt;/b&gt; her zaman erişilememesini sağlayarak sağlık kuruluşunun &lt;b&gt;gizliliğini&lt;/b&gt; korur ve siber saldırılara ve ihlallere karşı korur. Ayrıca Sağlık Sigortası Taşınabilirlik ve Sorumluluk Yasası ile kolayca uyum sağlamanıza yardımcı olur.&lt;br/&gt;&lt;br/&gt;AxCrypt, 2016'dan 2025'e kadar dokuz yıl üst üste &lt;b&gt;PCMag&lt;/b&gt; tarafından 'En İyi Şifreleme Yazılımı' ödülüne layık görüldü. Windows, Mac, iOS ve Android için kullanılabilir ve dosyaları otomatik olarak şifreleyebilir ve Google Drive, OneDrive ve Dropbox gibi popüler bulut depolama hizmetleriyle senkronize edilebilir.</value>
-  </data>
-  <data name="IndustriesHealthcareHeading" xml:space="preserve">
-    <value>Hassas Sağlık Kayıtlarını ve Hayati Tıbbi Belgeleri Güvence Altına Alın.</value>
-  </data>
-  <data name="IndustriesHealthcareHeading1" xml:space="preserve">
-    <value>Dosya Şifreleme, Sağlık Verilerini Proaktif Olarak Korur</value>
-  </data>
-  <data name="IndustriesHealthcareHeading2" xml:space="preserve">
-    <value>Sağlık Verileriniz için AxCrypt</value>
-  </data>
-  <data name="IndustriesHealthcareParagraph" xml:space="preserve">
-    <value>AxCrypt, sağlık profesyonellerinin hassas hasta verilerini güvence altına almasına yardımcı olur; gizliliği sağlar ve HIPAA düzenlemeleriyle uyumluluğu temin eder. Tüm cihazlarda hasta bilgilerini kolayca koruyun.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesContent1" xml:space="preserve">
-    <value>Son derece hassas Elektronik Sağlık Kayıtlarını (EHR) ve diğer tıbbi dosyaları kırılmaz şifreleme ile koruyun.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesContent2" xml:space="preserve">
-    <value>Bekleyen tüm sağlık hizmeti verilerini AES-256 ile şifrelenmiş halde tutarak Sağlık Sigortası Taşınabilirlik ve Sorumluluk Yasası ve KVKK'ya kolayca uyum sağlayın.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesContent3" xml:space="preserve">
-    <value>Masaüstü bilgisayarlarda ve bulut depolama sağlayıcılarında dosyaların otomatik olarak şifrelenmesini sağlayarak tek tıklamayla otomatik veri güvenliği iş akışları oluşturun.</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesSubHeading1" xml:space="preserve">
-    <value>Elektronik Sağlık Kayıtları Verilerini Koruyun</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesSubHeading2" xml:space="preserve">
-    <value>Sağlık Sigortası Taşınabilirlik ve Sorumluluk Yasası ile Uyumlu Hale Gelin</value>
-  </data>
-  <data name="IndustriesHealthcarePowerfulUseCasesSubHeading3" xml:space="preserve">
-    <value>Güvenlik Otomasyonu</value>
-  </data>
-  <data name="IndustriesHealthcareTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;Hasta kayıtlarını,&lt;/span&gt; sağlık verilerini, EHR'yi koruyun,&lt;span class='img3'&gt;&lt;br/&gt;ve ödüllü&lt;/span&gt;&lt;span class='img4'&gt;Şifreleme&lt;br/&gt; Yazılımını kullanarak HIPAA'ya uyum sağlayın&lt;/span&gt;&lt;span class='img5'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHealthcareTrialInfo" xml:space="preserve">
-    <value>AxCrypt'in sağlık kuruluşunun verilerini nasıl koruma altına alabileceğini hemen öğrenin. &lt;span&gt;14 Gün boyunca ücretsiz deneyin!&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesHeroButton" xml:space="preserve">
-    <value>AxCrypt Business'ı keşfedin</value>
-  </data>
-  <data name="IndustriesHeroText0" xml:space="preserve">
-    <value>&lt;span&gt;encryption&lt;/span&gt; deneyimi için &lt;span style=\"font-family: auto; font-style:italic; color:#494949;\"&gt;superior&lt;/span&gt; &lt;span&gt;cyber security&lt;/span&gt; ortamını yeniden tanımlamak</value>
-  </data>
-  <data name="IndustriesHeroText1" xml:space="preserve">
-    <value>İnsanların iletişim ve çalışma şeklini değiştiriyoruz. 256 bit şifrelememizle AxCrypt, kullanıcı dostu ve kullanımı kolay şifreleme yazılımı uygulayarak ve gizliliği ve bütünlüğü koruyarak veri güvenliğini artırır ve ihlal risklerini azaltır. Üretkenliğinizi artırın ve çevrimiçi gizliliğinizi merak etmeyi bırakın. Verilerinizin tam kontrolünü geri alın ve dijital güveni yaşayın. Şifreleme ve ilgili konuları merak ediyorsanız, haftalık olarak güncellenen &lt;a href="/blog"&gt;bloglarımıza&lt;/a &gt; bir göz atın. AxCrypt olarak size yardımcı olmaktan ve şifrelemeyle ilgili tüm sorularınızı yanıtlamaktan mutluluk duyarız.</value>
-  </data>
-  <data name="IndustriesHeroText2" xml:space="preserve">
-    <value>&lt;a href="mailto:support@axcrypt.net"&gt;support@axcrypt.net&lt;/a&gt; adresinden bizimle iletişime geçmekten çekinmeyin ve bizi sosyal medyada takip etmeyi unutmayın.</value>
-  </data>
-  <data name="IndustriesLegalBenefitsText" xml:space="preserve">
-    <value>Hukuk alanı, gizlilik ve veri koruması konusunda önde gelir. Hukuk uzmanları, sözleşmeler ve müvekkil bilgilerinden fikri mülkiyet ve dava belgelerine kadar, ileri koruma gerektiren ve süreklilik teşkil eden son derece hassas bir bilgi akışı ile uğraşır. Küçük bir güvenlik ihlali bile mali kayıplara ve itibar zedelenmesine yol açan yıkıcı sonuçlara yol açabilir.&lt;br/&gt;&lt;br/&gt; AxCrypt, hukuk alanında sağlam veri güvenliğine duyulan kritik ihtiyacın farkındadır. Ödüllü dosya şifreleme yazılımımız, hukuk uzmanlarının gizli bilgilerini her aşamada korumalarını sağlayarak veri gizliliği düzenlemelerine uyum sağlar ve müşterilerle bir güven ortamı oluşturur.&lt;br/&gt;&lt;br/&gt; İster karmaşık bir dava üzerinde işbirliği yapıyor olun, ister hassas müşteri sözleşmelerini yönetiyor olun, ister gizli belgeleri değiş tokuş ediyor olun, AxCrypt basit ama güçlü bir çözüm sunar. Hareket halindeyken şifreleme yeteneklerimiz, iş arkadaşları ve müşterilerle güvenli dosya paylaşımı sağlarken, bulut depolama entegrasyonu, herhangi bir cihazdan şifrelenmiş verilere kolay erişim sağlar. Ek olarak, AxCrypt'in otomatik şifreleme özellikleri iş akışlarını düzene sokarak hassas belgeleri oluşturuldukları veya düzenlendikleri anda korur.</value>
-  </data>
-  <data name="IndustriesLegalContent1" xml:space="preserve">
-    <value>Bir süreç olarak şifreleme, herhangi bir yasal dosyanın içeriğini bir şifreleme anahtarı kullanarak okunamaz ve deşifre edilemez bir biçime dönüştürür. AES gibi bir şifreleme algoritması ile bir dosyanın içeriğini yeniden düzenler, kaydırır, değiştirir ve karıştırır. Algoritma ile kullanılan şifreleme anahtarları, bu dönüşümlerin kesin sırasını belirleyerek, bir dosyanın içeriğini orijinal durumuna geri döndürmek için şifreleme işleminin (şifre çözme) tersine çevrilmesine izin verir.&lt;br/&gt;&lt;br/&gt;Dosyaları basitçe kilitleyen parola koruması gibi alternatif güvenlik yöntemlerinin aksine, AES-256 ile dosya şifreleme, kırılmaz bir güvenlik önlemi sağlar. 256 anahtar uzunluğuyla, günümüzde mevcut olan en güçlü süper bilgisayarlarla bile şifrelenmiş bir dosyayı kırmak neredeyse imkansız hale gelir.&lt;br/&gt;&lt;br/&gt;Bu karmaşık süreç, sözleşmeler ve müşteri kayıtları gibi hassas dosyaların her zaman korunmasını ve yalnızca anahtarlara erişimi olan yetkili kullanıcıların dosyaların şifresini çözebilmesini sağlar.</value>
-  </data>
-  <data name="IndustriesLegalContent2" xml:space="preserve">
-    <value>AxCrypt'in ödüllü ve Sıfır Bilgi dosya şifreleme yazılımı, hassas yasal verilerinizi tek bir tıklamayla güvence altına alır. AES-256 bit veri şifreleme standardı ile önemli dava dosyaları, patent belgeleri, müşteri kayıtları, gizli belgeler gibi dosyaları ve daha fazlasını koruyun. Bir klasördeki dosyaları şifrelemek ve bunları popüler bulut depolama sağlayıcılarıyla senkronize etmek için otomatik şifreleme mekanizmaları oluşturun.&lt;br/&gt;&lt;br/&gt;AxCrypt, 2025 yılında 'En İyi Şifreleme Yazılımı' alanında PCMag'in 1 numaralı tercihi olmuştur. 2016'dan bu yana da dokuz yıl üst üste 1 numara olmayı başarmıştır. AxCrypt, Windows, Mac, iOS ve Android için kullanılabilir ve dosyaları otomatik olarak şifreleyebilir ve Google Drive, OneDrive ve Dropbox gibi popüler bulut depolama hizmetleriyle senkronize edebilir.</value>
-  </data>
-  <data name="IndustriesLegalDataSecutityContent1" xml:space="preserve">
-    <value>Dava dosyaları, önemli sözleşmeler, gizli belgeler, müvekkil kayıtları ve daha fazlası gibi son derece hassas yasal verilerin tek bir tıklamayla korunması.</value>
-  </data>
-  <data name="IndustriesLegalDataSecutityHeading" xml:space="preserve">
-    <value>Hukuk Firmalarını Güçlendirme&lt;br/&gt;&lt;span&gt;Veri Güvenliği En İyi Uygulamalar&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesLegalDataSecutitySubHeading1" xml:space="preserve">
-    <value>Yasal Dosyaları Koruyun</value>
-  </data>
-  <data name="IndustriesLegalHeading" xml:space="preserve">
-    <value>Yasal Verileri Kırılamaz AES-256 ile Koruyun</value>
-  </data>
-  <data name="IndustriesLegalHeading1" xml:space="preserve">
-    <value>Şifreleme &lt;br/&gt;Yasal Verileri Nasıl Korur?</value>
-  </data>
-  <data name="IndustriesLegalHeading2" xml:space="preserve">
-    <value>Yasal Verileri Koruyun &lt;br/&gt;AxCrypt ile</value>
-  </data>
-  <data name="IndustriesLegalParagraph" xml:space="preserve">
-    <value>AxCrypt, hukuk sektörü için özel olarak tasarlanmış veri koruma çözümleri sunar; hassas belgelerin, sözleşmelerin ve müşteri yazışmalarının güvenliğini AES 256-bit şifreleme ile sağlar. Kullanımı kolay arayüzümüz, şifrelemeyi basitleştirerek veri ihlallerine ve sızıntılarına karşı korumayı artırır.</value>
-  </data>
-  <data name="IndustriesLegalTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;Yasal verilerin korunması: AES-256 şifreleme ile güvenli sözleşmeler, müşteri kayıtları,&lt;br/&gt;gizli dava belgeleri&lt;/span&gt; &lt;span class='img4'&gt; &lt;br/&gt;.&lt;/span&gt;&lt;span class='img5'&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesLegalTrialInfo" xml:space="preserve">
-    <value>AxCrypt'in hukuk firmanızın verilerini nasıl koruyabileceğini öğrenin. &lt;span&gt;14 Gün boyunca ücretsiz deneyin!&lt;span&gt;&lt;/span&gt;</value>
-  </data>
   <data name="IndustriesLinkLabel" xml:space="preserve">
-    <value>Endüstriler</value>
-  </data>
-  <data name="IndustriesStatistic1" xml:space="preserve">
-    <value>dünya çapında müşteriler</value>
-  </data>
-  <data name="IndustriesStatistic2" xml:space="preserve">
-    <value>PCMag Editörün Seçimi</value>
-  </data>
-  <data name="IndustriesStatistic3" xml:space="preserve">
-    <value>kullanıcı indirmeleri</value>
-  </data>
-  <data name="IndustriesStatistic4" xml:space="preserve">
-    <value>Diller</value>
-  </data>
-  <data name="IndustriesTechBenefitsText" xml:space="preserve">
-    <value>Teknoloji ve BT sektörleri, veri ihlalleri, fidye yazılımı saldırıları ve siber tehditler açısından günümüzde en çok hedef alınan sektörlerden bazılarıdır.&lt;br/&gt;&lt;br/&gt;BT sektöründeki fidye yazılımı saldırıları &lt;b&gt;2023'te %47 artış göstermiştir.&lt;/b&gt; Ek olarak, &lt;b&gt;işletmelerin %43'ü&lt;/b&gt; geçen yıl bir uyumluluk denetiminde başarısız olmuş ve bu da onları veri ihlallerine karşı 10 kat daha savunmasız hale getirmiştir.&lt;br/&gt;&lt;br/&gt;Bu endişe verici eğilimler, BT sektöründe veri şifrelemenin önemli öneminin altını çizmektedir. Bekleme halinde veriler için şifreleme, BT dosyaları için koruyucu bir kalkan görevi görür ve onları her zaman yetkisiz erişime karşı korur. Hassas verileri korur, GDPR, HIPAA, FIP'ler vb. düzenlemelere uyulmasına yardımcı olur ve kuruluşlara veri gizliliği ve güvenlik önlemleri üzerinde kontrol sağlar.</value>
-  </data>
-  <data name="IndustriesTechConfidentiality" xml:space="preserve">
-    <value>İşletme yöneticilerinin işletme üyelerinin dosyalarını kurtarmasını sağlayan ve çalışanların işten ayrılması veya parolayı unutması nedeniyle kritik dosyalara erişimi kaybetme riskini ortadan kaldıran bir özellik olan ana anahtarı kullanın.</value>
-  </data>
-  <data name="IndustriesTechContent1" xml:space="preserve">
-    <value>Gelişmiş Şifreleme Standardı (AES-256) ile dosya şifreleme, NIST, IBM ve Microsoft gibi tanınmış kurum ve kuruluşlar tarafından önerilen bir güvenlik önlemidir. Dosya şifreleme, kuruluşunuzun hassas BT verileri için sağlam bir koruma kalkanı oluşturur.&lt;br/&gt;&lt;br/&gt;Dosyaların parola koruması gibi alternatif güvenlik yöntemlerinin aksine, AES-256 bit şifreleme kırılmaz bir güvenlik önlemi sağlar. 256 anahtar uzunluğuyla, şifrelenmiş bir dosyayı kırmak günümüzde mevcut olan en güçlü süper bilgisayarlarla bile neredeyse imkansız hale geliyor.&lt;br/&gt;&lt;br/&gt;Şifreleme, yalnızca kilitlemek yerine, bir dosyanın içeriğini okunamayan ve karıştırılmış bir metne dönüştürür. AES gibi bir şifreleme algoritması kullanarak, bir dosyanın içeriğini yeniden düzenler, kaydırır, değiştirir ve karıştırır. Algoritma ile kullanılan şifreleme anahtarları, bu dönüşümlerin kesin sırasını belirler ve bir dosyanın içeriğini orijinal durumuna geri getirmek için şifreleme işleminin tersine çevrilmesine izin verir.&lt;br/&gt;Bu karmaşık işlem, hassas dosyaların her zaman korunmasını sağlar ve yalnızca anahtarlara erişimi olan yetkili kullanıcılar dosyaların şifresini çözebilir.</value>
-  </data>
-  <data name="IndustriesTechContent2" xml:space="preserve">
-    <value>AxCrypt'in ödüllü ve Sıfır Bilgi dosya şifreleme yazılımı, BT verilerinizi tek bir tıklamayla korur. Önemli kaynak kodları ve proje dosyaları, iş ve finansal PDF'ler, hassas müşteri iletişim kayıtları, insan kaynakları belgeleri ve daha fazlası gibi dosyaları AES-256 bit veri şifreleme standardı ile koruyun. Bir klasördeki dosyaları şifrelemek ve bunları popüler bulut depolama sağlayıcılarıyla senkronize etmek için otomatik şifreleme mekanizmaları oluşturun.&lt;br/&gt;&lt;br/&gt;AxCrypt, 2016'dan 2025'e kadar dokuz yıl üst üste &lt;b&gt;PCMag tarafından 'En İyi Şifreleme Yazılımı' olarak&lt;/b&gt; seçildi. Windows, Mac, iOS ve Android ile kullanılabilir ve dosyaları otomatik olarak şifreleyebilir ve Google Drive, OneDrive ve Dropbox gibi popüler bulut depolama hizmetleriyle senkronize edebilir.</value>
-  </data>
-  <data name="IndustriesTechHeading" xml:space="preserve">
-    <value>AES 256-Bit Şifreleme ile Üstün Veri Koruması</value>
-  </data>
-  <data name="IndustriesTechHeading1" xml:space="preserve">
-    <value>BT Veri Koruması için AES-256 Dosya Şifreleme</value>
-  </data>
-  <data name="IndustriesTechHeading2" xml:space="preserve">
-    <value>BT Verileriniz için AxCrypt</value>
-  </data>
-  <data name="IndustriesTechParagraph" xml:space="preserve">
-    <value>Kullanımı kolay ve sezgisel bir arayüzle, hassas verilerinizi şifreleyin ve zararlı veri ihlallerine ve veri sızıntılarına karşı koruyun. AxCrypt güvenli, basit, güvenilir ve iş birliğine uygun bir çözümdür.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesContent1" xml:space="preserve">
-    <value>Müşteri kayıtları, iş ve finans belgeleri, İK dosyaları ve daha fazlası gibi son derece hassas BT verilerini tek bir tıklamayla koruyun.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesContent2" xml:space="preserve">
-    <value>Yazılımımızı kullanarak teknoloji kuruluşunuz için GDPR, HIPAA, FIP'ler vb. veri düzenlemelerine kolayca uyum sağlayın.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesContent3" xml:space="preserve">
-    <value>Masaüstü bilgisayarlarda ve bulut depolama sağlayıcılarında dosyaların otomatik olarak şifrelenmesini sağlayarak tek tıklamayla otomatik veri güvenliği iş akışları oluşturun.</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesHeading" xml:space="preserve">
-    <value>&lt;span&gt;AxCrypt&lt;/span&gt; ile IT Verileriniz için güçlü kullanım alanları</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesSubHeading1" xml:space="preserve">
-    <value>BT Verilerini Koruyun</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesSubHeading2" xml:space="preserve">
-    <value>Yönetmeliklere Uyum Sağlayın</value>
-  </data>
-  <data name="IndustriesTechPowerfulUseCasesSubHeading3" xml:space="preserve">
-    <value>Veri Güvenliği Otomasyonu</value>
-  </data>
-  <data name="IndustriesTechTitleText" xml:space="preserve">
-    <value>&lt;span class='img1'&gt;AES-256 ile teknik verileriniz için güçlü şifreleme.&lt;br/&gt;Hassas Müşteri Kayıtları, Kaynak Kodları&lt;/span&gt; &lt;span class='img4'&gt;&lt;br/&gt;&amp; Proje Dosyaları, İş Belgeleri&lt;br/&gt;ve dahasını koruyun.&lt;span class='img5'&gt;&lt;/span&gt;&lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesTechTrialInfo" xml:space="preserve">
-    <value>AxCrypt'in BT kuruluşunuzun verilerini nasıl koruyabileceğini hemen öğrenin.&lt;br/&gt;&lt;span&gt;14 Gün boyunca ücretsiz deneyin! &lt;/span&gt;</value>
-  </data>
-  <data name="IndustriesTitle" xml:space="preserve">
     <value>Endüstriler</value>
   </data>
   <data name="InformationLinkLabel" xml:space="preserve">
@@ -24073,9 +23797,6 @@ Bu bazı işlemlerin çok uzun sürmesine yol açabilir. Lütfen aşağıda şif
   </data>
   <data name="InvalidSubFolder" xml:space="preserve">
     <value>Seçilen klasör geçerli bir alt klasör değil</value>
-  </data>
-  <data name="InvalidVaultFolderErrorMessage" xml:space="preserve">
-    <value>Vault klasörünüz şu anda kullanılamaz. &lt;br/&gt;&lt;br/&gt;Taşınmış veya silinmiş olabilir. Lütfen klasör konumunu kontrol edin veya farklı bir kasa seçin.</value>
   </data>
   <data name="InvalidVaultSetting" xml:space="preserve">
     <value>Yapılandırılmış Vault klasör yolu ya geçersiz ya da erişilemezdir. Devam etmek için geçerli bir yol ile Vault ayarlarını güncelleyin.</value>
@@ -24358,7 +24079,7 @@ Alıcılar AxCrypt Kimlik oturum açma e-postaları tarafından tanımlanıyorla
     <value>&lt;strong&gt;📝 Blog&lt;/strong&gt;</value>
   </data>
   <data name="KeyShareGuideWhatsNextText1" xml:space="preserve">
-    <value>&lt;a href='/helpcenter/guides-section/'&gt;How to Encrypt &amp; Decrypt Files with AxCrypt | Step-by-Step Guide&lt;/a&gt;
+    <value>&lt;a href='/helpcenter/#guides-section'&gt;How to Encrypt &amp; Decrypt Files with AxCrypt | Step-by-Step Guide&lt;/a&gt;
 Discard</value>
   </data>
   <data name="KeyShareGuideWhatsNextText3" xml:space="preserve">
@@ -30807,7 +30528,7 @@ Konu: AxCrypt Report Snapshot</value>
     <value>Pazarlama</value>
   </data>
   <data name="ResellerHelpSupportBlock1ListItem1" xml:space="preserve">
-    <value>SSS: &lt;a href='https://www.axcrypt.net/information/faq'&gt;https://www.axcrypt.net/information/faq&lt;/a&gt;</value>
+    <value>SSS: &lt;a href='https://www.axcrypt.net/support/faq'&gt;https://www.axcrypt.net/support/faq&lt;/a&gt;</value>
   </data>
   <data name="ResellerHelpSupportBlock1ListItem2" xml:space="preserve">
     <value>Business aboneliği: &lt;a href='https://www.axcrypt.net/information/axcrypt-business'&gt;https://www.axcrypt.net/information/axcrypt-business&lt;/a&gt;</value>
@@ -31440,6 +31161,9 @@ Konu: AxCrypt Report Snapshot</value>
   </data>
   <data name="SecureEncryptedVaultPopup" xml:space="preserve">
     <value>Güvenli şifreli vault</value>
+  </data>
+  <data name="SecureFilesThreeWaysVideoTitle" xml:space="preserve">
+    <value>Dosyaları 3 Kolay Şekilde Güvence Edinin</value>
   </data>
   <data name="SecureFoldersAndCloudStorageSyncMessage" xml:space="preserve">
     <value>Güvenli klasörler ve bulut depolama senkronizasyonu</value>
@@ -32468,9 +32192,6 @@ Please visit our &lt;a href="{0}"&gt;community support&lt;/a&gt;.</value>
   </data>
   <data name="TechnicalDetailsSourceCodeHeading" xml:space="preserve">
     <value>Kaynak kodu</value>
-  </data>
-  <data name="TechnicalDetailsSourceCodeText" xml:space="preserve">
-    <value>Çekirdek kitaplıklar ve Windows istemcisi için tam kaynak kodu, Bitbucket'taki bir mercurial deposundaydı. Ancak 2020 yazından itibaren Bitbucket, ticari desteğini durdurdu, bu nedenle kaynak kodunu kolayca erişilebilir hale getirmek için alternatif bir çözüm bulmak için aktif olarak çalışıyoruz. Şimdilik, support@axcrypt.net ile iletişime geçin, kaynak kodunu sağlıyor olacağız.</value>
   </data>
   <data name="TechnicalDetailsStoredOnServerHeading" xml:space="preserve">
     <value>Sunucuda ne depolanır?</value>
@@ -33668,9 +33389,6 @@ AxCrypt Ekibi</value>
   </data>
   <data name="VaultFolderNotConfiguredMessage" xml:space="preserve">
     <value>Hiçbir klasör Vault olarak yapılandırılmamıştır. Lütfen Vault klasörünü yapılandırın ve tekrar deneyin.</value>
-  </data>
-  <data name="VaultFolderUnavailableMessage" xml:space="preserve">
-    <value>Vault klasörünüz şu anda kullanılamaz. &lt;br/&gt;&lt;br/&gt;Taşınmış veya silinmiş olabilir. Lütfen klasör konumunu kontrol edin veya farklı bir kasa seçin.</value>
   </data>
   <data name="VaultGuideCarouselText1" xml:space="preserve">
     <value>Lütfen Ayarlar → Gelişmiş Ayarlar → Vault Ayarları sayfalarına geçerek Vault'u yapılandırın.</value>
