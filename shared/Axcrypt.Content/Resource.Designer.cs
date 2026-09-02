@@ -95492,7 +95492,43 @@ namespace AxCrypt.Content {
                 return ResourceManager.GetString("TemporaryFilePathText", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized string similar to Use Virtual Drive.
+        /// </summary>
+        public static string UseVirtualDriveText {
+            get {
+                return ResourceManager.GetString("UseVirtualDriveText", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Decrypted files are kept in memory and never written to disk. Requires WinFsp. Changing this setting restarts AxCrypt.
+        /// </summary>
+        public static string UseVirtualDriveDescriptionText {
+            get {
+                return ResourceManager.GetString("UseVirtualDriveDescriptionText", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to AxCrypt must restart to apply this change. Any files you have open will be re-encrypted first. Restart now?.
+        /// </summary>
+        public static string RestartToApplySettingMessage {
+            get {
+                return ResourceManager.GetString("RestartToApplySettingMessage", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to AxCrypt needs WinFsp installed to keep temporary files in memory. Install it from https://winfsp.dev/rel/ and then turn this option on again. Open the download page now?.
+        /// </summary>
+        public static string WinFspRequiredMessage {
+            get {
+                return ResourceManager.GetString("WinFspRequiredMessage", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to By signing up to AxCrypt you agree to our &lt;a&gt;Terms &amp;amp; Conditions &lt;/a&gt;.
         /// </summary>
