@@ -1100,8 +1100,8 @@ Updates to the subscription will be reflected here within a few minutes.</value>
   <data name="AutomaticFileUpdatingText" xml:space="preserve">
     <value>Automatic update of the secured file after open and save.</value>
   </data>
-  <data name="Autoshare files on encryption" xml:space="preserve">
-    <value>AutoShareFilesOnEncryptionText</value>
+  <data name="AutoShareFilesOnEncryptionText" xml:space="preserve">
+    <value>Auto-share files on encryption</value>
   </data>
   <data name="AutoShareFilesDescriptionText" xml:space="preserve">
     <value>Automatically share encrypted files with people you choose, so they can open them with their own AxCrypt account.</value>

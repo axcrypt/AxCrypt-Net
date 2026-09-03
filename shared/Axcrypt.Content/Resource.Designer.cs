@@ -2935,9 +2935,9 @@ namespace AxCrypt.Content {
         /// <summary>
         ///   Looks up a localized string similar to AutoShareFilesOnEncryptionText.
         /// </summary>
-        public static string Autoshare_files_on_encryption {
+        public static string AutoShareFilesOnEncryptionText {
             get {
-                return ResourceManager.GetString("Autoshare files on encryption", resourceCulture);
+                return ResourceManager.GetString("Auto-share files on encryption", resourceCulture);
             }
         }
         
