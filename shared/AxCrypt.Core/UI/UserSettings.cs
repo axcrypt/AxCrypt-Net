@@ -367,6 +367,21 @@ namespace AxCrypt.Core.UI
             set { Store(nameof(TemporaryFilePath), value); }
         }
 
+        /// <summary>
+        /// When true, temporary (decrypted) files go to the in-memory virtual drive
+        /// instead of <see cref="TemporaryFilePath"/>, so plaintext never reaches
+        /// physical storage.
+        ///
+        /// Defaults to true, preserving the behaviour that shipped before this
+        /// setting existed. Only platforms registering IInMemoryFileSystem can
+        /// honour it — elsewhere <see cref="TemporaryFilePath"/> is always used.
+        /// </summary>
+        public bool UseVirtualDriveForTemporaryFiles
+        {
+            get { return Load(nameof(UseVirtualDriveForTemporaryFiles), true); }
+            set { Store(nameof(UseVirtualDriveForTemporaryFiles), value); }
+        }
+
         public bool UserActivityMode
         {
             get { return Load(nameof(UserActivityMode), false); }
