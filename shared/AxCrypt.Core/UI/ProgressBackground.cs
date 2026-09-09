@@ -1,7 +1,4 @@
 ﻿using AxCrypt.Abstractions;
-using System;
-using System.Threading;
-using System.Threading.Tasks;
 
 using static AxCrypt.Abstractions.TypeResolve;
 
@@ -62,7 +59,7 @@ namespace AxCrypt.Core.UI
         {
             while (Busy)
             {
-                await Task.Yield();
+                await Task.Delay(100);
             }
         }
 
