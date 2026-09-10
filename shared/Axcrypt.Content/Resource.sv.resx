@@ -1096,11 +1096,11 @@ Logga nu in med samma lösenord som du angav då.</value>
   <data name="AutomaticFileUpdatingText" xml:space="preserve">
     <value>Automatisk uppdatering av den säkrade filen efter att ha öppnats och sparats.</value>
   </data>
-  <data name="Autoshare files on encryption" xml:space="preserve">
-    <value>AutoShareFilesOnEncryptionText</value>
-  </data>
   <data name="AutoShareFilesDescriptionText" xml:space="preserve">
     <value>Dela automatiskt krypterade filer med personer du väljer, så att de kan öppna dem med sitt eget AxCrypt-konto.</value>
+  </data>
+  <data name="AutoShareFilesOnEncryptionText" xml:space="preserve">
+    <value>Dela filer automatiskt vid kryptering</value>
   </data>
   <data name="AutoUpgradeFilesAES256" xml:space="preserve">
     <value>Automatisk uppgradering av filer till AES-256</value>
@@ -21951,7 +21951,7 @@ Vi är ledsna att du lämnar oss, men vi hoppas du uppskattat AxCrypt.</value>
     <value>Använd minst 8 tecken med versaler och gemener, siffror och symboler.</value>
   </data>
   <data name="FilePasswordUsedForEncryptionText" xml:space="preserve">
-    <value>Fillösenordet du just ställt in kommer att användas för att kryptera dina filer istället för ditt kontolösenord.</value>
+    <value>Fillösenordet du just ställt in kommer att användas för att kryptera dina filer istället för ditt kontolösenord. Om du glömmer detta lösenord kan du permanent förlora tillgången till dessa filer.</value>
   </data>
   <data name="FilePropertiesDateModifiedToolStripMenuItem" xml:space="preserve">
     <value>Ändrat datum</value>
@@ -22134,9 +22134,6 @@ Vi är ledsna att du lämnar oss, men vi hoppas du uppskattat AxCrypt.</value>
   </data>
   <data name="ForEveryoneLabel" xml:space="preserve">
     <value>För alla</value>
-  </data>
-  <data name="ForgottenFilePasswordWarningText" xml:space="preserve">
-    <value>Om du glömmer detta lösenord kan du permanent förlora tillgången till dessa filer.</value>
   </data>
   <data name="ForIndividualsLabel" xml:space="preserve">
     <value>För individer</value>
@@ -24134,6 +24131,84 @@ Vissa funktioner kan då ta väldigt lång tid. Var försiktig med att välja ma
   <data name="IndustriesLinkLabel" xml:space="preserve">
     <value>Industrier</value>
   </data>
+  <data name="IndustryDetailAxcryptColumnTitle" xml:space="preserve">
+    <value>AxCrypt</value>
+  </data>
+  <data name="IndustryDetailBackLink" xml:space="preserve">
+    <value>Industrier</value>
+  </data>
+  <data name="IndustryDetailBuiltForYourWorkEyebrow" xml:space="preserve">
+    <value>Byggd för ditt arbete</value>
+  </data>
+  <data name="IndustryDetailCloudIntegrationsEyebrow" xml:space="preserve">
+    <value>Molnintegrationer</value>
+  </data>
+  <data name="IndustryDetailComparisonEyebrow" xml:space="preserve">
+    <value>Varför team väljer AxCrypt</value>
+  </data>
+  <data name="IndustryDetailComplianceEyebrow" xml:space="preserve">
+    <value>Efterlevnad kan du lita på</value>
+  </data>
+  <data name="IndustryDetailDefaultIntegrationsTitle" xml:space="preserve">
+    <value>Fungerar där ditt team arbetar</value>
+  </data>
+  <data name="IndustryDetailFaqTitle" xml:space="preserve">
+    <value>Vanliga Frågor</value>
+  </data>
+  <data name="IndustryDetailHowAxcryptWorksEyebrow" xml:space="preserve">
+    <value>Hur AxCrypt fungerar</value>
+  </data>
+  <data name="IndustryDetailIndustryChallengeEyebrow" xml:space="preserve">
+    <value>Branschutmaning</value>
+  </data>
+  <data name="IndustryDetailIntegrationsDescription" xml:space="preserve">
+    <value>Kryptera filer innan de synkas genom de verktyg ditt team redan använder.</value>
+  </data>
+  <data name="IndustryDetailJsonLdAreaServed" xml:space="preserve">
+    <value>Global</value>
+  </data>
+  <data name="IndustryDetailJsonLdProviderName" xml:space="preserve">
+    <value>AxCrypt</value>
+  </data>
+  <data name="IndustryDetailJsonLdServiceType" xml:space="preserve">
+    <value>{bransch} filkryptering</value>
+  </data>
+  <data name="IndustryDetailOgTitle" xml:space="preserve">
+    <value>{titel} | AxCrypt</value>
+  </data>
+  <data name="IndustryDetailProtectedPill" xml:space="preserve">
+    <value>Dina data förblir skyddade</value>
+  </data>
+  <data name="IndustryDetailQuestionsEyebrow" xml:space="preserve">
+    <value>Frågor</value>
+  </data>
+  <data name="IndustryDetailRatingAria" xml:space="preserve">
+    <value>5,0 av 5 stjärnor</value>
+  </data>
+  <data name="IndustryDetailRatingStars" xml:space="preserve">
+    <value>★★★★★</value>
+  </data>
+  <data name="IndustryDetailRatingValue" xml:space="preserve">
+    <value>5.0</value>
+  </data>
+  <data name="IndustryDetailResultsTitle" xml:space="preserve">
+    <value>Resultat</value>
+  </data>
+  <data name="IndustryDetailSecurityHighlightsAria" xml:space="preserve">
+    <value>{bransch} säkerhetshöjdpunkter</value>
+  </data>
+  <data name="IndustryDetailStartFreeTrial" xml:space="preserve">
+    <value>Starta en kostnadsfri provperiod</value>
+  </data>
+  <data name="IndustryDetailStoryImageAlt" xml:space="preserve">
+    <value>{bransch}-teamet använder AxCrypt-filkryptering</value>
+  </data>
+  <data name="IndustryDetailSuccessStoryEyebrow" xml:space="preserve">
+    <value>Framgångssaga</value>
+  </data>
+  <data name="IndustryDetailViewUseCases" xml:space="preserve">
+    <value>Visa användningsfall</value>
+  </data>
   <data name="InformationLinkLabel" xml:space="preserve">
     <value>Information</value>
   </data>
@@ -24360,6 +24435,9 @@ Ditt lösenord lagras inte hos oss, och anslutningen är alltid krypterad.</valu
   </data>
   <data name="InvalidSubFolder" xml:space="preserve">
     <value>Den valda mappen är inte en giltig undermapp</value>
+  </data>
+  <data name="InvalidVaultFolderErrorMessage" xml:space="preserve">
+    <value>Din valvmapp är för närvarande otillgänglig.&lt;br/&gt;&lt;br/&gt; Mappen kan ha flyttats eller raderats, eller så kanske AxCrypt inte har behörighet att komma åt den. Kontrollera mappens plats och behörigheter, eller välj ett annat valv.</value>
   </data>
   <data name="InvalidVaultSetting" xml:space="preserve">
     <value>Den konfigurerade Vault-mappens sökväg är antingen ogiltig eller otillgänglig. Uppdatera Valvinställningarna med en giltig sökväg för att fortsätta.</value>
@@ -27964,6 +28042,12 @@ För att återgå till startsidan klicka &lt;a href="{1}"&gt;här&lt;/a&gt;.</va
   </data>
   <data name="OpenSourceLabel" xml:space="preserve">
     <value>Open source</value>
+  </data>
+  <data name="OpenSourceMetaDescription" xml:space="preserve">
+    <value>Granska AxCrypts öppna källkod, utforska AxCrypt .NET GitHub-arkivet och lär dig hur transparens stödjer säker filkryptering.</value>
+  </data>
+  <data name="OpenSourceMetaTitle" xml:space="preserve">
+    <value>AxCrypt Open Source | Granska AxCrypt .NET-arkivet</value>
   </data>
   <data name="OpenSourceText" xml:space="preserve">
     <value>Open source under GNU General Public License.</value>
@@ -32650,6 +32734,15 @@ För att återgå till startsidan, klicka &lt;a href="{1}"&gt;här&lt;/a&gt;.</v
   <data name="TechnicalDetailsSourceCodeHeading" xml:space="preserve">
     <value>Källkod</value>
   </data>
+  <data name="TechnicalDetailsSourceCodeLinkLabel" xml:space="preserve">
+    <value>Visa öppen källkodssida</value>
+  </data>
+  <data name="TechnicalDetailsSourceCodeText1" xml:space="preserve">
+    <value>AxCrypt håller viktig produktkod tillgänglig för teknisk granskning och säkerhetstransparens.</value>
+  </data>
+  <data name="TechnicalDetailsSourceCodeText2" xml:space="preserve">
+    <value>Utforska detaljer om arkivet, licensnoteringar och granska vägledning på vår öppna källkodssida.</value>
+  </data>
   <data name="TechnicalDetailsStoredOnServerHeading" xml:space="preserve">
     <value>Vad är lagrat på servern?</value>
   </data>
@@ -33859,6 +33952,9 @@ AxCrypt-teamet</value>
   </data>
   <data name="VaultFolderNotConfiguredMessage" xml:space="preserve">
     <value>Ingen mapp har konfigurerats som ett Valv. Vänligen konfigurera Valvmappen och försök igen.</value>
+  </data>
+  <data name="VaultFolderUnavailableMessage" xml:space="preserve">
+    <value>Din valvmapp är för närvarande otillgänglig.&lt;br/&gt;&lt;br/&gt; Mappen kan ha flyttats eller raderats, eller så kanske AxCrypt inte har behörighet att komma åt den. Kontrollera mappens plats och behörigheter, eller välj ett annat valv.</value>
   </data>
   <data name="VaultGuideCarouselText1" xml:space="preserve">
     <value>Var god konfigurera Valvet genom att navigera till Inställningar → Avancerade inställningar → Valvinställningar.</value>

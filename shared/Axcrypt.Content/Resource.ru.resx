@@ -1072,11 +1072,11 @@
   <data name="AutomaticFileUpdatingText" xml:space="preserve">
     <value>Автоматическое обновление защищенного файла после открытия и сохранения.</value>
   </data>
-  <data name="Autoshare files on encryption" xml:space="preserve">
-    <value>AutoShareFilesOnEncryptionText</value>
-  </data>
   <data name="AutoShareFilesDescriptionText" xml:space="preserve">
     <value>Автоматически делитесь зашифрованными файлами с выбранными вами людьми, чтобы они могли открыть их с собственного аккаунта AxCrypt.</value>
+  </data>
+  <data name="AutoShareFilesOnEncryptionText" xml:space="preserve">
+    <value>Автоматический обмен файлами при шифровании</value>
   </data>
   <data name="AutoUpgradeFilesAES256" xml:space="preserve">
     <value>Автоматическое обновление файлов до AES-256</value>
@@ -21246,7 +21246,7 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
     <value>Используйте как минимум 8 символов с заглавными и строчными буквами, цифрами и знаками.</value>
   </data>
   <data name="FilePasswordUsedForEncryptionText" xml:space="preserve">
-    <value>Пароль для файлов, который вы только что установили, будет использоваться для шифрования ваших файлов вместо пароля аккаунта.</value>
+    <value>Только что установленный вами пароль будет использоваться для шифрования ваших файлов вместо пароля аккаунта. Если вы забудете этот пароль, вы можете навсегда потерять доступ к этим файлам.</value>
   </data>
   <data name="FilePropertiesDateModifiedToolStripMenuItem" xml:space="preserve">
     <value>Дата изменения</value>
@@ -21429,9 +21429,6 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   </data>
   <data name="ForEveryoneLabel" xml:space="preserve">
     <value>Для всех</value>
-  </data>
-  <data name="ForgottenFilePasswordWarningText" xml:space="preserve">
-    <value>Если вы забудете этот пароль, вы можете навсегда потерять доступ к этим файлам.</value>
   </data>
   <data name="ForIndividualsLabel" xml:space="preserve">
     <value>Для частных лиц</value>
@@ -23421,6 +23418,84 @@ OneDrive или Dropbox с шифрованием с нулевым разгла
   <data name="IndustriesLinkLabel" xml:space="preserve">
     <value>Индустрии</value>
   </data>
+  <data name="IndustryDetailAxcryptColumnTitle" xml:space="preserve">
+    <value>AxCrypt</value>
+  </data>
+  <data name="IndustryDetailBackLink" xml:space="preserve">
+    <value>Промышленность</value>
+  </data>
+  <data name="IndustryDetailBuiltForYourWorkEyebrow" xml:space="preserve">
+    <value>Создано для вашей работы</value>
+  </data>
+  <data name="IndustryDetailCloudIntegrationsEyebrow" xml:space="preserve">
+    <value>Облачные интеграции</value>
+  </data>
+  <data name="IndustryDetailComparisonEyebrow" xml:space="preserve">
+    <value>Почему команды выбирают AxCrypt</value>
+  </data>
+  <data name="IndustryDetailComplianceEyebrow" xml:space="preserve">
+    <value>Надежное соблюдение нормативных требований</value>
+  </data>
+  <data name="IndustryDetailDefaultIntegrationsTitle" xml:space="preserve">
+    <value>Работает там, где работает ваша команда</value>
+  </data>
+  <data name="IndustryDetailFaqTitle" xml:space="preserve">
+    <value>Часто задаваемые вопросы</value>
+  </data>
+  <data name="IndustryDetailHowAxcryptWorksEyebrow" xml:space="preserve">
+    <value>Как работает AxCrypt</value>
+  </data>
+  <data name="IndustryDetailIndustryChallengeEyebrow" xml:space="preserve">
+    <value>Отраслевые вызовы</value>
+  </data>
+  <data name="IndustryDetailIntegrationsDescription" xml:space="preserve">
+    <value>Шифруйте файлы до того, как они синхронизируются через инструменты, которыми уже пользуется ваша команда.</value>
+  </data>
+  <data name="IndustryDetailJsonLdAreaServed" xml:space="preserve">
+    <value>Глобальный</value>
+  </data>
+  <data name="IndustryDetailJsonLdProviderName" xml:space="preserve">
+    <value>AxCrypt</value>
+  </data>
+  <data name="IndustryDetailJsonLdServiceType" xml:space="preserve">
+    <value>{industry} шифрование файлов</value>
+  </data>
+  <data name="IndustryDetailOgTitle" xml:space="preserve">
+    <value>{title} | AxCrypt</value>
+  </data>
+  <data name="IndustryDetailProtectedPill" xml:space="preserve">
+    <value>Ваши данные остаются защищёнными</value>
+  </data>
+  <data name="IndustryDetailQuestionsEyebrow" xml:space="preserve">
+    <value>Вопросы</value>
+  </data>
+  <data name="IndustryDetailRatingAria" xml:space="preserve">
+    <value>5,0 из 5 звёзд</value>
+  </data>
+  <data name="IndustryDetailRatingStars" xml:space="preserve">
+    <value>★★★★★</value>
+  </data>
+  <data name="IndustryDetailRatingValue" xml:space="preserve">
+    <value>5.0</value>
+  </data>
+  <data name="IndustryDetailResultsTitle" xml:space="preserve">
+    <value>Результаты</value>
+  </data>
+  <data name="IndustryDetailSecurityHighlightsAria" xml:space="preserve">
+    <value>{industry} основные моменты в области безопасности</value>
+  </data>
+  <data name="IndustryDetailStartFreeTrial" xml:space="preserve">
+    <value>Начните бесплатный пробный период</value>
+  </data>
+  <data name="IndustryDetailStoryImageAlt" xml:space="preserve">
+    <value>{industry} команда использует шифрование файлов AxCrypt</value>
+  </data>
+  <data name="IndustryDetailSuccessStoryEyebrow" xml:space="preserve">
+    <value>История успеха</value>
+  </data>
+  <data name="IndustryDetailViewUseCases" xml:space="preserve">
+    <value>Посмотреть примеры использования</value>
+  </data>
   <data name="InformationLinkLabel" xml:space="preserve">
     <value>Информация</value>
   </data>
@@ -23647,6 +23722,9 @@ OneDrive или Dropbox с шифрованием с нулевым разгла
   </data>
   <data name="InvalidSubFolder" xml:space="preserve">
     <value>Выбранная папка не является допустимой подпапкой</value>
+  </data>
+  <data name="InvalidVaultFolderErrorMessage" xml:space="preserve">
+    <value>Ваша папка хранилища сейчас недоступна.&lt;br/&gt;&lt;br/&gt; Папка могла быть перемещена или удалена, или у AxCrypt может не быть разрешения на доступ. Пожалуйста, проверьте расположение папки и разрешения или выберите другое хранилище.</value>
   </data>
   <data name="InvalidVaultSetting" xml:space="preserve">
     <value>Настроенный путь папки Хранилища либо неверен, либо недоступен. Обновите настройки хранилища с правильным маршрутом для продолжения.</value>
@@ -27143,6 +27221,12 @@ SE-114 29 Стокгольм
   <data name="OpenSourceLabel" xml:space="preserve">
     <value>Открытый исходный код</value>
   </data>
+  <data name="OpenSourceMetaDescription" xml:space="preserve">
+    <value>Просмотрите открытый исходный код AxCrypt, ознакомьтесь с репозиторием AxCrypt .NET на GitHub и узнайте, как прозрачность поддерживает безопасное шифрование файлов.</value>
+  </data>
+  <data name="OpenSourceMetaTitle" xml:space="preserve">
+    <value>Открытый исходный код AxCrypt | Ознакомьтесь с репозиторием AxCrypt .NET</value>
+  </data>
   <data name="OpenSourceText" xml:space="preserve">
     <value>Открытый исходный код под Универсальной общественной лицензией GNU. </value>
   </data>
@@ -27243,6 +27327,9 @@ SE-114 29 Стокгольм
   </data>
   <data name="OurVisionLabel" xml:space="preserve">
     <value>Наше видение</value>
+  </data>
+  <data name="OverviewText" xml:space="preserve">
+    <value>Обзор</value>
   </data>
   <data name="OwnerEmailText" xml:space="preserve">
     <value>Адрес электронной почты владельца:</value>
@@ -31688,6 +31775,15 @@ SE-114 29 Стокгольм
   <data name="TechnicalDetailsSourceCodeHeading" xml:space="preserve">
     <value>Исходный код</value>
   </data>
+  <data name="TechnicalDetailsSourceCodeLinkLabel" xml:space="preserve">
+    <value>Просмотр страницы с открытым исходным кодом</value>
+  </data>
+  <data name="TechnicalDetailsSourceCodeText1" xml:space="preserve">
+    <value>AxCrypt предоставляет доступ к важному коду продукта для технической экспертизы и обеспечения прозрачности в вопросах безопасности.</value>
+  </data>
+  <data name="TechnicalDetailsSourceCodeText2" xml:space="preserve">
+    <value>Ознакомьтесь с деталями репозитория, лицензионными заметками и рекомендациями по обзору на нашей странице с открытым исходным кодом.</value>
+  </data>
   <data name="TechnicalDetailsStoredOnServerHeading" xml:space="preserve">
     <value>Что хранится на сервере?</value>
   </data>
@@ -32885,6 +32981,9 @@ SE-114 29 Стокгольм
   <data name="VaultFolderNotConfiguredMessage" xml:space="preserve">
     <value>Ни одна папка не настроена в качестве хранилища. Настройте папку хранилища и попробуйте ещё раз.</value>
   </data>
+  <data name="VaultFolderUnavailableMessage" xml:space="preserve">
+    <value>Ваша папка хранилища сейчас недоступна.&lt;br/&gt;&lt;br/&gt; Папка могла быть перемещена или удалена, или у AxCrypt может не быть разрешения на доступ. Пожалуйста, проверьте расположение папки и разрешения или выберите другое хранилище.</value>
+  </data>
   <data name="VaultGuideCarouselText1" xml:space="preserve">
     <value>Пожалуйста, настройте хранилище, перейдя в Настройки → Расширенные настройки → Настройки Хранилища.</value>
   </data>
@@ -33336,6 +33435,9 @@ SE-114 29 Стокгольм
   </data>
   <data name="WeOfferLabel" xml:space="preserve">
     <value>Мы предлагаем:</value>
+  </data>
+  <data name="WhatIsNextText" xml:space="preserve">
+    <value>Что дальше</value>
   </data>
   <data name="WhatOthersSayAboutUsHeading" xml:space="preserve">
     <value>&lt;span&gt;Что о нас говорят другие&lt;/span&gt;</value>

@@ -1096,11 +1096,11 @@ AxCrypt ID 이메일 인증의 링크 클릭이 작동하지 않았습니다. (�
   <data name="AutomaticFileUpdatingText" xml:space="preserve">
     <value>열고 저장한 후 보안 파일의 자동 업데이트.</value>
   </data>
-  <data name="Autoshare files on encryption" xml:space="preserve">
-    <value>AutoShareFilesOnEncryptionText</value>
-  </data>
   <data name="AutoShareFilesDescriptionText" xml:space="preserve">
     <value>암호화된 파일을 선택한 사람들과 자동으로 공유하면, 그들이 자신의 AxCrypt 계정으로 파일을 열 수 있습니다.</value>
+  </data>
+  <data name="AutoShareFilesOnEncryptionText" xml:space="preserve">
+    <value>암호화에 관한 자동 파일 공유</value>
   </data>
   <data name="AutoUpgradeFilesAES256" xml:space="preserve">
     <value>AES-256으로 자동 업그레이드 파일</value>
@@ -1610,7 +1610,7 @@ AxCrypt ID 이메일 인증의 링크 클릭이 작동하지 않았습니다. (�
     <value>Business 구독을 통해 조직은 여러 사용자에 대한 라이센스를 구입하고 관리할 수 있습니다. EU 내에서 부가가치세 없이 판매하며, Premium 플랜에 대해 부가가치를 부과합니다.</value>
   </data>
   <data name="AxcryptBusinessBlock2Heading" xml:space="preserve">
-    <value>Business 구독 신청하기</value>
+    <value>비즈니스 구독 신청하기</value>
   </data>
   <data name="AxcryptBusinessBlock2Text1" xml:space="preserve">
     <value>AxCrypt ID로 로그인합니다. &lt;a href='https://account.axcrypt.net/HomeUser/CreateBusiness'&gt;Business 구독 메뉴&lt;/a&gt;구독 신청을 하세요</value>
@@ -1700,7 +1700,7 @@ AxCrypt ID 이메일 인증의 링크 클릭이 작동하지 않았습니다. (�
     <value>&lt;span&gt;&lt;b&gt;비즈니스 계획:&lt;/b&gt;&lt;/span&gt; 여러 사용자를 위한 라이센스를 구입하고 관리할 수 있도록 조직용으로 설계되었습니다.</value>
   </data>
   <data name="AxcryptBusinessGuideBlock1Text4" xml:space="preserve">
-    <value>자세한 약관은 &lt;a href='/information/terms-of-use/'&gt;&lt;b&gt;Terms of Use&lt;/b&gt;&lt;/a&gt;를 참조하십시오. 자세한 내용은 &lt;a href='/pricing/'&gt;&lt;b&gt;Pricing page&lt;/b&gt;&lt;/a&gt; 를 참조하십시오.</value>
+    <value>자세한 약관은 &lt;a href='/information/terms-of-use/'&gt;&lt;b&gt;이용약관&lt;/b&gt;&lt;/a&gt;를 참조하십시오. 자세한 내용은 &lt;a href='/pricing/'&gt;&lt;b&gt;요금 페이지&lt;/b&gt;&lt;/a&gt; 를 참조하십시오.</value>
   </data>
   <data name="AxcryptBusinessGuideBlock1Text5" xml:space="preserve">
     <value>&lt;b&gt;비즈니스 구독&lt;/b&gt;을 사용하면 여러 사용자의 라이선스를 구입하고 관리할 수 있습니다. 유효한 VAT 번호가 있는 EU 기반 회사의 경우 비즈니스 플랜에 대해 VAT 무료 구매를 제공합니다. Premium 요금제에는 VAT 무료 판매가 제공되지 않습니다.</value>
@@ -1826,7 +1826,7 @@ AxCrypt ID 이메일 인증의 링크 클릭이 작동하지 않았습니다. (�
     <value>조직 내에서 사용자와 파일 액세스를 효율적으로 관리하려면 &lt;a href='https://axcrypt.net/information/group/'&gt;&lt;b&gt;그룹 관리 안내서&lt;/b&gt;&lt;/a&gt;를 참조하십시오.</value>
   </data>
   <data name="AxcryptBusinessLinkLabel" xml:space="preserve">
-    <value>AxCrypt Business</value>
+    <value>AxCrypt 비즈니스</value>
   </data>
   <data name="AxCryptFileEncryption" xml:space="preserve">
     <value>AxCrypt 파일 보호</value>
@@ -21450,7 +21450,7 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
     <value>대문자와 소문자, 숫자, 기호를 포함한 최소 8개의 문자를 사용하세요.</value>
   </data>
   <data name="FilePasswordUsedForEncryptionText" xml:space="preserve">
-    <value>방금 설정한 파일 비밀번호가 계정 비밀번호 대신 파일 암호화에 사용됩니다.</value>
+    <value>방금 설정한 파일 비밀번호가 계정 비밀번호 대신 파일 암호화에 사용됩니다. 이 비밀번호를 잊으면 해당 파일에 영구적으로 접근할 수 없게 될 수 있습니다.</value>
   </data>
   <data name="FilePropertiesDateModifiedToolStripMenuItem" xml:space="preserve">
     <value>수정한 날짜</value>
@@ -21633,9 +21633,6 @@ You have been invited by &lt;b&gt;{0}&lt;/b&gt;. Note, this business has the fea
   </data>
   <data name="ForEveryoneLabel" xml:space="preserve">
     <value>모두를 위한</value>
-  </data>
-  <data name="ForgottenFilePasswordWarningText" xml:space="preserve">
-    <value>이 비밀번호를 잊으면 해당 파일에 영구적으로 접근할 수 없을 수 있습니다.</value>
   </data>
   <data name="ForIndividualsLabel" xml:space="preserve">
     <value>개인용</value>
@@ -23633,6 +23630,84 @@ AxCrypt 개인 정보 보호 정책을 참조하십시오.</value>
   <data name="IndustriesLinkLabel" xml:space="preserve">
     <value>산업</value>
   </data>
+  <data name="IndustryDetailAxcryptColumnTitle" xml:space="preserve">
+    <value>액스크립트</value>
+  </data>
+  <data name="IndustryDetailBackLink" xml:space="preserve">
+    <value>산업</value>
+  </data>
+  <data name="IndustryDetailBuiltForYourWorkEyebrow" xml:space="preserve">
+    <value>당신의 일을 위해 만들어졌습니다</value>
+  </data>
+  <data name="IndustryDetailCloudIntegrationsEyebrow" xml:space="preserve">
+    <value>클라우드 통합</value>
+  </data>
+  <data name="IndustryDetailComparisonEyebrow" xml:space="preserve">
+    <value>팀들이 AxCrypt를 선택하는 이유</value>
+  </data>
+  <data name="IndustryDetailComplianceEyebrow" xml:space="preserve">
+    <value>믿고 싶은 순응</value>
+  </data>
+  <data name="IndustryDetailDefaultIntegrationsTitle" xml:space="preserve">
+    <value>팀이 일하는 곳에서 효과가 있습니다</value>
+  </data>
+  <data name="IndustryDetailFaqTitle" xml:space="preserve">
+    <value>자주 묻는 질문</value>
+  </data>
+  <data name="IndustryDetailHowAxcryptWorksEyebrow" xml:space="preserve">
+    <value>AxCrypt의 작동 원리</value>
+  </data>
+  <data name="IndustryDetailIndustryChallengeEyebrow" xml:space="preserve">
+    <value>업계 도전 과제</value>
+  </data>
+  <data name="IndustryDetailIntegrationsDescription" xml:space="preserve">
+    <value>팀이 이미 사용하는 도구와 동기화하기 전에 파일을 암호화하세요.</value>
+  </data>
+  <data name="IndustryDetailJsonLdAreaServed" xml:space="preserve">
+    <value>글로벌</value>
+  </data>
+  <data name="IndustryDetailJsonLdProviderName" xml:space="preserve">
+    <value>액스크립트</value>
+  </data>
+  <data name="IndustryDetailJsonLdServiceType" xml:space="preserve">
+    <value>{industry} 파일 암호화</value>
+  </data>
+  <data name="IndustryDetailOgTitle" xml:space="preserve">
+    <value>{제목} | 액스크립트</value>
+  </data>
+  <data name="IndustryDetailProtectedPill" xml:space="preserve">
+    <value>귀하의 데이터는 보호됩니다</value>
+  </data>
+  <data name="IndustryDetailQuestionsEyebrow" xml:space="preserve">
+    <value>질문</value>
+  </data>
+  <data name="IndustryDetailRatingAria" xml:space="preserve">
+    <value>5점 만점에 5점</value>
+  </data>
+  <data name="IndustryDetailRatingStars" xml:space="preserve">
+    <value>★★★★★</value>
+  </data>
+  <data name="IndustryDetailRatingValue" xml:space="preserve">
+    <value>5.0</value>
+  </data>
+  <data name="IndustryDetailResultsTitle" xml:space="preserve">
+    <value>결과</value>
+  </data>
+  <data name="IndustryDetailSecurityHighlightsAria" xml:space="preserve">
+    <value>{industry} 보안 하이라이트</value>
+  </data>
+  <data name="IndustryDetailStartFreeTrial" xml:space="preserve">
+    <value>무료 평가판 시작</value>
+  </data>
+  <data name="IndustryDetailStoryImageAlt" xml:space="preserve">
+    <value>{industry} 팀이 AxCrypt 파일 암호화를 사용하고 있습니다</value>
+  </data>
+  <data name="IndustryDetailSuccessStoryEyebrow" xml:space="preserve">
+    <value>성공 스토리</value>
+  </data>
+  <data name="IndustryDetailViewUseCases" xml:space="preserve">
+    <value>사용 사례 보기</value>
+  </data>
   <data name="InformationLinkLabel" xml:space="preserve">
     <value>정보</value>
   </data>
@@ -23859,6 +23934,9 @@ AxCrypt 개인 정보 보호 정책을 참조하십시오.</value>
   </data>
   <data name="InvalidSubFolder" xml:space="preserve">
     <value>선택한 폴더가 유효한 하위 폴더가 아닙니다.</value>
+  </data>
+  <data name="InvalidVaultFolderErrorMessage" xml:space="preserve">
+    <value>현재 귀하의 금고 폴더는 사용할 수 없습니다. 폴더가 이동되었거나 삭제되었거나, AxCrypt가 접근 권한이 없을 수 있습니다. 폴더 위치와 권한을 확인하시거나 다른 금고를 선택해 주세요.</value>
   </data>
   <data name="InvalidVaultSetting" xml:space="preserve">
     <value>설정된 Vault 폴더 경로가 유효하지 않거나 접근 불가능합니다. 계속하려면 Vault 설정을 유효한 경로로 업데이트하세요.</value>
@@ -27482,6 +27560,12 @@ AxCrypt 1.x 파일을 자동적으로 전환하시겠습니까 (추천)?</value>
   </data>
   <data name="OpenSourceLabel" xml:space="preserve">
     <value>소스 열기</value>
+  </data>
+  <data name="OpenSourceMetaDescription" xml:space="preserve">
+    <value>AxCrypt 오픈 소스 코드를 검토하고, AxCrypt .NET GitHub 저장소를 탐색하며, 투명성이 어떻게 안전한 파일 암호화를 지원하는지 알아보세요.</value>
+  </data>
+  <data name="OpenSourceMetaTitle" xml:space="preserve">
+    <value>AxCrypt 오픈 소스 코드 | AxCrypt .NET 저장소 검토</value>
   </data>
   <data name="OpenSourceText" xml:space="preserve">
     <value>GNU General Public License의 오픈 소스</value>
@@ -32149,6 +32233,15 @@ HubSpot은 CRM 시스템을 통한 연락처 관리 등 온라인 마케팅 활�
   <data name="TechnicalDetailsSourceCodeHeading" xml:space="preserve">
     <value>소스 코드</value>
   </data>
+  <data name="TechnicalDetailsSourceCodeLinkLabel" xml:space="preserve">
+    <value>오픈 소스 페이지 보기</value>
+  </data>
+  <data name="TechnicalDetailsSourceCodeText1" xml:space="preserve">
+    <value>AxCrypt는 기술 검토와 보안 투명성을 위해 중요한 제품 코드를 보관합니다.</value>
+  </data>
+  <data name="TechnicalDetailsSourceCodeText2" xml:space="preserve">
+    <value>저장소 세부 정보, 라이선스 노트, 그리고 오픈 소스 페이지에서 안내를 확인해 보세요.</value>
+  </data>
   <data name="TechnicalDetailsStoredOnServerHeading" xml:space="preserve">
     <value>서버에 무엇이 저장되어 있나요?</value>
   </data>
@@ -33352,6 +33445,9 @@ AxCrypt 팀</value>
   </data>
   <data name="VaultFolderNotConfiguredMessage" xml:space="preserve">
     <value>어떤 폴더도 Vault로 설정된 적이 없습니다. Vault 폴더를 설정하고 다시 시도해 주세요.</value>
+  </data>
+  <data name="VaultFolderUnavailableMessage" xml:space="preserve">
+    <value>현재 귀하의 금고 폴더는 사용할 수 없습니다. 폴더가 이동되었거나 삭제되었거나, AxCrypt가 접근 권한이 없을 수 있습니다. 폴더 위치와 권한을 확인하시거나 다른 금고를 선택해 주세요.</value>
   </data>
   <data name="VaultGuideCarouselText1" xml:space="preserve">
     <value>Vault를 설정하려면 설정 → 고급 설정→ Vault 설정으로 이동해 주세요.</value>
