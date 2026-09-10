@@ -11,6 +11,12 @@ namespace AxCrypt.Core.UI
     {
         private long _workerCount = 0;
 
+        // Signals waiters when all in-flight operations complete (_workerCount → 0).
+        // RunContinuationsAsynchronously ensures TrySetResult doesn't run continuations
+        // inline on the thread that decrements the counter.
+        private TaskCompletionSource<bool> _idleTcs = new(TaskCreationOptions.RunContinuationsAsynchronously);
+        private readonly object _tcsLock = new();
+
         public event EventHandler<ProgressBackgroundEventArgs> OperationStarted;
 
         protected virtual void OnOperationStarted(ProgressBackgroundEventArgs e)
@@ -42,7 +48,17 @@ namespace AxCrypt.Core.UI
             ProgressBackgroundEventArgs e = new ProgressBackgroundEventArgs(progress);
             try
             {
-                Interlocked.Increment(ref _workerCount);
+                long newCount = Interlocked.Increment(ref _workerCount);
+                if (newCount == 1)
+                {
+                    // Transitioning from idle → busy: ensure a fresh, unsignalled TCS
+                    // is in place before any caller can observe Busy = true.
+                    lock (_tcsLock)
+                    {
+                        if (_idleTcs.Task.IsCompleted)
+                            _idleTcs = new TaskCompletionSource<bool>(TaskCreationOptions.RunContinuationsAsynchronously);
+                    }
+                }
                 OnOperationStarted(e);
 
                 FileOperationContext result = await Task.Run(() => workAsync(progress));
@@ -51,19 +67,21 @@ namespace AxCrypt.Core.UI
             finally
             {
                 OnOperationCompleted(e);
-                Interlocked.Decrement(ref _workerCount);
+                long remaining = Interlocked.Decrement(ref _workerCount);
+                if (remaining == 0)
+                {
+                    // All operations done: unblock any WaitForIdle callers.
+                    _idleTcs.TrySetResult(true);
+                }
             }
         }
 
         /// <summary>
-        /// Wait for all operations to complete.
+        /// Wait for all operations to complete. Returns immediately when already idle.
         /// </summary>
-        public async Task WaitForIdle()
+        public Task WaitForIdle()
         {
-            while (Busy)
-            {
-                await Task.Yield();
-            }
+            return Busy ? _idleTcs.Task : Task.CompletedTask;
         }
 
         public bool Busy
