@@ -1185,10 +1185,6 @@
   <data name="AutomaticFileUpdatingText" xml:space="preserve">
     <value>打开并保存后自动更新安全文件。</value>
   </data>
-  <data name="Autoshare files on encryption" xml:space="preserve">
-    <value>加密时自动共享文件
-</value>
-  </data>
   <data name="AutoShareFilesDescriptionText" xml:space="preserve">
     <value>自动与您选择的人员共享加密文件，让他们可以使用自己的 AxCrypt 账户打开这些文件。
 </value>
@@ -22457,10 +22453,6 @@
     <value>请使用至少 8 个字符，并包含大写和小写字母、数字及符号。
 </value>
   </data>
-  <data name="FilePasswordUsedForEncryptionText" xml:space="preserve">
-    <value>您刚刚设置的文件密码将用于加密文件，而不是使用您的账户密码。
-</value>
-  </data>
   <data name="FilePropertiesDateModifiedToolStripMenuItem" xml:space="preserve">
     <value>修改日期</value>
     <comment>A menu text for selecting file properties - date modified for encryption.</comment>
@@ -22648,10 +22640,6 @@
   </data>
   <data name="ForEveryoneLabel" xml:space="preserve">
     <value>为大家</value>
-  </data>
-  <data name="ForgottenFilePasswordWarningText" xml:space="preserve">
-    <value>如果您忘记此密码，可能会永久失去对这些文件的访问权限。
-</value>
   </data>
   <data name="ForIndividualsLabel" xml:space="preserve">
     <value>对于个人</value>
@@ -24824,6 +24812,105 @@
   <data name="IndustriesLinkLabel" xml:space="preserve">
     <value>行业</value>
   </data>
+  <data name="IndustryDetailAxcryptColumnTitle" xml:space="preserve">
+    <value>AxCrypt</value>
+  </data>
+  <data name="IndustryDetailBackLink" xml:space="preserve">
+    <value>行业
+</value>
+  </data>
+  <data name="IndustryDetailBuiltForYourWorkEyebrow" xml:space="preserve">
+    <value>专为您的工作而打造
+</value>
+  </data>
+  <data name="IndustryDetailCloudIntegrationsEyebrow" xml:space="preserve">
+    <value>云集成
+</value>
+  </data>
+  <data name="IndustryDetailComparisonEyebrow" xml:space="preserve">
+    <value>团队为何选择 AxCrypt
+</value>
+  </data>
+  <data name="IndustryDetailComplianceEyebrow" xml:space="preserve">
+    <value>值得信赖的合规保障
+</value>
+  </data>
+  <data name="IndustryDetailDefaultIntegrationsTitle" xml:space="preserve">
+    <value>适用于团队的各种工作环境
+</value>
+  </data>
+  <data name="IndustryDetailFaqTitle" xml:space="preserve">
+    <value>常见问题解答
+</value>
+  </data>
+  <data name="IndustryDetailHowAxcryptWorksEyebrow" xml:space="preserve">
+    <value>AxCrypt 的工作原理
+</value>
+  </data>
+  <data name="IndustryDetailIndustryChallengeEyebrow" xml:space="preserve">
+    <value>行业挑战
+</value>
+  </data>
+  <data name="IndustryDetailIntegrationsDescription" xml:space="preserve">
+    <value>在文件通过团队现有工具同步之前对其进行加密。
+</value>
+  </data>
+  <data name="IndustryDetailJsonLdAreaServed" xml:space="preserve">
+    <value>全球
+</value>
+  </data>
+  <data name="IndustryDetailJsonLdProviderName" xml:space="preserve">
+    <value>AxCrypt</value>
+  </data>
+  <data name="IndustryDetailJsonLdServiceType" xml:space="preserve">
+    <value>{industry} 文件加密
+</value>
+  </data>
+  <data name="IndustryDetailOgTitle" xml:space="preserve">
+    <value>{title} | AxCrypt</value>
+  </data>
+  <data name="IndustryDetailProtectedPill" xml:space="preserve">
+    <value>您的数据始终受到保护
+</value>
+  </data>
+  <data name="IndustryDetailQuestionsEyebrow" xml:space="preserve">
+    <value>问题
+</value>
+  </data>
+  <data name="IndustryDetailRatingAria" xml:space="preserve">
+    <value>5.0 分（满分 5 分）
+</value>
+  </data>
+  <data name="IndustryDetailRatingStars" xml:space="preserve">
+    <value>★★★★★</value>
+  </data>
+  <data name="IndustryDetailRatingValue" xml:space="preserve">
+    <value>5.0</value>
+  </data>
+  <data name="IndustryDetailResultsTitle" xml:space="preserve">
+    <value>成果
+</value>
+  </data>
+  <data name="IndustryDetailSecurityHighlightsAria" xml:space="preserve">
+    <value>{industry} 安全亮点
+</value>
+  </data>
+  <data name="IndustryDetailStartFreeTrial" xml:space="preserve">
+    <value>开始免费试用
+</value>
+  </data>
+  <data name="IndustryDetailStoryImageAlt" xml:space="preserve">
+    <value>使用 AxCrypt 文件加密的 {industry} 团队
+</value>
+  </data>
+  <data name="IndustryDetailSuccessStoryEyebrow" xml:space="preserve">
+    <value>成功案例
+</value>
+  </data>
+  <data name="IndustryDetailViewUseCases" xml:space="preserve">
+    <value>查看使用场景
+</value>
+  </data>
   <data name="InformationLinkLabel" xml:space="preserve">
     <value>信息</value>
   </data>
@@ -25051,6 +25138,10 @@
   </data>
   <data name="InvalidSubFolder" xml:space="preserve">
     <value>所选文件夹不是有效的子文件夹</value>
+  </data>
+  <data name="InvalidVaultFolderErrorMessage" xml:space="preserve">
+    <value>您的保管库文件夹当前不可用。&lt;br/&gt;&lt;br/&gt;该文件夹可能已被移动或删除，或者 AxCrypt 可能没有访问权限。请检查文件夹位置和权限，或选择其他保管库。
+</value>
   </data>
   <data name="InvalidVaultSetting" xml:space="preserve">
     <value>配置好的保险库文件夹路径要么无效，要么无法访问。更新保险库设置，设置有效路径以便继续。</value>
@@ -28869,6 +28960,14 @@ SE-114 29 斯德哥尔摩
   </data>
   <data name="OpenSourceLabel" xml:space="preserve">
     <value>开源</value>
+  </data>
+  <data name="OpenSourceMetaDescription" xml:space="preserve">
+    <value>查看 AxCrypt 开源代码，探索 AxCrypt .NET GitHub 代码仓库，并了解透明度如何支持安全的文件加密。
+</value>
+  </data>
+  <data name="OpenSourceMetaTitle" xml:space="preserve">
+    <value>AxCrypt 开源代码 | 查看 AxCrypt .NET 代码仓库
+</value>
   </data>
   <data name="OpenSourceText" xml:space="preserve">
     <value>在GNU通用公共许可证下开源。</value>
@@ -33629,6 +33728,18 @@ SE-114 29 斯德哥尔摩
   <data name="TechnicalDetailsSourceCodeHeading" xml:space="preserve">
     <value>源代码</value>
   </data>
+  <data name="TechnicalDetailsSourceCodeLinkLabel" xml:space="preserve">
+    <value>查看开源页面
+</value>
+  </data>
+  <data name="TechnicalDetailsSourceCodeText1" xml:space="preserve">
+    <value>AxCrypt 提供重要的产品代码供技术审查，以提升安全透明度。
+</value>
+  </data>
+  <data name="TechnicalDetailsSourceCodeText2" xml:space="preserve">
+    <value>在我们的开源页面上查看代码仓库详情、许可说明和审查指南。
+</value>
+  </data>
   <data name="TechnicalDetailsStoredOnServerHeading" xml:space="preserve">
     <value>什么是存储在服务器上？</value>
   </data>
@@ -34866,6 +34977,10 @@ AxCrypt团队</value>
   </data>
   <data name="VaultFolderNotConfiguredMessage" xml:space="preserve">
     <value>尚未将任何文件夹配置为保管库。请配置保管库文件夹后重试。
+</value>
+  </data>
+  <data name="VaultFolderUnavailableMessage" xml:space="preserve">
+    <value>您的保管库文件夹当前不可用。&lt;br/&gt;&lt;br/&gt;该文件夹可能已被移动或删除，或者 AxCrypt 可能没有访问权限。请检查文件夹位置和权限，或选择其他保管库。
 </value>
   </data>
   <data name="VaultGuideCarouselText1" xml:space="preserve">

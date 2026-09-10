@@ -1131,11 +1131,11 @@
   <data name="AutomaticFileUpdatingText" xml:space="preserve">
     <value>التحديث التلقائي للملف المحمي بعد فتحه وحفظه.</value>
   </data>
-  <data name="Autoshare files on encryption" xml:space="preserve">
-    <value>مشاركة الملفات تلقائيًا عند التشفير</value>
-  </data>
   <data name="AutoShareFilesDescriptionText" xml:space="preserve">
     <value>مشاركة الملفات المشفّرة تلقائيًا مع الأشخاص الذين تختارهم، حتى يتمكنوا من فتحها باستخدام حساب أكس كريبت الخاص بهم.</value>
+  </data>
+  <data name="AutoShareFilesOnEncryptionText" xml:space="preserve">
+    <value>مشاركة الملفات تلقائيًا عند تشفيرها</value>
   </data>
   <data name="AutoUpgradeFilesAES256" xml:space="preserve">
     <value>ترقية الملفات تلقائيًا إلى تشفير AES-256</value>
@@ -21675,7 +21675,7 @@ BitLocker
     <value>استخدم 8 أحرف على الأقل، مع أحرف كبيرة وصغيرة وأرقام ورموز.</value>
   </data>
   <data name="FilePasswordUsedForEncryptionText" xml:space="preserve">
-    <value>سيتم استخدام كلمة مرور الملف التي عيّنتها للتو لتشفير ملفاتك بدلًا من كلمة مرور حسابك.</value>
+    <value>سيتم استخدام كلمة مرور الملف التي عيّنتها للتو لتشفير ملفاتك بدلًا من كلمة مرور حسابك. إذا نسيت كلمة المرور هذه، فقد تفقد الوصول إلى تلك الملفات بشكل دائم.</value>
   </data>
   <data name="FilePropertiesDateModifiedToolStripMenuItem" xml:space="preserve">
     <value>تاريخ التعديل</value>
@@ -21858,9 +21858,6 @@ BitLocker
   </data>
   <data name="ForEveryoneLabel" xml:space="preserve">
     <value>للجميع </value>
-  </data>
-  <data name="ForgottenFilePasswordWarningText" xml:space="preserve">
-    <value>إذا نسيت كلمة المرور هذه، فقد تفقد الوصول إلى هذه الملفات نهائيًا.</value>
   </data>
   <data name="ForIndividualsLabel" xml:space="preserve">
     <value>للأفراد</value>
@@ -23868,6 +23865,84 @@ https://axcrypt.net/guides/encryption-decryption/</value>
   <data name="IndustriesLinkLabel" xml:space="preserve">
     <value>الصناعات</value>
   </data>
+  <data name="IndustryDetailAxcryptColumnTitle" xml:space="preserve">
+    <value>أكس كريبت</value>
+  </data>
+  <data name="IndustryDetailBackLink" xml:space="preserve">
+    <value>الصناعات</value>
+  </data>
+  <data name="IndustryDetailBuiltForYourWorkEyebrow" xml:space="preserve">
+    <value>مصمم ليتناسب مع عملك</value>
+  </data>
+  <data name="IndustryDetailCloudIntegrationsEyebrow" xml:space="preserve">
+    <value>تكاملات الخدمات السحابية</value>
+  </data>
+  <data name="IndustryDetailComparisonEyebrow" xml:space="preserve">
+    <value>لماذا تختار الفرق أكس كريبت</value>
+  </data>
+  <data name="IndustryDetailComplianceEyebrow" xml:space="preserve">
+    <value>امتثال يمكنك الاعتماد عليه</value>
+  </data>
+  <data name="IndustryDetailDefaultIntegrationsTitle" xml:space="preserve">
+    <value>يعمل حيث يعمل فريقك</value>
+  </data>
+  <data name="IndustryDetailFaqTitle" xml:space="preserve">
+    <value>الأسئلة الشائعة</value>
+  </data>
+  <data name="IndustryDetailHowAxcryptWorksEyebrow" xml:space="preserve">
+    <value>كيف يعمل أكس كريبت</value>
+  </data>
+  <data name="IndustryDetailIndustryChallengeEyebrow" xml:space="preserve">
+    <value>تحديات القطاع</value>
+  </data>
+  <data name="IndustryDetailIntegrationsDescription" xml:space="preserve">
+    <value>قم بتشفير الملفات قبل مزامنتها عبر الأدوات التي يستخدمها فريقك بالفعل.</value>
+  </data>
+  <data name="IndustryDetailJsonLdAreaServed" xml:space="preserve">
+    <value>عالمي</value>
+  </data>
+  <data name="IndustryDetailJsonLdProviderName" xml:space="preserve">
+    <value>أكس كريبت</value>
+  </data>
+  <data name="IndustryDetailJsonLdServiceType" xml:space="preserve">
+    <value>تشفير الملفات في قطاع {صناعة}</value>
+  </data>
+  <data name="IndustryDetailOgTitle" xml:space="preserve">
+    <value>{العنوان} | أكس كريبت</value>
+  </data>
+  <data name="IndustryDetailProtectedPill" xml:space="preserve">
+    <value>تظل بياناتك محمية</value>
+  </data>
+  <data name="IndustryDetailQuestionsEyebrow" xml:space="preserve">
+    <value>الأسئلة</value>
+  </data>
+  <data name="IndustryDetailRatingAria" xml:space="preserve">
+    <value>5.0 من 5 نجوم</value>
+  </data>
+  <data name="IndustryDetailRatingStars" xml:space="preserve">
+    <value>★★★★★</value>
+  </data>
+  <data name="IndustryDetailRatingValue" xml:space="preserve">
+    <value>٥٫٠</value>
+  </data>
+  <data name="IndustryDetailResultsTitle" xml:space="preserve">
+    <value>النتائج</value>
+  </data>
+  <data name="IndustryDetailSecurityHighlightsAria" xml:space="preserve">
+    <value>أبرز جوانب الأمن في {القطاع}</value>
+  </data>
+  <data name="IndustryDetailStartFreeTrial" xml:space="preserve">
+    <value>ابدأ التجربة المجانية</value>
+  </data>
+  <data name="IndustryDetailStoryImageAlt" xml:space="preserve">
+    <value>فريق {الصناعات} يستخدم تشفير الملفات من أكس كريبت</value>
+  </data>
+  <data name="IndustryDetailSuccessStoryEyebrow" xml:space="preserve">
+    <value>قصة نجاح</value>
+  </data>
+  <data name="IndustryDetailViewUseCases" xml:space="preserve">
+    <value>عرض حالات الاستخدام</value>
+  </data>
   <data name="InformationLinkLabel" xml:space="preserve">
     <value>المعلومات </value>
   </data>
@@ -24094,6 +24169,9 @@ https://axcrypt.net/guides/encryption-decryption/</value>
   </data>
   <data name="InvalidSubFolder" xml:space="preserve">
     <value>المجلد المحدد ليس مجلدًا فرعيًا صالحًا.</value>
+  </data>
+  <data name="InvalidVaultFolderErrorMessage" xml:space="preserve">
+    <value>مجلد الخزنة الخاص بك غير متاح حاليًا. قد يكون المجلد قد تم نقله أو حذفه، أو قد لا يمتلك أكس كريبت الأذونات اللازمة للوصول إليه. يُرجى التحقق من موقع المجلد والأذونات، أو اختيار خزنة أخرى.</value>
   </data>
   <data name="InvalidVaultSetting" xml:space="preserve">
     <value>مسار مجلد الخزنة المُكوَّن غير صالح أو غير قابل للوصول. قم بتحديث إعدادات الخزنة بمسار صالح للمتابعة.</value>
@@ -27761,6 +27839,12 @@ SE-114 29 ستوكهولم
   <data name="OpenSourceLabel" xml:space="preserve">
     <value>المصدر المفتوح</value>
   </data>
+  <data name="OpenSourceMetaDescription" xml:space="preserve">
+    <value>راجع الكود المصدري المفتوح لـ أكس كريبت، واستكشف مستودع أكس كريبت .NET على GitHub، وتعرّف على كيفية مساهمة الشفافية في دعم أمان تشفير الملفات.</value>
+  </data>
+  <data name="OpenSourceMetaTitle" xml:space="preserve">
+    <value>= كود أكس كريبت مفتوح المصدر | راجع مستودع أكس كريبت .NET</value>
+  </data>
   <data name="OpenSourceText" xml:space="preserve">
     <value>المصدر المفتوح تحت رخصة جنو العمومية العامة.</value>
   </data>
@@ -27865,6 +27949,9 @@ SE-114 29 ستوكهولم
   </data>
   <data name="OurVisionLabel" xml:space="preserve">
     <value>رؤيتنا</value>
+  </data>
+  <data name="OverviewText" xml:space="preserve">
+    <value>نظرة عامة</value>
   </data>
   <data name="OwnerEmailText" xml:space="preserve">
     <value>البريد الإلكتروني للمالك:</value>
@@ -32482,6 +32569,15 @@ SE-114 29 ستوكهولم
   <data name="TechnicalDetailsSourceCodeHeading" xml:space="preserve">
     <value>مصدر الرمز</value>
   </data>
+  <data name="TechnicalDetailsSourceCodeLinkLabel" xml:space="preserve">
+    <value>عرض صفحة المصادر المفتوحة</value>
+  </data>
+  <data name="TechnicalDetailsSourceCodeText1" xml:space="preserve">
+    <value>يُبقي أكس كريبت جزءًا مهمًا من كود المنتج متاحًا للمراجعة التقنية، تعزيزًا للشفافية الأمنية.</value>
+  </data>
+  <data name="TechnicalDetailsSourceCodeText2" xml:space="preserve">
+    <value>استكشف تفاصيل المستودع، وملاحظات الترخيص، وإرشادات المراجعة على صفحة المصادر المفتوحة الخاصة بنا.</value>
+  </data>
   <data name="TechnicalDetailsStoredOnServerHeading" xml:space="preserve">
     <value>ما يتم تخزينه على الخادم؟</value>
   </data>
@@ -32766,7 +32862,7 @@ SE-114 29 ستوكهولم
     <value>هذه شروط استخدام اكسكربت</value>
   </data>
   <data name="TermsOfUseLinkLabel" xml:space="preserve">
-    <value>Terms of Use</value>
+    <value>شروط الاستخدام</value>
   </data>
   <data name="TermsOfUsePwdmngrText1" xml:space="preserve">
     <value>مدير كلمة مرور اكسكربت متاح للشراء لجميع المستخدمين.</value>
@@ -33688,6 +33784,9 @@ SE-114 29 ستوكهولم
     <value>
 لم يتم تكوين أي مجلد كخزنة. يُرجى تكوين مجلد الخزنة والمحاولة مرة أخرى.</value>
   </data>
+  <data name="VaultFolderUnavailableMessage" xml:space="preserve">
+    <value>مجلد الخزنة الخاص بك غير متاح حاليًا. قد يكون المجلد قد تم نقله أو حذفه، أو قد لا يكون لدى أكس كريبت الإذن للوصول إليه. يُرجى التحقق من موقع المجلد والأذونات، أو اختيار خزنة أخرى.</value>
+  </data>
   <data name="VaultGuideCarouselText1" xml:space="preserve">
     <value>يرجى تكوين الخزنة من خلال الانتقال إلى الإعدادات → الإعدادات المتقدمة → إعدادات الخزنة.</value>
   </data>
@@ -34141,6 +34240,9 @@ SE-114 29 ستوكهولم
   </data>
   <data name="WeOfferLabel" xml:space="preserve">
     <value>نحن نقدم:</value>
+  </data>
+  <data name="WhatIsNextText" xml:space="preserve">
+    <value>ما التالي؟</value>
   </data>
   <data name="WhatOthersSayAboutUsHeading" xml:space="preserve">
     <value>ماذا &lt;span&gt;يقول الآخرون&lt;/span&gt; عنا</value>

@@ -1098,11 +1098,11 @@ Updates van het abonnement worden hier binnen enkele minuten weergegeven.</value
   <data name="AutomaticFileUpdatingText" xml:space="preserve">
     <value>Automatische update van beveiligde bestanden na het openen en opslaan.</value>
   </data>
-  <data name="Autoshare files on encryption" xml:space="preserve">
-    <value>AutoShareFilesOnEncryptionText</value>
-  </data>
   <data name="AutoShareFilesDescriptionText" xml:space="preserve">
     <value>Deel versleutelde bestanden automatisch met de personen van uw keuze, zodat zij deze kunnen openen met hun eigen AxCrypt-account.</value>
+  </data>
+  <data name="AutoShareFilesOnEncryptionText" xml:space="preserve">
+    <value>Bestanden automatisch delen bij versleuteling</value>
   </data>
   <data name="AutoUpgradeFilesAES256" xml:space="preserve">
     <value>Werk bestanden automatisch bij naar AES-256</value>
@@ -21433,7 +21433,7 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
     <value>Gebruik minimaal 8 tekens, met hoofdletters en kleine letters, cijfers en symbolen.</value>
   </data>
   <data name="FilePasswordUsedForEncryptionText" xml:space="preserve">
-    <value>Het bestandswachtwoord dat u zojuist hebt ingesteld, wordt gebruikt om uw bestanden te versleutelen in plaats van uw accountwachtwoord.</value>
+    <value>Het bestandswachtwoord dat u zojuist hebt ingesteld, wordt gebruikt om uw bestanden te versleutelen in plaats van uw accountwachtwoord. Als u dit wachtwoord vergeet, kunt u de toegang tot deze bestanden permanent verliezen.</value>
   </data>
   <data name="FilePropertiesDateModifiedToolStripMenuItem" xml:space="preserve">
     <value>Wijzigingsdatum</value>
@@ -21618,9 +21618,6 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   </data>
   <data name="ForEveryoneLabel" xml:space="preserve">
     <value>Voor iedereen</value>
-  </data>
-  <data name="ForgottenFilePasswordWarningText" xml:space="preserve">
-    <value>Als u dit wachtwoord vergeet, kunt u de toegang tot deze bestanden permanent verliezen.</value>
   </data>
   <data name="ForIndividualsLabel" xml:space="preserve">
     <value>Voor particulieren</value>
@@ -23627,6 +23624,84 @@ Dit zorgt er mogelijk voor dat sommige acties lang duren. Zorg er voor dat u gee
   <data name="IndustriesLinkLabel" xml:space="preserve">
     <value>Industrieën</value>
   </data>
+  <data name="IndustryDetailAxcryptColumnTitle" xml:space="preserve">
+    <value>AxCrypt</value>
+  </data>
+  <data name="IndustryDetailBackLink" xml:space="preserve">
+    <value>Industrieën</value>
+  </data>
+  <data name="IndustryDetailBuiltForYourWorkEyebrow" xml:space="preserve">
+    <value>Gebouwd voor uw werk</value>
+  </data>
+  <data name="IndustryDetailCloudIntegrationsEyebrow" xml:space="preserve">
+    <value>Cloudintegraties</value>
+  </data>
+  <data name="IndustryDetailComparisonEyebrow" xml:space="preserve">
+    <value>Waarom teams voor AxCrypt kiezen</value>
+  </data>
+  <data name="IndustryDetailComplianceEyebrow" xml:space="preserve">
+    <value>Compliance waarop u kunt vertrouwen</value>
+  </data>
+  <data name="IndustryDetailDefaultIntegrationsTitle" xml:space="preserve">
+    <value>Werkt waar uw team werkt</value>
+  </data>
+  <data name="IndustryDetailFaqTitle" xml:space="preserve">
+    <value>Veelgestelde Vragen</value>
+  </data>
+  <data name="IndustryDetailHowAxcryptWorksEyebrow" xml:space="preserve">
+    <value>Hoe AxCrypt werkt</value>
+  </data>
+  <data name="IndustryDetailIndustryChallengeEyebrow" xml:space="preserve">
+    <value>Uitdaging in de industrie</value>
+  </data>
+  <data name="IndustryDetailIntegrationsDescription" xml:space="preserve">
+    <value>Versleutel bestanden voordat ze worden gesynchroniseerd via de tools die uw team al gebruikt.</value>
+  </data>
+  <data name="IndustryDetailJsonLdAreaServed" xml:space="preserve">
+    <value>Globaal</value>
+  </data>
+  <data name="IndustryDetailJsonLdProviderName" xml:space="preserve">
+    <value>AxCrypt</value>
+  </data>
+  <data name="IndustryDetailJsonLdServiceType" xml:space="preserve">
+    <value>Bestandsversleuteling voor {industry}</value>
+  </data>
+  <data name="IndustryDetailOgTitle" xml:space="preserve">
+    <value>{titel} | AxCrypt</value>
+  </data>
+  <data name="IndustryDetailProtectedPill" xml:space="preserve">
+    <value>Uw gegevens blijven beschermd</value>
+  </data>
+  <data name="IndustryDetailQuestionsEyebrow" xml:space="preserve">
+    <value>Vragen</value>
+  </data>
+  <data name="IndustryDetailRatingAria" xml:space="preserve">
+    <value>5.0 van de 5 sterren</value>
+  </data>
+  <data name="IndustryDetailRatingStars" xml:space="preserve">
+    <value>★★★★★</value>
+  </data>
+  <data name="IndustryDetailRatingValue" xml:space="preserve">
+    <value>5.0</value>
+  </data>
+  <data name="IndustryDetailResultsTitle" xml:space="preserve">
+    <value>Resultaten</value>
+  </data>
+  <data name="IndustryDetailSecurityHighlightsAria" xml:space="preserve">
+    <value>Beveiligingshoogtepunten voor {industry}</value>
+  </data>
+  <data name="IndustryDetailStartFreeTrial" xml:space="preserve">
+    <value>Start de gratis proefperiode</value>
+  </data>
+  <data name="IndustryDetailStoryImageAlt" xml:space="preserve">
+    <value>{industry}-team die AxCrypt-bestandsversleuteling gebruikt</value>
+  </data>
+  <data name="IndustryDetailSuccessStoryEyebrow" xml:space="preserve">
+    <value>Succesverhaal</value>
+  </data>
+  <data name="IndustryDetailViewUseCases" xml:space="preserve">
+    <value>Bekijk gebruiksvoorbeelden</value>
+  </data>
   <data name="InformationLinkLabel" xml:space="preserve">
     <value>Informatie</value>
   </data>
@@ -23853,6 +23928,9 @@ U wachtwoord is niet opgeslagen op onze servers en de verbinding is altijd geën
   </data>
   <data name="InvalidSubFolder" xml:space="preserve">
     <value>De geselecteerde map is geen geldige submap</value>
+  </data>
+  <data name="InvalidVaultFolderErrorMessage" xml:space="preserve">
+    <value>Uw kluismap is momenteel niet beschikbaar. &lt;br/&gt;&lt;br/&gt;De map is mogelijk verplaatst of verwijderd, of AxCrypt heeft geen toestemming om er toegang toe te krijgen. Controleer de locatie en toegangsrechten van de map of kies een andere kluis.</value>
   </data>
   <data name="InvalidVaultSetting" xml:space="preserve">
     <value>Het geconfigureerde pad van de Kluis-map is ongeldig of ontoegankelijk. Werk de Kluisinstellingen bij met een geldig pad om door te gaan.</value>
@@ -27497,6 +27575,12 @@ Om terug te keren naar de startpagina, klik &lt;a href="{1}"&gt;hier&lt;/a&gt;.<
   </data>
   <data name="OpenSourceLabel" xml:space="preserve">
     <value>Open source</value>
+  </data>
+  <data name="OpenSourceMetaDescription" xml:space="preserve">
+    <value>Bekijk de open-sourcecode van AxCrypt, verken de AxCrypt .NET GitHub-repository en ontdek hoe transparantie bijdraagt aan veilige bestandsversleuteling.</value>
+  </data>
+  <data name="OpenSourceMetaTitle" xml:space="preserve">
+    <value>AxCrypt Open-sourcecode | Bekijk de AxCrypt .NET Repository</value>
   </data>
   <data name="OpenSourceText" xml:space="preserve">
     <value>Open source onder GNU General Public License.</value>
@@ -32189,6 +32273,15 @@ Ga naar de startpagina en klik &lt;a href="{1}"&gt;hier&lt;/a&gt; .</value>
   <data name="TechnicalDetailsSourceCodeHeading" xml:space="preserve">
     <value>Bron code</value>
   </data>
+  <data name="TechnicalDetailsSourceCodeLinkLabel" xml:space="preserve">
+    <value>Bekijk open-sourcepagina</value>
+  </data>
+  <data name="TechnicalDetailsSourceCodeText1" xml:space="preserve">
+    <value>AxCrypt houdt belangrijke productcode beschikbaar voor technische beoordeling en transparantie op het gebied van beveiliging.</value>
+  </data>
+  <data name="TechnicalDetailsSourceCodeText2" xml:space="preserve">
+    <value>Verken de details van de repository, licentie-informatie en richtlijnen voor beoordeling op onze open-sourcepagina.</value>
+  </data>
   <data name="TechnicalDetailsStoredOnServerHeading" xml:space="preserve">
     <value>Wat is opgeslagen op de server?</value>
   </data>
@@ -33393,6 +33486,9 @@ Het AxCrypt Team</value>
   </data>
   <data name="VaultFolderNotConfiguredMessage" xml:space="preserve">
     <value>Er is geen map geconfigureerd als Kluis. Configureer een kluismap en probeer het opnieuw.</value>
+  </data>
+  <data name="VaultFolderUnavailableMessage" xml:space="preserve">
+    <value>Uw kluismap is momenteel niet beschikbaar. &lt;br/&gt;&lt;br/&gt;De map is mogelijk verplaatst of verwijderd, of AxCrypt heeft geen toestemming om er toegang toe te krijgen. Controleer de locatie en toegangsrechten van de map of kies een andere kluis.</value>
   </data>
   <data name="VaultGuideCarouselText1" xml:space="preserve">
     <value>Configureer de Vault door naar Instellingen → Geavanceerde instellingen → Vault-instellingen te gaan.</value>

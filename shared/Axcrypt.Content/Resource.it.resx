@@ -1099,11 +1099,11 @@ Gli aggiornamenti all'abbonamento verranno riportati qui in pochi minuti.</value
   <data name="AutomaticFileUpdatingText" xml:space="preserve">
     <value>Aggiornamento automatico del file protetto dopo l'apertura ed il salvataggio.</value>
   </data>
-  <data name="Autoshare files on encryption" xml:space="preserve">
-    <value>CondivisioneAutomaticaDeiFileDuranteLaCrittografia</value>
-  </data>
   <data name="AutoShareFilesDescriptionText" xml:space="preserve">
     <value>Condividi automaticamente i file criptati con le persone che scegli, così che possano aprirli tramite il loro account AxCrypt.</value>
+  </data>
+  <data name="AutoShareFilesOnEncryptionText" xml:space="preserve">
+    <value>Condivisione automatica dei file con crittografia</value>
   </data>
   <data name="AutoUpgradeFilesAES256" xml:space="preserve">
     <value>File di aggiornamento automatico in AES-256</value>
@@ -21437,7 +21437,7 @@ Effettua il backup di tutti i tuoi file importanti - protetti e senza protezione
     <value>Usa almeno 8 caratteri, includendo maiuscole e minuscole, numeri e simboli.</value>
   </data>
   <data name="FilePasswordUsedForEncryptionText" xml:space="preserve">
-    <value>La password del file che hai appena impostato verrà usata per criptare i tuoi file invece della password dell'account.</value>
+    <value>La password del file che hai appena impostato verrà usata per criptare i tuoi file invece della password dell'account. Se dimentichi questa password, potresti perdere definitivamente l'accesso a quei file.</value>
   </data>
   <data name="FilePropertiesDateModifiedToolStripMenuItem" xml:space="preserve">
     <value>Data di modifica</value>
@@ -21620,9 +21620,6 @@ Effettua il backup di tutti i tuoi file importanti - protetti e senza protezione
   </data>
   <data name="ForEveryoneLabel" xml:space="preserve">
     <value>Per tutti</value>
-  </data>
-  <data name="ForgottenFilePasswordWarningText" xml:space="preserve">
-    <value>Se dimentichi questa password, potresti perdere definitivamente l'accesso a quei file.</value>
   </data>
   <data name="ForIndividualsLabel" xml:space="preserve">
     <value>Per privati</value>
@@ -23629,6 +23626,84 @@ Questo potrebbe richiedere molto tempo per eseguire alcune operazioni. Per favor
   <data name="IndustriesLinkLabel" xml:space="preserve">
     <value>Settori</value>
   </data>
+  <data name="IndustryDetailAxcryptColumnTitle" xml:space="preserve">
+    <value>AxCrypt</value>
+  </data>
+  <data name="IndustryDetailBackLink" xml:space="preserve">
+    <value>Settori</value>
+  </data>
+  <data name="IndustryDetailBuiltForYourWorkEyebrow" xml:space="preserve">
+    <value>Costruito per il tuo lavoro</value>
+  </data>
+  <data name="IndustryDetailCloudIntegrationsEyebrow" xml:space="preserve">
+    <value>Integrazioni cloud</value>
+  </data>
+  <data name="IndustryDetailComparisonEyebrow" xml:space="preserve">
+    <value>Perché i team scelgono AxCrypt</value>
+  </data>
+  <data name="IndustryDetailComplianceEyebrow" xml:space="preserve">
+    <value>Conformità su cui puoi contare</value>
+  </data>
+  <data name="IndustryDetailDefaultIntegrationsTitle" xml:space="preserve">
+    <value>Lavora dove lavora il tuo team</value>
+  </data>
+  <data name="IndustryDetailFaqTitle" xml:space="preserve">
+    <value>Domande frequenti</value>
+  </data>
+  <data name="IndustryDetailHowAxcryptWorksEyebrow" xml:space="preserve">
+    <value>Come funziona AxCrypt</value>
+  </data>
+  <data name="IndustryDetailIndustryChallengeEyebrow" xml:space="preserve">
+    <value>Sfida del settore</value>
+  </data>
+  <data name="IndustryDetailIntegrationsDescription" xml:space="preserve">
+    <value>Cripta i file prima che si sincronizzino tramite gli strumenti che il tuo team già utilizza.</value>
+  </data>
+  <data name="IndustryDetailJsonLdAreaServed" xml:space="preserve">
+    <value>Globale</value>
+  </data>
+  <data name="IndustryDetailJsonLdProviderName" xml:space="preserve">
+    <value>AxCrypt</value>
+  </data>
+  <data name="IndustryDetailJsonLdServiceType" xml:space="preserve">
+    <value>Crittografia dei file {settore}</value>
+  </data>
+  <data name="IndustryDetailOgTitle" xml:space="preserve">
+    <value>{titolo} | AxCrypt</value>
+  </data>
+  <data name="IndustryDetailProtectedPill" xml:space="preserve">
+    <value>I tuoi dati rimangono protetti</value>
+  </data>
+  <data name="IndustryDetailQuestionsEyebrow" xml:space="preserve">
+    <value>Domande</value>
+  </data>
+  <data name="IndustryDetailRatingAria" xml:space="preserve">
+    <value>5 stelle su 5 </value>
+  </data>
+  <data name="IndustryDetailRatingStars" xml:space="preserve">
+    <value>★★★★★</value>
+  </data>
+  <data name="IndustryDetailRatingValue" xml:space="preserve">
+    <value>5.0</value>
+  </data>
+  <data name="IndustryDetailResultsTitle" xml:space="preserve">
+    <value>Risultati</value>
+  </data>
+  <data name="IndustryDetailSecurityHighlightsAria" xml:space="preserve">
+    <value>Punti salienti della sicurezza {settore}</value>
+  </data>
+  <data name="IndustryDetailStartFreeTrial" xml:space="preserve">
+    <value>Inizia la prova gratuita</value>
+  </data>
+  <data name="IndustryDetailStoryImageAlt" xml:space="preserve">
+    <value>{settore} team che utilizza la crittografia dei file AxCrypt</value>
+  </data>
+  <data name="IndustryDetailSuccessStoryEyebrow" xml:space="preserve">
+    <value>Storia di successo</value>
+  </data>
+  <data name="IndustryDetailViewUseCases" xml:space="preserve">
+    <value>Visualizza casi d'uso</value>
+  </data>
   <data name="InformationLinkLabel" xml:space="preserve">
     <value>Informazioni</value>
   </data>
@@ -23855,6 +23930,9 @@ La tua password non è salvata nei nostri server e la connessione è sempre crip
   </data>
   <data name="InvalidSubFolder" xml:space="preserve">
     <value>La cartella selezionata non è una sottocartella valida</value>
+  </data>
+  <data name="InvalidVaultFolderErrorMessage" xml:space="preserve">
+    <value>La tua cartella del vault non è attualmente disponibile.&lt;br/&gt;&lt;br/&gt; La cartella potrebbe essere stata spostata o cancellata, oppure AxCrypt potrebbe non avere il permesso di accedervi. Controlla la posizione e i permessi della cartella, oppure scegli un altro vault.</value>
   </data>
   <data name="InvalidVaultSetting" xml:space="preserve">
     <value>Il percorso configurato per la cartella del Vault non è valido o non è accessibile. Aggiorna le impostazioni del Vault con un percorso valido per continuare.</value>
@@ -27484,6 +27562,12 @@ Per tornare alla pagina iniziale clicca &lt;a href="{1}"&gt;qui&lt;/a&gt;.</valu
   </data>
   <data name="OpenSourceLabel" xml:space="preserve">
     <value>Open source</value>
+  </data>
+  <data name="OpenSourceMetaDescription" xml:space="preserve">
+    <value>Esamina il codice open source di AxCrypt, esplora il repository AxCrypt .NET su GitHub e scopri come la trasparenza supporta la crittografia sicura dei file.</value>
+  </data>
+  <data name="OpenSourceMetaTitle" xml:space="preserve">
+    <value>Codice Open Source di AxCrypt | Consulta il repository AxCrypt .NET</value>
   </data>
   <data name="OpenSourceText" xml:space="preserve">
     <value>Open source sotto GNU General Public License.</value>
@@ -32172,6 +32256,15 @@ Per andare alla pagina iniziale, clicca &lt;a href="{1}"&gt;qui&lt;/a&gt; .</val
   <data name="TechnicalDetailsSourceCodeHeading" xml:space="preserve">
     <value>Codice sorgente</value>
   </data>
+  <data name="TechnicalDetailsSourceCodeLinkLabel" xml:space="preserve">
+    <value>Visualizza la pagina open source</value>
+  </data>
+  <data name="TechnicalDetailsSourceCodeText1" xml:space="preserve">
+    <value>AxCrypt mantiene a disposizione il codice prodotto importante per la revisione tecnica e la trasparenza della sicurezza.</value>
+  </data>
+  <data name="TechnicalDetailsSourceCodeText2" xml:space="preserve">
+    <value>Esplora i dettagli del repository, le note sulle licenze e la revisione delle linee guida nella nostra pagina open source.</value>
+  </data>
   <data name="TechnicalDetailsStoredOnServerHeading" xml:space="preserve">
     <value>Cosa viene memorizzato sul server?</value>
   </data>
@@ -33383,6 +33476,9 @@ Il Team di AxCrypt</value>
   </data>
   <data name="VaultFolderNotConfiguredMessage" xml:space="preserve">
     <value>Nessuna cartella è stata configurata come Vault. Si prega di configurare la cartella Vault e riprovare.</value>
+  </data>
+  <data name="VaultFolderUnavailableMessage" xml:space="preserve">
+    <value>La tua cartella del vault non è attualmente disponibile.&lt;br/&gt;&lt;br/&gt; La cartella potrebbe essere stata spostata o cancellata, oppure AxCrypt potrebbe non avere il permesso di accedervi. Controlla la posizione e i permessi della cartella, oppure scegli un altro vault.</value>
   </data>
   <data name="VaultGuideCarouselText1" xml:space="preserve">
     <value>Configura il Vault dalle Impostazioni †' Impostazioni avanzate †' Impostazioni del Vault.</value>
