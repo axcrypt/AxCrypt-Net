@@ -32,10 +32,6 @@ namespace AxCrypt.Core.Runtime
             {
                 return new PlanInformation(PlanState.NoPremium, 0, false, false,false, false);
             }
-            if (New<AxCryptOnlineState>().IsOffline)
-            {
-                return new PlanInformation(PlanState.OfflineNoPremium, 0, false, false, false, false);
-            }
 
             await UserAccountInfo.LoadAsync(identity).Free();
 
