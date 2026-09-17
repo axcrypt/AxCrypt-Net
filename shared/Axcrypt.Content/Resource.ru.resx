@@ -120,9 +120,6 @@
   <data name="AbortedFileStatus" xml:space="preserve">
     <value>Статус 'Прерван'</value>
   </data>
-  <data name="About" xml:space="preserve">
-    <value>Об {0}</value>
-  </data>
   <data name="AboutAwardsBadgeAlt" xml:space="preserve">
     <value>Рейтинговый значок обзора AxCrypt</value>
   </data>
@@ -1835,6 +1832,9 @@
   </data>
   <data name="AxCWhatsNextSecurityText3" xml:space="preserve">
     <value>Ознакомьтесь со страницей безопасности AxCrypt:  &lt;a href='/information/security/'&gt;&lt;b&gt;Why is AxCrypt secure? | Algorithms&lt;/b&gt;&lt;/a&gt;.</value>
+  </data>
+  <data name="AxxExtensionKeptAutomaticallyText" xml:space="preserve">
+    <value>Расширение .axx будет сохраняться автоматически.</value>
   </data>
   <data name="BackgroundEncryptionMigrationPopup" xml:space="preserve">
     <value>Миграция фонового шифрования</value>
@@ -11821,6 +11821,162 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   <data name="Blog_SamePage_AxcryptRunning" xml:space="preserve">
     <value>Для шифрования файлов лучшим выбором будет AxCrypt - программное обеспечение, которое легко понять, с которым можно работать в команде и которое предлагает 256-битное шифрование премиум-класса, гарантирующее, что вы получите максимальную отдачу. Вы можете просто &lt;a href='https://www.axcrypt.net/blog/leaving-your-computer-with-axcrypt-running '&gt;leave your computer with AxCrypt running&lt;/a&gt; и продолжать свой день, выполняя другие важные задачи, не беспокоясь о безопасности ваших файлов и документов.</value>
   </data>
+  <data name="Blog_SCFEYFLDGHN_Conclusion_Heading" xml:space="preserve">
+    <value>Усилить соответствие с шифрованием на уровне файлов</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Conclusion_Text1" xml:space="preserve">
+    <value>Пробелы в соблюдении и утечки данных могут возникать даже при наличии жёстких политик. AxCrypt помогает организациям добавить практическое шифрование на уровне файлов в их стек безопасности, чтобы конфиденциальные данные оставались защищёнными при хранении, обмене, отправке по электронной почте или доступе в разных средах. Повышайте готовность к утечкам и поддерживайте свои усилия по соблюдению требований с помощью шифрования, вписывающегося в повседневные рабочие процессы.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Conclusion_Text2" xml:space="preserve">
+    <value>- &lt;strong&gt;Защита конфиденциальных файлов:&lt;/strong&gt; примените шифрование AES-256 к конфиденциальным документам до их перемещения между устройствами, облачными приложениями или командами.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Conclusion_Text3" xml:space="preserve">
+    <value>- &lt;strong&gt;Поддержка контроля соответствия:&lt;/strong&gt; усиление мер защиты данных для GDPR, HIPAA, SOX и других нормативных требований.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Conclusion_Text4" xml:space="preserve">
+    <value>- &lt;strong&gt;Уменьшить уязвимость утечки:&lt;/strong&gt; сохраняйте защиту на уровне файлов даже тогда, когда файлы не находятся под вашим прямым контролем.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Conclusion_Text5" xml:space="preserve">
+    <value>&lt;a href='https://axcrypt.net/pricing/'&gt;&lt;strong&gt;Просмотреть цены&lt;/strong&gt;&lt;/a&gt; | &lt;a href='https://axcrypt.net/features/'&gt;&lt;strong&gt;Изучить функции&lt;/strong&gt;&lt;/a&gt; | &lt;a href='https://axcrypt.net/download/'&gt;&lt;strong&gt;Скачать AxCrypt&lt;/strong&gt;&lt;/a&gt;</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Conclusion_Text6" xml:space="preserve">
+    <value>Начните уже сегодня!</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_FAQ1_Answer" xml:space="preserve">
+    <value>GDPR не требует шифрования файлов во всех ситуациях, но статья 32 прямо указывает шифрование как надлежащую техническую меру для защиты персональных данных. От организаций ожидается внедрение мер безопасности, соразмерных риску, и шифрование широко признано одним из самых эффективных способов снизить риск в случае утраты, кражи или доступа к личным данным без разрешения.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_FAQ1_Question" xml:space="preserve">
+    <value>&lt;b&gt;1. Требует ли GDPR шифрования файлов?&lt;/b&gt;</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_FAQ2_Answer" xml:space="preserve">
+    <value>Согласно действующему правилу безопасности HIPAA, шифрование электронной защищённой медицинской информации (ePHI) считается адресируемой защитой, а не автоматическим требованием. Однако медицинские организации должны внедрять его, когда это разумно и уместно, или документировать эквивалентную альтернативу. Регуляторные ожидания продолжают двигаться в сторону более ужесточённых практик шифрования данных в состоянии покоя и при передаче.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_FAQ2_Question" xml:space="preserve">
+    <value>&lt;b&gt;2. Является ли шифрование обязательным по HIPAA?&lt;/b&gt;</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_FAQ3_Answer" xml:space="preserve">
+    <value>NIS2 не требует, чтобы каждый файл был зашифрован в любой ситуации. Вместо этого статья 21 требует, чтобы основные и важные организации внедряли пропорциональные и соответствующие меры управления рисками кибербезопасности, включая политики по использованию криптографии и, где это уместно, шифрования. Шифрование конфиденциальных и критически важных для бизнеса файлов, таких как финансовые записи, документация по безопасности, данные клиентов и материалы реагирования на инциденты, может укрепить конфиденциальность, целостность, контроль доступа и устойчивость, помогая организациям снизить последствия киберинцидента и продемонстрировать соответствие требованиям NIS2.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_FAQ3_Question" xml:space="preserve">
+    <value>&lt;b&gt;3. Требует ли соблюдение требований NIS2 использования зашифрованных файлов?&lt;/b&gt;</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_FAQ4_Answer" xml:space="preserve">
+    <value>Полное шифрование на диске защищает всё устройство при его выключении, тогда как шифрование на уровне файлов защищает отдельные файлы и папки даже при их копировании, отправке по электронной почте, синхронизации с облаком или хранении на съемных носителях. Для соответствия требованиям и обмена данными шифрование на уровне файлов часто обеспечивает более детальную и портативную защиту.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_FAQ4_Question" xml:space="preserve">
+    <value>&lt;b&gt;4. В чём разница между шифрованием на уровне файла и полноценным шифрованием на диске?&lt;/b&gt;</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_FAQ5_Answer" xml:space="preserve">
+    <value>В некоторых случаях – да. Если зашифрованные данные становятся непонятными для неавторизованных лиц, регуляторы могут считать риск для затронутых людей значительно ниже. Согласно GDPR, это может влиять на необходимость уведомления субъектов данных, хотя окончательное решение зависит от обстоятельств взлома и качества внедрения шифрования.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_FAQ5_Question" xml:space="preserve">
+    <value>&lt;b&gt;5. Может ли шифрование снизить обязанности по уведомлению о взломе?&lt;/b&gt;</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_FAQ6_Answer" xml:space="preserve">
+    <value>Шифрование AES-256 широко признано как сильный современный стандарт шифрования и широко используется в корпоративной, медицинской, финансовой и государственной среде. Сила шифрования также зависит от правильного управления ключами, безопасной реализации, контроля доступа и аутентификации пользователей, а не только от самого алгоритма.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_FAQ6_Question" xml:space="preserve">
+    <value>&lt;b&gt;6. Какой тип шифрования считается надёжным для соответствия требованиям?&lt;/b&gt;</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_FAQ7_Answer" xml:space="preserve">
+    <value>Да. Хорошо разработанная стратегия шифрования на уровне файлов может поддерживать как GDPR, так и HIPAA, поскольку они разделяют основные цели безопасности: защиту конфиденциальных данных, ограничение несанкционированного доступа, поддержание целостности данных и снижение воздействия инцидентов с безопасностью. GDPR требует соответствующих технических и организационных мер, основанных на рисках, тогда как HIPAA требует от подпадающих организаций и бизнес-партнёров защищать электронную защищённую медицинскую информацию с помощью соответствующих мер предосторожности. Само шифрование не гарантирует соответствие, но оно обеспечивает последовательный, податливый на аудит контроль и снижает операционную нагрузку по выполнению требований обеих структур.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_FAQ7_Question" xml:space="preserve">
+    <value>&lt;b&gt;7. Может ли одна стратегия шифрования помочь с GDPR и HIPAA?&lt;/b&gt;</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_H1_Text1" xml:space="preserve">
+    <value>Хотя GDPR, HIPAA и другие рамки соответствия отличаются по объёму и применению, они построены вокруг одной основной цели: защиты конфиденциальной информации от несанкционированного доступа, злоупотребления, утраты и утечки. В их основе лежит четкое ожидание, что организации должны защищать данные там, где они хранятся, распространяются или передаются.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_H1_Text2" xml:space="preserve">
+    <value>Именно здесь защита на уровне файлов становится важной деталью соответствия. Обеспечивая безопасность отдельных файлов с помощью шифрования AES-256, надёжного управления ключами и архитектуры с нулевым уровнем разглашения, организации могут снизить потенциальные последствия утечки и лучше соответствовать требованиям безопасности, установленным в современных нормативах по защите данных.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_H1_Text3" xml:space="preserve">
+    <value>Статья 32 Общего регламента ЕС по защите данных (GDPR) и Правило безопасности HIPAA (45 CFR Part 164, Subpart C) обе требуют от организаций внедрения соответствующих технических и организационных мер защиты, основанных на рисках. Хотя GDPR – это широкое европейское право о конфиденциальности, а HIPAA – специфичен для здравоохранения в США, оба подчёркивают важность шифрования, контроля доступа, устойчивости систем и постоянной защиты конфиденциальных данных.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_H2_Text1" xml:space="preserve">
+    <value>Шифрование работает лучше всего, когда является частью понятного, повторяемого процесса, а не одноразовой задачей. Используйте следующий чек-лист для последовательного применения защиты на уровне файлов в конфиденциальных данных, общих системах и рабочих процессах по соблюдению требований.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_H2_Text2" xml:space="preserve">
+    <value>&lt;b&gt;1. Выявить данные, представляющие высокий риск:&lt;/b&gt; Находит файлы, содержащие личную информацию, электронные медицинские записи, записи по заработной плате, финансовые отчёты, базы данных клиентов и конфиденциальные бизнес-документы.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_H2_Text3" xml:space="preserve">
+    <value>&lt;b&gt;2. Классифицировать файлы по конфиденциальности:&lt;/b&gt; группирует данные по уровню риска, чтобы команды понимали, какие файлы требуют наибольшей защиты, а какие могут соответствовать стандартным мерам безопасности.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_H2_Text4" xml:space="preserve">
+    <value>&lt;b&gt;3. Применить шифрование файлов AES-256:&lt;/b&gt; Шифрует конфиденциальные файлы и папки, хранящиеся в облачных платформах, общих дисках, вложениях электронной почты и съемных носителях. Шифрование на уровне файлов защищает сами данные, поэтому безопасность сохраняется вместе с файлом даже после его выхода из исходного устройства.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_H2_Text5" xml:space="preserve">
+    <value>&lt;b&gt;4. Контроль доступа и ключей:&lt;/b&gt; Используйте надёжное управление ключами и доступ с наименьшими привилегиями, чтобы только авторизованные пользователи могли расшифровать конфиденциальные файлы. Регулярно проверяйте разрешения, чтобы обеспечить точность и безопасность доступа.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_H2_Text6" xml:space="preserve">
+    <value>&lt;b&gt;5. Контроль документов для аудитов:&lt;/b&gt; фиксируйте, что шифруется, кто имеет доступ, как управляются ключи и как тестируется процесс. Это создаёт многоразовые доказательства соответствия GDPR, HIPAA и NIS2, при этом сохраняя единообразие шифрования по всей организации.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_H2_Text7" xml:space="preserve">
+    <value>Инструменты, такие как AxCrypt, могут поддерживать этот подход, помогая организациям защищать файлы в облачном хранилище, электронной почте и совместных рабочих процессах без лишней сложности для сотрудников.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_H3_Text1" xml:space="preserve">
+    <value>GDPR, NIS2 и HIPAA могут иметь разные требования, но все указывают на одну и ту же ответственность: организации должны защищать конфиденциальную информацию от несанкционированного доступа, раскрытия и неправильного использования. Соблюдение требований нельзя решить одним продуктом, но для этого необходимы совместные меры контроля в рамках более широкой стратегии безопасности.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_H3_Text2" xml:space="preserve">
+    <value>Именно поэтому AxCrypt следует рассматривать как нечто большее, чем просто инструмент шифрования файлов. Его следует добавить в стек безопасности организации и интегрировать в повседневные протоколы защиты данных, особенно там, где конфиденциальные файлы хранятся, распространяются, отправляются по электронной почте или получают доступ в облачных и гибридных средах.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_H3_Text3" xml:space="preserve">
+    <value>Благодаря шифрованию AES-256, надёжному управлению ключами, доступу с наименьшими привилегиями и подходу с нулевым уровнем разглашения, AxCrypt помогает сделать защиту на уровне файлов практичной, масштабируемой и простой для внедрения командами. Добавление AxCrypt в ваши меры безопасности усиливает первую линию защиты, снижает риск соблюдения требований и гарантирует защиту конфиденциальных данных даже тогда, когда файлы выходят за пределы вашего прямого контроля.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Heading1" xml:space="preserve">
+    <value>Что же на самом деле пытаются защитить эти правила?</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Heading2" xml:space="preserve">
+    <value>Подход AxCrypt и практический пятишаговый чек-лист реализации:</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Heading3" xml:space="preserve">
+    <value>Объединяя всё воедино,</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Heading4" xml:space="preserve">
+    <value>Часто задаваемые вопросы</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Summary" xml:space="preserve">
+    <value>И с тех пор как GDPR вступил в силу, компании, которые не защищают личные данные людей, сталкиваются со штрафами в миллиарды евро.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Text1" xml:space="preserve">
+    <value>Иногда люди недооценивают важность соблюдения требований к данным или уделяют этому вопросу недостаточно внимания.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Text10" xml:space="preserve">
+    <value>Однако этот урок выходит далеко за рамки сферы здравоохранения: когда конфиденциальные файлы передаются между подразделениями, поставщиками, устройствами и облачными приложениями, любая организация подвергается одинаковому риску возникновения последствий, связанных с нарушением нормативных требований, финансовыми потерями и ущербом для репутации.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Text11" xml:space="preserve">
+    <value>Именно в этом заключается практическое значение данной проблемы, и она указывает на простой отправной пункт для снижения риска: обеспечить защиту самих данных до того, как произойдет утечка.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Text12" xml:space="preserve">
+    <value>В этой статье рассматривается, как шифрование файлов является первой линией защиты, и как в случае утечки или нарушения соответствия инструменты шифрования, такие как AxCrypt, могут стать критически важной защитой для ограничения риска и доказательства того, что конфиденциальные данные остаются защищёнными.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Text2" xml:space="preserve">
+    <value>Для большинства это скорее галочка, чем проблема.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Text3" xml:space="preserve">
+    <value>И с момента вступления в силу GDPR компании, которые не защищают персональные данные людей, сталкиваются со штрафами в миллиарды евро. &lt;a href='https://www.privacyengine.io/gdpr-statistics-worldwide-2026/#:~:text=The%20General%20Data,the%20References%20section'&gt;Два самых надёжных отчета, отслеживающих соблюдение GDPR, показывают, насколько значительными стали эти штрафы.&lt;/a&gt;</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Text4" xml:space="preserve">
+    <value>Согласно январскому опросу DLA Piper по штрафам и утечкам данных GDPR, регуляторы выписали около €7,1 миллиарда штрафов с момента вступления закона в силу. Тем временем CMS GDPR Enforcement Tracker, который учитывает публично зарегистрированные случаи, зафиксировал штрафы на сумму €6,11 миллиарда по 2 685 делам по исполнению к марту 2026 года.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Text5" xml:space="preserve">
+    <value>Хотя суммы различаются из-за того, что каждый отчет использует немного разный способ подсчёта штрафов, оба подчёркивают одну и ту же тенденцию: регуляторы активно обеспечивают соблюдение GDPR, а организации, не соблюдающие его, могут столкнуться с существенными финансовыми санкциями.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Text6" xml:space="preserve">
+    <value>Это только GDPR.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Text7" xml:space="preserve">
+    <value>&lt;a href='https://www.faxsipit.com/blogs/hipaa-violation-statistics'&gt;Статистика нарушений HIPAA за 2026&lt;/a&gt; год показывает три важных цифры: 374 322 жалобы, поданные в Управление по гражданским правам HHS с 2003 года, 7 419 утечек медицинских данных с 2009 года и $2 190 294 в качестве действующего годового предела для одного из видов гражданско-правовых штрафов.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Text8" xml:space="preserve">
+    <value>Хакерские и ИТ-инциденты вызывают почти все крупные утечки HIPAA в медицинских организациях; вымогатели сейчас распространены в правоприменении HIPAA, и большинство зарегистрированных утечек связаны со взломами. Утечки медицинских данных затронули более чем в 2,5 раза больше населения США.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Text9" xml:space="preserve">
+    <value>Организации, подпадающие под действие HIPAA, сталкиваются с более строгими требованиями к уведомлению о нарушениях и более тщательной проверкой деловых партнёров, чем когда-либо прежде.</value>
+  </data>
+  <data name="Blog_SCFEYFLDGHN_Title" xml:space="preserve">
+    <value>Упрощение соответствия: шифрование файлов как ваша первая линия защиты от GDPR, HIPAA и NIS2</value>
+  </data>
   <data name="Blog_SCMAE_H1_Text1" xml:space="preserve">
     <value>Шифрование - это процесс шифрования данных. Многим из вас, возможно, не хватает досконального понимания шифрования. Это не так сложно, как кажется на первый взгляд. Вам не нужно быть специалистом по криптографии, чтобы понимать или даже использовать шифрование. Шифрование преобразует конфиденциальные данные в нечитаемый формат в его самой простой форме.</value>
   </data>
@@ -13629,6 +13785,238 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   </data>
   <data name="Blog_WAMHIHY_Title" xml:space="preserve">
     <value>Что такое партнерский маркетинг и как он может вам помочь?</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Conclusion_Heading" xml:space="preserve">
+    <value>Развивайтесь по мере роста ваших потребностей в области безопасности</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Conclusion_Text1" xml:space="preserve">
+    <value>Для частных лиц бесплатный тариф предлагает мощное и простое шифрование сразу же, обеспечивая прочную основу для защиты персональных данных.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Conclusion_Text2" xml:space="preserve">
+    <value>По мере роста ваших потребностей – будь то безопасное сотрудничество, продвинутое управление ключами или управление командой – премиальные планы AxCrypt расширяются на этой базе благодаря бесшовному обмену и корпоративным функциям.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Conclusion_Text3" xml:space="preserve">
+    <value>Попробуйте AxCrypt БЕСПЛАТНО сегодня.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Conclusion_Text4" xml:space="preserve">
+    <value>Скачайте AxCrypt – безопасное шифрование файлов для всех устройств</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Conclusion_Text5" xml:space="preserve">
+    <value>Уже существующий пользователь? &lt;a href='https://account.axcrypt.net/en/Home/Login'&gt;Обновляйте сейчас.&lt;/a&gt;</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Conclusion_Text6" xml:space="preserve">
+    <value>Подписались? Продолжайте заботиться о своей безопасности и опережать хакеров.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Conclusion_Text7" xml:space="preserve">
+    <value>Свяжитесь с нами по &lt;a href="mailto:support@axcrypt.net"&gt;support@axcrypt.net&lt;/a&gt; или &lt;a href="mailto:business@axcrypt.net"&gt;business@axcrypt.net&lt;/a&gt; , если у вас есть вопросы!</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Conclusion_Text8" xml:space="preserve">
+    <value>Следите за нами в социальных сетях, чтобы быть в курсе тенденций в области шифрования и кибербезопасности.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_FAQ1_Answer" xml:space="preserve">
+    <value>AxCrypt – один из лучших бесплатных инструментов безопасности данных для личного использования в 2026 году, поскольку его бесплатный тариф обеспечивает шифрование на уровне файлов без пробного периода. С AxCrypt Free вы можете: • Шифровать до 2 файлов в месяц • Попробовать защищённый мессенджер • Попробовать шифрование текста
+
+Для более широкой защиты сочетайте шифрование файлов с другими бесплатными инструментами безопасности, такими как менеджеры паролей, антивирусное ПО и VPN, чтобы защитить конфиденциальные файлы, пароли и онлайн-активность.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_FAQ1_Question" xml:space="preserve">
+    <value>&lt;b&gt;Какие лучшие бесплатные инструменты безопасности данных для личного использования в 2026 году?&lt;/b&gt;</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_FAQ2_Answer" xml:space="preserve">
+    <value>Вы можете бесплатно защитить свои данные с помощью AxCrypt Free. Он предлагает простые инструменты шифрования для новичков, позволяя шифровать файлы менее чем за 30 секунд. Защищайте конфиденциальные файлы на разных устройствах, облачных хранилищах и резервных копиях.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_FAQ2_Question" xml:space="preserve">
+    <value>&lt;b&gt;Как бесплатно защитить персональные данные в 2026 году?&lt;/b&gt;</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_FAQ3_Answer" xml:space="preserve">
+    <value>Лучшее бесплатное программное обеспечение для шифрования файлов для начинающих – AxCrypt. Оно просто в использовании и бесшовно интегрируется с Windows, Linux, macOS, Android и iOS. AxCrypt Free предоставляет бесплатные инструменты для защиты личных файлов на ноутбуках и ПК без необходимости технической экспертизы.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_FAQ3_Question" xml:space="preserve">
+    <value>&lt;b&gt;Какое лучшее бесплатное программное обеспечение для шифрования файлов для новичков?&lt;/b&gt;</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_FAQ4_Answer" xml:space="preserve">
+    <value>Да, бесплатные инструменты шифрования личных файлов, такие как AxCrypt, безопасны при использовании строгих стандартов шифрования. AxCrypt обеспечивает защиту ваших данных, что делает его одним из лучших бесплатных инструментов для защиты конфиденциальных файлов.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_FAQ4_Question" xml:space="preserve">
+    <value>&lt;b&gt;Достаточно ли безопасны бесплатные инструменты для шифрования файлов, содержащих конфиденциальные документов?&lt;/b&gt;</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_FAQ5_Answer" xml:space="preserve">
+    <value>Некоторые из лучших бесплатных приложений для конфиденциальности и безопасности для Windows, Linux, macOS, Android и iOS включают AxCrypt для шифрования, Windows Defender для защиты от вредоносного ПО и BitLocker для шифрования дисков. AxCrypt выделяется как одно из бесплатных программ для личного использования файлов в 2026 году.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_FAQ5_Question" xml:space="preserve">
+    <value>&lt;b&gt;Какие бесплатные инструменты могут защитить личные файлы на компьютере с Windows?&lt;/b&gt;</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_FAQ6_Answer" xml:space="preserve">
+    <value>Лучшее бесплатное персональное программное обеспечение для кибербезопасности в 2026 году должно включать: • AxCrypt (шифрование файлов) • Менеджер паролей • Антивирусное ПО • Защищённые инструменты резервного копирования
+
+Вместе они образуют набор лучших бесплатных программ для защиты файлов для пользователей ноутбуков и ПК.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_FAQ6_Question" xml:space="preserve">
+    <value>&lt;b&gt;Какие бесплатные инструменты кибербезопасности должны быть у каждого пользователя?&lt;/b&gt;</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_FAQ7_Answer" xml:space="preserve">
+    <value>Лучшая бесплатная альтернатива платному программному обеспечению для защиты данных – бесплатный тарифный план AxCrypt. Он предлагает мощные возможности шифрования, обычно встречающиеся в платных инструментах, что делает его одним из лучших бесплатных инструментов кибербезопасности для тех, кто хочет эффективную защиту без затрат.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_FAQ7_Question" xml:space="preserve">
+    <value>&lt;b&gt;Какая лучшая бесплатная альтернатива платному программному обеспечению для безопасности данных?&lt;/b&gt;</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H1_Text1" xml:space="preserve">
+    <value>Если вы спросили себя: «Как защитить конфиденциальные файлы, не платя за программное обеспечение?», то вы уже задали правильный вопрос и начали серьёзно задумываться о кибербезопасности.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H1_Text2" xml:space="preserve">
+    <value>Но... Вы почти у цели.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H1_Text3" xml:space="preserve">
+    <value>Утечки данных и взломы – это уже не просто корпоративные заголовки. Они становятся личными.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H1_Text4" xml:space="preserve">
+    <value>Даже в такие моменты, когда утечки становятся всё чаще, мало кто всё ещё полагается на стандартные облачные настройки (если вы понимаете, о чём речь), базовые пароли, обходные решения и, конечно, болезненно слабые и очевидные пароли, которые может взломать даже пятиклассник.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H1_Text5" xml:space="preserve">
+    <value>Бесплатных инструментов для предотвращения кражи данных на личных устройствах не хватает. Всё дело в том, чтобы найти подходящий и максимально использовать его. Но, опять же, это когда есть небольшие файлы, которые не вызовут ажиотаж с вымогателями.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H1_Text6" xml:space="preserve">
+    <value>Но вот в чём подвох. Бесплатные инструменты кибербезопасности могут помочь вам оставаться в безопасности в интернете. Но это лишь первая линия обороны, а то, что будет дальше, – вот где кроется настоящая сложность.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text1" xml:space="preserve">
+    <value>Простой ответ. Ваши данные всегда под угрозой, если они не защищены. Будь то попытка остановить соседа по комнате, чтобы он копался в вашей диссертации, или не допустить использование цепочки, или если храните что-то компрометирующее – всё это – данные, и они должны оставаться защищёнными.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text10" xml:space="preserve">
+    <value>Сегодня это звучит громче, чем когда-либо. Данные крадутся и продаются незаконно, а умершие данные продаются на аукционе в &lt;a href='https://www.komando.com/news/security/the-dark-web-price-list-what-criminals-pay-for-your-personal-data/'&gt;Даркнете под названием «Fullz&lt;/a&gt;», где медицинские записи теперь продаются не только кредитные карты, социальные номера, карты Aadhar или паспорта.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text11" xml:space="preserve">
+    <value>Нам нравится выкладывать фотографии и регистрироваться онлайн, что кажется безопасным, но некоторые личные данные и файлы никогда не должны распространяться в интернете. Сегодня вымогатели больше направлены на ущерб репутации, чем на получение денег. Известные люди платят за защиту своего имиджа, которым хакеры пользуются.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text12" xml:space="preserve">
+    <value>Один открытый файл.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text13" xml:space="preserve">
+    <value>Один слабый пароль от Gmail.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text14" xml:space="preserve">
+    <value>Один «знакомый» позвонил с просьбой о деньгах.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text15" xml:space="preserve">
+    <value>Вот и всё, что нужно. У вас могут быть лучшие бесплатные инструменты конфиденциальности для личных устройств. Что происходит, если вы доверяете голосу на другом конце линии или кликаете по ссылке из сообщения, которое казалось безобидным?</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text16" xml:space="preserve">
+    <value>&lt;a href='https://axcrypt.net/blog/academic-data-breaches-ivy-league-to-personal-data/'&gt;Подробнее читайте здесь о том, что социальная инженерия – это самый большой поток рабочих процессов.&lt;/a&gt;</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text17" xml:space="preserve">
+    <value>Если у вас есть власть, вы становитесь самой лёгкой целью для клеветы или цифрового выкупа.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text18" xml:space="preserve">
+    <value>К сожалению, это неприятная правда.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text2" xml:space="preserve">
+    <value>Например: Каш Патель.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text3" xml:space="preserve">
+    <value>Классический пример того, как люди у власти или на руководящих должностях становятся главными мишенями для атак на данные.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text4" xml:space="preserve">
+    <value>ВАШИНГТОН, 27 марта – Связанные с Ираном хакеры и злоумышленники проникли в Gmail директора ФБР Каша Пателя и опубликовали его фотографии, видео и другие документы в интернете.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text5" xml:space="preserve">
+    <value>&lt;a href='https://www.reuters.com/world/us/iran-linked-hackers-claim-breach-of-fbi-directors-personal-email-doj-official-2026-03-27/'&gt;Хакерская группа Handala Hack Team&lt;/a&gt; утверждает, что это было сделано для того, чтобы добавить его имя в список успешно взломанных жертв. Группа хакеров якобы публиковала видео и фотографии, на которых Патель нюхает и курит сигареты, танцует и занимается другими видами деятельности.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text6" xml:space="preserve">
+    <value>С точки зрения кибербезопасности... Ваши данные, ваша информация, ваши удостоверения, история покупок, поведение пользователей и ваша личность – это формы цифровой валюты. Да, в тёмной сети и другими злоумышленниками в интернете.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text7" xml:space="preserve">
+    <value>«Когда Джонатан Зиттрейн, американский профессор интернет-права, сказал...</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text8" xml:space="preserve">
+    <value>«Когда что-то в интернете бесплатно, вы не клиент, вы – продукт»</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H2_Text9" xml:space="preserve">
+    <value>Он имел в виду одно – ваши данные!</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H3_Text1" xml:space="preserve">
+    <value>В интернете существует множество бесплатных инструментов для предотвращения кражи данных на личных устройствах, и относительно просто бесплатно защитить свои данные в интернете. Всё, что вам нужно – это инструмент, ориентированный на конфиденциальность, который работает на детализированном уровне: с MFA, предлагающим надёжный, уникальный пароль, зашифрованные сообщения, облачную безопасность и автоматическое шифрование.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H3_Text2" xml:space="preserve">
+    <value>Короче говоря, ваш ответ – &lt;a href='https://axcrypt.net/'&gt;AxCrypt&lt;/a&gt;. Если вы действительно хотите защитить свои личные данные и скрыть любой цифровой след, вам также нужно интегрировать защищённые браузеры и блокировщики отслеживания. Таким образом, вы переходите в режим «призрака».</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H3_Text3" xml:space="preserve">
+    <value>Также крайне важно воздерживаться от использования публичного Wi-Fi, а использование виртуальных псевдонимов для электронной почты и номеров значительно повышает ваши шансы оставаться в безопасности и защите в интернете.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H4_Text1" xml:space="preserve">
+    <value>Хороший и бесплатный инструмент для защиты данных, такой как AxCrypt, предлагает лучшее в плане надёжной архитектуры с нулевым разглашением, с простым в развертывании алгоритмом 256-битного шифрования, открытой прозрачностью и сканированием пользовательской активности в реальном времени.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H4_Text2" xml:space="preserve">
+    <value>AxCrypt – один из тех бесплатных инструментов для защиты данных, который оснащён кроссплатформенной поддержкой, прост в использовании и развертывании, а также имеет очень простой пользовательский интерфейс, позволяющий шифровать и расшифровывать за считанные секунды, обходя все сложности с проблемными скриптами. Добавление AxCrypt в ваш стек безопасности помогает выстроить комплексную стратегию защиты, добавляя внимание к деталям на системно-ориентированном уровне.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H4_Text3" xml:space="preserve">
+    <value>Хотя на рынке существуют сетевые инструменты шифрования личных файлов, они, скорее всего, разработаны для выполнения конкретных целей.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H5_Text1" xml:space="preserve">
+    <value>Хотя большинство стеков безопасности данных ориентированы на систему, процесс или сеть, AxCrypt – это тот самый важный элемент, который работает на клеточном уровне, то есть файл в файл, где угодно</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H5_Text2" xml:space="preserve">
+    <value>Большинство систем защиты конечных точек, управления идентификацией и межсетевых экранов направлены на защиту точек доступа; AxCrypt занимается защитой самих данных. Это означает, что если произойдёт утечка, ваши данные останутся зашифрованы ключами, которые есть только у вас, и могут быть сохранены этими ключами, и где бы файл ни попал в руки хакеров для доступа, он останется открытым и ничего больше.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H5_Text3" xml:space="preserve">
+    <value>Благодаря такому детальному уровню защиты данных вы можете быть уверены, что ваши данные надежно защищены на всех платформах облачного хранения, при обмене данными и при создании резервных копий, и что они останутся недоступными для чтения даже в случае сбоя всех остальных систем защиты.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H5_Text4" xml:space="preserve">
+    <value>Давайте рассмотрим, как AxCrypt и большинство систем защиты данных дополняют друг друга в этой таблице:</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H5_Text5" xml:space="preserve">
+    <value>&lt;table style="width:100%; border-collapse:collapse; font-family:Arial,sans-serif; border:1px solid #d1d5db;"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style="background:#f3f4f6; border:1px solid #d1d5db; padding:14px; text-align:left;"&gt;Роль / Слой&lt;/th&gt;&lt;th style="background:#f3f4f6; border:1px solid #d1d5db; padding:14px; text-align:left;"&gt;Инструмент / Применение&lt;/th&gt;&lt;th style="background:#f3f4f6; border:1px solid #d1d5db; padding:14px; text-align:left;"&gt;Как он дополняет AxCrypt&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;Шифрование данных в состоянии покоя&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;AxCrypt&lt;/strong&gt; (Защищённые папки, совместное использование ключей)&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;Шифрует и защищает файлы от создания до хранения; все конфиденциальные файлы команды хранятся в защищённых папках AxCrypt.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;Полное шифрование диска / тома&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;BitLocker (Windows)&lt;/strong&gt; / &lt;strong&gt;FileVault (macOS)&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;Защищает весь диск. Если ноутбук украден, злоумышленники всё равно должны обойти AxCrypt, чтобы прочитать определённые файлы, и даже если они это сделают, у них останется куча мусорного текста, который благодаря 256-битному шифрованию нечитаем.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;Защита конечных точек&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;Microsoft Defender для Endpoint&lt;/strong&gt; или &lt;strong&gt;CrowdStrike / Bitdefender EDR&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;В то время как защита конечных точек ориентирована на &lt;strong&gt;системно-ориентированную защиту&lt;/strong&gt;, AxCrypt нацелена на &lt;strong&gt;защиту, ориентированную на данные&lt;/strong&gt;. При атаке с помощью вымогателей &lt;strong&gt;«добыча&lt;/strong&gt; » остаётся нечитаемой. Используя оба способа, если ваша системно-ориентированная защита (EDR) сработает, AxCrypt всё равно защищает конфиденциальность ваших данных.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;Идентификация и доступ&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;Microsoft Entra ID (Azure AD)&lt;/strong&gt; + &lt;strong&gt;MFA&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;Управляет доступом к общему облачному хранилищу с папками, защищёнными AxCrypt; блокирует несанкционированные входы. Злоумышленники должны обойти как проверку личности (Entra ID/MFA), так и шифрование AxCrypt для кражи или просмотра данных.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;Гигиена паролей&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;Встроенный менеджер паролей&lt;/strong&gt; в AxCrypt + выделенный менеджер паролей (например, Bitwarden или 1Password)&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;Помогает командам безопасно хранить и синхронизировать надёжные пароли для аккаунтов AxCrypt и других сервисов.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;Безопасность облачного хранилища&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;OneDrive / Google Drive / Dropbox&lt;/strong&gt; (с папками с поддержкой AxCrypt)&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;AxCrypt обеспечивает безопасное облачное шифрование файлов с помощью простых действий в контекстном меню. Приложение также поддерживает защищённое совместное использование ключей. Благодаря облачной безопасности AxCrypt поставщики хранения могут получать доступ только к шифротексту, никогда не исходному открытому тексту.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;Сетевая безопасность&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;Файрвол / VPN&lt;/strong&gt; (например, Zscaler, Cloudflare Zero Trust или VPN, построенный на ОС)&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;Контролирует, кто может связаться с файловым сервером или облачным хранилищем, где хранятся ваши папки AxCrypt.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;Резервные копии и автоматизация&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;&lt;strong&gt;AxCrypt CLI&lt;/strong&gt; + &lt;strong&gt;Datto / инструменты или скрипты для резервного копирования&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; vertical-align:top;"&gt;Datto выбирает ваши «живые» файлы перед их резервным копированием, но с помощью командного интерфейса AxCrypt Command Line Interface (CLI) ваши данные перемешиваются в нечитаемое состояние и затем хранятся.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H6_Text1" xml:space="preserve">
+    <value>Хотя бесплатных инструментов для предотвращения кражи данных на персональных устройствах онлайн не хватает, большинство из них ориентированы на защиту на уровне устройств и не имеют детального уровня защиты, как, например, предлагает AxCrypt.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H6_Text2" xml:space="preserve">
+    <value>Данные постоянно перемещаются – будь то между устройствами, облачными хранилищами, резервными копиями, письмами, сообщениями, общими папками и так далее. Здесь традиционные бесплатные инструменты уступают, и как только данные покидают защищённое устройство, они могут быть уязвимы для обнаружения или перехвата, и чаще всего это происходит до того, как вы это заметите.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H6_Text3" xml:space="preserve">
+    <value>Лучшая отправная точка: реальная защита на уровне файлов</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H6_Text4" xml:space="preserve">
+    <value>AxCrypt решает эту проблему, шифруя на уровне файлов по умолчанию, а не второстепенным: он шифрует при создании, следует за данными повсюду (включая облако и резервные копии) и подлежит безопасному совместному использованию ключей, чтобы команды могли сотрудничать без раскрытия открытого текста.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H6_Text5" xml:space="preserve">
+    <value>Что самое лучшее? Вы можете попробовать это с бесплатным тарифом AxCrypt.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H6_Text6" xml:space="preserve">
+    <value>Шифрование на уровне файлов – это не продвинутая функция; это ваша отправная точка. С момента создания файла его можно зашифровать, обеспечивая защиту ваших данных, независимо от того, где они находятся – локально, общие или резервные копии в облаке.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H6_Text7" xml:space="preserve">
+    <value>В отличие от традиционных инструментов, AxCrypt напрямую сосредоточен на защите самих данных, а не только окружающей среды.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H6_Text8" xml:space="preserve">
+    <value>В наборе, включающем BitLocker, EDR, межсетевые экраны, платформы идентификации и облачное хранилище, AxCrypt – это единственный слой, который напрямую защищает ценность самих данных, поэтому он выделяется как самый важный и отличительный элемент вашего стека кибербезопасности.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_H6_Text9" xml:space="preserve">
+    <value>&lt;table style="width:100%; border-collapse:collapse; font-family:Arial,sans-serif; border:1px solid #d1d5db;"&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style="background:#f3f4f6; border:1px solid #d1d5db; padding:14px; text-align:left;"&gt;Функция / Возможности&lt;/th&gt;&lt;th style="background:#f3f4f6; border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;VeraCrypt&lt;/th&gt;&lt;th style="background:#f3f4f6; border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;Cryptomator&lt;/th&gt;&lt;th style="background:#f3f4f6; border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;7-Zip&lt;/th&gt;&lt;th style="background:#f3f4f6; border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;Битварден&lt;/th&gt;&lt;th style="background:#e8f3ff; border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;&lt;strong&gt;AxCrypt&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="border:1px solid #d1d5db; padding:14px;"&gt;&lt;strong&gt;Шифрование файлов&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;Лимитированный&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;Да&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;Да&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;Нет&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center; background:#f7fbff;"&gt;&lt;strong&gt;✅ Да&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border:1px solid #d1d5db; padding:14px;"&gt;&lt;strong&gt;Полное шифрование диска&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;&lt;strong&gt;✅ Да&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;Нет&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;Нет&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;Нет&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center; background:#f7fbff;"&gt;Нет&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border:1px solid #d1d5db; padding:14px;"&gt;&lt;strong&gt;Простота использования&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;❌ Комплекс&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;⚠️ Умеренный&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;✅ Спокойно&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;✅ Спокойно&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center; background:#f7fbff;"&gt;&lt;strong&gt;✅ Очень просто&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border:1px solid #d1d5db; padding:14px;"&gt;&lt;strong&gt;Безопасный обмен файлами&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;❌ Нет&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;❌ Нет&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;❌ Нет&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;❌ Нет&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center; background:#f7fbff;"&gt;&lt;strong&gt;✅ Да&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border:1px solid #d1d5db; padding:14px;"&gt;&lt;strong&gt;Создано для повседневного использования&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;❌ Нет&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;⚠️ Лимитированный&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;⚠️ Основы&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;❌ Нет&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center; background:#f7fbff;"&gt;&lt;strong&gt;✅ Да&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border:1px solid #d1d5db; padding:14px;"&gt;&lt;strong&gt;Кроссплатформенность&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;⚠️ Лимитированный&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;✅ Да&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;✅ Да&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;✅ Да&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center; background:#f7fbff;"&gt;&lt;strong&gt;✅ Да&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="border:1px solid #d1d5db; padding:14px;"&gt;&lt;strong&gt;Масштабируемость бизнеса&lt;/strong&gt;&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;❌ Нет&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;❌ Нет&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;❌ Нет&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center;"&gt;⚠️ Лимитированный&lt;/td&gt;&lt;td style="border:1px solid #d1d5db; padding:14px; text-align:center; background:#f7fbff;"&gt;&lt;strong&gt;✅ Да&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Heading1" xml:space="preserve">
+    <value>Введение</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Heading2" xml:space="preserve">
+    <value>Почему нужны инструменты безопасности данных для личного использования в 2026 году</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Heading3" xml:space="preserve">
+    <value>Как бесплатно защитить персональные данные в 2026 году</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Heading4" xml:space="preserve">
+    <value>Что делает хороший бесплатный инструмент для защиты данных?</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Heading5" xml:space="preserve">
+    <value>Представьте AxCrypt как последнее или первое, самое безопасное дополнение к вашему стеку безопасности и защиты данных.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Heading6" xml:space="preserve">
+    <value>Бесплатные инструменты безопасности данных и почему AxCrypt выделяется лучше всего!</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Heading7" xml:space="preserve">
+    <value>Часто задаваемые вопросы</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Summary" xml:space="preserve">
+    <value>Если вы спросили себя: «Как защитить конфиденциальные файлы, не платя за программное обеспечение?», то вы уже задали правильный вопрос и начали серьёзно задумываться о кибербезопасности.</value>
+  </data>
+  <data name="Blog_WATBFDSTPU2_Title" xml:space="preserve">
+    <value>Какие лучшие бесплатные инструменты безопасности данных для личного использования в 2026 году?</value>
   </data>
   <data name="Blog_WAYAFC_H1_Text1" xml:space="preserve">
     <value>Знаете ли вы, что, по прогнозам, к 2025 году киберпреступность будет обходиться мировой экономике в ошеломляющие &lt;a href='https://www.jerichosecurity.com/blog/cost-of-cybercrime-to-reach-10.5-trillion-by-2025'&gt;&lt;b&gt;$10.5 trillion annually by 2025&lt;/b&gt;&lt;/a&gt;? Это больше, чем весь ВВП некоторых стран!</value>
@@ -16387,6 +16775,9 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   <data name="BrowseAndManageFilesDescription" xml:space="preserve">
     <value>Просматривайте и управляйте файлами в вашем {0} аккаунте.</value>
   </data>
+  <data name="BrowseCloudFolderInstruction" xml:space="preserve">
+    <value>Зайдите в облачную папку, куда хотите добавить файлы.</value>
+  </data>
   <data name="BrowseFilesText" xml:space="preserve">
     <value>Просмотр файлов</value>
   </data>
@@ -17384,6 +17775,9 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   <data name="ChoosePrivateOrBusinessSignUpInfo" xml:space="preserve">
     <value>Чтобы начать работу с вашей учетной записью, выберите тип регистрации: частный или корпоративный пользователь AxCrypt. </value>
   </data>
+  <data name="ChooseSourceToAddFilesText" xml:space="preserve">
+    <value>Выберите исходный код для добавления файлов</value>
+  </data>
   <data name="ChooseUpTo" xml:space="preserve">
     <value>Выберите до {0} пользователей</value>
   </data>
@@ -17441,6 +17835,9 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   </data>
   <data name="CloudBrowserPageTips1" xml:space="preserve">
     <value>+ Добавить файлы</value>
+  </data>
+  <data name="CloudFileBrowserAddButtonInstruction" xml:space="preserve">
+    <value>Нажмите на иконку + в верхней панели.</value>
   </data>
   <data name="CloudServicesConnectedText" xml:space="preserve">
     <value>Подключено</value>
@@ -17791,6 +18188,9 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   </data>
   <data name="ConfirmPasswordLabel" xml:space="preserve">
     <value>Подтвердите пароль</value>
+  </data>
+  <data name="ConnectCloudStorageProviderInstruction" xml:space="preserve">
+    <value>Перейдите в раздел «Файлы» и подключитесь к провайдеру облачного хранилища (Google Drive, Dropbox и т.д.).</value>
   </data>
   <data name="ContactHeading" xml:space="preserve">
     <value>Связь</value>
@@ -18284,6 +18684,9 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   <data name="DebugToolStripMenuItemText" xml:space="preserve">
     <value>Отладка</value>
   </data>
+  <data name="DecryptAndOpenTemporarilyText" xml:space="preserve">
+    <value>Расшифровать и временно открыть</value>
+  </data>
   <data name="DecryptAndRemoveFromListToolStripMenuItemText" xml:space="preserve">
     <value>Прекратить протекцию и удалить из списка</value>
   </data>
@@ -18315,6 +18718,9 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   <data name="DecryptGuideHead" xml:space="preserve">
     <value>Дешифрование</value>
   </data>
+  <data name="DecryptingFilesText" xml:space="preserve">
+    <value>Расшифровка файлов...</value>
+  </data>
   <data name="DecryptToolStripMenuItemText" xml:space="preserve">
     <value>Прекратить Протекцию</value>
   </data>
@@ -18336,6 +18742,9 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
 
 Нам очень жаль Вас терять, но мы надеемся, что Ваше время с AxCrypt было результативным!</value>
   </data>
+  <data name="DeleteFailedText" xml:space="preserve">
+    <value>Не удалось удалить</value>
+  </data>
   <data name="DeleteGroupWarningText" xml:space="preserve">
     <value>Вы хотите удалить Группу?</value>
   </data>
@@ -18350,6 +18759,9 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   </data>
   <data name="DeleteSecretText" xml:space="preserve">
     <value>Вы уверены, что хотите удалить этот секрет.</value>
+  </data>
+  <data name="DeletingText" xml:space="preserve">
+    <value>Удаляю...</value>
   </data>
   <data name="DeletionFailed" xml:space="preserve">
     <value>{0} Удаление не удалось.</value>
@@ -19032,6 +19444,9 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   <data name="EncryptAndShareUnlimitedFilesMessage" xml:space="preserve">
     <value>Шифруйте и делитесь &lt;strong&gt;неограниченным&lt;/strong&gt; числом файлов</value>
   </data>
+  <data name="EncryptAndUploadFilesInstruction" xml:space="preserve">
+    <value>AxCrypt зашифрует и загрузит их в облачную папку.</value>
+  </data>
   <data name="EncryptDecryptFaq1" xml:space="preserve">
     <value>Как расшифровать файлы, зашифрованные с помощью AxCrypt 1?</value>
   </data>
@@ -19248,6 +19663,9 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   <data name="EncryptDecryptSideMenuHead4" xml:space="preserve">
     <value>Расшифровка (мобильный)</value>
   </data>
+  <data name="EncryptedAxxFilesText" xml:space="preserve">
+    <value>Зашифрованные .axx-файлы</value>
+  </data>
   <data name="EncryptedFoldersToolStripMenuItemText" xml:space="preserve">
     <value>Защищённые Файлы</value>
   </data>
@@ -19283,6 +19701,12 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   </data>
   <data name="EncryptFileWithPasswordText" xml:space="preserve">
     <value>Зашифруйте этот файл паролем. Вам понадобится этот пароль, чтобы открыть файл.</value>
+  </data>
+  <data name="EncryptingFilesText" xml:space="preserve">
+    <value>Шифрование файлов...</value>
+  </data>
+  <data name="EncryptingText" xml:space="preserve">
+    <value>Шифруется...</value>
   </data>
   <data name="EncryptionManagementText" xml:space="preserve">
     <value>Управление шифрованием</value>
@@ -19727,6 +20151,9 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   <data name="FastDownloadText" xml:space="preserve">
     <value>Дополнительное интеллектуальное сжатие.</value>
   </data>
+  <data name="FeatureGuideTitle" xml:space="preserve">
+    <value>Руководство по функциям</value>
+  </data>
   <data name="FeatureLabel" xml:space="preserve">
     <value>Функции</value>
   </data>
@@ -19735,6 +20162,9 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   </data>
   <data name="FeatureListSecurelySharePremium" xml:space="preserve">
     <value>Безопасно делитесь зашифрованными паролями, данными карт и заметками с 10 пользователями одновременно.</value>
+  </data>
+  <data name="FeaturePremiumFeatureText" xml:space="preserve">
+    <value>{0} является премиум-функцией</value>
   </data>
   <data name="FeaturesAccountKeyDescription" xml:space="preserve">
     <value>Резервного копирование ключей личного аккаунта</value>
@@ -21338,6 +21768,24 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   <data name="FindPathTitle" xml:space="preserve">
     <value>Путь к файлу</value>
   </data>
+  <data name="FirstFileDecryptionInstruction" xml:space="preserve">
+    <value>Чтобы открыть его позже, нажмите на .axx-файл, и тогда он автоматически будет расшифровываться во время входа в систему.</value>
+  </data>
+  <data name="FirstFileEncryptionActionInstruction" xml:space="preserve">
+    <value>На главном экране нажмите «Зашифровать» в разделе «Действия с файлом».</value>
+  </data>
+  <data name="FirstFileEncryptionCompleteDescription" xml:space="preserve">
+    <value>AxCrypt шифрует его и добавляет расширение .axx – исходный файл надёжно заменяется.</value>
+  </data>
+  <data name="FirstFileEncryptionDescription" xml:space="preserve">
+    <value>AxCrypt использует шифрование AES-256 – тот же стандарт, который используют банки и государственные органы. Шифрование файла обеспечивает его защиту с помощью пароля вашей учетной записи, благодаря чему открыть его сможете только вы (или те, с кем вы поделились ключом).</value>
+  </data>
+  <data name="FirstFileEncryptionLoginInstruction" xml:space="preserve">
+    <value>Войдите в аккаунт AxCrypt (создайте бесплатный аккаунт на axcrypt.net).</value>
+  </data>
+  <data name="FirstFileEncryptionSelectFileInstruction" xml:space="preserve">
+    <value>Выберите файл с вашего устройства или облачного хранилища.</value>
+  </data>
   <data name="FirstNameLabel" xml:space="preserve">
     <value>Имя</value>
   </data>
@@ -21637,6 +22085,9 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   </data>
   <data name="FriendsEmailText" xml:space="preserve">
     <value>Введите адрес электронной почты вашего друга здесь</value>
+  </data>
+  <data name="FromDeviceText" xml:space="preserve">
+    <value>Из Устройства</value>
   </data>
   <data name="FromText" xml:space="preserve">
     <value>От:</value>
@@ -22249,6 +22700,9 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   </data>
   <data name="GovernmentLinkLabel" xml:space="preserve">
     <value>Государственное управление</value>
+  </data>
+  <data name="GrantAccessToAnotherUserText" xml:space="preserve">
+    <value>Предоставление доступа другому пользователю</value>
   </data>
   <data name="GroupBlockSupportText1" xml:space="preserve">
     <value>Для получения дополнительной поддержки и помощи, пожалуйста, не стесняйтесь обращаться к нам по &lt;span&gt;электронной почте.&lt;/span&gt; &lt;strong&gt;Свяжитесь со службой поддержки:&lt;/strong&gt; &lt;a href='mailto:support@axcrypt.net'&gt;support@axcrypt.net&lt;/a&gt;.</value>
@@ -23078,11 +23532,17 @@ href='https://www. halcyon.ai/blog/verizon-dbir-shows-ransomware-involved-in-44-
   <data name="HideFeaturesLabel" xml:space="preserve">
     <value>Скрытые функции</value>
   </data>
+  <data name="HideFileIdentityWithRandomNameText" xml:space="preserve">
+    <value>Скрыть идентичность файла случайным именем</value>
+  </data>
   <data name="HideOriginalFileNamesPopup" xml:space="preserve">
     <value>Скрыть оригинальные имена файлов</value>
   </data>
   <data name="HideRecentFilesListTabToolTipText" xml:space="preserve">
     <value>Список Последние Файлы отключен. Перейдите в Параметры чтобы включить.</value>
+  </data>
+  <data name="HideStepsTexts" xml:space="preserve">
+    <value>Скрыть шаги</value>
   </data>
   <data name="HipaaActionLabel" xml:space="preserve">
     <value>HIPAA</value>
@@ -23323,6 +23783,12 @@ OneDrive или Dropbox с шифрованием с нулевым разгла
   </data>
   <data name="HowItWorks" xml:space="preserve">
     <value>Посмотрите, как это работает</value>
+  </data>
+  <data name="HowToEncryptFirstFileTitle" xml:space="preserve">
+    <value>Как зашифровать свой первый файл</value>
+  </data>
+  <data name="HowToUsePasswordManagerTitle" xml:space="preserve">
+    <value>Как пользоваться Менеджером паролей</value>
   </data>
   <data name="IAcceptAxCryptTermsMessage" xml:space="preserve">
     <value>Я принимаю предложения AxCrypt</value>
@@ -24030,11 +24496,29 @@ SE-114 29 Стокгольм
   <data name="KeyShareOverviewParagraph2" xml:space="preserve">
     <value>Вкратце: AxCrypt использует асимметричное шифрование и уникальный сессионный ключ для каждого файла. Вы делитесь ключами для доступа — а не паролями...</value>
   </data>
+  <data name="KeySharingDescription" xml:space="preserve">
+    <value>Обмен ключами позволяет предоставить другому пользователю AxCrypt доступ к зашифрованному файлу без отправки самого файла. Для добавления их в файл используется публичный ключ получателя – только он может его расшифровать.</value>
+  </data>
+  <data name="KeySharingEncryptFileInstruction" xml:space="preserve">
+    <value>Зашифруйте файл, которым хотите поделиться (функция Premium).</value>
+  </data>
   <data name="KeySharingExistsToolTip" xml:space="preserve">
     <value>Ключевой файл разделён с другими AxCrypt пользователями.</value>
   </data>
   <data name="KeySharingOffline" xml:space="preserve">
     <value>Новые контакты могут быть добавлены только в режиме онлайн!</value>
+  </data>
+  <data name="KeySharingRecipientEmailInstruction" xml:space="preserve">
+    <value>Введите адрес электронной почты получателя в AxCrypt.</value>
+  </data>
+  <data name="KeySharingRecipientOpenFileInstruction" xml:space="preserve">
+    <value>Получатель открывает его через свой аккаунт AxCrypt.</value>
+  </data>
+  <data name="KeySharingSendFileInstruction" xml:space="preserve">
+    <value>Отправляйте .axx файл через любой канал – электронную почту, облачную ссылку или приложение для сообщений.</value>
+  </data>
+  <data name="KeySharingShareKeyInstruction" xml:space="preserve">
+    <value>Нажмите ⋮ меню файла и выберите Клавишу Поделиться.</value>
   </data>
   <data name="KeySharingToolTip" xml:space="preserve">
     <value>Нажмите для выбора закодированных файлов, чтобы поделиться ключами с другими.</value>
@@ -24524,6 +25008,9 @@ SE-114 29 Стокгольм
   </data>
   <data name="LinkToSecretsPageWithUserNameFormat" xml:space="preserve">
     <value>{0}secrets?email={1}&amp;app</value>
+  </data>
+  <data name="LoadingCloudFilesText" xml:space="preserve">
+    <value>Загружаю облачные файлы...</value>
   </data>
   <data name="LoadingPlansTexts" xml:space="preserve">
     <value>Загрузка планов...</value>
@@ -25401,6 +25888,9 @@ SE-114 29 Стокгольм
   <data name="Meta-Description-Blog-ROOACP" xml:space="preserve">
     <value>Узнайте, как организация паролей компании может повысить безопасность и предотвратить несанкционированный доступ. Ознакомьтесь с рекомендациями по управлению паролями.</value>
   </data>
+  <data name="Meta-Description-Blog-SCFEYFLDGHN" xml:space="preserve">
+    <value>Узнайте, как шифрование на уровне файлов помогает защитить конфиденциальные данные и укрепить соответствие GDPR, HIPAA и NIS2 шифрованию AES-256 и безопасному управлению ключами.</value>
+  </data>
   <data name="Meta-Description-Blog-SCMAE" xml:space="preserve">
     <value>Раскройте правду о распространенных мифах о шифровании. Узнайте, как работает шифрование и почему оно важно для защиты конфиденциальных данных</value>
   </data>
@@ -25457,6 +25947,9 @@ SE-114 29 Стокгольм
   </data>
   <data name="Meta-Description-Blog-W4BSSUFOTCAHAFI" xml:space="preserve">
     <value>48% компаний хранят незашифрованные файлы в облаке. Узнайте, как шифрование AES-256 от AxCrypt защищает ваши данные, предотвращает утечки и защищает удалённые команды.</value>
+  </data>
+  <data name="Meta-Description-Blog-WATBFDSTPU2" xml:space="preserve">
+    <value>Откройте для себя лучшие бесплатные инструменты безопасности данных для личного использования в 2026 году, включая шифрование файлов, менеджеры паролей, антивирус, резервные копии и AxCrypt для защиты на уровне файлов.</value>
   </data>
   <data name="Meta-Description-Blog-WATPOI" xml:space="preserve">
     <value>Узнайте о влиянии WikiLeaks и важности шифрования для защиты конфиденциальной информации. Извлеките уроки из защиты данных.</value>
@@ -26085,6 +26578,9 @@ SE-114 29 Стокгольм
   <data name="Meta-Title-Blog-ROOACP" xml:space="preserve">
     <value>Почему организация паролей компаний важна для безопасности </value>
   </data>
+  <data name="Meta-Title-Blog-SCFEYFLDGHN" xml:space="preserve">
+    <value>Шифрование файлов для соответствия GDPR, HIPAA и NIS2 | AxCrypt</value>
+  </data>
   <data name="Meta-Title-Blog-SCMAE" xml:space="preserve">
     <value>Развенчиваем распространенные мифы о шифровании: что нужно знать</value>
   </data>
@@ -26141,6 +26637,9 @@ SE-114 29 Стокгольм
   </data>
   <data name="Meta-Title-Blog-W4BSSUFOTCAHAFI" xml:space="preserve">
     <value>Почему 48% компаний хранят незашифрованные файлы в облаке | AxCrypt</value>
+  </data>
+  <data name="Meta-Title-Blog-WATBFDSTPU2" xml:space="preserve">
+    <value>Лучшие бесплатные инструменты безопасности данных для личного использования в 2026 году</value>
   </data>
   <data name="Meta-Title-Blog-WATPOI" xml:space="preserve">
     <value>WikiLeaks: роль шифрования в защите информации</value>
@@ -26856,6 +27355,9 @@ SE-114 29 Стокгольм
   <data name="NewMessageText" xml:space="preserve">
     <value>Новое сообщение</value>
   </data>
+  <data name="NewNameText" xml:space="preserve">
+    <value>Новое название</value>
+  </data>
   <data name="NewPassphraseDialogTitle" xml:space="preserve">
     <value>Создать Новый Пароль</value>
   </data>
@@ -27008,6 +27510,9 @@ SE-114 29 Стокгольм
   </data>
   <data name="NisWhatsInsidesubheading" xml:space="preserve">
     <value>Что внутри:</value>
+  </data>
+  <data name="NoAnnouncementsInCategoryText" xml:space="preserve">
+    <value>В этой категории пока нет объявлений.</value>
   </data>
   <data name="NoChargeDuringTrialMessage" xml:space="preserve">
     <value>Бесплатно в течение пробного периода</value>
@@ -27218,6 +27723,15 @@ SE-114 29 Стокгольм
   <data name="OpenFileColumnHeader" xml:space="preserve">
     <value>Файл</value>
   </data>
+  <data name="OpeningFileText" xml:space="preserve">
+    <value>Открываю файл...</value>
+  </data>
+  <data name="OpenPasswordManagerInstruction" xml:space="preserve">
+    <value>Откройте Менеджер паролей в навигационной панели.</value>
+  </data>
+  <data name="OpenPasswordManagerKeyIconInstruction" xml:space="preserve">
+    <value>Нажмите на значок клавиши в нижней навигационной панели, чтобы открыть Менеджер паролей.</value>
+  </data>
   <data name="OpenSourceLabel" xml:space="preserve">
     <value>Открытый исходный код</value>
   </data>
@@ -27241,6 +27755,12 @@ SE-114 29 Стокгольм
   </data>
   <data name="OperatingSystemsLabel" xml:space="preserve">
     <value>Операционная система</value>
+  </data>
+  <data name="OperationCouldNotBeCompletedText" xml:space="preserve">
+    <value>Операция не может быть выполнена.</value>
+  </data>
+  <data name="OperationFailedText" xml:space="preserve">
+    <value>Операция не удалась</value>
   </data>
   <data name="OptionalLabel" xml:space="preserve">
     <value>опционально</value>
@@ -27614,11 +28134,26 @@ SE-114 29 Стокгольм
     <value>Пароли</value>
     <comment>A one-word title for the password manager, typically having the meaning of 'passwords', i.e. the plural form of Password.</comment>
   </data>
+  <data name="PasswordManagerAddButtonAlwaysVisibleDescription" xml:space="preserve">
+    <value>Зелёная кнопка + всегда видна в правом нижнем углу.</value>
+  </data>
+  <data name="PasswordManagerAddEntryInstruction" xml:space="preserve">
+    <value>Нажмите на него, чтобы добавить новый логин, карту или защищённую заметку.</value>
+  </data>
   <data name="PasswordManagerAndSecureVaultMessage" xml:space="preserve">
     <value>Менеджер паролей и защищённое хранилище</value>
   </data>
   <data name="PasswordManagerBrowserExtensionGuideLinkLabel" xml:space="preserve">
     <value>Расширение браузера Менеджера паролей</value>
+  </data>
+  <data name="PasswordManagerCopyPasswordInstruction" xml:space="preserve">
+    <value>Чтобы быстро скопировать пароль, нажмите кнопку в списке.</value>
+  </data>
+  <data name="PasswordManagerCreateEntryInstruction" xml:space="preserve">
+    <value>Нажмите зелёную кнопку +, чтобы создать первую запись.</value>
+  </data>
+  <data name="PasswordManagerDescription" xml:space="preserve">
+    <value>Встроенный менеджер паролей хранит логины, данные карты и защищённые заметки в зашифрованном хранилище, привязанном к вашему аккаунту AxCrypt. Он работает на всех ваших устройствах.</value>
   </data>
   <data name="PasswordManagerLinkLabel" xml:space="preserve">
     <value>Менеджер паролей</value>
@@ -27628,6 +28163,21 @@ SE-114 29 Стокгольм
   </data>
   <data name="PasswordmanagerProductContent" xml:space="preserve">
     <value>Защитите пароли, данные кредитных карт и заметки с помощью AES-256. Синхронизируйтесь с неограниченным количеством устройств и получайте доступ с любого устройства. Получите его прямо сейчас за 0,83$ в месяц!</value>
+  </data>
+  <data name="PasswordManagerSaveEntryInstruction" xml:space="preserve">
+    <value>Нажмите "Сохранить" – ваша запись зашифрована и синхронизирована с вашей учетной записью.</value>
+  </data>
+  <data name="PasswordManagerScrollInstruction" xml:space="preserve">
+    <value>Прокрутите вниз по сохранённым паролям.</value>
+  </data>
+  <data name="PasswordManagerSelectEntryTypeInstruction" xml:space="preserve">
+    <value>Выберите «Войти», «Карта» или «Безопасная заметка» и заполните данные.</value>
+  </data>
+  <data name="PasswordManagerStickyAddButtonDescription" xml:space="preserve">
+    <value>Зелёная кнопка + в Менеджере паролей теперь остаётся неподвижной внизу экрана при прокрутке паролей, благодаря чему вы можете добавить новую запись, не возвращаясь к началу страницы.</value>
+  </data>
+  <data name="PasswordManagerStickyAddButtonTitle" xml:space="preserve">
+    <value>Менеджер паролей – закрепленная кнопка добавления</value>
   </data>
   <data name="PasswordManagerTrialInfo" xml:space="preserve">
     <value>Скачайте Менеджер паролей от AxCrypt сегодня и получите первые 14 дней пользования бесплатно!</value>
@@ -27819,6 +28369,9 @@ SE-114 29 Стокгольм
   <data name="PayPalReadMoreLink" xml:space="preserve">
     <value>[Больше информации о PayPal]</value>
   </data>
+  <data name="PermanentlyShredFileText" xml:space="preserve">
+    <value>Навсегда стереть этот файл</value>
+  </data>
   <data name="PerMonthLabel" xml:space="preserve">
     <value>В месяц</value>
   </data>
@@ -27839,6 +28392,12 @@ SE-114 29 Стокгольм
   </data>
   <data name="PhonePlaceholder" xml:space="preserve">
     <value>Введите свой номер телефона</value>
+  </data>
+  <data name="PhotoVaultText" xml:space="preserve">
+    <value>Фотохранилище</value>
+  </data>
+  <data name="PickFilesFromDeviceDescription" xml:space="preserve">
+    <value>Выбирайте файлы из вашего хранилища iOS или Android</value>
   </data>
   <data name="PlainTextFileOption" xml:space="preserve">
     <value>Обычный текстовый файл</value>
@@ -27863,6 +28422,9 @@ SE-114 29 Стокгольм
   </data>
   <data name="PleaseSelectYourBusinessAccountMessage" xml:space="preserve">
     <value>Пожалуйста, выберите свой бизнес-аккаунт</value>
+  </data>
+  <data name="PleaseWaitText" xml:space="preserve">
+    <value>Пожалуйста, подождите...</value>
   </data>
   <data name="PolishLanguageSelection" xml:space="preserve">
     <value>Польский</value>
@@ -28132,6 +28694,9 @@ SE-114 29 Стокгольм
   <data name="PremiumNeededForMobileApp" xml:space="preserve">
     <value>Извините, но Вы не являетесь действенным подписчиком. Обновите Ваш аккаунт сейчас для доступа к использованию оплачиваемых функций от AxCrypt, находящихся вне приложения и  являющимися необходимыми для работы приложения.</value>
     <comment>Message displaying when user works with mobile app without premium subscription.</comment>
+  </data>
+  <data name="PremiumOrBusinessPlanRequiredDescription" xml:space="preserve">
+    <value>Для этой функции требуется премиум или бизнес-план. Обновитесь, чтобы разблокировать неограниченное шифрование, совместное использование ключей, синхронизацию в облаке и многое другое.</value>
   </data>
   <data name="PremiumPlusHeading" xml:space="preserve">
     <value>PREMIUM+:</value>
@@ -28679,6 +29244,12 @@ SE-114 29 Стокгольм
   </data>
   <data name="PrivateUserText" xml:space="preserve">
     <value>Для &lt;span&gt;ЧАСТНЫХ пользователей&lt;/span&gt;</value>
+  </data>
+  <data name="ProcessingFilesText" xml:space="preserve">
+    <value>Обработка файлов...</value>
+  </data>
+  <data name="ProcessingText" xml:space="preserve">
+    <value>Обработка...</value>
   </data>
   <data name="ProductBadgesHeading1" xml:space="preserve">
     <value>Максимальная простота использования</value>
@@ -29265,6 +29836,9 @@ SE-114 29 Стокгольм
   <data name="ProtectFileIdentityPopup" xml:space="preserve">
     <value>Безопасная защита идентичности файла</value>
   </data>
+  <data name="ProtectWithAes256Text" xml:space="preserve">
+    <value>Защита с помощью AES-256</value>
+  </data>
   <data name="PurchaseErrorSubscriptionTime" xml:space="preserve">
     <value>Выбранное время подписки недействительно. Действительная подписка должна быть минимум {0} месяцев или не более {1} месяцев.</value>
   </data>
@@ -29720,8 +30294,14 @@ SE-114 29 Стокгольм
   <data name="RenameDeleteOrDecryptFilesPopup" xml:space="preserve">
     <value>Переименование, удаление или расшифровка файлов</value>
   </data>
+  <data name="RenameFailedText" xml:space="preserve">
+    <value>Не удалось переименовать</value>
+  </data>
   <data name="RenameFilesSecurelyPopup" xml:space="preserve">
     <value>Безопасно переименовать файлы</value>
+  </data>
+  <data name="RenameFileTitle" xml:space="preserve">
+    <value>Переименование файла</value>
   </data>
   <data name="RenewActiveBusinessSubscriptionWarning" xml:space="preserve">
     <value>На эту учетную запись действует активная повторная подписка. Повторные Business подписки не нужно продлевать вручную.</value>
@@ -30280,6 +30860,9 @@ SE-114 29 Стокгольм
   <data name="ReviewsLabel" xml:space="preserve">
     <value>Обзоры</value>
   </data>
+  <data name="RootText" xml:space="preserve">
+    <value>Корень</value>
+  </data>
   <data name="RussianLanguageSelection" xml:space="preserve">
     <value>Русский</value>
     <comment>The name of the Russian Language in Russian. It should never be translated.</comment>
@@ -30290,6 +30873,9 @@ SE-114 29 Стокгольм
   </data>
   <data name="SaveCardsAndSecureNotesFeature" xml:space="preserve">
     <value>Сохраняйте карточки и защищайте заметки</value>
+  </data>
+  <data name="SaveDecryptedCopyToDiskText" xml:space="preserve">
+    <value>Сохранить расшифрованную копию на диск</value>
   </data>
   <data name="SavedToText" xml:space="preserve">
     <value>Сохранено в:</value>
@@ -30308,6 +30894,12 @@ SE-114 29 Стокгольм
   </data>
   <data name="ScriptingEnabledText" xml:space="preserve">
     <value>Обширный интерфейс командной строки для написания сценариев и программирования.</value>
+  </data>
+  <data name="SearchFilesAndFoldersPlaceholder" xml:space="preserve">
+    <value>Поиск файлов и папок...</value>
+  </data>
+  <data name="SearchFilesPlaceholder" xml:space="preserve">
+    <value>Поиск файлов...</value>
   </data>
   <data name="SearchLogsPlaceholder" xml:space="preserve">
     <value>Журналы поиска...</value>
@@ -30533,6 +31125,24 @@ SE-114 29 Стокгольм
   </data>
   <data name="SecureDeleteToolStripMenuItemText" xml:space="preserve">
     <value>Безопасное Удаление</value>
+  </data>
+  <data name="SecuredFoldersAddLocalFolderInstruction" xml:space="preserve">
+    <value>Нажмите кнопку +, чтобы добавить локальную папку с вашего устройства.</value>
+  </data>
+  <data name="SecuredFoldersAutoEncryptOnAddDescription" xml:space="preserve">
+    <value>Защищённые папки теперь автоматически шифруют любые незащищённые файлы сразу после добавления папки или при поступлении новых. Это соответствует опыту работы на рабочем столе – без необходимости ручного этапа «очистки».</value>
+  </data>
+  <data name="SecuredFoldersAutoEncryptOnAddTitle" xml:space="preserve">
+    <value>Защищённые папки – автоматическое шифрование при добавлении</value>
+  </data>
+  <data name="SecuredFoldersEncryptUnprotectedFilesInstruction" xml:space="preserve">
+    <value>AxCrypt сканирует папку и сразу зашифрует любые незащищённые файлы.</value>
+  </data>
+  <data name="SecuredFoldersNewFilesAutoEncryptInstruction" xml:space="preserve">
+    <value>Новые файлы, добавленные позже, обнаруживаются монитором папки и автоматически шифруются.</value>
+  </data>
+  <data name="SecuredFoldersOpenAppInstruction" xml:space="preserve">
+    <value>Откройте приложение и нажмите на «Защищённые папки» из меню.</value>
   </data>
   <data name="SecuredFolderValidationCannotAddItemsInVault" xml:space="preserve">
     <value>Выбранная папка/файл является частью хранилища и уже защищена. Чтобы добавить новые файлы, пожалуйста, выберите место вне Хранилища.</value>
@@ -30950,6 +31560,24 @@ SE-114 29 Стокгольм
     <value>Для нас безопасность имеет ключевую роль. Всё, что делается вместе с AxCrypt, происходит с наивысшим приоритетом безопасности. Мы заботимся о том, чтобы никто не имел доступа к Вашим закодированным файлам, при условии , что Вы контролируете Ваш собственный пароль.</value>
     <comment>Description of "Security" section of About Us page in mobile application.</comment>
   </data>
+  <data name="SecurityStatusCardDescription" xml:space="preserve">
+    <value>На главной странице теперь отображается карта статуса безопасности, которая кратко показывает ваш уровень защиты – покрытие шифрования, статус обмена ключами и любые требующие внимания – адаптированный под уровень вашей подписки.</value>
+  </data>
+  <data name="SecurityStatusCardOpenInstruction" xml:space="preserve">
+    <value>Откройте главный экран, чтобы увидеть вашу карту статуса безопасности.</value>
+  </data>
+  <data name="SecurityStatusCardPremiumBusinessDescription" xml:space="preserve">
+    <value>Пользователи Premium и Business видят дополнительные строки статуса для совместного использования ключей и мастер-ключа.</value>
+  </data>
+  <data name="SecurityStatusCardProtectedItemsText" xml:space="preserve">
+    <value>Зелёные галочки обозначают защищённые объекты.</value>
+  </data>
+  <data name="SecurityStatusCardTitle" xml:space="preserve">
+    <value>Карта статуса безопасности</value>
+  </data>
+  <data name="SecurityStatusCardWarningInstruction" xml:space="preserve">
+    <value>Жёлтые предупреждения показывают элементы, требующие внимания – нажмите на строку, чтобы решить проблему.</value>
+  </data>
   <data name="SecurityStatusEncryptionsPerMonth" xml:space="preserve">
     <value>2 шифрования в месяц</value>
   </data>
@@ -31010,6 +31638,12 @@ SE-114 29 Стокгольм
   </data>
   <data name="SelectGroupText" xml:space="preserve">
     <value>Выберите группу</value>
+  </data>
+  <data name="SelectionNotSupportedText" xml:space="preserve">
+    <value>Выбор не поддерживается</value>
+  </data>
+  <data name="SelectionRequirementText" xml:space="preserve">
+    <value>К {0}, выбрать только {0}.</value>
   </data>
   <data name="SelectItemReadText" xml:space="preserve">
     <value>Выберите статью для чтения</value>
@@ -31176,6 +31810,9 @@ SE-114 29 Стокгольм
   <data name="ShareEncryptedTextDialog" xml:space="preserve">
     <value>Установите срок действия, который автоматически останавливает доступ после выбранного времени, сохраняя безопасность вашего общего контента.</value>
   </data>
+  <data name="ShareFilesSecurelyWithKeySharingTitle" xml:space="preserve">
+    <value>Безопасно обменивайтесь файлами с помощью совместного использования ключей</value>
+  </data>
   <data name="ShareInviteMailBodyButton" xml:space="preserve">
     <value>Присоединяйтесь к AxCrypt</value>
   </data>
@@ -31203,8 +31840,14 @@ SE-114 29 Стокгольм
   <data name="ShareKeysFileOpenDialogTitle" xml:space="preserve">
     <value>Выберите защищённые файлы для совместного пользования</value>
   </data>
+  <data name="ShareKeysForText" xml:space="preserve">
+    <value>поделиться ключами для</value>
+  </data>
   <data name="ShareKeysToolStripMenuItemText" xml:space="preserve">
     <value>Поделиться Ключами</value>
+  </data>
+  <data name="ShareKeyUpdateRecipientsSuccess" xml:space="preserve">
+    <value>Обмен ключевыми получателями успешно обновлён</value>
   </data>
   <data name="ShareKeyUpToOneFileOneUserMessage" xml:space="preserve">
     <value>Делитесь ключом до 1 файла на 1 пользователя</value>
@@ -31249,6 +31892,12 @@ SE-114 29 Стокгольм
   </data>
   <data name="SharingEncryptedText" xml:space="preserve">
     <value>Обмен зашифрованным текстом AxCrypt</value>
+  </data>
+  <data name="SharingFileAccessText" xml:space="preserve">
+    <value>Обмен доступом к файлам...</value>
+  </data>
+  <data name="SharingKeyText" xml:space="preserve">
+    <value>Ключ для совместного использования...</value>
   </data>
   <data name="ShowInFolderText" xml:space="preserve">
     <value>Показать в Папке</value>
@@ -32288,6 +32937,9 @@ SE-114 29 Стокгольм
   <data name="ThanksChoosingAxCryptTitle" xml:space="preserve">
     <value>Спасибо, что выбрали AxCrypt!</value>
   </data>
+  <data name="TipsTitle" xml:space="preserve">
+    <value>Советы</value>
+  </data>
   <data name="TitleAxCryptIdSignInText" xml:space="preserve">
     <value>Вход в Систему AxCrypt ID</value>
   </data>
@@ -32400,6 +33052,9 @@ SE-114 29 Стокгольм
   </data>
   <data name="TryButtonPreheadingPremium" xml:space="preserve">
     <value>Для частных пользователей</value>
+  </data>
+  <data name="TryDifferentFilterOrSearchText" xml:space="preserve">
+    <value>Попробуйте другой фильтр или поисковый запрос</value>
   </data>
   <data name="TryDifferentKeywordMessage" xml:space="preserve">
     <value>Попробуйте другое ключевое слово, или</value>
@@ -32583,6 +33238,9 @@ SE-114 29 Стокгольм
   <data name="UnableAddSecuredFolderText" xml:space="preserve">
     <value>Невозможно добавить защищённую папку или её подпапку в хранилище</value>
   </data>
+  <data name="UnencryptedFilesText" xml:space="preserve">
+    <value>Файлы, которые ещё не зашифрованы</value>
+  </data>
   <data name="UnknownCrypto" xml:space="preserve">
     <value>Неизвестный</value>
     <comment>Displayed when an unknown CryptoId is encountered.</comment>
@@ -32726,6 +33384,9 @@ SE-114 29 Стокгольм
   <data name="UpgradeToAutoShareText" xml:space="preserve">
     <value>Обновитесь до Premium или Business, чтобы автоматически делиться зашифроваными файлами с выбранными вами людьми.</value>
   </data>
+  <data name="UpgradeToPremiumFeatureDescription" xml:space="preserve">
+    <value>Обновление до AxCrypt Premium до {0} и доступ ко всем функциям безопасности.</value>
+  </data>
   <data name="UpgradeToUnlockEncryptionText" xml:space="preserve">
     <value>Обновите подписку, чтобы разблокировать &lt;span&gt;шифрование и другие функции!&lt;/span&gt;</value>
   </data>
@@ -32743,6 +33404,15 @@ SE-114 29 Стокгольм
   </data>
   <data name="UpgradeVersionDialogText2" xml:space="preserve">
     <value>Нет, позже</value>
+  </data>
+  <data name="UploadFilesFromDeviceInstruction" xml:space="preserve">
+    <value>Нажмите «С утройства» и выберите файлы с телефона.</value>
+  </data>
+  <data name="UploadLocalFilesToCloudStorageDescription" xml:space="preserve">
+    <value>В облачном файловом браузере теперь есть отдельная опция «С устройства» в меню +, позволяющая выбирать файлы из локального хранилища телефона и загружать их напрямую в подключённого облачного провайдера.</value>
+  </data>
+  <data name="UploadLocalFilesToCloudStorageTitle" xml:space="preserve">
+    <value>Загрузка локальных файлов в облачное хранилище</value>
   </data>
   <data name="UpsellBusinessForNotStandardPremiumUsersText" xml:space="preserve">
     <value>Похоже, вы пришли из бизнеса. Рассмотрите возможность использования нашего бизнес-уровня для получения таких функций, как мастер-ключ, бизнес-администрирование и т.д.</value>
@@ -33448,6 +34118,9 @@ SE-114 29 Стокгольм
   <data name="WhatsIncludedLabel" xml:space="preserve">
     <value>Что включено?</value>
   </data>
+  <data name="WhatsNewTitle" xml:space="preserve">
+    <value>Что нового</value>
+  </data>
   <data name="WhatsNextMasterKeyParagraph1" xml:space="preserve">
     <value>Ознакомьтесь с другими руководствами по AxCrypt: &lt;a href='https://axcrypt.net/helpcenter/'&gt;&lt;span&gt;&lt;strong&gt;AxCrypt Guides | Your guide to cybersecurity solutions&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;</value>
   </data>
@@ -33811,5 +34484,8 @@ SE-114 29 Стокгольм
   </data>
   <data name="ZeroknowledgeLinkLabel" xml:space="preserve">
     <value>Безопасность с нулевым разглашением</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Об {0}</value>
   </data>
 </root>

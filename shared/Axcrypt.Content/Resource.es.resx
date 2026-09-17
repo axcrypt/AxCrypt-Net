@@ -124,9 +124,6 @@
   <data name="AbortedFileStatus" xml:space="preserve">
     <value>Estado 'Interrumpido' ({0}).</value>
   </data>
-  <data name="About" xml:space="preserve">
-    <value>Acerca de {0}</value>
-  </data>
   <data name="AboutAwardsBadgeAlt" xml:space="preserve">
     <value>Insignia de valoración de reseñas de AxCrypt</value>
   </data>
@@ -33947,5 +33944,8 @@ Para más información, haz clic en OK para abrir nuestra página web en un expl
   </data>
   <data name="ZeroknowledgeLinkLabel" xml:space="preserve">
     <value>Seguridad de conocimiento cero</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Acerca de {0}</value>
   </data>
 </root>

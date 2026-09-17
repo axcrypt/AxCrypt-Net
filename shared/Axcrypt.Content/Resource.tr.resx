@@ -124,9 +124,6 @@
   <data name="AbortedFileStatus" xml:space="preserve">
     <value>Durum 'İptal' ({0}).</value>
   </data>
-  <data name="About" xml:space="preserve">
-    <value>{0} hakkında</value>
-  </data>
   <data name="AboutAwardsBadgeAlt" xml:space="preserve">
     <value>AxCrypt inceleme puan rozeti</value>
   </data>
@@ -34201,5 +34198,8 @@ Daha fazla bilgi için Tamam'ı tıklayarak bir web tarayıcısı aç ve interne
   </data>
   <data name="ZeroknowledgeLinkLabel" xml:space="preserve">
     <value>Sıfır bilgi güvenliği</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>{0} hakkında</value>
   </data>
 </root>
