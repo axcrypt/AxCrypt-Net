@@ -29,6 +29,7 @@ using AxCrypt.Core.Crypto;
 using AxCrypt.Core.Extensions;
 using AxCrypt.Core.Service;
 using AxCrypt.Core.Session;
+using AxCrypt.Core.UI.User;
 using static AxCrypt.Abstractions.TypeResolve;
 
 namespace AxCrypt.Core.UI.ViewModel
@@ -179,6 +180,16 @@ namespace AxCrypt.Core.UI.ViewModel
             {
                 return true;
             }
+            return false;
+        }
+
+        public bool IsUserAlreadyExist()
+        {
+            if (New<IUserProfilesStore>().Profiles.Any(up => up.UserEmail == UserEmail))
+            {
+                return true;
+            }
+
             return false;
         }
     }
