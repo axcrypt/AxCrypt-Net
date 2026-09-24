@@ -124,6 +124,9 @@
   <data name="AbortedFileStatus" xml:space="preserve">
     <value>Durum 'İptal' ({0}).</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>{0} hakkında</value>
+  </data>
   <data name="AboutAwardsBadgeAlt" xml:space="preserve">
     <value>AxCrypt inceleme puan rozeti</value>
   </data>
@@ -24416,9 +24419,6 @@ Bu parolayı unutmayın!</value>
   <data name="LegacyDownloadsComparisonTitle" xml:space="preserve">
     <value>Miras indirme karşılaştırması</value>
   </data>
-  <data name="LegacyDownloadsDescription" xml:space="preserve">
-    <value>Bunlar, belirli uyumluluk, arşiv kurtarma veya göç vakaları için eski AxCrypt indirmeleridir. Yeni şifreleme işleri için kullanmayın. AxCrypt 3 önerilen masaüstü sürümüdür ve AxCrypt v1, v2 ve v3'ten şifreli dosyaları destekler."</value>
-  </data>
   <data name="LegacyDownloadsGuidanceKicker" xml:space="preserve">
     <value>Sürüm rehberliği</value>
   </data>
@@ -24457,9 +24457,6 @@ Bu parolayı unutmayın!</value>
   </data>
   <data name="LegacyDownloadsSecondaryCta" xml:space="preserve">
     <value>Eski sürümleri karşılaştırın</value>
-  </data>
-  <data name="LegacyDownloadsTitle" xml:space="preserve">
-    <value>AxCrypt miras indirmeleri</value>
   </data>
   <data name="LegacyFaq1" xml:space="preserve">
     <value>Eski AxCrypt yerine ne kullanmalıyım?</value>
@@ -25320,23 +25317,11 @@ Bu program anlaşmaya göre lisanslanmıştır.
   <data name="Meta-Description-About-Axcrypt" xml:space="preserve">
     <value>AxCrypt’in dosyalar için basit ve güçlü şifrelemesini keşfedin. Milyonlarca kişi tarafından güvenilen AxCrypt, AES-256 güvenliği, bulut entegrasyonu ve sorunsuz çoklu platform erişimi sunar.</value>
   </data>
-  <data name="Meta-Description-Aboutus" xml:space="preserve">
-    <value>Milyonlarca kişinin dosyaları, şifreleri ve bulut depolamayı basit güvenlikle koruması için güvendiği ödüllü dosya şifreleme yazılımı AxCrypt hakkında bilgi edinin.</value>
-  </data>
   <data name="Meta-Description-Affiliate" xml:space="preserve">
     <value>AxCrypt’in İş Ortağı Programı’na katılarak güvenli şifreleme çözümlerini tanıtarak sabit komisyonlar kazanın. Özel gösterge paneli ve destek hizmetine erişim sağlayın. Hemen başvurun!</value>
   </data>
-  <data name="Meta-Description-Awards" xml:space="preserve">
-    <value>AxCrypt’in PCMag Editörün Seçimi ve Gartner’ın 2025 En İyi Şifreleme Yazılımı gibi ödüllerini keşfedin. Milyonların güvenli dosya şifrelemesi için neden AxCrypt’i tercih ettiğini öğrenin.</value>
-  </data>
   <data name="Meta-Description-Beta-axcrypt-guide" xml:space="preserve">
     <value>AxCrypt Beta’nın modern arayüzünü keşfedin. Dosyaları güvenli bir şekilde şifreleme, şifresini çözme ve paylaşma işlemlerini adım adım rehberimizle öğrenin. 14 günlük ücretsiz denemenize bugün başlayın.</value>
-  </data>
-  <data name="Meta-Description-Beta-Download" xml:space="preserve">
-    <value>Geliştirilmiş AES-256 şifreleme, şık yeni tasarım ve yerleşik şifre yöneticisiyle AxCrypt Beta'yı deneyin. Windows, Linux ve macOS için şimdi indirin.</value>
-  </data>
-  <data name="Meta-Description-Blog" xml:space="preserve">
-    <value>AxCrypt’in blogunu keşfedin: dosya güvenliği ve şifreleme hakkında en son haberler, eğitimler ve bilgiler. Verilerinizi etkili şekilde nasıl koruyacağınızı öğrenin.</value>
   </data>
   <data name="Meta-Description-Blog-5KFOESYSBAO" xml:space="preserve">
     <value>Şifreleme yazılımlarının temel özelliklerini keşfedin. AxCrypt gibi şifreleme araçlarını hassas verilerinizi korumada etkili kılan unsurları öğrenin.
@@ -25759,56 +25744,17 @@ Bu program anlaşmaya göre lisanslanmıştır.
   <data name="Meta-Description-Blog-ZTCS" xml:space="preserve">
     <value>Sıfır Güven siber güvenlik modelini öğrenin ve bu modelin iç ve dış tehditlere karşı kapsamlı koruma nasıl sağladığını keşfedin.</value>
   </data>
-  <data name="Meta-Description-Business" xml:space="preserve">
-    <value>Şirket verilerini AxCrypt Business ile koruyun. AES-256 şifrelemesi, ekip erişim kontrolü ve güvenli grup dosya paylaşımı alın. Tüm kullanıcıları tek bir gösterge panelinden yönetin.</value>
-  </data>
   <data name="Meta-Description-c-sharp-senior-developer" xml:space="preserve">
     <value>AxCrypt’e Bengaluru’da C# Kıdemli Geliştirici olarak katılın. .NET, MAUI ve Xamarin kullanarak çapraz platform şifreleme yazılımı üzerinde çalışın. Yenilikçi ekibimizin bir parçası olmak için hemen başvurun.</value>
-  </data>
-  <data name="Meta-Description-CHOF" xml:space="preserve">
-    <value>AxCrypt kurulumcuları ve paketleri için resmi SHA-256 kriptografik hash'larını inceleyin. Bu hash'ları kullanarak indirmeleri doğrulayın ve dosya gerçekliğini ve güvenliğini garanti edin.</value>
-  </data>
-  <data name="Meta-Description-Commandline-Interface" xml:space="preserve">
-    <value>Dosya şifreleme ve şifre çözmeyi otomatikleştirmek için AxCrypt Komut Satırı kullanın. Basit CLI komutları kullanarak güçlü AES şifreleme ile hassas verileri güvence altına alın.</value>
-  </data>
-  <data name="Meta-Description-Customerstories" xml:space="preserve">
-    <value>Bechtle Schweiz AG ve ElectroCraft gibi kuruluşların, sektörler genelinde güvenli ve kullanıcı dostu dosya şifrelemesi için AxCrypt’e nasıl güvendiğini keşfedin. Hikayelerini şimdi okuyun.</value>
-  </data>
-  <data name="Meta-Description-Download" xml:space="preserve">
-    <value>Windows, Mac, Android ve iOS için AxCrypt'i indirin. Dosyaları AES-256 güvenliğiyle şifreleyin, şifreleri yönetin ve verileri cihazlar arasında güvenli şekilde paylaşın.</value>
-  </data>
-  <data name="Meta-Description-Education" xml:space="preserve">
-    <value>Öğrenci kayıtlarını, araştırma dosyalarını ve akademik verileri AxCrypt ile koruyun. Okullar ve üniversiteler için AES-256 şifrelemesini ve güvenli paylaşımı etkinleştirin.</value>
   </data>
   <data name="Meta-Description-FAQ" xml:space="preserve">
     <value>AxCrypt’in SSS bölümünü keşfedin: şifreleme araçlarının kullanımı, abonelik yönetimi ve hesap ayarlarına erişim hakkında rehberlik alın. Verilerinizi güvenle koruyun.</value>
   </data>
-  <data name="Meta-Description-Features" xml:space="preserve">
-    <value>AxCrypt'in en önemli özelliklerini keşfedin: AES-256 şifreleme, şifre yöneticisi, bulut senkronizasyonu, güvenli dosya paylaşımı ve tam veri koruması için mobil erişim.</value>
-  </data>
-  <data name="Meta-Description-Financial" xml:space="preserve">
-    <value>AxCrypt ile finansal verileri ve müşteri kayıtlarını koruyun. AES-256 şifrelemesi, güvenli dosya paylaşımı ve işlemler için uyumluluk koruması alın.</value>
-  </data>
-  <data name="Meta-Description-Gdpr" xml:space="preserve">
-    <value>AxCrypt’in AES-256 şifrelemesi, sıfır bilgi mimarisi ve güvenli dosya paylaşımı ile GDPR uyumluluğunu sağlayın. Kişisel verileri zahmetsizce koruyun.</value>
-  </data>
-  <data name="Meta-Description-Getstarted" xml:space="preserve">
-    <value>Hızlı başlangıç rehberimizle AxCrypt'i nasıl kullanacağınızı öğrenin. Windows, Mac ve mobilde dosyalarınızı güçlü şifrelemeyle güvence altına alın. Dakikalar içinde kolay kurulum!</value>
-  </data>
-  <data name="Meta-Description-Getstarted-Axcrypt-Business" xml:space="preserve">
-    <value>İş dosyalarını AxCrypt'in AES-256 şifrelemesi ile koruyun. Güvenli iş birliği için grup paylaşımı, ana anahtar kurtarma ve merkezi ekip yönetimini etkinleştirin.</value>
-  </data>
   <data name="Meta-Description-Getstarted-Desktop" xml:space="preserve">
     <value>Bu adım adım rehberle Windows veya Mac'te AxCrypt'i kurun. AxCrypt Desktop ile dosyaları nasıl şifrelediğini, güvenli şekilde paylaşacağını ve şifreleri nasıl yöneteceğini öğrenin.</value>
   </data>
-  <data name="Meta-Description-Getstarted-Encryption-Decryption" xml:space="preserve">
-    <value>Verilerinizi AxCrypt ile kolayca güvence altına alın. Windows, Mac ve mobil cihazlarda dosyaları şifrelemek ve çözmek için rehberimizi takip edin. Hızlı, güvenli ve kullanıcı dostu!</value>
-  </data>
   <data name="Meta-Description-Getstarted-Group" xml:space="preserve">
     <value>AxCrypt Group Özelliği ile ekip iş birliğini basitleştirin. Rolleri yönetin, erişimi kontrol edin ve şifrelenmiş dosyaları merkezi bir ana anahtar kullanarak güvenli şekilde paylaşın.</value>
-  </data>
-  <data name="Meta-Description-Getstarted-Master-Key" xml:space="preserve">
-    <value>Yöneticilerin şifrelenmiş dosyaları kurtarmasına izin vermek için AxCrypt Ana Anahtarını etkinleştirin. Kullanıcılar şifrelerini unutursa veya ayrılırsa veri erişimini, güvenliğini ve sürekliliğini koruyun.</value>
   </data>
   <data name="Meta-Description-Getstarted-Masterkey" xml:space="preserve">
     <value>AxCrypt’in Ana Anahtar özelliğini etkinleştirerek yöneticilerin şifrelenmiş dosyaları kurtarmasını sağlayın; böylece kullanıcılar şifrelerini unutsa veya şirketten ayrılsa bile veri erişimi kesintisiz devam eder.</value>
@@ -25831,41 +25777,11 @@ Bu program anlaşmaya göre lisanslanmıştır.
   <data name="Meta-Description-Getstarted-Reseller-Marketing" xml:space="preserve">
     <value>Bayi pazarlama çabalarınızı AxCrypt'in markalaşma ve pazarlama yönergeleriyle yukarı taşıyın. En iyi şifreleme yazılımını güvenle tanıtın.</value>
   </data>
-  <data name="Meta-Description-Government" xml:space="preserve">
-    <value>Gizli ve devlet verilerini AxCrypt ile koruyun. AES-256 şifrelemesi, kurumlar arasında gizlilik, uyum ve güvenli belge paylaşımını sağlar.</value>
-  </data>
-  <data name="Meta-Description-group" xml:space="preserve">
-    <value>AxCrypt'in Grup Özelliği ile güvenliği artır ve erişimi yönet. Grup oluşturmayı, roller atamayı ve dosya erişimini verimli bir şekilde kontrol etmeyi öğrenin.</value>
-  </data>
   <data name="Meta-Description-guide-keyshare" xml:space="preserve">
     <value>Şifreleri açıklamadan şifrelenmiş dosyaları güvenli şekilde paylaşmak için AxCrypt Anahtar Paylaşımı'nı nasıl kullanacağınızı öğrenin. AES-256 şifreleme koruması ile güvenli bir şekilde iş birliği yapın.</value>
   </data>
-  <data name="Meta-Description-Guides-App-BrowserExtension" xml:space="preserve">
-    <value>AxCrypt Şifre Yöneticisi tarayıcı uzantısını yükleyin, şifreli kasanızın kilidini açın ve tarayıcınızdan güvenli otomatik doldurma kullanın.</value>
-  </data>
-  <data name="Meta-Description-Guides-App-Linux" xml:space="preserve">
-    <value>AxCrypt'i DEB veya RPM paketleriyle Linux'a kurun, giriş yapın ve desteklenen dağıtımlar arasında şifrelenmiş dosyaları güvenli bir şekilde yönetin.</value>
-  </data>
-  <data name="Meta-Description-Guides-App-MacOS" xml:space="preserve">
-    <value>macOS'ta AxCrypt kurun, giriş yapın ve dosyaları şifreleme, güvenli paylaşım, Vault, Cloud Security ve Password Manager araçlarıyla koruyun.</value>
-  </data>
-  <data name="Meta-Description-Guides-App-Mobile" xml:space="preserve">
-    <value>AxCrypt'i Android, iPhone veya iPad'e kurarak dosyaları şifreleyin, anahtar paylaşımı dosyalarını, Şifre Yöneticisi'ne erişin ve Secured Messenger'ı kullanın.</value>
-  </data>
-  <data name="Meta-Description-Guides-App-Windows" xml:space="preserve">
-    <value>Windows'ta AxCrypt kurun, doğru yükleyiciyi seçin, giriş yapın, dosyaları şifreleyin, güvenli paylaşın ve masaüstü koruma araçlarını kullanın.</value>
-  </data>
-  <data name="Meta-Description-guides-passwordmanager" xml:space="preserve">
-    <value>AxCrypt Password Manager ile şifreleri, kartları ve notları güvenli bir şekilde nasıl saklayacağınızı ve paylaşacağınızı öğrenin. AES-256 şifrelemesini ve tüm cihazlarda erişimini keyfini çıkarın.</value>
-  </data>
   <data name="Meta-Description-Guides-PasswordManager-BrowserExtension" xml:space="preserve">
     <value>Şifreli şifrelere, kartlara, notlara ve otomatik doldurma işlemlerine tarayıcınızdan erişmek için AxCrypt Password Manager tarayıcı uzantısını kullanın.</value>
-  </data>
-  <data name="Meta-Description-Healthcare" xml:space="preserve">
-    <value>Hasta kayıtlarını güvence altına alın ve AxCrypt ile uyumluluğu garantileyin. Tıbbi veri koruma, güvenli paylaşım ve sağlık gizliliği için AES-256 şifrelemesini kullanın.</value>
-  </data>
-  <data name="Meta-Description-HelpCenter" xml:space="preserve">
-    <value>AxCrypt ile ilgili yardıma mı ihtiyacınız var? Dosya şifreleme, şifre yönetimi ve güvenli dosya paylaşımı desteği için SSS'leri, adım adım rehberleri ve eğitimleri keşfedin.</value>
   </data>
   <data name="Meta-Description-hipaa" xml:space="preserve">
     <value>AxCrypt'in güçlü dosya şifrelemesi ile HIPAA'ya uyumluluğunuzu sağlayın. Güvenli, kullanımı kolay şifreleme çözümlerimizle hassas sağlık hizmeti verilerini koruyun.</value>
@@ -25873,57 +25789,17 @@ Bu program anlaşmaya göre lisanslanmıştır.
   <data name="Meta-Description-Hippa" xml:space="preserve">
     <value>AxCrypt’in AES-256 şifrelemesi, sıfır bilgi mimarisi ve güvenli dosya paylaşımı ile HIPAA uyumluluğunu sağlayın. Kullanıcı dostu araçlarla PHI’yi zahmetsizce koruyun.</value>
   </data>
-  <data name="Meta-Description-Home" xml:space="preserve">
-    <value>Dosyalarınızı AxCrypt ile kolayca güvence altına alın. AES-256 şifreleme, yerleşik şifre yöneticisi ve güvenli dosya paylaşımının keyfini çıkarın. Verilerinizi cihazlar arasında bugün koruyun!</value>
-  </data>
-  <data name="Meta-Description-Industries" xml:space="preserve">
-    <value>AxCrypt ile sektörler arasında hassas verileri koruyun. Teknoloji, eğitim, sağlık, hukuk, finans ve devlet sektörleri için güvenli çözümler.</value>
-  </data>
-  <data name="Meta-Description-Jobs" xml:space="preserve">
-    <value>AxCrypt’te Bengaluru ve Stockholm’de kariyer fırsatlarını keşfedin. Ödüllü şifreleme yazılımımızı geliştirmek için C# geliştiricileri ve bir içerik yazarı stajyeri arıyoruz.</value>
-  </data>
-  <data name="Meta-Description-Legal" xml:space="preserve">
-    <value>AxCrypt ile gizli hukuki belgeleri koruyun. Hukuk firmaları ve profesyoneller için AES-256 şifreleme, güvenli dosya paylaşımı ve müşteri veri korumasını etkinleştirin.</value>
-  </data>
-  <data name="Meta-Description-MultiFactor-Authentication" xml:space="preserve">
-    <value>AxCrypt'te Çoklu Faktörlü Kimlik Doğrulama (MFA) özelliğini nasıl etkinleştirileceğini ve kullanacağını öğrenin, böylece hesap güvenliği artırılabilir.</value>
-  </data>
   <data name="Meta-Description-nis2" xml:space="preserve">
     <value>AxCrypt’in AES-256 şifrelemesi, sıfır bilgi mimarisi, güvenli dosya paylaşımı ve şifrelenmiş yedeklemeleri ile NIS2 uyumluluğunu sağlayarak operasyonel sürekliliği güvence altına alın.</value>
   </data>
   <data name="Meta-Description-partner" xml:space="preserve">
     <value>AxCrypt’in Bayi Programı’na bayi veya iş ortağı olarak katılın. Komisyon kazanın, tanıtım araçlarına erişin ve müşterilerinize güvenli şifreleme çözümleri sunun.</value>
   </data>
-  <data name="Meta-Description-Password-Generator" xml:space="preserve">
-    <value>AxCrypt’in Parola Üreteci ile güçlü ve karmaşık parolalar oluşturun. Hatırlaması ve yazması kolay parolalarla güvenliğinizi artırın.</value>
-  </data>
   <data name="Meta-Description-PasswordManager" xml:space="preserve">
     <value>AxCrypt Şifre Yöneticisi ile şifreleri, kartları ve notları güvenli bir şekilde yönetin ve paylaşın. AES-256 şifreleme, cihazlar arası senkronizasyon ve çevrimdışı erişimin tadını çıkarın.</value>
   </data>
-  <data name="Meta-Description-Premium" xml:space="preserve">
-    <value>Kişisel dosyalarınızı AxCrypt Premium ile güvence altına alın. AES-256 şifreleme, şifre yöneticisi, bulut senkronizasyonu ve mobil erişim alın. Ücretsiz denemenizi bugün başlatın!</value>
-  </data>
-  <data name="Meta-Description-Press" xml:space="preserve">
-    <value>AxCrypt’ın medya varlığını keşfedin: eski CTO Jonatan Pettersson ile yapılan röportajlar, basın görselleri ve marka yönergeleri. Yayınlar ve medya talepleri için kaynaklara erişin. 
-</value>
-  </data>
-  <data name="Meta-Description-Pricing" xml:space="preserve">
-    <value>AxCrypt'in Ücretsiz, Premium ve İş planlarını karşılaştırın. AES-256 şifreleme, şifre yöneticisi ve güvenli dosya paylaşımı alın. 14 günlük ücretsiz denemenizi bugün başlatın!</value>
-  </data>
   <data name="Meta-Description-Privacy-Policy" xml:space="preserve">
     <value>AxCrypt’in GDPR uyumlu politikalarıyla gizliliğinize nasıl saygı gösterdiğini öğrenin. Veri toplama, kullanım ve kişisel bilgilere erişim ve silme haklarınızı anlayın.</value>
-  </data>
-  <data name="Meta-Description-Privacypolicy" xml:space="preserve">
-    <value>Gizliliğinize saygı duyuyor ve AxCrypt uygulamasında güvenliğiniz için sıkı önlemler alıyoruz.</value>
-  </data>
-  <data name="Meta-Description-Regulatory-Compliance" xml:space="preserve">
-    <value>AxCrypt'in veri güvenliği ve şifreleme için endüstri düzenlemelerine ve standartlarına bağlılığını keşfedin.</value>
-  </data>
-  <data name="Meta-Description-Release-Notes" xml:space="preserve">
-    <value>AxCrypt’in sürüm notlarıyla güncel kalın. Windows, macOS, iOS ve Android sürümleri için yeni özellikler ve hata düzeltmelerini içeren detaylı değişiklik kayıtlarını keşfedin.</value>
-  </data>
-  <data name="Meta-Description-Requirements" xml:space="preserve">
-    <value>AxCrypt’in sistem gereksinimlerini keşfedin. AxCrypt ile uyumluluğu sağlamak için desteklenen Windows, macOS, Linux, iOS ve Android sürümleri hakkında bilgi edinin.</value>
   </data>
   <data name="Meta-Description-Reseller" xml:space="preserve">
     <value>AxCrypt’in Bayi Programı’na katılarak işletmelere güvenli şifreleme çözümleri sunun. Kendi kar marjlarınızı belirleyin, özel desteğe erişin ve sınırsız komisyon kazanın.</value>
@@ -25937,38 +25813,8 @@ Bu program anlaşmaya göre lisanslanmıştır.
   <data name="Meta-Description-Reseller-help-Support" xml:space="preserve">
     <value>AxCrypt’in bayi desteğine erişin: teknik kılavuzlar, video eğitimleri, satış materyalleri ve doğrudan yardım ile bayi satış deneyiminizi geliştirin.</value>
   </data>
-  <data name="Meta-Description-Secure-Cloud-On-Platform" xml:space="preserve">
-    <value>AxCrypt Secure Cloud'u kullanarak dosyaları güvenli şekilde şifrelemek, depolamak ve paylaşmak için nasıl kullanılacağını öğrenin. Güvenli bulut dosya koruması için adım adım rehberimizi takip edin.</value>
-  </data>
-  <data name="Meta-Description-Securedmessenger" xml:space="preserve">
-    <value>AxCrypt'in Secured Messenger ile iş iletişimini koruyun. Uçtan uca şifreleme, AES-256 güvenliği, AB tabanlı sunucular ve tam GDPR &amp; NIS2 uyumu.</value>
-  </data>
-  <data name="Meta-Description-Security" xml:space="preserve">
-    <value>AxCrypt’in sağlam güvenlik özelliklerini keşfedin: AES-256 şifreleme, HMAC-SHA512 bütünlüğü, parola en iyi uygulamaları ve güvenilir dosya koruması için açık kaynak şeffaflığı.</value>
-  </data>
   <data name="Meta-Description-Share-Key" xml:space="preserve">
     <value>AxCrypt'in Anahtar Paylaşımı özelliğini kullanarak parolanızı paylaşmadan belgeleri, dosyaları ve fotoğrafları nasıl güvenli bir şekilde paylaşacağını adım adım öğren.</value>
-  </data>
-  <data name="Meta-Description-Student" xml:space="preserve">
-    <value>Öğrenciler için AxCrypt Premium'da %50'ye kadar indirim alın. AES-256 şifreleme, bulut senkronizasyonu ve cihazlar arasında güvenli dosya paylaşımı ile akademik dosyaları güvence altına alın.</value>
-  </data>
-  <data name="Meta-Description-Tech" xml:space="preserve">
-    <value>Teknoloji projelerinizi AxCrypt ile koruyun. Kaynak kodu, yazılım yapılarını ve gizli verileri AES-256 şifreleme kullanarak şifreleyin. Bugün takımınız için deneyin!</value>
-  </data>
-  <data name="Meta-Description-Technical-Details" xml:space="preserve">
-    <value>AxCrypt’in şifreleme standartlarını keşfedin: AES-256, RSA-4096, HMAC-SHA512 ve dosya formatları. Anahtar yönetimi, güvenlik özellikleri ve açık kaynak kod hakkında bilgi edinin.</value>
-  </data>
-  <data name="Meta-Description-Terms-Of-Use" xml:space="preserve">
-    <value>AxCrypt’in Hizmet Şartları’nı keşfedin: lisans anlaşmaları, ödeme yöntemleri, deneme koşulları ve iade politikaları. Kullanım şartlarımıza uyumu sağlayın.</value>
-  </data>
-  <data name="Meta-Description-Text-Encrypt-Share-Decrypt" xml:space="preserve">
-    <value>AxCrypt'in güvenilir şifreleme özelliklerini kullanarak metnin nasıl güvenli şekilde şifreleneceğini ve çözüleceğini öğrenin. Bu rehber, hassas mesajları korumanıza ve yalnızca yetkili kullanıcıların erişebileceğini garanti altına almanıza yardımcı olur.</value>
-  </data>
-  <data name="Meta-Description-Usage-Tips" xml:space="preserve">
-    <value>AxCrypt kullanımı için pratik ipuçlarını keşfedin: güvenli e-posta ekleri, bulut hizmetleriyle entegrasyon, dosya adlarını anonimleştirme ve şifreleme görevlerini otomatikleştirme.</value>
-  </data>
-  <data name="Meta-Description-vault" xml:space="preserve">
-    <value>AxCrypt Vault'un dosyaları şifre koruması ve sıfır bilgi güvenliğiyle güvenli şekilde depolamanıza, yönetmenize ve şifrelemenize nasıl yardımcı olduğunu öğrenin.</value>
   </data>
   <data name="Meta-Keywords-Blog" xml:space="preserve">
     <value>dosyalar nasıl şifrelenir,şifrelemenin faydası nedir,mobil cihazlardaki veriler nasıl korunur,şifreleme dair Mitler,işletmenizi siber tehditlerden nasıl korursunuz</value>
@@ -26015,23 +25861,11 @@ Bu program anlaşmaya göre lisanslanmıştır.
   <data name="Meta-Title-About-Axcrypt" xml:space="preserve">
     <value>AxCrypt Genel Bakış – Kolay ve Güvenli Dosya Şifreleme Yazılımı</value>
   </data>
-  <data name="Meta-Title-Aboutus" xml:space="preserve">
-    <value>AxCrypt hakkında | Güvenilir Dosya Şifreleme Yazılımı</value>
-  </data>
   <data name="Meta-Title-Affiliate" xml:space="preserve">
     <value>AxCrypt İş Ortağı Programı – Şifrelemeyi Tanıtarak Komisyon Kazanın</value>
   </data>
-  <data name="Meta-Title-Awards" xml:space="preserve">
-    <value>AxCrypt Ödülleri – En İyi Şifreleme Yazılımı Olarak Tanındı</value>
-  </data>
   <data name="Meta-Title-Beta-axcrypt-guide" xml:space="preserve">
     <value>AxCrypt Beta Rehberi – Dosyaları Güvenli Şekilde Şifreleme, Şifre Çözme ve Paylaşmayı Öğrenin | Hızlı Başlangıç</value>
-  </data>
-  <data name="Meta-Title-Beta-Download" xml:space="preserve">
-    <value>AxCrypt Beta'yı indir – Windows, Linux &amp; Mac için Yeni Dosya Şifreleme</value>
-  </data>
-  <data name="Meta-Title-Blog" xml:space="preserve">
-    <value>AxCrypt Blog – Dosya Güvenliği ve Şifreleme Haberleri Kaynağınız</value>
   </data>
   <data name="Meta-Title-Blog-5KFOESYSBAO" xml:space="preserve">
     <value>Her Şifreleme Yazılımının Sahip Olması Gereken 5 Temel Özellik</value>
@@ -26460,59 +26294,17 @@ Bu program anlaşmaya göre lisanslanmıştır.
   <data name="Meta-Title-Blog-ZTCS" xml:space="preserve">
     <value>Zero Trust Siber Güvenliğini Anlamak: Koruma İçin Yeni Bir Yaklaşım</value>
   </data>
-  <data name="Meta-Title-Business" xml:space="preserve">
-    <value>AxCrypt for Business – Güvenli Takım Dosya Şifreleme Yazılımı</value>
-  </data>
   <data name="Meta-Title-c-sharp-senior-developer" xml:space="preserve">
     <value>AxCrypt C# Kıdemli Geliştirici – Bengaluru’da Tam Zamanlı Pozisyon</value>
-  </data>
-  <data name="Meta-Title-CHOF" xml:space="preserve">
-    <value>Dosyaların Kriptografik Hash'ları</value>
-  </data>
-  <data name="Meta-Title-Commandline-Interface" xml:space="preserve">
-    <value>AxCrypt Komut Satırı | Dosyaları CLI ile şifreleyin</value>
-  </data>
-  <data name="Meta-Title-Customerstories" xml:space="preserve">
-    <value>AxCrypt Müşteri Hikayeleri – Gerçek Dünya Şifreleme Başarıları</value>
-  </data>
-  <data name="Meta-Title-Download" xml:space="preserve">
-    <value>AxCrypt İndirin – Tüm Cihazlar İçin Güvenli Dosya Şifreleme</value>
-  </data>
-  <data name="Meta-Title-Education" xml:space="preserve">
-    <value>AxCrypt for Education – Güvenli Öğrenci ve Araştırma Verileri</value>
   </data>
   <data name="Meta-Title-Encryption-Decryption" xml:space="preserve">
     <value>AxCrypt Şifreleme | Şifre çözme</value>
   </data>
-  <data name="Meta-Title-Faq" xml:space="preserve">
-    <value>AxCrypt Yardım Merkezi – Şifreleme, Planlar ve Hesap Erişimi ile İlgili SSS</value>
-  </data>
-  <data name="Meta-Title-Features" xml:space="preserve">
-    <value>AxCrypt Özellikleri – Güçlü Dosya Şifreleme ve Güvenli Paylaşım</value>
-  </data>
-  <data name="Meta-Title-Financial" xml:space="preserve">
-    <value>AxCrypt for Finance – Güvenli Finansal Veri Şifreleme</value>
-  </data>
-  <data name="Meta-Title-Gdpr" xml:space="preserve">
-    <value>AxCrypt GDPR Uyumluluğu – Kişisel Verileri AES-256 Şifreleme ile Güvence Altına Alın</value>
-  </data>
-  <data name="Meta-Title-Getstarted" xml:space="preserve">
-    <value>AxCrypt ile Başlamak | Kolay Dosya Şifreleme Rehberi</value>
-  </data>
-  <data name="Meta-Title-Getstarted-Axcrypt-Business" xml:space="preserve">
-    <value>AxCrypt Business – Teams için Güvenli Dosya Şifreleme</value>
-  </data>
   <data name="Meta-Title-Getstarted-Desktop" xml:space="preserve">
     <value>AxCrypt Masaüstüne Başlayın – Dosyaları Şifrele ve Paylaş</value>
   </data>
-  <data name="Meta-Title-Getstarted-Encryption-Decryption" xml:space="preserve">
-    <value>AxCrypt ile Dosyaları Nasıl Şifreler ve Şifre Çözürler | Adım Adım Rehber</value>
-  </data>
   <data name="Meta-Title-Getstarted-Group" xml:space="preserve">
     <value>AxCrypt Grup Özelliği – Güvenli Ekip Erişimi ve Dosya Paylaşımı</value>
-  </data>
-  <data name="Meta-Title-Getstarted-Master-Key" xml:space="preserve">
-    <value>AxCrypt Ana Anahtarı – Şifreli Dosyalara Yönetici Erişimi</value>
   </data>
   <data name="Meta-Title-Getstarted-Masterkey" xml:space="preserve">
     <value>AxCrypt Ana Anahtar – Yönetici Erişimi ile Şifrelenmiş Dosyaları Kurtarın</value>
@@ -26535,119 +26327,28 @@ Bu program anlaşmaya göre lisanslanmıştır.
   <data name="Meta-Title-Getstarted-Reseller-Marketing" xml:space="preserve">
     <value>AxCrypt Satıcı Pazarlaması | Markalaşma ve Pazarlama Yönergeleri</value>
   </data>
-  <data name="Meta-Title-Government" xml:space="preserve">
-    <value>AxCrypt for Government – Hassas Veri Şifrelemesi Güvenli</value>
-  </data>
-  <data name="Meta-Title-group" xml:space="preserve">
-    <value>AxCrypt’in Grup Özelliği ile İşletme Güvenliğinizi Artırın.
-</value>
-  </data>
   <data name="Meta-Title-guide-keyshare" xml:space="preserve">
     <value>AxCrypt Anahtar Paylaşım Rehberi – Şifrelenmiş Dosyaları Güvenli Şekilde Paylaşın</value>
-  </data>
-  <data name="Meta-Title-Guides-App-BrowserExtension" xml:space="preserve">
-    <value>AxCrypt Tarayıcı Uzantısını Kur</value>
-  </data>
-  <data name="Meta-Title-Guides-App-Linux" xml:space="preserve">
-    <value>Linux'ta AxCrypt Kur</value>
-  </data>
-  <data name="Meta-Title-Guides-App-MacOS" xml:space="preserve">
-    <value>macOS'ta AxCrypt Kur</value>
-  </data>
-  <data name="Meta-Title-Guides-App-Mobile" xml:space="preserve">
-    <value>AxCrypt'i Mobilde Kur</value>
-  </data>
-  <data name="Meta-Title-Guides-App-Windows" xml:space="preserve">
-    <value>Windows'ta AxCrypt Kur</value>
-  </data>
-  <data name="Meta-Title-guides-passwordmanager" xml:space="preserve">
-    <value>AxCrypt Şifre Yöneticisi Rehberi – Güvenli ve Şifreleri Paylaş</value>
   </data>
   <data name="Meta-Title-Guides-PasswordManager-BrowserExtension" xml:space="preserve">
     <value>AxCrypt Şifre Yöneticisi Tarayıcı Uzantısı Rehberi</value>
   </data>
-  <data name="Meta-Title-Healthcare" xml:space="preserve">
-    <value>AxCrypt for Health – Hasta Verilerini Güvenli Şekilde Koruyun</value>
-  </data>
-  <data name="Meta-Title-HelpCenter" xml:space="preserve">
-    <value>AxCrypt Yardım Merkezi – Dosya Şifreleme SSS &amp; Destek</value>
-  </data>
-  <data name="Meta-Title-Hipaa" xml:space="preserve">
-    <value>HIPAA | AxCrypt HIPAA Uyumluluğu: Sağlık Verilerini Koruyun ve Şifreleyin</value>
-  </data>
   <data name="Meta-Title-Hippa" xml:space="preserve">
     <value>AxCrypt HIPAA Uyumluluğu – Sağlık Verilerini AES-256 ile Güvence Altına Alın
-</value>
-  </data>
-  <data name="Meta-Title-Home" xml:space="preserve">
-    <value>AxCrypt: En İyi Dosya Şifreleme ve Şifre Yöneticisi Yazılımı</value>
-  </data>
-  <data name="Meta-Title-Industries" xml:space="preserve">
-    <value>AxCrypt for Industries – Her Sektör İçin Veri Şifreleme</value>
-  </data>
-  <data name="Meta-Title-Job-ConIntern" xml:space="preserve">
-    <value>İçerik Yazarı Stajyer Fırsatları | AxCrypt Kariyer Sayfası
-</value>
-  </data>
-  <data name="Meta-Title-Job-JuniorDevelop" xml:space="preserve">
-    <value>Junior Geliştirici Fırsatları | AxCrypt Kariyer Sayfası
-</value>
-  </data>
-  <data name="Meta-Title-Job-SeniorDevelop" xml:space="preserve">
-    <value>Kıdemli Geliştirici Fırsatları | AxCrypt Kariyer Sayfası
 </value>
   </data>
   <data name="Meta-Title-Job-XamarinDevops" xml:space="preserve">
     <value>Xamarin Geliştirici Fırsatları | AxCrypt Kariyer Sayfası
 </value>
   </data>
-  <data name="Meta-Title-Jobs" xml:space="preserve">
-    <value>AxCrypt Kariyer – Bengaluru ve Stockholm’de Ekibimize Katılın</value>
-  </data>
-  <data name="Meta-Title-keyshare" xml:space="preserve">
-    <value>AxCrypt Anahtar Paylaşımı Rehberi | Dosyaları parola olmadan güvenli bir şekilde paylaşın</value>
-  </data>
-  <data name="Meta-Title-Legal" xml:space="preserve">
-    <value>AxCrypt for Legal – Güvenli İstemci Dosyaları ve Belgeleri</value>
-  </data>
-  <data name="Meta-Title-MultiFactor-Authentication" xml:space="preserve">
-    <value>Çok Faktörlü Kimlik Doğrulama (MFA) Nasıl Etkinleştirilir | AxCrypt Rehberi</value>
-  </data>
-  <data name="Meta-Title-Nis2" xml:space="preserve">
-    <value>AxCrypt NIS2 Uyumluluğu – AES-256 Şifreleme ile Verilerinizi Güvenceye Alın</value>
-  </data>
   <data name="Meta-Title-partner" xml:space="preserve">
     <value>AxCrypt İş Ortağı Programı – Bugün Bayi veya Ortak Olun</value>
-  </data>
-  <data name="Meta-Title-Password-Generator" xml:space="preserve">
-    <value>AxCrypt’in Parola Oluşturucusu ile güçlü, karmaşık parolalar oluşturun</value>
   </data>
   <data name="Meta-Title-PasswordManager" xml:space="preserve">
     <value>AxCrypt Şifre Yöneticisi – Güvenli Şifre ve Veri Depolama</value>
   </data>
-  <data name="Meta-Title-Premium" xml:space="preserve">
-    <value>AxCrypt Premium – Bireyler İçin İleri Dosya Şifreleme</value>
-  </data>
-  <data name="Meta-Title-Press" xml:space="preserve">
-    <value>AxCrypt Basın – Medya Haberleri, Röportajlar ve Marka Kaynakları</value>
-  </data>
-  <data name="Meta-Title-Pricing" xml:space="preserve">
-    <value>AxCrypt Fiyatlandırması – Tüm Kullanıcılar İçin Dosya Şifreleme Planları</value>
-  </data>
   <data name="Meta-Title-Privacy-Policy" xml:space="preserve">
     <value>AxCrypt Gizlilik Politikası – GDPR Uyumlu Veri Koruma Uygulamaları </value>
-  </data>
-  <data name="Meta-Title-Privacypolicy" xml:space="preserve">
-    <value>AxCrypt gizlilik ilkesi | GDPR politikalarına uyuyoruz</value>
-  </data>
-  <data name="Meta-Title-Regulatory-Compliance" xml:space="preserve">
-    <value>AxCrypt Mevzuata Uygunluk</value>
-  </data>
-  <data name="Meta-Title-Release-Notes" xml:space="preserve">
-    <value>AxCrypt Sürüm Notları – En Son Güncellemeler ve Versiyon Geçmişi</value>
-  </data>
-  <data name="Meta-Title-Requirements" xml:space="preserve">
-    <value>AxCrypt Sistem Gereksinimleri – Desteklenen Platformlar ve İşletim Sistemi Uyumluluğu</value>
   </data>
   <data name="Meta-Title-Reseller" xml:space="preserve">
     <value>AxCrypt Bayi Programı – Şifreleme Satışlarında Yüksek Komisyon Kazanın</value>
@@ -26660,37 +26361,6 @@ Bu program anlaşmaya göre lisanslanmıştır.
   </data>
   <data name="Meta-Title-Reseller-help-Support" xml:space="preserve">
     <value>AxCrypt Bayi Desteği – Teknik Yardım ve Satış Kaynakları</value>
-  </data>
-  <data name="Meta-Title-Secure-Cloud-On-Platform" xml:space="preserve">
-    <value>AxCrypt Güvenli Bulut Rehberi | Dosyaları Güvenli Şekilde Şifreleyin ve Paylaşın</value>
-  </data>
-  <data name="Meta-Title-Securedmessenger" xml:space="preserve">
-    <value>AxCrypt Güvenli Mesajcıyı | Tam Gizlilik İçin Uçtan Uca Şifreli Mesajlaşma</value>
-  </data>
-  <data name="Meta-Title-Security" xml:space="preserve">
-    <value>AxCrypt Güvenliği – AES-256 Şifreleme ve En İyi Uygulamalar</value>
-  </data>
-  <data name="Meta-Title-Student" xml:space="preserve">
-    <value>AxCrypt Öğrenci Planı – Premium Dosya Şifrelemesi %50 Indirimli</value>
-  </data>
-  <data name="Meta-Title-Tech" xml:space="preserve">
-    <value>AxCrypt for Tech – Güvenli Kaynak Kodu ve Veri Şifreleme</value>
-  </data>
-  <data name="Meta-Title-Technical-Details" xml:space="preserve">
-    <value>AxCrypt Teknik Detaylar – Şifreleme Algoritmaları ve Dosya Formatları
-</value>
-  </data>
-  <data name="Meta-Title-Terms-Of-Use" xml:space="preserve">
-    <value>AxCrypt Hizmet Şartları – Lisanslama, Ödeme ve Deneme Koşulları</value>
-  </data>
-  <data name="Meta-Title-Text-Encrypt-Share-Decrypt" xml:space="preserve">
-    <value>Metin Şifreleme ve Şifre Çözme AxCrypt tarafından | Mesajlarınızı Koruyun</value>
-  </data>
-  <data name="Meta-Title-Usage-Tips" xml:space="preserve">
-    <value>AxCrypt Kullanım İpuçları – Güvenli Dosya Paylaşımı ve Entegrasyon En İyi Uygulamaları</value>
-  </data>
-  <data name="Meta-Title-vault" xml:space="preserve">
-    <value>AxCrypt Vault Özellik Rehberi | Dosyaları Şifrele ve Koruma</value>
   </data>
   <data name="MetadataRetentionLabel" xml:space="preserve">
     <value>Meta Veri saklama</value>
@@ -34198,8 +33868,5 @@ Daha fazla bilgi için Tamam'ı tıklayarak bir web tarayıcısı aç ve interne
   </data>
   <data name="ZeroknowledgeLinkLabel" xml:space="preserve">
     <value>Sıfır bilgi güvenliği</value>
-  </data>
-  <data name="About" xml:space="preserve">
-    <value>{0} hakkında</value>
   </data>
 </root>

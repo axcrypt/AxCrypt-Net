@@ -124,6 +124,9 @@
   <data name="AbortedFileStatus" xml:space="preserve">
     <value>Estado 'Interrumpido' ({0}).</value>
   </data>
+  <data name="About" xml:space="preserve">
+    <value>Acerca de {0}</value>
+  </data>
   <data name="AboutAwardsBadgeAlt" xml:space="preserve">
     <value>Insignia de valoración de reseñas de AxCrypt</value>
   </data>
@@ -24286,9 +24289,6 @@ A continuación, elige el idioma de la invitación y puedes añadir un mensaje p
   <data name="LegacyDownloadsComparisonTitle" xml:space="preserve">
     <value>Comparación de descargas antiguas</value>
   </data>
-  <data name="LegacyDownloadsDescription" xml:space="preserve">
-    <value>Estas son descargas heredadas de AxCrypt para compatibilidad específica, recuperación de archivos o casos de migración. No los utilices para nuevos trabajos de cifrado. AxCrypt 3 es la versión recomendada para escritorio y soporta archivos cifrados de AxCrypt v1, v2 y v3."</value>
-  </data>
   <data name="LegacyDownloadsGuidanceKicker" xml:space="preserve">
     <value>Guía de versiones</value>
   </data>
@@ -24327,9 +24327,6 @@ A continuación, elige el idioma de la invitación y puedes añadir un mensaje p
   </data>
   <data name="LegacyDownloadsSecondaryCta" xml:space="preserve">
     <value>Comparar versiones heredadas</value>
-  </data>
-  <data name="LegacyDownloadsTitle" xml:space="preserve">
-    <value>Descargas heredadas de AxCrypt</value>
   </data>
   <data name="LegacyFaq1" xml:space="preserve">
     <value>¿Qué debería usar en lugar del AxCrypt heredado?</value>
@@ -25160,23 +25157,11 @@ Este programa se licencia según el acuerdo.
   <data name="Meta-Description-About-Axcrypt" xml:space="preserve">
     <value>Descubre el cifrado simple y fuerte de AxCrypt para archivos. Con la confianza de millones de personas, ofrece seguridad AES-256, integración en la nube y acceso multiplataforma sin complicaciones.</value>
   </data>
-  <data name="Meta-Description-Aboutus" xml:space="preserve">
-    <value>Descubre AxCrypt, el galardonado software de cifrado de archivos en el que millones confían para proteger archivos, contraseñas y almacenamiento en la nube con una seguridad sencilla.</value>
-  </data>
   <data name="Meta-Description-Affiliate" xml:space="preserve">
     <value>Únete al Programa de Afiliados de AxCrypt para ganar comisiones fijas mediante la promoción de soluciones de cifrado seguras. Accede a un panel de control y soporte dedicados. ¡Envía tu solicitud ahora!</value>
   </data>
-  <data name="Meta-Description-Awards" xml:space="preserve">
-    <value>Explora los galardones de AxCrypt, incluyendo PCMag Editor's Choice y Gartner's Best Encryption Software 2025. Descubre por qué millones confían en AxCrypt para el cifrado seguro de archivos.</value>
-  </data>
   <data name="Meta-Description-Beta-axcrypt-guide" xml:space="preserve">
     <value>Explora la moderna interfaz de AxCrypt Beta. Aprende a cifrar, descifrar y compartir archivos de forma segura con nuestra guía paso a paso. Comienza tu prueba gratuita de 14 días hoy.</value>
-  </data>
-  <data name="Meta-Description-Beta-Download" xml:space="preserve">
-    <value>Prueba AxCrypt Beta con cifrado AES-256 mejorado, diseño nuevo y elegante y gestor de contraseñas integrado. Descárgalo ahora para Windows, Linux y macOS.</value>
-  </data>
-  <data name="Meta-Description-Blog" xml:space="preserve">
-    <value>Descubre el blog de AxCrypt para conocer las últimas noticias, tutoriales e información sobre seguridad y cifrado de archivos. Aprende a proteger tus datos de manera efectiva.</value>
   </data>
   <data name="Meta-Description-Blog-5KFOESYSBAO" xml:space="preserve">
     <value>Descubre las características esenciales del software de cifrado. Explora qué hace que las herramientas de cifrado como AxCrypt sean efectivas para proteger tus datos confidenciales.</value>
@@ -25589,56 +25574,17 @@ Este programa se licencia según el acuerdo.
   <data name="Meta-Description-Blog-ZTCS" xml:space="preserve">
     <value>Aprende sobre la seguridad cibernética "Zero Trust" y cómo este modelo garantiza una protección integral contra amenazas internas y externas.</value>
   </data>
-  <data name="Meta-Description-Business" xml:space="preserve">
-    <value>Protege los datos de la empresa con AxCrypt Business. Consigue cifrado AES-256, control de acceso del equipo y compartición segura de archivos en grupo. Gestiona a todos los usuarios desde un solo panel de control.</value>
-  </data>
   <data name="Meta-Description-c-sharp-senior-developer" xml:space="preserve">
     <value>Únete a AxCrypt como desarrollador senior de C# en Bangalore. Trabaja en software de cifrado multiplataforma mediante .NET, MAUI y Xamarin.  Solicítalo ahora para ser parte de nuestro innovador equipo.</value>
-  </data>
-  <data name="Meta-Description-CHOF" xml:space="preserve">
-    <value>Consulta los hashes criptográficos oficiales SHA-256 para instaladores y paquetes de AxCrypt. Utiliza estos hashes para verificar las descargas y garantizar la autenticidad y seguridad de los archivos.</value>
-  </data>
-  <data name="Meta-Description-Commandline-Interface" xml:space="preserve">
-    <value>Utiliza la línea de comandos AxCrypt para automatizar el cifrado y descifrado de archivos. Protege datos sensibles con cifrado AES fuerte usando comandos ILC simples.</value>
-  </data>
-  <data name="Meta-Description-Customerstories" xml:space="preserve">
-    <value>Descubre cómo organizaciones como Bechtle Schweiz AG y ElectroCraft confían en AxCrypt para un cifrado de archivos seguro y fácil de usar en todas las industrias. Lee sus historias ahora.</value>
-  </data>
-  <data name="Meta-Description-Download" xml:space="preserve">
-    <value>Descarga AxCrypt para Windows, Mac, Android e iOS. Cifra archivos con seguridad AES-256, gestiona contraseñas y comparte datos de forma segura entre dispositivos.</value>
-  </data>
-  <data name="Meta-Description-Education" xml:space="preserve">
-    <value>Protege los registros de los estudiantes, archivos de investigación y datos académicos con AxCrypt. Habilita el cifrado AES-256 y comparte de forma segura en escuelas y universidades.</value>
   </data>
   <data name="Meta-Description-FAQ" xml:space="preserve">
     <value>Explora la sección de preguntas frecuentes de AxCrypt para obtener orientación sobre el uso de herramientas de cifrado, la administración de suscripciones y el acceso a la configuración de la cuenta. Protege tus datos con confianza.</value>
   </data>
-  <data name="Meta-Description-Features" xml:space="preserve">
-    <value>Descubre las principales características de AxCrypt: cifrado AES-256, gestor de contraseñas, sincronización en la nube, compartición segura de archivos y acceso móvil para protección total de datos.</value>
-  </data>
-  <data name="Meta-Description-Financial" xml:space="preserve">
-    <value>Protege los datos financieros y los registros de los clientes con AxCrypt. Obtén cifrado AES-256, compartición segura de archivos y protección lista para cumplir con la normativa para las transacciones.</value>
-  </data>
-  <data name="Meta-Description-Gdpr" xml:space="preserve">
-    <value>Garantiza el cumplimiento de RGPD con el cifrado AES-256 de AxCrypt, la arquitectura de conocimiento cero y el intercambio seguro de archivos. Protege los datos personales sin esfuerzo.</value>
-  </data>
-  <data name="Meta-Description-Getstarted" xml:space="preserve">
-    <value>Aprende a usar AxCrypt con nuestra guía de inicio rápido. Protege tus archivos con un potente cifrado en Windows, Mac y dispositivos móviles. ¡Configuración fácil en minutos!</value>
-  </data>
-  <data name="Meta-Description-Getstarted-Axcrypt-Business" xml:space="preserve">
-    <value>Protege los archivos empresariales con el cifrado AES-256 de AxCrypt. Habilita compartir en grupos, la recuperación de claves maestras y la gestión centralizada de equipos para una colaboración segura.</value>
-  </data>
   <data name="Meta-Description-Getstarted-Desktop" xml:space="preserve">
     <value>Configura AxCrypt en Windows o Mac con esta guía paso a paso. Aprende a cifrar archivos, compartir de forma segura y gestionar contraseñas con AxCrypt Desktop.</value>
   </data>
-  <data name="Meta-Description-Getstarted-Encryption-Decryption" xml:space="preserve">
-    <value>Protege tus datos fácilmente usando AxCrypt. Sigue nuestra guía para cifrar y descifrar archivos en Windows, Mac y dispositivos móviles. ¡Rápido, seguro y fácil de usar!</value>
-  </data>
   <data name="Meta-Description-Getstarted-Group" xml:space="preserve">
     <value>Simplifica la colaboración en equipo con la función de grupo AxCrypt. Gestiona roles, controla el acceso y comparte archivos cifrados de forma segura usando una clave maestra centralizada.</value>
-  </data>
-  <data name="Meta-Description-Getstarted-Master-Key" xml:space="preserve">
-    <value>Activa la clave maestra AxCrypt para que los administradores recuperen archivos cifrados. Mantén el acceso a los datos, la seguridad y la continuidad si los usuarios olvidan contraseñas o se marchan.</value>
   </data>
   <data name="Meta-Description-Getstarted-Masterkey" xml:space="preserve">
     <value>Habilita la clave maestra de AxCrypt para permitir a los administradores recuperar archivos cifrados, asegurando la continuidad del acceso a los datos incluso si los usuarios olvidan las contraseñas o abandonan la empresa.</value>
@@ -25661,41 +25607,11 @@ Este programa se licencia según el acuerdo.
   <data name="Meta-Description-Getstarted-Reseller-Marketing" xml:space="preserve">
     <value>Eleve sus esfuerzos de marketing de revendedor con las pautas de marca y marketing de AxCrypt. Promueva el mejor software de cifrado con confianza.</value>
   </data>
-  <data name="Meta-Description-Government" xml:space="preserve">
-    <value>Protege los datos clasificados y gubernamentales con AxCrypt. El cifrado AES-256 garantiza confidencialidad, cumplimiento y el intercambio seguro de documentos entre agencias.</value>
-  </data>
-  <data name="Meta-Description-group" xml:space="preserve">
-    <value>Mejore la seguridad y administre el acceso con la función de grupo de AxCrypt. Aprenda a crear grupos, asignar roles y controlar el acceso a archivos de manera eficiente.</value>
-  </data>
   <data name="Meta-Description-guide-keyshare" xml:space="preserve">
     <value>Aprende a usar el Intercambio de Claves de AxCrypt para compartir archivos cifrados de forma segura sin revelar contraseñas. Colabora de forma segura con protección de cifrado AES-256.</value>
   </data>
-  <data name="Meta-Description-Guides-App-BrowserExtension" xml:space="preserve">
-    <value>Instala la extensión del navegador del Gestor de Contraseñas de AxCrypt, desbloquea tu Caja Fuerte cifrada y usa el autocompletado seguro desde tu navegador.</value>
-  </data>
-  <data name="Meta-Description-Guides-App-Linux" xml:space="preserve">
-    <value>Instala AxCrypt en Linux con paquetes DEB o RPM, inicia sesión y gestiona archivos cifrados de forma segura entre las distribuciones soportadas.</value>
-  </data>
-  <data name="Meta-Description-Guides-App-MacOS" xml:space="preserve">
-    <value>Configura AxCrypt en macOS, inicia sesión y protege los archivos con herramientas de cifrado, compartición segura, Caja Fuerte, Cloud Security y Gestor de Contraseñas.</value>
-  </data>
-  <data name="Meta-Description-Guides-App-Mobile" xml:space="preserve">
-    <value>Instala AxCrypt en Android, iPhone o iPad para cifrar archivos, archivos de compartición de claves, acceder al Gestor de contraseñas y usar Mensajero Seguro.</value>
-  </data>
-  <data name="Meta-Description-Guides-App-Windows" xml:space="preserve">
-    <value>Configura AxCrypt en Windows, elige el instalador adecuado, inicia sesión, cifra archivos, comparte de forma segura y utiliza herramientas de protección de escritorio.</value>
-  </data>
-  <data name="Meta-Description-guides-passwordmanager" xml:space="preserve">
-    <value>Aprende a usar el Gestor de Contraseñas AxCrypt para almacenar y compartir contraseñas, tarjetas y notas de forma segura. Disfruta del cifrado AES-256 y del acceso en todos los dispositivos.</value>
-  </data>
   <data name="Meta-Description-Guides-PasswordManager-BrowserExtension" xml:space="preserve">
     <value>Utiliza la extensión del navegador AxCrypt Password Manager para acceder a contraseñas, tarjetas, notas y autocompletar cifrado desde tu navegador.</value>
-  </data>
-  <data name="Meta-Description-Healthcare" xml:space="preserve">
-    <value>Protege los registros de los pacientes y asegura el cumplimiento de AxCrypt. Utiliza cifrado AES-256 para la protección de datos médicos, el intercambio seguro y la privacidad sanitaria.</value>
-  </data>
-  <data name="Meta-Description-HelpCenter" xml:space="preserve">
-    <value>¿Necesitas ayuda con AxCrypt? Explora preguntas frecuentes, guías paso a paso y tutoriales sobre cifrado de archivos, gestión de contraseñas y soporte para compartir archivos de forma segura.</value>
   </data>
   <data name="Meta-Description-hipaa" xml:space="preserve">
     <value>Logre el cumplimiento de HIPAA con el cifrado de archivos robusto de AxCrypt. Proteja los datos confidenciales de la atención médica con nuestras soluciones de cifrado seguras y fáciles de usar.</value>
@@ -25703,56 +25619,17 @@ Este programa se licencia según el acuerdo.
   <data name="Meta-Description-Hippa" xml:space="preserve">
     <value>Garantiza el cumplimiento de HIPAA con el cifrado AES-256 de AxCrypt, la arquitectura de conocimiento cero y el intercambio seguro de archivos. Protege la Información de Salud Protegida (PHI) sin esfuerzo con herramientas fáciles de usar.</value>
   </data>
-  <data name="Meta-Description-Home" xml:space="preserve">
-    <value>Asegura tus archivos fácilmente con AxCrypt. Disfruta del cifrado AES-256, el gestor de contraseñas integrado y el intercambio seguro de archivos. ¡Protege tus datos en todos los dispositivos hoy mismo!</value>
-  </data>
-  <data name="Meta-Description-Industries" xml:space="preserve">
-    <value>Protege datos sensibles de diferentes industrias con AxCrypt. Soluciones seguras para los sectores tecnológico, educativo, sanitario, jurídico, financiero y gubernamental.</value>
-  </data>
-  <data name="Meta-Description-Jobs" xml:space="preserve">
-    <value>Explora las oportunidades profesionales en AxCrypt en Bangalore y Estocolmo. Estamos contratando desarrolladores de C# y un escritor de contenido en prácticas para mejorar nuestro galardonado software de cifrado.</value>
-  </data>
-  <data name="Meta-Description-Legal" xml:space="preserve">
-    <value>Protege los documentos legales confidenciales con AxCrypt. Activa el cifrado AES-256, el intercambio seguro de archivos y la protección de datos de clientes para despachos de abogados y profesionales.</value>
-  </data>
-  <data name="Meta-Description-MultiFactor-Authentication" xml:space="preserve">
-    <value>Aprende cómo habilitar y utilizar la Autenticación Multifactor (MFA) en AxCrypt para mejorar la seguridad de tu cuenta.</value>
-  </data>
   <data name="Meta-Description-nis2" xml:space="preserve">
     <value>Garantiza el cumplimiento de NIS2 con el cifrado AES-256 de AxCrypt, la arquitectura de conocimiento cero, el intercambio seguro de archivos y las copias de seguridad cifradas para la continuidad operativa.</value>
   </data>
   <data name="Meta-Description-partner" xml:space="preserve">
     <value>Únete al Programa de Socios de AxCrypt como revendedor o afiliado. Gana comisiones, accede a herramientas promocionales y ofrece soluciones de cifrado seguras a tus clientes.</value>
   </data>
-  <data name="Meta-Description-Password-Generator" xml:space="preserve">
-    <value>Genera contraseñas seguras y complejas con el Generador de contraseñas de AxCrypt. Mejora tu seguridad con contraseñas que son fáciles de recordar y escribir.</value>
-  </data>
   <data name="Meta-Description-PasswordManager" xml:space="preserve">
     <value>Gestiona y comparte contraseñas, tarjetas y notas de forma segura con AxCrypt Password Manager. Disfruta del cifrado AES-256, sincronización entre dispositivos y acceso sin conexión.</value>
   </data>
-  <data name="Meta-Description-Premium" xml:space="preserve">
-    <value>Protege tus archivos personales con AxCrypt Premium. Obtén cifrado AES-256, gestor de contraseñas, sincronización en la nube y acceso móvil. ¡Empieza tu prueba gratuita hoy mismo!</value>
-  </data>
-  <data name="Meta-Description-Press" xml:space="preserve">
-    <value>Explora la presencia mediática de AxCrypt: entrevistas con el ex CTO Jonatan Pettersson, imágenes de prensa y directrices de marca. Accede a recursos para publicaciones y consultas de los medios de comunicación.</value>
-  </data>
-  <data name="Meta-Description-Pricing" xml:space="preserve">
-    <value>Compara los planes gratuitos, premium y business de AxCrypt. Consigue cifrado AES-256, gestor de contraseñas e intercambio seguro de archivos. ¡Empieza hoy tu prueba gratuita de 14 días!</value>
-  </data>
   <data name="Meta-Description-Privacy-Policy" xml:space="preserve">
     <value>Explora cómo AxCrypt respeta tu privacidad con políticas que cumplen con RGPD. Comprende la recopilación de datos, su uso y tus derechos para acceder y eliminar información personal.</value>
-  </data>
-  <data name="Meta-Description-Privacypolicy" xml:space="preserve">
-    <value>Respetamos tu privacidad y hemos implementado medidas estrictas para tu seguridad en la app de AxCrypt.</value>
-  </data>
-  <data name="Meta-Description-Regulatory-Compliance" xml:space="preserve">
-    <value>Descubra el cumplimiento de AxCrypt con las regulaciones y normas de la industria en materia de seguridad de datos y encriptación.</value>
-  </data>
-  <data name="Meta-Description-Release-Notes" xml:space="preserve">
-    <value>Mantente informado con las notas de actualizaciones de AxCrypt. Explora los registros de cambios detallados para las versiones de Windows, macOS, iOS y Android, incluidas las nuevas funciones y las correcciones de errores.</value>
-  </data>
-  <data name="Meta-Description-Requirements" xml:space="preserve">
-    <value>Descubre los requisitos del sistema operativo para AxCrypt. Lee más acerca de las versiones para Windows, macOS, Linux, iOS y Android que garantizan la compatibilidad con AxCrypt.</value>
   </data>
   <data name="Meta-Description-Reseller" xml:space="preserve">
     <value>Únete al Programa de Revendedores de AxCrypt para ofrecer soluciones de cifrado seguras a las empresas. Establece tus propios márgenes, accede a soporte dedicado y gana comisiones ilimitadas.</value>
@@ -25766,38 +25643,8 @@ Este programa se licencia según el acuerdo.
   <data name="Meta-Description-Reseller-help-Support" xml:space="preserve">
     <value>Accede al soporte para distribuidores de AxCrypt: guías técnicas, tutoriales en vídeo, materiales de ventas y asistencia directa para mejorar tu experiencia de reventa.</value>
   </data>
-  <data name="Meta-Description-Secure-Cloud-On-Platform" xml:space="preserve">
-    <value>Aprende a usar AxCrypt Secure Cloud para cifrar, almacenar y compartir archivos de forma segura. Sigue nuestra guía paso a paso para la protección segura de archivos en la nube.</value>
-  </data>
-  <data name="Meta-Description-Securedmessenger" xml:space="preserve">
-    <value>Protege la comunicación empresarial con la Mensajería Segura de AxCrypt. Cifrado de extremo a extremo, seguridad AES-256, servidores basados en la UE y cumplimiento total del RGPD y NIS2.</value>
-  </data>
-  <data name="Meta-Description-Security" xml:space="preserve">
-    <value>Explora la sólida seguridad de AxCrypt: cifrado AES-256, integridad HMAC-SHA512, mejores prácticas de contraseñas y transparencia de código abierto para una protección de archivos fiable.</value>
-  </data>
   <data name="Meta-Description-Share-Key" xml:space="preserve">
     <value>Aprenda paso a paso cómo compartir documentos, archivos y fotos de forma segura sin compartir su contraseña utilizando la función de uso compartido de claves de AxCrypt.</value>
-  </data>
-  <data name="Meta-Description-Student" xml:space="preserve">
-    <value>Consigue hasta un 50% de descuento en AxCrypt Premium para estudiantes. Protege archivos académicos con cifrado AES-256, sincroniza en la nube y comparte archivos de forma segura entre dispositivos.</value>
-  </data>
-  <data name="Meta-Description-Tech" xml:space="preserve">
-    <value>Protege tus proyectos tecnológicos con AxCrypt. Cifra código fuente, compilaciones de software y datos confidenciales usando cifrado AES-256. ¡Pruébalo hoy mismo para tu equipo!</value>
-  </data>
-  <data name="Meta-Description-Technical-Details" xml:space="preserve">
-    <value>Explora los estándares de cifrado de AxCrypt: AES-256, RSA-4096, HMAC-SHA512 y formatos de archivo. Obtén información sobre la administración de claves, las características de seguridad y el código fuente abierto.</value>
-  </data>
-  <data name="Meta-Description-Terms-Of-Use" xml:space="preserve">
-    <value>Explora los Términos de servicio de AxCrypt: acuerdos de licencia, métodos de pago, condiciones de prueba y políticas de reembolso. Garantiza el cumplimiento de nuestros términos de uso.</value>
-  </data>
-  <data name="Meta-Description-Text-Encrypt-Share-Decrypt" xml:space="preserve">
-    <value>Aprende a cifrar y descifrar texto de forma segura utilizando las funciones fiables de cifrado de AxCrypt. Esta guía te ayuda a proteger los mensajes sensibles y a garantizar que solo los usuarios autorizados puedan acceder a ellos.</value>
-  </data>
-  <data name="Meta-Description-Usage-Tips" xml:space="preserve">
-    <value>Descubre consejos prácticos para usar AxCrypt: protege los archivos adjuntos de correo electrónico, intégralos con servicios en la nube, anonimiza los nombres de los archivos y automatiza las tareas de cifrado.</value>
-  </data>
-  <data name="Meta-Description-vault" xml:space="preserve">
-    <value>Descubre cómo la Caja Fuerte de AxCrypt te ayuda a almacenar, gestionar y cifrar archivos de forma segura con protección por contraseña y seguridad de conocimiento cero.</value>
   </data>
   <data name="Meta-Keywords-Blog" xml:space="preserve">
     <value>Cómo cifrar archivos, cuáles son los usos del cifrado, cómo proteger los datos en tu móvil, mitos sobre el cifrado, cómo proteger tu empresa de las ciberamenazas.</value>
@@ -25844,23 +25691,11 @@ Este programa se licencia según el acuerdo.
   <data name="Meta-Title-About-Axcrypt" xml:space="preserve">
     <value>Descripción general de AxCrypt – Software de cifrado de archivos fácil y seguro</value>
   </data>
-  <data name="Meta-Title-Aboutus" xml:space="preserve">
-    <value>Acerca de AxCrypt | Software de cifrado de archivos de confianza</value>
-  </data>
   <data name="Meta-Title-Affiliate" xml:space="preserve">
     <value>Programa de afiliados de AxCrypt – Gana comisiones promoviendo el cifrado</value>
   </data>
-  <data name="Meta-Title-Awards" xml:space="preserve">
-    <value>Galardones recibidos por AxCrypt – Reconocido como el Mejor Software de Cifrado</value>
-  </data>
   <data name="Meta-Title-Beta-axcrypt-guide" xml:space="preserve">
     <value>Guía Beta de AxCrypt – Aprende a Cifrar, Descifrar y Compartir Archivos de Forma Segura | Inicio rápido</value>
-  </data>
-  <data name="Meta-Title-Beta-Download" xml:space="preserve">
-    <value>Descargar AxCrypt Beta – Nuevo cifrado de archivos para Windows, Linux y Mac</value>
-  </data>
-  <data name="Meta-Title-Blog" xml:space="preserve">
-    <value>Blog de AxCrypt: Tu Recurso para la Seguridad de Archivos y Noticias sobre Cifrado</value>
   </data>
   <data name="Meta-Title-Blog-5KFOESYSBAO" xml:space="preserve">
     <value>5 características clave que todo software de cifrado debe tener</value>
@@ -26273,59 +26108,17 @@ Este programa se licencia según el acuerdo.
   <data name="Meta-Title-Blog-ZTCS" xml:space="preserve">
     <value>Entender la seguridad cibernética de confianza cero: un nuevo enfoque de protección</value>
   </data>
-  <data name="Meta-Title-Business" xml:space="preserve">
-    <value>AxCrypt para Empresas – Software seguro de cifrado de archivos para equipos</value>
-  </data>
   <data name="Meta-Title-c-sharp-senior-developer" xml:space="preserve">
     <value>Developer Senior en C# en AxCrypt  – Puesto a tiempo completo en Bangalore</value>
-  </data>
-  <data name="Meta-Title-CHOF" xml:space="preserve">
-    <value>Hashes criptográficos de archivos</value>
-  </data>
-  <data name="Meta-Title-Commandline-Interface" xml:space="preserve">
-    <value>Línea de comandos AxCrypt | Cifrar archivos mediante ILC</value>
-  </data>
-  <data name="Meta-Title-Customerstories" xml:space="preserve">
-    <value>Historias de clientes de AxCrypt – Éxitos de cifrado en el mundo real</value>
-  </data>
-  <data name="Meta-Title-Download" xml:space="preserve">
-    <value>Descargar AxCrypt – Cifrado seguro de archivos para todos los dispositivos</value>
-  </data>
-  <data name="Meta-Title-Education" xml:space="preserve">
-    <value>AxCrypt para Educación – Protege los datos de los estudiantes y de investigación</value>
   </data>
   <data name="Meta-Title-Encryption-Decryption" xml:space="preserve">
     <value>Cifrado | Descifrado en AxCrypt </value>
   </data>
-  <data name="Meta-Title-Faq" xml:space="preserve">
-    <value>Centro de ayuda de AxCrypt – Preguntas frecuentes sobre cifrado, planes y acceso a la cuenta </value>
-  </data>
-  <data name="Meta-Title-Features" xml:space="preserve">
-    <value>Características de AxCrypt – Cifrado de archivos potente y compartición segura</value>
-  </data>
-  <data name="Meta-Title-Financial" xml:space="preserve">
-    <value>AxCrypt para Finanzas – Cifrado Seguro de Datos Financieros</value>
-  </data>
-  <data name="Meta-Title-Gdpr" xml:space="preserve">
-    <value>Cumplimiento de AxCrypt con el RGPD – Protege los datos personales con cifrado AES-256</value>
-  </data>
-  <data name="Meta-Title-Getstarted" xml:space="preserve">
-    <value>Primeros pasos con AxCrypt | Guía sencilla de cifrado de archivos</value>
-  </data>
-  <data name="Meta-Title-Getstarted-Axcrypt-Business" xml:space="preserve">
-    <value>AxCrypt Business – Cifrado seguro de archivos para equipos</value>
-  </data>
   <data name="Meta-Title-Getstarted-Desktop" xml:space="preserve">
     <value>Empieza con AxCrypt Desktop – Cifra y comparte archivos</value>
   </data>
-  <data name="Meta-Title-Getstarted-Encryption-Decryption" xml:space="preserve">
-    <value>Cómo Cifrar y Descifrar Archivos con AxCrypt | Guía paso a paso</value>
-  </data>
   <data name="Meta-Title-Getstarted-Group" xml:space="preserve">
     <value>Función de grupo AxCrypt – Protege el acceso del equipo y la compartición de archivos</value>
-  </data>
-  <data name="Meta-Title-Getstarted-Master-Key" xml:space="preserve">
-    <value>Clave maestra AxCrypt – Acceso de administrador a archivos cifrados</value>
   </data>
   <data name="Meta-Title-Getstarted-Masterkey" xml:space="preserve">
     <value>Clave Maestra de AxCrypt – Recupera archivos cifrados con acceso de administrador</value>
@@ -26348,113 +26141,26 @@ Este programa se licencia según el acuerdo.
   <data name="Meta-Title-Getstarted-Reseller-Marketing" xml:space="preserve">
     <value>Marketing para Revendedores de AxCrypt | Guias de Marca y Marketing</value>
   </data>
-  <data name="Meta-Title-Government" xml:space="preserve">
-    <value>AxCrypt para el Gobierno – Cifrado seguro de datos sensibles</value>
-  </data>
-  <data name="Meta-Title-group" xml:space="preserve">
-    <value>Mejore la seguridad empresarial con la función de grupo de AxCrypt.</value>
-  </data>
   <data name="Meta-Title-guide-keyshare" xml:space="preserve">
     <value>Guía de compartición de claves de AxCrypt – Compartir archivos cifrados de forma segura</value>
-  </data>
-  <data name="Meta-Title-Guides-App-BrowserExtension" xml:space="preserve">
-    <value>Configurar la extensión del navegador AxCrypt</value>
-  </data>
-  <data name="Meta-Title-Guides-App-Linux" xml:space="preserve">
-    <value>Configurar AxCrypt en Linux</value>
-  </data>
-  <data name="Meta-Title-Guides-App-MacOS" xml:space="preserve">
-    <value>Configurar AxCrypt en macOS</value>
-  </data>
-  <data name="Meta-Title-Guides-App-Mobile" xml:space="preserve">
-    <value>Configurar AxCrypt en móvil</value>
-  </data>
-  <data name="Meta-Title-Guides-App-Windows" xml:space="preserve">
-    <value>Configurar AxCrypt en Windows</value>
-  </data>
-  <data name="Meta-Title-guides-passwordmanager" xml:space="preserve">
-    <value>Guía del gestor de contraseñas de AxCrypt – Contraseñas seguras y compartidas</value>
   </data>
   <data name="Meta-Title-Guides-PasswordManager-BrowserExtension" xml:space="preserve">
     <value>Guía de extensión para navegadores del administrador de contraseñas AxCrypt</value>
   </data>
-  <data name="Meta-Title-Healthcare" xml:space="preserve">
-    <value>AxCrypt para la Sanidad – Proteger los datos de los pacientes de forma segura</value>
-  </data>
-  <data name="Meta-Title-HelpCenter" xml:space="preserve">
-    <value>Centro de Ayuda de AxCrypt – Preguntas frecuentes y soporte sobre cifrado de archivos</value>
-  </data>
-  <data name="Meta-Title-Hipaa" xml:space="preserve">
-    <value>HIPAA | Cumplimiento de AxCrypt HIPAA: proteja y cifre los datos de atención médica</value>
-  </data>
   <data name="Meta-Title-Hippa" xml:space="preserve">
     <value>Cumplimiento de HIPAA con AxCrypt – Protege los datos de atención médica con AES-256</value>
-  </data>
-  <data name="Meta-Title-Home" xml:space="preserve">
-    <value>AxCrypt: El mejor software para cifrado de archivos y gestión de contraseñas</value>
-  </data>
-  <data name="Meta-Title-Industries" xml:space="preserve">
-    <value>AxCrypt para Industrias – Cifrado de datos para todos los sectores</value>
-  </data>
-  <data name="Meta-Title-Job-ConIntern" xml:space="preserve">
-    <value>Oportunidades de pasantía para redactores de contenido | Carreras en AxCrypt</value>
-  </data>
-  <data name="Meta-Title-Job-JuniorDevelop" xml:space="preserve">
-    <value>Oportunidades para desarrolladores junior | Carreras en AxCrypt</value>
-  </data>
-  <data name="Meta-Title-Job-SeniorDevelop" xml:space="preserve">
-    <value>Oportunidades para desarrolladores senior | Carreras en AxCrypt</value>
   </data>
   <data name="Meta-Title-Job-XamarinDevops" xml:space="preserve">
     <value>Oportunidades para desarrolladores de Xamarin | Carreras en AxCrypt</value>
   </data>
-  <data name="Meta-Title-Jobs" xml:space="preserve">
-    <value>Empleos en AxCrypt – Únete a nuestro equipo en Bangalore y Estocolmo</value>
-  </data>
-  <data name="Meta-Title-keyshare" xml:space="preserve">
-    <value>Guía de Claves Compartidas de AxCrypt | Comparta archivos de forma segura sin contraseña</value>
-  </data>
-  <data name="Meta-Title-Legal" xml:space="preserve">
-    <value>AxCrypt para el Sector Jurídico – Protege archivos y documentos de clientes</value>
-  </data>
-  <data name="Meta-Title-MultiFactor-Authentication" xml:space="preserve">
-    <value>Cómo activar la autenticación multifactor (MFA) | Guía de AxCrypt</value>
-  </data>
-  <data name="Meta-Title-Nis2" xml:space="preserve">
-    <value>Cumplimiento de NIS2 con AxCrypt – Datos seguros con cifrado AES-256</value>
-  </data>
   <data name="Meta-Title-partner" xml:space="preserve">
     <value>Programa de socios de AxCrypt - Conviértete en distribuidor o afiliado hoy</value>
-  </data>
-  <data name="Meta-Title-Password-Generator" xml:space="preserve">
-    <value>Genera contraseñas seguras y complejas con el Generador de contraseñas de AxCrypt</value>
   </data>
   <data name="Meta-Title-PasswordManager" xml:space="preserve">
     <value>Gestor de Contraseñas de AxCrypt – Almacenamiento seguro de contraseñas y datos</value>
   </data>
-  <data name="Meta-Title-Premium" xml:space="preserve">
-    <value>AxCrypt Premium – Cifrado avanzado de archivos para particulares</value>
-  </data>
-  <data name="Meta-Title-Press" xml:space="preserve">
-    <value>AxCrypt en la Prensa – Cobertura de medios, entrevistas y recursos de marca</value>
-  </data>
-  <data name="Meta-Title-Pricing" xml:space="preserve">
-    <value>Precios de AxCrypt – Planes de cifrado de archivos para todos los usuarios</value>
-  </data>
   <data name="Meta-Title-Privacy-Policy" xml:space="preserve">
     <value>Política de privacidad de AxCrypt – Prácticas de protección de datos que cumplen con el RGPD</value>
-  </data>
-  <data name="Meta-Title-Privacypolicy" xml:space="preserve">
-    <value>Política de privacidad de AxCrypt | Cumplimos con las políticas del GDPR.</value>
-  </data>
-  <data name="Meta-Title-Regulatory-Compliance" xml:space="preserve">
-    <value>Cumplimiento normativo de AxCrypt</value>
-  </data>
-  <data name="Meta-Title-Release-Notes" xml:space="preserve">
-    <value>Notas de la versión de AxCrypt – Últimas actualizaciones e historial de versiones</value>
-  </data>
-  <data name="Meta-Title-Requirements" xml:space="preserve">
-    <value>Requisitos del sistema para AxCrypt – Plataformas compatibles y compatibilidad con el sistema operativo</value>
   </data>
   <data name="Meta-Title-Reseller" xml:space="preserve">
     <value>Programa de distribuidores de AxCrypt – Gana las mejores comisiones por las ventas de cifrado</value>
@@ -26467,36 +26173,6 @@ Este programa se licencia según el acuerdo.
   </data>
   <data name="Meta-Title-Reseller-help-Support" xml:space="preserve">
     <value>Soporte para distribuidores de AxCrypt - Asistencia técnica y recursos de ventas</value>
-  </data>
-  <data name="Meta-Title-Secure-Cloud-On-Platform" xml:space="preserve">
-    <value>Guía de Secure Cloud de AxCrypt | Cifrar y compartir archivos de forma segura</value>
-  </data>
-  <data name="Meta-Title-Securedmessenger" xml:space="preserve">
-    <value>Mensajería segura de AxCrypt | Mensajería cifrada de extremo a extremo para privacidad total</value>
-  </data>
-  <data name="Meta-Title-Security" xml:space="preserve">
-    <value>Seguridad de AxCrypt – Cifrado AES-256 y Buenas Prácticas</value>
-  </data>
-  <data name="Meta-Title-Student" xml:space="preserve">
-    <value>Plan Estudiantil AxCrypt – 50% de descuento en cifrado premium de archivos</value>
-  </data>
-  <data name="Meta-Title-Tech" xml:space="preserve">
-    <value>AxCrypt para la industria tecnológica – Código fuente seguro y cifrado de datos</value>
-  </data>
-  <data name="Meta-Title-Technical-Details" xml:space="preserve">
-    <value>Detalles técnicos de AxCrypt – Algoritmos de cifrado y formatos de archivo</value>
-  </data>
-  <data name="Meta-Title-Terms-Of-Use" xml:space="preserve">
-    <value>Términos de servicio de AxCrypt – Licencias, pagos y condiciones del período de prueba</value>
-  </data>
-  <data name="Meta-Title-Text-Encrypt-Share-Decrypt" xml:space="preserve">
-    <value>Cifrado y descifrado de texto en AxCrypt | Protege tus mensajes</value>
-  </data>
-  <data name="Meta-Title-Usage-Tips" xml:space="preserve">
-    <value>Consejos de Uso de AxCrypt – Buenas Prácticas para Compartir Archivos e Integración de Forma Segura</value>
-  </data>
-  <data name="Meta-Title-vault" xml:space="preserve">
-    <value>Guía de funciones de la Caja Fuerte de AxCrypt | Cifra y protege archivos</value>
   </data>
   <data name="MetadataRetentionLabel" xml:space="preserve">
     <value>Retención de metadatos</value>
@@ -33944,8 +33620,5 @@ Para más información, haz clic en OK para abrir nuestra página web en un expl
   </data>
   <data name="ZeroknowledgeLinkLabel" xml:space="preserve">
     <value>Seguridad de conocimiento cero</value>
-  </data>
-  <data name="About" xml:space="preserve">
-    <value>Acerca de {0}</value>
   </data>
 </root>
