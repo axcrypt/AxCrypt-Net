@@ -203,7 +203,7 @@ namespace AxCrypt.Core.Service
                 UserAccount existingUserAccount = userAccounts.Accounts.FirstOrDefault(ua => EmailAddress.Parse(ua.UserName) == Identity.UserEmail);
                 if (existingUserAccount == null)
                 {
-                    existingUserAccount = new UserAccount(Identity.UserEmail.Address);
+                    existingUserAccount = new UserAccount(Identity.UserEmail.Address, SubscriptionLevel.Free , AccountStatus.Offline);
                     userAccounts.Accounts.Add(existingUserAccount);
                 }
 
