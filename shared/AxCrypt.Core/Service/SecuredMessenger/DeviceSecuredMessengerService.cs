@@ -135,37 +135,6 @@ namespace AxCrypt.Core.Service.SecuredMessenger
             return localUserMessages;
         }
 
-        public async Task<SecuredMessengerRootApiModel> GetAsync(Guid id, string userEmail)
-        {
-            SecuredMessengerRootApiModel localUserMessages = await _localService.GetAsync(id, userEmail).Free();
-            if (!New<AxCryptOnlineState>().IsOnline || Identity == LogOnIdentity.Empty)
-            {
-                return localUserMessages;
-            }
-
-            try
-            {
-                SecuredMessengerRootApiModel remoteMessages = await _remoteService.GetAsync(id, userEmail).Free();
-                if (remoteMessages == null)
-                {
-                    return localUserMessages;
-                }
-
-                if (localUserMessages != remoteMessages)
-                {
-                    await _localService.SavemessagesAsync(remoteMessages).Free();
-                }
-
-                return remoteMessages;
-            }
-            catch (ApiException aex)
-            {
-                await aex.HandleApiExceptionAsync();
-            }
-
-            return localUserMessages;
-        }
-
         public async Task<bool> UpdateAsync(IEnumerable<Guid> ids, string userEmail, bool isUnread)
         {
             if (New<AxCryptOnlineState>().IsOnline)
@@ -234,7 +203,7 @@ namespace AxCrypt.Core.Service.SecuredMessenger
             return await _localService.CreateAsync(model).Free();
         }
 
-        public async Task<bool> SavemessagesAsync(SecuredMessengerRootApiModel model)
+        public async Task<bool> SavemessagesAsync(IEnumerable<SecuredMessengerApiModel> model)
         {
             if (New<AxCryptOnlineState>().IsOnline)
             {
@@ -251,7 +220,7 @@ namespace AxCrypt.Core.Service.SecuredMessenger
             return await _localService.SavemessagesAsync(model).Free();
         }
 
-        public async Task<IEnumerable<SecuredMessengerRootApiModel>> GetSecMsgWithSearchFiltersAsync(SecureMsgrFilterTab securedMessengerFilterTab, RequestOptions requestOptions)
+        public async Task<IEnumerable<SecuredMessengerApiModel>> GetSecMsgWithSearchFiltersAsync(SecureMsgrFilterTab securedMessengerFilterTab, RequestOptions requestOptions)
         {
             if (New<AxCryptOnlineState>().IsOnline)
             {
@@ -341,5 +310,99 @@ namespace AxCrypt.Core.Service.SecuredMessenger
 
             return false;
         }
+
+        public async Task<IEnumerable<SecuredMessengerApiModel>> GetInboxMessagesWithRepliesAsync(Guid id, string userEmail)
+        {
+            IEnumerable<SecuredMessengerApiModel> localUserMessages = await _localService.GetInboxMessagesWithRepliesAsync(id, userEmail).Free();
+            if (!New<AxCryptOnlineState>().IsOnline || Identity == LogOnIdentity.Empty)
+            {
+                return localUserMessages;
+            }
+
+            try
+            {
+                IEnumerable<SecuredMessengerApiModel> remoteMessages = await _remoteService.GetInboxMessagesWithRepliesAsync(id, userEmail).Free();
+                if (remoteMessages == null)
+                {
+                    return localUserMessages;
+                }
+
+                if (localUserMessages != remoteMessages)
+                {
+                    await _localService.SavemessagesAsync(remoteMessages).Free();
+                }
+
+                return remoteMessages;
+            }
+            catch (ApiException aex)
+            {
+                await aex.HandleApiExceptionAsync();
+            }
+
+            return localUserMessages;
+        }
+
+        public async Task<IEnumerable<SecuredMessengerApiModel>> GetSentMessagesWithRepliesAsync(Guid id, string userEmail)
+        {
+            IEnumerable<SecuredMessengerApiModel> localUserMessages = await _localService.GetSentMessagesWithRepliesAsync(id, userEmail).Free();
+            if (!New<AxCryptOnlineState>().IsOnline || Identity == LogOnIdentity.Empty)
+            {
+                return localUserMessages;
+            }
+
+            try
+            {
+                IEnumerable<SecuredMessengerApiModel> remoteMessages = await _remoteService.GetSentMessagesWithRepliesAsync(id, userEmail).Free();
+                if (remoteMessages == null)
+                {
+                    return localUserMessages;
+                }
+
+                if (localUserMessages != remoteMessages)
+                {
+                    await _localService.SavemessagesAsync(remoteMessages).Free();
+                }
+
+                return remoteMessages;
+            }
+            catch (ApiException aex)
+            {
+                await aex.HandleApiExceptionAsync();
+            }
+
+            return localUserMessages;
+        }
+
+        public async Task<SecuredMessengerApiModel> GetMessageAsync(Guid id, string userEmail)
+        {
+            SecuredMessengerApiModel localUserMessages = await _localService.GetMessageAsync(id, userEmail).Free();
+            if (!New<AxCryptOnlineState>().IsOnline || Identity == LogOnIdentity.Empty)
+            {
+                return localUserMessages;
+            }
+
+            try
+            {
+                SecuredMessengerApiModel remoteMessages = await _remoteService.GetMessageAsync(id, userEmail).Free();
+                if (remoteMessages == null)
+                {
+                    return localUserMessages;
+                }
+
+                if (localUserMessages != remoteMessages)
+                {
+                    await _localService.SaveMessagelist(remoteMessages).Free();
+                }
+
+                return remoteMessages;
+            }
+            catch (ApiException aex)
+            {
+                await aex.HandleApiExceptionAsync();
+            }
+
+            return localUserMessages;
+        }
+
     }
 }

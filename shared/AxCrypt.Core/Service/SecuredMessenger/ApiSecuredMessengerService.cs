@@ -136,22 +136,6 @@ namespace AxCrypt.Core.Service.SecuredMessenger
             return false;
         }
 
-        public async Task<SecuredMessengerRootApiModel> GetAsync(Guid id, string userEmail)
-        {
-            try
-            {
-                return await _apiClient.GetAsync(id, userEmail);
-            }
-            catch (ApiException)
-            {
-                throw;
-            }
-            catch (UnauthorizedException)
-            {
-            }
-            return new SecuredMessengerRootApiModel();
-        }
-
         public async Task<bool> UpdateAsync(IEnumerable<Guid> ids, string userEmail, bool isUnread)
         {
             try
@@ -187,12 +171,12 @@ namespace AxCrypt.Core.Service.SecuredMessenger
             throw new NotImplementedException();
         }
 
-        public Task<bool> SavemessagesAsync(SecuredMessengerRootApiModel model)
+        public Task<bool> SavemessagesAsync(IEnumerable<SecuredMessengerApiModel> model)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<IEnumerable<SecuredMessengerRootApiModel>> GetSecMsgWithSearchFiltersAsync(SecureMsgrFilterTab securedMessengerFilterTab, RequestOptions requestOptions)
+        public async Task<IEnumerable<SecuredMessengerApiModel>> GetSecMsgWithSearchFiltersAsync(SecureMsgrFilterTab securedMessengerFilterTab, RequestOptions requestOptions)
         {
             try
             {
@@ -204,7 +188,7 @@ namespace AxCrypt.Core.Service.SecuredMessenger
             catch (UnauthorizedException)
             {
             }
-            return new List<SecuredMessengerRootApiModel>();
+            return new List<SecuredMessengerApiModel>();
         }
 
         public async Task<UserPublicKey> OtherPublicKeyAsync(EmailAddress email)
@@ -242,6 +226,54 @@ namespace AxCrypt.Core.Service.SecuredMessenger
             {
                 return false;
             }
+        }
+
+        public async Task<IEnumerable<SecuredMessengerApiModel>> GetSentMessagesWithRepliesAsync(Guid id, string userEmail)
+        {
+            try
+            {
+                return await _apiClient.GetSentMessagesWithRepliesAsync(id, userEmail);
+            }
+            catch (ApiException)
+            {
+                throw;
+            }
+            catch (UnauthorizedException)
+            {
+            }
+            return new List<SecuredMessengerApiModel>();
+        }
+
+        public async Task<IEnumerable<SecuredMessengerApiModel>> GetInboxMessagesWithRepliesAsync(Guid id, string userEmail)
+        {
+            try
+            {
+                return await _apiClient.GetInboxMessagesWithRepliesAsync(id, userEmail);
+            }
+            catch (ApiException)
+            {
+                throw;
+            }
+            catch (UnauthorizedException)
+            {
+            }
+            return new List<SecuredMessengerApiModel>();
+        }
+
+        public async Task<SecuredMessengerApiModel> GetMessageAsync(Guid id, string userEmail)
+        {
+            try
+            {
+                return await _apiClient.GetMessageAsync(id, userEmail);
+            }
+            catch (ApiException)
+            {
+                throw;
+            }
+            catch (UnauthorizedException)
+            {
+            }
+            return new SecuredMessengerApiModel();
         }
     }
 }

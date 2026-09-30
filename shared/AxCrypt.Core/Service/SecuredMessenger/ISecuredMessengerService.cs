@@ -50,20 +50,24 @@ namespace AxCrypt.Core.Service.SecuredMessenger
 
         Task<bool> SaveMessagelist(SecuredMessengerApiModel model);
 
-        Task<bool> SavemessagesAsync(SecuredMessengerRootApiModel model);
+        Task<bool> SavemessagesAsync(IEnumerable<SecuredMessengerApiModel> model);
 
         Task<bool> UpdateAsync(IEnumerable<Guid> ids, string userEmail, bool isUnread = false);
 
-        Task<SecuredMessengerRootApiModel> GetAsync(Guid id, string userEmail);
-
         Task<bool> DeleteAsync(IEnumerable<Guid> ids, string user, SecureMsgrFilterTab securedMessengerFilter);
 
-        Task<IEnumerable<SecuredMessengerRootApiModel>> GetSecMsgWithSearchFiltersAsync(SecureMsgrFilterTab securedMessengerFilterTab, RequestOptions requestOptions);
+        Task<IEnumerable<SecuredMessengerApiModel>> GetSecMsgWithSearchFiltersAsync(SecureMsgrFilterTab securedMessengerFilterTab, RequestOptions requestOptions);
 
-        Task<UserPublicKey> OtherPublicKeyAsync(EmailAddress email);       
+        Task<UserPublicKey> OtherPublicKeyAsync(EmailAddress email);
 
         Task<long> GetFreeUserSecuredMessengerLimit(string userEmail);
 
         Task<bool> UpdateFreeUserSecuredMessengerLimit(string userEmail);
+
+        Task<IEnumerable<SecuredMessengerApiModel>> GetSentMessagesWithRepliesAsync(Guid id, string userEmail);
+
+        Task<IEnumerable<SecuredMessengerApiModel>> GetInboxMessagesWithRepliesAsync(Guid id, string userEmail);
+
+        Task<SecuredMessengerApiModel> GetMessageAsync(Guid id, string userEmail);
     }
 }
