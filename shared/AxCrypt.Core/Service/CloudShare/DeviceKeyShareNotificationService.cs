@@ -6,18 +6,18 @@ using static AxCrypt.Abstractions.TypeResolve;
 
 namespace AxCrypt.Core.Service.CloudShare
 {
-    public class DeviceCloudShareService : ICloudShareService
+    public class DeviceKeyShareNotificationService : IKeyShareNotificationService
     {
-        private ICloudShareService _localService;
-        private ICloudShareService _remoteService;
+        private IKeyShareNotificationService _localService;
+        private IKeyShareNotificationService _remoteService;
 
-        public DeviceCloudShareService(ICloudShareService localService, ICloudShareService remoteService)
+        public DeviceKeyShareNotificationService(IKeyShareNotificationService localService, IKeyShareNotificationService remoteService)
         {
             _localService = localService;
             _remoteService = remoteService;
         }
 
-        public ICloudShareService Refresh()
+        public IKeyShareNotificationService Refresh()
         {
             return this;
         }
@@ -30,13 +30,13 @@ namespace AxCrypt.Core.Service.CloudShare
             }
         }
 
-        public async Task<bool> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
+        public async Task<bool> SendKeyShareNotificationAsync(KeyShareNotificationApiModel keyShareApiModel)
         {
             if (New<AxCryptOnlineState>().IsOnline && Identity != LogOnIdentity.Empty)
             {
                 try
                 {
-                    return await _remoteService.ShareLinkAsync(cloudShareLinkApiModel).Free();
+                    return await _remoteService.SendKeyShareNotificationAsync(keyShareApiModel).Free();
                 }
                 catch (ApiException aex)
                 {
@@ -44,7 +44,7 @@ namespace AxCrypt.Core.Service.CloudShare
                 }
             }
 
-            return await _localService.ShareLinkAsync(cloudShareLinkApiModel).Free();
+            return await _localService.SendKeyShareNotificationAsync(keyShareApiModel).Free();
         }
     }
 }

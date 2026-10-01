@@ -33,11 +33,11 @@ using AxCrypt.Core.UI;
 
 namespace AxCrypt.Core.Service.CloudShare
 {
-    public class ApiCloudShareService : ICloudShareService
+    public class ApiKeyShareNotificationService : IKeyShareNotificationService
     {
-        private AxCloudShareApiClient _apiClient;
+        private AxKeyShareNotificationApiClient _apiClient;
 
-        public ApiCloudShareService(AxCloudShareApiClient apiClient)
+        public ApiKeyShareNotificationService(AxKeyShareNotificationApiClient apiClient)
         {
             if (apiClient == null)
             {
@@ -47,7 +47,7 @@ namespace AxCrypt.Core.Service.CloudShare
             _apiClient = apiClient;
         }
 
-        public ICloudShareService Refresh()
+        public IKeyShareNotificationService Refresh()
         {
             return this;
         }
@@ -60,7 +60,7 @@ namespace AxCrypt.Core.Service.CloudShare
             }
         }
 
-        public async Task<bool> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
+        public async Task<bool> SendKeyShareNotificationAsync(KeyShareNotificationApiModel keyShareApiModel)
         {
             if (string.IsNullOrEmpty(_apiClient.Identity.User))
             {
@@ -69,7 +69,7 @@ namespace AxCrypt.Core.Service.CloudShare
 
             try
             {
-                bool result = await _apiClient.ShareLinkAsync(cloudShareLinkApiModel).Free();
+                bool result = await _apiClient.SendKeyShareNotificationAsync(keyShareApiModel).Free();
                 return result;
             }
             catch (UnauthorizedException)

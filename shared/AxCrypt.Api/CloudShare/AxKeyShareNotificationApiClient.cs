@@ -11,7 +11,7 @@ namespace AxCrypt.Api
     /// handled by the caller, and should be treated as 'temporarily offline'. They root cause can be both Internet connection issues as well
     /// as the servers being down.
     /// </summary>
-    public class AxCloudShareApiClient
+    public class AxKeyShareNotificationApiClient
     {
         private Uri BaseUrl { get; }
 
@@ -20,27 +20,27 @@ namespace AxCrypt.Api
         private ApiCaller Caller { get; } = new ApiCaller();
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="AxCloudShareApiClient"/> class.
+        /// Initializes a new instance of the <see cref="AxKeyShareNotificationApiClient"/> class.
         /// </summary>
         /// <param name="identity">The identity on whos behalf to make the call.</param>
-        public AxCloudShareApiClient(RestIdentity identity, Uri baseUrl, TimeSpan timeout)
+        public AxKeyShareNotificationApiClient(RestIdentity identity, Uri baseUrl, TimeSpan timeout)
         {
-            Identity = new RestIdentity("sandeepmaran.t+premium@axcrypt.net", "Maran9*71@3");
+            Identity = identity;
             BaseUrl = baseUrl;
-            BaseUrl = new Uri("http://localhost:54368/api/");
+            BaseUrl = baseUrl;
             Timeout = timeout;
         }
 
         public RestIdentity Identity { get; }
 
-        public async Task<bool> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
+        public async Task<bool> SendKeyShareNotificationAsync(KeyShareNotificationApiModel cloudShareLinkApiModel)
         {
             if (cloudShareLinkApiModel == null)
             {
                 throw new ArgumentNullException(nameof(cloudShareLinkApiModel));
             }
 
-            Uri resource = BaseUrl.PathCombine("CloudShare/share".With());
+            Uri resource = BaseUrl.PathCombine("keyshare/notify".With());
 
             RestContent content = new RestContent(Serializer.Serialize(cloudShareLinkApiModel));
             RestResponse restResponse = await Caller.RestAsync(Identity, new RestRequest("POST", resource, Timeout, content)).Free();

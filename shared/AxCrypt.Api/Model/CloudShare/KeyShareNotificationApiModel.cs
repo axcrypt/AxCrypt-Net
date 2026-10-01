@@ -3,7 +3,7 @@
 namespace AxCrypt.Api.Model.CloudShare
 {
     [JsonObject(MemberSerialization.OptIn)]
-    public class CloudShareLinkApiModel
+    public class KeyShareNotificationApiModel
     {
         [JsonProperty("fileId")]
         public long FileId { get; set; }
@@ -14,6 +14,7 @@ namespace AxCrypt.Api.Model.CloudShare
         [JsonProperty("sharedFileName")]
         public string SharedFileName { get; set; }
 
+        // Empty when a local file is shared; set to the cloud download URL when a cloud file is shared.
         [JsonProperty("sharedLink")]
         public string SharedLink { get; set; }
 
@@ -25,14 +26,5 @@ namespace AxCrypt.Api.Model.CloudShare
 
         [JsonProperty("sharePermission")]
         public string SharePermission { get; set; }
-
-        [JsonProperty("allowDownload")]
-        public bool AllowDownload { get; set; }
-
-        [JsonProperty("allowReshare")]
-        public bool AllowReshare { get; set; }
-
-        [JsonProperty("visibleUntil")]
-        public DateTime? VisibleUntil { get; set; }
     }
 }
