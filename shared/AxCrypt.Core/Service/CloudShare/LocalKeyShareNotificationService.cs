@@ -3,13 +3,13 @@ using AxCrypt.Core.Crypto;
 
 namespace AxCrypt.Core.Service.CloudShare
 {
-    public class LocalCloudShareService : ICloudShareService
+    public class LocalKeyShareNotificationService : IKeyShareNotificationService
     {
-        public LocalCloudShareService()
+        public LocalKeyShareNotificationService()
         {
         }
 
-        public ICloudShareService Refresh()
+        public IKeyShareNotificationService Refresh()
         {
             return this;
         }
@@ -19,7 +19,7 @@ namespace AxCrypt.Core.Service.CloudShare
             get;
         }
 
-        public Task<bool> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
+        public Task<bool> SendKeyShareNotificationAsync(KeyShareNotificationApiModel cloudShareLinkApiModel)
         {
             return Task.FromResult(true);
         }

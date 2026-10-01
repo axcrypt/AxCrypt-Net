@@ -4,11 +4,11 @@ using AxCrypt.Core.Crypto;
 
 namespace AxCrypt.Core.Service.CloudShare
 {
-    public class CachingCloudShareService : ICloudShareService
+    public class CachingCloudShareService : IKeyShareNotificationService
     {
-        private ICloudShareService _service;
+        private IKeyShareNotificationService _service;
 
-        public CachingCloudShareService(ICloudShareService service)
+        public CachingCloudShareService(IKeyShareNotificationService service)
         {
             if (service == null)
             {
@@ -20,12 +20,12 @@ namespace AxCrypt.Core.Service.CloudShare
 
         public LogOnIdentity Identity => throw new NotImplementedException();
 
-        public async Task<bool> ShareLinkAsync(CloudShareLinkApiModel cloudShareLinkApiModel)
+        public async Task<bool> SendKeyShareNotificationAsync(KeyShareNotificationApiModel keyShareApiModel)
         {
-            return await _service.ShareLinkAsync(cloudShareLinkApiModel).Free();
+            return await _service.SendKeyShareNotificationAsync(keyShareApiModel).Free();
         }
 
-        public ICloudShareService Refresh()
+        public IKeyShareNotificationService Refresh()
         {
             return this;
         }
