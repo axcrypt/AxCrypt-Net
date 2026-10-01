@@ -127,6 +127,9 @@
   <data name="About" xml:space="preserve">
     <value>Over {0}</value>
   </data>
+  <data name="AboutAndUpdatesText" xml:space="preserve">
+    <value>Over &amp; Updates</value>
+  </data>
   <data name="AboutAwardsBadgeAlt" xml:space="preserve">
     <value>AxCrypt-recensiebeoordelingsbadge</value>
   </data>
@@ -643,6 +646,9 @@ Kies iets wat moeilijk te raden is sinds het de wachtwoorden in de online wachtw
   <data name="ActiveSubscriptionText" xml:space="preserve">
     <value>Er is een actief en lopend abonnement op dit account.</value>
   </data>
+  <data name="ActivityLogText" xml:space="preserve">
+    <value>Activiteitenlogboek</value>
+  </data>
   <data name="ActivityText" xml:space="preserve">
     <value>Activiteit</value>
   </data>
@@ -726,6 +732,9 @@ Kies iets wat moeilijk te raden is sinds het de wachtwoorden in de online wachtw
   <data name="AddRecipientsInstruction" xml:space="preserve">
     <value>Druk op Return of een komma om elke ontvanger toe te voegen.</value>
   </data>
+  <data name="AddRecipientsText" xml:space="preserve">
+    <value>Ontvangers toevoegen</value>
+  </data>
   <data name="AddressLabel" xml:space="preserve">
     <value>Adres</value>
   </data>
@@ -784,6 +793,15 @@ Kies iets wat moeilijk te raden is sinds het de wachtwoorden in de online wachtw
   </data>
   <data name="AdvancedSettingsText" xml:space="preserve">
     <value>Geavanceerde instellingen</value>
+  </data>
+  <data name="AES256FileEncryptionText" xml:space="preserve">
+    <value>AES-256 Bestandsversleuteling</value>
+  </data>
+  <data name="AES256MilitaryGradeProtectionDescription" xml:space="preserve">
+    <value>AES-256-versleuteling van militair niveau beschermt uw gevoelige bestanden tegen onbevoegde toegang.</value>
+  </data>
+  <data name="AES256ZeroKnowledgeEncryptionText" xml:space="preserve">
+    <value>AES-256-versleuteling — zero-knowledge</value>
   </data>
   <data name="AffiliateAdvantagesHeading" xml:space="preserve">
     <value>Voordelen van AxCrypt Affiliate Marketing</value>
@@ -890,6 +908,12 @@ Kies iets wat moeilijk te raden is sinds het de wachtwoorden in de online wachtw
   <data name="AgreePasswordResetNotRegainAccess" xml:space="preserve">
     <value>Ik begrijp dat dit geen toegang tot mijn versleutelde bestanden zal krijgen</value>
   </data>
+  <data name="AgreeToTermsDescription" xml:space="preserve">
+    <value>Door een account aan te maken, gaat u akkoord met onze</value>
+  </data>
+  <data name="AlbumOrFolderAlreadyExistsText" xml:space="preserve">
+    <value>Een album of map genaamd '{0}' bestaat al.</value>
+  </data>
   <data name="AlertsAndPushSettingsText" xml:space="preserve">
     <value>Meldingen en pushinstellingen</value>
   </data>
@@ -901,6 +925,9 @@ Kies iets wat moeilijk te raden is sinds het de wachtwoorden in de online wachtw
   </data>
   <data name="AllCaughtUpText1" xml:space="preserve">
     <value>Alles bijgewerkt</value>
+  </data>
+  <data name="AllDevicesIncludedText" xml:space="preserve">
+    <value>Alle inbegrepen apparaten</value>
   </data>
   <data name="AllDoneText" xml:space="preserve">
     <value>Alles klaar!</value>
@@ -923,9 +950,15 @@ Kies iets wat moeilijk te raden is sinds het de wachtwoorden in de online wachtw
   <data name="AllowCookiesPopupTitle" xml:space="preserve">
     <value>Deze website gebruikt cookies</value>
   </data>
+  <data name="AlreadyHaveAccountSignInText" xml:space="preserve">
+    <value>Hebt u al een account? Log in.</value>
+  </data>
   <data name="AlreadyRegisteredLink" xml:space="preserve">
     <value>Al geregistreerd? Hier aanmelden</value>
     <comment>Link to sign in page.</comment>
+  </data>
+  <data name="AlreadySharedWithText" xml:space="preserve">
+    <value>Al gedeeld met</value>
   </data>
   <data name="AlreadySubscribedText" xml:space="preserve">
     <value>Al geabonneerd? Herstel uw abonnement</value>
@@ -1010,6 +1043,9 @@ Meld u alstublieft met het zelfde wachtwoord die u eerder hebt gebruikt aan.</va
   <data name="AppDisplayLanguageText" xml:space="preserve">
     <value>Weergavetaal van de app</value>
   </data>
+  <data name="AppleAccountText" xml:space="preserve">
+    <value>Apple-account</value>
+  </data>
   <data name="ApplicationConfigurationPathText" xml:space="preserve">
     <value>Pad voor applicatieconfiguratie</value>
   </data>
@@ -1093,14 +1129,23 @@ Updates van het abonnement worden hier binnen enkele minuten weergegeven.</value
   <data name="AsGreatResellerHeading" xml:space="preserve">
     <value>Je zou een goede reseller zijn als je:</value>
   </data>
+  <data name="AskBeforeSharingMetadataText" xml:space="preserve">
+    <value>Vragen Voordat Metagegevens Worden Gedeeld</value>
+  </data>
   <data name="AsResellerHeading" xml:space="preserve">
     <value>&lt;span&gt;Als&lt;/span&gt; Reseller</value>
   </data>
   <data name="AtleastOneMessageText" xml:space="preserve">
     <value>Selecteer ten minste één bericht om</value>
   </data>
+  <data name="AuditLogActivityDescription" xml:space="preserve">
+    <value>Elke versleuteling, elk deelmoment en elke toegang — voorzien van een tijdstempel.</value>
+  </data>
   <data name="AuditLogAndEveryActionMessage" xml:space="preserve">
     <value>Auditlogboek &amp; elke actie</value>
+  </data>
+  <data name="AuditLogText" xml:space="preserve">
+    <value>Auditlogboek</value>
   </data>
   <data name="AuthenticationError" xml:space="preserve">
     <value>De pagina die u probeert te bezoeken vereist authenticatie. Meldt u zich alstublieft aan om verder te gaan.</value>
@@ -1145,6 +1190,9 @@ Updates van het abonnement worden hier binnen enkele minuten weergegeven.</value
   </data>
   <data name="AutolockOnInactivityPopup" xml:space="preserve">
     <value>Automatisch vergrendelen bij inactiviteit</value>
+  </data>
+  <data name="AutoLockWhenIdleDescription" xml:space="preserve">
+    <value>Automatisch vergrendelen wanneer de app inactief is</value>
   </data>
   <data name="AutomatedMessageText" xml:space="preserve">
     <value>Dit is een automatisch gegenereerd bericht. Gelieve niet rechtstreeks op deze e-mail te reageren.</value>
@@ -2115,6 +2163,9 @@ U bent gewaarschuwd! Geniet van de beta!</value>
   <data name="BetaQuickGuidesParaStep9" xml:space="preserve">
     <value>Klik met de rechtermuisknop op het geselecteerde bestand.</value>
   </data>
+  <data name="BetaText" xml:space="preserve">
+    <value>Bèta</value>
+  </data>
   <data name="BetaTrialBannerContent1" xml:space="preserve">
     <value>&lt;span&gt;Nieuwe gebruikersinterface&lt;/span&gt; voor een modernere, intuïtievere en gestroomlijndere ervaring.</value>
   </data>
@@ -2256,6 +2307,9 @@ U bent gewaarschuwd! Geniet van de beta!</value>
   <data name="BetaTrialTitle" xml:space="preserve">
     <value>Help ons &lt;span&gt;versleuteling&lt;/span&gt; &lt;b&gt;eenvoudiger&lt;/b&gt; dan ooit te maken.</value>
   </data>
+  <data name="BilledMonthlyCancelAnytimeText" xml:space="preserve">
+    <value>Jaarlijks gefactureerd · op elk moment opzegbaar</value>
+  </data>
   <data name="BilledYearlyText" xml:space="preserve">
     <value>{0} jaarlijks gefactureerd</value>
   </data>
@@ -2270,6 +2324,9 @@ U bent gewaarschuwd! Geniet van de beta!</value>
   </data>
   <data name="BillingHistoryTitle" xml:space="preserve">
     <value>Factureringsgeschiedenis</value>
+  </data>
+  <data name="BiometricAuthenticationFailedDescription" xml:space="preserve">
+    <value>Biometrische authenticatie mislukt. Voer alstublieft uw wachtwoord in.</value>
   </data>
   <data name="Blog_5KFESSAO_H1_Text1" xml:space="preserve">
     <value>Wanneer u een encryptiesoftware selecteert, moet u de algoritmen ervan bekijken om te bepalen hoe uw gegevens worden beveiligd of beschermd. Om te beginnen zet een versleutelingsalgoritme platte tekst om in versleutelde tekst om te voorkomen dat hackers er snel toegang toe krijgen.</value>
@@ -15947,6 +16004,234 @@ Samen vormen deze een pakket van de beste gratis software voor bestandsbeveiligi
   <data name="Blog_WIPM_Title" xml:space="preserve">
     <value>Wat is een wachtwoordmanager? Hoe veilig is software voor wachtwoordbeheer?</value>
   </data>
+  <data name="Blog_WITBETFCS_Conclusion_Heading" xml:space="preserve">
+    <value>Uw Zero-Knowledgeverzekering Die U Nu Nodig Hebt!</value>
+  </data>
+  <data name="Blog_WITBETFCS_Conclusion_Text1" xml:space="preserve">
+    <value>Beschouw AxCrypt als uw zero-knowledgeverzekeringslaag. Deze is niet afhankelijk van perimeterbeveiliging of toegangscontroles. De dreiging wordt gestopt en de impact wordt beperkt.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Conclusion_Text2" xml:space="preserve">
+    <value>Zelfs als aanvallers toegang krijgen tot uw bestanden of gegevens, zijn deze voor hen slechts onleesbare versleutelde gegevens wanneer ze met AxCrypt zijn versleuteld.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Conclusion_Text3" xml:space="preserve">
+    <value>Verspil dus geen tijd meer en neem vandaag nog een abonnement!</value>
+  </data>
+  <data name="Blog_WITBETFCS_Conclusion_Text4" xml:space="preserve">
+    <value>$10,42 per maand gedurende een jaar, of een losgeldbrief van $10,42 miljoen van een gewiekste hacker, de keuze is aan u!</value>
+  </data>
+  <data name="Blog_WITBETFCS_Conclusion_Text5" xml:space="preserve">
+    <value>&lt;a href='https://axcrypt.net/download/'&gt;Download&lt;/a&gt; de applicatie nu en start &lt;a href='https://account.axcrypt.net/en/HomeUser/SignUp?reqFrom=None&amp;eff=1'&gt;hier&lt;/a&gt; uw gratis proefperiode!</value>
+  </data>
+  <data name="Blog_WITBETFCS_Conclusion_Text6" xml:space="preserve">
+    <value>Volg ons op onze socialmediakanalen om op de hoogte te blijven van tips en nieuws over cybersecurity.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H1_Text1" xml:space="preserve">
+    <value>Nu het cyberdreigingslandschap zich razendsnel ontwikkelt terwijl u dit leest, kunt u het beste op zoek gaan naar een geschikte versleutelingstool voor cloudopslag. In tijden als deze biedt bestandsniveauversleuteling een sterke manier om uw gegevens te beschermen.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H1_Text2" xml:space="preserve">
+    <value>Uw beste keuze is AxCrypt-cloudversleuteling. En niets anders.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H1_Text3" xml:space="preserve">
+    <value>AxCrypt biedt een sterke combinatie van eenvoud, beveiliging en naadloze integratie en blijft niet slechts een aanvulling. Het wordt een vaste laag binnen uw gegevensbeveiligingspraktijken, ontworpen om naadloos aan te sluiten op moderne workflows.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H2_Text1" xml:space="preserve">
+    <value>Kort gezegd - Bestandsniveauversleuteling op zijn best.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H2_Text10" xml:space="preserve">
+    <value>AxCrypt-cloudversleuteling waarmee u uw gevoelige informatie in de cloud kunt versleutelen, en dat is veel eenvoudiger dan een Word-document op uw desktop opslaan.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H2_Text11" xml:space="preserve">
+    <value>Beschikbaar voor de drie grootste cloudopslagproviders: Google Drive, OneDrive en Dropbox.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H2_Text12" xml:space="preserve">
+    <value>Zero-knowledgearchitectuur die u volledige controle over uw gegevens geeft.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H2_Text13" xml:space="preserve">
+    <value>Moeiteloze, naadloze en eenvoudige bestandsversleuteling voor lokale bestanden en bestanden in de cloud.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H2_Text14" xml:space="preserve">
+    <value>AxCrypt maakt korte metten met alle ruis en helpt u uw bestanden discreet in enkele eenvoudige stappen te versleutelen.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H2_Text15" xml:space="preserve">
+    <value>&lt;table style='border-collapse:collapse;width:100%;'&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style='border:1px solid #000;padding:8px;text-align:left;'&gt;Mogelijkheid&lt;/th&gt;&lt;th style='border:1px solid #000;padding:8px;text-align:left;'&gt;Zonder versleuteling&lt;/th&gt;&lt;th style='border:1px solid #000;padding:8px;text-align:left;'&gt;Met AxCrypt&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;&lt;strong&gt;&lt;em&gt;Gegevensbeheer&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;De cloudprovider beheert de sleutels, waardoor de cloudserviceprovider, een hacker en zelfs opsporingsdiensten toegang kunnen krijgen tot uw bestanden.&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;U beheert alle sleutels. U heeft volledige controle over de gegevens die u versleutelt. Noch AxCrypt noch opsporingsdiensten kunnen toegang krijgen tot uw bestanden.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;&lt;strong&gt;&lt;em&gt;Impact van een datalek&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;Gegevens worden in platte tekst blootgesteld.&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;Gegevens blijven onleesbaar.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;&lt;strong&gt;&lt;em&gt;Naleving&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;Gedeeltelijk&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;Sterke versleutelingspositie (voldoet aan HIPAA, GDPR en NIS2)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;&lt;strong&gt;&lt;em&gt;Bestanden delen&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;Risicovol&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;Veilig en volledig onder uw controle&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;&lt;strong&gt;&lt;em&gt;Cloudintegratie&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;Native, maar blootgesteld&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;Veilig + naadloos&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="Blog_WITBETFCS_H2_Text2" xml:space="preserve">
+    <value>We hebben het over bestandsniveauversleuteling, zowel lokaal als op externe of draagbare apparaten en zelfs in de cloud, waarbij bestanden sneller worden versleuteld dan eten in een magnetron.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H2_Text3" xml:space="preserve">
+    <value>AxCrypt is een van de beste softwareoplossingen voor cloudopslagbeveiliging die de cybersecurity- of SaaS-markt heeft voortgebracht.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H2_Text4" xml:space="preserve">
+    <value>Hoewel versleutelingssoftware zoals Cryptomator, VeraCrypt, 7-Zip, Xecrets en vergelijkbare oplossingen dezelfde AES-256-bitsversleuteling bieden, is die gegevensbeveiliging niet zo eenvoudig en robuust te realiseren als met AxCrypt.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H2_Text5" xml:space="preserve">
+    <value>Denk erover na?</value>
+  </data>
+  <data name="Blog_WITBETFCS_H2_Text6" xml:space="preserve">
+    <value>U moet een bestand versleutelen en veilig delen, maar eerst moet u zich een weg banen door een jungle van instellingen voor gegevensbeveiliging. Vervolgens moet u nog meerdere stappen doorlopen om één enkel bestand te versleutelen. Vermenigvuldig dat proces vervolgens met meerdere bestanden.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H2_Text7" xml:space="preserve">
+    <value>Eng, nietwaar?</value>
+  </data>
+  <data name="Blog_WITBETFCS_H2_Text8" xml:space="preserve">
+    <value>Met AxCrypt doen wij het grootste deel van het werk voor u. Dat maakt AxCrypt een praktische keuze voor organisaties die beveiliging voor cloudopslag willen implementeren. U hoeft alleen de applicatie te downloaden, uw account te verifiëren en bestanden snel te versleutelen.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H2_Text9" xml:space="preserve">
+    <value>We hebben het over:</value>
+  </data>
+  <data name="Blog_WITBETFCS_H3_Text1" xml:space="preserve">
+    <value>Als het om tools voor cloudversleuteling gaat, brengen de meeste oplossingen veel gedoe met zich mee. AxCrypt neemt die complexiteit weg en helpt u versleuteling en sterke gegevensbeveiliging in uw workflows te integreren, zonder extra stappen of ingewikkelde scripts.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H3_Text10" xml:space="preserve">
+    <value>En zo eenvoudig is het: het bestand wordt versleuteld met sterke AES-versleuteling, of het nu op uw telefoon, desktop of cloudopslagplatform staat.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H3_Text11" xml:space="preserve">
+    <value>Als u meer wilt weten over AxCrypt-cloudversleuteling, bekijk dan onze handleidingen over hoe u bestanden veilig kunt versleutelen bij cloudserviceproviders en hoe u bestanden ook veilig kunt delen.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H3_Text12" xml:space="preserve">
+    <value>&lt;a href='https://axcrypt.net/guides/secure-cloud/'&gt;&lt;b&gt;Lees hier meer over AxCrypt Cloud Versleuteling en Beveiliging!&lt;/b&gt;&lt;/a&gt;</value>
+  </data>
+  <data name="Blog_WITBETFCS_H3_Text2" xml:space="preserve">
+    <value>Om uw cloudbeveiliging met AxCrypt te beginnen, moet u eerst de applicatie downloaden, uw account verifiëren en vervolgens uw cloudaccounts met AxCrypt authenticeren.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H3_Text3" xml:space="preserve">
+    <value>Het is belangrijk om ervoor te zorgen dat uw cloudopslag perfect is gesynchroniseerd met uw lokale apparaat. De authenticatiestappen kunnen variëren afhankelijk van de cloudopslagprovider die u kiest, maar de ervaring blijft consistent.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H3_Text4" xml:space="preserve">
+    <value>Zodra uw authenticatie is geslaagd, kunt u uw bestanden in de cloud met AxCrypt versleutelen.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H3_Text5" xml:space="preserve">
+    <value>Zo kunt u AxCrypt-cloudversleuteling integreren in uw dagelijkse workflow:</value>
+  </data>
+  <data name="Blog_WITBETFCS_H3_Text6" xml:space="preserve">
+    <value>Log in bij de applicatie en klik op de gewenste cloudserviceprovider.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H3_Text7" xml:space="preserve">
+    <value>Selecteer het bestand dat u wilt versleutelen via het venster van de bestandsverkenner, of het nu op uw desktop, mobiele apparaat of al in uw met de cloud gesynchroniseerde map staat.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H3_Text8" xml:space="preserve">
+    <value>Klik met de rechtermuisknop op het bestand.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H3_Text9" xml:space="preserve">
+    <value>Selecteer Versleutelen met AxCrypt.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H4_Text1" xml:space="preserve">
+    <value>Als grote organisatie is het inderdaad noodzakelijk om over een volledig team van engineers en experts op het gebied van incidentbeheer te beschikken. Maar dit alles schiet tekort wanneer de zwakste schakel in de keten bestaat uit social engineering, menselijke fouten en nalatigheid.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H4_Text10" xml:space="preserve">
+    <value>Zero-dayincidenten zonder enige waarschuwing.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H4_Text11" xml:space="preserve">
+    <value>Dit zijn geen worstcasescenario's. Dit zijn reële bedreigingen die boven uw zwakke beveiligingspraktijken hangen en elk moment kunnen toeslaan.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H4_Text12" xml:space="preserve">
+    <value>Met AxCrypt aan uw zijde worden deze risico's geëlimineerd.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H4_Text13" xml:space="preserve">
+    <value>Door client-sideversleuteling toe te passen, zorgt AxCrypt ervoor dat zelfs als aanvallers uw cloudomgeving binnendringen, de gegevens waartoe zij toegang krijgen volledig onleesbaar zijn. Geen sleutels, geen toegang, geen bruikbare gegevens.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H4_Text2" xml:space="preserve">
+    <value>U kunt de beste persoon van het team hebben, maar als het erop aankomt, bijvoorbeeld bij het handhaven van hetzelfde niveau van toewijding aan beveiliging en perimeterbeheer, kan diegene dat dan foutloos waarmaken?</value>
+  </data>
+  <data name="Blog_WITBETFCS_H4_Text3" xml:space="preserve">
+    <value>Tegenwoordig investeren organisaties, zoals ze zouden moeten, aanzienlijk in IAM-, RBAC- en CSPM-oplossingen. Deze controles beperken een aanval of verkleinen de kans dat een aanval plaatsvindt. Ze beperken of stoppen echter niet noodzakelijkerwijs de impact wanneer een aanval eenmaal gaande is.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H4_Text4" xml:space="preserve">
+    <value>Dit is waar AxCrypt de situatie fundamenteel verandert.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H4_Text5" xml:space="preserve">
+    <value>We hebben het over gegevensbeveiliging tot op cellulair niveau. Door alle mogelijke zwakke plekken bij datalekken en beveiligingsinbreuken af te dichten, bieden we bestandsniveauversleuteling als de eerste én laatste verdedigingslaag.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H4_Text6" xml:space="preserve">
+    <value>De Trieste Realiteit van Moderne Veiligheid</value>
+  </data>
+  <data name="Blog_WITBETFCS_H4_Text7" xml:space="preserve">
+    <value>Hoe sterk uw beveiligingsstack ook is, een inbreuk blijft een inbreuk, bewust of onbewust.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H4_Text8" xml:space="preserve">
+    <value>Inloggegevens worden gestolen of er is sprake van een bedreiging van binnenuit.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H4_Text9" xml:space="preserve">
+    <value>De grote misstap van verkeerde configuraties.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H5_Text1" xml:space="preserve">
+    <value>&lt;table style='border-collapse:collapse;width:100%;'&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style='border:1px solid #000;padding:8px;text-align:left;'&gt;Beveiligingslaag&lt;/th&gt;&lt;th style='border:1px solid #000;padding:8px;text-align:left;'&gt;Rol binnen de organisatie&lt;/th&gt;&lt;th style='border:1px solid #000;padding:8px;text-align:left;'&gt;Waarom AxCrypt een noodzakelijke aanvulling is&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;&lt;strong&gt;&lt;em&gt;IAM &amp;amp; RBAC&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;Bepaalt wie toegang krijgt.&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;Als een wachtwoord wordt gestolen, vormt AxCrypt een 'tweede slot' dat de dief niet kan openen.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;&lt;strong&gt;&lt;em&gt;Cloudprovider&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;Biedt de 'opslag'.&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;De provider beheert de 'hoofdsleutels'. AxCrypt houdt de sleutels in uw handen (client-side).&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;&lt;strong&gt;&lt;em&gt;CASB / CSPM&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;Spoort kwetsbaarheden in de infrastructuur op.&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;Deze systemen vinden het 'lek'; AxCrypt zorgt ervoor dat gelekte gegevens voor hackers onbruikbare ruis zijn.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;&lt;strong&gt;&lt;em&gt;Naleving&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;Voldoet aan GDPR/HIPAA.&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;AxCrypt biedt een duidelijke, controleerbare status voor 'versleuteling in rust' van alle ongestructureerde bestanden.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;&lt;strong&gt;&lt;em&gt;Beheer&lt;/em&gt;&lt;/strong&gt;&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;Bedrijfscontinuïteit.&lt;/td&gt;&lt;td style='border:1px solid #000;padding:8px;'&gt;De hoofdsleutel helpt 'gegevensverlies door vertrek van medewerkers' te voorkomen, een veelvoorkomende uitdaging voor het management.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="Blog_WITBETFCS_H6_Text1" xml:space="preserve">
+    <value>Het huidige dreigingslandschap evolueert razendsnel.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H6_Text2" xml:space="preserve">
+    <value>Client-sideversleuteling is de toekomst voor iedereen die gevoelige informatie bewaart, of eigenlijk voor iedereen die gegevens heeft. Beste lezer, dit is de onderscheidende factor voor bedrijven.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H6_Text3" xml:space="preserve">
+    <value>Laten we eerlijk zijn. Organisaties die veilige cloudopslagversleuteling toepassen, verkleinen niet alleen risico's, maar bouwen ook vertrouwen op, versterken hun naleving van regelgeving en maken hun bedrijfsvoering toekomstbestendiger.</value>
+  </data>
+  <data name="Blog_WITBETFCS_H6_Text4" xml:space="preserve">
+    <value>Omdat datalekken in een wereld waarin ze onvermijdelijk zijn, de echte vraag is:</value>
+  </data>
+  <data name="Blog_WITBETFCS_H6_Text5" xml:space="preserve">
+    <value>Zijn uw gegevens nog leesbaar wanneer ze worden gestolen?</value>
+  </data>
+  <data name="Blog_WITBETFCS_H6_Text6" xml:space="preserve">
+    <value>Met AxCrypt is het antwoord eenvoudig: nee.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Heading1" xml:space="preserve">
+    <value>Wat is de beste versleutelingstool voor cloudopslag?</value>
+  </data>
+  <data name="Blog_WITBETFCS_Heading2" xml:space="preserve">
+    <value>Wat maakt de cloudversleuteling van AxCrypt onderscheidend?</value>
+  </data>
+  <data name="Blog_WITBETFCS_Heading3" xml:space="preserve">
+    <value>Hoe gebruikt u AxCrypt-Cloudversleuteling?</value>
+  </data>
+  <data name="Blog_WITBETFCS_Heading4" xml:space="preserve">
+    <value>Waarom AxCrypt-cloudversleuteling onmisbaar is in uw beveiligingspakket?</value>
+  </data>
+  <data name="Blog_WITBETFCS_Heading5" xml:space="preserve">
+    <value>De strategische fail-safetabel en hoe AxCrypt-cloudversleuteling alle zwakke plekken dicht.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Summary" xml:space="preserve">
+    <value>Volledige controle en client-sideversleuteling voor cloudopslag kunnen helpen gevoelige bestanden te beschermen tegen ongeautoriseerde toegang. Ontdek hoe AxCrypt bestandsniveauversleuteling biedt voor cloudopslag en helpt bestanden te beveiligen op Google Drive, OneDrive en Dropbox.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Text1" xml:space="preserve">
+    <value>Cloudversleuteling?</value>
+  </data>
+  <data name="Blog_WITBETFCS_Text10" xml:space="preserve">
+    <value>De oplossing voor deze kritieke kwetsbaarheid? Volledige controle en client-sideversleuteling voor cloudopslag.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Text11" xml:space="preserve">
+    <value>Wanneer u bestanden gaat versleutelen, dwingt u beveiliging af tot op cybercellulair niveau. U elimineert of vermindert de kans op menselijke fouten die uw bedrijf miljarden kunnen kosten aanzienlijk.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Text12" xml:space="preserve">
+    <value>Moderne bedrijven, organisaties en workflows vragen om bestandsversleuteling voor cloudopslag: de laatste, maar krachtigste verdedigingslinie en een echt gevoel van eigenaarschap over uw gegevens. Met AxCrypt blijft dat eigenaarschap precies waar het hoort: bij u.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Text2" xml:space="preserve">
+    <value>Het is niet echt veilig.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Text3" xml:space="preserve">
+    <value>De cloud is een enorme digitale opslag die eigendom is van anderen, die toegang kunnen hebben tot alles wat u uploadt.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Text4" xml:space="preserve">
+    <value>Of het nu gaat om een groot bedrijf, een kleine groep of persoonlijk gebruik: het gaat niet alleen om gemak, maar ook om blootstelling.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Text5" xml:space="preserve">
+    <value>Blootstelling kan dodelijk zijn.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Text6" xml:space="preserve">
+    <value>Organisaties gaan steeds meer online, waarbij gegevens zich buiten firewalls bevinden en worden gesynchroniseerd op locaties waar u niet volledige controle over hebt en waar traditionele beveiliging tekortschiet.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Text7" xml:space="preserve">
+    <value>Ondanks audits en classificaties vinden er nog steeds datalekken plaats.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Text8" xml:space="preserve">
+    <value>Juist daarom is versleuteling van cloudopslag nu meer dan ooit noodzakelijk.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Text9" xml:space="preserve">
+    <value>Zeker, controles op providerniveau werken. Ze beperken de toegang en inzage. Maar juist die beperkte bescherming en controle vormen de kritieke kwetsbaarheid, die openligt en op misbruik wacht.</value>
+  </data>
+  <data name="Blog_WITBETFCS_Title" xml:space="preserve">
+    <value>Wat is de beste versleutelingstool voor cloudopslag?</value>
+  </data>
   <data name="Blog_WITHDEPYD_Conclusion_Heading" xml:space="preserve">
     <value>Stop met alleen uw systeem te beschermen. Begin met het beschermen van uw gegevens.</value>
   </data>
@@ -17296,6 +17581,9 @@ Samen vormen deze een pakket van de beste gratis software voor bestandsbeveiligi
   <data name="BrandToneLabel" xml:space="preserve">
     <value>Merk toon</value>
   </data>
+  <data name="BringAxCryptBusinessBackText" xml:space="preserve">
+    <value>Breng AxCrypt Zakelijk terug</value>
+  </data>
   <data name="BrowseAndManageFilesDescription" xml:space="preserve">
     <value>Blader door en beheer bestanden in uw {0}-account.</value>
   </data>
@@ -18212,6 +18500,9 @@ Samen vormen deze een pakket van de beste gratis software voor bestandsbeveiligi
   <data name="CannotWrite" xml:space="preserve">
     <value>Kan '{0}' niet schrijven.</value>
   </data>
+  <data name="CanShareEncryptedFilesQuestion" xml:space="preserve">
+    <value>Kan ik versleutelde bestanden met iemand delen?</value>
+  </data>
   <data name="CantCreateVaultDataStoreNotification" xml:space="preserve">
     <value>Kan {0} niet aanmaken.</value>
   </data>
@@ -18285,6 +18576,9 @@ Hierna kunt u zich aanmelden met &lt;b&gt;{0}&lt;/b&gt; en uw bestaande wachtwoo
 
 U moet deze stappen volgen om het proces te voltooien.</value>
   </data>
+  <data name="ChangeFolderText" xml:space="preserve">
+    <value>Wijziging Map</value>
+  </data>
   <data name="ChangeNotificationSettingsSuccess" xml:space="preserve">
     <value>Uw notificatie voorkeuren zijn gewijzigd.</value>
   </data>
@@ -18309,20 +18603,41 @@ U moet deze stappen volgen om het proces te voltooien.</value>
   <data name="ChangePlanText" xml:space="preserve">
     <value>Ik wil mijn abonnement veranderen</value>
   </data>
+  <data name="CheckForNewPhotosText" xml:space="preserve">
+    <value>Controleer op Nieuwe Foto's</value>
+  </data>
   <data name="CheckForUpdateMenuText" xml:space="preserve">
     <value>Check voor Update</value>
   </data>
   <data name="CheckForUpdateMenuToolTip" xml:space="preserve">
     <value>Check of er een nieuwere versie beschikbaar is om te downloaden. Vereist Internet toegang.</value>
   </data>
+  <data name="CheckForUpdatesText" xml:space="preserve">
+    <value>Controleer op Updates</value>
+  </data>
+  <data name="CheckingText" xml:space="preserve">
+    <value>Controleren...</value>
+  </data>
+  <data name="CheckNewerVersionDescription" xml:space="preserve">
+    <value>Controleer of er een nieuwere versie van AxCrypt beschikbaar is.</value>
+  </data>
   <data name="CheckPaymentStatusButton" xml:space="preserve">
     <value>Controleer betalingsstatus</value>
+  </data>
+  <data name="CheckVersionText" xml:space="preserve">
+    <value>Bekijk Versie</value>
   </data>
   <data name="ChineseLanguageSelectionText" xml:space="preserve">
     <value>中文 (Chinees)</value>
   </data>
   <data name="ChooseAccountToContinueText" xml:space="preserve">
     <value>Kies een account om door te gaan.</value>
+  </data>
+  <data name="ChooseEncryptedPhotoFolderDescription" xml:space="preserve">
+    <value>Kies voordat u begint een map om uw versleutelde foto's in op te slaan. Zo blijven uw foto's veilig, zelfs als de app ooit opnieuw wordt geïnstalleerd.</value>
+  </data>
+  <data name="ChooseLocationText" xml:space="preserve">
+    <value>Kies Locatie</value>
   </data>
   <data name="ChooseMasterkeyOwnerHeading" xml:space="preserve">
     <value>Kies een eigenaar van Masterkey</value>
@@ -18341,6 +18656,9 @@ U moet deze stappen volgen om het proces te voltooien.</value>
   </data>
   <data name="CityLabel" xml:space="preserve">
     <value>Stad:</value>
+  </data>
+  <data name="CleanCopyText" xml:space="preserve">
+    <value>Schone Kopie</value>
   </data>
   <data name="CleanDecryptedToolStripMenuItemText" xml:space="preserve">
     <value>Open Bestanden Opschonen</value>
@@ -18459,6 +18777,15 @@ U moet deze stappen volgen om het proces te voltooien.</value>
   </data>
   <data name="CloudStorageProvidersDescription" xml:space="preserve">
     <value>Google Drive, Dropbox, OneDrive en meer.</value>
+  </data>
+  <data name="CloudStorageProvidersText" xml:space="preserve">
+    <value>(Google Drive, OneDrive, Dropbox)</value>
+  </data>
+  <data name="CloudSyncProvidersText" xml:space="preserve">
+    <value>Cloudsynchronisatie (Google Drive, Dropbox...)</value>
+  </data>
+  <data name="CollaborationText" xml:space="preserve">
+    <value>Samenwerking</value>
   </data>
   <data name="ColorPaletteLabel" xml:space="preserve">
     <value>Kleurenpalet</value>
@@ -18735,6 +19062,12 @@ U moet deze stappen volgen om het proces te voltooien.</value>
   <data name="CompleteProtectionForIndividualsMessage" xml:space="preserve">
     <value>Volledige bescherming voor individuen</value>
   </data>
+  <data name="ComplianceReadyText" xml:space="preserve">
+    <value>Compliance-klaar</value>
+  </data>
+  <data name="ComplianceStandardsDescription" xml:space="preserve">
+    <value>HIPAA, AVG, NIS 2 — auditwaardige AES-256-versleuteling.</value>
+  </data>
   <data name="ComplianceStandardsMessage" xml:space="preserve">
     <value>HIPAA / AVG / NIS 2</value>
   </data>
@@ -18756,6 +19089,9 @@ U moet deze stappen volgen om het proces te voltooien.</value>
   <data name="ConfirmAllCheckBoxText" xml:space="preserve">
     <value>Doe dit voor alle overgebleven bestanden?</value>
   </data>
+  <data name="ConfirmMetadataSharingDescription" xml:space="preserve">
+    <value>Bevestig telkens wanneer metagegevens de kluis verlaten</value>
+  </data>
   <data name="ConfirmNewEmailText" xml:space="preserve">
     <value>Nieuwe e-mail bevestigen</value>
   </data>
@@ -18765,8 +19101,17 @@ U moet deze stappen volgen om het proces te voltooien.</value>
   <data name="ConfirmPasswordLabel" xml:space="preserve">
     <value>Bevestig wachtwoord</value>
   </data>
+  <data name="ConfirmSignInPasswordDescription" xml:space="preserve">
+    <value>Voer voor uw veiligheid uw inlogwachtwoord opnieuw in om door te gaan.</value>
+  </data>
   <data name="ConfirmSubscriptionCancellationDescription" xml:space="preserve">
     <value>Weet u zeker dat u uw abonnement wilt opzeggen? U behoudt toegang totdat de huidige abonnementsperiode eindigt.</value>
+  </data>
+  <data name="ConnectCloudDriveDescription" xml:space="preserve">
+    <value>Tik op een tegel van een cloudprovider op de startpagina of ga naar het tabblad Bestanden en tik op een provider. U wordt gevraagd om in te loggen bij Google Drive, Dropbox, OneDrive of iCloud.</value>
+  </data>
+  <data name="ConnectCloudDriveQuestion" xml:space="preserve">
+    <value>Hoe koppel ik een cloudopslagstation?</value>
   </data>
   <data name="ConnectCloudStorageProviderInstruction" xml:space="preserve">
     <value>Ga naar Bestanden en verbind een cloudopslagprovider (Google Drive, Dropbox, enz.).</value>
@@ -18866,6 +19211,18 @@ Wanneer u onze tijdelijke cookies sessie niet accepteert kunt u zich niet aanmel
   <data name="CouldNotOpenWebsiteText" xml:space="preserve">
     <value>Kon de website niet openen.</value>
   </data>
+  <data name="CouldntCreateLocalAccountText" xml:space="preserve">
+    <value>Kan geen lokaal account aanmaken. Probeer het opnieuw.</value>
+  </data>
+  <data name="CouldntResendVerificationCodeText" xml:space="preserve">
+    <value>De verificatiecode kon niet opnieuw worden verzonden. Probeer het opnieuw.</value>
+  </data>
+  <data name="CouldntSendCodeConnectionErrorText" xml:space="preserve">
+    <value>De code kon niet worden verzonden. Controleer uw verbinding en probeer het opnieuw.</value>
+  </data>
+  <data name="CouldntSendVerificationCodeText" xml:space="preserve">
+    <value>De verificatiecode kon niet worden verzonden. Probeer het opnieuw.</value>
+  </data>
   <data name="CountryLabel" xml:space="preserve">
     <value>Land</value>
   </data>
@@ -18913,6 +19270,9 @@ Wanneer u onze tijdelijke cookies sessie niet accepteert kunt u zich niet aanmel
   </data>
   <data name="CreateGroupText" xml:space="preserve">
     <value>Groep maken</value>
+  </data>
+  <data name="CreateLocalAccountText" xml:space="preserve">
+    <value>Maak een lokaal account aan</value>
   </data>
   <data name="CreateManageGroupsHeading" xml:space="preserve">
     <value>Groepen maken en beheren</value>
@@ -18964,6 +19324,9 @@ Wanneer u onze tijdelijke cookies sessie niet accepteert kunt u zich niet aanmel
   </data>
   <data name="CreationSuccess" xml:space="preserve">
     <value>Succesvol aangemaakt</value>
+  </data>
+  <data name="CrossPlatformFileFormatDescription" xml:space="preserve">
+    <value>AxCrypt is beschikbaar op Windows, macOS, iOS en Android. Alle platforms gebruiken dezelfde bestandsindeling, zodat versleutelde bestanden die op het ene platform zijn gemaakt, op elk ander platform kunnen worden geopend.</value>
   </data>
   <data name="CryptographicHashesOfFilesLinkLabel" xml:space="preserve">
     <value>Cryptografische Hashes van Bestanden </value>
@@ -19330,6 +19693,9 @@ Wanneer u onze tijdelijke cookies sessie niet accepteert kunt u zich niet aanmel
   <data name="DecryptedSaveAsFileDialogTitle" xml:space="preserve">
     <value>Bestand bestaat, kies een nieuwe naam om op te slaan als</value>
   </data>
+  <data name="DecryptedTextText" xml:space="preserve">
+    <value>Ontsleutelde tekst</value>
+  </data>
   <data name="DecryptedUnknownKeyFileToolTip" xml:space="preserve">
     <value>Uw wachtwoord is nog niet ingevoerd. Dubbelklik om uw wachtwoord in te voeren en Open, of klik de rechtermuisknop voor opties.</value>
   </data>
@@ -19354,9 +19720,15 @@ Wanneer u onze tijdelijke cookies sessie niet accepteert kunt u zich niet aanmel
   <data name="DefaultEncryptionKeyIsIsetToolTip" xml:space="preserve">
     <value>U bent aangemeld. Klik om af te melden.</value>
   </data>
+  <data name="DefaultPhotoShareModeDescription" xml:space="preserve">
+    <value>Wordt gebruikt bij het delen van foto's vanuit de kluis</value>
+  </data>
   <data name="DefaultSecureFolderToolTip" xml:space="preserve">
     <value>Klik om een bestand te openen van de standaard beveiligde map</value>
     <comment>A generic tooltip for the default secure folder created for example in Dropbox.</comment>
+  </data>
+  <data name="DefaultShareModeText" xml:space="preserve">
+    <value>Standaard Deelmodus</value>
   </data>
   <data name="DeleteAccountErrorIncorrectPassword" xml:space="preserve">
     <value>Verwijderen mislukt vanwege onjuist wachtwoord.</value>
@@ -19561,6 +19933,9 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   </data>
   <data name="DiscoveryActivityText" xml:space="preserve">
     <value>Ontdekking &amp; Activiteit</value>
+  </data>
+  <data name="DocumentationText" xml:space="preserve">
+    <value>Documentatie</value>
   </data>
   <data name="DoMoreAxCryptSubscriptionContent1" xml:space="preserve">
     <value>AxCrypt maakt het mogelijk om veilig bestanden te delen tussen docenten, beheerders en studenten. Versleutelde bestanden kunnen worden gedeeld binnen het netwerk van het instituut of via cloudopslag.</value>
@@ -19953,6 +20328,12 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   <data name="DownloadWindowsX64Title" xml:space="preserve">
     <value>Windows (x64)</value>
   </data>
+  <data name="DropboxAccountText" xml:space="preserve">
+    <value>Dropbox-account</value>
+  </data>
+  <data name="DropboxFilesText" xml:space="preserve">
+    <value>Dropbox-bestanden</value>
+  </data>
   <data name="DropboxSessionExpiredText" xml:space="preserve">
     <value>Uw Dropbox-sessie is verlopen of niet langer geldig. Meld u opnieuw aan bij uw Dropbox-account.</value>
   </data>
@@ -20078,6 +20459,12 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   <data name="EmailSetupForAccountOwnerTitle" xml:space="preserve">
     <value>E-mail instellen voor accounteigenaar</value>
   </data>
+  <data name="EmailUsageDescription" xml:space="preserve">
+    <value>Uw e-mailadres is uw AxCrypt-ID en wordt gebruikt om in te loggen, belangrijke meldingen over updates te ontvangen en anderen in staat te stellen versleutelde bestanden met u te delen zonder wachtwoorden uit te wisselen. We verkopen uw e-mailadres niet en gebruiken het niet voor communicatie van derden zonder uw toestemming.</value>
+  </data>
+  <data name="EmailUsageQuestion" xml:space="preserve">
+    <value>Waar wordt mijn e-mail voor gebruikt?</value>
+  </data>
   <data name="EmptySecretTruncatedDescriptionLinkText" xml:space="preserve">
     <value>[Geen Beschrijving]</value>
   </data>
@@ -20101,6 +20488,9 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   </data>
   <data name="EncryptandDecryptLinkLable" xml:space="preserve">
     <value>Versleuteling en Ontsleuteling</value>
+  </data>
+  <data name="EncryptAndSecureFilesQuicklyText" xml:space="preserve">
+    <value>Versleutel en beveilig uw bestanden in enkele seconden.</value>
   </data>
   <data name="EncryptAndShareUnlimitedFilesMessage" xml:space="preserve">
     <value>Versleutel en deel &lt;strong&gt;onbeperkt&lt;/strong&gt; bestanden</value>
@@ -20331,6 +20721,15 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   <data name="EncryptedEndToEndText" xml:space="preserve">
     <value>Versleuteld · End-to-end</value>
   </data>
+  <data name="EncryptedFileSharingDescription" xml:space="preserve">
+    <value>Stuur versleutelde bestanden met één tik naar collega's.</value>
+  </data>
+  <data name="EncryptedFilesNotAddedText" xml:space="preserve">
+    <value>Versleutelde Bestanden Niet Toegevoegd</value>
+  </data>
+  <data name="EncryptedFilesNotRecognizedDescription" xml:space="preserve">
+    <value>{0} versleuteld(e) bestand(en) kon(den) niet worden herkend of toegevoegd en is/zijn ongewijzigd gebleven.</value>
+  </data>
   <data name="EncryptedFoldersToolStripMenuItemText" xml:space="preserve">
     <value>Beveiligde Mappen</value>
   </data>
@@ -20343,6 +20742,9 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   <data name="EncryptedPathColumnHeaderText" xml:space="preserve">
     <value>Beveiligd</value>
   </data>
+  <data name="EncryptedPhotoLibraryDescription" xml:space="preserve">
+    <value>Foto's en video's hier zijn versleuteld met AES-256 en verlaten de kluis nooit onversleuteld.</value>
+  </data>
   <data name="EncryptedSourceColumnHeader" xml:space="preserve">
     <value>Beveiligd bestand</value>
   </data>
@@ -20354,6 +20756,9 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   </data>
   <data name="EncryptedTextIsRequiredText" xml:space="preserve">
     <value>Versleutelde tekst is vereist.</value>
+  </data>
+  <data name="EncryptedVaultDescription" xml:space="preserve">
+    <value>Stel een versleutelde kluis in om uw meest gevoelige bestanden veilig op één beschermde locatie op te slaan.</value>
   </data>
   <data name="EncryptFileNameAndDateModifiedText" xml:space="preserve">
     <value>Bestandsnaam &amp; wijzigingsdatum versleutelen</value>
@@ -20396,6 +20801,12 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   </data>
   <data name="EncryptNowText" xml:space="preserve">
     <value>Versleutel nu</value>
+  </data>
+  <data name="EncryptPrivatePhotosAndVideosText" xml:space="preserve">
+    <value>Versleutel privéfoto's en video's</value>
+  </data>
+  <data name="EncryptShareSyncAcrossDevicesDescription" xml:space="preserve">
+    <value>Versleutel elk bestand, deel sleutels en houd uw geheimen gesynchroniseerd op al uw apparaten.</value>
   </data>
   <data name="EncryptToolStripButtonToolTipText" xml:space="preserve">
     <value>Klik om bestanden te selecteren die u wilt beveiligen.</value>
@@ -20447,6 +20858,9 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   </data>
   <data name="EnterPasswordToDecryptFileMessage" xml:space="preserve">
     <value>Voer het wachtwoord in om dit bestand te ontsleutelen.</value>
+  </data>
+  <data name="EnterPasswordToOpenFileText" xml:space="preserve">
+    <value>Voer uw wachtwoord in om dit bestand te openen.</value>
   </data>
   <data name="EnterSixDigitCodeText" xml:space="preserve">
     <value>Voer uw 6-cijferige code in.</value>
@@ -20515,6 +20929,12 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   <data name="ExpireInLabelFirstPart" xml:space="preserve">
     <value>Verloopt in</value>
     <comment>The first part of "Expired in x days" label in mobile application</comment>
+  </data>
+  <data name="ExportAxCryptIdKeyPairDescription" xml:space="preserve">
+    <value>Exporteer uw volledige AxCrypt-ID-sleutelpaar als back-up.</value>
+  </data>
+  <data name="ExportAxCryptIdKeyText" xml:space="preserve">
+    <value>Exporteer AxCrypt ID-sleutel</value>
   </data>
   <data name="ExportedSuccessfullyText" xml:space="preserve">
     <value>Succesvol geëxporteerd!</value>
@@ -22314,6 +22734,9 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   <data name="FileAlreadyExists" xml:space="preserve">
     <value>Bestand '{0}' bestaat al</value>
   </data>
+  <data name="FileAndPrivacyToolsText" xml:space="preserve">
+    <value>Bestands- &amp; Privacytools</value>
+  </data>
   <data name="FileAssociationBrokenWarning" xml:space="preserve">
     <value>Dubbelklik om AxCrypt bestanden buiten AxCrypt te openen werkt mogelijk niet correct. De bestandsassociatie voor bestandsextensie ".axx" van het besturingssysteem lijkt gebroken te zijn. Contact uw IT support, of zoek voor een oplossing op het internet.</value>
     <comment>A text that is shown to users starting the association with .axx file is broken. It should not mention "Windows", or "Mac" etc so it can be used in all environments.</comment>
@@ -22452,8 +22875,14 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   <data name="FileSizeColumnHeaderText" xml:space="preserve">
     <value>Maat</value>
   </data>
+  <data name="FilesOnThisDeviceText" xml:space="preserve">
+    <value>Bestanden op dit apparaat</value>
+  </data>
   <data name="FilesSecureAndProtectedText" xml:space="preserve">
     <value>Uw bestanden zijn veilig en beschermd.</value>
+  </data>
+  <data name="FileSyncAcrossDevicesDescription" xml:space="preserve">
+    <value>Bestanden blijven synchroon op elk ingelogd apparaat.</value>
   </data>
   <data name="FileToolStripMenuItemText" xml:space="preserve">
     <value>Bestand</value>
@@ -22620,6 +23049,12 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   <data name="ForEveryoneLabel" xml:space="preserve">
     <value>Voor iedereen</value>
   </data>
+  <data name="ForgotPasswordDescription" xml:space="preserve">
+    <value>AxCrypt heeft geen achterdeur of wachtwoordherstel. Uw wachtwoord is de enige sleutel tot uw gegevens. Als u denkt dat u het wachtwoord ongeveer weet, neem dan contact op met de ondersteuning — we kunnen een beperkte brute-forcezoekopdracht proberen. De beste bescherming is om uw wachtwoord veilig te bewaren.</value>
+  </data>
+  <data name="ForgotPasswordQuestion" xml:space="preserve">
+    <value>Wat gebeurt er als ik mijn wachtwoord vergeet?</value>
+  </data>
   <data name="ForIndividualsLabel" xml:space="preserve">
     <value>Voor particulieren</value>
   </data>
@@ -22635,6 +23070,9 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   <data name="ForSomeoneElseText" xml:space="preserve">
     <value>Voor iemand anders</value>
   </data>
+  <data name="ForTeamsDescription" xml:space="preserve">
+    <value>Voor teams — bestanden samen beheren en versleutelen</value>
+  </data>
   <data name="ForTeamsLabel" xml:space="preserve">
     <value>VOOR TEAMS</value>
   </data>
@@ -22644,14 +23082,23 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   <data name="ForWhomHeadline" xml:space="preserve">
     <value>Voor wie</value>
   </data>
+  <data name="ForYourWholeTeamText" xml:space="preserve">
+    <value>Voor uw hele team</value>
+  </data>
   <data name="FoundBetterAlternativeText" xml:space="preserve">
     <value>Een betere alternatief gevonden</value>
   </data>
   <data name="FoundBetterDealText" xml:space="preserve">
     <value>Elders een beter deal gevonden</value>
   </data>
+  <data name="FourteenDayFreeTrialCancelAnytimeText" xml:space="preserve">
+    <value>14 dagen gratis uitproberen · Geen creditcard vereist · Op elk moment opzegbaar</value>
+  </data>
   <data name="FourteenDayFreeTrialNoCardChargedTodayMessage" xml:space="preserve">
     <value>14 dagen gratis proefperiode voor betaalde abonnementen en vandaag wordt er geen kaart belast.</value>
+  </data>
+  <data name="FourteenDayFreeTrialText" xml:space="preserve">
+    <value>14 dagen gratis uitproberen — geen creditcard vereist.</value>
   </data>
   <data name="FourteenDaysFreeCardChargedAfterTrialMessage" xml:space="preserve">
     <value>&lt;strong&gt;14 dagen gratis&lt;/strong&gt; en uw kaart wordt pas belast nadat de proefperiode is afgelopen</value>
@@ -22828,6 +23275,9 @@ We vinden het jammer dat u ons verlaat en hopen dat u genoten heeft van uw tijd 
   <data name="FreeSupportInfo" xml:space="preserve">
     <value>Wij bieden directe ondersteuning aan Premium en zakelijke klanten.
 Bezoek onze &lt;a href="{0}"&gt;gemeenschap ondersteuning&lt;/a&gt;.</value>
+  </data>
+  <data name="FreeToStartText" xml:space="preserve">
+    <value>Gratis om te beginnen.</value>
   </data>
   <data name="FreeTrial" xml:space="preserve">
     <value>Gratis proefperiode</value>
@@ -23437,6 +23887,12 @@ Bezoek onze &lt;a href="{0}"&gt;gemeenschap ondersteuning&lt;/a&gt;.</value>
   </data>
   <data name="GettheLatestAxCryptText" xml:space="preserve">
     <value>Download hier de nieuwste AxCrypt Versie 2 Releases</value>
+  </data>
+  <data name="GoogleAccountText" xml:space="preserve">
+    <value>Google-account</value>
+  </data>
+  <data name="GoogleDriveFilesText" xml:space="preserve">
+    <value>Google Drive-bestanden</value>
   </data>
   <data name="GoogleDriveSessionExpiredText" xml:space="preserve">
     <value>Uw Google Drive-sessie is verlopen of niet langer geldig. Meld u opnieuw aan bij uw Google Drive-account.</value>
@@ -24318,6 +24774,9 @@ Als u om een of andere reden uw wachtwoord niet weet of uw wachtwoord niet herin
   <data name="HideFileNamesDescription" xml:space="preserve">
     <value>Verberg bestandsnamen, zodat ze geen sporen op de schijf achterlaten.</value>
   </data>
+  <data name="HideOriginalFilenamesDescription" xml:space="preserve">
+    <value>Verberg originele bestandsnamen met willekeurige identificatoren.</value>
+  </data>
   <data name="HideOriginalFileNamesPopup" xml:space="preserve">
     <value>Verberg oorspronkelijke bestandsnamen</value>
   </data>
@@ -24567,14 +25026,29 @@ Voor meer informatie over hoe we de informatie gebruiken die u hier indient, zie
   <data name="HowItWorks" xml:space="preserve">
     <value>Zie hoe het werkt</value>
   </data>
+  <data name="HowToEncryptFileDescription" xml:space="preserve">
+    <value>Open het tabblad Bestanden, tik op een bestand en kies Versleutelen. U kunt ook de sectie Bestandsacties op de startpagina gebruiken om bestanden te selecteren uit elke verbonden cloudopslag of lokale opslag.</value>
+  </data>
+  <data name="HowToEncryptFileQuestion" xml:space="preserve">
+    <value>Hoe versleutel ik een bestand?</value>
+  </data>
   <data name="HowToEncryptFirstFileTitle" xml:space="preserve">
     <value>Hoe U Uw Eerste Bestand Versleutelt</value>
+  </data>
+  <data name="HowToShareText" xml:space="preserve">
+    <value>Hoe te delen</value>
   </data>
   <data name="HowToUsePasswordManagerTitle" xml:space="preserve">
     <value>Hoe u de Wachtwoordbeheerder gebruikt</value>
   </data>
   <data name="IAcceptAxCryptTermsMessage" xml:space="preserve">
     <value>Ik accepteer AxCrypt's</value>
+  </data>
+  <data name="ICloudDriveFilesText" xml:space="preserve">
+    <value>iCloud Drive-bestanden</value>
+  </data>
+  <data name="ICloudDriveText" xml:space="preserve">
+    <value>iCloud Drive</value>
   </data>
   <data name="IdentityEntriesNotSupportedText" xml:space="preserve">
     <value>Identiteitsgegevens worden momenteel nog niet ondersteund door de Wachtwoordbeheer-service.</value>
@@ -24604,6 +25078,9 @@ Als u de inhoud van het bestand wilt bekijken of updaten, ontsleutel het dan afz
   <data name="ImportContactPublicKeyDescription" xml:space="preserve">
     <value>Openbare sleutel van een contact importeren</value>
   </data>
+  <data name="ImportGalleryOrTakePhotoDescription" xml:space="preserve">
+    <value>Importeer een foto uit uw galerij of maak een foto.</value>
+  </data>
   <data name="ImportMyPrivateKeyToolStripMenuItemText" xml:space="preserve">
     <value>AxCrypt ID importeren met delen en toegang sleutels</value>
   </data>
@@ -24621,6 +25098,12 @@ Als u de inhoud van het bestand wilt bekijken of updaten, ontsleutel het dan afz
   </data>
   <data name="ImportPublicKeysFileSelectionTitle" xml:space="preserve">
     <value>Selecteer Delen Sleutel Bestanden</value>
+  </data>
+  <data name="ImportPublicKeyText" xml:space="preserve">
+    <value>Import Publieke Sleutel</value>
+  </data>
+  <data name="ImportPublicSharingKeyDescription" xml:space="preserve">
+    <value>Importeer de openbare deelsleutel van iemand anders in uw account.</value>
   </data>
   <data name="ImportSomeonesKeyText" xml:space="preserve">
     <value>Iemands Sleutel Importeren</value>
@@ -24652,6 +25135,9 @@ Als u de inhoud van het bestand wilt bekijken of updaten, ontsleutel het dan afz
   <data name="IncludedWithPremiumBusinessText" xml:space="preserve">
     <value>Inbegrepen bij Premium &amp; Business</value>
   </data>
+  <data name="IncludedWithPremiumText" xml:space="preserve">
+    <value>Inbegrepen bij Premium</value>
+  </data>
   <data name="IncludeRecoveryAccessText" xml:space="preserve">
     <value>Inclusief Hersteltoegang</value>
   </data>
@@ -24672,6 +25158,9 @@ Dit zorgt er mogelijk voor dat sommige acties lang duren. Zorg er voor dat u gee
   </data>
   <data name="InconsistentState" xml:space="preserve">
     <value>Inconsistente status met '{0}'.</value>
+  </data>
+  <data name="IncorrectPasswordRetryText" xml:space="preserve">
+    <value>Onjuist wachtwoord — probeer het opnieuw.</value>
   </data>
   <data name="IndexPageTitle" xml:space="preserve">
     <value>Mijn AxCrypt ID</value>
@@ -25025,6 +25514,9 @@ Meldt u aan in AxCrypt met {2}, voer uw 6-cijferige verificatiecode in en stel u
   <data name="InviteEmailSuccessfullyText" xml:space="preserve">
     <value>Uitnodiging verzonden naar {0} Succesvol!</value>
   </data>
+  <data name="InviteForSecureCollaborationDescription" xml:space="preserve">
+    <value>Nodig iemand uit voor AxCrypt om veilig samen te werken.</value>
+  </data>
   <data name="InviteFriendAxCryptText" xml:space="preserve">
     <value>Nodig uw vriend(in) uit voor AxCrypt!</value>
   </data>
@@ -25040,6 +25532,9 @@ Meldt u aan in AxCrypt met {2}, voer uw 6-cijferige verificatiecode in en stel u
   </data>
   <data name="InviteNowText" xml:space="preserve">
     <value>Nu Uitnodigen</value>
+  </data>
+  <data name="InviteOthersToAccessFilesDescription" xml:space="preserve">
+    <value>Nodig anderen uit om toegang te krijgen tot specifieke bestanden zonder uw wachtwoord te delen of de beveiliging in gevaar te brengen.</value>
   </data>
   <data name="InviteRecipientText" xml:space="preserve">
     <value>Nodig ontvanger uit</value>
@@ -25138,6 +25633,9 @@ EU BTW Nummer SE556967618101</value>
     <value>Italiano (Italiaans)</value>
     <comment>The name of the language Italian in Italian. It should never be translated.</comment>
   </data>
+  <data name="ItemsText" xml:space="preserve">
+    <value>ITEMS</value>
+  </data>
   <data name="IUnderstandPrompt" xml:space="preserve">
     <value>Ik begrijp het</value>
   </data>
@@ -25197,6 +25695,9 @@ EU BTW Nummer SE556967618101</value>
   </data>
   <data name="JobTitlePlaceholder" xml:space="preserve">
     <value>Typ de functietitel</value>
+  </data>
+  <data name="JoinMillionsKeepingFilesSafeText" xml:space="preserve">
+    <value>Sluit u aan bij miljoenen&lt;br /&gt;die hun bestanden veilig houden.</value>
   </data>
   <data name="JustAMomentMessage" xml:space="preserve">
     <value>Even geduld…</value>
@@ -25351,6 +25852,9 @@ Geef de taal van voorkeur voor de uitnodiging op en schrijf hieronder optioneel 
   </data>
   <data name="KeySharingToolTip" xml:space="preserve">
     <value>Klik om geëncrypteerde bestanden te selecteren waarvan u de sleutels wilt delen met anderen</value>
+  </data>
+  <data name="KeySharingWithContactsText" xml:space="preserve">
+    <value>Sleuteldeling met contacten</value>
   </data>
   <data name="knowmorelinkLabel" xml:space="preserve">
     <value>Ik wil meer weten</value>
@@ -25873,6 +26377,9 @@ Het automatisch converteren van AxCrypt 1.x bestanden inschakelen (aanbevolen)?<
   <data name="LoadingCloudFilesText" xml:space="preserve">
     <value>Cloudbestanden laden...</value>
   </data>
+  <data name="LoadingFullResolutionText" xml:space="preserve">
+    <value>Laadt volledige resolutie...</value>
+  </data>
   <data name="LoadingPlansTexts" xml:space="preserve">
     <value>Plannen worden geladen...</value>
   </data>
@@ -25903,6 +26410,9 @@ Het automatisch converteren van AxCrypt 1.x bestanden inschakelen (aanbevolen)?<
   </data>
   <data name="LocationLabel" xml:space="preserve">
     <value>Locatie</value>
+  </data>
+  <data name="LockVaultAfterText" xml:space="preserve">
+    <value>Kluis Vergrendelen Na</value>
   </data>
   <data name="LoggedOffStatusText" xml:space="preserve">
     <value>Afgemeld</value>
@@ -26025,6 +26535,9 @@ Het automatisch converteren van AxCrypt 1.x bestanden inschakelen (aanbevolen)?<
   </data>
   <data name="ManageAnonymousFiles" xml:space="preserve">
     <value>Beheer anoniem versleutelde bestanden</value>
+  </data>
+  <data name="ManageAxCryptAccountIdentityDescription" xml:space="preserve">
+    <value>Bekijk en beheer uw AxCrypt-accountidentiteit.</value>
   </data>
   <data name="ManageGroupAccessHeading" xml:space="preserve">
     <value>Groepstoegang beheren</value>
@@ -26315,6 +26828,9 @@ Het automatisch converteren van AxCrypt 1.x bestanden inschakelen (aanbevolen)?<
   <data name="MaxUsersCountText" xml:space="preserve">
     <value>U kunt niet meer gebruikers toevoegen dan het maximaal toegestane aantal ({0})</value>
   </data>
+  <data name="MaybeLaterText" xml:space="preserve">
+    <value>Misschien later</value>
+  </data>
   <data name="McErrArgument" xml:space="preserve">
     <value>Interne error, ongeldige functieargument in %4</value>
     <comment>Internal use only. Do not translate.</comment>
@@ -26527,6 +27043,9 @@ De licentie voor dit programma is conform de overeenkomst.
   <data name="MessagesAutoDeleteAfterTimerText" xml:space="preserve">
     <value>Berichten worden automatisch verwijderd nadat de timer is verlopen</value>
   </data>
+  <data name="MessageSentSuccessText" xml:space="preserve">
+    <value>Bericht verzonden! We nemen zo snel contact met u op.</value>
+  </data>
   <data name="MessageServerUpdateText" xml:space="preserve">
     <value>De AxCrypt-server is geüpdatet. Update AxCrypt alstublieft binnenkort. Onverwachte fouten kunnen anders voorkomen.</value>
   </data>
@@ -26557,6 +27076,9 @@ De licentie voor dit programma is conform de overeenkomst.
   <data name="MessageUnsubscribedConfirmation" xml:space="preserve">
     <value>U ontvangt nu geen nieuws en informatie emails meer.</value>
     <comment>The main message displayed when unsubscribed</comment>
+  </data>
+  <data name="MessengerText" xml:space="preserve">
+    <value>Messenger</value>
   </data>
   <data name="Meta-Description-About-Axcrypt" xml:space="preserve">
     <value>Ontdek AxCrypt’s eenvoudige en sterke bestandsversleuteling. Vertrouwd door miljoenen, met AES-256-beveiliging, cloudintegratie en naadloze toegang over meerdere platforms.</value>
@@ -26972,6 +27494,9 @@ De licentie voor dit programma is conform de overeenkomst.
   </data>
   <data name="Meta-Description-Blog-WIPTFI2E" xml:space="preserve">
     <value>Ontdek waarom 256-bit versleuteling de beste keuze is voor sectoren om gevoelige gegevens te beschermen. Ontdek de ongeëvenaarde beveiligingsfuncties.</value>
+  </data>
+  <data name="Meta-Description-Blog-WITBETFCS" xml:space="preserve">
+    <value>Ontdek de beste versleutelingstool voor cloudopslag. Leer hoe AxCrypt bestandsniveauversleuteling aan de clientzijde gebruikt om bestanden op Google Drive, OneDrive en Dropbox te beveiligen.</value>
   </data>
   <data name="Meta-Description-Blog-WITHDEPYD" xml:space="preserve">
     <value>Bescherm uw gegevens tegen typosquattingaanvallen met veilige versleuteling, wachtwoordbeheer en veilige surfgewoonten. Blijf cyberdreigingen een stap voor.</value>
@@ -27692,6 +28217,9 @@ De licentie voor dit programma is conform de overeenkomst.
   <data name="Meta-Title-Blog-WIPTFI2E" xml:space="preserve">
     <value>Waarom 256-bits Versleuteling Wordt Vertrouwd door Sectoren</value>
   </data>
+  <data name="Meta-Title-Blog-WITBETFCS" xml:space="preserve">
+    <value>Beste Versleutelingstool voor Cloudopslag | AxCrypt</value>
+  </data>
   <data name="Meta-Title-Blog-WITHDEPYD" xml:space="preserve">
     <value>Wat is Typosquatting? Hoe Versleuteling Uw Gegevens Beschermt in 2026
 </value>
@@ -27950,6 +28478,9 @@ De licentie voor dit programma is conform de overeenkomst.
   </data>
   <data name="Meta-Title-vault" xml:space="preserve">
     <value>AxCrypt-Kluis | Handleiding voor Veilige Bestandsbescherming</value>
+  </data>
+  <data name="MetadataRemovalText" xml:space="preserve">
+    <value>Verwijdering van Metadata</value>
   </data>
   <data name="MetadataRetentionLabel" xml:space="preserve">
     <value>Retentie van metagegevens</value>
@@ -28219,6 +28750,12 @@ De licentie voor dit programma is conform de overeenkomst.
   <data name="MFAVerificationCode" xml:space="preserve">
     <value>Voer de 6-cijferige verificatiecode in van de {0}</value>
   </data>
+  <data name="MicrosoftAccountText" xml:space="preserve">
+    <value>Microsoft-account</value>
+  </data>
+  <data name="MicrosoftOneDriveText" xml:space="preserve">
+    <value>Microsoft OneDrive</value>
+  </data>
   <data name="MigrateOlderEncryptionTitle" xml:space="preserve">
     <value>Migreer oudere versleuteling</value>
   </data>
@@ -28237,6 +28774,9 @@ De licentie voor dit programma is conform de overeenkomst.
   <data name="MobileCustomFilepickerPromptTitle" xml:space="preserve">
     <value>Kies bestanden uit</value>
   </data>
+  <data name="MobileFileManagementDescription" xml:space="preserve">
+    <value>Versleutel, ontsleutel en beheer uw beveiligde bestanden rechtstreeks vanaf uw iOS- of Android-apparaat.</value>
+  </data>
   <data name="MobileLabel" xml:space="preserve">
     <value>Mobiel</value>
   </data>
@@ -28251,6 +28791,9 @@ De licentie voor dit programma is conform de overeenkomst.
   </data>
   <data name="MobileOnboardingPasswordManagerDescription" xml:space="preserve">
     <value>Toegang met één klik tot de AxCrypt &lt;fc&gt;wachtwoordbeheerder&lt;/fc&gt;</value>
+  </data>
+  <data name="MobileReadyText" xml:space="preserve">
+    <value>Klaar voor Mobiel</value>
   </data>
   <data name="ModifyText" xml:space="preserve">
     <value>wijzigen</value>
@@ -28280,6 +28823,9 @@ De licentie voor dit programma is conform de overeenkomst.
   </data>
   <data name="MorePostsButtonLabel" xml:space="preserve">
     <value>Meer posts</value>
+  </data>
+  <data name="MoreResourcesText" xml:space="preserve">
+    <value>Meer Bronnen</value>
   </data>
   <data name="MoreTechnicalIssueText" xml:space="preserve">
     <value>Ik heb last van technische problemen</value>
@@ -28614,6 +29160,9 @@ De licentie voor dit programma is conform de overeenkomst.
   <data name="NoNotificationsText" xml:space="preserve">
     <value>Geen nieuwe meldingen!</value>
   </data>
+  <data name="NoOneHasAccessYetDescription" xml:space="preserve">
+    <value>Nog niemand heeft toegang. Voeg hierboven een ontvanger toe om de sleutel te delen.</value>
+  </data>
   <data name="NoPasswordFoundText" xml:space="preserve">
     <value>Oeps! Er is geen wachtwoord gevonden om te delen.</value>
   </data>
@@ -28624,6 +29173,9 @@ U bent aangemeld, dus we zullen niet om uw wachtwoord vragen wanneer u encryptee
 
 Uw bestanden zijn nog steeds veilig geëncrypteerd met uw wachtwoord.</value>
     <comment>An information text, informing the user why there is no prompt for a password when you're signed in.</comment>
+  </data>
+  <data name="NoPhotosYetText" xml:space="preserve">
+    <value>Nog geen foto's.</value>
   </data>
   <data name="NoPremiumWarning" xml:space="preserve">
     <value>Uw Premium abonnement is verlopen, dus u gebruikt niet het hoogste beveiligingsniveau. Klik hier om te upgraden.</value>
@@ -28721,6 +29273,9 @@ Om terug te keren naar de startpagina, klik &lt;a href="{1}"&gt;hier&lt;/a&gt;.<
   <data name="NotificationsRequireInternetConnectionText" xml:space="preserve">
     <value>Voor meldingen is een internetverbinding vereist.</value>
   </data>
+  <data name="NoToolsMatchText" xml:space="preserve">
+    <value>Geen tools gevonden</value>
+  </data>
   <data name="NotUsingProductText" xml:space="preserve">
     <value>Ik gebruik het product niet vaak</value>
   </data>
@@ -28735,6 +29290,9 @@ Om terug te keren naar de startpagina, klik &lt;a href="{1}"&gt;hier&lt;/a&gt;.<
   </data>
   <data name="OfflineApiExceptionDialogText" xml:space="preserve">
     <value>Er lijkt een probleem te zijn met het verbinding met de server, maar we gaan offline verder.</value>
+  </data>
+  <data name="OfflineCreatingLocalAccountText" xml:space="preserve">
+    <value>U bent offline — er wordt een lokaal account aangemaakt.</value>
   </data>
   <data name="OfflineIndicatorText" xml:space="preserve">
     <value>Offline</value>
@@ -28798,6 +29356,12 @@ Om terug te keren naar de startpagina, klik &lt;a href="{1}"&gt;hier&lt;/a&gt;.<
   <data name="OpenAndViewAxCryptFilesDescription" xml:space="preserve">
     <value>Open en bekijk bestanden die met AxCrypt zijn versleuteld.</value>
   </data>
+  <data name="OpenAppStoreForLatestVersionDescription" xml:space="preserve">
+    <value>Open de appstore om de nieuwste versie van AxCrypt te downloaden.</value>
+  </data>
+  <data name="OpenAxCryptFilesOnPhoneDescription" xml:space="preserve">
+    <value>Open &lt;strong&gt;AxCrypt-bestanden&lt;/strong&gt; op uw telefoon.</value>
+  </data>
   <data name="OpenAxCryptFilesText" xml:space="preserve">
     <value>Open &lt;span class="grn-clr"&gt;AxCrypt-bestanden&lt;/span&gt; op uw telefoon.</value>
   </data>
@@ -28813,6 +29377,9 @@ Om terug te keren naar de startpagina, klik &lt;a href="{1}"&gt;hier&lt;/a&gt;.<
   <data name="OpenFileColumnHeader" xml:space="preserve">
     <value>Bestand</value>
   </data>
+  <data name="OpenFromText" xml:space="preserve">
+    <value>Openen vanuit…</value>
+  </data>
   <data name="OpenInFilesText" xml:space="preserve">
     <value>Open in Bestanden</value>
   </data>
@@ -28824,6 +29391,12 @@ Om terug te keren naar de startpagina, klik &lt;a href="{1}"&gt;hier&lt;/a&gt;.<
   </data>
   <data name="OpenPasswordManagerKeyIconInstruction" xml:space="preserve">
     <value>Tik op het sleutelpictogram in de navigatiebalk onderaan om Wachtwoordbeheerder te openen.</value>
+  </data>
+  <data name="OpenSecuredFileText" xml:space="preserve">
+    <value>Open Beveiligd Bestand</value>
+  </data>
+  <data name="OpenSharedEncryptedFilesForFreeDescription" xml:space="preserve">
+    <value>Open gratis versleutelde bestanden die met u zijn gedeeld</value>
   </data>
   <data name="OpenSourceLabel" xml:space="preserve">
     <value>Open source</value>
@@ -28908,8 +29481,14 @@ Om terug te keren naar de startpagina, klik &lt;a href="{1}"&gt;hier&lt;/a&gt;.<
   <data name="OrganisationsText" xml:space="preserve">
     <value>ORGANISATIES</value>
   </data>
+  <data name="OrganizationWideRecoveryDescription" xml:space="preserve">
+    <value>Voorkom gegevensverlies met herstel voor de hele organisatie.</value>
+  </data>
   <data name="OrgNumberLabel" xml:space="preserve">
     <value>Organisatie nummer</value>
+  </data>
+  <data name="OriginalMetadataText" xml:space="preserve">
+    <value>Originele Metadata</value>
   </data>
   <data name="OrText" xml:space="preserve">
     <value>Of</value>
@@ -29176,6 +29755,9 @@ Om terug te keren naar de startpagina, klik &lt;a href="{1}"&gt;hier&lt;/a&gt;.<
   <data name="PassphraseVerificationMismatch" xml:space="preserve">
     <value>Wachtwoorden komen niet overeen</value>
   </data>
+  <data name="PasswordAskedOnceQuestion" xml:space="preserve">
+    <value>Waarom vraagt AxCrypt maar één keer om mijn wachtwoord?</value>
+  </data>
   <data name="PasswordChangeText" xml:space="preserve">
     <value>Wachtwoord wijzigen</value>
   </data>
@@ -29265,6 +29847,12 @@ Om terug te keren naar de startpagina, klik &lt;a href="{1}"&gt;hier&lt;/a&gt;.<
   <data name="PasswordManagerFeatureInfoText" xml:space="preserve">
     <value>Houd al uw wachtwoorden en andere geheimen veilig in onze cloud!</value>
   </data>
+  <data name="PasswordManagerHowItWorksDescription" xml:space="preserve">
+    <value>De Wachtwoordmanager slaat wachtwoorden, kaartgegevens en beveiligde notities end-to-end versleuteld op met uw AxCrypt-wachtwoord. Alleen u kunt deze ontsleutelen — de servers van AxCrypt kunnen de inhoud niet lezen.</value>
+  </data>
+  <data name="PasswordManagerHowItWorksQuestion" xml:space="preserve">
+    <value>Hoe werkt de Wachtwoordmanager?</value>
+  </data>
   <data name="PasswordManagerItemDeletedText" xml:space="preserve">
     <value>Item verwijderd uit Wachtwoordbeheer.</value>
   </data>
@@ -29309,6 +29897,9 @@ Om terug te keren naar de startpagina, klik &lt;a href="{1}"&gt;hier&lt;/a&gt;.<
   </data>
   <data name="PasswordMismatchApiExceptionText" xml:space="preserve">
     <value>Onlangs is het wachtwoord van uw AxCrypt-account gewijzigd, dus u moet opnieuw inloggen om uw AxCrypt-accountgegevens te synchroniseren.</value>
+  </data>
+  <data name="PasswordMismatchRetryText" xml:space="preserve">
+    <value>Dat wachtwoord komt niet overeen. Probeer het opnieuw.</value>
   </data>
   <data name="PasswordModerateText" xml:space="preserve">
     <value>Matig</value>
@@ -29408,6 +29999,9 @@ Wij classificeren het wachtwoord in 4 categorieën van toenemende sterkte, waarb
 Witte ruimte en gedeeltes die gelijk staan aan veelvoorkomende wachtwoorden worden genegeerd en maken het wachtwoord niet sterker.</value>
     <comment>A shorter description of how password strength is evaluated.</comment>
   </data>
+  <data name="PasswordSessionCachingDescription" xml:space="preserve">
+    <value>Zodra u bent ingelogd, bewaart AxCrypt uw wachtwoordsessie tijdelijk, zodat u deze niet voor elk bestand opnieuw hoeft in te voeren. Dit is bewust zo ontworpen: als uw apparaat ontgrendeld wordt achtergelaten, kan iedereen er toegang toe krijgen. Gebruik daarom de schermvergrendeling van uw apparaat voor lokale bescherming en meld u af bij AxCrypt wanneer u uw apparaat onbeheerd achterlaat.</value>
+  </data>
   <data name="PasswordSetupAfterVerificationDescription" xml:space="preserve">
     <value>Uw wachtwoordinstellingen verschijnen zodra de code is voltooid.</value>
   </data>
@@ -29416,6 +30010,12 @@ Witte ruimte en gedeeltes die gelijk staan aan veelvoorkomende wachtwoorden word
   </data>
   <data name="PasswordSpecialCharacter" xml:space="preserve">
     <value>1 speciaal teken zoals</value>
+  </data>
+  <data name="PasswordStorageDescription" xml:space="preserve">
+    <value>Nee. Uw wachtwoord wordt nooit opgeslagen. Accountsleutels op onze servers worden met uw wachtwoord versleuteld voordat ze worden verzonden — zelfs als onze servers worden gehackt, blijven uw gegevens veilig zolang uw wachtwoord sterk en geheim blijft.</value>
+  </data>
+  <data name="PasswordStorageQuestion" xml:space="preserve">
+    <value>Slaat u mijn wachtwoord op uw servers op?</value>
   </data>
   <data name="PasswordStoredSecurelyText" xml:space="preserve">
     <value>Dit wachtwoord wordt veilig opgeslagen en onthouden totdat u alle instellingen wist of de app verwijdert.</value>
@@ -29503,6 +30103,9 @@ Witte ruimte en gedeeltes die gelijk staan aan veelvoorkomende wachtwoorden word
   <data name="PendingStatus" xml:space="preserve">
     <value>In afwachting</value>
   </data>
+  <data name="PermanentlyShredFilesDescription" xml:space="preserve">
+    <value>Versnipper bestanden permanent zodat ze niet kunnen worden hersteld.</value>
+  </data>
   <data name="PermanentlyShredFileText" xml:space="preserve">
     <value>Dit bestand permanent vernietigen</value>
   </data>
@@ -29515,11 +30118,17 @@ Witte ruimte en gedeeltes die gelijk staan aan veelvoorkomende wachtwoorden word
   <data name="PerMonthPerUserLabel" xml:space="preserve">
     <value>Per maand | Per gebruiker</value>
   </data>
+  <data name="PerSeatPricingCancelAnytimeText" xml:space="preserve">
+    <value>Prijs per gebruiker · op elk moment opzegbaar</value>
+  </data>
   <data name="PersonalAccountDescription" xml:space="preserve">
     <value>Voor individuen - beveilig persoonlijke bestanden op elk apparaat</value>
   </data>
   <data name="PersonalPlanDescription" xml:space="preserve">
     <value>Voor individuen die hun eigen bestanden beveiligen</value>
+  </data>
+  <data name="PersonalText" xml:space="preserve">
+    <value>Persoonlijk</value>
   </data>
   <data name="PhoneLabel" xml:space="preserve">
     <value>Telefoon</value>
@@ -29529,6 +30138,12 @@ Witte ruimte en gedeeltes die gelijk staan aan veelvoorkomende wachtwoorden word
   </data>
   <data name="PhonePlaceholder" xml:space="preserve">
     <value>Typ uw telefoonnummer</value>
+  </data>
+  <data name="PhotoVaultFolderNotFoundText" xml:space="preserve">
+    <value>Map voor fotokluis niet gevonden.</value>
+  </data>
+  <data name="PhotoVaultFolderUnavailableDescription" xml:space="preserve">
+    <value>Uw map voor de fotokluis is verwijderd of niet langer toegankelijk. Kies een nieuwe map om door te gaan.</value>
   </data>
   <data name="PhotoVaultText" xml:space="preserve">
     <value>Fotokluis</value>
@@ -29961,6 +30576,9 @@ AxCrypt klantenservice  </value>
   <data name="PreserveOriginalModifiedDatePopup" xml:space="preserve">
     <value>Behoud de oorspronkelijke gewijzigde datum</value>
   </data>
+  <data name="PreservePhotoMetadataDescription" xml:space="preserve">
+    <value>Houdt GPS, camera en apparaatgegevens intact</value>
+  </data>
   <data name="PressAndHoldLabel" xml:space="preserve">
     <value>Ingedrukt houden om meer te zien</value>
     <comment>Tooltip for Press and hold gesture in mobile application</comment>
@@ -30314,6 +30932,12 @@ AxCrypt klantenservice  </value>
   </data>
   <data name="PrioritySupportAndLiveChatMessage" xml:space="preserve">
     <value>Prioriteitsondersteuning + live chat</value>
+  </data>
+  <data name="PrioritySupportDescription" xml:space="preserve">
+    <value>Prioriteitsondersteuning is beschikbaar voor Premium- en Zakelijke-abonnees.</value>
+  </data>
+  <data name="PrioritySupportDescription1" xml:space="preserve">
+    <value>Direct contact met ons team wanneer u het nodig heeft.</value>
   </data>
   <data name="PrioritySupportTitle" xml:space="preserve">
     <value>Prioriteit Support</value>
@@ -31406,8 +32030,14 @@ Alstublieft &lt;a href="mailto:premium@axcrypt.net"&gt;contacteer ons&lt;/a&gt; 
   <data name="RecipientInputHint" xml:space="preserve">
     <value>Druk op &lt;kbd&gt;Enter&lt;/kbd&gt; of &lt;kbd&gt;,&lt;/kbd&gt; om elke ontvanger toe te voegen. Klik op een label om het te bewerken.</value>
   </data>
+  <data name="RecipientsCanDecryptFileDescription" xml:space="preserve">
+    <value>Ontvangers kunnen dit bestand ontsleutelen.</value>
+  </data>
   <data name="RecipientsOnlyText" xml:space="preserve">
     <value>Alleen ontvangers</value>
+  </data>
+  <data name="RecommendedMetadataRemovalDescription" xml:space="preserve">
+    <value>Aanbevolen — verwijdert metagegevens vóór het delen</value>
   </data>
   <data name="RecoveryAccessAlwaysEnabledText" xml:space="preserve">
     <value>Altijd ingeschakeld, zodat u uw bestanden kunt herstellen als u uw bestandswachtwoord vergeet.</value>
@@ -31567,11 +32197,23 @@ Een 30 dagen durende proefperiode voor AxCrypt Premium is hierbij inbegrepen en 
   <data name="RememberMeForText" xml:space="preserve">
     <value>Onthoud mij voor</value>
   </data>
+  <data name="RemoveCameraDetailsText" xml:space="preserve">
+    <value>Verwijder Cameradetails</value>
+  </data>
+  <data name="RemoveDeviceInformationText" xml:space="preserve">
+    <value>Verwijder Apparaatinformatie</value>
+  </data>
   <data name="RemoveFromListText" xml:space="preserve">
     <value>Uit lijst verwijderen</value>
   </data>
   <data name="RemoveFromRecentFilesLabelText" xml:space="preserve">
     <value>Verwijder van recente bestanden</value>
+  </data>
+  <data name="RemoveGPSLocationText" xml:space="preserve">
+    <value>Verwijder GPS-locatie</value>
+  </data>
+  <data name="RemoveLocationDataBeforeSharingText" xml:space="preserve">
+    <value>Verwijder locatiegegevens vóór het delen</value>
   </data>
   <data name="RemovePasswordManagerItemConfirmationText" xml:space="preserve">
     <value>Dit item uit Wachtwoordbeheer verwijderen?</value>
@@ -31617,9 +32259,15 @@ Een 30 dagen durende proefperiode voor AxCrypt Premium is hierbij inbegrepen en 
   <data name="RenewActiveBusinessSubscriptionWarning" xml:space="preserve">
     <value>Er is een actief en lopend abonnement op dit account. Lopende Business abonnementen hoeven niet handmatig te worden verlengd.</value>
   </data>
+  <data name="RenewBusinessText" xml:space="preserve">
+    <value>Zakelijk-abonnement verlengen</value>
+  </data>
   <data name="RenewInTitle" xml:space="preserve">
     <value>Verleng in</value>
     <comment>Used as "Renew in 30 days"</comment>
+  </data>
+  <data name="RenewSubscriptionDescription" xml:space="preserve">
+    <value>Nieuwe abonnementen worden automatisch verlengd met uw oorspronkelijke betaalmethode. Om uw verlengingsdatum te controleren, logt u in op axcrypt.net en gaat u naar Mijn AxCrypt-ID. Als automatische verlenging is geannuleerd, moet u uw abonnement vóór de vervaldatum handmatig verlengen.</value>
   </data>
   <data name="RenewSubscriptionDialogFeaturesList" xml:space="preserve">
     <value>Mobiele apps
@@ -31628,6 +32276,9 @@ Sleutel delen
 Beveiligde mappen
 Wachtwoordbeheer
 Bewustzijn van cloudopslag</value>
+  </data>
+  <data name="RenewSubscriptionQuestion" xml:space="preserve">
+    <value>Hoe verleng ik mijn abonnement?</value>
   </data>
   <data name="RenewSubscriptionTitle" xml:space="preserve">
     <value>Verleng uw abonnement!</value>
@@ -32117,6 +32768,9 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   <data name="ResendEmailText" xml:space="preserve">
     <value>&lt;b&gt;Ontvang je geen e-mail?&lt;/b&gt; Controleer uw &lt;b&gt;spam&lt;/b&gt; of klik &lt;a id="send-email-again" href="javascript:void(0);"&gt;nogmaals op Verzenden&lt;/a&gt;</value>
   </data>
+  <data name="ResendingMobileSignupCodeText" xml:space="preserve">
+    <value>Aanmeldingscode voor mobiel wordt opnieuw verzonden</value>
+  </data>
   <data name="ResentFailed" xml:space="preserve">
     <value>Opnieuw verzenden mislukt!</value>
   </data>
@@ -32147,6 +32801,9 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   <data name="ResourcesHeading" xml:space="preserve">
     <value>Bronnen</value>
   </data>
+  <data name="RestoreAdminControlsDescription" xml:space="preserve">
+    <value>Herstel beheerderscontroles, audittrail en sleutelbeheer voor alle gebruikers — beveiliging waar uw IT-verantwoordelijke zijn goedkeuring aan kan geven.</value>
+  </data>
   <data name="RestoreAnonymousNamesDescription" xml:space="preserve">
     <value>Maak anonieme hernoeming ongedaan en herstel bestanden naar hun oorspronkelijke bestandsnamen met behulp van de opgeslagen hernoemingskaart.</value>
   </data>
@@ -32166,6 +32823,12 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   </data>
   <data name="RestoreNowText" xml:space="preserve">
     <value>Herstel nu</value>
+  </data>
+  <data name="RestoreOriginalNamesText" xml:space="preserve">
+    <value>Herstel de Oorspronkelijke Namen</value>
+  </data>
+  <data name="RestorePurchasesText" xml:space="preserve">
+    <value>Herstel aankopen</value>
   </data>
   <data name="RestoreRenamePopup" xml:space="preserve">
     <value>Herstel originele bestandsnamen</value>
@@ -32187,6 +32850,9 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   </data>
   <data name="ReviewsLabel" xml:space="preserve">
     <value>Reviews</value>
+  </data>
+  <data name="RevokeText" xml:space="preserve">
+    <value>Intrekken</value>
   </data>
   <data name="RootText" xml:space="preserve">
     <value>Wortel</value>
@@ -32219,6 +32885,12 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   </data>
   <data name="SaveSecretErrorIsReadOnly" xml:space="preserve">
     <value>Alleen gebruikers met een geldig abonnement kunnen hun ingevoerde wachtwoorden opslaan.</value>
+  </data>
+  <data name="SaveSettingsText" xml:space="preserve">
+    <value>Instellingen Opslaan</value>
+  </data>
+  <data name="SaveToGalleryText" xml:space="preserve">
+    <value>Opslaan in Galerij</value>
   </data>
   <data name="SaveTwentyPercentLabel" xml:space="preserve">
     <value>Bespaar 20%</value>
@@ -32256,6 +32928,9 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   <data name="SearchText" xml:space="preserve">
     <value>Zoeken</value>
   </data>
+  <data name="SeatsRolesKeyRevocationDescription" xml:space="preserve">
+    <value>Gebruikers, rollen, sleutelintrekking — direct.</value>
+  </data>
   <data name="SecretDeletedText" xml:space="preserve">
     <value>Uw geheim is verwijderd!</value>
   </data>
@@ -32285,6 +32960,9 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   </data>
   <data name="SecretsWarningIsSoonExpired" xml:space="preserve">
     <value>Uw Premium abonnement verloopt binnenkort op {0}. U zult uw Premium abonnement moeten verlegen om wachtwoord invoeren aan te passen en te creëren. U houdt altijd alleen-lezen toegang.</value>
+  </data>
+  <data name="SecureAccessFromAnyDeviceDescription" xml:space="preserve">
+    <value>Log één keer in en krijg vanaf elk apparaat en op elk moment veilig toegang tot uw versleutelde bestanden.</value>
   </data>
   <data name="SecureCloudFaq1" xml:space="preserve">
     <value>Waarom moet u uw cloudopslaggegevens beveiligen?</value>
@@ -32451,6 +33129,12 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   <data name="SecureDeleteDialogTitle" xml:space="preserve">
     <value>AxCrypt Beveiligd Verwijderen</value>
   </data>
+  <data name="SecureDeleteFilesText" xml:space="preserve">
+    <value>Bestanden Veilig Verwijderen</value>
+  </data>
+  <data name="SecureDeleteQuestion" xml:space="preserve">
+    <value>Wat is Veilig verwijderen?</value>
+  </data>
   <data name="SecureDeleteToolDescription" xml:space="preserve">
     <value>Wis bestanden permanent met meerpassige overschrijving. Maakt herstel onmogelijk, zelfs met forensische hulpmiddelen.</value>
   </data>
@@ -32603,6 +33287,12 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   </data>
   <data name="SecuredMessageParaStep9" xml:space="preserve">
     <value>U kunt eenvoudig een beveiligd bericht naar meerdere personen sturen door hun e-mailadressen toe te voegen in het veld &lt;strong&gt;'Aan'&lt;/strong&gt;, gescheiden door &lt;strong&gt;komma's.&lt;/strong&gt; Volg deze eenvoudige stappen:</value>
+  </data>
+  <data name="SecuredMessengerEncryptionDescription" xml:space="preserve">
+    <value>Ja. Alle berichten in Beveiligde Messenger gebruiken end-to-endversleuteling. De servers van AxCrypt sturen de versleutelde berichten door, maar kunnen ze niet lezen.</value>
+  </data>
+  <data name="SecuredMessengerEncryptionQuestion" xml:space="preserve">
+    <value>Is Beveiligde Messenger end-to-end versleuteld?</value>
   </data>
   <data name="SecuredMessengerErrorTitle" xml:space="preserve">
     <value>Fout in Beveiligde Messenger</value>
@@ -32757,11 +33447,17 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   <data name="SecureOrOpenEncryptedFilesDescription" xml:space="preserve">
     <value>Beveilig of open versleutelde bestanden vanaf elke schijf.</value>
   </data>
+  <data name="SecurePhotoVaultText" xml:space="preserve">
+    <value>Veilige Fotokluis</value>
+  </data>
   <data name="SecureThisFolderText" xml:space="preserve">
     <value>beveilig deze map</value>
   </data>
   <data name="SecureUserInvitesPopup" xml:space="preserve">
     <value>Veilige gebruikersuitnodigingen</value>
+  </data>
+  <data name="SecuringText" xml:space="preserve">
+    <value>Beveiligen...</value>
   </data>
   <data name="SecurityAlertsTitle" xml:space="preserve">
     <value>Beveiligingswaarschuwingen</value>
@@ -32996,8 +33692,20 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   <data name="SelectCountryLabel" xml:space="preserve">
     <value>Selecteer land</value>
   </data>
+  <data name="SelectedStorageLocationUnavailableText" xml:space="preserve">
+    <value>De geselecteerde opslaglocatie is niet beschikbaar.</value>
+  </data>
   <data name="SelectedSubFolderPathAlreadyExistText" xml:space="preserve">
     <value>De map {0} bestaat al, probeer het opnieuw met een andere mapnaam!</value>
+  </data>
+  <data name="SelectEncryptedFilesStorageLocationDescription" xml:space="preserve">
+    <value>Selecteer waar de versleutelde bestanden worden opgeslagen</value>
+  </data>
+  <data name="SelectFilesToPermanentlyDeleteDescription" xml:space="preserve">
+    <value>Selecteer bestanden om ze permanent te verwijderen, ongeacht het bestandstype.</value>
+  </data>
+  <data name="SelectFileToShareLocationDescription" xml:space="preserve">
+    <value>Selecteer waar het bestand te delen zich bevindt</value>
   </data>
   <data name="SelectFileToViewFileInfoText" xml:space="preserve">
     <value>Selecteer bestand om bestandsinformatie te bekijken</value>
@@ -33017,8 +33725,17 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   <data name="SelectItemToViewTitle" xml:space="preserve">
     <value>Selecteer een item om te bekijken</value>
   </data>
+  <data name="SelectLocationToEncryptFilesDescription" xml:space="preserve">
+    <value>Selecteer waar u de te versleutelen bestanden wilt zoeken</value>
+  </data>
   <data name="SelectOrAddItemDescription" xml:space="preserve">
     <value>Kies links een wachtwoord, kaart of notitie — of voeg een nieuwe toe.</value>
+  </data>
+  <data name="SelectSecuredFileLocationDescription" xml:space="preserve">
+    <value>Selecteer waar het beveiligde bestand zich bevindt</value>
+  </data>
+  <data name="SelectStorageLocationText" xml:space="preserve">
+    <value>Selecteer een opslaglocatie</value>
   </data>
   <data name="SelectYourBusinessLabel" xml:space="preserve">
     <value>Selecteer uw bedrijf</value>
@@ -33038,8 +33755,17 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   <data name="SendingCodeMessage" xml:space="preserve">
     <value>Code verzenden...</value>
   </data>
+  <data name="SendingMobileSignupCodeText" xml:space="preserve">
+    <value>Aanmeldingscode voor mobiel wordt verzonden</value>
+  </data>
   <data name="SendInvitation" xml:space="preserve">
     <value>Stuur uitnodiging</value>
+  </data>
+  <data name="SendKeyText" xml:space="preserve">
+    <value>Sleutel Verzenden</value>
+  </data>
+  <data name="SendMessageText" xml:space="preserve">
+    <value>Stuur Bericht</value>
   </data>
   <data name="SendSecuredMessageFailure" xml:space="preserve">
     <value>Kan het beveiligde bericht niet verzenden.</value>
@@ -33080,6 +33806,9 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   </data>
   <data name="SetFilePasswordText" xml:space="preserve">
     <value>Bestandswachtwoord Instellen</value>
+  </data>
+  <data name="SetPasswordBelowText" xml:space="preserve">
+    <value>Stel vervolgens hieronder uw wachtwoord in</value>
   </data>
   <data name="SetPasswordText" xml:space="preserve">
     <value>Stel een sterk wachtwoord in voor uw AxCrypt-ID of kies onze optie voor wachtwoordsuggestie.</value>
@@ -33185,6 +33914,9 @@ Overweeg '{0}' direct te informeren over AxCrypt bestandsbeveiliging.</value>
   <data name="ShareEncryptedFilesDescription" xml:space="preserve">
     <value>Deel versleutelde bestanden met vertrouwde ontvangers.</value>
   </data>
+  <data name="ShareEncryptedFilesDescription1" xml:space="preserve">
+    <value>Ja. Tik op het menu met de drie puntjes bij een versleuteld bestand en kies Sleutel delen. Voer vervolgens het e-mailadres van de ontvanger in dat bij AxCrypt is geregistreerd. De ontvanger kan het bestand ontsleutelen met het eigen AxCrypt-wachtwoord — u hoeft geen wachtwoord te delen.</value>
+  </data>
   <data name="ShareEncryptedTextAsLinkTooltipText" xml:space="preserve">
     <value>Deel versleutelde tekst via een link</value>
   </data>
@@ -33226,6 +33958,9 @@ Overweeg '{0}' direct te informeren over AxCrypt bestandsbeveiliging.</value>
   <data name="ShareKeyInformationText" xml:space="preserve">
     <value>Voeg ontvangers toe aan de lijst met mensen met wie u dit bestand wilt delen.</value>
   </data>
+  <data name="ShareKeysCouldNotBeUpdatedText" xml:space="preserve">
+    <value>De gedeelde sleutels konden niet worden bijgewerkt. Probeer het opnieuw.</value>
+  </data>
   <data name="ShareKeysFileOpenDialogTitle" xml:space="preserve">
     <value>Selecteer beveiligd bestand om te delen</value>
   </data>
@@ -33253,6 +33988,9 @@ Overweeg '{0}' direct te informeren over AxCrypt bestandsbeveiliging.</value>
   <data name="ShareNotifyMailBodyButton" xml:space="preserve">
     <value>Gedeelde inhoud bekijken</value>
   </data>
+  <data name="SharePublicKeyDescription" xml:space="preserve">
+    <value>Deel uw openbare sleutel zodat anderen bestanden voor u kunnen versleutelen.</value>
+  </data>
   <data name="SharePublicKeyWithOthersDescription" xml:space="preserve">
     <value>Deel uw openbare sleutel met anderen</value>
   </data>
@@ -33270,6 +34008,9 @@ Overweeg '{0}' direct te informeren over AxCrypt bestandsbeveiliging.</value>
   </data>
   <data name="ShareSecretSuccess" xml:space="preserve">
     <value>Wachtwoord succesvol gedeeld</value>
+  </data>
+  <data name="ShareStillEncryptedFileDescription" xml:space="preserve">
+    <value>Deel het nog steeds versleutelde .axx-bestand</value>
   </data>
   <data name="ShareTheSecurityTitle" xml:space="preserve">
     <value>Deel de beveiliging</value>
@@ -33399,6 +34140,9 @@ Overweeg '{0}' direct te informeren over AxCrypt bestandsbeveiliging.</value>
   <data name="SixMonthsPromtText" xml:space="preserve">
     <value>6 maanden</value>
   </data>
+  <data name="SkipText" xml:space="preserve">
+    <value>Overslaan</value>
+  </data>
   <data name="SMSText" xml:space="preserve">
     <value>SMS</value>
   </data>
@@ -33416,6 +34160,9 @@ Overweeg '{0}' direct te informeren over AxCrypt bestandsbeveiliging.</value>
   <data name="SoftwareUpdateNowLabel" xml:space="preserve">
     <value>Nu updaten!</value>
     <comment>A short label prompting the user to update AxCrypt now!</comment>
+  </data>
+  <data name="SoonText" xml:space="preserve">
+    <value>Binnenkort</value>
   </data>
   <data name="SorryText" xml:space="preserve">
     <value>Sorry,</value>
@@ -33469,6 +34216,12 @@ Ga naar de startpagina en klik &lt;a href="{1}"&gt;hier&lt;/a&gt; .</value>
   </data>
   <data name="StartFreeTrialBusinessButton" xml:space="preserve">
     <value>Start gratis proefperiode — Zakelijk</value>
+  </data>
+  <data name="StartFreeTrialBusinessText" xml:space="preserve">
+    <value>Start gratis proefperiode - Zakelijk</value>
+  </data>
+  <data name="StartFreeTrialDescription" xml:space="preserve">
+    <value>Start uw &lt;b&gt;gratis proefperiode&lt;/b&gt; en ontgrendel versleuteling en veilig bestanden delen met AxCrypt.</value>
   </data>
   <data name="StartFreeTrialPersonalButton" xml:space="preserve">
     <value>Start gratis proefperiode — Persoonlijk</value>
@@ -33525,6 +34278,15 @@ Ga naar de startpagina en klik &lt;a href="{1}"&gt;hier&lt;/a&gt; .</value>
   </data>
   <data name="StopSecuringToolTipText" xml:space="preserve">
     <value>Klik om bestanden te selecteren die u niet meer wilt beveiligen.</value>
+  </data>
+  <data name="StripCameraExifDataDescription" xml:space="preserve">
+    <value>Verwijder EXIF-gegevens over merk, model en lens.</value>
+  </data>
+  <data name="StripDeviceSoftwareIdentifiersDescription" xml:space="preserve">
+    <value>Verwijder apparaat- en software-identificatoren</value>
+  </data>
+  <data name="StripLocationDataOnImportDescription" xml:space="preserve">
+    <value>Verwijder locatiegegevens bij het importeren.</value>
   </data>
   <data name="StrongEncryptionDescription" xml:space="preserve">
     <value>Open AxCrypt bestanden op uw telefoon</value>
@@ -33678,6 +34440,12 @@ Ga naar de startpagina en klik &lt;a href="{1}"&gt;hier&lt;/a&gt; .</value>
   </data>
   <data name="SubscriptionDiscountDisplayText" xml:space="preserve">
     <value>Bespaar {0}%</value>
+  </data>
+  <data name="SubscriptionExpirationDescription" xml:space="preserve">
+    <value>U gaat terug naar het gratis abonnement. U wordt nooit de toegang tot uw bestaande bestanden ontzegd. Op Windows worden bestanden opnieuw versleuteld met AES-128 in plaats van AES-256. Op macOS en mobiele apparaten kunt u bestanden ontsleutelen en bekijken, maar u kunt geen nieuwe bestanden versleutelen totdat u uw abonnement verlengt.</value>
+  </data>
+  <data name="SubscriptionExpirationQuestion" xml:space="preserve">
+    <value>Wat gebeurt er als mijn abonnement verloopt?</value>
   </data>
   <data name="SubscriptionExpiredNotifyEventText" xml:space="preserve">
     <value>Jouw AxCrypt Premium abonnement is verlopen.</value>
@@ -33833,6 +34601,9 @@ Ga naar de startpagina en klik &lt;a href="{1}"&gt;hier&lt;/a&gt; .</value>
   </data>
   <data name="SystemFolderForbiddenText" xml:space="preserve">
     <value>De systeemmap '{0}' kan niet worden beveiligd.</value>
+  </data>
+  <data name="TakePhotoText" xml:space="preserve">
+    <value>Maak een Foto</value>
   </data>
   <data name="TakingAWhileMessage" xml:space="preserve">
     <value>Duurt het lang?</value>
@@ -34168,6 +34939,9 @@ Ga naar de startpagina en klik &lt;a href="{1}"&gt;hier&lt;/a&gt; .</value>
   <data name="TermsOfUsePwdmngrText3" xml:space="preserve">
     <value>Als het abonnement op de wachtwoordmanager is verlopen, wordt je naar Free of Viewer teruggezet.</value>
   </data>
+  <data name="TextAndContentText" xml:space="preserve">
+    <value>Tekst &amp; Inhoud</value>
+  </data>
   <data name="TextCheckEmailAndSpam" xml:space="preserve">
     <value>Check email en spam</value>
   </data>
@@ -34176,6 +34950,9 @@ Ga naar de startpagina en klik &lt;a href="{1}"&gt;hier&lt;/a&gt; .</value>
   </data>
   <data name="TextEncryptionAdvancedProtectionFeatures" xml:space="preserve">
     <value>Versleutel uw tekst veilig met geavanceerde beveiligingsfuncties.</value>
+  </data>
+  <data name="TextEncryptionDescription" xml:space="preserve">
+    <value>Versleutel en ontsleutel tekstberichten of notities.</value>
   </data>
   <data name="TextEncryptionEmailBodyText" xml:space="preserve">
     <value>Deze tekst is versleuteld — gebruik AxCrypt om het oorspronkelijke bericht te bekijken.</value>
@@ -34380,6 +35157,9 @@ Ga naar de startpagina en klik &lt;a href="{1}"&gt;hier&lt;/a&gt; .</value>
   </data>
   <data name="ThanksChoosingAxCryptTitle" xml:space="preserve">
     <value>Bedankt voor het kiezen voor AxCrypt!</value>
+  </data>
+  <data name="ThisDeviceText" xml:space="preserve">
+    <value>Dit Apparaat</value>
   </data>
   <data name="TipsTitle" xml:space="preserve">
     <value>Tips</value>
@@ -34678,6 +35458,9 @@ Het AxCrypt Team</value>
   <data name="UnableAddSecuredFolderText" xml:space="preserve">
     <value>Kan de beveiligde map of een submap niet als Vault toevoegen</value>
   </data>
+  <data name="UnableToPreviewPhotoText" xml:space="preserve">
+    <value>Kan geen voorbeeld van deze foto weergeven.</value>
+  </data>
   <data name="UnableToRemoveActiveProfileText" xml:space="preserve">
     <value>Kan dit opgeslagen profiel niet verwijderen. Het actieve profiel kan niet worden verwijderd</value>
   </data>
@@ -34700,11 +35483,17 @@ Het AxCrypt Team</value>
   <data name="UnlimitedAes256EncryptionMessage" xml:space="preserve">
     <value>Onbeperkte AES-256-versleuteling</value>
   </data>
+  <data name="UnlimitedFileEncryptionDescription" xml:space="preserve">
+    <value>Geen limiet van 3 bestanden — versleutel zoveel bestanden als u nodig hebt.</value>
+  </data>
   <data name="UnlimitedKeySharingMessage" xml:space="preserve">
     <value>Sleutels delen (onbeperkt)</value>
   </data>
   <data name="UnlimitedPasswordEntriesFeature" xml:space="preserve">
     <value>Onbeperkt aantal wachtwoordvermeldingen</value>
+  </data>
+  <data name="UnlimitedSavedPasswordsText" xml:space="preserve">
+    <value>Onbeperkt opgeslagen wachtwoorden</value>
   </data>
   <data name="UnlimitedSecuredMessages" xml:space="preserve">
     <value>Onbeperkt aantal beveiligde berichten</value>
@@ -34758,6 +35547,12 @@ Het AxCrypt Team</value>
   </data>
   <data name="UnlockText" xml:space="preserve">
     <value>Ontgrendel</value>
+  </data>
+  <data name="UnlockUnlimitedEncryptionText" xml:space="preserve">
+    <value>Ontgrendel onbeperkte versleuteling</value>
+  </data>
+  <data name="UnlockWithBiometricsText" xml:space="preserve">
+    <value>Ontgrendel met Face ID of vingerafdruk</value>
   </data>
   <data name="UnReadText" xml:space="preserve">
     <value>Ongelezen</value>
@@ -35068,6 +35863,9 @@ Het AxCrypt Team</value>
     <value>gebruiken</value>
   </data>
   <data name="ValidEmailAddressRequiredText" xml:space="preserve">
+    <value>Voer een geldig e-mailadres in.</value>
+  </data>
+  <data name="ValidEmailAddressRequiredText1" xml:space="preserve">
     <value>Voer een geldig e-mailadres in.</value>
   </data>
   <data name="ValidEmailAddressText" xml:space="preserve">
@@ -35517,6 +36315,9 @@ Voer de eenmalige toegangscode (OTP) in het authenticatievenster in om uw AxCryp
   <data name="ViewSourceOnGitHubText" xml:space="preserve">
     <value>Broncode bekijken op GitHub</value>
   </data>
+  <data name="ViewUserActivityLogDescription" xml:space="preserve">
+    <value>Bekijk het activiteitenlogboek van dit account.</value>
+  </data>
   <data name="VisibilityText" xml:space="preserve">
     <value>Zichtbaarheid:</value>
   </data>
@@ -35957,6 +36758,9 @@ creëer een compleet lokale kopie van de bundel in de directory. Installeren is 
   <data name="YourEmailText" xml:space="preserve">
     <value>Uw e-mail</value>
   </data>
+  <data name="YourEncryptedLibraryText" xml:space="preserve">
+    <value>Uw versleutelde bibliotheek</value>
+  </data>
   <data name="YourFilesText" xml:space="preserve">
     <value>Uw bestanden.</value>
   </data>
@@ -35974,6 +36778,9 @@ creëer een compleet lokale kopie van de bundel in de directory. Installeren is 
   </data>
   <data name="YourSecurityMattersText1" xml:space="preserve">
     <value>Wij geven prioriteit aan uw privacy. Alle feedback en gegevens tijdens deze bètatest worden veilig en vertrouwelijk behandeld.</value>
+  </data>
+  <data name="YourVaultText" xml:space="preserve">
+    <value>Uw Kluis</value>
   </data>
   <data name="ZeroKnowledgeEncryptionDescription" xml:space="preserve">
     <value>Zero-knowledge-versleuteling. &lt;b&gt;Alleen u heeft controle over uw bestanden.&lt;/b&gt;</value>
