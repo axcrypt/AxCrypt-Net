@@ -948,9 +948,6 @@ Choose something difficult to guess, since it will protect passwords in the onli
   <data name="AlreadySharedWithText" xml:space="preserve">
     <value>Already shared with</value>
   </data>
-  <data name="AlreadySharedWithText" xml:space="preserve">
-    <value>Already shared with</value>
-  </data>
   <data name="AlreadySubscribedText" xml:space="preserve">
     <value>Already subscribed? Restore your plan</value>
   </data>
@@ -1116,9 +1113,6 @@ Updates to the subscription will be reflected here within a few minutes.</value>
   </data>
   <data name="AsGreatResellerHeading" xml:space="preserve">
     <value>You&apos;d be a &lt;span&gt;great Reseller&lt;/span&gt; if you:</value>
-  </data>
-  <data name="AskBeforeSharingMetadataText" xml:space="preserve">
-    <value>Ask Before Sharing Metadata</value>
   </data>
   <data name="AskBeforeSharingMetadataText" xml:space="preserve">
     <value>Ask Before Sharing Metadata</value>
@@ -18941,9 +18935,6 @@ You must complete these steps to complete the process.</value>
   <data name="CheckForNewPhotosText" xml:space="preserve">
     <value>Check for New Photos</value>
   </data>
-  <data name="CheckForNewPhotosText" xml:space="preserve">
-    <value>Check for New Photos</value>
-  </data>
   <data name="CheckForUpdateMenuText" xml:space="preserve">
     <value>Check for Update</value>
   </data>
@@ -20060,9 +20051,6 @@ If you do not accept our temporary session cookies you cannot sign in and the si
   </data>
   <data name="DefaultSecureFolderToolTip" xml:space="preserve">
     <value>Click to open a file from the default secure folder.</value>
-  </data>
-  <data name="DefaultShareModeText" xml:space="preserve">
-    <value>Default Share Mode</value>
   </data>
   <data name="DefaultShareModeText" xml:space="preserve">
     <value>Default Share Mode</value>
@@ -25340,12 +25328,6 @@ please see the AxCrypt Privacy Policy.</value>
   <data name="ICloudDriveText" xml:space="preserve">
     <value>iCloud Drive</value>
   </data>
-  <data name="ICloudDriveFilesText" xml:space="preserve">
-    <value>iCloud Drive files</value>
-  </data>
-  <data name="ICloudDriveText" xml:space="preserve">
-    <value>iCloud Drive</value>
-  </data>
   <data name="IdentityEntriesNotSupportedText" xml:space="preserve">
     <value>Identity entries are not supported by the Password Manager service yet.</value>
   </data>
@@ -25371,9 +25353,6 @@ If you want to view or update the file contents, please decrypt it separately, a
   </data>
   <data name="ImportContactPublicKeyDescription" xml:space="preserve">
     <value>Import a contact&apos;s public key</value>
-  </data>
-  <data name="ImportGalleryOrTakePhotoDescription" xml:space="preserve">
-    <value>Import from your gallery or take a photo</value>
   </data>
   <data name="ImportGalleryOrTakePhotoDescription" xml:space="preserve">
     <value>Import from your gallery or take a photo</value>
@@ -25454,9 +25433,6 @@ This may cause some operations to take very long time. Please be careful not to 
   </data>
   <data name="InconsistentState" xml:space="preserve">
     <value>Inconsistent state with &apos;{0}&apos;.</value>
-  </data>
-  <data name="IncorrectPasswordRetryText" xml:space="preserve">
-    <value>Incorrect password — please try again.</value>
   </data>
   <data name="IncorrectPasswordRetryText" xml:space="preserve">
     <value>Incorrect password — please try again.</value>
@@ -25923,9 +25899,6 @@ EU VAT Number SE556967618101</value>
   </data>
   <data name="ItalianLanguageSelection" xml:space="preserve">
     <value>Italiano (Italian)</value>
-  </data>
-  <data name="ItemsText" xml:space="preserve">
-    <value>ITEMS</value>
   </data>
   <data name="ItemsText" xml:space="preserve">
     <value>ITEMS</value>
@@ -27121,9 +27094,6 @@ Enable automatic conversion of AxCrypt 1.x files (recommended)?</value>
   </data>
   <data name="MaxUsersCountText" xml:space="preserve">
     <value>You can&apos;t add more users than the maximum allowed({0})</value>
-  </data>
-  <data name="MaybeLaterText" xml:space="preserve">
-    <value>Maybe later</value>
   </data>
   <data name="MaybeLaterText" xml:space="preserve">
     <value>Maybe later</value>
@@ -29442,9 +29412,6 @@ an any multifactor type(Authenticator app, Email and SMS).</value>
 You&apos;re signed in, so we won&apos;t ask for your password to encrypt, decrypt or open documents.
 
 Your documents are still safely encrypted with your password.</value>
-  </data>
-  <data name="NoPhotosYetText" xml:space="preserve">
-    <value>No photos yet.</value>
   </data>
   <data name="NoPhotosYetText" xml:space="preserve">
     <value>No photos yet.</value>
@@ -34385,9 +34352,6 @@ Please consider informing &apos;{0}&apos; directly about AxCrypt file security.<
   <data name="SoonText" xml:space="preserve">
     <value>Soon</value>
   </data>
-  <data name="SoonText" xml:space="preserve">
-    <value>Soon</value>
-  </data>
   <data name="SorryText" xml:space="preserve">
     <value>Sorry,</value>
   </data>
@@ -34822,9 +34786,6 @@ Please visit our &lt;a href=&quot;{0}&quot;&gt;community support&lt;/a&gt;.</val
   </data>
   <data name="SystemFolderForbiddenText" xml:space="preserve">
     <value>The system folder &apos;{0}&apos; cannot be secured.</value>
-  </data>
-  <data name="TakePhotoText" xml:space="preserve">
-    <value>Take Photo</value>
   </data>
   <data name="TakePhotoText" xml:space="preserve">
     <value>Take Photo</value>

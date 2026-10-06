@@ -33151,6 +33151,9 @@ Asunto: Reporte resumido de AxCrypt</value>
   <data name="SearchText" xml:space="preserve">
     <value>Buscar</value>
   </data>
+  <data name="SeatsRolesKeyRevocationDescription" xml:space="preserve">
+    <value></value>
+  </data>
   <data name="SecAnotherEmailText" xml:space="preserve">
     <value>Otro correo electrónico</value>
   </data>
@@ -33198,6 +33201,9 @@ Asunto: Reporte resumido de AxCrypt</value>
   </data>
   <data name="SecTwoFacAuthenConText3" xml:space="preserve">
     <value>Usa tu teléfono móvil para recibir el código de seguridad</value>
+  </data>
+  <data name="SecureAccessFromAnyDeviceDescription" xml:space="preserve">
+    <value></value>
   </data>
   <data name="SecureCloudFaq1" xml:space="preserve">
     <value>¿Por qué tienes que proteger tus datos almacenados en la nube?</value>

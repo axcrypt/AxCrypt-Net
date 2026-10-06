@@ -33145,6 +33145,9 @@ Natürlich wird Ihnen keine Lizenz zugewiesen.</value>
   <data name="SearchText" xml:space="preserve">
     <value>Suchen</value>
   </data>
+  <data name="SeatsRolesKeyRevocationDescription" xml:space="preserve">
+    <value>Sitze, Rollen, Schlüsselentzug – sofort.</value>
+  </data>
   <data name="SecAnotherEmailText" xml:space="preserve">
     <value>Eine weitere E-Mail</value>
   </data>
@@ -33192,6 +33195,9 @@ Natürlich wird Ihnen keine Lizenz zugewiesen.</value>
   </data>
   <data name="SecTwoFacAuthenConText3" xml:space="preserve">
     <value>Verwenden Sie Ihr Mobiltelefon, um den Sicherheitscode zu erhalten</value>
+  </data>
+  <data name="SecureAccessFromAnyDeviceDescription" xml:space="preserve">
+    <value>Melden Sie sich einmal an und greifen Sie jederzeit von jedem Gerät aus sicher auf Ihre verschlüsselten Dateien zu.</value>
   </data>
   <data name="SecureCloudFaq1" xml:space="preserve">
     <value>Warum müssen Sie Ihre Cloud-Speicherdaten sichern?</value>

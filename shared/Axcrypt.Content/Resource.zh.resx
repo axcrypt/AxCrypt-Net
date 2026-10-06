@@ -35143,6 +35143,9 @@ HubSpot 是一个集成的软件解决方案，我们通过它实现在线营销
   <data name="SearchText" xml:space="preserve">
     <value>搜索</value>
   </data>
+  <data name="SeatsRolesKeyRevocationDescription" xml:space="preserve">
+    <value></value>
+  </data>
   <data name="SecAnotherEmailText" xml:space="preserve">
     <value>另一封电子邮件</value>
   </data>
@@ -35190,6 +35193,9 @@ HubSpot 是一个集成的软件解决方案，我们通过它实现在线营销
   </data>
   <data name="SecTwoFacAuthenConText3" xml:space="preserve">
     <value>使用手机接收安全码</value>
+  </data>
+  <data name="SecureAccessFromAnyDeviceDescription" xml:space="preserve">
+    <value></value>
   </data>
   <data name="SecureCloudFaq1" xml:space="preserve">
     <value>为什么您必须保护存储在云端的数据？</value>
