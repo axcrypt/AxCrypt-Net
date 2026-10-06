@@ -33535,6 +33535,9 @@ Konu: AxCrypt Report Snapshot</value>
   <data name="SearchText" xml:space="preserve">
     <value>Arama</value>
   </data>
+  <data name="SeatsRolesKeyRevocationDescription" xml:space="preserve">
+    <value>Sandalyeler, roller, anahtarın iptal edilmesi — anında.</value>
+  </data>
   <data name="SecAnotherEmailText" xml:space="preserve">
     <value>!!Another Email</value>
   </data>
@@ -33582,6 +33585,9 @@ Konu: AxCrypt Report Snapshot</value>
   </data>
   <data name="SecTwoFacAuthenConText3" xml:space="preserve">
     <value>!!Use your mobile phone to recieve security code</value>
+  </data>
+  <data name="SecureAccessFromAnyDeviceDescription" xml:space="preserve">
+    <value>Bir kez giriş yapın ve şifreli dosyalarınıza istediğiniz zaman, herhangi bir cihazdan güvenli şekilde erişin.</value>
   </data>
   <data name="SecureCloudFaq1" xml:space="preserve">
     <value>Neden bulut depolama verilerinizi güvence altına almalısınız?</value>

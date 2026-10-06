@@ -33271,6 +33271,9 @@ Oggetto: Rapporto Istantaneo AxCrypt </value>
   <data name="SearchText" xml:space="preserve">
     <value>Ricerca</value>
   </data>
+  <data name="SeatsRolesKeyRevocationDescription" xml:space="preserve">
+    <value>Seggi, ruoli, revoca delle chiavi — istantaneamente.</value>
+  </data>
   <data name="SecAnotherEmailText" xml:space="preserve">
     <value>Un&apos;altra email</value>
   </data>
@@ -33318,6 +33321,9 @@ Oggetto: Rapporto Istantaneo AxCrypt </value>
   </data>
   <data name="SecTwoFacAuthenConText3" xml:space="preserve">
     <value>Usa il tuo cellulare per ricevere il codice di sicurezza</value>
+  </data>
+  <data name="SecureAccessFromAnyDeviceDescription" xml:space="preserve">
+    <value>Accedi una volta e accedi in modo sicuro ai tuoi file criptati da qualsiasi dispositivo, in qualsiasi momento.</value>
   </data>
   <data name="SecureCloudFaq1" xml:space="preserve">
     <value>Perché è importante proteggere i dati archiviati nel cloud?</value>
