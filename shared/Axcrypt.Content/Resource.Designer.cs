@@ -1867,6 +1867,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Add recipients.
+        /// </summary>
+        public static string AddRecipientsText {
+            get {
+                return ResourceManager.GetString("AddRecipientsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Address.
         /// </summary>
         public static string AddressLabel {
@@ -2034,6 +2043,33 @@ namespace AxCrypt.Content {
         public static string AdvancedSettingsText {
             get {
                 return ResourceManager.GetString("AdvancedSettingsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to AES-256 File Encryption.
+        /// </summary>
+        public static string AES256FileEncryptionText {
+            get {
+                return ResourceManager.GetString("AES256FileEncryptionText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to AES-256 military-grade protection keeps your sensitive files safe from unauthorised access..
+        /// </summary>
+        public static string AES256MilitaryGradeProtectionDescription {
+            get {
+                return ResourceManager.GetString("AES256MilitaryGradeProtectionDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to AES-256 encryption — zero-knowledge.
+        /// </summary>
+        public static string AES256ZeroKnowledgeEncryptionText {
+            get {
+                return ResourceManager.GetString("AES256ZeroKnowledgeEncryptionText", resourceCulture);
             }
         }
         
@@ -2362,6 +2398,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to An album or folder named &apos;{0}&apos; already exists..
+        /// </summary>
+        public static string AlbumOrFolderAlreadyExistsText {
+            get {
+                return ResourceManager.GetString("AlbumOrFolderAlreadyExistsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Alerts and push settings.
         /// </summary>
         public static string AlertsAndPushSettingsText {
@@ -2484,6 +2529,15 @@ namespace AxCrypt.Content {
         public static string AlreadyRegisteredLink {
             get {
                 return ResourceManager.GetString("AlreadyRegisteredLink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Already shared with.
+        /// </summary>
+        public static string AlreadySharedWithText {
+            get {
+                return ResourceManager.GetString("AlreadySharedWithText", resourceCulture);
             }
         }
         
@@ -2720,6 +2774,15 @@ namespace AxCrypt.Content {
         public static string AppDisplayLanguageText {
             get {
                 return ResourceManager.GetString("AppDisplayLanguageText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Apple account.
+        /// </summary>
+        public static string AppleAccountText {
+            get {
+                return ResourceManager.GetString("AppleAccountText", resourceCulture);
             }
         }
         
@@ -2969,6 +3032,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ask Before Sharing Metadata.
+        /// </summary>
+        public static string AskBeforeSharingMetadataText {
+            get {
+                return ResourceManager.GetString("AskBeforeSharingMetadataText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;span&gt;As a&lt;/span&gt; Reseller.
         /// </summary>
         public static string AsResellerHeading {
@@ -2987,11 +3059,29 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Every encrypt, share, access — timestamped..
+        /// </summary>
+        public static string AuditLogActivityDescription {
+            get {
+                return ResourceManager.GetString("AuditLogActivityDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Audit log &amp; every action.
         /// </summary>
         public static string AuditLogAndEveryActionMessage {
             get {
                 return ResourceManager.GetString("AuditLogAndEveryActionMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Audit log.
+        /// </summary>
+        public static string AuditLogText {
+            get {
+                return ResourceManager.GetString("AuditLogText", resourceCulture);
             }
         }
         
@@ -3118,6 +3208,15 @@ namespace AxCrypt.Content {
         public static string AutolockOnInactivityPopup {
             get {
                 return ResourceManager.GetString("AutolockOnInactivityPopup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Auto-lock when the app is idle.
+        /// </summary>
+        public static string AutoLockWhenIdleDescription {
+            get {
+                return ResourceManager.GetString("AutoLockWhenIdleDescription", resourceCulture);
             }
         }
         
@@ -6481,6 +6580,15 @@ namespace AxCrypt.Content {
         public static string BillingHistoryTitle {
             get {
                 return ResourceManager.GetString("BillingHistoryTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Biometric authentication failed. Please enter your password..
+        /// </summary>
+        public static string BiometricAuthenticationFailedDescription {
+            get {
+                return ResourceManager.GetString("BiometricAuthenticationFailedDescription", resourceCulture);
             }
         }
         
@@ -51922,6 +52030,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bring AxCrypt Business back.
+        /// </summary>
+        public static string BringAxCryptBusinessBackText {
+            get {
+                return ResourceManager.GetString("BringAxCryptBusinessBackText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Browse and manage files in your {0} account..
         /// </summary>
         public static string BrowseAndManageFilesDescription {
@@ -54699,6 +54816,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Change Folder.
+        /// </summary>
+        public static string ChangeFolderText {
+            get {
+                return ResourceManager.GetString("ChangeFolderText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Your notification preferences have been changed..
         /// </summary>
         public static string ChangeNotificationSettingsSuccess {
@@ -54771,6 +54897,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Check for New Photos.
+        /// </summary>
+        public static string CheckForNewPhotosText {
+            get {
+                return ResourceManager.GetString("CheckForNewPhotosText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Check for Update.
         /// </summary>
         public static string CheckForUpdateMenuText {
@@ -54794,6 +54929,15 @@ namespace AxCrypt.Content {
         public static string CheckForUpdatesText {
             get {
                 return ResourceManager.GetString("CheckForUpdatesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Checking....
+        /// </summary>
+        public static string CheckingText {
+            get {
+                return ResourceManager.GetString("CheckingText", resourceCulture);
             }
         }
         
@@ -54839,6 +54983,24 @@ namespace AxCrypt.Content {
         public static string ChooseAccountToContinueText {
             get {
                 return ResourceManager.GetString("ChooseAccountToContinueText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose a folder to store your encrypted photos before you begin.This keeps your photos safe even if the app is ever reinstalled.
+        /// </summary>
+        public static string ChooseEncryptedPhotoFolderDescription {
+            get {
+                return ResourceManager.GetString("ChooseEncryptedPhotoFolderDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose Location.
+        /// </summary>
+        public static string ChooseLocationText {
+            get {
+                return ResourceManager.GetString("ChooseLocationText", resourceCulture);
             }
         }
         
@@ -54893,6 +55055,15 @@ namespace AxCrypt.Content {
         public static string CityLabel {
             get {
                 return ResourceManager.GetString("CityLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clean Copy.
+        /// </summary>
+        public static string CleanCopyText {
+            get {
+                return ResourceManager.GetString("CleanCopyText", resourceCulture);
             }
         }
         
@@ -55248,11 +55419,29 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to (Google Drive, OneDrive, Dropbox).
+        /// </summary>
+        public static string CloudStorageProvidersText {
+            get {
+                return ResourceManager.GetString("CloudStorageProvidersText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cloud sync (Google Drive, Dropbox…).
         /// </summary>
         public static string CloudSyncProvidersText {
             get {
                 return ResourceManager.GetString("CloudSyncProvidersText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Collaboration.
+        /// </summary>
+        public static string CollaborationText {
+            get {
+                return ResourceManager.GetString("CollaborationText", resourceCulture);
             }
         }
         
@@ -56076,6 +56265,24 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Compliance-ready.
+        /// </summary>
+        public static string ComplianceReadyText {
+            get {
+                return ResourceManager.GetString("ComplianceReadyText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to HIPAA, GDPR, NIS 2 — audit-grade AES-256..
+        /// </summary>
+        public static string ComplianceStandardsDescription {
+            get {
+                return ResourceManager.GetString("ComplianceStandardsDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to HIPAA / GDPR / NIS 2.
         /// </summary>
         public static string ComplianceStandardsMessage {
@@ -56139,6 +56346,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Confirm each time metadata would leave the vault.
+        /// </summary>
+        public static string ConfirmMetadataSharingDescription {
+            get {
+                return ResourceManager.GetString("ConfirmMetadataSharingDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Confirm new email.
         /// </summary>
         public static string ConfirmNewEmailText {
@@ -56162,6 +56378,15 @@ namespace AxCrypt.Content {
         public static string ConfirmPasswordLabel {
             get {
                 return ResourceManager.GetString("ConfirmPasswordLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to For your security, please confirm your sign-in password to continue..
+        /// </summary>
+        public static string ConfirmSignInPasswordDescription {
+            get {
+                return ResourceManager.GetString("ConfirmSignInPasswordDescription", resourceCulture);
             }
         }
         
@@ -57997,11 +58222,29 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Used when sharing photos from the vault.
+        /// </summary>
+        public static string DefaultPhotoShareModeDescription {
+            get {
+                return ResourceManager.GetString("DefaultPhotoShareModeDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Click to open a file from the default secure folder..
         /// </summary>
         public static string DefaultSecureFolderToolTip {
             get {
                 return ResourceManager.GetString("DefaultSecureFolderToolTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default Share Mode.
+        /// </summary>
+        public static string DefaultShareModeText {
+            get {
+                return ResourceManager.GetString("DefaultShareModeText", resourceCulture);
             }
         }
         
@@ -59790,6 +60033,24 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dropbox account.
+        /// </summary>
+        public static string DropboxAccountText {
+            get {
+                return ResourceManager.GetString("DropboxAccountText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dropbox files.
+        /// </summary>
+        public static string DropboxFilesText {
+            get {
+                return ResourceManager.GetString("DropboxFilesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Your Drop Box session has expired or is no longer valid. Please sign in to your Drop Box account again.
         /// </summary>
         public static string DropboxSessionExpiredText {
@@ -60236,6 +60497,15 @@ namespace AxCrypt.Content {
         public static string EncryptandDecryptLinkLable {
             get {
                 return ResourceManager.GetString("EncryptandDecryptLinkLable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Encrypt and secure your files in seconds.
+        /// </summary>
+        public static string EncryptAndSecureFilesQuicklyText {
+            get {
+                return ResourceManager.GetString("EncryptAndSecureFilesQuicklyText", resourceCulture);
             }
         }
         
@@ -60924,6 +61194,33 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Send encrypted files to colleagues with one tap..
+        /// </summary>
+        public static string EncryptedFileSharingDescription {
+            get {
+                return ResourceManager.GetString("EncryptedFileSharingDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Encrypted Files Not Added.
+        /// </summary>
+        public static string EncryptedFilesNotAddedText {
+            get {
+                return ResourceManager.GetString("EncryptedFilesNotAddedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} encrypted file(s) could not be recognized or added and were left unchanged..
+        /// </summary>
+        public static string EncryptedFilesNotRecognizedDescription {
+            get {
+                return ResourceManager.GetString("EncryptedFilesNotRecognizedDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Secured Folders.
         /// </summary>
         public static string EncryptedFoldersToolStripMenuItemText {
@@ -60956,6 +61253,15 @@ namespace AxCrypt.Content {
         public static string EncryptedPathColumnHeaderText {
             get {
                 return ResourceManager.GetString("EncryptedPathColumnHeaderText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Photos and videos here are AES-256 encrypted and never leave the vault unencrypted..
+        /// </summary>
+        public static string EncryptedPhotoLibraryDescription {
+            get {
+                return ResourceManager.GetString("EncryptedPhotoLibraryDescription", resourceCulture);
             }
         }
         
@@ -61131,6 +61437,24 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Encrypt private photos and videos.
+        /// </summary>
+        public static string EncryptPrivatePhotosAndVideosText {
+            get {
+                return ResourceManager.GetString("EncryptPrivatePhotosAndVideosText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Encrypt every file, share keys, and keep your secrets in sync across every device..
+        /// </summary>
+        public static string EncryptShareSyncAcrossDevicesDescription {
+            get {
+                return ResourceManager.GetString("EncryptShareSyncAcrossDevicesDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Click to select files to secure..
         /// </summary>
         public static string EncryptToolStripButtonToolTipText {
@@ -61280,6 +61604,15 @@ namespace AxCrypt.Content {
         public static string EnterPasswordToDecryptFileMessage {
             get {
                 return ResourceManager.GetString("EnterPasswordToDecryptFileMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter your password to open this file..
+        /// </summary>
+        public static string EnterPasswordToOpenFileText {
+            get {
+                return ResourceManager.GetString("EnterPasswordToOpenFileText", resourceCulture);
             }
         }
         
@@ -67242,11 +67575,29 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Files on this device.
+        /// </summary>
+        public static string FilesOnThisDeviceText {
+            get {
+                return ResourceManager.GetString("FilesOnThisDeviceText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Your files are secure and protected..
         /// </summary>
         public static string FilesSecureAndProtectedText {
             get {
                 return ResourceManager.GetString("FilesSecureAndProtectedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Files stay in sync across every signed-in device..
+        /// </summary>
+        public static string FileSyncAcrossDevicesDescription {
+            get {
+                return ResourceManager.GetString("FileSyncAcrossDevicesDescription", resourceCulture);
             }
         }
         
@@ -67836,6 +68187,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to For your whole team.
+        /// </summary>
+        public static string ForYourWholeTeamText {
+            get {
+                return ResourceManager.GetString("ForYourWholeTeamText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Found a better alternative.
         /// </summary>
         public static string FoundBetterAlternativeText {
@@ -67850,6 +68210,15 @@ namespace AxCrypt.Content {
         public static string FoundBetterDealText {
             get {
                 return ResourceManager.GetString("FoundBetterDealText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 14-day free trial · No credit card required · Cancel anytime.
+        /// </summary>
+        public static string FourteenDayFreeTrialCancelAnytimeText {
+            get {
+                return ResourceManager.GetString("FourteenDayFreeTrialCancelAnytimeText", resourceCulture);
             }
         }
         
@@ -70227,6 +70596,24 @@ namespace AxCrypt.Content {
         public static string GettheLatestAxCryptText {
             get {
                 return ResourceManager.GetString("GettheLatestAxCryptText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Google account.
+        /// </summary>
+        public static string GoogleAccountText {
+            get {
+                return ResourceManager.GetString("GoogleAccountText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Google Drive files.
+        /// </summary>
+        public static string GoogleDriveFilesText {
+            get {
+                return ResourceManager.GetString("GoogleDriveFilesText", resourceCulture);
             }
         }
         
@@ -73647,6 +74034,24 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to iCloud Drive files.
+        /// </summary>
+        public static string ICloudDriveFilesText {
+            get {
+                return ResourceManager.GetString("ICloudDriveFilesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to iCloud Drive.
+        /// </summary>
+        public static string ICloudDriveText {
+            get {
+                return ResourceManager.GetString("ICloudDriveText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Identity entries are not supported by the Password Manager service yet..
         /// </summary>
         public static string IdentityEntriesNotSupportedText {
@@ -73717,6 +74122,15 @@ namespace AxCrypt.Content {
         public static string ImportContactPublicKeyDescription {
             get {
                 return ResourceManager.GetString("ImportContactPublicKeyDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Import from your gallery or take a photo.
+        /// </summary>
+        public static string ImportGalleryOrTakePhotoDescription {
+            get {
+                return ResourceManager.GetString("ImportGalleryOrTakePhotoDescription", resourceCulture);
             }
         }
         
@@ -73883,6 +74297,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Included with Premium.
+        /// </summary>
+        public static string IncludedWithPremiumText {
+            get {
+                return ResourceManager.GetString("IncludedWithPremiumText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Include Recovery Access.
         /// </summary>
         public static string IncludeRecoveryAccessText {
@@ -73935,6 +74358,15 @@ namespace AxCrypt.Content {
         public static string InconsistentState {
             get {
                 return ResourceManager.GetString("InconsistentState", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Incorrect password — please try again..
+        /// </summary>
+        public static string IncorrectPasswordRetryText {
+            get {
+                return ResourceManager.GetString("IncorrectPasswordRetryText", resourceCulture);
             }
         }
         
@@ -75027,6 +75459,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Invite others to access specific files without sharing your password or compromising security..
+        /// </summary>
+        public static string InviteOthersToAccessFilesDescription {
+            get {
+                return ResourceManager.GetString("InviteOthersToAccessFilesDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Invite recipient.
         /// </summary>
         public static string InviteRecipientText {
@@ -75289,6 +75730,15 @@ namespace AxCrypt.Content {
         public static string ItalianLanguageSelection {
             get {
                 return ResourceManager.GetString("ItalianLanguageSelection", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ITEMS.
+        /// </summary>
+        public static string ItemsText {
+            get {
+                return ResourceManager.GetString("ItemsText", resourceCulture);
             }
         }
         
@@ -77508,6 +77958,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Loading full resolution….
+        /// </summary>
+        public static string LoadingFullResolutionText {
+            get {
+                return ResourceManager.GetString("LoadingFullResolutionText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Loading plans....
         /// </summary>
         public static string LoadingPlansTexts {
@@ -77594,6 +78053,15 @@ namespace AxCrypt.Content {
         public static string LocationLabel {
             get {
                 return ResourceManager.GetString("LocationLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lock Vault After.
+        /// </summary>
+        public static string LockVaultAfterText {
+            get {
+                return ResourceManager.GetString("LockVaultAfterText", resourceCulture);
             }
         }
         
@@ -78809,6 +79277,15 @@ namespace AxCrypt.Content {
         public static string MaxUsersCountText {
             get {
                 return ResourceManager.GetString("MaxUsersCountText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Maybe later.
+        /// </summary>
+        public static string MaybeLaterText {
+            get {
+                return ResourceManager.GetString("MaybeLaterText", resourceCulture);
             }
         }
         
@@ -83596,6 +84073,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Metadata Removal.
+        /// </summary>
+        public static string MetadataRemovalText {
+            get {
+                return ResourceManager.GetString("MetadataRemovalText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Metadata retention.
         /// </summary>
         public static string MetadataRetentionLabel {
@@ -84400,6 +84886,24 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Microsoft account.
+        /// </summary>
+        public static string MicrosoftAccountText {
+            get {
+                return ResourceManager.GetString("MicrosoftAccountText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Microsoft OneDrive.
+        /// </summary>
+        public static string MicrosoftOneDriveText {
+            get {
+                return ResourceManager.GetString("MicrosoftOneDriveText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Migrate older encryption.
         /// </summary>
         public static string MigrateOlderEncryptionTitle {
@@ -84454,6 +84958,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Encrypt, decrypt, and manage your protected files right from your iOS or Android device..
+        /// </summary>
+        public static string MobileFileManagementDescription {
+            get {
+                return ResourceManager.GetString("MobileFileManagementDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mobile.
         /// </summary>
         public static string MobileLabel {
@@ -84495,6 +85008,15 @@ namespace AxCrypt.Content {
         public static string MobileOnboardingPasswordManagerDescription {
             get {
                 return ResourceManager.GetString("MobileOnboardingPasswordManagerDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mobile Ready.
+        /// </summary>
+        public static string MobileReadyText {
+            get {
+                return ResourceManager.GetString("MobileReadyText", resourceCulture);
             }
         }
         
@@ -85610,6 +86132,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to No photos yet..
+        /// </summary>
+        public static string NoPhotosYetText {
+            get {
+                return ResourceManager.GetString("NoPhotosYetText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to You do not have a valid subscription, so you are not using the highest level of security. Click to upgrade!.
         /// </summary>
         public static string NoPremiumWarning {
@@ -86125,6 +86656,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open &lt;strong&gt;AxCrypt files&lt;/strong&gt; on your phone..
+        /// </summary>
+        public static string OpenAxCryptFilesOnPhoneDescription {
+            get {
+                return ResourceManager.GetString("OpenAxCryptFilesOnPhoneDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Open &lt;span class=&quot;grn-clr&quot;&gt;AxCrypt files&lt;/span&gt; on your phone..
         /// </summary>
         public static string OpenAxCryptFilesText {
@@ -86170,6 +86710,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open from….
+        /// </summary>
+        public static string OpenFromText {
+            get {
+                return ResourceManager.GetString("OpenFromText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Open in Files.
         /// </summary>
         public static string OpenInFilesText {
@@ -86202,6 +86751,24 @@ namespace AxCrypt.Content {
         public static string OpenPasswordManagerKeyIconInstruction {
             get {
                 return ResourceManager.GetString("OpenPasswordManagerKeyIconInstruction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Secured File.
+        /// </summary>
+        public static string OpenSecuredFileText {
+            get {
+                return ResourceManager.GetString("OpenSecuredFileText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open encrpted files shared with you, for free.
+        /// </summary>
+        public static string OpenSharedEncryptedFilesForFreeDescription {
+            get {
+                return ResourceManager.GetString("OpenSharedEncryptedFilesForFreeDescription", resourceCulture);
             }
         }
         
@@ -86449,11 +87016,29 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Prevent data loss with org-wide recovery..
+        /// </summary>
+        public static string OrganizationWideRecoveryDescription {
+            get {
+                return ResourceManager.GetString("OrganizationWideRecoveryDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Org. number.
         /// </summary>
         public static string OrgNumberLabel {
             get {
                 return ResourceManager.GetString("OrgNumberLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Original Metadata.
+        /// </summary>
+        public static string OriginalMetadataText {
+            get {
+                return ResourceManager.GetString("OriginalMetadataText", resourceCulture);
             }
         }
         
@@ -87673,6 +88258,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to That password didn&apos;t match. Please try again..
+        /// </summary>
+        public static string PasswordMismatchRetryText {
+            get {
+                return ResourceManager.GetString("PasswordMismatchRetryText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Moderate.
         /// </summary>
         public static string PasswordModerateText {
@@ -88272,6 +88866,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Per-seat pricing · Cancel anytime.
+        /// </summary>
+        public static string PerSeatPricingCancelAnytimeText {
+            get {
+                return ResourceManager.GetString("PerSeatPricingCancelAnytimeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to For individuals - secure personal files on any device.
         /// </summary>
         public static string PersonalAccountDescription {
@@ -88322,6 +88925,24 @@ namespace AxCrypt.Content {
         public static string PhonePlaceholder {
             get {
                 return ResourceManager.GetString("PhonePlaceholder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Photo Vault Folder Not Found.
+        /// </summary>
+        public static string PhotoVaultFolderNotFoundText {
+            get {
+                return ResourceManager.GetString("PhotoVaultFolderNotFoundText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your Photo Vault folder was deleted or is no longer accessible. Please choose a new folder to continue..
+        /// </summary>
+        public static string PhotoVaultFolderUnavailableDescription {
+            get {
+                return ResourceManager.GetString("PhotoVaultFolderUnavailableDescription", resourceCulture);
             }
         }
         
@@ -89604,6 +90225,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Keeps GPS, camera, and device data intact.
+        /// </summary>
+        public static string PreservePhotoMetadataDescription {
+            get {
+                return ResourceManager.GetString("PreservePhotoMetadataDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Press and hold to view more.
         /// </summary>
         public static string PressAndHoldLabel {
@@ -90671,6 +91301,15 @@ namespace AxCrypt.Content {
         public static string PrioritySupportDescription {
             get {
                 return ResourceManager.GetString("PrioritySupportDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Direct line to our team when you need it..
+        /// </summary>
+        public static string PrioritySupportDescription1 {
+            get {
+                return ResourceManager.GetString("PrioritySupportDescription1", resourceCulture);
             }
         }
         
@@ -93877,11 +94516,29 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Recipients will be able to decrypt this file..
+        /// </summary>
+        public static string RecipientsCanDecryptFileDescription {
+            get {
+                return ResourceManager.GetString("RecipientsCanDecryptFileDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Recipients only.
         /// </summary>
         public static string RecipientsOnlyText {
             get {
                 return ResourceManager.GetString("RecipientsOnlyText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Recommended — strips metadata before sharing.
+        /// </summary>
+        public static string RecommendedMetadataRemovalDescription {
+            get {
+                return ResourceManager.GetString("RecommendedMetadataRemovalDescription", resourceCulture);
             }
         }
         
@@ -94345,6 +95002,24 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Remove Camera Details.
+        /// </summary>
+        public static string RemoveCameraDetailsText {
+            get {
+                return ResourceManager.GetString("RemoveCameraDetailsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remove Device Information.
+        /// </summary>
+        public static string RemoveDeviceInformationText {
+            get {
+                return ResourceManager.GetString("RemoveDeviceInformationText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Remove from List.
         /// </summary>
         public static string RemoveFromListText {
@@ -94359,6 +95034,24 @@ namespace AxCrypt.Content {
         public static string RemoveFromRecentFilesLabelText {
             get {
                 return ResourceManager.GetString("RemoveFromRecentFilesLabelText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remove GPS Location.
+        /// </summary>
+        public static string RemoveGPSLocationText {
+            get {
+                return ResourceManager.GetString("RemoveGPSLocationText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remove location data before sharing.
+        /// </summary>
+        public static string RemoveLocationDataBeforeSharingText {
+            get {
+                return ResourceManager.GetString("RemoveLocationDataBeforeSharingText", resourceCulture);
             }
         }
         
@@ -94485,6 +95178,15 @@ namespace AxCrypt.Content {
         public static string RenewActiveBusinessSubscriptionWarning {
             get {
                 return ResourceManager.GetString("RenewActiveBusinessSubscriptionWarning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Renew Business.
+        /// </summary>
+        public static string RenewBusinessText {
+            get {
+                return ResourceManager.GetString("RenewBusinessText", resourceCulture);
             }
         }
         
@@ -96099,6 +96801,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Restore admin controls, audit trail and key sharing across every seat — security your IT lead can sign off on..
+        /// </summary>
+        public static string RestoreAdminControlsDescription {
+            get {
+                return ResourceManager.GetString("RestoreAdminControlsDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Undo anonymous renaming and restore files to their original filenames using the stored rename map..
         /// </summary>
         public static string RestoreAnonymousNamesDescription {
@@ -96234,6 +96945,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Revoke.
+        /// </summary>
+        public static string RevokeText {
+            get {
+                return ResourceManager.GetString("RevokeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Root.
         /// </summary>
         public static string RootText {
@@ -96320,6 +97040,24 @@ namespace AxCrypt.Content {
         public static string SaveSecretErrorIsReadOnly {
             get {
                 return ResourceManager.GetString("SaveSecretErrorIsReadOnly", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save Settings.
+        /// </summary>
+        public static string SaveSettingsText {
+            get {
+                return ResourceManager.GetString("SaveSettingsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save to Gallery.
+        /// </summary>
+        public static string SaveToGalleryText {
+            get {
+                return ResourceManager.GetString("SaveToGalleryText", resourceCulture);
             }
         }
         
@@ -96428,6 +97166,15 @@ namespace AxCrypt.Content {
         public static string SearchText {
             get {
                 return ResourceManager.GetString("SearchText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Seats, roles, key revocation — instantly..
+        /// </summary>
+        public static string SeatsRolesKeyRevocationDescription {
+            get {
+                return ResourceManager.GetString("SeatsRolesKeyRevocationDescription", resourceCulture);
             }
         }
         
@@ -96572,6 +97319,15 @@ namespace AxCrypt.Content {
         public static string SecTwoFacAuthenConText3 {
             get {
                 return ResourceManager.GetString("SecTwoFacAuthenConText3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sign in once and securely access your encrypted files from any device, anytime..
+        /// </summary>
+        public static string SecureAccessFromAnyDeviceDescription {
+            get {
+                return ResourceManager.GetString("SecureAccessFromAnyDeviceDescription", resourceCulture);
             }
         }
         
@@ -97049,6 +97805,15 @@ namespace AxCrypt.Content {
         public static string SecureDeleteDialogTitle {
             get {
                 return ResourceManager.GetString("SecureDeleteDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Secure Delete Files.
+        /// </summary>
+        public static string SecureDeleteFilesText {
+            get {
+                return ResourceManager.GetString("SecureDeleteFilesText", resourceCulture);
             }
         }
         
@@ -97998,6 +98763,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Secure Photo Vault.
+        /// </summary>
+        public static string SecurePhotoVaultText {
+            get {
+                return ResourceManager.GetString("SecurePhotoVaultText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to secure this folder.
         /// </summary>
         public static string SecureThisFolderText {
@@ -98012,6 +98786,15 @@ namespace AxCrypt.Content {
         public static string SecureUserInvitesPopup {
             get {
                 return ResourceManager.GetString("SecureUserInvitesPopup", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Securing....
+        /// </summary>
+        public static string SecuringText {
+            get {
+                return ResourceManager.GetString("SecuringText", resourceCulture);
             }
         }
         
@@ -98718,6 +99501,33 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Select where the encrypted files are stored.
+        /// </summary>
+        public static string SelectEncryptedFilesStorageLocationDescription {
+            get {
+                return ResourceManager.GetString("SelectEncryptedFilesStorageLocationDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select files to permanently delete, regardless of file type.
+        /// </summary>
+        public static string SelectFilesToPermanentlyDeleteDescription {
+            get {
+                return ResourceManager.GetString("SelectFilesToPermanentlyDeleteDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select where the file to share is located.
+        /// </summary>
+        public static string SelectFileToShareLocationDescription {
+            get {
+                return ResourceManager.GetString("SelectFileToShareLocationDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Select file to view file information.
         /// </summary>
         public static string SelectFileToViewFileInfoText {
@@ -98772,11 +99582,38 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Select where to find the files to encrypt.
+        /// </summary>
+        public static string SelectLocationToEncryptFilesDescription {
+            get {
+                return ResourceManager.GetString("SelectLocationToEncryptFilesDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Choose a password, card, or note on the left — or add a new one..
         /// </summary>
         public static string SelectOrAddItemDescription {
             get {
                 return ResourceManager.GetString("SelectOrAddItemDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select where the secured file is located.
+        /// </summary>
+        public static string SelectSecuredFileLocationDescription {
+            get {
+                return ResourceManager.GetString("SelectSecuredFileLocationDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select a storage location.
+        /// </summary>
+        public static string SelectStorageLocationText {
+            get {
+                return ResourceManager.GetString("SelectStorageLocationText", resourceCulture);
             }
         }
         
@@ -98849,6 +99686,15 @@ namespace AxCrypt.Content {
         public static string SendInvitation {
             get {
                 return ResourceManager.GetString("SendInvitation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send Key.
+        /// </summary>
+        public static string SendKeyText {
+            get {
+                return ResourceManager.GetString("SendKeyText", resourceCulture);
             }
         }
         
@@ -99563,6 +100409,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Share the still-encrypted .axx file.
+        /// </summary>
+        public static string ShareStillEncryptedFileDescription {
+            get {
+                return ResourceManager.GetString("ShareStillEncryptedFileDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Share the security.
         /// </summary>
         public static string ShareTheSecurityTitle {
@@ -99923,6 +100778,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Skip.
+        /// </summary>
+        public static string SkipText {
+            get {
+                return ResourceManager.GetString("SkipText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to SMS.
         /// </summary>
         public static string SMSText {
@@ -99964,6 +100828,15 @@ namespace AxCrypt.Content {
         public static string SoftwareUpdateNowLabel {
             get {
                 return ResourceManager.GetString("SoftwareUpdateNowLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Soon.
+        /// </summary>
+        public static string SoonText {
+            get {
+                return ResourceManager.GetString("SoonText", resourceCulture);
             }
         }
         
@@ -100110,6 +100983,24 @@ namespace AxCrypt.Content {
         public static string StartFreeTrialBusinessButton {
             get {
                 return ResourceManager.GetString("StartFreeTrialBusinessButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start free trial - Business.
+        /// </summary>
+        public static string StartFreeTrialBusinessText {
+            get {
+                return ResourceManager.GetString("StartFreeTrialBusinessText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start your &lt;b&gt;free trial&lt;/b&gt; to unlock encryption secure file sharing with AxCrypt..
+        /// </summary>
+        public static string StartFreeTrialDescription {
+            get {
+                return ResourceManager.GetString("StartFreeTrialDescription", resourceCulture);
             }
         }
         
@@ -100272,6 +101163,33 @@ namespace AxCrypt.Content {
         public static string StopSecuringToolTipText {
             get {
                 return ResourceManager.GetString("StopSecuringToolTipText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Strip make, model, and lens EXIF data.
+        /// </summary>
+        public static string StripCameraExifDataDescription {
+            get {
+                return ResourceManager.GetString("StripCameraExifDataDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Strip device and software identifiers.
+        /// </summary>
+        public static string StripDeviceSoftwareIdentifiersDescription {
+            get {
+                return ResourceManager.GetString("StripDeviceSoftwareIdentifiersDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Strip location data on import.
+        /// </summary>
+        public static string StripLocationDataOnImportDescription {
+            get {
+                return ResourceManager.GetString("StripLocationDataOnImportDescription", resourceCulture);
             }
         }
         
@@ -101209,6 +102127,15 @@ namespace AxCrypt.Content {
         public static string SystemFolderForbiddenText {
             get {
                 return ResourceManager.GetString("SystemFolderForbiddenText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Take Photo.
+        /// </summary>
+        public static string TakePhotoText {
+            get {
+                return ResourceManager.GetString("TakePhotoText", resourceCulture);
             }
         }
         
@@ -102851,6 +103778,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This Device.
+        /// </summary>
+        public static string ThisDeviceText {
+            get {
+                return ResourceManager.GetString("ThisDeviceText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Tips.
         /// </summary>
         public static string TipsTitle {
@@ -103730,6 +104666,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Unable to preview this photo..
+        /// </summary>
+        public static string UnableToPreviewPhotoText {
+            get {
+                return ResourceManager.GetString("UnableToPreviewPhotoText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Unable to remove this saved profile. The active profile cannot be removed.
         /// </summary>
         public static string UnableToRemoveActiveProfileText {
@@ -103789,6 +104734,15 @@ namespace AxCrypt.Content {
         public static string UnlimitedAes256EncryptionMessage {
             get {
                 return ResourceManager.GetString("UnlimitedAes256EncryptionMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No 3-file ceiling — encrypt as much as you need..
+        /// </summary>
+        public static string UnlimitedFileEncryptionDescription {
+            get {
+                return ResourceManager.GetString("UnlimitedFileEncryptionDescription", resourceCulture);
             }
         }
         
@@ -103969,6 +104923,24 @@ namespace AxCrypt.Content {
         public static string UnlockText {
             get {
                 return ResourceManager.GetString("UnlockText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unlock unlimited encryption.
+        /// </summary>
+        public static string UnlockUnlimitedEncryptionText {
+            get {
+                return ResourceManager.GetString("UnlockUnlimitedEncryptionText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unlock with Face ID or fingerprint.
+        /// </summary>
+        public static string UnlockWithBiometricsText {
+            get {
+                return ResourceManager.GetString("UnlockWithBiometricsText", resourceCulture);
             }
         }
         
@@ -107463,6 +108435,15 @@ namespace AxCrypt.Content {
         public static string YourEmailText {
             get {
                 return ResourceManager.GetString("YourEmailText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your encrypted library.
+        /// </summary>
+        public static string YourEncryptedLibraryText {
+            get {
+                return ResourceManager.GetString("YourEncryptedLibraryText", resourceCulture);
             }
         }
         
