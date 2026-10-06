@@ -33791,6 +33791,9 @@ Till: support@axcrypt.net
   <data name="SearchText" xml:space="preserve">
     <value>Sök</value>
   </data>
+  <data name="SeatsRolesKeyRevocationDescription" xml:space="preserve">
+    <value></value>
+  </data>
   <data name="SecAnotherEmailText" xml:space="preserve">
     <value>E-post annat konto</value>
   </data>
@@ -33838,6 +33841,9 @@ Till: support@axcrypt.net
   </data>
   <data name="SecTwoFacAuthenConText3" xml:space="preserve">
     <value>Använd din mobiltelefon för att ta emot säkerhetskoden</value>
+  </data>
+  <data name="SecureAccessFromAnyDeviceDescription" xml:space="preserve">
+    <value></value>
   </data>
   <data name="SecureCloudFaq1" xml:space="preserve">
     <value>Varför måste du säkra din molnlagringsdata?</value>

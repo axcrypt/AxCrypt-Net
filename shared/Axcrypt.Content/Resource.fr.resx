@@ -33403,6 +33403,9 @@ Sujet : Rapport instantané AxCrypt</value>
   <data name="SearchText" xml:space="preserve">
     <value>Recherche</value>
   </data>
+  <data name="SeatsRolesKeyRevocationDescription" xml:space="preserve">
+    <value>Des sièges, des rôles, de la révocation de clés — instantanément.</value>
+  </data>
   <data name="SecAnotherEmailText" xml:space="preserve">
     <value>!!un autre courriel</value>
   </data>
@@ -33450,6 +33453,9 @@ Sujet : Rapport instantané AxCrypt</value>
   </data>
   <data name="SecTwoFacAuthenConText3" xml:space="preserve">
     <value>!!Utilisez votre téléphone mobile pour recevoir le code de sécurité</value>
+  </data>
+  <data name="SecureAccessFromAnyDeviceDescription" xml:space="preserve">
+    <value>Connectez-vous une seule fois et accédez en toute sécurité à vos fichiers chiffrés, à partir de n’importe quel appareil, à tout moment.</value>
   </data>
   <data name="SecureCloudFaq1" xml:space="preserve">
     <value>Pourquoi sécurise-t-on, votre stockage des données?</value>

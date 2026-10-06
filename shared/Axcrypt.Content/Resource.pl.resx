@@ -33129,6 +33129,9 @@ Temat: Migawka raportu AxCrypt</value>
   <data name="SearchText" xml:space="preserve">
     <value>Szukaj</value>
   </data>
+  <data name="SeatsRolesKeyRevocationDescription" xml:space="preserve">
+    <value>Miejsca, role, odebranie klucza — natychmiast.</value>
+  </data>
   <data name="SecAnotherEmailText" xml:space="preserve">
     <value>Inny adres e-mail</value>
   </data>
@@ -33176,6 +33179,9 @@ Temat: Migawka raportu AxCrypt</value>
   </data>
   <data name="SecTwoFacAuthenConText3" xml:space="preserve">
     <value>Użyj telefonu komórkowego, aby otrzymać kod bezpieczeństwa</value>
+  </data>
+  <data name="SecureAccessFromAnyDeviceDescription" xml:space="preserve">
+    <value>Zaloguj się raz i bezpiecznie uzyskaj dostęp do swoich zaszyfrowanych plików z dowolnego urządzenia, o każdej porze.</value>
   </data>
   <data name="SecureCloudFaq1" xml:space="preserve">
     <value>Dlaczego musisz zabezpieczyć swoje dane w chmurze?</value>
