@@ -33114,6 +33114,9 @@ SE-114 29 ஸ்டாக்ஹோம்
   <data name="SearchText" xml:space="preserve">
     <value>தேடுக</value>
   </data>
+  <data name="SeatsRolesKeyRevocationDescription" xml:space="preserve">
+    <value></value>
+  </data>
   <data name="SecAnotherEmailText" xml:space="preserve">
     <value>மற்றொரு மின்னஞ்சல்</value>
   </data>
@@ -33161,6 +33164,9 @@ SE-114 29 ஸ்டாக்ஹோம்
   </data>
   <data name="SecTwoFacAuthenConText3" xml:space="preserve">
     <value>பாதுகாப்பு குறியீட்டைப் பெற உங்கள் கைபேசியைப் பயன்படுத்தவும்</value>
+  </data>
+  <data name="SecureAccessFromAnyDeviceDescription" xml:space="preserve">
+    <value></value>
   </data>
   <data name="SecureCloudFaq1" xml:space="preserve">
     <value>உங்கள் கிளவுட் சேமிப்பு தரவை ஏன் பாதுகாக்க வேண்டும்?</value>

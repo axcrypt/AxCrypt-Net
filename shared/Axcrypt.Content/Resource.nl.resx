@@ -33273,6 +33273,9 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   <data name="SearchText" xml:space="preserve">
     <value>Zoeken</value>
   </data>
+  <data name="SeatsRolesKeyRevocationDescription" xml:space="preserve">
+    <value>Gebruikers, rollen, sleutelintrekking — direct.</value>
+  </data>
   <data name="SecAnotherEmailText" xml:space="preserve">
     <value>Een ander e-mailadres</value>
   </data>
@@ -33320,6 +33323,9 @@ Onderwerp: AxCrypt Rapport Snapshot </value>
   </data>
   <data name="SecTwoFacAuthenConText3" xml:space="preserve">
     <value>Gebruik uw mobiele telefoon om de beveiligingscode te ontvangen</value>
+  </data>
+  <data name="SecureAccessFromAnyDeviceDescription" xml:space="preserve">
+    <value>Log één keer in en krijg vanaf elk apparaat en op elk moment veilig toegang tot uw versleutelde bestanden.</value>
   </data>
   <data name="SecureCloudFaq1" xml:space="preserve">
     <value>Waarom moet u uw cloudopslaggegevens beveiligen?</value>

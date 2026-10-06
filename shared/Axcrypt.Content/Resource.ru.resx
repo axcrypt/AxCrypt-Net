@@ -33116,6 +33116,9 @@ HubSpot — это интегрированное программное реш�
   <data name="SearchText" xml:space="preserve">
     <value>Поиск</value>
   </data>
+  <data name="SeatsRolesKeyRevocationDescription" xml:space="preserve">
+    <value>Места, роли, аннулирование ключей – мгновенно.</value>
+  </data>
   <data name="SecAnotherEmailText" xml:space="preserve">
     <value>Еще одно письмо</value>
   </data>
@@ -33163,6 +33166,9 @@ HubSpot — это интегрированное программное реш�
   </data>
   <data name="SecTwoFacAuthenConText3" xml:space="preserve">
     <value>Используйте свой мобильный телефон для получения кода безопасности</value>
+  </data>
+  <data name="SecureAccessFromAnyDeviceDescription" xml:space="preserve">
+    <value>Войдите один раз и безопасно получите доступ к зашифрованым файлам с любого устройства и в любое время.</value>
   </data>
   <data name="SecureCloudFaq1" xml:space="preserve">
     <value>Почему вы должны защищать данные своего облачного хранилища?</value>

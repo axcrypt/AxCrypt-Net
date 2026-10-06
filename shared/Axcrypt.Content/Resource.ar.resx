@@ -33588,6 +33588,9 @@ SE-114 29 ستوكهولم
   <data name="SearchText" xml:space="preserve">
     <value>البحث</value>
   </data>
+  <data name="SeatsRolesKeyRevocationDescription" xml:space="preserve">
+    <value>المستخدمون، والأدوار، وإلغاء المفاتيح — فورًا.</value>
+  </data>
   <data name="SecAnotherEmailText" xml:space="preserve">
     <value>بريد إلكتروني آخر</value>
   </data>
@@ -33635,6 +33638,9 @@ SE-114 29 ستوكهولم
   </data>
   <data name="SecTwoFacAuthenConText3" xml:space="preserve">
     <value>استخدم هاتفك المحمول لتلقي رمز الأمان</value>
+  </data>
+  <data name="SecureAccessFromAnyDeviceDescription" xml:space="preserve">
+    <value>سجّل الدخول مرة واحدة، وتمكّن بأمان من الوصول إلى ملفاتك المشفّرة من أي جهاز وفي أي وقت.</value>
   </data>
   <data name="SecureCloudFaq1" xml:space="preserve">
     <value>لماذا يجب عليك تأمين بيانات التخزين السحابي الخاصة بك؟</value>

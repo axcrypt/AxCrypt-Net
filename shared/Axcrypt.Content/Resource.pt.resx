@@ -33135,6 +33135,9 @@ Assunto: Relatório de Erros AxCrypt</value>
   <data name="SearchText" xml:space="preserve">
     <value>Pesquisa</value>
   </data>
+  <data name="SeatsRolesKeyRevocationDescription" xml:space="preserve">
+    <value>Assentos, funções, revogação de chaves — instantaneamente.</value>
+  </data>
   <data name="SecAnotherEmailText" xml:space="preserve">
     <value>Outro Email</value>
   </data>
@@ -33182,6 +33185,9 @@ Assunto: Relatório de Erros AxCrypt</value>
   </data>
   <data name="SecTwoFacAuthenConText3" xml:space="preserve">
     <value>Use o seu telemóvel para receber o código de segurança</value>
+  </data>
+  <data name="SecureAccessFromAnyDeviceDescription" xml:space="preserve">
+    <value>Faça login uma vez e acesse seus arquivos criptografados de forma segura de qualquer dispositivo, a qualquer hora.</value>
   </data>
   <data name="SecureCloudFaq1" xml:space="preserve">
     <value>Por que você precisa proteger seus dados de armazenamento em nuvem?</value>
