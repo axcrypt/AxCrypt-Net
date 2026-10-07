@@ -25600,6 +25600,9 @@ EU VAT Number SE556967618101</value>
   <data name="KeyPairOnDeviceDescription" xml:space="preserve">
     <value>Your key pair stays on this device. You can sync it later by signing in here once you have an online connection.</value>
   </data>
+  <data name="KeySharedCloudFileLinkMailSubject" xml:space="preserve">
+    <value>{{SenderName}} shared an encrypted cloud file with you</value>
+  </data>
   <data name="KeyShareDesktopCarouselParagraph" xml:space="preserve">
     <value>You can download the AxCrypt app from &lt;span&gt;&lt;a href='/download/'&gt;our website.&lt;/span&gt;</value>
   </data>
@@ -25650,6 +25653,9 @@ EU VAT Number SE556967618101</value>
 
 A recipient is identified by the AxCrypt ID sign in email, but we do not send the file! Here you add the recipients' key to the file. You still have to share the actual file with the recipient afterwards.</value>
     <comment>A brief description of how to use the Key Share dialog in the XWT version</comment>
+  </data>
+  <data name="KeySharedLocalFileMailSubject" xml:space="preserve">
+    <value>{{SenderName}} shared access to an encrypted file with you</value>
   </data>
   <data name="KeyShareGuideNoteParagraph" xml:space="preserve">
     <value>Small but important details you should know before sharing files.</value>

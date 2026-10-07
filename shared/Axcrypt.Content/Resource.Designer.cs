@@ -76013,6 +76013,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to {{SenderName}} shared an encrypted cloud file with you.
+        /// </summary>
+        public static string KeySharedCloudFileLinkMailSubject {
+            get {
+                return ResourceManager.GetString("KeySharedCloudFileLinkMailSubject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to You can download the AxCrypt app from &lt;span&gt;&lt;a href=&apos;/download/&apos;&gt;our website.&lt;/span&gt;.
         /// </summary>
         public static string KeyShareDesktopCarouselParagraph {
@@ -76155,6 +76164,15 @@ namespace AxCrypt.Content {
         public static string KeyShareDialogHeader {
             get {
                 return ResourceManager.GetString("KeyShareDialogHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {{SenderName}} shared access to an encrypted file with you.
+        /// </summary>
+        public static string KeySharedLocalFileMailSubject {
+            get {
+                return ResourceManager.GetString("KeySharedLocalFileMailSubject", resourceCulture);
             }
         }
         
