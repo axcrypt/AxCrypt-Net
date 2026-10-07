@@ -23442,7 +23442,7 @@ We&apos;re sad to see you go and hope you enjoyed your time with AxCrypt!</value
     <value>Message limit reached — upgrade for unlimited messages</value>
   </data>
   <data name="FreeLimitSecuredMessageStatusText" xml:space="preserve">
-    <value>messages remaining this month</value>
+    <value>messages remaining</value>
   </data>
   <data name="FreeLimitUsageLabel" xml:space="preserve">
     <value>usage</value>
@@ -33123,6 +33123,9 @@ Subject: AxCrypt Report Snapshot</value>
   <data name="SearchText" xml:space="preserve">
     <value>Search</value>
   </data>
+  <data name="SeatsRolesKeyRevocationDescription" xml:space="preserve">
+    <value>Seats, roles, key revocation — instantly.</value>
+  </data>
   <data name="SecAnotherEmailText" xml:space="preserve">
     <value>!!Another Email</value>
   </data>
@@ -33170,6 +33173,9 @@ Subject: AxCrypt Report Snapshot</value>
   </data>
   <data name="SecTwoFacAuthenConText3" xml:space="preserve">
     <value>!!Use your mobile phone to recieve security code</value>
+  </data>
+  <data name="SecureAccessFromAnyDeviceDescription" xml:space="preserve">
+    <value>Sign in once and securely access your encrypted files from any device, anytime.</value>
   </data>
   <data name="SecureCloudFaq1" xml:space="preserve">
     <value>Why must you secure your cloud storage data?</value>
