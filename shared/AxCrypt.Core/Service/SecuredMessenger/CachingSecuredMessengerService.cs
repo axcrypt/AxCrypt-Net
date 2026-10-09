@@ -62,11 +62,6 @@ namespace AxCrypt.Core.Service.Secrets
             return await New<ICache>().UpdateItemAsync(async () => await _service.CreateAsync(messengerApiModel), _key).Free();
         }
 
-        public async Task<SecuredMessengerRootApiModel> GetAsync(Guid id, string userEmail)
-        {
-            return await New<ICache>().UpdateItemAsync(async () => await _service.GetAsync(id, userEmail), _key).Free();
-        }
-
         public async Task<bool> UpdateAsync(IEnumerable<Guid> ids, string userEmail, bool isUnread)
         {
             return await New<ICache>().UpdateItemAsync(async () => await _service.UpdateAsync(ids, userEmail, isUnread), _key).Free();
@@ -82,12 +77,12 @@ namespace AxCrypt.Core.Service.Secrets
             return await New<ICache>().UpdateItemAsync(async () => await _service.SaveMessagelist(model), _key).Free();
         }
 
-        public async Task<bool> SavemessagesAsync(SecuredMessengerRootApiModel model)
+        public async Task<bool> SavemessagesAsync(IEnumerable<SecuredMessengerApiModel> model)
         {
             return await New<ICache>().UpdateItemAsync(async () => await _service.SavemessagesAsync(model), _key).Free();
         }
 
-        public async Task<IEnumerable<SecuredMessengerRootApiModel>> GetSecMsgWithSearchFiltersAsync(SecureMsgrFilterTab securedMessengerFilterTab, RequestOptions requestOptions)
+        public async Task<IEnumerable<SecuredMessengerApiModel>> GetSecMsgWithSearchFiltersAsync(SecureMsgrFilterTab securedMessengerFilterTab, RequestOptions requestOptions)
         {
             return await New<ICache>().UpdateItemAsync(async () => await _service.GetSecMsgWithSearchFiltersAsync(securedMessengerFilterTab, requestOptions), _key).Free();
         }
@@ -105,6 +100,21 @@ namespace AxCrypt.Core.Service.Secrets
         public async Task<bool> UpdateFreeUserSecuredMessengerLimit(string userEmail)
         {
             return await New<ICache>().UpdateItemAsync(async () => await _service.UpdateFreeUserSecuredMessengerLimit(userEmail), _key).Free();
+        }
+
+        public async Task<IEnumerable<SecuredMessengerApiModel>> GetSentMessagesWithRepliesAsync(Guid id, string userEmail)
+        {
+            return await New<ICache>().UpdateItemAsync(async () => await _service.GetSentMessagesWithRepliesAsync(id, userEmail), _key).Free();
+        }
+
+        public async Task<IEnumerable<SecuredMessengerApiModel>> GetInboxMessagesWithRepliesAsync(Guid id, string userEmail)
+        {
+            return await New<ICache>().UpdateItemAsync(async () => await _service.GetInboxMessagesWithRepliesAsync(id, userEmail), _key).Free();
+        }
+
+        public async Task<SecuredMessengerApiModel> GetMessageAsync(Guid id, string userEmail)
+        {
+            return await New<ICache>().UpdateItemAsync(async () => await _service.GetMessageAsync(id, userEmail), _key).Free();
         }
     }
 }

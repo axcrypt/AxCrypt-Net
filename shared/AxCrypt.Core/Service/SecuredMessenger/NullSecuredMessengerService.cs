@@ -75,12 +75,7 @@ namespace AxCrypt.Core.Service.SecuredMessenger
         {
             return _completedTask;
         }
-
-        public Task<SecuredMessengerRootApiModel> GetAsync(Guid id, string userEmail)
-        {
-            return Task.FromResult(new SecuredMessengerRootApiModel());
-        }
-
+      
         public Task<bool> UpdateAsync(IEnumerable<Guid> ids, string userEmail, bool isUnread)
         {
             return _completedTask;
@@ -96,12 +91,12 @@ namespace AxCrypt.Core.Service.SecuredMessenger
             return _completedTask;
         }
 
-        public Task<bool> SavemessagesAsync(SecuredMessengerRootApiModel model)
+        public Task<bool> SavemessagesAsync(IEnumerable<SecuredMessengerApiModel> model)
         {
             return _completedTask;
         }
 
-        public Task<IEnumerable<SecuredMessengerRootApiModel>> GetSecMsgWithSearchFiltersAsync(SecureMsgrFilterTab securedMessengerFilterTab, RequestOptions requestOptions)
+        public Task<IEnumerable<SecuredMessengerApiModel>> GetSecMsgWithSearchFiltersAsync(SecureMsgrFilterTab securedMessengerFilterTab, RequestOptions requestOptions)
         {
             throw new NotImplementedException();
         }
@@ -117,6 +112,21 @@ namespace AxCrypt.Core.Service.SecuredMessenger
         }
 
         public Task<bool> UpdateFreeUserSecuredMessengerLimit(string userEmail)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<SecuredMessengerApiModel>> GetSentMessagesWithRepliesAsync(Guid id, string userEmail)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<SecuredMessengerApiModel>> GetInboxMessagesWithRepliesAsync(Guid id, string userEmail)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<SecuredMessengerApiModel> GetMessageAsync(Guid id, string userEmail)
         {
             throw new NotImplementedException();
         }

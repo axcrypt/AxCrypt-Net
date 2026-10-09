@@ -138,9 +138,21 @@ namespace AxCrypt.Core.Service.SecuredMessenger
             return Task.FromResult(false);
         }
 
-        public Task<SecuredMessengerRootApiModel> GetAsync(Guid id, string userEmail)
+        public Task<IEnumerable<SecuredMessengerApiModel>> GetInboxMessagesWithRepliesAsync(Guid id, string userEmail)
         {
-            return Task.FromResult(new SecuredMessengerRootApiModel());
+            IEnumerable<SecuredMessengerApiModel> result = new List<SecuredMessengerApiModel>();
+            return Task.FromResult(result);
+        }
+
+        public Task<IEnumerable<SecuredMessengerApiModel>> GetSentMessagesWithRepliesAsync(Guid id, string userEmail)
+        {
+            IEnumerable<SecuredMessengerApiModel> result = new List<SecuredMessengerApiModel>();
+            return Task.FromResult(result);
+        }
+
+        public Task<SecuredMessengerApiModel> GetMessageAsync(Guid id, string userEmail)
+        {
+            return Task.FromResult(new SecuredMessengerApiModel());
         }
 
         public Task<bool> DeleteAsync(IEnumerable<Guid> ids, string user, SecureMsgrFilterTab securedMessengerFilter)
@@ -148,7 +160,7 @@ namespace AxCrypt.Core.Service.SecuredMessenger
             return Task.FromResult(false);
         }
 
-        public Task<IEnumerable<SecuredMessengerRootApiModel>> GetSecMsgWithSearchFiltersAsync(SecureMsgrFilterTab securedMessengerFilterTab, RequestOptions requestOptions)
+        public Task<IEnumerable<SecuredMessengerApiModel>> GetSecMsgWithSearchFiltersAsync(SecureMsgrFilterTab securedMessengerFilterTab, RequestOptions requestOptions)
         {
             throw new NotImplementedException();
         }
@@ -158,7 +170,7 @@ namespace AxCrypt.Core.Service.SecuredMessenger
             return Task.FromResult(false);
         }
 
-        public async Task<bool> SavemessagesAsync(SecuredMessengerRootApiModel rootApiModel)
+        public async Task<bool> SavemessagesAsync(IEnumerable<SecuredMessengerApiModel> rootApiModel)
         {
             if (Identity.UserEmail == EmailAddress.Empty)
             {
@@ -208,13 +220,13 @@ namespace AxCrypt.Core.Service.SecuredMessenger
 
             using (StreamReader reader = new StreamReader(AxInboxMessagesStore.OpenRead()))
             {
-                EncryptedTextApiModel messengerModel = DeserializeFrom(reader);
+                 IEnumerable<SecuredMessengerApiModel> messengerModel = DeserializeSharedSecretsFrom(reader);
                 if (messengerModel == null)
                 {
-                    messengerModel = EncryptedTextApiModel.Empty;
+                    messengerModel = new List<SecuredMessengerApiModel>();
                 }
-                SecuredMessengerApiModel convertedModel = ConvertToMessengerApiModel(messengerModel);
-                return new List<SecuredMessengerApiModel> { convertedModel };
+              
+                return messengerModel;
             }
         }
 
@@ -235,24 +247,24 @@ namespace AxCrypt.Core.Service.SecuredMessenger
 
         private IEnumerable<SecuredMessengerApiModel> LoadSentMessages()
         {
-            if (!AxInboxMessagesStore.IsAvailable)
+            if (!AxSentMessagesStore.IsAvailable)
             {
                 return Enumerable.Empty<SecuredMessengerApiModel>();
             }
 
-            using (StreamReader reader = new StreamReader(AxInboxMessagesStore.OpenRead()))
+            using (StreamReader reader = new StreamReader(AxSentMessagesStore.OpenRead()))
             {
-                EncryptedTextApiModel messengerModel = DeserializeFrom(reader);
+                IEnumerable<SecuredMessengerApiModel> messengerModel = DeserializeSharedSecretsFrom(reader);
                 if (messengerModel == null)
                 {
-                    messengerModel = EncryptedTextApiModel.Empty;
+                    messengerModel = new List<SecuredMessengerApiModel>();
                 }
-                SecuredMessengerApiModel convertedModel = ConvertToMessengerApiModel(messengerModel);
-                return new List<SecuredMessengerApiModel> { convertedModel };
+             
+                return messengerModel;
             }
         }
 
-        private bool InternalSaveMessages(SecuredMessengerRootApiModel rootApiModel)
+        private bool InternalSaveMessages(IEnumerable<SecuredMessengerApiModel> rootApiModel)
         {
             using (StreamWriter writer = new StreamWriter(AxInboxMessagesStore.OpenWrite()))
             {
@@ -288,7 +300,7 @@ namespace AxCrypt.Core.Service.SecuredMessenger
             return New<IStringSerializer>().Deserialize<IEnumerable<SecuredMessengerApiModel>>(serialized);
         }
 
-        public void SerializeTo(TextWriter writer, SecuredMessengerRootApiModel rootApiModel)
+        public void SerializeTo(TextWriter writer, IEnumerable<SecuredMessengerApiModel> rootApiModel)
         {
             string serializedString = New<IStringSerializer>().Serialize(rootApiModel);
             WriteToFile(writer, serializedString);

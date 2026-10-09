@@ -85,17 +85,6 @@ namespace AxCrypt.Api.SecuredMessenger
             return Serializer.Deserialize<bool>(restResponse.Content);
         }
 
-        public async Task<SecuredMessengerRootApiModel> GetAsync(Guid id, string userEmail)
-        {
-            Uri resource = BaseUrl.PathCombine($"securedmessenger/get/{id}?userEmail={ApiCaller.EncodePathParams(userEmail)}");
-
-            RestResponse restResponse = await Caller.RestAsync(Identity, new RestRequest("GET", resource, Timeout)).Free();
-
-            ApiCaller.EnsureStatusOk(restResponse);
-
-            return Serializer.Deserialize<SecuredMessengerRootApiModel>(restResponse.Content);
-        }
-
         public async Task<bool> UpdateAsync(IEnumerable<Guid> ids, string userEmail, bool isUnread)
         {
             if (ids == null)
@@ -127,7 +116,7 @@ namespace AxCrypt.Api.SecuredMessenger
             return Serializer.Deserialize<bool>(restResponse.Content);
         }
 
-        public async Task<IEnumerable<SecuredMessengerRootApiModel>> GetSecMsgWithSearchFilterAsync(SecureMsgrFilterTab securedMessengerFilter, RequestOptions requestOptions)
+        public async Task<IEnumerable<SecuredMessengerApiModel>> GetSecMsgWithSearchFilterAsync(SecureMsgrFilterTab securedMessengerFilter, RequestOptions requestOptions)
         {
             Uri resource = BaseUrl.PathCombine($"securedmessenger/{securedMessengerFilter}/searchfilter");
 
@@ -137,7 +126,7 @@ namespace AxCrypt.Api.SecuredMessenger
 
             ApiCaller.EnsureStatusOk(restResponse);
 
-            return Serializer.Deserialize<IEnumerable<SecuredMessengerRootApiModel>>(restResponse.Content);
+            return Serializer.Deserialize<IEnumerable<SecuredMessengerApiModel>>(restResponse.Content);
         }
 
         /// <summary>
@@ -185,6 +174,39 @@ namespace AxCrypt.Api.SecuredMessenger
             ApiCaller.EnsureStatusOk(restResponse);
 
             return Serializer.Deserialize<bool>(restResponse.Content);
+        }
+
+        public async Task<IEnumerable<SecuredMessengerApiModel>> GetSentMessagesWithRepliesAsync(Guid id, string userEmail)
+        {
+            Uri resource = BaseUrl.PathCombine($"securedmessenger/sentmsgwithreplies/{id}");
+
+            RestResponse restResponse = await Caller.RestAsync(Identity, new RestRequest("GET", resource, Timeout)).Free();
+
+            ApiCaller.EnsureStatusOk(restResponse);
+
+            return Serializer.Deserialize<IEnumerable<SecuredMessengerApiModel>>(restResponse.Content);
+        }
+
+        public async Task<IEnumerable<SecuredMessengerApiModel>> GetInboxMessagesWithRepliesAsync(Guid id, string userEmail)
+        {
+            Uri resource = BaseUrl.PathCombine($"securedmessenger/inboxmsgwithreplies/{id}");
+
+            RestResponse restResponse = await Caller.RestAsync(Identity, new RestRequest("GET", resource, Timeout)).Free();
+
+            ApiCaller.EnsureStatusOk(restResponse);
+
+            return Serializer.Deserialize<IEnumerable<SecuredMessengerApiModel>>(restResponse.Content);
+        }
+
+        public async Task<SecuredMessengerApiModel> GetMessageAsync(Guid id, string userEmail)
+        {
+            Uri resource = BaseUrl.PathCombine($"securedmessenger/messagebyid/{id}");
+
+            RestResponse restResponse = await Caller.RestAsync(Identity, new RestRequest("GET", resource, Timeout)).Free();
+
+            ApiCaller.EnsureStatusOk(restResponse);
+
+            return Serializer.Deserialize<SecuredMessengerApiModel>(restResponse.Content);
         }
 
         #region Private helpers
