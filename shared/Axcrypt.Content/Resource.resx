@@ -23038,7 +23038,7 @@ We're sad to see you go and hope you enjoyed your time with AxCrypt!</value>
     <value>Message limit reached — upgrade for unlimited messages</value>
   </data>
   <data name="FreeLimitSecuredMessageStatusText" xml:space="preserve">
-    <value>messages remaining this month</value>
+    <value>messages remaining</value>
   </data>
   <data name="FreeLimitUsageLabel" xml:space="preserve">
     <value>usage</value>

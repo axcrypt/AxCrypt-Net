@@ -5,6 +5,7 @@ using AxCrypt.Core.UI.ViewModel;
 
 namespace AxCrypt.Core.IO
 {
+    [Obsolete("Use FilePickerItemViewModel instead.")]
     public class FilePickerItemModel : ViewModelBase
     {
         private string _encryptedAxCryptFileImage = "axcicon";
@@ -66,17 +67,12 @@ namespace AxCrypt.Core.IO
             set { SetProperty(nameof(IsSelected), value); }
         }
 
-        #region GoogleDrive specific code changes
-
         public bool IsGoogleFileType
         {
             get => GoogleFileMimeType();
         }
 
-        /*
-         * To check the file was created by google apps or not.
-         */
-
+        // Returns true when the file was created by a Google Workspace app.
         private bool GoogleFileMimeType()
         {
             if (MimeType == null)
@@ -92,35 +88,31 @@ namespace AxCrypt.Core.IO
             return MimeType.StartsWith("application/vnd.google-apps");
         }
 
-        // Refer https://developers.google.com/drive/api/v3/mime-types
+        // https://developers.google.com/drive/api/v3/mime-types
         private static IEnumerable<string> GoogleMIMETypes = new List<string>
         {
-            { "application/vnd.google-apps.document" },
-            { "application/vnd.google-apps.spreadsheet" },
-            { "application/vnd.google-apps.presentation" },
-            { "application/vnd.google-apps.audio" },
-            { "application/vnd.google-apps.document" },
-            { "application/vnd.google-apps.drive-sdk" },
-            { "application/vnd.google-apps.drawing" },
-            { "application/vnd.google-apps.file" },
-            { "application/vnd.google-apps.folder" },
-            { "application/vnd.google-apps.form" },
-            { "application/vnd.google-apps.fusiontable" },
-            { "application/vnd.google-apps.jam" },
-            { "application/vnd.google-apps.map" },
-            { "application/vnd.google-apps.photo" },
-            { "application/vnd.google-apps.presentation" },
-            { "application/vnd.google-apps.script" },
-            { "application/vnd.google-apps.shortcut" },
-            { "application/vnd.google-apps.site" },
-            { "application/vnd.google-apps.spreadsheet" },
-            { "application/vnd.google-apps.unknown" },
-            { "application/vnd.google-apps.video" },
+            "application/vnd.google-apps.audio",
+            "application/vnd.google-apps.document",
+            "application/vnd.google-apps.drive-sdk",
+            "application/vnd.google-apps.drawing",
+            "application/vnd.google-apps.file",
+            "application/vnd.google-apps.folder",
+            "application/vnd.google-apps.form",
+            "application/vnd.google-apps.fusiontable",
+            "application/vnd.google-apps.jam",
+            "application/vnd.google-apps.map",
+            "application/vnd.google-apps.photo",
+            "application/vnd.google-apps.presentation",
+            "application/vnd.google-apps.script",
+            "application/vnd.google-apps.shortcut",
+            "application/vnd.google-apps.site",
+            "application/vnd.google-apps.spreadsheet",
+            "application/vnd.google-apps.unknown",
+            "application/vnd.google-apps.video",
         };
-
-        #endregion GoogleDrive specific code changes
     }
 
+    [Obsolete("Use CloudFileProviderUtility.FileProvider instead.")]
     public enum FileProvider
     {
         Local,

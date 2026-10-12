@@ -68403,7 +68403,7 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to messages remaining this month.
+        ///   Looks up a localized string similar to messages remaining.
         /// </summary>
         public static string FreeLimitSecuredMessageStatusText {
             get {
