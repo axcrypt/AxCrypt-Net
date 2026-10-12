@@ -40,6 +40,7 @@ namespace AxCrypt.Core.Service
     /// </summary>
     public interface IAccountSetupService
     {
-        Task CompleteAccountSetupAsync(LogOnIdentity logOnIdentity);
+        // Returns true when the user chose a plan that lets sign-in continue (Personal trial or Viewer).
+        Task<bool> CompleteAccountSetupAsync(LogOnIdentity logOnIdentity);
     }
 }
