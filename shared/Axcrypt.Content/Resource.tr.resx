@@ -28128,9 +28128,6 @@ Bu program anlaşmaya göre lisanslanmıştır.
   <data name="Meta-Description-Education" xml:space="preserve">
     <value>Eğitim kurumları için güvenli dosya şifreleme çözümleriyle öğrenci kayıtlarını, araştırmaları, akademik belgeleri ve hassas verileri koruyun.</value>
   </data>
-  <data name="Meta-Description-Faq" xml:space="preserve">
-    <value>AxCrypt, dosya şifreleme, hesap yönetimi, güvenlik, paylaşım ve desteklenen platformlar hakkında sıkça sorulan soruların yanıtlarını bulun.</value>
-  </data>
   <data name="Meta-Description-FAQ" xml:space="preserve">
     <value>AxCrypt’in SSS bölümünü keşfedin: şifreleme araçlarının kullanımı, abonelik yönetimi ve hesap ayarlarına erişim hakkında rehberlik alın. Verilerinizi güvenle koruyun.</value>
   </data>
@@ -28221,9 +28218,6 @@ Bu program anlaşmaya göre lisanslanmıştır.
   <data name="Meta-Description-hipaa" xml:space="preserve">
     <value>AxCrypt&apos;in güçlü dosya şifrelemesi ile HIPAA&apos;ya uyumluluğunuzu sağlayın. Güvenli, kullanımı kolay şifreleme çözümlerimizle hassas sağlık hizmeti verilerini koruyun.</value>
   </data>
-  <data name="Meta-Description-Hipaa" xml:space="preserve">
-    <value>AxCrypt dosya şifrelemesinin hassas sağlık bilgilerini korumaya ve kuruluşları HIPAA güvenlik gereksinimleriyle nasıl destekleyebileceğini öğrenin.</value>
-  </data>
   <data name="Meta-Description-Hippa" xml:space="preserve">
     <value>AxCrypt’in AES-256 şifrelemesi, sıfır bilgi mimarisi ve güvenli dosya paylaşımı ile HIPAA uyumluluğunu sağlayın. Kullanıcı dostu araçlarla PHI’yi zahmetsizce koruyun.</value>
   </data>
@@ -28256,9 +28250,6 @@ Bu program anlaşmaya göre lisanslanmıştır.
   </data>
   <data name="Meta-Description-nis2" xml:space="preserve">
     <value>AxCrypt’in AES-256 şifrelemesi, sıfır bilgi mimarisi, güvenli dosya paylaşımı ve şifrelenmiş yedeklemeleri ile NIS2 uyumluluğunu sağlayarak operasyonel sürekliliği güvence altına alın.</value>
-  </data>
-  <data name="Meta-Description-Nis2" xml:space="preserve">
-    <value>Güvenli dosya şifrelemenin, hassas bilgileri işleyen kuruluşlar için NIS2 siber güvenlik ve veri koruma gereksinimlerini nasıl destekleyebileceğini öğrenin.</value>
   </data>
   <data name="Meta-Description-partner" xml:space="preserve">
     <value>AxCrypt’in Bayi Programı’na bayi veya iş ortağı olarak katılın. Komisyon kazanın, tanıtım araçlarına erişin ve müşterilerinize güvenli şifreleme çözümleri sunun.</value>

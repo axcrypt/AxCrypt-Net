@@ -29521,9 +29521,6 @@ SE-114 29 斯德哥尔摩
   <data name="Meta-Description-Education" xml:space="preserve">
     <value>使用面向教育机构的安全文件加密解决方案，保护学生记录、研究资料、学术文件和敏感数据。</value>
   </data>
-  <data name="Meta-Description-Faq" xml:space="preserve">
-    <value>在此查找有关 AxCrypt、文件加密、账户管理、安全性、共享及支持平台的常见问题解答。</value>
-  </data>
   <data name="Meta-Description-FAQ" xml:space="preserve">
     <value>浏览 AxCrypt 的常见问题解答部分，获取有关使用加密工具、管理订阅和访问帐户设置的指导。放心地保护您的数据。</value>
   </data>
@@ -29615,9 +29612,6 @@ SE-114 29 斯德哥尔摩
   <data name="Meta-Description-hipaa" xml:space="preserve">
     <value>通过AxCrypt强大的文件加密实现HIPAA合规性。使用我们安全、易用的加密解决方案保护敏感的医疗保健数据。</value>
   </data>
-  <data name="Meta-Description-Hipaa" xml:space="preserve">
-    <value>了解 AxCrypt 文件加密如何帮助保护敏感的医疗健康信息，并协助各机构满足 HIPAA 安全要求。</value>
-  </data>
   <data name="Meta-Description-Hippa" xml:space="preserve">
     <value>通过 AxCrypt 的 AES-256 加密、零知识架构和安全文件共享确保 HIPAA 合规性。使用用户友好的工具轻松保护 PHI。</value>
   </data>
@@ -29650,9 +29644,6 @@ SE-114 29 斯德哥尔摩
   </data>
   <data name="Meta-Description-nis2" xml:space="preserve">
     <value>通过 AxCrypt 的 AES-256 加密、零知识架构、安全文件共享和加密备份确保 NIS2 合规性，以实现运营连续性。</value>
-  </data>
-  <data name="Meta-Description-Nis2" xml:space="preserve">
-    <value>了解安全的文件加密如何支持处理敏感信息的组织满足 NIS2 网络安全和数据保护要求。</value>
   </data>
   <data name="Meta-Description-partner" xml:space="preserve">
     <value>以经销商或联盟成员的身份加入 AxCrypt 的合作伙伴计划。赚取佣金、访问促销工具并为您的客户提供安全的加密解决方案。</value>

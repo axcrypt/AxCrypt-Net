@@ -28432,9 +28432,6 @@ Detta program är licensierat i enlighet med avtalet.
   <data name="Meta-Description-Education" xml:space="preserve">
     <value>Skydda elevregister, forskning, akademiska dokument och känsliga uppgifter med säkra lösningar för filkryptering för utbildningsinstitutioner.</value>
   </data>
-  <data name="Meta-Description-Faq" xml:space="preserve">
-    <value>Hitta svar på vanliga frågor om AxCrypt, filkryptering, kontohantering, säkerhet, delning och stödda plattformar.</value>
-  </data>
   <data name="Meta-Description-FAQ" xml:space="preserve">
     <value>Utforska AxCrypts FAQ-sektion för vägledning om hur ni använder krypteringsverktyg, hanterar prenumerationer och får tillgång till kontoinställningar. Skydda era data på ett tryggt sätt.</value>
   </data>
@@ -28528,9 +28525,6 @@ Detta program är licensierat i enlighet med avtalet.
   <data name="Meta-Description-hipaa" xml:space="preserve">
     <value>Uppnå HIPAA-kompatibilitet med AxCrypts robusta filkryptering. Skydda känslig vårddata med våra säkra, lättanvända krypteringslösningar.</value>
   </data>
-  <data name="Meta-Description-Hipaa" xml:space="preserve">
-    <value>Lär dig hur AxCrypt-filkryptering kan hjälpa till att skydda känslig vårdinformation och stödja organisationer med HIPAA-säkerhetskrav.</value>
-  </data>
   <data name="Meta-Description-Hippa" xml:space="preserve">
     <value>Säkerställ HIPAA-efterlevnad med AxCrypts AES-256-kryptering, zero-knowledge-arkitektur och säker fildelning. Skydda PHI utan ansträngning med användarvänliga verktyg.</value>
   </data>
@@ -28563,9 +28557,6 @@ Detta program är licensierat i enlighet med avtalet.
   </data>
   <data name="Meta-Description-nis2" xml:space="preserve">
     <value>Säkerställ NIS2-efterlevnad med AxCrypts AES-256-kryptering, zero-knowledge-arkitektur, säker fildelning och krypterade säkerhetskopior för operativ kontinuitet.</value>
-  </data>
-  <data name="Meta-Description-Nis2" xml:space="preserve">
-    <value>Lär dig hur säker filkryptering kan stödja NIS2:s krav på cybersäkerhet och dataskydd för organisationer som hanterar känslig information.</value>
   </data>
   <data name="Meta-Description-partner" xml:space="preserve">
     <value>Gå med i AxCrypts partnerprogram som återförsäljare eller partner. Tjäna provision, få tillgång till marknadsföringsverktyg och erbjud säkra krypteringslösningar till dina kunder.</value>

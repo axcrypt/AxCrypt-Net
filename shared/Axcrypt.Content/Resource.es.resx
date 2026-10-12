@@ -27808,9 +27808,6 @@ Este programa se licencia según el acuerdo.
   <data name="Meta-Description-Education" xml:space="preserve">
     <value>Proteja registros de estudiantes, investigaciones, documentos académicos y datos sensibles con soluciones de cifrado de archivos seguras para instituciones educativas.</value>
   </data>
-  <data name="Meta-Description-Faq" xml:space="preserve">
-    <value>Encuentre respuestas a preguntas frecuentes sobre AxCrypt, cifrado de archivos, gestión de cuentas, seguridad, compartir y plataformas compatibles.</value>
-  </data>
   <data name="Meta-Description-FAQ" xml:space="preserve">
     <value>Explora la sección de preguntas frecuentes de AxCrypt para obtener orientación sobre el uso de herramientas de cifrado, la administración de suscripciones y el acceso a la configuración de la cuenta. Protege tus datos con confianza.</value>
   </data>
@@ -27901,9 +27898,6 @@ Este programa se licencia según el acuerdo.
   <data name="Meta-Description-hipaa" xml:space="preserve">
     <value>Logre el cumplimiento de HIPAA con el cifrado de archivos robusto de AxCrypt. Proteja los datos confidenciales de la atención médica con nuestras soluciones de cifrado seguras y fáciles de usar.</value>
   </data>
-  <data name="Meta-Description-Hipaa" xml:space="preserve">
-    <value>Aprenda cómo el cifrado de archivos de AxCrypt puede ayudar a proteger información sensible de salud y apoyar a las organizaciones con los requisitos de seguridad HIPAA.</value>
-  </data>
   <data name="Meta-Description-Hippa" xml:space="preserve">
     <value>Garantiza el cumplimiento de HIPAA con el cifrado AES-256 de AxCrypt, la arquitectura de conocimiento cero y el intercambio seguro de archivos. Protege la Información de Salud Protegida (PHI) sin esfuerzo con herramientas fáciles de usar.</value>
   </data>
@@ -27936,9 +27930,6 @@ Este programa se licencia según el acuerdo.
   </data>
   <data name="Meta-Description-nis2" xml:space="preserve">
     <value>Garantiza el cumplimiento de NIS2 con el cifrado AES-256 de AxCrypt, la arquitectura de conocimiento cero, el intercambio seguro de archivos y las copias de seguridad cifradas para la continuidad operativa.</value>
-  </data>
-  <data name="Meta-Description-Nis2" xml:space="preserve">
-    <value>Aprenda cómo el cifrado seguro de archivos puede cumplir con los requisitos de ciberseguridad y protección de datos NIS2 para organizaciones que manejan información sensible.</value>
   </data>
   <data name="Meta-Description-partner" xml:space="preserve">
     <value>Únete al Programa de Socios de AxCrypt como revendedor o afiliado. Gana comisiones, accede a herramientas promocionales y ofrece soluciones de cifrado seguras a tus clientes.</value>
