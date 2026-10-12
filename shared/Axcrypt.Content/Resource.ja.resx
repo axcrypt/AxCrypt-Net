@@ -27781,9 +27781,6 @@ AxCrypt 1.x ファイルの自動変換を有効にしますか（推奨）？</
   <data name="Meta-Description-Education" xml:space="preserve">
     <value>教育機関向けの安全なファイル暗号化ソリューションで、学生記録、研究、学術文書、および機密データを保護します。</value>
   </data>
-  <data name="Meta-Description-Faq" xml:space="preserve">
-    <value>AxCrypt、ファイル暗号化、アカウント管理、セキュリティ、共有、対応プラットフォームに関するよくある質問への回答をご確認ください。</value>
-  </data>
   <data name="Meta-Description-FAQ" xml:space="preserve">
     <value>暗号化ツールの使い方、サブスクリプションの管理、アカウント設定へのアクセス方法についてのガイダンスをAxCryptのFAQセクションで確認できます。自信を持ってデータを保護しましょう。</value>
   </data>
@@ -27874,9 +27871,6 @@ AxCrypt 1.x ファイルの自動変換を有効にしますか（推奨）？</
   <data name="Meta-Description-hipaa" xml:space="preserve">
     <value>AxCryptの強力なファイル暗号化でHIPAAコンプライアンスを実現。安全で使いやすい暗号化ソリューションで、機密の医療データを保護します。</value>
   </data>
-  <data name="Meta-Description-Hipaa" xml:space="preserve">
-    <value>AxCryptのファイル暗号化が機密の医療情報を保護し、組織がHIPAAのセキュリティ要件を満たすことをどのように支援するかを学びましょう。</value>
-  </data>
   <data name="Meta-Description-Hippa" xml:space="preserve">
     <value>AxCryptのAES-256暗号化、ゼロナレッジアーキテクチャ、安全なファイル共有でHIPAAコンプライアンスを確実に実現。使いやすいツールでPHIを簡単に保護します。</value>
   </data>
@@ -27909,9 +27903,6 @@ AxCrypt 1.x ファイルの自動変換を有効にしますか（推奨）？</
   </data>
   <data name="Meta-Description-nis2" xml:space="preserve">
     <value>AxCryptのAES-256暗号化、ゼロナレッジアーキテクチャ、安全なファイル共有、運用継続のための暗号化バックアップで、NIS2準拠を確実に実現します。</value>
-  </data>
-  <data name="Meta-Description-Nis2" xml:space="preserve">
-    <value>機密情報を扱う組織がNIS2サイバーセキュリティおよびデータ保護要件を満たすために、安全なファイル暗号化がどのように役立つかを学びます。</value>
   </data>
   <data name="Meta-Description-partner" xml:space="preserve">
     <value>AxCryptのパートナープログラムにリセラーまたはアフィリエイトとして参加しましょう。報酬を獲得し、プロモーションツールにアクセスし、お客様に安全な暗号化ソリューションを提供できます。</value>

@@ -27922,9 +27922,6 @@ AxCrypt 1.x 파일을 자동적으로 전환하시겠습니까 (추천)?</value>
   <data name="Meta-Description-Education" xml:space="preserve">
     <value>교육 기관을 위한 안전한 파일 암호화 솔루션을 사용하여 학생 기록, 연구 자료, 학술 문서 및 민감한 데이터를 보호하세요.</value>
   </data>
-  <data name="Meta-Description-Faq" xml:space="preserve">
-    <value>AxCrypt, 파일 암호화, 계정 관리, 보안, 공유, 지원 플랫폼에 관한 자주 묻는 질문에 대한 답변을 찾아보세요.</value>
-  </data>
   <data name="Meta-Description-FAQ" xml:space="preserve">
     <value>AxCrypt의 FAQ 섹션에서 암호화 도구 사용, 구독 관리 및 계정 설정 액세스에 대한 지침을 살펴보세요. 자신 있게 데이터를 보호하십시오.</value>
   </data>
@@ -28015,9 +28012,6 @@ AxCrypt 1.x 파일을 자동적으로 전환하시겠습니까 (추천)?</value>
   <data name="Meta-Description-hipaa" xml:space="preserve">
     <value>AxCrypt의 강력한 파일 암호화를 통해 HIPAA를 준수합니다. 안전하고 사용하기 쉬운 암호화 솔루션으로 민감한 의료 데이터를 보호합니다.</value>
   </data>
-  <data name="Meta-Description-Hipaa" xml:space="preserve">
-    <value>AxCrypt 파일 암호화가 민감한 의료 정보를 보호하고 HIPAA 보안 요구사항을 충족하는 조직을 지원하는 데 어떻게 도움이 되는지 알아보세요.</value>
-  </data>
   <data name="Meta-Description-Hippa" xml:space="preserve">
     <value>AxCrypt의 AES-256 암호화, 영지식 아키텍처 및 안전한 파일 공유를 통해 HIPAA 규정 준수를 보장합니다. 사용자 친화적인 도구로 PHI를 손쉽게 보호할 수 있습니다.</value>
   </data>
@@ -28050,9 +28044,6 @@ AxCrypt 1.x 파일을 자동적으로 전환하시겠습니까 (추천)?</value>
   </data>
   <data name="Meta-Description-nis2" xml:space="preserve">
     <value>AxCrypt의 AES-256 암호화, 영지식 아키텍처, 안전한 파일 공유 및 운영 연속성을 위한 암호화된 백업으로 NIS2 규정 준수를 보장합니다.</value>
-  </data>
-  <data name="Meta-Description-Nis2" xml:space="preserve">
-    <value>보안 파일 암호화가 민감한 정보를 다루는 조직의 NIS2 사이버보안 및 데이터 보호 요구사항을 어떻게 지원할 수 있는지 알아보세요.</value>
   </data>
   <data name="Meta-Description-partner" xml:space="preserve">
     <value>AxCrypt의 파트너 프로그램에 리셀러 또는 제휴사로 가입하십시오. 커미션을 받고, 프로모션 도구에 액세스하고, 고객에게 안전한 암호화 솔루션을 제공하십시오.</value>

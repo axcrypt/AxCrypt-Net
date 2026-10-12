@@ -27796,9 +27796,6 @@ Ohne Premium können Sie nur  verschlüsselte Dateien sehen und dauerhaft entsch
   <data name="Meta-Description-Education" xml:space="preserve">
     <value>Schützen Sie Schülerakten, Forschungsergebnisse, akademische Dokumente und sensible Daten mit sicheren Datei-Verschlüsselungslösungen für Bildungseinrichtungen.</value>
   </data>
-  <data name="Meta-Description-Faq" xml:space="preserve">
-    <value>Finden Sie Antworten auf häufig gestellte Fragen zu AxCrypt, Dateiverschlüsselung, Kontoverwaltung, Sicherheit, Teilen und unterstützten Plattformen.</value>
-  </data>
   <data name="Meta-Description-FAQ" xml:space="preserve">
     <value>Im FAQ-Bereich von AxCrypt finden Sie Anleitungen zur Verwendung von Verschlüsselungstools, zur Verwaltung von Abonnements und zum Zugriff auf Kontoeinstellungen. Sichern Sie Ihre Daten mit Vertrauen.</value>
   </data>
@@ -27889,9 +27886,6 @@ Ohne Premium können Sie nur  verschlüsselte Dateien sehen und dauerhaft entsch
   <data name="Meta-Description-hipaa" xml:space="preserve">
     <value>Erreichen Sie HIPAA-Konformität mit der robusten Dateiverschlüsselung von AxCrypt. Schützen Sie sensible Daten im Gesundheitswesen mit unseren sicheren, benutzerfreundlichen Verschlüsselungslösungen.</value>
   </data>
-  <data name="Meta-Description-Hipaa" xml:space="preserve">
-    <value>Erfahren Sie, wie AxCrypt-Dateiverschlüsselung sensible Gesundheitsinformationen schützen und Organisationen mit HIPAA-Sicherheitsanforderungen unterstützen kann.</value>
-  </data>
   <data name="Meta-Description-Hippa" xml:space="preserve">
     <value>Stellen Sie die HIPAA-Konformität mit der AES-256-Verschlüsselung, der Zero-Knowledge-Architektur und der sicheren Dateifreigabe von AxCrypt sicher. Schützen Sie PHI mühelos mit benutzerfreundlichen Tools.</value>
   </data>
@@ -27924,9 +27918,6 @@ Ohne Premium können Sie nur  verschlüsselte Dateien sehen und dauerhaft entsch
   </data>
   <data name="Meta-Description-nis2" xml:space="preserve">
     <value>Stellen Sie die NIS2-Konformität mit der AES-256-Verschlüsselung, der Zero-Knowledge-Architektur, der sicheren Dateifreigabe und verschlüsselten Backups von AxCrypt für die Kontinuität des Betriebs sicher.</value>
-  </data>
-  <data name="Meta-Description-Nis2" xml:space="preserve">
-    <value>Erfahren Sie, wie sichere Dateiverschlüsselung NIS2-Cybersicherheits- und Datenschutzanforderungen für Organisationen, die mit sensiblen Informationen umgehen, unterstützen kann.</value>
   </data>
   <data name="Meta-Description-partner" xml:space="preserve">
     <value>Nehmen Sie als Reseller oder Affiliate am Partnerprogramm von AxCrypt teil. Verdienen Sie Provisionen, greifen Sie auf Werbetools zu und bieten Sie Ihren Kunden sichere Verschlüsselungslösungen an.</value>

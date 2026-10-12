@@ -28014,9 +28014,6 @@ Ce logiciel est livré d&apos;après la licence.
   <data name="Meta-Description-Education" xml:space="preserve">
     <value>Protégez les dossiers des étudiants, les recherches, les documents académiques et les données sensibles à l&apos;aide de solutions de chiffrement de fichiers sécurisées destinées aux établissements d&apos;enseignement.</value>
   </data>
-  <data name="Meta-Description-Faq" xml:space="preserve">
-    <value>Trouvez des réponses aux questions fréquemment posées sur AxCrypt, le chiffrement des fichiers, la gestion de comptes, la sécurité, le partage et les plate-formes prises en charge.</value>
-  </data>
   <data name="Meta-Description-FAQ" xml:space="preserve">
     <value>Explorez la section FAQ d’AxCrypt pour obtenir des conseils sur l’utilisation des outils de chiffrement, la gestion des abonnements et l’accès aux paramètres du compte. Sécurisez vos données en toute confiance.</value>
   </data>
@@ -28107,9 +28104,6 @@ Ce logiciel est livré d&apos;après la licence.
   <data name="Meta-Description-hipaa" xml:space="preserve">
     <value>Respectez la norme HIPAA grâce au chiffrement robuste des fichiers d’AxCrypt. Protégez les données sensibles des soins de santé avec nos solutions de chiffrement sécurisées et faciles à utiliser.</value>
   </data>
-  <data name="Meta-Description-Hipaa" xml:space="preserve">
-    <value>Découvrez comment le chiffrement des fichiers AxCrypt peut aider à protéger les informations sensibles de santé et à soutenir les organisations ayant des exigences de sécurité LPRAM.</value>
-  </data>
   <data name="Meta-Description-Hippa" xml:space="preserve">
     <value>Assurez la conformité HIPAA avec le cryptage AES-256 d’AxCrypt, l’architecture sans connaissance et le partage sécurisé de fichiers. Protégez les PHI sans effort grâce à des outils conviviaux.</value>
   </data>
@@ -28142,9 +28136,6 @@ Ce logiciel est livré d&apos;après la licence.
   </data>
   <data name="Meta-Description-nis2" xml:space="preserve">
     <value>Assurez la conformité NIS2 avec le chiffrement AES-256 d’AxCrypt, l’architecture sans connaissance, le partage sécurisé de fichiers et les sauvegardes chiffrées pour une continuité opérationnelle.</value>
-  </data>
-  <data name="Meta-Description-Nis2" xml:space="preserve">
-    <value>Découvrez comment le chiffrement sécurisé des fichiers peut répondre aux exigences de cybersécurité et de protection des données SRI 2 pour les organisations qui gèrent des informations sensibles.</value>
   </data>
   <data name="Meta-Description-partner" xml:space="preserve">
     <value>Rejoignez le programme partenaire d’AxCrypt en tant que revendeur ou affilié. Gagnez des commissions, accédez aux outils promotionnels et offrez des solutions de cryptage sécurisées à vos clients.</value>

@@ -27799,9 +27799,6 @@ Ten program jest licencjonowany zgodnie z umową.
   <data name="Meta-Description-Education" xml:space="preserve">
     <value>Ochronij akta studentów, badania, dokumenty akademickie i poufne dane za pomocą bezpiecznych rozwiązań szyfrowania plików dla instytucji edukacyjnych.</value>
   </data>
-  <data name="Meta-Description-Faq" xml:space="preserve">
-    <value>Znajdź odpowiedzi na najczęściej zadawane pytania dotyczące AxCrypt, szyfrowania plików, zarządzania kontami, bezpieczeństwa, udostępniania i obsługiwanych platform.</value>
-  </data>
   <data name="Meta-Description-FAQ" xml:space="preserve">
     <value>Zapoznaj się z sekcją FAQ AxCrypt, aby uzyskać wskazówki dotyczące korzystania z narzędzi szyfrowania, zarządzania subskrypcjami i uzyskiwania dostępu do ustawień konta. Zabezpiecz swoje dane bez obaw.</value>
   </data>
@@ -27892,9 +27889,6 @@ Ten program jest licencjonowany zgodnie z umową.
   <data name="Meta-Description-hipaa" xml:space="preserve">
     <value>Osiągnij zgodność z HIPAA dzięki niezawodnemu szyfrowaniu plików AxCrypt. Chroń wrażliwe dane dotyczące opieki zdrowotnej dzięki naszym bezpiecznym i łatwym w użyciu rozwiązaniom szyfrującym.</value>
   </data>
-  <data name="Meta-Description-Hipaa" xml:space="preserve">
-    <value>Dowiedz się, jak szyfrowanie plików AxCrypt może pomóc chronić wrażliwe informacje medyczne i wspierać organizacje spełniające wymagania bezpieczeństwa HIPAA.</value>
-  </data>
   <data name="Meta-Description-Hippa" xml:space="preserve">
     <value>Zapewnij zgodność z HIPAA dzięki szyfrowaniu AES-256 AxCrypt, architekturze zerowej wiedzy i bezpiecznemu udostępnianiu plików. Chroń chronione informacje zdrowotne bez wysiłku za pomocą przyjaznych dla użytkownika narzędzi.</value>
   </data>
@@ -27927,9 +27921,6 @@ Ten program jest licencjonowany zgodnie z umową.
   </data>
   <data name="Meta-Description-nis2" xml:space="preserve">
     <value>Zapewnij zgodność z NIS2 dzięki szyfrowaniu AES-256 AxCrypt, architekturze zero-knowledge, bezpiecznemu udostępnianiu plików i szyfrowanym kopiom zapasowym w celu zapewnienia ciągłości operacyjnej.</value>
-  </data>
-  <data name="Meta-Description-Nis2" xml:space="preserve">
-    <value>Dowiedz się, jak bezpieczne szyfrowanie plików może wspierać wymagania cyberbezpieczeństwa NIS2 i ochrony danych dla organizacji przetwarzających wrażliwe informacje.</value>
   </data>
   <data name="Meta-Description-partner" xml:space="preserve">
     <value>Dołącz do Programu Partnerskiego AxCrypt jako sprzedawca lub partner. Zarabiaj prowizje, uzyskuj dostęp do narzędzi promocyjnych i oferuj swoim klientom bezpieczne rozwiązania szyfrowania.</value>
