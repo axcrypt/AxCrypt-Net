@@ -30,12 +30,13 @@ using AxCrypt.Api;
 using AxCrypt.Api.Model;
 using AxCrypt.Api.Model.SecuredMessenger;
 using AxCrypt.Api.SecuredMessenger;
+using AxCrypt.Common;
 using AxCrypt.Core.Crypto;
 using AxCrypt.Core.Crypto.Asymmetric;
 using AxCrypt.Core.IO;
 using AxCrypt.Core.Session;
 using AxCrypt.Core.UI;
-using AxCrypt.Common;
+using Newtonsoft.Json;
 using static AxCrypt.Abstractions.TypeResolve;
 
 namespace AxCrypt.Core.Service.SecuredMessenger
@@ -220,13 +221,30 @@ namespace AxCrypt.Core.Service.SecuredMessenger
 
             using (StreamReader reader = new StreamReader(AxInboxMessagesStore.OpenRead()))
             {
-                 IEnumerable<SecuredMessengerApiModel> messengerModel = DeserializeSharedSecretsFrom(reader);
-                if (messengerModel == null)
+                try
                 {
-                    messengerModel = new List<SecuredMessengerApiModel>();
+                    IEnumerable<SecuredMessengerApiModel> messengerModel = DeserializeSharedSecretsFrom(reader);
+                    if (messengerModel == null)
+                    {
+                        messengerModel = new List<SecuredMessengerApiModel>();
+                    }
+
+                    return messengerModel;
                 }
-              
-                return messengerModel;
+                catch (JsonSerializationException)
+                {
+                    EncryptedTextApiModel messengerModel = DeserializeFrom(reader);
+                    if (messengerModel == null)
+                    {
+                        messengerModel = EncryptedTextApiModel.Empty;
+                    }
+                    SecuredMessengerApiModel convertedModel = ConvertToMessengerApiModel(messengerModel);
+                    return new List<SecuredMessengerApiModel> { convertedModel };
+                }
+                catch (Exception ex)
+                {
+                    return new List<SecuredMessengerApiModel>();
+                }
             }
         }
 
@@ -254,13 +272,30 @@ namespace AxCrypt.Core.Service.SecuredMessenger
 
             using (StreamReader reader = new StreamReader(AxSentMessagesStore.OpenRead()))
             {
-                IEnumerable<SecuredMessengerApiModel> messengerModel = DeserializeSharedSecretsFrom(reader);
-                if (messengerModel == null)
+                try
                 {
-                    messengerModel = new List<SecuredMessengerApiModel>();
+                    IEnumerable<SecuredMessengerApiModel> messengerModel = DeserializeSharedSecretsFrom(reader);
+                    if (messengerModel == null)
+                    {
+                        messengerModel = new List<SecuredMessengerApiModel>();
+                    }
+
+                    return messengerModel;
                 }
-             
-                return messengerModel;
+                catch (JsonSerializationException)
+                {
+                    EncryptedTextApiModel messengerModel = DeserializeFrom(reader);
+                    if (messengerModel == null)
+                    {
+                        messengerModel = EncryptedTextApiModel.Empty;
+                    }
+                    SecuredMessengerApiModel convertedModel = ConvertToMessengerApiModel(messengerModel);
+                    return new List<SecuredMessengerApiModel> { convertedModel };
+                }
+                catch (Exception ex)
+                {
+                    return new List<SecuredMessengerApiModel>();
+                }
             }
         }
 
