@@ -81,6 +81,7 @@ namespace AxCrypt.Core.UI.User
             currentUserProfile.UserEmail = userProfile.UserEmail;
             currentUserProfile.Active = userProfile.Active;
             currentUserProfile.SubsType = userProfile.SubsType;
+            currentUserProfile.SignUpPending = userProfile.SignUpPending;
             currentUserProfile.LastLogOnUtc = userProfile.LastLogOnUtc;
             currentUserProfile.LastUpdateUtc = userProfile.LastLogOnUtc;
             Save();
