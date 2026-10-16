@@ -108223,6 +108223,51 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This account is disabled. Please contact AxCrypt support..
+        /// </summary>
+        public static string AccountDisabledError {
+            get {
+                return ResourceManager.GetString("AccountDisabledError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Too many sign-in attempts. Please wait a while and try again..
+        /// </summary>
+        public static string TooManyLoginAttemptsError {
+            get {
+                return ResourceManager.GetString("TooManyLoginAttemptsError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sign Out Everywhere.
+        /// </summary>
+        public static string SignOutEverywhereText {
+            get {
+                return ResourceManager.GetString("SignOutEverywhereText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to End your AxCrypt sessions on all devices.
+        /// </summary>
+        public static string SignOutEverywhereSubTitle {
+            get {
+                return ResourceManager.GetString("SignOutEverywhereSubTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You will be signed out of AxCrypt on all your devices..
+        /// </summary>
+        public static string SignOutEverywhereConfirmText {
+            get {
+                return ResourceManager.GetString("SignOutEverywhereConfirmText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Wrong Password. Please try again..
         /// </summary>
         public static string WrongPassphrase {
