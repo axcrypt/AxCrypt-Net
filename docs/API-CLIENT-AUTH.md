@@ -45,3 +45,10 @@ Only endpoints that unlock key material receive `X-AxCrypt-Passphrase` (Base64 o
 ## Registering
 
 `RuntimeEnvironment.RegisterTypeFactories()` registers `AuthTokenProvider`. Hosts without it (unit tests) get a no-op provider through `TokenProviders.Current`.
+
+## Login and logout in the apps
+
+- **Log on**: `LogOnAccountViewModel` calls `AxAuthApiClient.LoginAsync()` when online and reports `AccountDisabled` and `TooManyAttempts` as their own validation errors (`ValidationError`, mapped by `ToValidationMessage`). Other failures still end in the existing account check and show "Wrong Password".
+- **Log off**: every path (menu sign-out, switching user, inactivity) goes through `KnownIdentities.SetDefaultEncryptionIdentity`, which revokes the server session and clears the local tokens.
+- **Sign out everywhere**: `ProfileViewModel.SignOutEverywhereAsync()` (Mobile and Desktop shared projects; Windows, macOS and mobile apps) calls `logout-all`, then signs out locally. It has no menu entry yet.
+- **Delete account**: the tokens are cleared after the account is deleted.
