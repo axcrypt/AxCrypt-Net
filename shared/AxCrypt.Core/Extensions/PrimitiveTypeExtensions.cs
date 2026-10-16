@@ -170,6 +170,15 @@ namespace AxCrypt.Core.Extensions
                 case ValidationError.WrongPassphrase:
                     return Texts.WrongPassphrase;
 
+                case ValidationError.AccountDisabled:
+                    return Texts.AccountDisabledError;
+
+                case ValidationError.TooManyAttempts:
+                    return Texts.TooManyLoginAttemptsError;
+
+                case ValidationError.ServiceUnavailable:
+                    return Texts.NoInternetErrorMessage;
+
                 case ValidationError.InvalidEmail:
                     return Texts.InvalidEmail;
 

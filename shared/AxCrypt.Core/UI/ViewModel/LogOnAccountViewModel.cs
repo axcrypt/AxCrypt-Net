@@ -25,6 +25,9 @@
 
 #endregion Coypright and License
 
+using AxCrypt.Abstractions.Rest;
+using AxCrypt.Api;
+using AxCrypt.Common;
 using AxCrypt.Core.Crypto;
 using AxCrypt.Core.Extensions;
 using AxCrypt.Core.Service;
@@ -155,7 +158,10 @@ namespace AxCrypt.Core.UI.ViewModel
                 OnTooManyTries(new EventArgs());
             }
 
-            ValidationError = (int)ViewModel.ValidationError.WrongPassphrase;
+            if (ValidationError == (int)ViewModel.ValidationError.None)
+            {
+                ValidationError = (int)ViewModel.ValidationError.WrongPassphrase;
+            }
             return false;
         }
 
@@ -166,7 +172,25 @@ namespace AxCrypt.Core.UI.ViewModel
 
         private async Task<bool> IsValidAccountLogOnAsync()
         {
-            AccountStorage accountStorage = new AccountStorage(New<LogOnIdentity, IAccountService>(new LogOnIdentity(EmailAddress.Parse(UserEmail), new Passphrase(PasswordText))));
+            ValidationError = (int)ViewModel.ValidationError.None;
+            LogOnIdentity identity = new LogOnIdentity(EmailAddress.Parse(UserEmail), new Passphrase(PasswordText));
+
+            if (New<AxCryptOnlineState>().IsOnline)
+            {
+                SignInResult signIn = await new AxAuthApiClient(identity.ToRestIdentity(), _userSettings.RestApiBaseUrl, _userSettings.ApiTimeout).LoginAsync().Free();
+                switch (signIn.Outcome)
+                {
+                    case SignInOutcome.AccountDisabled:
+                        ValidationError = (int)ViewModel.ValidationError.AccountDisabled;
+                        return false;
+
+                    case SignInOutcome.RateLimited:
+                        ValidationError = (int)ViewModel.ValidationError.TooManyAttempts;
+                        return false;
+                }
+            }
+
+            AccountStorage accountStorage = new AccountStorage(New<LogOnIdentity, IAccountService>(identity));
 
             return await accountStorage.Refresh().IsIdentityValidAsync();
         }
