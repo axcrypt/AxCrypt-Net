@@ -16,14 +16,18 @@ namespace AxCrypt.Core.StoreApi
 
         Task<bool> UpdateAsync(IEnumerable<Guid> ids, string userEmail, bool isUnread = false);
 
-        Task<SecuredMessengerRootApiModel> GetAsync(Guid id, string userEmail);
-
         Task<bool> DeleteAsync(IEnumerable<Guid> ids, string user, SecuredMessengerFilterTab securedMessengerFilter);
 
-        Task<IEnumerable<SecuredMessengerRootApiModel>> GetSecMsgWithSearchFiltersAsync(SecuredMessengerFilterTab securedMessengerFilterTab, RequestOptions requestOptions);
+        Task<IEnumerable<SecuredMessengerApiModel>> GetSecMsgWithSearchFiltersAsync(SecuredMessengerFilterTab securedMessengerFilterTab, RequestOptions requestOptions);
 
         Task<long> GetFreeUserSecMsgCountAsync(string userEmail);
 
         Task<bool> UpdateFreeUserSecMsgCountAsync(string userEmail);
+
+        Task<IEnumerable<SecuredMessengerApiModel>> GetSentMessagesWithRepliesAsync(Guid id, string userEmail);
+
+        Task<IEnumerable<SecuredMessengerApiModel>> GetInboxMessagesWithRepliesAsync(Guid id, string userEmail);
+
+        Task<SecuredMessengerApiModel> GetMessageAsync(Guid id, string userEmail);
     }
 }

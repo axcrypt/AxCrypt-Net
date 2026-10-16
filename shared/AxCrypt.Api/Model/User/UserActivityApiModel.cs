@@ -16,7 +16,9 @@ namespace AxCrypt.Api.Model.User
         CheckoutPage,
         BusinessInformationPage,
         PurchaseSuccess,
-        PurchaseFailed
+        PurchaseFailed,
+        AccountDeleted,
+        EmailChanged
     }
 
     [JsonObject(MemberSerialization.OptIn)]
@@ -38,5 +40,8 @@ namespace AxCrypt.Api.Model.User
 
         [JsonProperty("message")]
         public string Message { get; set; }
+
+        [JsonProperty("activitydata")]
+        public string ActivityData { get; set; }
     }
 }
