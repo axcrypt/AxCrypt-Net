@@ -69,7 +69,7 @@ namespace AxCrypt.Api.Model
         /// The status.
         /// </value>
         [JsonProperty("keypair_status")]
-        public PrivateKeyStatus Status { get; } 
+        public PrivateKeyStatus Status { get; }
 
         /// <summary>
         /// Gets the status of this key pair
