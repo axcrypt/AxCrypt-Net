@@ -42,6 +42,9 @@ namespace AxCrypt.Core.UI.ViewModel
         SamePasswordAlreadySignedIn,
         KeyFileInaccessible,
         WrongVerificationCode,
-        FileNotFound
+        FileNotFound,
+        AccountDisabled,
+        TooManyAttempts,
+        ServiceUnavailable
     }
 }
