@@ -25,6 +25,7 @@
 
 #endregion Coypright and License
 
+using AxCrypt.Abstractions.Rest;
 using AxCrypt.Api.Model;
 using AxCrypt.Common;
 using AxCrypt.Core.Crypto;
@@ -187,6 +188,9 @@ namespace AxCrypt.Core.UI
                 _defaultEncryptionIdentity = LogOnIdentity.Empty;
                 await _notificationMonitor.NotifyAsync(new SessionNotification(SessionNotificationType.SignOut, oldIdentity, oldCapabilities)).Free();
                 await _notificationMonitor.SynchronizeAsync().Free();
+
+                // End the API session on the server too, so a sign-out really ends it. Bounded wait, never fails the sign-out.
+                await TokenProviders.Current.SignOutAsync(oldIdentity.UserEmail.Address).Free();
                 if (Resolve.Log.IsInfoEnabled || Resolve.Log.IsCustomLogEnabled)
                 {
                     Resolve.Log.LogInfo("'{0}' Signed out.".InvariantFormat(oldIdentity.UserEmail), oldIdentity.UserEmail.Address, FileActivity.UserActivityLog.SignOut);
