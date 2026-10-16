@@ -32,6 +32,17 @@ namespace AxCrypt.Core.StoreApi
 
         Task<bool> RefreshCurrentUserListViewAsync(string userEmail);
 
-        Task<AxCrypt.Abstractions.Rest.RestResponse> GetUserTotalSubscriptionMetricsAsync(string userEmail);
+
+        Task<AxCrypt.Abstractions.Rest.RestResponse> GetUserSignUpStatsAsync(RequestOptions requestOptions);
+
+        Task<AxCrypt.Abstractions.Rest.RestResponse> GetActiveSubscriptionMetricsAsync(string userEmail);
+
+        Task<AxCrypt.Abstractions.Rest.RestResponse> GetPerDayPurchaseSubsMetricsAsync(RequestOptions requestOptions);
+
+        Task<AxCrypt.Abstractions.Rest.RestResponse> GetPaymentLogsMetricsAsync(RequestOptions requestOptions);
+
+        Task<AxCrypt.Abstractions.Rest.RestResponse> GetAggregatedStatsAsync(RequestOptions requestOptions);
+
+        Task<AxCrypt.Abstractions.Rest.RestResponse> GetMonthlyUsersStatsAsync(string userEmail);
     }
 }

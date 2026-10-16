@@ -50,5 +50,8 @@ namespace AxCrypt.Api.Model.User
 
         [JsonProperty("signupFrom")]
         public string SignupFrom { get; set; }
+
+        [JsonProperty("signupPlatForm")]
+        public AxCryptPlaforms SignupPlatForm { get; set; }
     }
 }
