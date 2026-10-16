@@ -46,6 +46,9 @@ namespace AxCrypt.Api
         [JsonProperty("accountsOlderThanInDaysFilter")]
         public int AccountsOlderThanInDaysFilter { get; set; }
 
+        [JsonProperty("excludeTrialOrPaidUsers")]
+        public bool ExcludeTrialOrPaidUsers { get; set; }
+
         [JsonProperty("maxuserlimit")]
         public int MaxUserLimit { get; set; } = 200000;
     }

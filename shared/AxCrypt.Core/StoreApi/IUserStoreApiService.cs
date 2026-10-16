@@ -43,5 +43,7 @@ namespace AxCrypt.Core.StoreApi
         Task<bool> UpdateUserActivityAsync(UserKeyValuePairApiModel userKeyValuePairApiModel);
 
         Task<UserApiModel> GetCurrentUserAsync(string userEmail);
+
+        Task<IEnumerable<string>> GetSearchUserListAsync(string searchText);
     }
 }
