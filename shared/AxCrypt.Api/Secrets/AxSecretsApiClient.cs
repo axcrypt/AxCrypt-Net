@@ -158,7 +158,7 @@ namespace AxCrypt.Api
         {
             Uri resource = BaseUrl.PathCombine($"global/passwords/suggestion/{level}");
 
-            RestResponse restResponse = await Caller.RestAsync(Identity, new RestRequest(resource, Timeout)).Free();
+            RestResponse restResponse = await Caller.RestAsync(new RestIdentity(), new RestRequest(resource, Timeout)).Free();
             ApiCaller.EnsureStatusOk(restResponse);
 
             PasswordSuggestion suggestedPassword = Serializer.Deserialize<PasswordSuggestion>(restResponse.Content);

@@ -17,6 +17,8 @@ namespace AxCrypt.Abstractions.Rest
 
         public Uri Url { get; private set; }
 
+        public RestAuthMode AuthMode { get; set; } = RestAuthMode.Bearer;
+
         public RestRequest(string method, Uri url, TimeSpan timeout, RestContent content)
         {
             Method = method;

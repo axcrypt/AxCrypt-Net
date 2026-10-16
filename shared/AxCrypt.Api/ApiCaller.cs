@@ -63,9 +63,38 @@ namespace AxCrypt.Api
             {
                 throw new BadRequestApiException(string.IsNullOrEmpty(restResponse.Content) ? "Malformed API request." : restResponse.Content, restResponse.StatusCode);
             }
+            if (restResponse.StatusCode == (HttpStatusCode)429)
+            {
+                string retry = restResponse.RetryAfter.HasValue ? string.Format(CultureInfo.InvariantCulture, " Retry after {0:0} seconds.", restResponse.RetryAfter.Value.TotalSeconds) : string.Empty;
+                throw new ApiException("Too many requests." + retry, restResponse.StatusCode);
+            }
             if (restResponse.StatusCode != HttpStatusCode.OK && restResponse.StatusCode != HttpStatusCode.Created && restResponse.StatusCode != HttpStatusCode.NoContent)
             {
                 throw new ApiException(restResponse.Content, restResponse.StatusCode);
+            }
+        }
+
+        /// <summary>
+        /// The stable machine-readable error code the API puts in its error bodies ("invalid_credentials",
+        /// "session_revoked", "rate_limited", ...), or an empty string if the body has none.
+        /// </summary>
+        public static string ErrorCode(RestResponse restResponse)
+        {
+            if (restResponse == null || string.IsNullOrEmpty(restResponse.Content) || restResponse.Content[0] != '{')
+            {
+                return string.Empty;
+            }
+
+            try
+            {
+                using (System.Text.Json.JsonDocument document = System.Text.Json.JsonDocument.Parse(restResponse.Content))
+                {
+                    return document.RootElement.TryGetProperty("code", out System.Text.Json.JsonElement code) && code.ValueKind == System.Text.Json.JsonValueKind.String ? code.GetString() ?? string.Empty : string.Empty;
+                }
+            }
+            catch (System.Text.Json.JsonException)
+            {
+                return string.Empty;
             }
         }
 

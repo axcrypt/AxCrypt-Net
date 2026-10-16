@@ -228,7 +228,9 @@ namespace AxCrypt.Api
 
             Uri resource = BaseUrl.PathCombine("public/all/accounts/{0}/key".With(ApiCaller.PathSegmentEncode(userName)));
 
-            RestResponse restResponse = await Caller.RestAsync(Identity, new RestRequest(resource, Timeout)).Free();
+            // The partner API authenticates with the account's API key (as the Basic password), not with a token.
+            RestRequest request = new RestRequest(resource, Timeout) { AuthMode = RestAuthMode.Basic };
+            RestResponse restResponse = await Caller.RestAsync(Identity, request).Free();
             ApiCaller.EnsureStatusOk(restResponse);
 
             AccountKey accountKey = Serializer.Deserialize<AccountKey>(restResponse.Content);
@@ -281,7 +283,9 @@ namespace AxCrypt.Api
 
             PasswordResetParameters passwordResetParameters = new PasswordResetParameters(Identity.Password, verification);
             RestContent content = new RestContent(Serializer.Serialize(passwordResetParameters));
-            RestResponse restResponse = await Caller.RestAsync(Identity, new RestRequest("PUT", resource, Timeout, content)).Free();
+            // The verification code authorises this call. The account has no usable password yet, so do not try to sign in with it.
+            RestRequest request = new RestRequest("PUT", resource, Timeout, content) { AuthMode = RestAuthMode.None };
+            RestResponse restResponse = await Caller.RestAsync(Identity, request).Free();
             ApiCaller.EnsureStatusOk(restResponse);
         }
 

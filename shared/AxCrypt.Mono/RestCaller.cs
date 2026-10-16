@@ -38,14 +38,34 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 using static AxCrypt.Abstractions.TypeResolve;
 
 namespace AxCrypt.Mono
 {
+    /// <summary>
+    /// Sends API requests. Requests with an identity carry a JWT Bearer token obtained from the <see cref="ITokenProvider"/>;
+    /// if the API rejects the token the request is repeated once with a fresh one.
+    /// </summary>
     internal class RestCaller : IRestCaller
     {
+        private const string PassphraseHeaderName = "X-AxCrypt-Passphrase";
+
+        // The API reads the passphrase only on these endpoints (account and key material, secrets). Sending it nowhere else
+        // keeps the secret off every other request. A prefix match on the path after "/api/".
+        private static readonly string[] PassphraseEndpoints = new string[]
+        {
+            "users/my/account",
+            "usersv2/my/account",
+            "secrets/get",
+            "secrets/save",
+        };
+
+        // One pooled client for the whole app: a client per request exhausts sockets and repeats TLS handshakes.
+        private static readonly HttpClient SharedClient = CreateHttpClient();
+
         public RestCaller()
         {
         }
@@ -70,27 +90,15 @@ namespace AxCrypt.Mono
 
             try
             {
-                switch (request.Method)
+                RestResponse response = await SendOnceAsync(identity, request).Free();
+                if (response.StatusCode == HttpStatusCode.Unauthorized && request.AuthMode == RestAuthMode.Bearer && !identity.IsEmpty)
                 {
-                    case "GET":
-                        if (request.Content.Text.Length > 0)
-                        {
-                            throw new ArgumentException("You can't send content with a GET request.", "request");
-                        }
-                        return await SendGetAsync(identity, request).Free();
-
-                    case "PUT":
-                        return await SendPutAsync(identity, request).Free();
-
-                    case "POST":
-                        return await SendPostAsync(identity, request).Free();
-
-                    case "DELETE":
-                        return await SendDeleteAsync(identity, request).Free();
-
-                    default:
-                        throw new NotSupportedException("The method '{0}' is not supported.".InvariantFormat(request.Method));
+                    // The access token may have expired or been revoked. Forget it and try again with a refreshed or new one.
+                    TokenProviders.Current.Invalidate(AuthorityOf(request), identity.User);
+                    response = await SendOnceAsync(identity, request).Free();
                 }
+
+                return response;
             }
             catch (TaskCanceledException tcex)
             {
@@ -124,95 +132,134 @@ namespace AxCrypt.Mono
 
         #endregion IRestCaller Members
 
-        private static async Task<RestResponse> SendGetAsync(RestIdentity identity, RestRequest request)
+        private static async Task<RestResponse> SendOnceAsync(RestIdentity identity, RestRequest request)
         {
-            string content = String.Empty;
-            using (HttpClient client = CreateHttpClient())
+            if (request.Method == "GET" && request.Content.Text.Length > 0)
             {
-                PrepareClient(client, identity, request);
+                throw new ArgumentException("You can't send content with a GET request.", "request");
+            }
 
-                HttpResponseMessage httpResponse = await client.GetAsync(request.Url.PathAndQuery).Free();
-                content = await httpResponse.Content.ReadAsStringAsync().Free();
-                if (content.Length > 0 && httpResponse.Content?.Headers?.ContentType?.MediaType != "application/json")
+            using (HttpRequestMessage message = CreateMessage(request))
+            {
+                await AuthenticateAsync(message, identity, request).Free();
+
+                using (CancellationTokenSource timeout = request.Timeout > TimeSpan.Zero ? new CancellationTokenSource(request.Timeout) : new CancellationTokenSource())
+                using (HttpResponseMessage httpResponse = await SharedClient.SendAsync(message, HttpCompletionOption.ResponseContentRead, timeout.Token).Free())
                 {
-                    throw new HttpRequestException("Expected Media Type 'application/json'.");
+                    string content = await httpResponse.Content.ReadAsStringAsync().Free();
+                    if (request.Method == "GET" && content.Length > 0 && !IsJson(httpResponse))
+                    {
+                        throw new HttpRequestException("Expected Media Type 'application/json'.");
+                    }
+
+                    return new RestResponse(httpResponse.StatusCode, content, httpResponse.Headers.RetryAfter?.Delta);
                 }
-
-                return new RestResponse(httpResponse.StatusCode, content);
             }
         }
 
-        private static async Task<RestResponse> SendPutAsync(RestIdentity identity, RestRequest request)
+        private static HttpRequestMessage CreateMessage(RestRequest request)
         {
-            string content = String.Empty;
-            using (HttpClient client = CreateHttpClient())
+            HttpMethod method;
+            switch (request.Method)
             {
-                PrepareClient(client, identity, request);
+                case "GET":
+                    method = HttpMethod.Get;
+                    break;
 
-                StringContent httpContent = new StringContent(request.Content.Text, Encoding.UTF8, "application/json");
-                HttpResponseMessage httpResponse = await client.PutAsync(request.Url.PathAndQuery, httpContent).Free();
-                content = await httpResponse.Content.ReadAsStringAsync().Free();
+                case "PUT":
+                    method = HttpMethod.Put;
+                    break;
 
-                return new RestResponse(httpResponse.StatusCode, content);
+                case "POST":
+                    method = HttpMethod.Post;
+                    break;
+
+                case "DELETE":
+                    method = HttpMethod.Delete;
+                    break;
+
+                default:
+                    throw new NotSupportedException("The method '{0}' is not supported.".InvariantFormat(request.Method));
             }
-        }
 
-        private static async Task<RestResponse> SendPostAsync(RestIdentity identity, RestRequest request)
-        {
-            string content = String.Empty;
-            using (HttpClient client = CreateHttpClient())
-            {
-                PrepareClient(client, identity, request);
-
-                StringContent httpContent = new StringContent(request.Content.Text, Encoding.UTF8, "application/json");
-                HttpResponseMessage httpResponse = await client.PostAsync(request.Url.PathAndQuery, httpContent).Free();
-                content = await httpResponse.Content.ReadAsStringAsync().Free();
-
-                return new RestResponse(httpResponse.StatusCode, content);
-            }
-        }
-
-        private static async Task<RestResponse> SendDeleteAsync(RestIdentity identity, RestRequest request)
-        {
-            string content = String.Empty;
-            using (HttpClient client = CreateHttpClient())
-            {
-                PrepareClient(client, identity, request);
-
-                HttpResponseMessage httpResponse = await client.DeleteAsync(request.Url.PathAndQuery).Free();
-                content = await httpResponse.Content.ReadAsStringAsync().Free();
-
-                return new RestResponse(httpResponse.StatusCode, content);
-            }
-        }
-
-        private static void PrepareClient(HttpClient client, RestIdentity identity, RestRequest request)
-        {
-            client.BaseAddress = new Uri(request.Url.GetLeftPart(UriPartial.Authority));
-            client.Timeout = request.Timeout > TimeSpan.Zero ? request.Timeout : TimeSpan.FromMilliseconds(-1);
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
+            HttpRequestMessage message = new HttpRequestMessage(method, request.Url);
+            message.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
             foreach (string key in request.Headers.Collection.Keys)
             {
-                client.DefaultRequestHeaders.Add(key, request.Headers.Collection[key]);
+                message.Headers.TryAddWithoutValidation(key, request.Headers.Collection[key]);
             }
 
-            if (identity.User.Length > 0)
+            if (request.Method == "PUT" || request.Method == "POST")
+            {
+                message.Content = new StringContent(request.Content.Text, Encoding.UTF8, "application/json");
+            }
+
+            return message;
+        }
+
+        private static async Task AuthenticateAsync(HttpRequestMessage message, RestIdentity identity, RestRequest request)
+        {
+            if (identity.IsEmpty || request.AuthMode == RestAuthMode.None)
+            {
+                return;
+            }
+
+            if (request.AuthMode == RestAuthMode.Basic)
             {
                 string credentials = "{0}:{1}".InvariantFormat(identity.User, identity.Password.ToUtf8Base64());
-                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(Encoding.ASCII.GetBytes(credentials)));
+                message.Headers.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(Encoding.ASCII.GetBytes(credentials)));
+                return;
             }
+
+            string accessToken = await TokenProviders.Current.GetAccessTokenAsync(AuthorityOf(request), identity.User, identity.Password).Free();
+            if (accessToken.Length == 0)
+            {
+                return;
+            }
+
+            message.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+            if (identity.Password.Length > 0 && NeedsPassphrase(request.Url))
+            {
+                message.Headers.TryAddWithoutValidation(PassphraseHeaderName, identity.Password.ToUtf8Base64());
+            }
+        }
+
+        private static bool NeedsPassphrase(Uri url)
+        {
+            string path = url.AbsolutePath;
+            int api = path.IndexOf("/api/", StringComparison.OrdinalIgnoreCase);
+            string relative = api >= 0 ? path.Substring(api + "/api/".Length) : path.TrimStart('/');
+            foreach (string endpoint in PassphraseEndpoints)
+            {
+                if (relative.StartsWith(endpoint, StringComparison.OrdinalIgnoreCase))
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        private static Uri AuthorityOf(RestRequest request)
+        {
+            return new Uri(request.Url.GetLeftPart(UriPartial.Authority));
+        }
+
+        // The API answers errors with application/problem+json as well as application/json.
+        private static bool IsJson(HttpResponseMessage response)
+        {
+            string mediaType = response.Content?.Headers?.ContentType?.MediaType;
+            return mediaType != null && (mediaType == "application/json" || mediaType.EndsWith("+json", StringComparison.OrdinalIgnoreCase));
         }
 
         private static HttpClient CreateHttpClient()
         {
-            HttpClientHandler clientHandler = new HttpClientHandler();
-            //clientHandler.Proxy = WebRequest.DefaultWebProxy;
-            //clientHandler.Proxy.Credentials = CredentialCache.DefaultNetworkCredentials;
+            SocketsHttpHandler handler = new SocketsHttpHandler { PooledConnectionLifetime = TimeSpan.FromMinutes(5) };
 #if DEBUG
-            clientHandler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator;
+            handler.SslOptions.RemoteCertificateValidationCallback = (sender, certificate, chain, errors) => true;
 #endif
-            return new HttpClient(clientHandler);
+            // Each request carries its own timeout.
+            return new HttpClient(handler) { Timeout = System.Threading.Timeout.InfiniteTimeSpan };
         }
     }
 }
