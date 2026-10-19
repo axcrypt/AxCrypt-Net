@@ -73,6 +73,11 @@ namespace AxCrypt.Mono
         {
         }
 
+        /// <summary>
+        /// Tells whether the app is offline, so sign-out does not wait for a server that cannot be reached.
+        /// </summary>
+        public Func<bool> IsOffline { get; set; } = () => false;
+
         /// <param name="handler">The HTTP handler to use; null for a pooled default. Mainly for tests.</param>
         public AuthTokenProvider(HttpMessageHandler handler, TimeProvider time)
         {
@@ -295,6 +300,11 @@ namespace AxCrypt.Mono
 
         private async Task<bool> PostBestEffortAsync(Uri authority, string path, object body, string bearerToken)
         {
+            if (IsOffline())
+            {
+                return false;
+            }
+
             try
             {
                 using (CancellationTokenSource timeout = new CancellationTokenSource(SignOutTimeout))
