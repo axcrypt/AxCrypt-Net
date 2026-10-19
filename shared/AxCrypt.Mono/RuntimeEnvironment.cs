@@ -27,6 +27,7 @@
 
 using AxCrypt.Abstractions;
 using AxCrypt.Abstractions.Rest;
+using AxCrypt.Common;
 using AxCrypt.Core.IO;
 using AxCrypt.Core.Ipc;
 using AxCrypt.Core.Portable;
@@ -59,7 +60,7 @@ namespace AxCrypt.Mono
             TypeMap.Register.New<string, IDataContainer>((path) => new DataContainer(path));
             TypeMap.Register.New<string, IDataItem>((path) => DataItem.Create(path));
             TypeMap.Register.New<IRestCaller>(() => new RestCaller());
-            TypeMap.Register.Singleton<ITokenProvider>(() => new AuthTokenProvider());
+            TypeMap.Register.Singleton<ITokenProvider>(() => new AuthTokenProvider { IsOffline = () => New<AxCryptOnlineState>().IsOffline });
             TypeMap.Register.New<ISingleThread>(() => new SingleThread());
         }
 
