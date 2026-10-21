@@ -1,9 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AxCrypt.Core.UI.User;
 
@@ -29,4 +24,7 @@ public class UserProfile
 
     [JsonProperty("lastUpdateUtc")]
     public DateTime LastUpdateUtc { get; set; }
+
+    [JsonProperty("signUpPending")]
+    public bool SignUpPending { get; set; }
 }
