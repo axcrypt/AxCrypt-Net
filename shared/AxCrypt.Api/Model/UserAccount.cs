@@ -175,7 +175,7 @@ namespace AxCrypt.Api.Model
             {
                 return false;
             }
-            if (GroupMasterKeyPairs != other.GroupMasterKeyPairs)
+            if (!(GroupMasterKeyPairs ?? Enumerable.Empty<MasterKeyPairInfo>()).SequenceEqual(other.GroupMasterKeyPairs ?? Enumerable.Empty<MasterKeyPairInfo>()))
             {
                 return false;
             }
@@ -199,7 +199,7 @@ namespace AxCrypt.Api.Model
 
         public override int GetHashCode()
         {
-            return GroupMasterKeyPairs.GetHashCode() ^ AccountKeys.GetHashCode() ^ UserName.GetHashCode() ^ SubscriptionLevel.GetHashCode() ^ LevelExpiration.GetHashCode() ^ AccountStatus.GetHashCode() ^ AccountKeys.Aggregate(0, (sum, ak) => sum ^ ak.GetHashCode()) ^ GroupMasterKeyPairs.Aggregate(0, (sum, ak) => sum ^ ak.GetHashCode());
+            return UserName.GetHashCode() ^ SubscriptionLevel.GetHashCode() ^ LevelExpiration.GetHashCode() ^ AccountStatus.GetHashCode() ^ AccountKeys.Aggregate(0, (sum, ak) => sum ^ ak.GetHashCode()) ^ (GroupMasterKeyPairs ?? Enumerable.Empty<MasterKeyPairInfo>()).Aggregate(0, (sum, ak) => sum ^ ak.GetHashCode());
         }
 
         public static bool operator ==(UserAccount left, UserAccount right)

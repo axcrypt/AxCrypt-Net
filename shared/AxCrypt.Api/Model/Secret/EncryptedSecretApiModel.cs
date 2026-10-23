@@ -24,6 +24,6 @@ namespace AxCrypt.Api.Model
         public DateTime CreatedUtc { get; set; }
 
         [JsonProperty("secretBody")]
-        public string SecretBody { get; set; }
+        public string SecretBody { get; set; } = string.Empty;
     }
 }
