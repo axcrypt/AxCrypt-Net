@@ -422,7 +422,7 @@ namespace AxCrypt.Core.Extensions
                 AccountSource = highPriorityAccount.AccountSource,
                 CanTryAppStorePremiumTrial = highPriorityAccount.CanTryAppStorePremiumTrial,
                 ActiveSubscriptionFromAppStore = highPriorityAccount.ActiveSubscriptionFromAppStore,
-                GroupMasterKeyPairs = highPriorityAccount.IsMasterKeyEnabled ? mergedMasterKeyPair : null,
+                GroupMasterKeyPairs = highPriorityAccount.IsMasterKeyEnabled ? mergedMasterKeyPair : new List<MasterKeyPairInfo>(),
                 IsMasterKeyEnabled = highPriorityAccount.IsMasterKeyEnabled,
                 BusinessAdmin = highPriorityAccount.BusinessAdmin,
                 HadAnyPaidSubscription = highPriorityAccount.HadAnyPaidSubscription,

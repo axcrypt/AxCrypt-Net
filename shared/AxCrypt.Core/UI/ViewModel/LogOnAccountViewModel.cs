@@ -187,6 +187,10 @@ namespace AxCrypt.Core.UI.ViewModel
                     case SignInOutcome.RateLimited:
                         ValidationError = (int)ViewModel.ValidationError.TooManyAttempts;
                         return false;
+
+                    case SignInOutcome.InvalidCredentials:
+                        ValidationError = (int)ViewModel.ValidationError.WrongPassphrase;
+                        return false;
                 }
             }
 

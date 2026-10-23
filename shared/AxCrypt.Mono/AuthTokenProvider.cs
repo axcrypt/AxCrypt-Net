@@ -382,7 +382,7 @@ namespace AxCrypt.Mono
 
         private static AuthTokens Parse(string json)
         {
-            TokenResponseDto dto = JsonSerializer.Deserialize<TokenResponseDto>(json, Json);
+            TokenResponseDto dto = JsonSerializer.Deserialize<TokenResponseDto>(json, Json)!;
             if (dto == null || string.IsNullOrEmpty(dto.AccessToken))
             {
                 return null;

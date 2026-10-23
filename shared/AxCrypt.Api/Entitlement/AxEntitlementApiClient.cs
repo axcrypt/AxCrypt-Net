@@ -46,7 +46,7 @@ namespace AxCrypt.Api
             }
 
             Uri resource = BaseUrl.PathCombine("entitlement/user/get");
-            EntitlementRequestOptions entitlementApiModel = new(userEmail, null!)
+            EntitlementRequestOptions entitlementApiModel = new(userEmail, string.Empty)
             {
                 SubscriptionLevel = subsLevel,
             };
