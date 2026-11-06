@@ -61491,6 +61491,33 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Decrypt unlimited files
+        /// </summary>
+        public static string DecryptUnlimitedFilesMessage {
+            get {
+                return ResourceManager.GetString("DecryptUnlimitedFilesMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unlimited decryption
+        /// </summary>
+        public static string SecurityStatusUnlimitedDecryption {
+            get {
+                return ResourceManager.GetString("SecurityStatusUnlimitedDecryption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Viewer plan opens and decrypts unlimited files. Upgrade to encrypt new files.
+        /// </summary>
+        public static string SecurityStatusFreePlanDecryptOnly {
+            get {
+                return ResourceManager.GetString("SecurityStatusFreePlanDecryptOnly", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Encrypt up to 2 files / month.
         /// </summary>
         public static string EncryptUpToTwoFilesPerMonthMessage {
@@ -108543,6 +108570,78 @@ namespace AxCrypt.Content {
         public static string ZeroknowledgeLinkLabel {
             get {
                 return ResourceManager.GetString("ZeroknowledgeLinkLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Activate Viewer Account.
+        /// </summary>
+        public static string ActivateViewerAccountButton {
+            get {
+                return ResourceManager.GetString("ActivateViewerAccountButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ← Back to Premium.
+        /// </summary>
+        public static string BackToPremiumButton {
+            get {
+                return ResourceManager.GetString("BackToPremiumButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Buying for a company?.
+        /// </summary>
+        public static string BuyingForACompanyMessage {
+            get {
+                return ResourceManager.GetString("BuyingForACompanyMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Continue free.
+        /// </summary>
+        public static string ContinueFreeButton {
+            get {
+                return ResourceManager.GetString("ContinueFreeButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Only need to open shared files?.
+        /// </summary>
+        public static string OnlyNeedToOpenSharedFilesMessage {
+            get {
+                return ResourceManager.GetString("OnlyNeedToOpenSharedFilesMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to See Business →.
+        /// </summary>
+        public static string SeeBusinessButton {
+            get {
+                return ResourceManager.GetString("SeeBusinessButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Viewer sign-up · open encrypted files · no card needed.
+        /// </summary>
+        public static string ViewerSignUpNoCardNeededMessage {
+            get {
+                return ResourceManager.GetString("ViewerSignUpNoCardNeededMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sharing files with other people is not included in your plan. Please upgrade your plan to share files..
+        /// </summary>
+        public static string ShareKeysNotIncludedInPlanMessage {
+            get {
+                return ResourceManager.GetString("ShareKeysNotIncludedInPlanMessage", resourceCulture);
             }
         }
     }

@@ -43,6 +43,25 @@ namespace AxCrypt.Core.Runtime
     /// </summary>
     public class LicensePolicy : IDisposable, IEquatable<LicensePolicy>
     {
+        /// <summary>
+        /// Free accounts registered before this date (UTC) that never had a paid subscription
+        /// keep the legacy free plan (<see cref="FreeCapabilitySet"/>). Everyone else without an
+        /// active subscription gets the viewer plan (<see cref="ViewerCapabilitySet"/>).
+        /// </summary>
+        public static DateTime LegacyFreeRegistrationCutoffUtc { get; set; } = new DateTime(2026, 11, 17, 0, 0, 0, DateTimeKind.Utc);
+
+        /// <summary>
+        /// Whether a free account without a registration date keeps the legacy free plan. True until
+        /// every server sends a signed registration date; then set it to false so that removing the
+        /// date from the saved account no longer grants the legacy free plan.
+        /// </summary>
+        public static bool TrustAccountsWithoutRegistrationDate { get; set; } = true;
+
+        /// <summary>
+        /// Legacy free plan, only for accounts registered before
+        /// <see cref="LegacyFreeRegistrationCutoffUtc"/> that never paid. Encrypting and key
+        /// sharing are allowed but metered by the app (entitlement usage limits).
+        /// </summary>
         protected static readonly HashSet<LicenseCapability> FreeCapabilitySet = new HashSet<LicenseCapability>(new LicenseCapability[]
         {
             LicenseCapability.StandardEncryption,
@@ -52,21 +71,39 @@ namespace AxCrypt.Core.Runtime
             LicenseCapability.EditExistingFiles,
             LicenseCapability.ShareSecretFree,
             LicenseCapability.KeySharing,
+            LicenseCapability.ShareKeys,
         });
 
-        protected static readonly HashSet<LicenseCapability> PasswordManagerCapabilitySet = new HashSet<LicenseCapability>(FreeCapabilitySet.Concat(new LicenseCapability[]
+        /// <summary>
+        /// Viewer plan: open and decrypt existing files only, with no encrypting new files,
+        /// editing encrypted files or key sharing. Applies to free accounts registered on or
+        /// after <see cref="LegacyFreeRegistrationCutoffUtc"/> and to expired subscriptions.
+        /// </summary>
+        protected static readonly HashSet<LicenseCapability> ViewerCapabilitySet = new HashSet<LicenseCapability>(new LicenseCapability[]
+        {
+            LicenseCapability.StandardEncryption,
+            LicenseCapability.AccountKeyBackup,
+            LicenseCapability.CommunitySupport,
+            LicenseCapability.Viewer,
+            LicenseCapability.ShareSecretFree,
+        });
+
+        /// <summary>
+        /// Password Manager plan: unlimited password manager on top of the viewer capabilities.
+        /// </summary>
+        protected static readonly HashSet<LicenseCapability> PasswordManagerCapabilitySet = new HashSet<LicenseCapability>(ViewerCapabilitySet.Concat(new LicenseCapability[]
         {
             LicenseCapability.PasswordManagement,
             LicenseCapability.PasswordGeneration,
             LicenseCapability.PasswordManager,
             LicenseCapability.ShareSecretPasswordManager,
+            LicenseCapability.CreateUnlimitedPasswords,
         }));
 
         protected static readonly HashSet<LicenseCapability> PremiumCapabilitySet = new HashSet<LicenseCapability>(FreeCapabilitySet.Concat(new LicenseCapability[]
         {
             LicenseCapability.SecureWipe,
             LicenseCapability.StrongerEncryption,
-            LicenseCapability.KeySharing,
             LicenseCapability.RandomRename,
             LicenseCapability.SecureFolders,
             LicenseCapability.CloudStorageAwareness,
@@ -81,6 +118,8 @@ namespace AxCrypt.Core.Runtime
             LicenseCapability.FindFiles,
             LicenseCapability.Vault,
             LicenseCapability.TextEncryptionPremium,
+            LicenseCapability.CreateUnlimitedPasswords,
+            LicenseCapability.InviteUsers,
         }));
 
         protected static readonly HashSet<LicenseCapability> BusinessCapabilitySet = new HashSet<LicenseCapability>(PremiumCapabilitySet.Concat(new LicenseCapability[]
@@ -191,7 +230,52 @@ namespace AxCrypt.Core.Runtime
                     break;
             }
 
-            return FreeCapabilities;
+            // No active subscription: the legacy free plan for existing free users,
+            // the viewer plan for new signups and expired subscriptions.
+            return await IsLegacyFreeAccountAsync(identity, level).Free() ? FreeCapabilities : ViewerCapabilities;
+        }
+
+        /// <summary>
+        /// True when an account without an active subscription keeps the legacy free plan:
+        /// it never had a paid subscription and was registered before
+        /// <see cref="LegacyFreeRegistrationCutoffUtc"/>.
+        /// </summary>
+        private async Task<bool> IsLegacyFreeAccountAsync(LogOnIdentity identity, SubscriptionLevel level)
+        {
+            if (identity.UserEmail == EmailAddress.Empty)
+            {
+                return true;
+            }
+
+            // A paid level that reached this point has expired.
+            if (level == SubscriptionLevel.Premium || level == SubscriptionLevel.Business || level == SubscriptionLevel.PasswordManager)
+            {
+                return false;
+            }
+
+            UserAccount account = await UserAccountAsync(identity).Free();
+
+            // Server without signed registration dates yet: the paid history cannot be verified
+            // either. A missing signature is treated like a missing date (removing it grants
+            // nothing that removing the date would not), while a wrong signature is rejected below.
+            if (!account.RegisteredUtc.HasValue || string.IsNullOrEmpty(account.RegistrationSignature))
+            {
+                return TrustAccountsWithoutRegistrationDate && !account.HadAnyPaidSubscription;
+            }
+
+            // The date and paid history come from the saved account offline, so they are only
+            // trusted when the license authority signed them. Edited values give the viewer plan.
+            if (!await new LicenseValidation().IsRegistrationValidAsync(account).Free())
+            {
+                return false;
+            }
+
+            if (account.HadAnyPaidSubscription)
+            {
+                return false;
+            }
+
+            return LicenseValidation.ToUtc(account.RegisteredUtc.Value) < LegacyFreeRegistrationCutoffUtc;
         }
 
         private async Task<SubscriptionLevel> SubscriptionLevelAsync(LogOnIdentity identity)
@@ -213,6 +297,8 @@ namespace AxCrypt.Core.Runtime
         }
 
         protected virtual LicenseCapabilities FreeCapabilities { get { return new LicenseCapabilities(FreeCapabilitySet); } }
+
+        protected virtual LicenseCapabilities ViewerCapabilities { get { return new LicenseCapabilities(ViewerCapabilitySet); } }
 
         protected virtual LicenseCapabilities PasswordManagerCapabilities { get { return new LicenseCapabilities(PasswordManagerCapabilitySet); } }
 

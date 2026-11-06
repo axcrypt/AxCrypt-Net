@@ -148,6 +148,20 @@ namespace AxCrypt.Api.Model
         [JsonProperty("signupfrom")]
         public string SignUpFrom { get; set; }
 
+        /// <summary>
+        /// When the account was registered (UTC), or null when the server does not send it.
+        /// Decides whether a free account keeps the legacy free plan (see LicensePolicy).
+        /// </summary>
+        [JsonProperty("registeredUtc")]
+        public DateTime? RegisteredUtc { get; set; }
+
+        /// <summary>
+        /// License authority signature over the account name, <see cref="RegisteredUtc"/> and
+        /// <see cref="HadAnyPaidSubscription"/> (see LicenseValidation.SignRegistrationAsync).
+        /// </summary>
+        [JsonProperty("registrationSignature")]
+        public string RegistrationSignature { get; set; }
+
         public bool Equals(UserAccount other)
         {
             if ((object)other == null)
@@ -180,6 +194,14 @@ namespace AxCrypt.Api.Model
                 return false;
             }
             if (BusinessAdmin != other.BusinessAdmin)
+            {
+                return false;
+            }
+            if (RegisteredUtc != other.RegisteredUtc)
+            {
+                return false;
+            }
+            if (RegistrationSignature != other.RegistrationSignature)
             {
                 return false;
             }
