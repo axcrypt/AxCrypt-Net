@@ -54,14 +54,29 @@ namespace AxCrypt.Core.Runtime
             LicenseCapability.KeySharing,
         });
 
-        protected static readonly HashSet<LicenseCapability> PasswordManagerCapabilitySet = new HashSet<LicenseCapability>(FreeCapabilitySet.Concat(new LicenseCapability[]
+        /// <summary>
+        /// Open and decrypt existing files only: no encrypting new files, editing
+        /// encrypted files or key sharing.
+        /// </summary>
+        protected static readonly HashSet<LicenseCapability> ViewerCapabilitySet = new HashSet<LicenseCapability>(new LicenseCapability[]
+        {
+            LicenseCapability.StandardEncryption,
+            LicenseCapability.AccountKeyBackup,
+            LicenseCapability.CommunitySupport,
+            LicenseCapability.Viewer,
+            LicenseCapability.ShareSecretFree,
+        });
+
+        /// <summary>
+        /// Password Manager plan: unlimited password manager on top of the viewer capabilities.
+        /// </summary>
+        protected static readonly HashSet<LicenseCapability> PasswordManagerCapabilitySet = new HashSet<LicenseCapability>(ViewerCapabilitySet.Concat(new LicenseCapability[]
         {
             LicenseCapability.PasswordManagement,
             LicenseCapability.PasswordGeneration,
             LicenseCapability.PasswordManager,
             LicenseCapability.ShareSecretPasswordManager,
             LicenseCapability.CreateUnlimitedPasswords,
-            LicenseCapability.SendUnlimitedMessages,
         }));
 
         protected static readonly HashSet<LicenseCapability> PremiumCapabilitySet = new HashSet<LicenseCapability>(FreeCapabilitySet.Concat(new LicenseCapability[]
