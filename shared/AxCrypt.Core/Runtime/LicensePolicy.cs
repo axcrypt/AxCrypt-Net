@@ -60,6 +60,8 @@ namespace AxCrypt.Core.Runtime
             LicenseCapability.PasswordGeneration,
             LicenseCapability.PasswordManager,
             LicenseCapability.ShareSecretPasswordManager,
+            LicenseCapability.CreateUnlimitedPasswords,
+            LicenseCapability.SendUnlimitedMessages,
         }));
 
         protected static readonly HashSet<LicenseCapability> PremiumCapabilitySet = new HashSet<LicenseCapability>(FreeCapabilitySet.Concat(new LicenseCapability[]
@@ -81,6 +83,9 @@ namespace AxCrypt.Core.Runtime
             LicenseCapability.FindFiles,
             LicenseCapability.Vault,
             LicenseCapability.TextEncryptionPremium,
+            LicenseCapability.CreateUnlimitedPasswords,
+            LicenseCapability.ShareKeys,
+            LicenseCapability.InviteUsers,
         }));
 
         protected static readonly HashSet<LicenseCapability> BusinessCapabilitySet = new HashSet<LicenseCapability>(PremiumCapabilitySet.Concat(new LicenseCapability[]
