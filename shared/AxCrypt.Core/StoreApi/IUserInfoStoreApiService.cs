@@ -10,5 +10,7 @@ namespace AxCrypt.Core.StoreApi
         Task<UserKeyValuePairApiModel> GetUserInfoByKeyAsync(string userEmail, string memPropertyName);
 
         Task<bool> UpdateUserInfoByKeyAsync(UserKeyValuePairApiModel userKeyValuePairApiModel);
+
+        Task<AxCrypt.Abstractions.Rest.RestResponse> GetVerifiedUsersStatsAsync(string userEmail, int pageNumber);
     }
 }
