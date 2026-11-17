@@ -18982,6 +18982,9 @@ You must complete these steps to complete the process.</value>
   <data name="ConfirmAllCheckBoxText" xml:space="preserve">
     <value>Do this for all remaining files?</value>
   </data>
+  <data name="ConfirmFilePasswordPlaceholderText" xml:space="preserve">
+    <value>Re-enter your password</value>
+  </data>
   <data name="ConfirmMetadataSharingDescription" xml:space="preserve">
     <value>Confirm each time metadata would leave the vault</value>
   </data>
@@ -20713,6 +20716,24 @@ We're sad to see you go and hope you enjoyed your time with AxCrypt!</value>
   </data>
   <data name="DecryptUnlimitedFilesMessage" xml:space="preserve">
     <value>Decrypt unlimited files</value>
+  </data>
+  <data name="FilePasswordEncryptWarningText" xml:space="preserve">
+    <value>This file will be encrypted using the file password you set, rather than your account password. If you forget this password, you may permanently lose access to the file. To change your file password settings, go to Encryption Options → Add File Password.</value>
+  </data>
+  <data name="FilePasswordPlaceholderText" xml:space="preserve">
+    <value>Enter a strong password</value>
+  </data>
+  <data name="FilePropertiesEnabledCountText" xml:space="preserve">
+    <value>{0} of {1} properties enabled</value>
+  </data>
+  <data name="HidePasswordOptionPrompt" xml:space="preserve">
+    <value>Hide Password</value>
+  </data>
+  <data name="PasswordOptionsText" xml:space="preserve">
+    <value>Password options</value>
+  </data>
+  <data name="PasswordStrengthAverageName" xml:space="preserve">
+    <value>Good</value>
   </data>
   <data name="SecurityStatusUnlimitedDecryption" xml:space="preserve">
     <value>Unlimited decryption</value>
@@ -33833,6 +33854,9 @@ Please consider informing '{0}' directly about AxCrypt file security.</value>
   <data name="ShareEncryptedFilesDescription1" xml:space="preserve">
     <value>Yes. Tap the three-dot menu on an encrypted file and choose Share Key, then enter the recipient's AxCrypt-registered email. They can decrypt the file with their own AxCrypt password — no password sharing needed.</value>
   </data>
+  <data name="ShareEncryptedFilesNotFoundText" xml:space="preserve">
+    <value>The encrypted files could not be located to apply sharing.</value>
+  </data>
   <data name="ShareEncryptedTextAsLinkTooltipText" xml:space="preserve">
     <value>Share encrypted text via link</value>
   </data>
@@ -33896,17 +33920,32 @@ Please consider informing '{0}' directly about AxCrypt file security.</value>
   <data name="ShareLabel" xml:space="preserve">
     <value>Share</value>
   </data>
+  <data name="ShareMaxPeopleText" xml:space="preserve">
+    <value>You can share with up to {0} people.</value>
+  </data>
   <data name="ShareNotEncryptedText" xml:space="preserve">
     <value>It looks like the file you want to share is not &lt;strong&gt;encrypted.....&lt;/strong&gt;</value>
   </data>
   <data name="ShareNotifyMailBodyButton" xml:space="preserve">
     <value>View shared content</value>
   </data>
+  <data name="ShareOfflineCannotAddPeopleText" xml:space="preserve">
+    <value>You're offline — connect to the internet to add people.</value>
+  </data>
+  <data name="SharePersonAlreadyAddedText" xml:space="preserve">
+    <value>That person is already in the list.</value>
+  </data>
   <data name="SharePublicKeyDescription" xml:space="preserve">
     <value>Share your public key so others can encrypt files for you.</value>
   </data>
   <data name="SharePublicKeyWithOthersDescription" xml:space="preserve">
     <value>Share your public key with others</value>
+  </data>
+  <data name="ShareRecipientKeysNotFoundText" xml:space="preserve">
+    <value>Recipient keys could not be found — check they have an AxCrypt account and that you are online.</value>
+  </data>
+  <data name="ShareRecipientNoAccountText" xml:space="preserve">
+    <value>That person doesn't have an AxCrypt account yet.</value>
   </data>
   <data name="ShareSecretFailed" xml:space="preserve">
     <value>Password sharing failed!</value>
@@ -33928,6 +33967,9 @@ Please consider informing '{0}' directly about AxCrypt file security.</value>
   </data>
   <data name="ShareTheSecurityTitle" xml:space="preserve">
     <value>Share the security</value>
+  </data>
+  <data name="ShareUpToPeopleBadgeText" xml:space="preserve">
+    <value>Up to {0}</value>
   </data>
   <data name="ShareWithOthersDescription" xml:space="preserve">
     <value>One-click access to the AxCrypt password manager</value>
@@ -34500,8 +34542,14 @@ Please visit our &lt;a href="{0}"&gt;community support&lt;/a&gt;.</value>
   <data name="SwitchUserButtonText" xml:space="preserve">
     <value>Switch user</value>
   </data>
+  <data name="SwitchUserCloseAppText" xml:space="preserve">
+    <value>AxCrypt will close now. Open it again to continue with the selected account.</value>
+  </data>
   <data name="SwitchUserPopupText" xml:space="preserve">
     <value>Choose the &lt;b&gt;account&lt;/b&gt; to which you want to switch</value>
+  </data>
+  <data name="SwitchUserReopenAppText" xml:space="preserve">
+    <value>Close and reopen AxCrypt to finish switching account.</value>
   </data>
   <data name="SyncContactsText" xml:space="preserve">
     <value>Sync contacts!</value>
