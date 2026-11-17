@@ -56346,6 +56346,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Re-enter your password.
+        /// </summary>
+        public static string ConfirmFilePasswordPlaceholderText {
+            get {
+                return ResourceManager.GetString("ConfirmFilePasswordPlaceholderText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Confirm each time metadata would leave the vault.
         /// </summary>
         public static string ConfirmMetadataSharingDescription {
@@ -61496,6 +61505,60 @@ namespace AxCrypt.Content {
         public static string DecryptUnlimitedFilesMessage {
             get {
                 return ResourceManager.GetString("DecryptUnlimitedFilesMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This file will be encrypted using the file password you set, rather than your account password. If you forget this password, you may permanently lose access to the file. To change your file password settings, go to Encryption Options → Add File Password..
+        /// </summary>
+        public static string FilePasswordEncryptWarningText {
+            get {
+                return ResourceManager.GetString("FilePasswordEncryptWarningText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter a strong password.
+        /// </summary>
+        public static string FilePasswordPlaceholderText {
+            get {
+                return ResourceManager.GetString("FilePasswordPlaceholderText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} of {1} properties enabled.
+        /// </summary>
+        public static string FilePropertiesEnabledCountText {
+            get {
+                return ResourceManager.GetString("FilePropertiesEnabledCountText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hide Password.
+        /// </summary>
+        public static string HidePasswordOptionPrompt {
+            get {
+                return ResourceManager.GetString("HidePasswordOptionPrompt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password options.
+        /// </summary>
+        public static string PasswordOptionsText {
+            get {
+                return ResourceManager.GetString("PasswordOptionsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Good.
+        /// </summary>
+        public static string PasswordStrengthAverageName {
+            get {
+                return ResourceManager.GetString("PasswordStrengthAverageName", resourceCulture);
             }
         }
         
@@ -100166,6 +100229,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The encrypted files could not be located to apply sharing..
+        /// </summary>
+        public static string ShareEncryptedFilesNotFoundText {
+            get {
+                return ResourceManager.GetString("ShareEncryptedFilesNotFoundText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Share encrypted text via link.
         /// </summary>
         public static string ShareEncryptedTextAsLinkTooltipText {
@@ -100355,6 +100427,15 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to You can share with up to {0} people..
+        /// </summary>
+        public static string ShareMaxPeopleText {
+            get {
+                return ResourceManager.GetString("ShareMaxPeopleText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to It looks like the file you want to share is not &lt;strong&gt;encrypted.....&lt;/strong&gt;.
         /// </summary>
         public static string ShareNotEncryptedText {
@@ -100373,6 +100454,24 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to You're offline — connect to the internet to add people..
+        /// </summary>
+        public static string ShareOfflineCannotAddPeopleText {
+            get {
+                return ResourceManager.GetString("ShareOfflineCannotAddPeopleText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to That person is already in the list..
+        /// </summary>
+        public static string SharePersonAlreadyAddedText {
+            get {
+                return ResourceManager.GetString("SharePersonAlreadyAddedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Share your public key so others can encrypt files for you..
         /// </summary>
         public static string SharePublicKeyDescription {
@@ -100387,6 +100486,24 @@ namespace AxCrypt.Content {
         public static string SharePublicKeyWithOthersDescription {
             get {
                 return ResourceManager.GetString("SharePublicKeyWithOthersDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Recipient keys could not be found — check they have an AxCrypt account and that you are online..
+        /// </summary>
+        public static string ShareRecipientKeysNotFoundText {
+            get {
+                return ResourceManager.GetString("ShareRecipientKeysNotFoundText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to That person doesn't have an AxCrypt account yet..
+        /// </summary>
+        public static string ShareRecipientNoAccountText {
+            get {
+                return ResourceManager.GetString("ShareRecipientNoAccountText", resourceCulture);
             }
         }
         
@@ -100450,6 +100567,15 @@ namespace AxCrypt.Content {
         public static string ShareTheSecurityTitle {
             get {
                 return ResourceManager.GetString("ShareTheSecurityTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Up to {0}.
+        /// </summary>
+        public static string ShareUpToPeopleBadgeText {
+            get {
+                return ResourceManager.GetString("ShareUpToPeopleBadgeText", resourceCulture);
             }
         }
         
