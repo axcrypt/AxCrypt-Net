@@ -20711,6 +20711,15 @@ We're sad to see you go and hope you enjoyed your time with AxCrypt!</value>
   <data name="EncryptUnlimitedText" xml:space="preserve">
     <value>Encrypt unlimited text</value>
   </data>
+  <data name="DecryptUnlimitedFilesMessage" xml:space="preserve">
+    <value>Decrypt unlimited files</value>
+  </data>
+  <data name="SecurityStatusUnlimitedDecryption" xml:space="preserve">
+    <value>Unlimited decryption</value>
+  </data>
+  <data name="SecurityStatusFreePlanDecryptOnly" xml:space="preserve">
+    <value>Viewer plan opens and decrypts unlimited files. Upgrade to encrypt new files.</value>
+  </data>
   <data name="EncryptUpToTwoFilesPerMonthMessage" xml:space="preserve">
     <value>Encrypt up to 2 files / month</value>
   </data>
@@ -36699,5 +36708,29 @@ no prompts. By default UI and all prompts are displayed.
   </data>
   <data name="ZeroknowledgeLinkLabel" xml:space="preserve">
     <value>Zero-knowledge security</value>
+  </data>
+  <data name="ActivateViewerAccountButton" xml:space="preserve">
+    <value>Activate Viewer Account</value>
+  </data>
+  <data name="BackToPremiumButton" xml:space="preserve">
+    <value>← Back to Premium</value>
+  </data>
+  <data name="BuyingForACompanyMessage" xml:space="preserve">
+    <value>Buying for a company?</value>
+  </data>
+  <data name="ContinueFreeButton" xml:space="preserve">
+    <value>Continue free</value>
+  </data>
+  <data name="OnlyNeedToOpenSharedFilesMessage" xml:space="preserve">
+    <value>Only need to open shared files?</value>
+  </data>
+  <data name="SeeBusinessButton" xml:space="preserve">
+    <value>See Business →</value>
+  </data>
+  <data name="ViewerSignUpNoCardNeededMessage" xml:space="preserve">
+    <value>Viewer sign-up · open encrypted files · no card needed</value>
+  </data>
+  <data name="ShareKeysNotIncludedInPlanMessage" xml:space="preserve">
+    <value>Sharing files with other people is not included in your plan. Please upgrade your plan to share files.</value>
   </data>
 </root>
