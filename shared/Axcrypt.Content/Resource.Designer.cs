@@ -102230,11 +102230,29 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to AxCrypt will close now. Open it again to continue with the selected account..
+        /// </summary>
+        public static string SwitchUserCloseAppText {
+            get {
+                return ResourceManager.GetString("SwitchUserCloseAppText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Choose the &lt;b&gt;account&lt;/b&gt; to which you want to switch.
         /// </summary>
         public static string SwitchUserPopupText {
             get {
                 return ResourceManager.GetString("SwitchUserPopupText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Close and reopen AxCrypt to finish switching account..
+        /// </summary>
+        public static string SwitchUserReopenAppText {
+            get {
+                return ResourceManager.GetString("SwitchUserReopenAppText", resourceCulture);
             }
         }
         
