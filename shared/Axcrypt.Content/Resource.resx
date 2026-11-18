@@ -30060,14 +30060,47 @@ White space, and parts that are equal to common passwords are ignored and do not
   <data name="PhonePlaceholder" xml:space="preserve">
     <value>Type your phone number</value>
   </data>
+  <data name="PhotoVaultCleaningUpText" xml:space="preserve">
+    <value>Cleaning up…</value>
+  </data>
+  <data name="PhotoVaultCleanupButtonText" xml:space="preserve">
+    <value>Clean up</value>
+  </data>
+  <data name="PhotoVaultCleanupNoneRemovedText" xml:space="preserve">
+    <value>The original(s) couldn't be deleted. They may have been declined in the system prompt or be on storage AxCrypt can't change. Your encrypted copies are safe in the vault.</value>
+  </data>
+  <data name="PhotoVaultCleanupPartlyRemovedText" xml:space="preserve">
+    <value>{0} original(s) removed. {1} couldn't be deleted — your encrypted copies are safe in the vault.</value>
+  </data>
+  <data name="PhotoVaultCleanupPendingNoticeText" xml:space="preserve">
+    <value>{0} file(s) are encrypted and secured in your vault, but the original(s) are still on your device. Delete them from your gallery or file manager — this notice clears once they're gone.</value>
+  </data>
+  <data name="PhotoVaultCleanupPromptText" xml:space="preserve">
+    <value>Remove the leftover original(s) now</value>
+  </data>
+  <data name="PhotoVaultDeleteItemConfirmText" xml:space="preserve">
+    <value>Delete ‘{0}’ from your vault? The encrypted file will be securely removed. This cannot be undone.</value>
+  </data>
   <data name="PhotoVaultFolderNotFoundText" xml:space="preserve">
     <value>Photo Vault Folder Not Found</value>
   </data>
   <data name="PhotoVaultFolderUnavailableDescription" xml:space="preserve">
     <value>Your Photo Vault folder was deleted or is no longer accessible. Please choose a new folder to continue.</value>
   </data>
+  <data name="PhotoVaultOriginalNotRemovedText" xml:space="preserve">
+    <value>Photo encrypted and secured in your vault, but the original couldn't be deleted yet. Delete it from your device to finish.</value>
+  </data>
+  <data name="PhotoVaultOriginalsNotRemovedText" xml:space="preserve">
+    <value>{0} photo(s) encrypted and secured in your vault, but their originals couldn't be deleted yet. Delete them from your device to finish.</value>
+  </data>
+  <data name="PhotoVaultSaveToGalleryConfirmText" xml:space="preserve">
+    <value>‘{0}’ will be decrypted and saved to your device Gallery, then removed from the vault. Continue?</value>
+  </data>
   <data name="PhotoVaultText" xml:space="preserve">
     <value>Photo Vault</value>
+  </data>
+  <data name="PhotoVaultWriteFailedText" xml:space="preserve">
+    <value>The encrypted copy could not be written to the vault folder. The original was not changed.</value>
   </data>
   <data name="PickFilesFromDeviceDescription" xml:space="preserve">
     <value>Pick files from your iOS or Android storage</value>
