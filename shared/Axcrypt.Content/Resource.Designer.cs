@@ -89019,6 +89019,69 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cleaning up….
+        /// </summary>
+        public static string PhotoVaultCleaningUpText {
+            get {
+                return ResourceManager.GetString("PhotoVaultCleaningUpText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Clean up.
+        /// </summary>
+        public static string PhotoVaultCleanupButtonText {
+            get {
+                return ResourceManager.GetString("PhotoVaultCleanupButtonText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The original(s) couldn't be deleted. They may have been declined in the system prompt or be on storage AxCrypt can't change. Your encrypted copies are safe in the vault..
+        /// </summary>
+        public static string PhotoVaultCleanupNoneRemovedText {
+            get {
+                return ResourceManager.GetString("PhotoVaultCleanupNoneRemovedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} original(s) removed. {1} couldn't be deleted — your encrypted copies are safe in the vault..
+        /// </summary>
+        public static string PhotoVaultCleanupPartlyRemovedText {
+            get {
+                return ResourceManager.GetString("PhotoVaultCleanupPartlyRemovedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} file(s) are encrypted and secured in your vault, but the original(s) are still on your device. Delete them from your gallery or file manager — this notice clears once they're gone..
+        /// </summary>
+        public static string PhotoVaultCleanupPendingNoticeText {
+            get {
+                return ResourceManager.GetString("PhotoVaultCleanupPendingNoticeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Remove the leftover original(s) now.
+        /// </summary>
+        public static string PhotoVaultCleanupPromptText {
+            get {
+                return ResourceManager.GetString("PhotoVaultCleanupPromptText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete ‘{0}’ from your vault? The encrypted file will be securely removed. This cannot be undone..
+        /// </summary>
+        public static string PhotoVaultDeleteItemConfirmText {
+            get {
+                return ResourceManager.GetString("PhotoVaultDeleteItemConfirmText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Photo Vault Folder Not Found.
         /// </summary>
         public static string PhotoVaultFolderNotFoundText {
@@ -89037,11 +89100,47 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Photo encrypted and secured in your vault, but the original couldn't be deleted yet. Delete it from your device to finish..
+        /// </summary>
+        public static string PhotoVaultOriginalNotRemovedText {
+            get {
+                return ResourceManager.GetString("PhotoVaultOriginalNotRemovedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} photo(s) encrypted and secured in your vault, but their originals couldn't be deleted yet. Delete them from your device to finish..
+        /// </summary>
+        public static string PhotoVaultOriginalsNotRemovedText {
+            get {
+                return ResourceManager.GetString("PhotoVaultOriginalsNotRemovedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ‘{0}’ will be decrypted and saved to your device Gallery, then removed from the vault. Continue?.
+        /// </summary>
+        public static string PhotoVaultSaveToGalleryConfirmText {
+            get {
+                return ResourceManager.GetString("PhotoVaultSaveToGalleryConfirmText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Photo Vault.
         /// </summary>
         public static string PhotoVaultText {
             get {
                 return ResourceManager.GetString("PhotoVaultText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The encrypted copy could not be written to the vault folder. The original was not changed..
+        /// </summary>
+        public static string PhotoVaultWriteFailedText {
+            get {
+                return ResourceManager.GetString("PhotoVaultWriteFailedText", resourceCulture);
             }
         }
         
