@@ -36815,3 +36815,685 @@ no prompts. By default UI and all prompts are displayed.
     <value>Sharing files with other people is not included in your plan. Please upgrade your plan to share files.</value>
   </data>
 </root>
+<data name="ResetYourPasswordText" xml:space="preserve">
+    <value>Reset your password</value>
+  </data>
+<data name="EnterYourAxCryptEmailAndWeLlSendYouASecureResetLinkText" xml:space="preserve">
+    <value>Enter your AxCrypt email and we'll send you a secure reset link.</value>
+  </data>
+<data name="Step1RequestText" xml:space="preserve">
+    <value>Step 1 Request</value>
+  </data>
+<data name="IUnderstandThatResettingMyPasswordMeansILlPermanentlyLoseAccessToFilesEncryptedWithMyCurrentPasswordText" xml:space="preserve">
+    <value>&lt;b&gt;I understand&lt;/b&gt; that resetting my password means I'll permanently lose access to files encrypted with my current password.</value>
+  </data>
+<data name="BackToSignInText" xml:space="preserve">
+    <value>Back to sign in</value>
+  </data>
+<data name="Step2CheckEmailText" xml:space="preserve">
+    <value>Step 2 Check Email</value>
+  </data>
+<data name="CheckYourInboxText" xml:space="preserve">
+    <value>Check your inbox</value>
+  </data>
+<data name="WeSentAResetLinkToUserEmailClickTheLinkInThatEmailToSetANewPasswordText" xml:space="preserve">
+    <value>We sent a reset link to &lt;b&gt;@Model.UserEmail&lt;/b&gt;. Click the link in that email to set a new password.</value>
+  </data>
+<data name="DidnTReceiveTheEmailCheckYourSpamFolderOrResendBelowText" xml:space="preserve">
+    <value>Didn't receive the email? Check your spam folder, or resend below.</value>
+  </data>
+<data name="ResendEmailText" xml:space="preserve">
+    <value>Resend email</value>
+  </data>
+<data name="Step3SetPasswordText" xml:space="preserve">
+    <value>Step 3  Set Password</value>
+  </data>
+<data name="SetYourNewPasswordText" xml:space="preserve">
+    <value>Set your new password</value>
+  </data>
+<data name="CreateAStrongMemorablePassphraseForText" xml:space="preserve">
+    <value>Create a strong, memorable passphrase for</value>
+  </data>
+<data name="ShowPasswordsText" xml:space="preserve">
+    <value>Show passwords</value>
+  </data>
+<data name="SuggestText" xml:space="preserve">
+    <value>Suggest</value>
+  </data>
+<data name="SetNewPasswordText" xml:space="preserve">
+    <value>Set new password</value>
+  </data>
+<data name="UppercaseAndLowercaseText" xml:space="preserve">
+    <value>Uppercase and lowercase</value>
+  </data>
+<data name="ConfirmationMatchesText" xml:space="preserve">
+    <value>Confirmation matches</value>
+  </data>
+<data name="UseAPassphraseYouCanRememberAvoidReusingPasswordsFromOtherServicesText" xml:space="preserve">
+    <value>Use a passphrase you can remember. Avoid reusing passwords from other services.</value>
+  </data>
+<data name="Step3SetPasswordText2" xml:space="preserve">
+    <value>Step 3  Set Password</value>
+  </data>
+<data name="LinkExpiredText" xml:space="preserve">
+    <value>Link expired</value>
+  </data>
+<data name="ThisPasswordResetLinkHasExpiredOrAlreadyBeenUsedRequestANewOneText" xml:space="preserve">
+    <value>This password-reset link has expired or already been used. Request a new one.</value>
+  </data>
+<data name="RequestNewLinkText" xml:space="preserve">
+    <value>Request new link</value>
+  </data>
+<data name="OneMoreStepToGetStartedText" xml:space="preserve">
+    <value>One More Step to Get Started</value>
+  </data>
+<data name="YourAccountSetupIsnTFinishedYetText" xml:space="preserve">
+    <value>Your account setup isn’t finished yet.</value>
+  </data>
+<data name="ChooseAPlanToUnlockEncryptionFeaturesAndStartUsingTheAppText" xml:space="preserve">
+    <value>Choose a plan to unlock encryption features and start using the app.</value>
+  </data>
+<data name="ChoosePrivatePlanText" xml:space="preserve">
+    <value>Choose Private Plan</value>
+  </data>
+<data name="YouNeedToSelectAPlanToContinueUsingAxCryptText" xml:space="preserve">
+    <value>You need to select a plan to continue using AxCrypt</value>
+  </data>
+<data name="UseThisPageToDetailYourSiteSPrivacyPolicyText" xml:space="preserve">
+    <value>Use this page to detail your site's privacy policy.</value>
+  </data>
+<data name="ValueSignInTryForFreeNowText" xml:space="preserve">
+    <value>value="Sign In &amp; Try For Free Now"</value>
+  </data>
+<data name="AccountRecoveryText" xml:space="preserve">
+    <value>Account recovery</value>
+  </data>
+<data name="UseARecoveryCodeText" xml:space="preserve">
+    <value>Use a recovery code</value>
+  </data>
+<data name="EnterOneUnusedRecoveryCodeToSignInText" xml:space="preserve">
+    <value>Enter one unused recovery code to sign in.</value>
+  </data>
+<data name="RecoveryCodeText" xml:space="preserve">
+    <value>Recovery code</value>
+  </data>
+<data name="PlaceholderEnterRecoveryCodeText" xml:space="preserve">
+    <value>placeholder = "Enter recovery code"</value>
+  </data>
+<data name="VerifyAndSignInText" xml:space="preserve">
+    <value>Verify and sign in</value>
+  </data>
+<data name="ContactSupportText" xml:space="preserve">
+    <value>Contact support</value>
+  </data>
+<data name="YouAreNotAuthenticateYetDearText" xml:space="preserve">
+    <value>You are not authenticate yet dear</value>
+  </data>
+<data name="YourRecentPaymentWasUnsuccessfulText" xml:space="preserve">
+    <value>Your Recent Payment Was Unsuccessful!</value>
+  </data>
+<data name="HelloText" xml:space="preserve">
+    <value>Hello</value>
+  </data>
+<data name="WeReSorryToInformYouThatYourRecentPaymentForYourAxCryptSubscriptionWasUnsuccessfulText" xml:space="preserve">
+    <value>We're sorry to inform you that your recent payment for your AxCrypt subscription was unsuccessful.</value>
+  </data>
+<data name="YourDataIsAtRiskText" xml:space="preserve">
+    <value>Your data is at risk.</value>
+  </data>
+<data name="WeUrgeYouToReAttemptThePaymentASAPToProtectYourSensitiveDataAndContinueEnjoyingThePaidFeaturesText" xml:space="preserve">
+    <value>We urge you to re-attempt the payment ASAP to &lt;b&gt;protect your sensitive data and continue enjoying the paid features&lt;/b&gt;.</value>
+  </data>
+<data name="WeAreStillKeepingYourDataSecureWhileYouRetryYourPaymentText" xml:space="preserve">
+    <value>We are still keeping your data secure while you retry your payment.</value>
+  </data>
+<data name="YourPaymentFailedDueToTheFollowingReasonSText" xml:space="preserve">
+    <value>Your payment failed due to the following reason(s).</value>
+  </data>
+<data name="CodeText" xml:space="preserve">
+    <value>Code</value>
+  </data>
+<data name="ReasonText" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+<data name="SellerMessageText" xml:space="preserve">
+    <value>Seller Message</value>
+  </data>
+<data name="RetryYourPaymentText" xml:space="preserve">
+    <value>Retry your payment</value>
+  </data>
+<data name="LookingForDifferentWaySToPayText" xml:space="preserve">
+    <value>Looking for different way(s) to pay?</value>
+  </data>
+<data name="WantToUpgradeToADifferentPlanText" xml:space="preserve">
+    <value>Want to upgrade to a different plan?</value>
+  </data>
+<data name="ToChangeYourCurrentSubscriptionPlanText" xml:space="preserve">
+    <value>To change your current subscription plan</value>
+  </data>
+<data name="IfYouHaveAnyIssuesOrNeedAssistancePleaseFeelFreeToContactUsAtSupportAxcryptNetText" xml:space="preserve">
+    <value>If you have any issues or need assistance, please feel free to contact us at &lt;b&gt;&lt;a href="mailto:support@axcrypt.net"&gt;support@axcrypt.net&lt;/a&gt;&lt;/b&gt;</value>
+  </data>
+<data name="SkipGoToMyAxCryptText" xml:space="preserve">
+    <value>Skip &amp; Go to my AxCrypt</value>
+  </data>
+<data name="WatchOurVideoHowToText" xml:space="preserve">
+    <value>Watch our video how to</value>
+  </data>
+<data name="LetSCheckOurText" xml:space="preserve">
+    <value>Let`s check our</value>
+  </data>
+<data name="FAQPageText" xml:space="preserve">
+    <value>FAQ Page</value>
+  </data>
+<data name="OrDescribeYourProblemHereText" xml:space="preserve">
+    <value>Or describe your problem here:</value>
+  </data>
+<data name="UpgradeToPremiumNowText" xml:space="preserve">
+    <value>Upgrade to Premium Now</value>
+  </data>
+<data name="UpgradeToBusinessNowText" xml:space="preserve">
+    <value>Upgrade to Business Now</value>
+  </data>
+<data name="MilitaryGradeEncryptionUnlimitedFilesSecureSharingAndVaultEverythingYouNeedToProtectWhatMattersText" xml:space="preserve">
+    <value>Military-grade encryption, unlimited files, secure sharing and vault - everything you need to protect what matters.</value>
+  </data>
+<data name="UnlockEncryptionAndMoreFeaturesOfAxCryptText" xml:space="preserve">
+    <value>Unlock encryption and more features of&lt;br /&gt;AxCrypt&lt;/h1&gt;</value>
+  </data>
+<data name="FreeText" xml:space="preserve">
+    <value>Free</value>
+  </data>
+<data name="GetStartedWithBasicEncryptionText" xml:space="preserve">
+    <value>Get started with basic encryption</value>
+  </data>
+<data name="EncryptUpTo2FilesMonthText" xml:space="preserve">
+    <value>Encrypt up to 2 files / month</value>
+  </data>
+<data name="Share1KeyWith1UserText" xml:space="preserve">
+    <value>Share 1 key with 1 user</value>
+  </data>
+<data name="AES256EncryptionText" xml:space="preserve">
+    <value>AES-256 Encryption</value>
+  </data>
+<data name="OpenEncryptedFilesText" xml:space="preserve">
+    <value>Open encrypted files</value>
+  </data>
+<data name="AddUpTo10Passwords1ShareText" xml:space="preserve">
+    <value>Add up to 10 passwords, 1 share</value>
+  </data>
+<data name="SecuredMessenger10Messages1ContactText" xml:space="preserve">
+    <value>Secured Messenger - 10 messages, 1 contact</value>
+  </data>
+<data name="SecureVaultText" xml:space="preserve">
+    <value>Secure Vault</value>
+  </data>
+<data name="CloudDriveEncryptionText" xml:space="preserve">
+    <value>Cloud Drive Encryption</value>
+  </data>
+<data name="CurrentPlanText" xml:space="preserve">
+    <value>Current Plan</value>
+  </data>
+<data name="IncludedText" xml:space="preserve">
+    <value>Included</value>
+  </data>
+<data name="PremiumText" xml:space="preserve">
+    <value>Premium</value>
+  </data>
+<data name="EverythingYouNeedForSeriousFileSecurityText" xml:space="preserve">
+    <value>Everything you need for serious file security</value>
+  </data>
+<data name="UnlimitedAES256EncryptionText" xml:space="preserve">
+    <value>&lt;strong&gt;Unlimited&lt;/strong&gt;&amp; AES-256 encryption</value>
+  </data>
+<data name="SecureVaultUnlimitedText" xml:space="preserve">
+    <value>Secure Vault (unlimited)</value>
+  </data>
+<data name="CloudDriveEncryptionText2" xml:space="preserve">
+    <value>Cloud Drive Encryption</value>
+  </data>
+<data name="KeySharingText" xml:space="preserve">
+    <value>Key Sharing</value>
+  </data>
+<data name="BatchEncryptDecryptFoldersPasswordManagerText" xml:space="preserve">
+    <value>Batch encrypt / decrypt folders
+Password Manager</value>
+  </data>
+<data name="SecuredMessengerText" xml:space="preserve">
+    <value>Secured Messenger</value>
+  </data>
+<data name="PrioritySupportLiveChatText" xml:space="preserve">
+    <value>Priority Support + live chat</value>
+  </data>
+<data name="CancelAnytimeText" xml:space="preserve">
+    <value>Cancel anytime</value>
+  </data>
+<data name="BusinessText" xml:space="preserve">
+    <value>Business</value>
+  </data>
+<data name="ForTeamsThatEncryptAndShareTogetherText" xml:space="preserve">
+    <value>For teams that encrypt and share together</value>
+  </data>
+<data name="EverythingFromPremiumText" xml:space="preserve">
+    <value>&lt;strong&gt;Everything&lt;/strong&gt;&amp;nbsp; from Premium</value>
+  </data>
+<data name="ForYourTeamText" xml:space="preserve">
+    <value>For Your Team</value>
+  </data>
+<data name="MasterKeyRecoveryText" xml:space="preserve">
+    <value>Master Key recovery</value>
+  </data>
+<data name="GroupManagementSeatsRolesInvitesText" xml:space="preserve">
+    <value>Group management - seats, roles, invites</value>
+  </data>
+<data name="GroupKeyAccessSharedEncryptionKeysText" xml:space="preserve">
+    <value>Group key access - shared encryption keys</value>
+  </data>
+<data name="SharedTeamVaultText" xml:space="preserve">
+    <value>Shared team vault</value>
+  </data>
+<data name="CentralAdminDashboardText" xml:space="preserve">
+    <value>Central admin dashboard</value>
+  </data>
+<data name="MultiFactorAuthenticationText" xml:space="preserve">
+    <value>Multi factor authentication</value>
+  </data>
+<data name="RoleBasedAccessControlText" xml:space="preserve">
+    <value>Role-based access control</value>
+  </data>
+<data name="HIPAAGDPRNIS2ComplianceText" xml:space="preserve">
+    <value>HIPAA / GDPR / NIS 2 compliance</value>
+  </data>
+<data name="DedicatedAccountManagerText" xml:space="preserve">
+    <value>Dedicated Account Manager</value>
+  </data>
+<data name="CancelAnytimeText2" xml:space="preserve">
+    <value>Cancel anytime</value>
+  </data>
+<data name="AllEncryptionIsLocalWeNeverSeeYourFilesText" xml:space="preserve">
+    <value>All encryption is &lt;strong&gt;local&lt;/strong&gt; - we never see your files</value>
+  </data>
+<data name="AES256MilitaryGradeStandardFileSecurityFromSwedenText" xml:space="preserve">
+    <value>&lt;strong&gt;AES-256&lt;/strong&gt; military-grade standard
+File security from &lt;strong&gt;Sweden&lt;/strong&gt;</value>
+  </data>
+<data name="TrustedBy1000000UsersWorldwideText" xml:space="preserve">
+    <value>Trusted by &lt;strong&gt;1,000,000+&lt;/strong&gt; users worldwide</value>
+  </data>
+<data name="SecureSignInText" xml:space="preserve">
+    <value>Secure sign in</value>
+  </data>
+<data name="VerifyYourIdentityText" xml:space="preserve">
+    <value>Verify your identity</value>
+  </data>
+<data name="ChooseAVerificationMethodAndEnterYour6DigitCodeText" xml:space="preserve">
+    <value>Choose a verification method and enter your 6-digit code.</value>
+  </data>
+<data name="VerificationMethodText" xml:space="preserve">
+    <value>Verification method</value>
+  </data>
+<data name="SendCodeText" xml:space="preserve">
+    <value>Send code</value>
+  </data>
+<data name="VerificationCodeText" xml:space="preserve">
+    <value>Verification code</value>
+  </data>
+<data name="LogInToYourAccountToContinueText" xml:space="preserve">
+    <value>Log in to your account to continue.</value>
+  </data>
+<data name="TextText" xml:space="preserve">
+    <value>&amp;times;</value>
+  </data>
+<data name="PleaseReEnableTwoFactorAuthenticationToSecureYourAccountText" xml:space="preserve">
+    <value>Please re-enable two-factor authentication to secure your account.</value>
+  </data>
+<data name="NoteText" xml:space="preserve">
+    <value>Note:</value>
+  </data>
+<data name="KeepMeSignedInText" xml:space="preserve">
+    <value>Keep me signed in</value>
+  </data>
+<data name="NewToAxCryptText" xml:space="preserve">
+    <value>New to AxCrypt?</value>
+  </data>
+<data name="ToGetStartedWithYourAccountChooseWhetherYouAreSigningUpForText" xml:space="preserve">
+    <value>To get started with your account, choose whether you are signing up for</value>
+  </data>
+<data name="UseAndEnjoyText" xml:space="preserve">
+    <value>use and enjoy</value>
+  </data>
+<data name="GreatForIndividualsText" xml:space="preserve">
+    <value>Great for individuals</value>
+  </data>
+<data name="PerfectForOrganisationsAndTeamsText" xml:space="preserve">
+    <value>Perfect for Organisations&lt;br /&gt; and teams!</value>
+  </data>
+<data name="WARNINGForBetterViewingExperiencePleaseSwitchItToDesktopText" xml:space="preserve">
+    <value>WARNING! For better viewing experience please switch it to desktop.</value>
+  </data>
+<data name="UpgradePlanText" xml:space="preserve">
+    <value>Upgrade plan</value>
+  </data>
+<data name="YourIdentityAndAPIAccessCredentialsText" xml:space="preserve">
+    <value>Your identity and API access credentials</value>
+  </data>
+<data name="StoreAndManageYourEncryptedPasswordsAndSecretsText" xml:space="preserve">
+    <value>Store and manage your encrypted passwords and secrets</value>
+  </data>
+<data name="SendEndToEndEncryptedMessagesSecurelyText" xml:space="preserve">
+    <value>Send end-to-end encrypted messages securely</value>
+  </data>
+<data name="EncryptAndDecryptTextContentWithYourKeyText" xml:space="preserve">
+    <value>Encrypt and decrypt text content with your key</value>
+  </data>
+<data name="PaymentMethodText" xml:space="preserve">
+    <value>Payment method</value>
+  </data>
+<data name="GroupMembershipsText" xml:space="preserve">
+    <value>Group memberships</value>
+  </data>
+<data name="PlaceholderEnterVerificationCodeText" xml:space="preserve">
+    <value>placeholder = "Enter verification code"</value>
+  </data>
+<data name="AreYouSureYouWantToCancelSubscriptionGooglePaymentText" xml:space="preserve">
+    <value>Are you sure you want to cancel subscription?
+GooglePayment</value>
+  </data>
+<data name="AppStoreText" xml:space="preserve">
+    <value>AppStore</value>
+  </data>
+<data name="ChangePlanText" xml:space="preserve">
+    <value>Change Plan</value>
+  </data>
+<data name="PaymentInfoText" xml:space="preserve">
+    <value>Payment Info</value>
+  </data>
+<data name="SecurePortalText" xml:space="preserve">
+    <value>Secure portal</value>
+  </data>
+<data name="ManageYourCardAndBillingDetailsInTheSecureCustomerPortalText" xml:space="preserve">
+    <value>Manage your card and billing details in the secure customer portal.</value>
+  </data>
+<data name="ChooseTheRightPlanForYourSecurityText" xml:space="preserve">
+    <value>Choose the Right Plan for Your Security</value>
+  </data>
+<data name="SecureYourDataAcrossAllDevicesText" xml:space="preserve">
+    <value>Secure your data across all devices</value>
+  </data>
+<data name="ANNUALText" xml:space="preserve">
+    <value>ANNUAL</value>
+  </data>
+<data name="MONTHLYText" xml:space="preserve">
+    <value>MONTHLY</value>
+  </data>
+<data name="PaymentText" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+<data name="SelectedPlanText" xml:space="preserve">
+    <value>Selected Plan</value>
+  </data>
+<data name="SetupCompleteSecurityActivatedText" xml:space="preserve">
+    <value>Setup complete. Security activated!</value>
+  </data>
+<data name="StartProtectingFilesFromYourAppText" xml:space="preserve">
+    <value>Start protecting files from your App..</value>
+  </data>
+<data name="14DaysTrialText" xml:space="preserve">
+    <value>14-days trial</value>
+  </data>
+<data name="QuickTipsToGetMoreFromAxCryptText" xml:space="preserve">
+    <value>Quick tips to get more from AxCrypt</value>
+  </data>
+<data name="LearnTheFeaturesThatMatterMostText" xml:space="preserve">
+    <value>Learn the features that matter most</value>
+  </data>
+<data name="ProtectYourFirstFileText" xml:space="preserve">
+    <value>Protect your first file</value>
+  </data>
+<data name="PickAnyDocumentContractOrPhotoOneClickAndItSLockedOnlyYouCanOpenItEncryptFileText" xml:space="preserve">
+    <value>Pick any document, contract, or photo. One click and it's locked, only you can open it.
+Encrypt file →</value>
+  </data>
+<data name="CloudSecurityText" xml:space="preserve">
+    <value>Cloud Security</value>
+  </data>
+<data name="AutoEncryptFilesBeforeSyncingToGoogleDriveOneDriveICloudOrDropboxText" xml:space="preserve">
+    <value>Auto-encrypt files before syncing to Google Drive, OneDrive, iCloud or Dropbox.</value>
+  </data>
+<data name="SetUpCloudSecurityText" xml:space="preserve">
+    <value>Set up cloud security →</value>
+  </data>
+<data name="SecurelyShareEncryptedFilesText" xml:space="preserve">
+    <value>Securely share encrypted files</value>
+  </data>
+<data name="AllowSecuredFilesToBeOpenedByOtherAxCryptUsersWithTheirOwnPasswordText" xml:space="preserve">
+    <value>Allow secured files to be opened by other AxCrypt users with their own password.</value>
+  </data>
+<data name="ShareEncryptedFilesText" xml:space="preserve">
+    <value>Share encrypted files →</value>
+  </data>
+<data name="MasterKeyText" xml:space="preserve">
+    <value>Master Key</value>
+  </data>
+<data name="MasterKeyIsAFeatureWhichEnablesMasterKeyOwnerAndGroupAdministratorsToRecoverFilesOfTheGroupMembersText" xml:space="preserve">
+    <value>Master key is a feature which enables Master Key Owner and Group Administrators to recover files of the group members.</value>
+  </data>
+<data name="MasterKeyText2" xml:space="preserve">
+    <value>Master Key →</value>
+  </data>
+<data name="GroupManagementText" xml:space="preserve">
+    <value>Group Management</value>
+  </data>
+<data name="ImagineACompanyWithSeveralDepartmentsLikeFinanceHRAndITAxCryptSGroupFeatureAllowsYouToCreateDistinctGroupsForEachDepartmentText" xml:space="preserve">
+    <value>Imagine a company with several departments like Finance, HR, and IT. AxCrypt's Group Feature allows you to create distinct groups for each department.</value>
+  </data>
+<data name="ShareEncryptedFilesText2" xml:space="preserve">
+    <value>Share encrypted files →</value>
+  </data>
+<data name="WhatMakesAStrongPasswordText" xml:space="preserve">
+    <value>What makes a strong password?</value>
+  </data>
+<data name="UseAPassphrase4RandomWordsAreEasyToRememberMixInANumberAndSymbolTreeCloud9Text" xml:space="preserve">
+    <value>Use a passphrase — 4 random words are easy to remember
+Mix in a number and symbol:Tree$Cloud9</value>
+  </data>
+<data name="NeverReuseAPasswordFromAnotherServiceEUBusinessesEnterYourVATRegistrationNumberToPurchaseVATFreeText" xml:space="preserve">
+    <value>Never reuse a password from another service
+EU businesses: enter your VAT registration number to purchase VAT-free.</value>
+  </data>
+<data name="ForIndividualsWhoWantFullFileProtectionOnEveryDeviceText" xml:space="preserve">
+    <value>For individuals who want full file protection on every device</value>
+  </data>
+<data name="ForOrganizationsAndSmallTeamsThatManageAccessTogetherText" xml:space="preserve">
+    <value>For organizations and small teams that manage access together</value>
+  </data>
+<data name="LooksLikeYouRePartOfABusinessAxCryptBusinessAddsTeamManagementSecureSharingAndAdminControlInOnePlaceText" xml:space="preserve">
+    <value>Looks like you're part of a business. AxCrypt Business adds team management, secure sharing, and admin control in one place.</value>
+  </data>
+<data name="ByContinuingYouAgreeToAxCryptSText" xml:space="preserve">
+    <value>By continuing you agree to AxCrypt's</value>
+  </data>
+<data name="SignInToContinueText" xml:space="preserve">
+    <value>Sign in to continue</value>
+  </data>
+<data name="SelectionIsSavedSignInAndWeLlTakeYouStraightToSecureCheckoutText" xml:space="preserve">
+    <value>selection is saved &amp; sign in and we'll take you straight to secure checkout.</value>
+  </data>
+<data name="SignInContinueText" xml:space="preserve">
+    <value>Sign in &amp; continue</value>
+  </data>
+<data name="ZeroKnowledgeByDesignWeNeverSeeYourPasswordText" xml:space="preserve">
+    <value>Zero-knowledge by design &amp; we never see your password.</value>
+  </data>
+<data name="MostPopularText" xml:space="preserve">
+    <value>★ Most Popular</value>
+  </data>
+<data name="BilledAnnuallyText" xml:space="preserve">
+    <value>(billed annually)</value>
+  </data>
+<data name="PERMONTHText" xml:space="preserve">
+    <value>PER MONTH</value>
+  </data>
+<data name="TRYText" xml:space="preserve">
+    <value>TRY</value>
+  </data>
+<data name="CompleteYourAxCryptUpgradeChooseYourAxCryptPlanText" xml:space="preserve">
+    <value>Complete your AxCrypt upgrade
+Choose your AxCrypt plan</value>
+  </data>
+<data name="ContinueWithThePlanThatMatchesYourAxCryptAppAccountCheckoutStartsOnlyAfterYourAccountIsVerifiedText" xml:space="preserve">
+    <value>Continue with the plan that matches your AxCrypt app account. Checkout starts only after your account is verified.</value>
+  </data>
+<data name="CompareFreePremiumAndBusinessBeforeYouCreateOrSignInToYourAxCryptIDText" xml:space="preserve">
+    <value>Compare Free, Premium, and Business before you create or sign in to your AxCrypt ID.</value>
+  </data>
+<data name="Step4PlanText" xml:space="preserve">
+    <value>Step 4 Plan</value>
+  </data>
+<data name="NewUserTrialText" xml:space="preserve">
+    <value>New user trial:</value>
+  </data>
+<data name="PremiumAndBusinessIncludeATrialDaysDayTrialFreeIsStillAvailableIfYouPreferToStartWithoutPaidFeaturesText" xml:space="preserve">
+    <value>Premium and Business include a @trialDays-day trial. Free is still available if you prefer to start without paid features.</value>
+  </data>
+<data name="StartWithBasicFileProtectionText" xml:space="preserve">
+    <value>Start with basic file protection.</value>
+  </data>
+<data name="EncryptUpTo2FilesPerMonthText" xml:space="preserve">
+    <value>Encrypt up to 2 files per month</value>
+  </data>
+<data name="OpenEncryptedFilesText2" xml:space="preserve">
+    <value>Open encrypted files</value>
+  </data>
+<data name="ShareWith1RecipientText" xml:space="preserve">
+    <value>Share with 1 recipient</value>
+  </data>
+<data name="Secure1FolderText" xml:space="preserve">
+    <value>Secure 1 folder</value>
+  </data>
+<data name="ChooseFreeText" xml:space="preserve">
+    <value>Choose Free</value>
+  </data>
+<data name="MostPopularText2" xml:space="preserve">
+    <value>Most popular</value>
+  </data>
+<data name="BestForPrivateIndividualsText" xml:space="preserve">
+    <value>Best for private individuals.</value>
+  </data>
+<data name="OrYearlyWith20DiscountText" xml:space="preserve">
+    <value>or yearly with 20% discount</value>
+  </data>
+<data name="UnlimitedAES256EncryptionText2" xml:space="preserve">
+    <value>Unlimited AES-256 encryption</value>
+  </data>
+<data name="SecureVaultAndBackupText" xml:space="preserve">
+    <value>Secure Vault and backup</value>
+  </data>
+<data name="PasswordManagerSecuredMessengerText" xml:space="preserve">
+    <value>Password Manager
+
+Secured Messenger</value>
+  </data>
+<data name="PrioritySupportText" xml:space="preserve">
+    <value>Priority support</value>
+  </data>
+<data name="ChoosePremiumText" xml:space="preserve">
+    <value>Choose Premium</value>
+  </data>
+<data name="ForOrganizationsAndSmallTeamsText" xml:space="preserve">
+    <value>For organizations and small teams.</value>
+  </data>
+<data name="MonthlyOrYearlyWith20DiscountText" xml:space="preserve">
+    <value>monthly or yearly with 20% discount</value>
+  </data>
+<data name="UserMonthText" xml:space="preserve">
+    <value>/user/month</value>
+  </data>
+<data name="EverythingInPremiumText" xml:space="preserve">
+    <value>Everything in Premium</value>
+  </data>
+<data name="UserAndGroupManagementText" xml:space="preserve">
+    <value>User and group management</value>
+  </data>
+<data name="MasterKeyRecoveryText2" xml:space="preserve">
+    <value>Master key recovery</value>
+  </data>
+<data name="AuditLogAndAdminControlsText" xml:space="preserve">
+    <value>Audit log and admin controls</value>
+  </data>
+<data name="PrioritySupportText2" xml:space="preserve">
+    <value>Priority support</value>
+  </data>
+<data name="ChooseBusinessText" xml:space="preserve">
+    <value>Choose Business</value>
+  </data>
+<data name="ContinueSecurelyText" xml:space="preserve">
+    <value>Continue securely</value>
+  </data>
+<data name="UseYourEmailToCreateAVerifiedAxCryptIDOrSignInWithAnExistingAccountBeforeCheckoutText" xml:space="preserve">
+    <value>Use your email to create a verified AxCrypt ID, or sign in with an existing account before checkout.</value>
+  </data>
+<data name="EmailAddressText" xml:space="preserve">
+    <value>Email address</value>
+  </data>
+<data name="CreateAccountText" xml:space="preserve">
+    <value>Create account</value>
+  </data>
+<data name="SignInText" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+<data name="ExistingAxCryptIDText" xml:space="preserve">
+    <value>Existing AxCrypt ID</value>
+  </data>
+<data name="SignInToContinueText2" xml:space="preserve">
+    <value>Sign in to continue</value>
+  </data>
+<data name="AfterSignInYourSelectedPlanIsLoadedIntoThePurchaseViewForYourVerifiedAccountCredentialsArePostedThroughTheExistingMVCLoginActionSubscriptionActivationStillRequiresTheServerSideVerifiedAccountFlowText" xml:space="preserve">
+    <value>After sign in, your selected plan is loaded into the purchase view for your verified account.
+Credentials are posted through the existing MVC login action. Subscription activation still requires the server-side verified account flow.</value>
+  </data>
+<data name="SignInAndContinueText" xml:space="preserve">
+    <value>Sign in and continue</value>
+  </data>
+<data name="OrderSummaryText" xml:space="preserve">
+    <value>Order summary</value>
+  </data>
+<data name="ReviewBeforeSecureCheckoutText" xml:space="preserve">
+    <value>Review before secure checkout</value>
+  </data>
+<data name="HaveADiscountCodeText" xml:space="preserve">
+    <value>Have a discount code?</value>
+  </data>
+<data name="YourCardIsChargedOnlyAfterTheTrialEndsText" xml:space="preserve">
+    <value>&amp; your card is charged only after the trial ends</value>
+  </data>
+<data name="ApplyText" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+<data name="RemoveText" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+<data name="SubtotalText" xml:space="preserve">
+    <value>Subtotal</value>
+  </data>
+<data name="YearlyDiscountText" xml:space="preserve">
+    <value>Yearly discount</value>
+  </data>
+<data name="VATText" xml:space="preserve">
+    <value>VAT</value>
+  </data>
+<data name="DueTodayText" xml:space="preserve">
+    <value>Due today</value>
+  </data>
+<data name="IAcceptAxCryptSText" xml:space="preserve">
+    <value>I accept AxCrypt's</value>
+  </data>
+<data name="StartYourFreeTrialWithText" xml:space="preserve">
+    <value>Start your free trial with</value>
+  </data>
+<data name="PayText" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+<data name="PalText" xml:space="preserve">
+    <value>Pal</value>
+  </data>
