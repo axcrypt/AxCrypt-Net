@@ -54888,7 +54888,7 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I&apos;m changing my plan.
+        ///   Looks up a localized string similar to Change Plan.
         /// </summary>
         public static string ChangePlanText {
             get {
@@ -96882,7 +96882,7 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;b&gt;Don&apos;t receive an email?&lt;/b&gt; Check your &lt;b&gt;Spam&lt;/b&gt; or click &lt;a id=&quot;send-email-again&quot; href=&quot;javascript:void(0);&quot;&gt;Send again&lt;/a&gt;.
+        ///   Looks up a localized string similar to Resend email.
         /// </summary>
         public static string ResendEmailText {
             get {
@@ -98853,7 +98853,7 @@ namespace AxCrypt.Content {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ensure private, secure communication across devices with AES-256 encryption for intended recipients..
+        ///   Looks up a localized string similar to Secured Messenger.
         /// </summary>
         public static string SecuredMessengerText {
             get {
@@ -108885,6 +108885,2049 @@ namespace AxCrypt.Content {
         public static string ShareKeysNotIncludedInPlanMessage {
             get {
                 return ResourceManager.GetString("ShareKeysNotIncludedInPlanMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reset your password.
+        /// </summary>
+        public static string ResetYourPasswordText {
+            get {
+                return ResourceManager.GetString("ResetYourPasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter your AxCrypt email and we&apos;ll send you a secure reset link..
+        /// </summary>
+        public static string EnterYourAxCryptEmailAndWeLlSendYouASecureResetLinkText {
+            get {
+                return ResourceManager.GetString("EnterYourAxCryptEmailAndWeLlSendYouASecureResetLinkText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Step 1 Request.
+        /// </summary>
+        public static string Step1RequestText {
+            get {
+                return ResourceManager.GetString("Step1RequestText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;b&gt;I understand&lt;/b&gt; that resetting my password means I&apos;ll permanently lose access to files encrypted with my current password..
+        /// </summary>
+        public static string IUnderstandThatResettingMyPasswordMeansILlPermanentlyLoseAccessToFilesEncryptedWithMyCurrentPasswordText {
+            get {
+                return ResourceManager.GetString("IUnderstandThatResettingMyPasswordMeansILlPermanentlyLoseAccessToFilesEncryptedWithMyCurrentPasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Back to sign in.
+        /// </summary>
+        public static string BackToSignInText {
+            get {
+                return ResourceManager.GetString("BackToSignInText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Step 2 Check Email.
+        /// </summary>
+        public static string Step2CheckEmailText {
+            get {
+                return ResourceManager.GetString("Step2CheckEmailText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Check your inbox.
+        /// </summary>
+        public static string CheckYourInboxText {
+            get {
+                return ResourceManager.GetString("CheckYourInboxText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We sent a reset link to &lt;b&gt;@Model.UserEmail&lt;/b&gt;. Click the link in that email to set a new password..
+        /// </summary>
+        public static string WeSentAResetLinkToUserEmailClickTheLinkInThatEmailToSetANewPasswordText {
+            get {
+                return ResourceManager.GetString("WeSentAResetLinkToUserEmailClickTheLinkInThatEmailToSetANewPasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Didn&apos;t receive the email? Check your spam folder, or resend below..
+        /// </summary>
+        public static string DidnTReceiveTheEmailCheckYourSpamFolderOrResendBelowText {
+            get {
+                return ResourceManager.GetString("DidnTReceiveTheEmailCheckYourSpamFolderOrResendBelowText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Step 3  Set Password.
+        /// </summary>
+        public static string Step3SetPasswordText {
+            get {
+                return ResourceManager.GetString("Step3SetPasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set your new password.
+        /// </summary>
+        public static string SetYourNewPasswordText {
+            get {
+                return ResourceManager.GetString("SetYourNewPasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Create a strong, memorable passphrase for.
+        /// </summary>
+        public static string CreateAStrongMemorablePassphraseForText {
+            get {
+                return ResourceManager.GetString("CreateAStrongMemorablePassphraseForText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show passwords.
+        /// </summary>
+        public static string ShowPasswordsText {
+            get {
+                return ResourceManager.GetString("ShowPasswordsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Suggest.
+        /// </summary>
+        public static string SuggestText {
+            get {
+                return ResourceManager.GetString("SuggestText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set new password.
+        /// </summary>
+        public static string SetNewPasswordText {
+            get {
+                return ResourceManager.GetString("SetNewPasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Uppercase and lowercase.
+        /// </summary>
+        public static string UppercaseAndLowercaseText {
+            get {
+                return ResourceManager.GetString("UppercaseAndLowercaseText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confirmation matches.
+        /// </summary>
+        public static string ConfirmationMatchesText {
+            get {
+                return ResourceManager.GetString("ConfirmationMatchesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use a passphrase you can remember. Avoid reusing passwords from other services..
+        /// </summary>
+        public static string UseAPassphraseYouCanRememberAvoidReusingPasswordsFromOtherServicesText {
+            get {
+                return ResourceManager.GetString("UseAPassphraseYouCanRememberAvoidReusingPasswordsFromOtherServicesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Step 3  Set Password.
+        /// </summary>
+        public static string Step3SetPasswordText2 {
+            get {
+                return ResourceManager.GetString("Step3SetPasswordText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Link expired.
+        /// </summary>
+        public static string LinkExpiredText {
+            get {
+                return ResourceManager.GetString("LinkExpiredText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This password-reset link has expired or already been used. Request a new one..
+        /// </summary>
+        public static string ThisPasswordResetLinkHasExpiredOrAlreadyBeenUsedRequestANewOneText {
+            get {
+                return ResourceManager.GetString("ThisPasswordResetLinkHasExpiredOrAlreadyBeenUsedRequestANewOneText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Request new link.
+        /// </summary>
+        public static string RequestNewLinkText {
+            get {
+                return ResourceManager.GetString("RequestNewLinkText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to One More Step to Get Started.
+        /// </summary>
+        public static string OneMoreStepToGetStartedText {
+            get {
+                return ResourceManager.GetString("OneMoreStepToGetStartedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your account setup isn’t finished yet..
+        /// </summary>
+        public static string YourAccountSetupIsnTFinishedYetText {
+            get {
+                return ResourceManager.GetString("YourAccountSetupIsnTFinishedYetText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose a plan to unlock encryption features and start using the app..
+        /// </summary>
+        public static string ChooseAPlanToUnlockEncryptionFeaturesAndStartUsingTheAppText {
+            get {
+                return ResourceManager.GetString("ChooseAPlanToUnlockEncryptionFeaturesAndStartUsingTheAppText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose Private Plan.
+        /// </summary>
+        public static string ChoosePrivatePlanText {
+            get {
+                return ResourceManager.GetString("ChoosePrivatePlanText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You need to select a plan to continue using AxCrypt.
+        /// </summary>
+        public static string YouNeedToSelectAPlanToContinueUsingAxCryptText {
+            get {
+                return ResourceManager.GetString("YouNeedToSelectAPlanToContinueUsingAxCryptText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use this page to detail your site&apos;s privacy policy..
+        /// </summary>
+        public static string UseThisPageToDetailYourSiteSPrivacyPolicyText {
+            get {
+                return ResourceManager.GetString("UseThisPageToDetailYourSiteSPrivacyPolicyText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to value=&quot;Sign In &amp; Try For Free Now&quot;.
+        /// </summary>
+        public static string ValueSignInTryForFreeNowText {
+            get {
+                return ResourceManager.GetString("ValueSignInTryForFreeNowText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Account recovery.
+        /// </summary>
+        public static string AccountRecoveryText {
+            get {
+                return ResourceManager.GetString("AccountRecoveryText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use a recovery code.
+        /// </summary>
+        public static string UseARecoveryCodeText {
+            get {
+                return ResourceManager.GetString("UseARecoveryCodeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enter one unused recovery code to sign in..
+        /// </summary>
+        public static string EnterOneUnusedRecoveryCodeToSignInText {
+            get {
+                return ResourceManager.GetString("EnterOneUnusedRecoveryCodeToSignInText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Recovery code.
+        /// </summary>
+        public static string RecoveryCodeText {
+            get {
+                return ResourceManager.GetString("RecoveryCodeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to placeholder = &quot;Enter recovery code&quot;.
+        /// </summary>
+        public static string PlaceholderEnterRecoveryCodeText {
+            get {
+                return ResourceManager.GetString("PlaceholderEnterRecoveryCodeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Verify and sign in.
+        /// </summary>
+        public static string VerifyAndSignInText {
+            get {
+                return ResourceManager.GetString("VerifyAndSignInText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contact support.
+        /// </summary>
+        public static string ContactSupportText {
+            get {
+                return ResourceManager.GetString("ContactSupportText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You are not authenticate yet dear.
+        /// </summary>
+        public static string YouAreNotAuthenticateYetDearText {
+            get {
+                return ResourceManager.GetString("YouAreNotAuthenticateYetDearText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your Recent Payment Was Unsuccessful!.
+        /// </summary>
+        public static string YourRecentPaymentWasUnsuccessfulText {
+            get {
+                return ResourceManager.GetString("YourRecentPaymentWasUnsuccessfulText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hello.
+        /// </summary>
+        public static string HelloText {
+            get {
+                return ResourceManager.GetString("HelloText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We&apos;re sorry to inform you that your recent payment for your AxCrypt subscription was unsuccessful..
+        /// </summary>
+        public static string WeReSorryToInformYouThatYourRecentPaymentForYourAxCryptSubscriptionWasUnsuccessfulText {
+            get {
+                return ResourceManager.GetString("WeReSorryToInformYouThatYourRecentPaymentForYourAxCryptSubscriptionWasUnsuccessfulText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your data is at risk..
+        /// </summary>
+        public static string YourDataIsAtRiskText {
+            get {
+                return ResourceManager.GetString("YourDataIsAtRiskText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We urge you to re-attempt the payment ASAP to &lt;b&gt;protect your sensitive data and continue enjoying the paid features&lt;/b&gt;..
+        /// </summary>
+        public static string WeUrgeYouToReAttemptThePaymentASAPToProtectYourSensitiveDataAndContinueEnjoyingThePaidFeaturesText {
+            get {
+                return ResourceManager.GetString("WeUrgeYouToReAttemptThePaymentASAPToProtectYourSensitiveDataAndContinueEnjoyingThePaidFeaturesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We are still keeping your data secure while you retry your payment..
+        /// </summary>
+        public static string WeAreStillKeepingYourDataSecureWhileYouRetryYourPaymentText {
+            get {
+                return ResourceManager.GetString("WeAreStillKeepingYourDataSecureWhileYouRetryYourPaymentText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your payment failed due to the following reason(s)..
+        /// </summary>
+        public static string YourPaymentFailedDueToTheFollowingReasonSText {
+            get {
+                return ResourceManager.GetString("YourPaymentFailedDueToTheFollowingReasonSText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Code.
+        /// </summary>
+        public static string CodeText {
+            get {
+                return ResourceManager.GetString("CodeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reason.
+        /// </summary>
+        public static string ReasonText {
+            get {
+                return ResourceManager.GetString("ReasonText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Seller Message.
+        /// </summary>
+        public static string SellerMessageText {
+            get {
+                return ResourceManager.GetString("SellerMessageText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Retry your payment.
+        /// </summary>
+        public static string RetryYourPaymentText {
+            get {
+                return ResourceManager.GetString("RetryYourPaymentText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Looking for different way(s) to pay?.
+        /// </summary>
+        public static string LookingForDifferentWaySToPayText {
+            get {
+                return ResourceManager.GetString("LookingForDifferentWaySToPayText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Want to upgrade to a different plan?.
+        /// </summary>
+        public static string WantToUpgradeToADifferentPlanText {
+            get {
+                return ResourceManager.GetString("WantToUpgradeToADifferentPlanText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to To change your current subscription plan.
+        /// </summary>
+        public static string ToChangeYourCurrentSubscriptionPlanText {
+            get {
+                return ResourceManager.GetString("ToChangeYourCurrentSubscriptionPlanText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If you have any issues or need assistance, please feel free to contact us at &lt;b&gt;&lt;a href=&quot;mailto:support@axcrypt.net&quot;&gt;support@axcrypt.net&lt;/a&gt;&lt;/b&gt;.
+        /// </summary>
+        public static string IfYouHaveAnyIssuesOrNeedAssistancePleaseFeelFreeToContactUsAtSupportAxcryptNetText {
+            get {
+                return ResourceManager.GetString("IfYouHaveAnyIssuesOrNeedAssistancePleaseFeelFreeToContactUsAtSupportAxcryptNetText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Skip &amp; Go to my AxCrypt.
+        /// </summary>
+        public static string SkipGoToMyAxCryptText {
+            get {
+                return ResourceManager.GetString("SkipGoToMyAxCryptText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Watch our video how to.
+        /// </summary>
+        public static string WatchOurVideoHowToText {
+            get {
+                return ResourceManager.GetString("WatchOurVideoHowToText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Let`s check our.
+        /// </summary>
+        public static string LetSCheckOurText {
+            get {
+                return ResourceManager.GetString("LetSCheckOurText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to FAQ Page.
+        /// </summary>
+        public static string FAQPageText {
+            get {
+                return ResourceManager.GetString("FAQPageText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Or describe your problem here:.
+        /// </summary>
+        public static string OrDescribeYourProblemHereText {
+            get {
+                return ResourceManager.GetString("OrDescribeYourProblemHereText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Upgrade to Premium Now.
+        /// </summary>
+        public static string UpgradeToPremiumNowText {
+            get {
+                return ResourceManager.GetString("UpgradeToPremiumNowText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Upgrade to Business Now.
+        /// </summary>
+        public static string UpgradeToBusinessNowText {
+            get {
+                return ResourceManager.GetString("UpgradeToBusinessNowText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Military-grade encryption, unlimited files, secure sharing and vault - everything you need to protect what matters..
+        /// </summary>
+        public static string MilitaryGradeEncryptionUnlimitedFilesSecureSharingAndVaultEverythingYouNeedToProtectWhatMattersText {
+            get {
+                return ResourceManager.GetString("MilitaryGradeEncryptionUnlimitedFilesSecureSharingAndVaultEverythingYouNeedToProtectWhatMattersText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unlock encryption and more features of&lt;br /&gt;AxCrypt&lt;/h1&gt;.
+        /// </summary>
+        public static string UnlockEncryptionAndMoreFeaturesOfAxCryptText {
+            get {
+                return ResourceManager.GetString("UnlockEncryptionAndMoreFeaturesOfAxCryptText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Free.
+        /// </summary>
+        public static string FreeText {
+            get {
+                return ResourceManager.GetString("FreeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Get started with basic encryption.
+        /// </summary>
+        public static string GetStartedWithBasicEncryptionText {
+            get {
+                return ResourceManager.GetString("GetStartedWithBasicEncryptionText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Encrypt up to 2 files / month.
+        /// </summary>
+        public static string EncryptUpTo2FilesMonthText {
+            get {
+                return ResourceManager.GetString("EncryptUpTo2FilesMonthText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Share 1 key with 1 user.
+        /// </summary>
+        public static string Share1KeyWith1UserText {
+            get {
+                return ResourceManager.GetString("Share1KeyWith1UserText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to AES-256 Encryption.
+        /// </summary>
+        public static string AES256EncryptionText {
+            get {
+                return ResourceManager.GetString("AES256EncryptionText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open encrypted files.
+        /// </summary>
+        public static string OpenEncryptedFilesText {
+            get {
+                return ResourceManager.GetString("OpenEncryptedFilesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add up to 10 passwords, 1 share.
+        /// </summary>
+        public static string AddUpTo10Passwords1ShareText {
+            get {
+                return ResourceManager.GetString("AddUpTo10Passwords1ShareText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Secured Messenger - 10 messages, 1 contact.
+        /// </summary>
+        public static string SecuredMessenger10Messages1ContactText {
+            get {
+                return ResourceManager.GetString("SecuredMessenger10Messages1ContactText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Secure Vault.
+        /// </summary>
+        public static string SecureVaultText {
+            get {
+                return ResourceManager.GetString("SecureVaultText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cloud Drive Encryption.
+        /// </summary>
+        public static string CloudDriveEncryptionText {
+            get {
+                return ResourceManager.GetString("CloudDriveEncryptionText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current Plan.
+        /// </summary>
+        public static string CurrentPlanText {
+            get {
+                return ResourceManager.GetString("CurrentPlanText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Included.
+        /// </summary>
+        public static string IncludedText {
+            get {
+                return ResourceManager.GetString("IncludedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Premium.
+        /// </summary>
+        public static string PremiumText {
+            get {
+                return ResourceManager.GetString("PremiumText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Everything you need for serious file security.
+        /// </summary>
+        public static string EverythingYouNeedForSeriousFileSecurityText {
+            get {
+                return ResourceManager.GetString("EverythingYouNeedForSeriousFileSecurityText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;strong&gt;Unlimited&lt;/strong&gt;&amp; AES-256 encryption.
+        /// </summary>
+        public static string UnlimitedAES256EncryptionText {
+            get {
+                return ResourceManager.GetString("UnlimitedAES256EncryptionText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Secure Vault (unlimited).
+        /// </summary>
+        public static string SecureVaultUnlimitedText {
+            get {
+                return ResourceManager.GetString("SecureVaultUnlimitedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cloud Drive Encryption.
+        /// </summary>
+        public static string CloudDriveEncryptionText2 {
+            get {
+                return ResourceManager.GetString("CloudDriveEncryptionText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Key Sharing.
+        /// </summary>
+        public static string KeySharingText {
+            get {
+                return ResourceManager.GetString("KeySharingText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Batch encrypt / decrypt folders Password Manager.
+        /// </summary>
+        public static string BatchEncryptDecryptFoldersPasswordManagerText {
+            get {
+                return ResourceManager.GetString("BatchEncryptDecryptFoldersPasswordManagerText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Priority Support + live chat.
+        /// </summary>
+        public static string PrioritySupportLiveChatText {
+            get {
+                return ResourceManager.GetString("PrioritySupportLiveChatText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cancel anytime.
+        /// </summary>
+        public static string CancelAnytimeText {
+            get {
+                return ResourceManager.GetString("CancelAnytimeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Business.
+        /// </summary>
+        public static string BusinessText {
+            get {
+                return ResourceManager.GetString("BusinessText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to For teams that encrypt and share together.
+        /// </summary>
+        public static string ForTeamsThatEncryptAndShareTogetherText {
+            get {
+                return ResourceManager.GetString("ForTeamsThatEncryptAndShareTogetherText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;strong&gt;Everything&lt;/strong&gt;&amp;nbsp; from Premium.
+        /// </summary>
+        public static string EverythingFromPremiumText {
+            get {
+                return ResourceManager.GetString("EverythingFromPremiumText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to For Your Team.
+        /// </summary>
+        public static string ForYourTeamText {
+            get {
+                return ResourceManager.GetString("ForYourTeamText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Master Key recovery.
+        /// </summary>
+        public static string MasterKeyRecoveryText {
+            get {
+                return ResourceManager.GetString("MasterKeyRecoveryText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Group management - seats, roles, invites.
+        /// </summary>
+        public static string GroupManagementSeatsRolesInvitesText {
+            get {
+                return ResourceManager.GetString("GroupManagementSeatsRolesInvitesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Group key access - shared encryption keys.
+        /// </summary>
+        public static string GroupKeyAccessSharedEncryptionKeysText {
+            get {
+                return ResourceManager.GetString("GroupKeyAccessSharedEncryptionKeysText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shared team vault.
+        /// </summary>
+        public static string SharedTeamVaultText {
+            get {
+                return ResourceManager.GetString("SharedTeamVaultText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Central admin dashboard.
+        /// </summary>
+        public static string CentralAdminDashboardText {
+            get {
+                return ResourceManager.GetString("CentralAdminDashboardText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Multi factor authentication.
+        /// </summary>
+        public static string MultiFactorAuthenticationText {
+            get {
+                return ResourceManager.GetString("MultiFactorAuthenticationText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Role-based access control.
+        /// </summary>
+        public static string RoleBasedAccessControlText {
+            get {
+                return ResourceManager.GetString("RoleBasedAccessControlText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to HIPAA / GDPR / NIS 2 compliance.
+        /// </summary>
+        public static string HIPAAGDPRNIS2ComplianceText {
+            get {
+                return ResourceManager.GetString("HIPAAGDPRNIS2ComplianceText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dedicated Account Manager.
+        /// </summary>
+        public static string DedicatedAccountManagerText {
+            get {
+                return ResourceManager.GetString("DedicatedAccountManagerText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cancel anytime.
+        /// </summary>
+        public static string CancelAnytimeText2 {
+            get {
+                return ResourceManager.GetString("CancelAnytimeText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All encryption is &lt;strong&gt;local&lt;/strong&gt; - we never see your files.
+        /// </summary>
+        public static string AllEncryptionIsLocalWeNeverSeeYourFilesText {
+            get {
+                return ResourceManager.GetString("AllEncryptionIsLocalWeNeverSeeYourFilesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;strong&gt;AES-256&lt;/strong&gt; military-grade standard File security from &lt;strong&gt;Sweden&lt;/strong&gt;.
+        /// </summary>
+        public static string AES256MilitaryGradeStandardFileSecurityFromSwedenText {
+            get {
+                return ResourceManager.GetString("AES256MilitaryGradeStandardFileSecurityFromSwedenText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Trusted by &lt;strong&gt;1,000,000+&lt;/strong&gt; users worldwide.
+        /// </summary>
+        public static string TrustedBy1000000UsersWorldwideText {
+            get {
+                return ResourceManager.GetString("TrustedBy1000000UsersWorldwideText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Secure sign in.
+        /// </summary>
+        public static string SecureSignInText {
+            get {
+                return ResourceManager.GetString("SecureSignInText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Verify your identity.
+        /// </summary>
+        public static string VerifyYourIdentityText {
+            get {
+                return ResourceManager.GetString("VerifyYourIdentityText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose a verification method and enter your 6-digit code..
+        /// </summary>
+        public static string ChooseAVerificationMethodAndEnterYour6DigitCodeText {
+            get {
+                return ResourceManager.GetString("ChooseAVerificationMethodAndEnterYour6DigitCodeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Verification method.
+        /// </summary>
+        public static string VerificationMethodText {
+            get {
+                return ResourceManager.GetString("VerificationMethodText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send code.
+        /// </summary>
+        public static string SendCodeText {
+            get {
+                return ResourceManager.GetString("SendCodeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Verification code.
+        /// </summary>
+        public static string VerificationCodeText {
+            get {
+                return ResourceManager.GetString("VerificationCodeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Log in to your account to continue..
+        /// </summary>
+        public static string LogInToYourAccountToContinueText {
+            get {
+                return ResourceManager.GetString("LogInToYourAccountToContinueText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp;times;.
+        /// </summary>
+        public static string TextText {
+            get {
+                return ResourceManager.GetString("TextText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please re-enable two-factor authentication to secure your account..
+        /// </summary>
+        public static string PleaseReEnableTwoFactorAuthenticationToSecureYourAccountText {
+            get {
+                return ResourceManager.GetString("PleaseReEnableTwoFactorAuthenticationToSecureYourAccountText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Note:.
+        /// </summary>
+        public static string NoteText {
+            get {
+                return ResourceManager.GetString("NoteText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Keep me signed in.
+        /// </summary>
+        public static string KeepMeSignedInText {
+            get {
+                return ResourceManager.GetString("KeepMeSignedInText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New to AxCrypt?.
+        /// </summary>
+        public static string NewToAxCryptText {
+            get {
+                return ResourceManager.GetString("NewToAxCryptText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to To get started with your account, choose whether you are signing up for.
+        /// </summary>
+        public static string ToGetStartedWithYourAccountChooseWhetherYouAreSigningUpForText {
+            get {
+                return ResourceManager.GetString("ToGetStartedWithYourAccountChooseWhetherYouAreSigningUpForText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to use and enjoy.
+        /// </summary>
+        public static string UseAndEnjoyText {
+            get {
+                return ResourceManager.GetString("UseAndEnjoyText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Great for individuals.
+        /// </summary>
+        public static string GreatForIndividualsText {
+            get {
+                return ResourceManager.GetString("GreatForIndividualsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Perfect for Organisations&lt;br /&gt; and teams!.
+        /// </summary>
+        public static string PerfectForOrganisationsAndTeamsText {
+            get {
+                return ResourceManager.GetString("PerfectForOrganisationsAndTeamsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to WARNING! For better viewing experience please switch it to desktop..
+        /// </summary>
+        public static string WARNINGForBetterViewingExperiencePleaseSwitchItToDesktopText {
+            get {
+                return ResourceManager.GetString("WARNINGForBetterViewingExperiencePleaseSwitchItToDesktopText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Upgrade plan.
+        /// </summary>
+        public static string UpgradePlanText {
+            get {
+                return ResourceManager.GetString("UpgradePlanText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your identity and API access credentials.
+        /// </summary>
+        public static string YourIdentityAndAPIAccessCredentialsText {
+            get {
+                return ResourceManager.GetString("YourIdentityAndAPIAccessCredentialsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Store and manage your encrypted passwords and secrets.
+        /// </summary>
+        public static string StoreAndManageYourEncryptedPasswordsAndSecretsText {
+            get {
+                return ResourceManager.GetString("StoreAndManageYourEncryptedPasswordsAndSecretsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send end-to-end encrypted messages securely.
+        /// </summary>
+        public static string SendEndToEndEncryptedMessagesSecurelyText {
+            get {
+                return ResourceManager.GetString("SendEndToEndEncryptedMessagesSecurelyText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Encrypt and decrypt text content with your key.
+        /// </summary>
+        public static string EncryptAndDecryptTextContentWithYourKeyText {
+            get {
+                return ResourceManager.GetString("EncryptAndDecryptTextContentWithYourKeyText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Payment method.
+        /// </summary>
+        public static string PaymentMethodText {
+            get {
+                return ResourceManager.GetString("PaymentMethodText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Group memberships.
+        /// </summary>
+        public static string GroupMembershipsText {
+            get {
+                return ResourceManager.GetString("GroupMembershipsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to placeholder = &quot;Enter verification code&quot;.
+        /// </summary>
+        public static string PlaceholderEnterVerificationCodeText {
+            get {
+                return ResourceManager.GetString("PlaceholderEnterVerificationCodeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Are you sure you want to cancel subscription? GooglePayment.
+        /// </summary>
+        public static string AreYouSureYouWantToCancelSubscriptionGooglePaymentText {
+            get {
+                return ResourceManager.GetString("AreYouSureYouWantToCancelSubscriptionGooglePaymentText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to AppStore.
+        /// </summary>
+        public static string AppStoreText {
+            get {
+                return ResourceManager.GetString("AppStoreText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Payment Info.
+        /// </summary>
+        public static string PaymentInfoText {
+            get {
+                return ResourceManager.GetString("PaymentInfoText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Secure portal.
+        /// </summary>
+        public static string SecurePortalText {
+            get {
+                return ResourceManager.GetString("SecurePortalText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Manage your card and billing details in the secure customer portal..
+        /// </summary>
+        public static string ManageYourCardAndBillingDetailsInTheSecureCustomerPortalText {
+            get {
+                return ResourceManager.GetString("ManageYourCardAndBillingDetailsInTheSecureCustomerPortalText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose the Right Plan for Your Security.
+        /// </summary>
+        public static string ChooseTheRightPlanForYourSecurityText {
+            get {
+                return ResourceManager.GetString("ChooseTheRightPlanForYourSecurityText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Secure your data across all devices.
+        /// </summary>
+        public static string SecureYourDataAcrossAllDevicesText {
+            get {
+                return ResourceManager.GetString("SecureYourDataAcrossAllDevicesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ANNUAL.
+        /// </summary>
+        public static string ANNUALText {
+            get {
+                return ResourceManager.GetString("ANNUALText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MONTHLY.
+        /// </summary>
+        public static string MONTHLYText {
+            get {
+                return ResourceManager.GetString("MONTHLYText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Payment.
+        /// </summary>
+        public static string PaymentText {
+            get {
+                return ResourceManager.GetString("PaymentText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Selected Plan.
+        /// </summary>
+        public static string SelectedPlanText {
+            get {
+                return ResourceManager.GetString("SelectedPlanText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Setup complete. Security activated!.
+        /// </summary>
+        public static string SetupCompleteSecurityActivatedText {
+            get {
+                return ResourceManager.GetString("SetupCompleteSecurityActivatedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start protecting files from your App...
+        /// </summary>
+        public static string StartProtectingFilesFromYourAppText {
+            get {
+                return ResourceManager.GetString("StartProtectingFilesFromYourAppText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 14-days trial.
+        /// </summary>
+        public static string _14DaysTrialText {
+            get {
+                return ResourceManager.GetString("14DaysTrialText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quick tips to get more from AxCrypt.
+        /// </summary>
+        public static string QuickTipsToGetMoreFromAxCryptText {
+            get {
+                return ResourceManager.GetString("QuickTipsToGetMoreFromAxCryptText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Learn the features that matter most.
+        /// </summary>
+        public static string LearnTheFeaturesThatMatterMostText {
+            get {
+                return ResourceManager.GetString("LearnTheFeaturesThatMatterMostText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Protect your first file.
+        /// </summary>
+        public static string ProtectYourFirstFileText {
+            get {
+                return ResourceManager.GetString("ProtectYourFirstFileText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pick any document, contract, or photo. One click and it&apos;s locked, only you can open it. Encrypt file →.
+        /// </summary>
+        public static string PickAnyDocumentContractOrPhotoOneClickAndItSLockedOnlyYouCanOpenItEncryptFileText {
+            get {
+                return ResourceManager.GetString("PickAnyDocumentContractOrPhotoOneClickAndItSLockedOnlyYouCanOpenItEncryptFileText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cloud Security.
+        /// </summary>
+        public static string CloudSecurityText {
+            get {
+                return ResourceManager.GetString("CloudSecurityText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Auto-encrypt files before syncing to Google Drive, OneDrive, iCloud or Dropbox..
+        /// </summary>
+        public static string AutoEncryptFilesBeforeSyncingToGoogleDriveOneDriveICloudOrDropboxText {
+            get {
+                return ResourceManager.GetString("AutoEncryptFilesBeforeSyncingToGoogleDriveOneDriveICloudOrDropboxText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set up cloud security →.
+        /// </summary>
+        public static string SetUpCloudSecurityText {
+            get {
+                return ResourceManager.GetString("SetUpCloudSecurityText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Securely share encrypted files.
+        /// </summary>
+        public static string SecurelyShareEncryptedFilesText {
+            get {
+                return ResourceManager.GetString("SecurelyShareEncryptedFilesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Allow secured files to be opened by other AxCrypt users with their own password..
+        /// </summary>
+        public static string AllowSecuredFilesToBeOpenedByOtherAxCryptUsersWithTheirOwnPasswordText {
+            get {
+                return ResourceManager.GetString("AllowSecuredFilesToBeOpenedByOtherAxCryptUsersWithTheirOwnPasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Share encrypted files →.
+        /// </summary>
+        public static string ShareEncryptedFilesText {
+            get {
+                return ResourceManager.GetString("ShareEncryptedFilesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Master Key.
+        /// </summary>
+        public static string MasterKeyText {
+            get {
+                return ResourceManager.GetString("MasterKeyText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Master key is a feature which enables Master Key Owner and Group Administrators to recover files of the group members..
+        /// </summary>
+        public static string MasterKeyIsAFeatureWhichEnablesMasterKeyOwnerAndGroupAdministratorsToRecoverFilesOfTheGroupMembersText {
+            get {
+                return ResourceManager.GetString("MasterKeyIsAFeatureWhichEnablesMasterKeyOwnerAndGroupAdministratorsToRecoverFilesOfTheGroupMembersText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Master Key →.
+        /// </summary>
+        public static string MasterKeyText2 {
+            get {
+                return ResourceManager.GetString("MasterKeyText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Group Management.
+        /// </summary>
+        public static string GroupManagementText {
+            get {
+                return ResourceManager.GetString("GroupManagementText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Imagine a company with several departments like Finance, HR, and IT. AxCrypt&apos;s Group Feature allows you to create distinct groups for each department..
+        /// </summary>
+        public static string ImagineACompanyWithSeveralDepartmentsLikeFinanceHRAndITAxCryptSGroupFeatureAllowsYouToCreateDistinctGroupsForEachDepartmentText {
+            get {
+                return ResourceManager.GetString("ImagineACompanyWithSeveralDepartmentsLikeFinanceHRAndITAxCryptSGroupFeatureAllowsYouToCreateDistinctGroupsForEachDepartmentText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Share encrypted files →.
+        /// </summary>
+        public static string ShareEncryptedFilesText2 {
+            get {
+                return ResourceManager.GetString("ShareEncryptedFilesText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to What makes a strong password?.
+        /// </summary>
+        public static string WhatMakesAStrongPasswordText {
+            get {
+                return ResourceManager.GetString("WhatMakesAStrongPasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use a passphrase — 4 random words are easy to remember Mix in a number and symbol:Tree$Cloud9.
+        /// </summary>
+        public static string UseAPassphrase4RandomWordsAreEasyToRememberMixInANumberAndSymbolTreeCloud9Text {
+            get {
+                return ResourceManager.GetString("UseAPassphrase4RandomWordsAreEasyToRememberMixInANumberAndSymbolTreeCloud9Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Never reuse a password from another service EU businesses: enter your VAT registration number to purchase VAT-free..
+        /// </summary>
+        public static string NeverReuseAPasswordFromAnotherServiceEUBusinessesEnterYourVATRegistrationNumberToPurchaseVATFreeText {
+            get {
+                return ResourceManager.GetString("NeverReuseAPasswordFromAnotherServiceEUBusinessesEnterYourVATRegistrationNumberToPurchaseVATFreeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to For individuals who want full file protection on every device.
+        /// </summary>
+        public static string ForIndividualsWhoWantFullFileProtectionOnEveryDeviceText {
+            get {
+                return ResourceManager.GetString("ForIndividualsWhoWantFullFileProtectionOnEveryDeviceText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to For organizations and small teams that manage access together.
+        /// </summary>
+        public static string ForOrganizationsAndSmallTeamsThatManageAccessTogetherText {
+            get {
+                return ResourceManager.GetString("ForOrganizationsAndSmallTeamsThatManageAccessTogetherText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Looks like you&apos;re part of a business. AxCrypt Business adds team management, secure sharing, and admin control in one place..
+        /// </summary>
+        public static string LooksLikeYouRePartOfABusinessAxCryptBusinessAddsTeamManagementSecureSharingAndAdminControlInOnePlaceText {
+            get {
+                return ResourceManager.GetString("LooksLikeYouRePartOfABusinessAxCryptBusinessAddsTeamManagementSecureSharingAndAdminControlInOnePlaceText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to By continuing you agree to AxCrypt&apos;s.
+        /// </summary>
+        public static string ByContinuingYouAgreeToAxCryptSText {
+            get {
+                return ResourceManager.GetString("ByContinuingYouAgreeToAxCryptSText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sign in to continue.
+        /// </summary>
+        public static string SignInToContinueText {
+            get {
+                return ResourceManager.GetString("SignInToContinueText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to selection is saved &amp; sign in and we&apos;ll take you straight to secure checkout..
+        /// </summary>
+        public static string SelectionIsSavedSignInAndWeLlTakeYouStraightToSecureCheckoutText {
+            get {
+                return ResourceManager.GetString("SelectionIsSavedSignInAndWeLlTakeYouStraightToSecureCheckoutText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sign in &amp; continue.
+        /// </summary>
+        public static string SignInContinueText {
+            get {
+                return ResourceManager.GetString("SignInContinueText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zero-knowledge by design &amp; we never see your password..
+        /// </summary>
+        public static string ZeroKnowledgeByDesignWeNeverSeeYourPasswordText {
+            get {
+                return ResourceManager.GetString("ZeroKnowledgeByDesignWeNeverSeeYourPasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ★ Most Popular.
+        /// </summary>
+        public static string MostPopularText {
+            get {
+                return ResourceManager.GetString("MostPopularText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (billed annually).
+        /// </summary>
+        public static string BilledAnnuallyText {
+            get {
+                return ResourceManager.GetString("BilledAnnuallyText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PER MONTH.
+        /// </summary>
+        public static string PERMONTHText {
+            get {
+                return ResourceManager.GetString("PERMONTHText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TRY.
+        /// </summary>
+        public static string TRYText {
+            get {
+                return ResourceManager.GetString("TRYText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Complete your AxCrypt upgrade Choose your AxCrypt plan.
+        /// </summary>
+        public static string CompleteYourAxCryptUpgradeChooseYourAxCryptPlanText {
+            get {
+                return ResourceManager.GetString("CompleteYourAxCryptUpgradeChooseYourAxCryptPlanText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Continue with the plan that matches your AxCrypt app account. Checkout starts only after your account is verified..
+        /// </summary>
+        public static string ContinueWithThePlanThatMatchesYourAxCryptAppAccountCheckoutStartsOnlyAfterYourAccountIsVerifiedText {
+            get {
+                return ResourceManager.GetString("ContinueWithThePlanThatMatchesYourAxCryptAppAccountCheckoutStartsOnlyAfterYourAccountIsVerifiedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Compare Free, Premium, and Business before you create or sign in to your AxCrypt ID..
+        /// </summary>
+        public static string CompareFreePremiumAndBusinessBeforeYouCreateOrSignInToYourAxCryptIDText {
+            get {
+                return ResourceManager.GetString("CompareFreePremiumAndBusinessBeforeYouCreateOrSignInToYourAxCryptIDText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Step 4 Plan.
+        /// </summary>
+        public static string Step4PlanText {
+            get {
+                return ResourceManager.GetString("Step4PlanText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to New user trial:.
+        /// </summary>
+        public static string NewUserTrialText {
+            get {
+                return ResourceManager.GetString("NewUserTrialText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Premium and Business include a @trialDays-day trial. Free is still available if you prefer to start without paid features..
+        /// </summary>
+        public static string PremiumAndBusinessIncludeATrialDaysDayTrialFreeIsStillAvailableIfYouPreferToStartWithoutPaidFeaturesText {
+            get {
+                return ResourceManager.GetString("PremiumAndBusinessIncludeATrialDaysDayTrialFreeIsStillAvailableIfYouPreferToStartWithoutPaidFeaturesText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start with basic file protection..
+        /// </summary>
+        public static string StartWithBasicFileProtectionText {
+            get {
+                return ResourceManager.GetString("StartWithBasicFileProtectionText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Encrypt up to 2 files per month.
+        /// </summary>
+        public static string EncryptUpTo2FilesPerMonthText {
+            get {
+                return ResourceManager.GetString("EncryptUpTo2FilesPerMonthText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open encrypted files.
+        /// </summary>
+        public static string OpenEncryptedFilesText2 {
+            get {
+                return ResourceManager.GetString("OpenEncryptedFilesText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Share with 1 recipient.
+        /// </summary>
+        public static string ShareWith1RecipientText {
+            get {
+                return ResourceManager.GetString("ShareWith1RecipientText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Secure 1 folder.
+        /// </summary>
+        public static string Secure1FolderText {
+            get {
+                return ResourceManager.GetString("Secure1FolderText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose Free.
+        /// </summary>
+        public static string ChooseFreeText {
+            get {
+                return ResourceManager.GetString("ChooseFreeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Most popular.
+        /// </summary>
+        public static string MostPopularText2 {
+            get {
+                return ResourceManager.GetString("MostPopularText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Best for private individuals..
+        /// </summary>
+        public static string BestForPrivateIndividualsText {
+            get {
+                return ResourceManager.GetString("BestForPrivateIndividualsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to or yearly with 20% discount.
+        /// </summary>
+        public static string OrYearlyWith20DiscountText {
+            get {
+                return ResourceManager.GetString("OrYearlyWith20DiscountText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unlimited AES-256 encryption.
+        /// </summary>
+        public static string UnlimitedAES256EncryptionText2 {
+            get {
+                return ResourceManager.GetString("UnlimitedAES256EncryptionText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Secure Vault and backup.
+        /// </summary>
+        public static string SecureVaultAndBackupText {
+            get {
+                return ResourceManager.GetString("SecureVaultAndBackupText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password Manager Secured Messenger.
+        /// </summary>
+        public static string PasswordManagerSecuredMessengerText {
+            get {
+                return ResourceManager.GetString("PasswordManagerSecuredMessengerText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Priority support.
+        /// </summary>
+        public static string PrioritySupportText {
+            get {
+                return ResourceManager.GetString("PrioritySupportText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose Premium.
+        /// </summary>
+        public static string ChoosePremiumText {
+            get {
+                return ResourceManager.GetString("ChoosePremiumText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to For organizations and small teams..
+        /// </summary>
+        public static string ForOrganizationsAndSmallTeamsText {
+            get {
+                return ResourceManager.GetString("ForOrganizationsAndSmallTeamsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to monthly or yearly with 20% discount.
+        /// </summary>
+        public static string MonthlyOrYearlyWith20DiscountText {
+            get {
+                return ResourceManager.GetString("MonthlyOrYearlyWith20DiscountText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /user/month.
+        /// </summary>
+        public static string UserMonthText {
+            get {
+                return ResourceManager.GetString("UserMonthText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Everything in Premium.
+        /// </summary>
+        public static string EverythingInPremiumText {
+            get {
+                return ResourceManager.GetString("EverythingInPremiumText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to User and group management.
+        /// </summary>
+        public static string UserAndGroupManagementText {
+            get {
+                return ResourceManager.GetString("UserAndGroupManagementText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Master key recovery.
+        /// </summary>
+        public static string MasterKeyRecoveryText2 {
+            get {
+                return ResourceManager.GetString("MasterKeyRecoveryText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Audit log and admin controls.
+        /// </summary>
+        public static string AuditLogAndAdminControlsText {
+            get {
+                return ResourceManager.GetString("AuditLogAndAdminControlsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Priority support.
+        /// </summary>
+        public static string PrioritySupportText2 {
+            get {
+                return ResourceManager.GetString("PrioritySupportText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose Business.
+        /// </summary>
+        public static string ChooseBusinessText {
+            get {
+                return ResourceManager.GetString("ChooseBusinessText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Continue securely.
+        /// </summary>
+        public static string ContinueSecurelyText {
+            get {
+                return ResourceManager.GetString("ContinueSecurelyText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use your email to create a verified AxCrypt ID, or sign in with an existing account before checkout..
+        /// </summary>
+        public static string UseYourEmailToCreateAVerifiedAxCryptIDOrSignInWithAnExistingAccountBeforeCheckoutText {
+            get {
+                return ResourceManager.GetString("UseYourEmailToCreateAVerifiedAxCryptIDOrSignInWithAnExistingAccountBeforeCheckoutText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email address.
+        /// </summary>
+        public static string EmailAddressText {
+            get {
+                return ResourceManager.GetString("EmailAddressText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Create account.
+        /// </summary>
+        public static string CreateAccountText {
+            get {
+                return ResourceManager.GetString("CreateAccountText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sign in.
+        /// </summary>
+        public static string SignInText {
+            get {
+                return ResourceManager.GetString("SignInText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Existing AxCrypt ID.
+        /// </summary>
+        public static string ExistingAxCryptIDText {
+            get {
+                return ResourceManager.GetString("ExistingAxCryptIDText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sign in to continue.
+        /// </summary>
+        public static string SignInToContinueText2 {
+            get {
+                return ResourceManager.GetString("SignInToContinueText2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to After sign in, your selected plan is loaded into the purchase view for your verified account. Credentials are posted through the existing MVC login action. Subscription activation still requires the server-side verified account flow..
+        /// </summary>
+        public static string AfterSignInYourSelectedPlanIsLoadedIntoThePurchaseViewForYourVerifiedAccountCredentialsArePostedThroughTheExistingMVCLoginActionSubscriptionActivationStillRequiresTheServerSideVerifiedAccountFlowText {
+            get {
+                return ResourceManager.GetString("AfterSignInYourSelectedPlanIsLoadedIntoThePurchaseViewForYourVerifiedAccountCredentialsArePostedThroughTheExistingMVCLoginActionSubscriptionActivationStillRequiresTheServerSideVerifiedAccountFlowText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sign in and continue.
+        /// </summary>
+        public static string SignInAndContinueText {
+            get {
+                return ResourceManager.GetString("SignInAndContinueText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Order summary.
+        /// </summary>
+        public static string OrderSummaryText {
+            get {
+                return ResourceManager.GetString("OrderSummaryText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Review before secure checkout.
+        /// </summary>
+        public static string ReviewBeforeSecureCheckoutText {
+            get {
+                return ResourceManager.GetString("ReviewBeforeSecureCheckoutText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Have a discount code?.
+        /// </summary>
+        public static string HaveADiscountCodeText {
+            get {
+                return ResourceManager.GetString("HaveADiscountCodeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &amp; your card is charged only after the trial ends.
+        /// </summary>
+        public static string YourCardIsChargedOnlyAfterTheTrialEndsText {
+            get {
+                return ResourceManager.GetString("YourCardIsChargedOnlyAfterTheTrialEndsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Apply.
+        /// </summary>
+        public static string ApplyText {
+            get {
+                return ResourceManager.GetString("ApplyText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Subtotal.
+        /// </summary>
+        public static string SubtotalText {
+            get {
+                return ResourceManager.GetString("SubtotalText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yearly discount.
+        /// </summary>
+        public static string YearlyDiscountText {
+            get {
+                return ResourceManager.GetString("YearlyDiscountText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to VAT.
+        /// </summary>
+        public static string VATText {
+            get {
+                return ResourceManager.GetString("VATText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Due today.
+        /// </summary>
+        public static string DueTodayText {
+            get {
+                return ResourceManager.GetString("DueTodayText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I accept AxCrypt&apos;s.
+        /// </summary>
+        public static string IAcceptAxCryptSText {
+            get {
+                return ResourceManager.GetString("IAcceptAxCryptSText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start your free trial with.
+        /// </summary>
+        public static string StartYourFreeTrialWithText {
+            get {
+                return ResourceManager.GetString("StartYourFreeTrialWithText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pay.
+        /// </summary>
+        public static string PayText {
+            get {
+                return ResourceManager.GetString("PayText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pal.
+        /// </summary>
+        public static string PalText {
+            get {
+                return ResourceManager.GetString("PalText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose your AxCrypt plan.
+        /// </summary>
+        public static string ChooseYourAxCryptPlanText {
+            get {
+                return ResourceManager.GetString("ChooseYourAxCryptPlanText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Credentials are posted through the existing MVC login action. Subscription activation still requires the server-side verified account flow..
+        /// </summary>
+        public static string CredentialsVerifiedAccountFlowText {
+            get {
+                return ResourceManager.GetString("CredentialsVerifiedAccountFlowText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to EU businesses: enter your VAT registration number to purchase VAT-free..
+        /// </summary>
+        public static string EUBusinessesEnterYourVATRegistrationNumberToPurchaseVATFreeText {
+            get {
+                return ResourceManager.GetString("EUBusinessesEnterYourVATRegistrationNumberToPurchaseVATFreeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File security from &lt;strong&gt;Sweden&lt;/strong&gt;.
+        /// </summary>
+        public static string FileSecurityFromSwedenText {
+            get {
+                return ResourceManager.GetString("FileSecurityFromSwedenText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mix in a number and symbol:Tree$Cloud9.
+        /// </summary>
+        public static string MixInANumberAndSymbolTreeCloud9Text {
+            get {
+                return ResourceManager.GetString("MixInANumberAndSymbolTreeCloud9Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Have a discount code?.
+        /// </summary>
+        public static string HaveDiscountCodeText {
+            get {
+                return ResourceManager.GetString("HaveDiscountCodeText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I accept AxCrypt&apos;s.
+        /// </summary>
+        public static string IAcceptAxCryptText {
+            get {
+                return ResourceManager.GetString("IAcceptAxCryptText", resourceCulture);
             }
         }
     }

@@ -23,5 +23,8 @@ namespace AxCrypt.Api.Model.PrivateSubscription
 
         [JsonProperty("offerused")]
         public string OfferUsed { get; set; }
+
+        [JsonProperty("lastsubscription")]
+        public string LastSubscription { get; set; }
     }
 }

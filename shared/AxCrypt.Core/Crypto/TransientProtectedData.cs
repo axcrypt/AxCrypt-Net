@@ -129,7 +129,7 @@ public class TransientProtectedData
         }
         try
         {
-            value = Encoding.Unicode.GetString(bytes, 0, bytes.Length);
+            value = Encoding.UTF8.GetString(bytes, 0, bytes.Length);
         }
         catch
         {

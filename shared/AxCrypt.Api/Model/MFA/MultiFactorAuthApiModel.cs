@@ -30,6 +30,6 @@ namespace AxCrypt.Api.Model.MFA
         public string UserDevice { get; set; }
 
         [JsonProperty("rememberuntil")]
-        public DateTime? RememberUntil { get; set; }
+        public DateTime RememberUntil { get; set; }
     }
 }
